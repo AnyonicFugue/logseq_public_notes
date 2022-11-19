@@ -1,2 +1,4 @@
-- This is my homepage.
-- [[Test page]]
+- Here are my public notes in Logseq.
+- [[Mathematics]]
+- [[Physics]]
+-
