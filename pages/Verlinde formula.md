@@ -1,0 +1,3 @@
+- Essentially, the [[S-matrix]] determines the [[Fusion rules]].
+- Formula #card
+	- ((6371b6cf-724a-4782-aad3-2ca5f77c381e))

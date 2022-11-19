@@ -1,0 +1,8 @@
+- Definition
+	- ((636ca2e3-8e0c-4bbf-9901-9964401c07d5))
+		- ((636ca2f8-7130-45e2-abc4-1220ed351269))
+	- Direct sum of objects
+		- ((636ca361-54bc-4203-8329-d235ed1814e9))
+	- Direct sum of categories
+		- ((636ca397-e0e2-42d4-8e7d-89f1da820733))
+	-

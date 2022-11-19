@@ -1,0 +1,25 @@
+- Def
+	- Objects #card
+	  collapsed:: true
+		- Pairs $\left(a, \gamma_{-,}\right)$, where $a \in \mathcal{A}$, $\gamma_{-, a}:-\otimes a \Rightarrow a \otimes-: \mathcal{A} \rightarrow \mathcal{A}$ is a natural isomorphism (called a half-braiding) such that
+		  ((6376ef54-3370-4e8e-8b8b-31f66f878eb9))
+			- Particles carrying different braidings; Hexagon
+	- Morphisms #card
+	  collapsed:: true
+		- $f\in Hom_A(a,b)$ such that ((6376f089-48ca-44c2-8577-6aca91fcaba6))
+		-
+	- Tensor products, unitors, braidings are naturally induced.
+	-
+	- Is it 'the collection of all possible half-braidings of the objects'? #Problem
+		- If not, he should have said '**a** drinfeld center' rather than '**the** drinfeld center'.
+		- ((6376f533-10f8-4d2a-9437-0d43597d3bf8))
+			- It seems that the Drinfeld center is the 'maximal central structure'.
+- Example
+	- The [[Toric code]] is equivalent to $\mathfrak{Z}_1\left(\operatorname{Rep}\left(\mathbb{Z}_2\right)\right)$ and $\mathfrak{Z}_1\left(\operatorname{Vec}_{\mathbb Z_2}\right)$as braided fusion categories.
+	  collapsed:: true
+		-
+	- Prove that the Drinfeld center $\mathfrak Z_1( Vec)$ is equivalent to Vec as braided monoidal categories. #card
+		- First find the left and right unitors in Vec.
+		- [[Category]]
+			- In categories (Grp, Vec) there is no 'element of a group / vector space'. We must express everything by **Homs**. That is, elements are images of certain Homs.
+		- ((6376f23f-1e1d-44a4-ba13-da0f58abe912))

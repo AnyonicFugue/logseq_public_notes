@@ -1,0 +1,5 @@
+- Properties #card #TODO
+	- Symmetric
+	- Associative
+	- Time-reversal
+	- Simple unique dual

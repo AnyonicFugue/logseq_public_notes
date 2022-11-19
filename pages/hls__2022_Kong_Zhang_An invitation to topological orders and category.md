@@ -1,0 +1,999 @@
+file:: [2022_Kong_Zhang_An invitation to topological orders and category.pdf](zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf)
+file-path:: zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf
+
+- Note that a macroscopic description of a topological order is possible simply because the notion of a quantum phase is itself a macroscopic notion. Therefore, it is reasonable that the precise characterization of a quantum phase can be obtained by summarizing the complete1 set of ‘observables’ in the thermodynamic limit and in the long wave length limit
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: yellow
+  id:: 63686458-bb43-4ca5-b0f2-e499f6154b6c
+- We believe that the role played by topological orders in the study of quantum many-body physics is somewhat similar to that of the two-body problem in Newtonian mechanics and that of the Hydrogen atom in quantum mechanics.
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: yellow
+  id:: 636864d8-05a7-440a-8fb4-0aa262aa340d
+- it leads to a new approach towards the study of gapless quantum phases (
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: yellow
+  id:: 63686518-f1bb-44e9-9fe3-a36d3e68b9c8
+- Topological skeleton
+  hl-stamp:: 1667786105020
+  hl-page:: 6
+  ls-type:: annotation
+  id:: 63686577-51eb-4169-a076-c1561b5b5ba4
+  hl-color:: blue
+- examples 
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: blue
+  id:: 636865d5-fa00-4fd3-b5e4-760491a09c75
+- The topological skeleton is not enough to determine a gapless quantum phase, it has already provided sufficient amount of information to study certain types of questions that are irrelevant to the missing dat
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: red
+  id:: 636865ee-1259-4cbb-9aae-836f146a21d0
+  hl-stamp:: 1667786224717
+- Impact on the study of problems that are topics in the field of high energy physics
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 63686663-a0be-4c76-a689-e4cf37982a71
+  hl-stamp:: 1667786348944
+- [:span]
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 636866b4-a674-47ef-bc02-ec464e6209d0
+  hl-type:: area
+  hl-stamp:: 1667786420311
+- The new exotic phases of matter challenge us to find radically new mathematical language to characterize gapped quantum liquids.
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 63686777-c7eb-4f87-b83e-703f76ae06da
+- Recenlty, the new wave of applying higher category theory to the study of gapped quantum liquids is picking up momentum [
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: green
+  id:: 63686919-d1c8-41a8-b510-6f8b7290eb66
+  hl-stamp:: 1667787036432
+- gapped liquid4 quantum system
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: blue
+  id:: 63686a4f-62d8-44d2-b18f-884610ab9e99
+- lattice model
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: blue
+  id:: 63686a72-f1c3-4fbd-ae71-150525dc8aaf
+- To define the equivalence relation precisely is a very subtle proble
+  ls-type:: annotation
+  hl-page:: 12
+  hl-color:: red
+  id:: 63686b20-ec87-494c-a7d5-0f70f513cbc9
+  hl-stamp:: 1667787554593
+- [:span]
+  ls-type:: annotation
+  hl-page:: 12
+  hl-color:: red
+  id:: 63686b76-be61-478b-a8e2-378c8c78153d
+  hl-type:: area
+  hl-stamp:: 1667787637795
+- a two-layer system without coupling between two layers
+  ls-type:: annotation
+  hl-page:: 12
+  hl-color:: blue
+  id:: 63686bef-e72d-4668-a329-1b31e7c03a64
+  hl-stamp:: 1667787761700
+- [:span]
+  ls-type:: annotation
+  hl-page:: 12
+  hl-color:: blue
+  id:: 63686bf9-84c5-46ac-82c7-2c42a527dea1
+  hl-type:: area
+  hl-stamp:: 1667787768754
+- But it is wrong to regard the notion of a phase as a global notion (or an observable) defined on a closed manifold.
+  hl-stamp:: 1667789774331
+  hl-page:: 13
+  ls-type:: annotation
+  id:: 636873cb-ee64-4bbd-a441-232fbe3ba901
+  hl-color:: red
+- The only reason we can regard the same FQH state on topological surfaces with arbitrary genus as the same FQH phase is because they are the same phase on each open 2-disk covering the surfaces 
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 6368744a-46de-49db-9fbf-1a8c5e022dab
+  hl-stamp:: 1667789900717
+- [:span]
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 6368745a-1538-49d1-9416-c6c6a7f6a17b
+  hl-type:: area
+  hl-stamp:: 1667789913889
+- An nd quantum phase is called anomaly-free if it can be realized by an nd lattice model with only local interactions.
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: blue
+  id:: 636874d3-031a-4841-a85e-08536a4f1e1e
+  hl-stamp:: 1667790037534
+- n nd anomalous quantum phase can always be realized by a boundary of a 1dimension-higher lat
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: blue
+  id:: 63687518-d04b-404e-b1b5-66328197fdf3
+- An nd quantum liquid An can always be realized as a boundary of an anomaly-free n+1d quantum liquid Cn+1. Moreover, such Cn+1 is unique and is called the bulk of An and denoted by Bulk(An).
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: purple
+  id:: 63687565-1cd4-45e5-b201-7697b5d72665
+- gravitational anomaly
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: blue
+  id:: 6368758a-5f12-444c-9247-caaabf259dd6
+  hl-stamp:: 1667790219825
+- There is no precise definition of a gapless quantum liquid
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: red
+  id:: 636875bf-597b-4b49-9d83-1c1ebaf7fa03
+  hl-stamp:: 1667790272839
+- Roughly speaking, a gapless quantum liquid is a gapless quantum phase that is ‘soft’ enough so that it does not rigidly depend on the local spacetime geometry. Moreover, the unique bulk principle is proposed as a defining property of a quantum liquid.
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: blue
+  id:: 636875c8-8ed5-4968-bda6-023612f46a42
+  hl-stamp:: 1667790281610
+- A defect itself can be viewed as a lower-dimensional lattice model embedded into a higherdimensional lattice model.
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: yellow
+  id:: 63687640-14d2-4c02-9c1f-9105886be788
+  hl-stamp:: 1667790401802
+- he notion of a topological skeleton is often identified with that of a topological order (up to invertible topological orders). This point of view can sometimes cause confusion (
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: red
+  id:: 63687681-57f8-4413-8787-b732f14f87d0
+  hl-stamp:: 1667790467633
+- The proposed new kind of order was named “topological order” by Wen [Wen90] because its low energy effective theory is a [[topological quantum field theory]]
+  hl-stamp:: 1667790650319
+  hl-page:: 16
+  ls-type:: annotation
+  id:: 63687736-6cdf-4c0d-8207-b7f65aeacdac
+  hl-color:: yellow
+- Toric code model
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: yellow
+  id:: 6368782c-d09f-467b-a891-689e3f35f66a
+- The closed strings in them belong to different Z2-homology classes of a torus. Recall that H1(torus; Z2) ≃ Z2 ⊕ Z2
+  ls-type:: annotation
+  hl-page:: 18
+  hl-color:: purple
+  id:: 6368789c-5189-4377-a4a7-55516a81ee18
+  hl-stamp:: 1667791129001
+- The ground states are obtained from closed string condensation; the excitations are the end points of open strings
+  ls-type:: annotation
+  hl-page:: 18
+  hl-color:: green
+  id:: 636878d9-84fc-418a-a61c-90845774d77f
+  hl-stamp:: 1667791124894
+	- How would it behave if I write comments here?
+- Intuitively, the local term δHξ traps an excitation located at the site ξ
+  ls-type:: annotation
+  hl-page:: 19
+  hl-color:: green
+  id:: 636879c1-c63b-41b4-ad96-beabb3db76e9
+  hl-stamp:: 1667791348807
+- the ground state of the new Hamiltonian (H + δHξ) is different from that of the original Hamiltonian H in general
+  ls-type:: annotation
+  hl-page:: 18
+  hl-color:: yellow
+  id:: 636879eb-1696-437d-ae76-c54ff880f8d0
+  hl-stamp:: 1667791341345
+- A topological excitation (or a particle-like topological defect) is a subspace of the total Hilbert space that is invariant under the action of local operators.
+  ls-type:: annotation
+  hl-page:: 19
+  hl-color:: blue
+  id:: 63687a48-cc4d-4088-9060-9918b21e857e
+  hl-stamp:: 1667791433217
+- In the first approach, the ‘local operators’ were explicitly constructed in the quantum double models [Kit03] and19 the Levin-Wen models [LW05, KK12, Kon13] and were shown to form a Hopf-like algebra.
+  ls-type:: annotation
+  hl-page:: 19
+  hl-color:: blue
+  id:: 63687af7-43ca-4032-849e-661692511fb4
+- In the second approach, the ‘local operator algebras’ are replaced by the nets of ‘local operator algebras’[Haa96, KZ22]. Then a topological excitation can be defined by a (superselection) sector of this net[KZ22].
+  ls-type:: annotation
+  hl-page:: 20
+  hl-color:: blue
+  id:: 63687b11-001c-4dee-baa5-f37127a4ed6d
+- When the dimension of C is higher than one, there are also higher-dimensional topological defects, so the category C is only a **part** of the topological skeleton.
+  ls-type:: annotation
+  hl-page:: 24
+  hl-color:: green
+  id:: 636c9c65-1269-46ac-9e06-b607d0bba915
+- [:span]
+  ls-type:: annotation
+  hl-page:: 26
+  hl-color:: blue
+  id:: 636ca0b0-663c-4a6d-a73d-132541c72d7d
+  hl-type:: area
+  hl-stamp:: 1668063405964
+- [:span]
+  ls-type:: annotation
+  hl-page:: 26
+  hl-color:: blue
+  id:: 636ca0e8-2319-486b-99ab-44be23202cff
+  hl-type:: area
+  hl-stamp:: 1668063463227
+- [:span]
+  ls-type:: annotation
+  hl-page:: 28
+  hl-color:: blue
+  id:: 636ca2e3-8e0c-4bbf-9901-9964401c07d5
+  hl-type:: area
+  hl-stamp:: 1668063970019
+- Given a topological order C, it is expected that the category C of particle-like topological defects is C-linear, because the instantons (morphisms) are microscopically realized by linear operators.
+  ls-type:: annotation
+  hl-page:: 28
+  hl-color:: green
+  id:: 636ca2f8-7130-45e2-abc4-1220ed351269
+- [:span]
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: blue
+  id:: 636ca361-54bc-4203-8329-d235ed1814e9
+  hl-type:: area
+  hl-stamp:: 1668064093625
+- [:span]
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: blue
+  id:: 636ca397-e0e2-42d4-8e7d-89f1da820733
+  hl-type:: area
+  hl-stamp:: 1668064150575
+- [:span]
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: blue
+  id:: 636ca3f1-0eb2-4ab9-b618-e430f99c3d90
+  hl-type:: area
+  hl-stamp:: 1668064240030
+- [:span]
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: blue
+  id:: 636ca710-55ab-45a0-aa16-0274e4ed00e4
+  hl-type:: area
+  hl-stamp:: 1668065035829
+- A [[Topological excitation]] is a module over the local operator algebra.
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: purple
+  id:: 636ca87c-afe8-4cef-ad11-81c8a217dea7
+- In the following we directly give the local operator algebra [Kit03] of the toric code model and show its modules coincide with topological excitations 1, e, m, f. However, we do not know a general principle to derive the local operator algebra from the Hamiltonian。
+  hl-page:: 33
+  ls-type:: annotation
+  id:: 636ca9a0-3d78-4d74-bf19-0504b917f271
+  hl-color:: red
+- [:span]
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: yellow
+  id:: 636caaa6-7f7c-4d23-ae6d-9315b924fe8c
+  hl-type:: area
+  hl-stamp:: 1668065957645
+- In Figure 9, we say that the operator σ1 z is local, but why does it not appear in the local operator algebra Aξ? This is because a minimal local region (i.e., a site ξ) does not contain the edge 1. If we choose a larger local region R, for example that in Figure 10, the local operator algebra AR should be generated by all Av, Bp, σz, σx operators contained in R
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: yellow
+  id:: 636df841-1a73-490b-b95f-0a4071066f96
+- For different regions, the local operator algebras may not be isomorphic, but one can prove that their modules are the same: there are always 4 different simple modules denoted by 1, e, m, f labeled by the eigenvalues of the product of all Av operators and the product of all Bp operators.
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: purple
+  id:: 636df84e-113e-4681-8261-8c549b217a8d
+- If LModA(Vec) is equivalent to LModB(Vec) for two finite-dimensional C-algebras A and B, we say that A and B are Morita equivalent.
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: blue
+  id:: 636df950-4025-47cd-8d13-1862db33b9e2
+- In a general lattice model, the local operator algebras in different length scales may not be Morita equivalent. 
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: red
+  id:: 636df97b-42a9-44c3-91b2-e22aa340f793
+- A local trap at a given site i can also be viewed as defining a ‘0d boundary condition’ of the 2d model at the site i. Therefore, the category C of particle-like topological defects can also be viewed as that of ‘0d boundary conditions’ at a given site i, which is denoted by Ci.
+  hl-page:: 35
+  ls-type:: annotation
+  id:: 636dfa7f-9f43-4049-bcac-0ab2a9d8670a
+  hl-color:: green
+- [:span]
+  ls-type:: annotation
+  hl-page:: 35
+  hl-color:: blue
+  id:: 636dfac4-b7e4-415e-878e-fdeac5efcd9d
+  hl-type:: area
+  hl-stamp:: 1668152002338
+- The category of particle-like topological defects of an nd topological order is also a finite semisimple category.
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: purple
+  id:: 636dfb09-421f-4f06-9084-b2e4bb8af201
+- [:span]
+  ls-type:: annotation
+  hl-page:: 39
+  hl-color:: blue
+  id:: 636dff04-0f30-41b4-bb8a-18ae5952d6c5
+  hl-type:: area
+  hl-stamp:: 1668153090725
+- In other words, there are infinitely many fusion products parameterized by the elements in the configuration space {(ξ, η) ∈ R2 | ξ , η}. An adiabatic move of these two defects from (ξ, η) to (ξ′, η′) along a path γ in the configuration space defines an isomorphism between two associated subspaces of the total Hilbert space.
+  ls-type:: annotation
+  hl-page:: 39
+  hl-color:: green
+  id:: 636dfff3-d944-4c0e-a581-250e1c5ed5cd
+- [:span]
+  ls-type:: annotation
+  hl-page:: 39
+  hl-color:: purple
+  id:: 636e0028-6f43-42ef-b78c-41ff562460e6
+  hl-type:: area
+  hl-stamp:: 1668153369939
+- In 2d space, these fusion functors can be reduced to two compatible fusion functors, or equivalently, a single fusion functor ⊗ equipped with a braiding structure
+  ls-type:: annotation
+  hl-page:: 40
+  hl-color:: purple
+  id:: 636e00c4-fb04-4705-9403-1ca2727014dd
+- [:span]
+  ls-type:: annotation
+  hl-page:: 41
+  hl-color:: yellow
+  id:: 636e07c8-8de8-40a2-9ace-ad0e0248d95d
+  hl-type:: area
+  hl-stamp:: 1668155334334
+- [:span]
+  ls-type:: annotation
+  hl-page:: 41
+  hl-color:: yellow
+  id:: 636e0904-5e2d-47dc-a9ed-176adef844bd
+  hl-type:: area
+  hl-stamp:: 1668155650808
+- Microscopically, the presence of spatial fusion anomalies is due to the existence of ‘non-local’ instantons in HomC(x ⊗ y, x′ ⊗ y′)
+  ls-type:: annotation
+  hl-page:: 41
+  hl-color:: green
+  id:: 636e0924-dfa2-40a2-a348-32df5e9a8646
+- [:span]
+  ls-type:: annotation
+  hl-page:: 42
+  hl-color:: yellow
+  id:: 636e096d-3c08-4772-92f3-1cfd32b60dc9
+  hl-type:: area
+  hl-stamp:: 1668155756289
+- [:span]
+  ls-type:: annotation
+  hl-page:: 42
+  hl-color:: blue
+  id:: 636e099b-9292-4c5c-8306-d35bc38140ab
+  hl-type:: area
+  hl-stamp:: 1668155802041
+- [:span]
+  ls-type:: annotation
+  hl-page:: 43
+  hl-color:: blue
+  id:: 636e09ab-594c-4119-bf5e-b3ee98fcfa8a
+  hl-type:: area
+  hl-stamp:: 1668155818374
+- A unitary category is automatically semisimple.
+  ls-type:: annotation
+  hl-page:: 43
+  hl-color:: purple
+  id:: 636e0a87-cde0-4646-8c51-257c72b79d67
+- A morphism f in a unitary category is called unitary if it is an isomorphism and satisfies $$f^{-1}=f^\dag$$
+  hl-page:: 43
+  ls-type:: annotation
+  id:: 636e0aab-bb4f-4b88-a208-31ebf372cbfa
+  hl-color:: blue
+- [:span]
+  ls-type:: annotation
+  hl-page:: 45
+  hl-color:: blue
+  id:: 636e0b2a-6b6f-431d-aded-337e35071939
+  hl-type:: area
+  hl-stamp:: 1668156200761
+- [:span]
+  ls-type:: annotation
+  hl-page:: 46
+  hl-color:: blue
+  id:: 636e0b34-d6c6-4bda-b28e-001165a6ded3
+  hl-type:: area
+  hl-stamp:: 1668156210780
+- [:span]
+  ls-type:: annotation
+  hl-page:: 48
+  hl-color:: blue
+  id:: 636e0ccb-b824-4c0a-9259-d9c07fdeace1
+  hl-type:: area
+  hl-stamp:: 1668156618136
+- the multiplication is given by the tensor product of C. Then its structure constants are the fusion rules of C.
+  ls-type:: annotation
+  hl-page:: 49
+  hl-color:: blue
+  id:: 636e0d2a-d931-4220-90a4-a37c3f69e41e
+- The Grothendieck ring does not determine the multi-fusion category.
+  ls-type:: annotation
+  hl-page:: 49
+  hl-color:: red
+  id:: 636e0d3b-65a3-4d18-b098-ae64e774612c
+- [:span]
+  ls-type:: annotation
+  hl-page:: 49
+  hl-color:: blue
+  id:: 636e0f68-45db-4421-b939-aabd9d868c22
+  hl-type:: area
+  hl-stamp:: 1668157313913
+- [:span]
+  ls-type:: annotation
+  hl-page:: 49
+  hl-color:: red
+  id:: 636e0f7e-324b-43b0-a109-04255bcbe80a
+  hl-type:: area
+  hl-stamp:: 1668157310133
+- [:span]
+  ls-type:: annotation
+  hl-page:: 49
+  hl-color:: blue
+  id:: 636e0f8f-03e1-4e5b-a210-2ab74274c700
+  hl-type:: area
+  hl-stamp:: 1668157327486
+- [:span]
+  ls-type:: annotation
+  hl-page:: 49
+  hl-color:: blue
+  id:: 636e0fb5-659c-4450-bd59-4fa32428be26
+  hl-type:: area
+  hl-stamp:: 1668157365493
+- [:span]
+  ls-type:: annotation
+  hl-page:: 50
+  hl-color:: blue
+  id:: 636e1042-cd00-4384-bf8a-5a0e9f6e53b2
+  hl-type:: area
+  hl-stamp:: 1668157506466
+- [:span]
+  ls-type:: annotation
+  hl-page:: 50
+  hl-color:: blue
+  id:: 636e108a-ae00-48f7-aa55-9caec6164b7f
+  hl-type:: area
+  hl-stamp:: 1668157578451
+- A pivotal structure on a fusion category is called spherical if the left and right quantum dimensions are equal
+  ls-type:: annotation
+  hl-page:: 50
+  hl-color:: blue
+  id:: 636e10a5-3e7c-4080-98b1-adf66fde5ae2
+- A unitary fusion category admits a unique pivotal structure
+  ls-type:: annotation
+  hl-page:: 50
+  hl-color:: purple
+  id:: 636e10c0-60e6-409b-af16-a7e27da1fae1
+  hl-stamp:: 1668157634163
+- [:span]
+  ls-type:: annotation
+  hl-page:: 50
+  hl-color:: purple
+  id:: 636e10cc-5bfa-4ac8-8eef-3e9475663434
+  hl-type:: area
+  hl-stamp:: 1668157644582
+- [:span]
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: blue
+  id:: 63719ab5-7a5c-4b72-a079-dcad37b6053a
+  hl-type:: area
+  hl-stamp:: 1668389556613
+- [:span]
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: blue
+  id:: 63719b2f-ac3d-49d5-9b39-f2c2dfb70861
+  hl-type:: area
+  hl-stamp:: 1668389679624
+- [:span]
+  ls-type:: annotation
+  hl-page:: 51
+  hl-color:: blue
+  id:: 63719d3c-6026-4c67-ab32-d7b4211a7b4b
+  hl-type:: area
+  hl-stamp:: 1668390204188
+- The Frobenius-Perron dimension also defines a ring homomorphism FPdim : Gr(C) → R. Moreover, it is the unique ring homomorphism Gr(C) → C that takes non-negative values (indeed, positive values) on simple object
+  ls-type:: annotation
+  hl-page:: 51
+  hl-color:: purple
+  id:: 63719d59-3c84-4cde-86d5-1889cdcbd6a9
+  hl-stamp:: 1668390234780
+- [:span]
+  ls-type:: annotation
+  hl-page:: 54
+  hl-color:: blue
+  id:: 63719fa5-647c-47a0-bebe-73cb8a261a7d
+  hl-type:: area
+  hl-stamp:: 1668390821120
+- we say that the dagger structure is compatible with the braiding if cx,y is unitary for every x, y ∈ C. A unitary braided monoidal category is a C-linear braided monoidal category equipped with a compatible unitary structure.
+  ls-type:: annotation
+  hl-page:: 54
+  hl-color:: blue
+  id:: 63719ffe-57f9-41a2-87ed-b12d5f4cd7fb
+- [:span]
+  ls-type:: annotation
+  hl-page:: 55
+  hl-color:: yellow
+  id:: 6371a0ef-d363-4689-8755-ec3463edf9ea
+  hl-type:: area
+  hl-stamp:: 1668391150961
+- [:span]
+  ls-type:: annotation
+  hl-page:: 55
+  hl-color:: purple
+  id:: 6371a0fd-5b8c-4f80-832b-d4ae39f95d6d
+  hl-type:: area
+  hl-stamp:: 1668391165152
+- [:span]
+  ls-type:: annotation
+  hl-page:: 56
+  hl-color:: yellow
+  id:: 6371a32a-c4f5-4a03-8818-fee1cc406e72
+  hl-type:: area
+  hl-stamp:: 1668391721939
+- [:span]
+  ls-type:: annotation
+  hl-page:: 56
+  hl-color:: yellow
+  id:: 6371a387-c94a-48d1-a914-27aaaac3765d
+  hl-type:: area
+  hl-stamp:: 1668391814958
+- [:span]
+  ls-type:: annotation
+  hl-page:: 56
+  hl-color:: yellow
+  id:: 6371a394-fa3e-40b8-a95d-ca3756fe209c
+  hl-type:: area
+  hl-stamp:: 1668391827820
+- [:span]
+  ls-type:: annotation
+  hl-page:: 56
+  hl-color:: blue
+  id:: 6371a6c3-8412-47a9-bb9a-ded01f435337
+  hl-type:: area
+  hl-stamp:: 1668392643419
+- [:span]
+  ls-type:: annotation
+  hl-page:: 57
+  hl-color:: blue
+  id:: 6371a71d-11b9-4ef3-952e-46e7c9da6558
+  hl-type:: area
+  hl-stamp:: 1668392733162
+- [:span]
+  ls-type:: annotation
+  hl-page:: 58
+  hl-color:: yellow
+  id:: 6371a8f3-e2d5-4eb9-91e3-e0342be2efcc
+  hl-type:: area
+  hl-stamp:: 1668393201765
+- A topological order is anomaly-free if and only if all topological defects of codimension 2 and higher are able to detect themselves via braidings.
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: purple
+  id:: 6371b322-77eb-463b-821c-877171f1fefd
+  hl-stamp:: 1668395813046
+- [:span]
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: blue
+  id:: 6371b3e9-b2e7-4c2b-9bb8-1ea420f8c7bd
+  hl-type:: area
+  hl-stamp:: 1668396009263
+- The particle-like [[Topological excitation]]s of an [[Anomaly]] -free stable 2d topological order C form a unitary modular tensor category C
+  hl-stamp:: 1668396283896
+  hl-page:: 60
+  ls-type:: annotation
+  id:: 6371b4f9-93c1-4633-b305-2ad44d9387e2
+  hl-color:: purple
+- This unitary braided fusion category is an observable defined only on a disk. For example, the braiding of topological defects are not well-defined on a sphere or other closed surfaces.
+  ls-type:: annotation
+  hl-page:: 60
+  hl-color:: red
+  id:: 6371b5f1-6e22-4e33-8345-e203fd463882
+  hl-stamp:: 1668396531159
+- [:span]
+  ls-type:: annotation
+  hl-page:: 60
+  hl-color:: purple
+  id:: 6371b68b-3d7b-424d-9f40-4707bb141421
+  hl-type:: area
+  hl-stamp:: 1668396683331
+- [:span]
+  ls-type:: annotation
+  hl-page:: 61
+  hl-color:: purple
+  id:: 6371b6ba-1e92-46ab-be58-944e129bcf13
+  hl-type:: area
+  hl-stamp:: 1668396730357
+- [:span]
+  ls-type:: annotation
+  hl-page:: 61
+  hl-color:: purple
+  id:: 6371b6cf-724a-4782-aad3-2ca5f77c381e
+  hl-type:: area
+  hl-stamp:: 1668396750701
+- [:span]
+  ls-type:: annotation
+  hl-page:: 61
+  hl-color:: blue
+  id:: 6371b761-a021-4e2c-a5f1-4ba04ce3e37e
+  hl-type:: area
+  hl-stamp:: 1668396897374
+- [:span]
+  ls-type:: annotation
+  hl-page:: 57
+  hl-color:: blue
+  id:: 6371b81c-7111-4bcf-81b9-70756dd7a00f
+  hl-type:: area
+  hl-stamp:: 1668397084356
+- [:span]
+  ls-type:: annotation
+  hl-page:: 61
+  hl-color:: purple
+  id:: 6371b8b1-1b01-4df4-8f75-dcd7f9a7a176
+  hl-type:: area
+  hl-stamp:: 1668397233460
+- [:span]
+  ls-type:: annotation
+  hl-page:: 61
+  hl-color:: purple
+  id:: 6371b8c2-7cd4-40c7-b19b-b3eb81aa43ae
+  hl-type:: area
+  hl-stamp:: 1668397249847
+- [:span]
+  ls-type:: annotation
+  hl-page:: 61
+  hl-color:: purple
+  id:: 6371b956-1db3-4b57-b5d2-13bbaf0ba620
+  hl-type:: area
+  hl-stamp:: 1668397397948
+- If we put an [[Anomaly]] -free 2d topological order C on a [[Torus]] , the automorphims of the torus induce transformations of the ground state subspace. This defines a [[projective representation]] of the [[mapping class group]] of the torus, which is isomorphic to the modular group SL(2, Z). This representation is isomorphic to the representation (3.5.1) associated to C and was used to characterize 2d topological orders [Wen90]. These modular representations can also be generalized to higher dimensions.
+  hl-page:: 61
+  ls-type:: annotation
+  id:: 6371bad0-7623-4962-ab25-284cd68ea2e2
+  hl-color:: purple
+- Modular tensor categories are not determined by S and T matrices
+  ls-type:: annotation
+  hl-page:: 61
+  hl-color:: red
+  id:: 6371bb70-cf32-459d-a497-3a6ea2a07887
+  hl-stamp:: 1668397937896
+- [:span]
+  ls-type:: annotation
+  hl-page:: 62
+  hl-color:: blue
+  id:: 63743f9b-4b56-42b0-8ab0-1dd6a0884574
+  hl-type:: area
+  hl-stamp:: 1668562841896
+- Physically, the Deligne tensor product corresponds to the stacking of 2d topological orders 
+  ls-type:: annotation
+  hl-page:: 63
+  hl-color:: green
+  id:: 6374404a-a822-440b-bbeb-af72c3fb9843
+- [:span]
+  ls-type:: annotation
+  hl-page:: 63
+  hl-color:: blue
+  id:: 6374412e-afc1-4336-b9a7-512c8faf35f6
+  hl-type:: area
+  hl-stamp:: 1668563246295
+- it is possible that C ≃ C as braided monoidal categories but C is not symmetric. The modular tensor category TC is such an example.
+  ls-type:: annotation
+  hl-page:: 63
+  hl-color:: red
+  id:: 63744151-8b20-457e-bad9-68a4b50f626a
+  hl-stamp:: 1668563284454
+- [:span]
+  ls-type:: annotation
+  hl-page:: 63
+  hl-color:: yellow
+  id:: 637441ed-94ab-42c2-b10d-2e7d41c4c047
+  hl-type:: area
+  hl-stamp:: 1668563437399
+- Physically, C corresponds to the time-reversal of a 2d topological order
+  ls-type:: annotation
+  hl-page:: 63
+  hl-color:: green
+  id:: 63744224-6f7c-4ae0-9d8c-64f7d4af6968
+  hl-stamp:: 1668563494183
+- [:span]
+  ls-type:: annotation
+  hl-page:: 64
+  hl-color:: blue
+  id:: 637442bc-45cf-4c77-b23f-2734fbee7c8e
+  hl-type:: area
+  hl-stamp:: 1668563643827
+- [:span]
+  ls-type:: annotation
+  hl-page:: 64
+  hl-color:: purple
+  id:: 63744374-4dd7-4462-add5-bf48376f25f7
+  hl-type:: area
+  hl-stamp:: 1668563828218
+- Quantum double category of a finite group
+  ls-type:: annotation
+  hl-page:: 65
+  hl-color:: blue
+  id:: 63744ba1-f824-4527-870b-0bd482b3bacc
+  hl-stamp:: 1668565925298
+- Ising type categories
+  ls-type:: annotation
+  hl-page:: 66
+  hl-color:: blue
+  id:: 63744c99-ad88-49b3-961c-f37d7b3aca41
+- [:span]
+  ls-type:: annotation
+  hl-page:: 67
+  hl-color:: purple
+  id:: 63744cc7-0cd4-48ac-9efc-987e92a2b210
+  hl-type:: area
+  hl-stamp:: 1668566214947
+- [:span]
+  ls-type:: annotation
+  hl-page:: 68
+  hl-color:: purple
+  id:: 63745ee5-d4fe-4d02-a3b8-3582f373a546
+  hl-type:: area
+  hl-stamp:: 1668570852746
+- [:span]
+  ls-type:: annotation
+  hl-page:: 68
+  hl-color:: purple
+  id:: 63758a42-5bb4-4254-93c4-66cd7abf562f
+  hl-type:: area
+  hl-stamp:: 1668647487948
+- [:span]
+  ls-type:: annotation
+  hl-page:: 68
+  hl-color:: purple
+  id:: 63758b5a-8776-4206-979e-96075d0182c0
+  hl-type:: area
+  hl-stamp:: 1668647770167
+- [:span]
+  ls-type:: annotation
+  hl-page:: 69
+  hl-color:: blue
+  id:: 63758e18-557b-4c6d-9137-02eaff42e1d2
+  hl-type:: area
+  hl-stamp:: 1668648471695
+- [:span]
+  ls-type:: annotation
+  hl-page:: 69
+  hl-color:: blue
+  id:: 63758e5a-b10b-466b-b999-f1b71dbe26f9
+  hl-type:: area
+  hl-stamp:: 1668648538612
+- Conversely, two pointed braided fusion categories are equivalent if and only if their associated pre-metric groups are isomorphic
+  ls-type:: annotation
+  hl-page:: 69
+  hl-color:: purple
+  id:: 63758e7c-60cc-40e9-b084-11a02caa988e
+  hl-stamp:: 1668648573967
+- In other words, for any pre-metric group(G, q) there exists a unique (up to equivalence) pointed braided fusion category, denoted by C(G, q), such that its associated pre-metric group is isomorphic to (G, q).
+  hl-page:: 69
+  ls-type:: annotation
+  id:: 63758e98-b014-4e85-8dc5-92fd585adc8d
+  hl-color:: purple
+- [:span]
+  ls-type:: annotation
+  hl-page:: 69
+  hl-color:: purple
+  id:: 63758ee8-0b06-41a1-aadf-c8f51356931b
+  hl-type:: area
+  hl-stamp:: 1668648679839
+- This name is because the mutual-statistics, i.e., the braiding cx,y for simple topological defects x, y, are complex numbers (abelian phase), not matrices (non-abelian phase).
+  ls-type:: annotation
+  hl-page:: 69
+  hl-color:: purple
+  id:: 63758f80-9eb7-4e98-b5de-55c73889fb1e
+- More generally, the quantum double category $\mathcal{D}_A$ of a finite abelian group $A$ is a pointed modular tensor category and the corresponding metric group is $(A \times \hat{A}, q)$, where $\hat{A}:=\operatorname{Hom}\left(A, \mathbb{C}^{\times}\right)$is the dual group of $A$ and the quadratic form $q$ is defined by $q(a, \chi):=\chi(a)$.
+  hl-page:: 69
+  ls-type:: annotation
+  id:: 637590a3-f007-4609-a74d-4d23a42cca63
+  hl-color:: purple
+- Physically, every anomaly-free 2d abelian topological order can be realized by a 2+1D U(1) Chern-Simons theory
+  ls-type:: annotation
+  hl-page:: 69
+  hl-color:: purple
+  id:: 63759125-c889-4a41-af3d-608a8313b795
+- Categories associated to the Lie algebra
+  ls-type:: annotation
+  hl-page:: 70
+  hl-color:: blue
+  id:: 63759405-cb93-4086-954b-a1c7cff6925e
+- The above constructions can also be generalized to any finite-dimensional simple Lie algebras. See the appendix of [TW97] for references of constructions.
+  ls-type:: annotation
+  hl-page:: 73
+  hl-color:: purple
+  id:: 63759549-ad49-406f-abb6-f76fc612e52e
+  hl-stamp:: 1668650315672
+- The energy current I along the boundary is proportional to the square of the temperature T
+  ls-type:: annotation
+  hl-page:: 73
+  hl-color:: purple
+  id:: 637599b5-d072-44de-8459-7c40afe5e491
+- [:span]
+  ls-type:: annotation
+  hl-page:: 73
+  hl-color:: purple
+  id:: 637599bd-cc42-4af4-b765-8512a20fd303
+  hl-type:: area
+  hl-stamp:: 1668651453275
+- It is believed that an anomaly-free 2d topological order C is determined by the pair (C, c(C)), where C is the unitary modular tensor category of particle-like topological defects of C and c(C) is the chiral central charge of C.
+  ls-type:: annotation
+  hl-page:: 74
+  hl-color:: purple
+  id:: 63759a10-c900-42a5-8ca6-5bf978aa609a
+- The invertible topological orders (or invertible topological field theories), as well as symmetry protected topological (SPT) orders, can be classified by using methods in algebraic topology (for example, see [FT14, Fre14, FH21, Kap14c, Kap14a, KTTW15, Kit13, Kit15, GJF19b]).
+  ls-type:: annotation
+  hl-page:: 74
+  hl-color:: purple
+  id:: 63759a44-dc2d-4f73-a13d-6dbc94049537
+- it is believed that a topological order C is invertible if and only if there is no nontrivial particle-like [[Topological excitation]] , i.e., C ≃ Vec.
+  hl-page:: 74
+  ls-type:: annotation
+  id:: 63759a9b-ed1d-436b-80c6-44df744f15b4
+  hl-color:: purple
+- If two topological orders C, D have the same [[UMTc]] of particle-like topological defects C = D, then it is believed that they are only differed by several copies of the E8 topological order.
+  hl-page:: 74
+  ls-type:: annotation
+  id:: 63759ac0-b94e-46c3-8d51-5b51b31b7c12
+  hl-color:: purple
+-
+- [:span]
+  ls-type:: annotation
+  hl-page:: 75
+  hl-color:: blue
+  id:: 6376e003-91e9-4f72-b8b3-c3f649b36388
+  hl-type:: area
+  hl-stamp:: 1668734978697
+- [:span]
+  ls-type:: annotation
+  hl-page:: 75
+  hl-color:: blue
+  id:: 6376e016-4480-4dcb-898f-460d62d7f0fb
+  hl-type:: area
+  hl-stamp:: 1668734998361
+- there are two simple topological excitations on the smooth boundary: the trivial one 1 and the nontrivial one, which is denoted by E.
+  ls-type:: annotation
+  hl-page:: 75
+  hl-color:: purple
+  id:: 6376e048-b064-4620-9051-da7a913415c6
+  hl-stamp:: 1668735051164
+- The smooth boundary is also called the m-condensed boundary while the rough boundary is called the e-condensed boundary, because they can be obtained by condensing m particles or e particles respectively.
+  ls-type:: annotation
+  hl-page:: 76
+  hl-color:: purple
+  id:: 6376e089-fce4-4848-81c9-ba80dc22e8ff
+- Mathematically, these condensation processes are described by Lagrangian algebras 1 ⊕ m and 1 ⊕ e in the modular tensor category TC, respectively. More generally, all gapped boundaries of a 2d topological order can be obtained by [[Anyon condensation]]
+  ls-type:: annotation
+  hl-page:: 76
+  hl-color:: purple
+  id:: 6376e0a2-267d-44b2-b4ce-07caab40cd56
+- [:span]
+  ls-type:: annotation
+  hl-page:: 76
+  hl-color:: yellow
+  id:: 6376e2ef-953a-42f0-9245-45df8de79bf6
+  hl-type:: area
+  hl-stamp:: 1668735727580
+- [:span]
+  ls-type:: annotation
+  hl-page:: 76
+  hl-color:: yellow
+  id:: 6376e31a-a14e-46b3-b327-677c2cdfa16d
+  hl-type:: area
+  hl-stamp:: 1668735770217
+- Most structures and properties developed in Section 3.4 are still valid in 1d, except the braiding and ribbon structures. So we conclude that the topological defects of a stable 1d topological order A form a (unitary) fusion category A
+  ls-type:: annotation
+  hl-page:: 77
+  hl-color:: purple
+  id:: 6376e3e8-d3ef-44b3-9d52-30e6d6c3f9eb
+  hl-stamp:: 1668735979847
+- [:span]
+  ls-type:: annotation
+  hl-page:: 78
+  hl-color:: blue
+  id:: 6376e711-aca9-4948-b3af-e229bfcf38cd
+  hl-type:: area
+  hl-stamp:: 1668736784822
+- [:span]
+  ls-type:: annotation
+  hl-page:: 78
+  hl-color:: blue
+  id:: 6376e729-0f0f-4066-983c-34ffee06a884
+  hl-type:: area
+  hl-stamp:: 1668736809324
+- [:span]
+  ls-type:: annotation
+  hl-page:: 78
+  hl-color:: blue
+  id:: 6376e731-ad30-4664-af58-ffd9746dca90
+  hl-type:: area
+  hl-stamp:: 1668736817382
+- [:span]
+  ls-type:: annotation
+  hl-page:: 79
+  hl-color:: yellow
+  id:: 6376e7e3-7a48-4943-b7bb-058e2decc1ce
+  hl-type:: area
+  hl-stamp:: 1668736995559
+- [:span]
+  ls-type:: annotation
+  hl-page:: 79
+  hl-color:: blue
+  id:: 6376e81c-2e47-48db-8cd0-86df3405e14e
+  hl-type:: area
+  hl-stamp:: 1668737051757
+- [:span]
+  ls-type:: annotation
+  hl-page:: 81
+  hl-color:: blue
+  id:: 6376ee06-b214-47be-9fb2-1c424af24d32
+  hl-type:: area
+  hl-stamp:: 1668738565873
+- [:span]
+  ls-type:: annotation
+  hl-page:: 82
+  hl-color:: blue
+  id:: 6376ee16-e254-4cc8-b450-8ae97c248261
+  hl-type:: area
+  hl-stamp:: 1668738581701
+- [:span]
+  ls-type:: annotation
+  hl-page:: 82
+  hl-color:: blue
+  id:: 6376ee36-37e6-476d-8564-a01939f198f0
+  hl-type:: area
+  hl-stamp:: 1668738613959
+- [:span]
+  ls-type:: annotation
+  hl-page:: 82
+  hl-color:: blue
+  id:: 6376ee4d-1bb8-44b2-aa9f-6fd547996e05
+  hl-type:: area
+  hl-stamp:: 1668738636713
+- [:span]
+  ls-type:: annotation
+  hl-page:: 83
+  hl-color:: blue
+  id:: 6376ef54-3370-4e8e-8b8b-31f66f878eb9
+  hl-type:: area
+  hl-stamp:: 1668738900259
+- [:span]
+  ls-type:: annotation
+  hl-page:: 83
+  hl-color:: blue
+  id:: 6376f089-48ca-44c2-8577-6aca91fcaba6
+  hl-type:: area
+  hl-stamp:: 1668739209575
+- [:span]
+  ls-type:: annotation
+  hl-page:: 84
+  hl-color:: yellow
+  id:: 6376f23f-1e1d-44a4-ba13-da0f58abe912
+  hl-type:: area
+  hl-stamp:: 1668739647528
+- Suppose C is a braided monoidal category, A is a monoidal category and F : C → A is a monoidal functor. Then a central structure on F is equivalent to a braided monoidal functor $F': C\to \mathfrak Z_1(A)$ such that I ◦ F′ = F, where I is the forgetful functor.
+  hl-stamp:: 1668740405393
+  hl-page:: 84
+  ls-type:: annotation
+  id:: 6376f533-10f8-4d2a-9437-0d43597d3bf8
+  hl-color:: purple

@@ -1,0 +1,26 @@
+- Definitions
+	- Beat
+		- 节拍
+	- Meter
+		- ((6370554f-0089-4461-9e49-64f8fc59c97a))
+		- 二四拍，三四拍，四四拍
+	- Measure
+		- 小节
+	- Bar line
+		- 小节线
+	- Rest
+		- 休止符
+		- ((6370575b-e60b-408f-b039-05cf1f4578eb))
+		-
+		- Lengths #card
+			- semibreve
+				- 全音符
+			- half-note,  minim
+				- 二分音符
+			- crotchet
+				- 四分
+			- quaver
+				- 八分
+			- semiquaver
+				- 十六分
+		-

@@ -1,0 +1,5 @@
+- Definition
+	- Expand the domain of a chord by some subsidiary, weaker chords
+- ((6370466f-bed2-4057-a546-3790876a1eee))
+	- ((63704679-41a7-425e-9a41-cd04bae3d7ed))
+	- Inverted chords are often weaker

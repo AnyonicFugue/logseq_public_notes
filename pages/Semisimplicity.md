@@ -1,0 +1,12 @@
+- Definition
+	- ((636dfac4-b7e4-415e-878e-fdeac5efcd9d))
+	- In practice we may define a finite semisimple category as $$\operatorname{Vec}^{\oplus n}$$
+	- Note that there are different definitions.
+- Properties
+	- Every finite semisimple category is ((636ca217-d22e-42b8-984f-f4f35d530948)).
+		- The homs can be seen as block-diagonal matrices, because different copies of $$Vec$$ are disjoint.
+		- So we need to consider a matrix A with $$A^2=A$$.
+		  A familiar exercise in [[Linear Algebra]].
+	-
+- ((636dfb09-421f-4f06-9084-b2e4bb8af201))
+	- In other words, the level of the category of ((636879d9-dfe3-4bdd-a078-587cc9c25350)) only depends on the dimension of the defects, not the dimension of the topo order.

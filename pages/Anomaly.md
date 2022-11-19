@@ -1,0 +1,7 @@
+- Def #card
+	- ((636874d3-031a-4841-a85e-08536a4f1e1e))
+- Remote-detectable principle #card
+	- ((6371b322-77eb-463b-821c-877171f1fefd))
+	- Here 'detect' uses double [[Braiding]]
+	- The vacuum is detectable in the sense that it is the only transparent particle.
+-

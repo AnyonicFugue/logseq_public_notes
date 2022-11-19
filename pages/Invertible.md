@@ -1,0 +1,5 @@
+- Def
+	- [[Topological Order]]
+		- Invertible under [[Stacking]]
+		- ((63759a9b-ed1d-436b-80c6-44df744f15b4))
+		-

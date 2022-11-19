@@ -1,0 +1,3 @@
+- [[Category]]
+	- The [[Muger center]] contains only vacuum.
+	-

@@ -108,7 +108,7 @@
  ;;  :editor/down            ["ctrl+j" "down"]
  ;;  :editor/left            ["ctrl+h" "left"]
  ;;  :editor/right           ["ctrl+l" "right"]}
- :shortcuts {:editor/zoom-out "ctrl+close-square-bracket", :editor/delete-selection "alt+ctrl+backspace", :go/forward "alt+right", :editor/zoom-in "ctrl+open-square-bracket", :go/backward "alt+left"}
+ :shortcuts {}
 
  ;; By default, pressing `Enter` in the document mode will create a new line.
  ;; Set this to `true` so that it's the same behaviour as the usual outliner mode.
@@ -211,10 +211,10 @@
  :favorites []
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
-:srs/learning-fraction 0.6
+ ;; :srs/learning-fraction 0.5
 
  ;; the initial interval after the first successful review of a card (default 4)
-:srs/initial-interval 10
+ ;; :srs/initial-interval 4
 
  ;; hide specific properties for blocks
  ;; E.g. :block-hidden-properties #{:created-at :updated-at}
@@ -296,5 +296,4 @@
  ;;     ;use Percent-encoding for slash and other invalid characters
  ;;     ;parse `.` in file name as slash `/` in page title
  :file/name-format :triple-lowbar
- :zotero/settings-v2 {}
  }

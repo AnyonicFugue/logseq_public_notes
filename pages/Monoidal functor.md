@@ -1,0 +1,11 @@
+- Def
+  collapsed:: true
+	- ((6376e711-aca9-4948-b3af-e229bfcf38cd))
+	- Consistency conditions
+		- ((6376e729-0f0f-4066-983c-34ffee06a884))
+			- [[F-move]] and fuse = Fuse and F-move
+		- ((6376e731-ad30-4664-af58-ffd9746dca90))
+			- Vacuum can be added before or after the mapping.
+- Examples
+	- ((6376e7e3-7a48-4943-b7bb-058e2decc1ce)) #TODO
+	-

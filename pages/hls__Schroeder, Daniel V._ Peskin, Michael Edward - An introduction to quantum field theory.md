@@ -1,0 +1,269 @@
+file:: [Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf](C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf)
+file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 131
+  hl-color:: yellow
+  id:: 636753ab-e737-4f19-a1d8-e33ab15c71fc
+  hl-type:: area
+  hl-stamp:: 1667716009345
+- It is associated with one of the most fundamental difficulties of field theory, that interactions affect not only the scattering of distinct particles but also the form of the single-particle states themselves.
+  ls-type:: annotation
+  hl-page:: 132
+  hl-color:: red
+  id:: 63675402-6c64-443b-b71c-90c3a99a4842
+- In this section we will compute the unpolarized cross section for $e^+e^-\rightarrow \mu^+\mu^-$, to lowest order
+  hl-page:: 154
+  ls-type:: annotation
+  id:: 636907ca-d056-409f-b6b2-bfb023a167a1
+  hl-color:: yellow
+- Retaining the electron mass as well would be easy but pointless,
+  ls-type:: annotation
+  hl-page:: 154
+  hl-color:: yellow
+  id:: 63690837-39c9-4e6c-974f-7db6c09a9bc5
+- [:span]
+  ls-type:: annotation
+  hl-page:: 154
+  hl-color:: yellow
+  id:: 63690855-079b-41b7-95c3-4e8e1dd1b950
+  hl-type:: area
+  hl-stamp:: 1667827797123
+- [:span]
+  ls-type:: annotation
+  hl-page:: 146
+  hl-color:: yellow
+  id:: 636908da-dc02-4ff9-bc45-1b3b3c4e8517
+  hl-type:: area
+  hl-stamp:: 1667827930336
+- How do the Feynman rules change? The answer, though difficult to prove, is easy to guess
+  ls-type:: annotation
+  hl-page:: 146
+  hl-color:: red
+  id:: 636909d9-c786-4017-88e5-4c0d88ed061e
+  hl-stamp:: 1667828189940
+- [:span]
+  ls-type:: annotation
+  hl-page:: 146
+  hl-color:: purple
+  id:: 63690a30-2ec2-456c-8d26-36588ea1e151
+  hl-type:: area
+  hl-stamp:: 1667828272319
+- he factor of $-g_{\mu\nu}$, however, requires explanation. Lorentz invariance dictates that the photon propagator be an isotropic second=rank tensor that can dot together the $\gamma_\mu$ and $\gamma_\nu$ from the vertices at each end. The simplest candidate is $g_{\mu\nu}$"
+  hl-page:: 147
+  ls-type:: annotation
+  id:: 636a070e-b5b1-45b9-97d6-bd27c976f7fe
+  hl-color:: purple
+- [:span]
+  ls-type:: annotation
+  hl-page:: 148
+  hl-color:: purple
+  id:: 636a07b6-4d1f-4b45-a296-0724e701e26c
+  hl-type:: area
+  hl-stamp:: 1667893174091
+- Note that the repulsion in fermion-fermion scattering came entirely from the extra factor $-g_{00}=-1$ in the vector boson propagator
+  hl-stamp:: 1667893456761
+  hl-page:: 149
+  ls-type:: annotation
+  id:: 636a08cd-dc0b-497c-84e8-1209396c615e
+  hl-color:: green
+- [:span]
+  ls-type:: annotation
+  hl-page:: 155
+  hl-color:: purple
+  id:: 636a0984-d932-4dd2-a89e-963d90acda08
+  hl-type:: area
+  hl-stamp:: 1667893635730
+- . In most experiments the electron and positron beams are unpolarized, so the measured cross section is an **average** over the electron and positron spins s and s'
+  ls-type:: annotation
+  hl-page:: 155
+  hl-color:: purple
+  id:: 636a0a09-665c-450a-81b8-fc919bb5d8e5
+- [:span]
+  ls-type:: annotation
+  hl-page:: 155
+  hl-color:: purple
+  id:: 636a0aa2-99ca-44c2-80cf-e497cb4a1354
+  hl-type:: area
+  hl-stamp:: 1667893921860
+- [:span]
+  ls-type:: annotation
+  hl-page:: 155
+  hl-color:: purple
+  id:: 636a0ab1-74ca-4f2b-b875-c0045fad2016
+  hl-type:: area
+  hl-stamp:: 1667893937179
+- Any QED amplitude involving external fermions, when squared and summed or averaged over spins, can be converted in this way to traces of products of Dirac matrices.
+  ls-type:: annotation
+  hl-page:: 156
+  hl-color:: purple
+  id:: 636a0ace-b81b-4ff0-8e67-0e1acf8f3264
+- The trace of any even number of -y matrices can be evaluated in the same way: Anticommute the first -y matrix all the way to the right, then cycle it back to the lef
+  ls-type:: annotation
+  hl-page:: 156
+  hl-color:: purple
+  id:: 636a0b9a-df35-40b3-9e91-9c2560aa064f
+- [:span]
+  ls-type:: annotation
+  hl-page:: 156
+  hl-color:: purple
+  id:: 636a0bbd-c463-4b27-9bdf-29f7e78ed455
+  hl-type:: area
+  hl-stamp:: 1667894204799
+- [:span]
+  ls-type:: annotation
+  hl-page:: 157
+  hl-color:: purple
+  id:: 636a0c10-4b26-4d64-ab89-433cccab88a3
+  hl-type:: area
+  hl-stamp:: 1667894288433
+- [:span]
+  ls-type:: annotation
+  hl-page:: 158
+  hl-color:: purple
+  id:: 636a0c8b-0a46-4264-934f-cd22e44ec60e
+  hl-type:: area
+  hl-stamp:: 1667894411128
+- [:span]
+  ls-type:: annotation
+  hl-page:: 158
+  hl-color:: purple
+  id:: 636a0c90-f02b-443d-859f-94f734dd5990
+  hl-type:: area
+  hl-stamp:: 1667894416564
+- [:span]
+  ls-type:: annotation
+  hl-page:: 158
+  hl-color:: purple
+  id:: 636a0c99-3ccf-426e-a1fb-95d1deaf677e
+  hl-type:: area
+  hl-stamp:: 1667894425061
+- [:span]
+  ls-type:: annotation
+  hl-page:: 158
+  hl-color:: purple
+  id:: 636a0d35-79e4-45a4-b9a7-7cd329e624ee
+  hl-type:: area
+  hl-stamp:: 1667894581325
+- The terms with only one factor of m vanish, since they contain an odd number of $\gamma$ matrices
+  hl-page:: 158
+  ls-type:: annotation
+  id:: 636a0d4c-c42b-434b-bb47-95702c4eef39
+  hl-color:: purple
+- [:span]
+  ls-type:: annotation
+  hl-page:: 158
+  hl-color:: purple
+  id:: 636a0e49-de93-4428-ae7d-ac04fa1beecb
+  hl-type:: area
+  hl-stamp:: 1667894857271
+- [:span]
+  ls-type:: annotation
+  hl-page:: 159
+  hl-color:: purple
+  id:: 636a0ea3-dbd5-40f4-bf1b-0fe2940a0762
+  hl-type:: area
+  hl-stamp:: 1667894947078
+- [:span]
+  ls-type:: annotation
+  hl-page:: 159
+  hl-color:: purple
+  id:: 636a0eb0-2a64-48c7-89eb-ee8b61d66889
+  hl-type:: area
+  hl-stamp:: 1667894959875
+- [:span]
+  ls-type:: annotation
+  hl-page:: 130
+  hl-color:: purple
+  id:: 636a108d-1c99-463c-bd06-6105cdf58bbd
+  hl-type:: area
+  hl-stamp:: 1667895437583
+- [:span]
+  ls-type:: annotation
+  hl-page:: 141
+  hl-color:: purple
+  id:: 636a1cff-156e-4ff2-8025-d9feaed177e0
+  hl-type:: area
+  hl-stamp:: 1667898623098
+- the spin of each particle is separately conserved in this nonrelativistic scattering interaction
+  ls-type:: annotation
+  hl-page:: 144
+  hl-color:: purple
+  id:: 636a2486-1a33-45bf-9f26-91aa8f415e4c
+- writing in spinor indices so we can freely move 
+  ls-type:: annotation
+  hl-page:: 155
+  hl-color:: yellow
+  id:: 636a4a63-f308-41ef-96ff-d1d2aaefe3d4
+  hl-stamp:: 1667910246413
+- [:span]
+  ls-type:: annotation
+  hl-page:: 72
+  hl-color:: purple
+  id:: 636a4d10-45b5-432b-b4c2-a66dfdcfd93a
+  hl-type:: area
+  hl-stamp:: 1667910927764
+- [:span]
+  ls-type:: annotation
+  hl-page:: 71
+  hl-color:: purple
+  id:: 636a4d69-a996-4026-a5a6-ab9ba5bdd846
+  hl-type:: area
+  hl-stamp:: 1667911017356
+- [:span]
+  ls-type:: annotation
+  hl-page:: 71
+  hl-color:: purple
+  id:: 636a4d7e-7e60-4174-8d7f-e43338402e4e
+  hl-type:: area
+  hl-stamp:: 1667911038396
+- [:span]
+  ls-type:: annotation
+  hl-page:: 179
+  hl-color:: blue
+  id:: 636af081-5d67-4758-887c-ba004b190b71
+  hl-type:: area
+  hl-stamp:: 1667952767166
+- [:span]
+  ls-type:: annotation
+  hl-page:: 67
+  hl-color:: blue
+  id:: 636af6f3-6995-4fda-bf09-03a50b003b20
+  hl-type:: area
+  hl-stamp:: 1667954418557
+- [:span]
+  ls-type:: annotation
+  hl-page:: 69
+  hl-color:: blue
+  id:: 636af708-6711-4e17-84ba-4140af6f67b4
+  hl-type:: area
+  hl-stamp:: 1667954440001
+- [:span]
+  ls-type:: annotation
+  hl-page:: 71
+  hl-color:: blue
+  id:: 636af72c-0e40-427d-ad62-609da8b78213
+  hl-type:: area
+  hl-stamp:: 1667954475724
+- [:span]
+  ls-type:: annotation
+  hl-page:: 69
+  hl-color:: blue
+  id:: 636af73d-e54f-4317-a2e4-f57d5c26e3f5
+  hl-type:: area
+  hl-stamp:: 1667954492317
+- [:span]
+  ls-type:: annotation
+  hl-page:: 139
+  hl-color:: blue
+  id:: 636e481f-5611-49da-9380-82bbdab13289
+  hl-type:: area
+  hl-stamp:: 1668171806215
+- [:span]
+  ls-type:: annotation
+  hl-page:: 142
+  hl-color:: yellow
+  id:: 6371952e-6a1d-4710-922b-873f0ecb5a61
+  hl-type:: area
+  hl-stamp:: 1668388139600

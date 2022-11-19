@@ -1,0 +1,7 @@
+- ((6371b761-a021-4e2c-a5f1-4ba04ce3e37e))
+- Also defines [[Central charge]]
+-
+- How to prove $$\tau^{+}(\mathcal{C}) \tau^{-}(\mathcal{C})=\operatorname{dim}(\mathcal{C})$$, i.e. [[Central charge]] links [[Quantum dimension]] ? #TODO
+	- Maybe I shall explicitly express S by F and R, or reversely.
+-
+-

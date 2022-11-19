@@ -1,0 +1,5 @@
+- Def
+	- [[Category]]
+		- ((6371a6c3-8412-47a9-bb9a-ded01f435337))
+		- Encoding mutual statistics.
+- The S-matrix of a symmetric category has rank 1, while a modular tensor category has the maximal rank.

@@ -1,0 +1,14 @@
+- Fingerings
+	- b #card
+		- left index
+	- shift #card
+		- Principle: One hand presses the desired key; the other press shift.
+		- Much of the time shall be the **right** pinky.
+	- m #card
+		- right index
+	- c #card
+		- left middle
+	- , #card
+		- right middle
+	- . #card
+		- right ring
