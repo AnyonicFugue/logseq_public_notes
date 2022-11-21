@@ -19,7 +19,10 @@
 	  collapsed:: true
 		-
 	- Prove that the Drinfeld center $\mathfrak Z_1( Vec)$ is equivalent to Vec as braided monoidal categories. #card
+	  collapsed:: true
 		- First find the left and right unitors in Vec.
 		- [[Category]]
 			- In categories (Grp, Vec) there is no 'element of a group / vector space'. We must express everything by **Homs**. That is, elements are images of certain Homs.
 		- ((6376f23f-1e1d-44a4-ba13-da0f58abe912))
+	- ((637ad6fa-3746-4892-bba8-183120acd329))
+- ((637ad5f5-f508-44e9-819a-d70887b72bc1))

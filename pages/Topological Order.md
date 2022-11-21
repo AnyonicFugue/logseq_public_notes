@@ -1,12 +1,8 @@
 - [[References]]
-	- ![2018_Lan_A_Classification_of_(2+1)D_Topological_Phase.pdf](../assets/2018_Lan_A_Classification_of_(2+1)D_Topological_Phase_1667264759596_0.pdf)
+	- ![2018_Lan_A_Classification_of_(2+1)D_Topological_Phase.pdf](../assets/2018_Lan_A_Classification_of_(2+1)D_Topological_Phase_1667264759596_0.pdf) 2018_Lan_A_Classification_of_(2+1)D_Topological_Phase
 		-
-	- ![An invitation to topological order](file://zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf)
+	- ![An invitation to topological order](file://zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf) 2022_Kong_Zhang_An invitation to topological orders and category
 		- p62
-		- 11.7
-			- P22
-			- One week left, 100 pages. difficult.
-			  Maybe I shall proceed faster for the parts I'm familiar with.
 - Sources of refs
   collapsed:: true
 	- ((63686777-c7eb-4f87-b83e-703f76ae06da))
@@ -34,7 +30,7 @@
 - Definitions and topics
 	- [[Topological skeleton]]
 	- [[Stacking]]
-	- [[Condensable algebra]] #card
+	- [[Condensable algebra]]
 	  card-last-score:: 5
 	  card-repeats:: 1
 	  card-next-schedule:: 2022-11-12T10:38:53.956Z

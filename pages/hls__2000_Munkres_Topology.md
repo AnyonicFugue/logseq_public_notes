@@ -56,3 +56,113 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   id:: 6370b321-7ab2-4048-9589-92ceb419c490
   hl-type:: area
   hl-stamp:: 1668330272913
+- [:span]
+  ls-type:: annotation
+  hl-page:: 353
+  hl-color:: blue
+  id:: 637845df-9171-43f6-a080-223b3657bab1
+  hl-type:: area
+  hl-stamp:: 1668826590045
+- [:span]
+  ls-type:: annotation
+  hl-page:: 353
+  hl-color:: blue
+  id:: 637846bd-bb61-4675-9600-88d9ee045931
+  hl-type:: area
+  hl-stamp:: 1668826813457
+- Note that if $$p: E\to B$$ is a covering map, then for each $$x\in B$$, $$p^{-1}(x)$$ has discrete topology, i.e. the points can be separated
+  hl-stamp:: 1668827107527
+  hl-page:: 353
+  ls-type:: annotation
+  id:: 637847e2-9127-482b-b496-95136f6e6f95
+  hl-color:: purple
+	-
+- Note that if p is a covering map, then p is an open map.
+  hl-page:: 353
+  ls-type:: annotation
+  id:: 6378484a-4de6-4e9c-9ea8-8b3c8572e378
+  hl-color:: purple
+- [:span]
+  ls-type:: annotation
+  hl-page:: 354
+  hl-color:: yellow
+  id:: 63784918-925a-4fa9-97fb-8d3e8841d3d3
+  hl-type:: area
+  hl-stamp:: 1668827416019
+- [:span]
+  ls-type:: annotation
+  hl-page:: 355
+  hl-color:: yellow
+  id:: 63784a35-429c-434a-a01b-37cf86a8a1b4
+  hl-type:: area
+  hl-stamp:: 1668827700801
+- [:span]
+  ls-type:: annotation
+  hl-page:: 355
+  hl-color:: purple
+  id:: 63784b3e-ca3c-4a6b-8fcb-7e895918d031
+  hl-type:: area
+  hl-stamp:: 1668827965880
+- [:span]
+  ls-type:: annotation
+  hl-page:: 356
+  hl-color:: purple
+  id:: 63784b53-c5a9-48d5-ad15-eb33281a8251
+  hl-type:: area
+  hl-stamp:: 1668827987132
+- [:span]
+  ls-type:: annotation
+  hl-page:: 357
+  hl-color:: yellow
+  id:: 63784d71-542c-40ba-be3d-f1946bca1676
+  hl-type:: area
+  hl-stamp:: 1668828529240
+- [:span]
+  ls-type:: annotation
+  hl-page:: 357
+  hl-color:: yellow
+  id:: 63784d7a-336b-4b06-8ca7-2641dce6a7de
+  hl-type:: area
+  hl-stamp:: 1668828538688
+- [:span]
+  ls-type:: annotation
+  hl-page:: 358
+  hl-color:: yellow
+  id:: 63784f05-388d-4aee-a1a4-91261088de4c
+  hl-type:: area
+  hl-stamp:: 1668828933018
+- [:span]
+  ls-type:: annotation
+  hl-page:: 359
+  hl-color:: blue
+  id:: 63784f8e-385d-4529-9c3b-3af9cb1b9d82
+  hl-type:: area
+  hl-stamp:: 1668829069891
+- [:span]
+  ls-type:: annotation
+  hl-page:: 359
+  hl-color:: blue
+  id:: 63785096-0339-4367-8142-97fb0589ff89
+  hl-type:: area
+  hl-stamp:: 1668829334357
+- [:span]
+  ls-type:: annotation
+  hl-page:: 359
+  hl-color:: purple
+  id:: 63798b93-5359-4575-b76e-e62e28d7fcc3
+  hl-type:: area
+  hl-stamp:: 1668909970682
+- [:span]
+  ls-type:: annotation
+  hl-page:: 192
+  hl-color:: purple
+  id:: 63798d25-b499-41f8-a9e8-262dc4c3b0d3
+  hl-type:: area
+  hl-stamp:: 1668910371318
+- [:span]
+  ls-type:: annotation
+  hl-page:: 360
+  hl-color:: purple
+  id:: 637990f4-6cbe-49f4-8616-6817b8cb030d
+  hl-type:: area
+  hl-stamp:: 1668911347055

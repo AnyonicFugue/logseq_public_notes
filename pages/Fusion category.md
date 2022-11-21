@@ -41,6 +41,12 @@
 - Properties
   collapsed:: true
 	- ((63745ee5-d4fe-4d02-a3b8-3582f373a546)) #card
+	  card-last-interval:: 10
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2022-11-29T13:43:35.312Z
+	  card-last-reviewed:: 2022-11-19T13:43:35.314Z
+	  card-last-score:: 3
 		- The proof invokes interesting properties of [[Fusion rules]] and [[Quantum dimension]].
 		- [[Mathematic Thoughts]]
 			- The 'algebraic characters can provide lots of info! No need to know all information of the object under investigation!

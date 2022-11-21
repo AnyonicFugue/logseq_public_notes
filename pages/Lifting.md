@@ -1,0 +1,15 @@
+- ((63798b93-5359-4575-b76e-e62e28d7fcc3)) #card
+  collapsed:: true
+	- In other words, each path have several 'copies' in the covering space, with different starting points.
+	- Proof
+		- 1. Find a set of open sets $\{U_j\}$, which are evenly covered by p.
+		- 2. Divide $[0,1]$ into several closed intervals $\{[s_i,s_{i+1}]\}$ such that $f([s_i,s_{i+1}])$ is entirely contained in some $U_{j_i}$
+			- The existence of the division is guaranteed by [[The Lebesgue number lemma]]. **[0,1] is a compact metric space!**
+			- The construction has several merits: Each set is closed, whose endpoints can be used; the collection is finite (Let alone [[Countable]] ), which allows induction.
+		- 3. Proceed inductively to define $\bar f$.
+			- The intervals are mapped back by $p^{-1}$ into disjoint slices.
+			- The endpoints grant a unique choice.
+- ((637990f4-6cbe-49f4-8616-6817b8cb030d)) #card
+	- The strategy is similar to Lemma 54.1 : Construct a finite collection of closed sets (For example, rectangles), then define $\bar F$ on them one by one.
+	- It's also easy to verify that $\bar F$ is a path homotopy. We only need to verify the extra condition that the endpoints are fixed.
+	-

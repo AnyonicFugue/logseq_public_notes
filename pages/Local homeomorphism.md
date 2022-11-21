@@ -1,0 +1,2 @@
+- Def
+	- Each point has a neighborhood mapped homeomorphically onto.

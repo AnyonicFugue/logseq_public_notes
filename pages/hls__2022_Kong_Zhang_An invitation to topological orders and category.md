@@ -997,3 +997,63 @@ file-path:: zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An inv
   ls-type:: annotation
   id:: 6376f533-10f8-4d2a-9437-0d43597d3bf8
   hl-color:: purple
+- Suppose C is an anomaly-free stable 2d topological order with a stable gapped 1d boundary A,
+  ls-type:: annotation
+  hl-page:: 85
+  hl-color:: purple
+  id:: 637ad40d-928c-428f-b8be-6efaaffb1156
+- Since a gapped boundary of a 2d topological order is necessarily the result of a2d anyon condensation to the trivial phase, we obtain a complete model-independent proof of the boundary-bulk relation for 2d topological orders and their gapped boundaries based on the anyon condensation theory [Kon14] (see also Theoremph 5.4.1). More general boundary-bulk relation for potentially gapless higher dimensional quantum liquid phases and their boundaries was proposed and proved in [KWZ15, KWZ17]
+  ls-type:: annotation
+  hl-page:: 85
+  hl-color:: green
+  id:: 637ad518-c09e-4960-9608-372911a8e757
+  hl-stamp:: 1668994336968
+- The smooth and rough boundaries of the toric code model are the same as (anomalous)1d topological orders, but they are different as 1d boundaries. Mathematically, there is a monoidal equivalence (by identifying E and M) of Rep(Z2) and VecZ2 , but this equivalence does not preserve the bulk-to-boundary maps.
+  ls-type:: annotation
+  hl-page:: 85
+  hl-color:: purple
+  id:: 637ad557-7f50-4769-bbd9-12670b94f740
+  hl-stamp:: 1668994393746
+- The Drinfeld center Z1(A) of a multi-fusion category A is a fusion category (indeed, a nondegenerate braided fusion category) if and only if A is indecomposable.
+  ls-type:: annotation
+  hl-page:: 85
+  hl-color:: purple
+  id:: 637ad5f5-f508-44e9-819a-d70887b72bc1
+- [:span]
+  ls-type:: annotation
+  hl-page:: 86
+  hl-color:: purple
+  id:: 637ad683-2c60-43af-868c-f7eaacd40528
+  hl-type:: area
+  hl-stamp:: 1668994691585
+- Let G be a finite group. The Drinfeld center of both Rep(G) and $Vec_G$ are equivalent to the [[Quantum double]] category DG (see Section 3.6.3) as modular tensor categories.
+  hl-page:: 86
+  ls-type:: annotation
+  id:: 637ad6fa-3746-4892-bba8-183120acd329
+  hl-color:: purple
+- A simple topological defect in the bulk may not be simple after moving to the boundary.
+  ls-type:: annotation
+  hl-page:: 86
+  hl-color:: red
+  id:: 637ad78a-4267-428e-84b3-f93291247476
+  hl-stamp:: 1668994955695
+- A gapped boundary of an anomaly-free stable 2d topological order C can be viewed as a gapped domain wall between C and the trivial 2d topological order.
+  hl-stamp:: 1668995063623
+  hl-page:: 87
+  ls-type:: annotation
+  id:: 637ad7f2-92aa-44fa-96a4-68ddf88acb38
+  hl-color:: green
+- [:span]
+  ls-type:: annotation
+  hl-page:: 87
+  hl-color:: green
+  id:: 637ad93c-b21f-446d-9d6c-54b25d5ddff7
+  hl-type:: area
+  hl-stamp:: 1668995387778
+- [:span]
+  ls-type:: annotation
+  hl-page:: 87
+  hl-color:: blue
+  id:: 637adb66-1b93-45fd-ba8f-1bcba43f4452
+  hl-type:: area
+  hl-stamp:: 1668995942133

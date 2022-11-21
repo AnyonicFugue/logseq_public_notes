@@ -179,13 +179,6 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   id:: 636a108d-1c99-463c-bd06-6105cdf58bbd
   hl-type:: area
   hl-stamp:: 1667895437583
-- [:span]
-  ls-type:: annotation
-  hl-page:: 141
-  hl-color:: purple
-  id:: 636a1cff-156e-4ff2-8025-d9feaed177e0
-  hl-type:: area
-  hl-stamp:: 1667898623098
 - the spin of each particle is separately conserved in this nonrelativistic scattering interaction
   ls-type:: annotation
   hl-page:: 144
@@ -267,3 +260,155 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   id:: 6371952e-6a1d-4710-922b-873f0ecb5a61
   hl-type:: area
   hl-stamp:: 1668388139600
+- [:span]
+  ls-type:: annotation
+  hl-page:: 69
+  hl-color:: yellow
+  id:: 6379c82e-aa21-424e-9d43-339a251a9bc2
+  hl-type:: area
+  hl-stamp:: 1668925485212
+- [:span]
+  ls-type:: annotation
+  hl-page:: 70
+  hl-color:: blue
+  id:: 6379c8a3-0232-49a8-9c02-6a5feab391f5
+  hl-type:: area
+  hl-stamp:: 1668925602303
+- A particle with h = +1/2 is called right-handed, while one with h = —1/2 is called left-handed
+  ls-type:: annotation
+  hl-page:: 70
+  hl-color:: blue
+  id:: 6379c8ae-40b7-4144-a33e-326b332fade1
+- [:span]
+  ls-type:: annotation
+  hl-page:: 66
+  hl-color:: blue
+  id:: 6379c8e3-16aa-41b9-9f0f-7354d118fd3f
+  hl-type:: area
+  hl-stamp:: 1668925666781
+- [:span]
+  ls-type:: annotation
+  hl-page:: 73
+  hl-color:: blue
+  id:: 6379ca39-4ba2-4254-9131-88e223be6a0c
+  hl-type:: area
+  hl-stamp:: 1668926008941
+- [:span]
+  ls-type:: annotation
+  hl-page:: 64
+  hl-color:: blue
+  id:: 6379ca4e-553b-460f-89c6-0fbde5c7f0d9
+  hl-type:: area
+  hl-stamp:: 1668926029337
+- [:span]
+  ls-type:: annotation
+  hl-page:: 63
+  hl-color:: purple
+  id:: 6379ca88-2a1b-4068-a7f7-0cb7197d696c
+  hl-type:: area
+  hl-stamp:: 1668926087300
+- [:span]
+  ls-type:: annotation
+  hl-page:: 73
+  hl-color:: purple
+  id:: 6379ca9b-6830-497a-b6bc-0aaec1f62441
+  hl-type:: area
+  hl-stamp:: 1668926105911
+- [:span]
+  ls-type:: annotation
+  hl-page:: 73
+  hl-color:: blue
+  id:: 6379caaa-1758-4942-a553-19b721e4a1c2
+  hl-type:: area
+  hl-stamp:: 1668926121348
+- [:span]
+  ls-type:: annotation
+  hl-page:: 84
+  hl-color:: blue
+  id:: 6379cf92-7252-44e9-b63d-ce792967a710
+  hl-type:: area
+  hl-stamp:: 1668927378664
+- [:span]
+  ls-type:: annotation
+  hl-page:: 176
+  hl-color:: purple
+  id:: 6379d42d-2944-458f-9110-e369a7bb0a42
+  hl-type:: area
+  hl-stamp:: 1668928557432
+- [:span]
+  ls-type:: annotation
+  hl-page:: 181
+  hl-color:: purple
+  id:: 6379d890-1f5b-4f30-9855-5dbd1a1b68be
+  hl-type:: area
+  hl-stamp:: 1668929680541
+- [:span]
+  ls-type:: annotation
+  hl-page:: 141
+  hl-color:: purple
+  id:: 6379dcb3-beeb-43b4-9493-b45ef5cd5a9e
+  hl-type:: area
+  hl-stamp:: 1668930737082
+- [:span]
+  ls-type:: annotation
+  hl-page:: 182
+  hl-color:: purple
+  id:: 6379e1d5-cde6-45c1-9024-4b12b6a35650
+  hl-type:: area
+  hl-stamp:: 1668932053426
+- [:span]
+  ls-type:: annotation
+  hl-page:: 182
+  hl-color:: purple
+  id:: 6379e3b6-ac3e-4770-a535-ccfaeb1e3f28
+  hl-type:: area
+  hl-stamp:: 1668932534665
+- [:span]
+  ls-type:: annotation
+  hl-page:: 182
+  hl-color:: purple
+  id:: 6379e410-066b-4ee4-a4e2-ac831ae0bcbf
+  hl-type:: area
+  hl-stamp:: 1668932624316
+- [:span]
+  ls-type:: annotation
+  hl-page:: 182
+  hl-color:: purple
+  id:: 6379e47e-61a5-4599-985f-889017c30915
+  hl-type:: area
+  hl-stamp:: 1668932733958
+- [:span]
+  ls-type:: annotation
+  hl-page:: 182
+  hl-color:: purple
+  id:: 637ae3b2-dbda-4df2-99bd-8898eb7feb07
+  hl-type:: area
+  hl-stamp:: 1668998066570
+- [:span]
+  ls-type:: annotation
+  hl-page:: 183
+  hl-color:: purple
+  id:: 637ae426-99ad-4d34-868f-db59435efe39
+  hl-type:: area
+  hl-stamp:: 1668998181850
+- [:span]
+  ls-type:: annotation
+  hl-page:: 183
+  hl-color:: purple
+  id:: 637ae474-2d53-4e11-b973-cd140e269b7f
+  hl-type:: area
+  hl-stamp:: 1668998260476
+- [:span]
+  ls-type:: annotation
+  hl-page:: 186
+  hl-color:: purple
+  id:: 637ae60f-71b1-4bbd-bfba-96333ac6ecc9
+  hl-type:: area
+  hl-stamp:: 1668998671023
+- [:span]
+  ls-type:: annotation
+  hl-page:: 181
+  hl-color:: purple
+  id:: 637b326c-0792-4cf0-b2e5-d861201c971c
+  hl-type:: area
+  hl-stamp:: 1669018218624

@@ -1,0 +1,5 @@
+- Properties
+	- Construct new ones
+		- Well behaved under products and taking both subspaces
+		- ((63784b3e-ca3c-4a6b-8fcb-7e895918d031)) #card
+		- ((63784b53-c5a9-48d5-ad15-eb33281a8251)) #card

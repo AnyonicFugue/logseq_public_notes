@@ -1,5 +1,5 @@
 - [[Yukawa theory]]
-	- ((636a1cff-156e-4ff2-8025-d9feaed177e0))for fermions and scalar fields
+	- ((6379dcb3-beeb-43b4-9493-b45ef5cd5a9e)) for fermions and scalar fields
 	  Note that external vertices don't give propagators
 		- ((6371952e-6a1d-4710-922b-873f0ecb5a61))
 - [[QED]]

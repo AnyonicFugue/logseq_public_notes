@@ -58,7 +58,7 @@
 		- [[Deligne tensor product]]
 		- Reversing some spacetime direction of a [[Topological Order]]
 		  collapsed:: true
-			- Time-reversed category, $$\bar{\mathcal C}$$
+			- [[Time-reversed category]], $$\bar{\mathcal C}$$
 			  collapsed:: true
 				- ((6374412e-afc1-4336-b9a7-512c8faf35f6))
 				- ((63744224-6f7c-4ae0-9d8c-64f7d4af6968)), thus reversing the [[Braiding]].
