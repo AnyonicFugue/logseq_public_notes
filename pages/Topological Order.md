@@ -12,10 +12,8 @@
 -
 - Metathoughts and central problems
   id:: 636ca803-4a64-4513-8ef8-6b1c523ab28c
-  collapsed:: true
 	- ((63686458-bb43-4ca5-b0f2-e499f6154b6c))
 	- Significance of Topo order #card
-	  collapsed:: true
 		- ((636864d8-05a7-440a-8fb4-0aa262aa340d))
 		- ((63686518-f1bb-44e9-9fe3-a36d3e68b9c8))
 		- ((63686663-a0be-4c76-a689-e4cf37982a71))

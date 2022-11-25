@@ -1,4 +1,7 @@
+alias:: Category Theory
+
 - Definitions
+  collapsed:: true
 	- Higher cats
 	  collapsed:: true
 		- [[Morita equivalence]]
@@ -130,5 +133,3 @@
 - Thoughts
 	- Precise equivalence is often too strict a requirement. {{cloze Being isomorphic}} is usually enough, though it leaves for different structures.
 	  id:: 6376e69f-4dbd-4465-b405-49950dce1124
--
--

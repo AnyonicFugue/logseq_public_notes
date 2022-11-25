@@ -1,0 +1,14 @@
+- I'm Yizhou, a physics undergraduate at Fudan University.
+-
+- I'm strongly interested in [[Topological Order]] and I hope to do related researches in the future.
+	- The elegance of the categorical description of topological orders deeply attracts me. How could you characterize such complicated, long-range entangled quantum systems with only a few structures like fusion and braiding?
+	- Moreover, [[Category Theory]] is beautiful in itself. I think it reveals the fact that the **relations** between objects are more fundamental then '**what are they**'.
+		- When trying to express basic arithmetic to a 3-year old, we no longer need to worry about the problems like 'what's 1' or 'why an apple can be added with a banana'. Now we have the ultimate answer: '1' is a universal construction, while addition is actually the direct sum :)
+	- On the other hand, I feel that the approximation methods are not so satisfying. I hope that the study of topological orders could inspire new frameworks to describe physical systems or even physical laws.
+- I'm also interested in [[Mathematics]]. I hope that I can say I'm an amateur mathematician :)
+	- Mathematics shows how thinking can start from a few axioms and produce stunning structures and results. It is simply above the earth, maybe above the universe.
+	-
+	- Practically, we need a mathematically rigorous description for quantum fields (to kick out [[Renormalization]]).
+-
+- I like classical music and I'm learning to play the piano.
+	- My favorite composer is Beethoven. His late sonatas are beyond words.

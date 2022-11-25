@@ -11,7 +11,7 @@ file-path:: zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An inv
   hl-page:: 6
   hl-color:: yellow
   id:: 636864d8-05a7-440a-8fb4-0aa262aa340d
-- it leads to a new approach towards the study of gapless quantum phases (
+- it leads to a new approach towards the study of gapless quantum phases
   ls-type:: annotation
   hl-page:: 6
   hl-color:: yellow

@@ -412,3 +412,193 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   id:: 637b326c-0792-4cf0-b2e5-d861201c971c
   hl-type:: area
   hl-stamp:: 1669018218624
+- [:span]
+  ls-type:: annotation
+  hl-page:: 208
+  hl-color:: purple
+  id:: 637c75c9-97e2-45d5-8b25-33c61663e7d0
+  hl-type:: area
+  hl-stamp:: 1669100997236
+- [:span]
+  ls-type:: annotation
+  hl-page:: 208
+  hl-color:: blue
+  id:: 637c7ca7-9ad3-4bef-91c6-02723922d5e0
+  hl-type:: area
+  hl-stamp:: 1669102757745
+- [:span]
+  ls-type:: annotation
+  hl-page:: 209
+  hl-color:: purple
+  id:: 637c7d3f-7675-407b-85c7-0f9398e74aa0
+  hl-type:: area
+  hl-stamp:: 1669102910944
+- [:span]
+  ls-type:: annotation
+  hl-page:: 209
+  hl-color:: purple
+  id:: 637c7d9c-c89f-4466-83ff-7e89c733ef8b
+  hl-type:: area
+  hl-stamp:: 1669103004445
+- as does the first when sandwiched between u(p') and u(p)
+  ls-type:: annotation
+  hl-page:: 209
+  hl-color:: purple
+  id:: 637c7e07-4519-4a7f-825d-65eb89a46046
+- [:span]
+  ls-type:: annotation
+  hl-page:: 209
+  hl-color:: purple
+  id:: 637c7f07-18ee-4d3d-bdc4-3bde16d6d924
+  hl-type:: area
+  hl-stamp:: 1669103367676
+- [:span]
+  ls-type:: annotation
+  hl-page:: 209
+  hl-color:: purple
+  id:: 637c7f9b-ad14-479b-abec-cbcd8300bf7f
+  hl-type:: area
+  hl-stamp:: 1669103515562
+- [:span]
+  ls-type:: annotation
+  hl-page:: 211
+  hl-color:: purple
+  id:: 637c8054-2570-47cb-b075-f0dc3f8279a6
+  hl-type:: area
+  hl-stamp:: 1669103700646
+- [:span]
+  ls-type:: annotation
+  hl-page:: 212
+  hl-color:: purple
+  id:: 637c8bcc-7c8a-4541-9ea3-0955c3bc1cc2
+  hl-type:: area
+  hl-stamp:: 1669106635914
+- [:span]
+  ls-type:: annotation
+  hl-page:: 212
+  hl-color:: purple
+  id:: 637c8bd8-d9ef-481c-a08a-3ec965b618a4
+  hl-type:: area
+  hl-stamp:: 1669106648540
+- [:span]
+  ls-type:: annotation
+  hl-page:: 212
+  hl-color:: purple
+  id:: 637c9a80-85fe-4e5c-bc14-36cd4b691001
+  hl-type:: area
+  hl-stamp:: 1669110400219
+- [:span]
+  ls-type:: annotation
+  hl-page:: 213
+  hl-color:: purple
+  id:: 637c9a87-b8af-4b42-ac19-a8b8c3edb007
+  hl-type:: area
+  hl-stamp:: 1669110407631
+- [:span]
+  ls-type:: annotation
+  hl-page:: 213
+  hl-color:: purple
+  id:: 637c9aa2-ba77-453f-8139-1e1a97735c0c
+  hl-type:: area
+  hl-stamp:: 1669110434176
+- [:span]
+  ls-type:: annotation
+  hl-page:: 213
+  hl-color:: purple
+  id:: 637c9f2a-2b53-4a3e-a235-c66a85253329
+  hl-type:: area
+  hl-stamp:: 1669111593703
+- [:span]
+  ls-type:: annotation
+  hl-page:: 214
+  hl-color:: purple
+  id:: 637c9fce-166f-48b1-b4c1-d30e725f0b4c
+  hl-type:: area
+  hl-stamp:: 1669111757954
+- [:span]
+  ls-type:: annotation
+  hl-page:: 215
+  hl-color:: purple
+  id:: 637ca07a-4f49-4ee5-b3da-b7cd50150fa7
+  hl-type:: area
+  hl-stamp:: 1669111930579
+- [:span]
+  ls-type:: annotation
+  hl-page:: 215
+  hl-color:: yellow
+  id:: 637cbac0-aa10-4074-9829-429c036ea575
+  hl-type:: area
+  hl-stamp:: 1669118654302
+- [:span]
+  ls-type:: annotation
+  hl-page:: 216
+  hl-color:: yellow
+  id:: 637cbae1-e476-44b1-b8fa-f17eea4c3dbb
+  hl-type:: area
+  hl-stamp:: 1669118685895
+- [:span]
+  ls-type:: annotation
+  hl-page:: 216
+  hl-color:: yellow
+  id:: 637cbaec-83a0-4693-8150-80cd0de2e40a
+  hl-type:: area
+  hl-stamp:: 1669118698666
+- [:span]
+  ls-type:: annotation
+  hl-page:: 217
+  hl-color:: blue
+  id:: 637cbbb3-04ff-4a2e-81be-c3f54ca16692
+  hl-type:: area
+  hl-stamp:: 1669118896593
+- [:span]
+  ls-type:: annotation
+  hl-page:: 217
+  hl-color:: purple
+  id:: 637cbc71-4997-4022-b049-6a0c72527a7e
+  hl-type:: area
+  hl-stamp:: 1669119088683
+- [:span]
+  ls-type:: annotation
+  hl-page:: 217
+  hl-color:: purple
+  id:: 637cbce6-b55c-4e4b-a472-3f10a0915751
+  hl-type:: area
+  hl-stamp:: 1669119206265
+- [:span]
+  ls-type:: annotation
+  hl-page:: 219
+  hl-color:: purple
+  id:: 637cbe69-069f-425b-b517-7959ec93212d
+  hl-type:: area
+  hl-stamp:: 1669119593369
+- [:span]
+  ls-type:: annotation
+  hl-page:: 217
+  hl-color:: purple
+  id:: 637cbf4e-c94b-4357-8ff5-7bd50ba89e50
+  hl-type:: area
+  hl-stamp:: 1669119822556
+- Summary
+  hl-page:: 218
+  ls-type:: annotation
+  id:: 637cbf81-c429-40c1-ac36-c05a0c2b58c8
+  hl-color:: purple
+- [:span]
+  ls-type:: annotation
+  hl-page:: 218
+  hl-color:: purple
+  id:: 637cc029-8dee-4ce9-b39f-62204db82286
+  hl-type:: area
+  hl-stamp:: 1669120041517
+- [:span]
+  ls-type:: annotation
+  hl-page:: 218
+  hl-color:: purple
+  id:: 637cc1bb-4657-4d3d-bbb4-be6d6404ac3c
+  hl-type:: area
+  hl-stamp:: 1669120442941
+- Noether's Theorem
+  ls-type:: annotation
+  hl-page:: 40
+  hl-color:: blue
+  id:: 63805db9-661f-470f-9403-3ff9ae8aa7dd

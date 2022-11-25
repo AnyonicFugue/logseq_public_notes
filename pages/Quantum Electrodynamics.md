@@ -1,6 +1,6 @@
 alias:: QED
 
-- [[Quantization]]
+- [[Quantization]] of EM field
 	- $$\begin{aligned}
 	  &A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_p}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}+a_p^{\lambda \dagger} e^{i p \cdot x}\right) \\
 	  &\pi_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3}(+i) \sqrt{\frac{E_p}{2}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}-a_p^{\lambda \dagger} e^{i p \cdot x}\right)
@@ -15,6 +15,7 @@ alias:: QED
 	- See [[Feynman rules]]
 - Elementary processes
   id:: 636e47fc-2b5b-48d2-abe9-e9892ac50a40
+  collapsed:: true
 	- Fermion-fermion
 		- ((636a08cd-dc0b-497c-84e8-1209396c615e))
 		- ((636907ca-d056-409f-b6b2-bfb023a167a1))
@@ -78,3 +79,99 @@ alias:: QED
 			-
 		- Final result
 			- ((637ae60f-71b1-4bbd-bfba-96333ac6ecc9))
+- Radiative Corrections
+	- [[Loop-diagrams]]
+		- Overall scheme #card
+			- Write out the vertex function and analyze the possible ingredients by some general principles.
+			- A brief ((637cbf81-c429-40c1-ac36-c05a0c2b58c8)) in Peskin
+		- The loops leads to [[Ultraviolet Divergence]] and [[Infrared Divergence]].
+		- The vertex function
+			- ((637c7ca7-9ad3-4bef-91c6-02723922d5e0))
+			- Denoted as $-i e \Gamma^\mu\left(p^{\prime}, p\right)$
+		- General analysis of the vertex function
+		  collapsed:: true
+			- First of all, the only possible recipes are $p,p',\gamma^\mu,m,e,$ pure numbers.
+			- [[Lorentz covariance]]
+			  collapsed:: true
+				- Forcing ((637c7d3f-7675-407b-85c7-0f9398e74aa0))
+					- ((637c7d9c-c89f-4466-83ff-7e89c733ef8b))
+				- Moreover, the only possible nontrivial scalar is $p^\mu p'_\mu$, since $p^2=m^2$
+			- [[Ward identity]]
+				- $(p^\mu-p'^\mu)\Gamma_\mu=0$
+				- Obviously this forces $C=0$
+				- ((637c7e07-4519-4a7f-825d-65eb89a46046)) #card
+					- [[Ward identity]] actually applies to the S-matrix element, not to the vertex function. So everything can be traced back to the [[S-matrix]].
+			- ((637c7efe-edc6-41a0-8de5-02abe2f76eb1))
+				- Thus we can express a linear combination of $\gamma^\mu$ and $p^\mu+p'^\mu$ by $\gamma^\mu$ and $\sigma^{\mu\nu}q_\nu$
+				-
+			- Final result of the vertex function #card
+				- ((637c7f9b-ad14-479b-abec-cbcd8300bf7f))
+			-
+			-
+		- Evaluation of the vertex function
+			- Notation. ((637c8bcc-7c8a-4541-9ea3-0955c3bc1cc2))
+			- By the Feynman rules, the expression for the correction is ((637c8bd8-d9ef-481c-a08a-3ec965b618a4))
+				- The definition of $\Gamma^\mu$ contains $-ie$, so the one of the inner vertex is cancelled.
+				- The second line uses the third ((637c8c74-1534-4627-bdd0-c5cf7f409a67))
+				- Why the gamma matrices in the last term $2 m\left(k+k^{\prime}\right)^\mu$ disappear? #Problem
+			- Feynman parameters #Trick
+			  collapsed:: true
+				- Idea: {{cloze Introduce auxiliary parameters to simplify the expression, then change the order of integration.}}
+					- The trick is usually followed by changing the order of integrations and shifting integration variables (To complete the square).
+					- So there's the inherent problem: Can we really exchange the order of integration? #Thoughts
+						- Similar problems abound. For example, lots of things don't converge absolutely.
+				- ((637c9a80-85fe-4e5c-bc14-36cd4b691001))
+				- ((637c9a87-b8af-4b42-ac19-a8b8c3edb007)) #card
+					- Proof. Differentiate the first identity
+				- ((637c9aa2-ba77-453f-8139-1e1a97735c0c)) #card
+					- The proof is to be completed.
+			- Apply the trick of Feynman parameters to 6.38
+				- Show the reference again ((637c8bd8-d9ef-481c-a08a-3ec965b618a4))
+				- ((637c9f2a-2b53-4a3e-a235-c66a85253329))
+					- The denominator is $D=\ell^2-\Delta+i \epsilon$, where $\ell \equiv k+y q-z p$, $\Delta \equiv-x y q^2+(1-z)^2 m^2$
+				-
+				- The numerator shall be expressed by $\ell$ and p.
+				- The expressions can be simplified by the symmetry of the integration
+					- ((637c9fce-166f-48b1-b4c1-d30e725f0b4c))
+						- The first vanishes, because $\ell$ and $-\ell$ have equal weights.
+						- The second can also be seen from symmetry. The factor can also be easily obtained.
+			- By some regrouping, we arrive at ((637ca07a-4f49-4ee5-b3da-b7cd50150fa7))
+				- This corresponds to ((637c7f9b-ad14-479b-abec-cbcd8300bf7f))
+			- We can evaluate the integral by [[Wick rotation]]
+				- ((637cbac0-aa10-4074-9829-429c036ea575))
+				- Results
+					- ((637cbae1-e476-44b1-b8fa-f17eea4c3dbb))
+					- ((637cbaec-83a0-4693-8150-80cd0de2e40a))
+						- This is problematic for m=3, which is precisely our situation.
+						  **We need to fix it.**
+			- $F_2$ has neither UV or IR divergence. Thus ((637cbe69-069f-425b-b517-7959ec93212d))
+				- This gives the correction of ((637c804b-50a9-466d-b43a-e89fdce7ac75)) at $\frac\alpha{2\pi}$
+				-
+			- On the other hand, $F_1$ has both UV and IR. So we need some magic to fix the problems.
+				- Pauli-Villars [[Regularization]] to fix UV
+					- Problem: The integration of $\ell^2$ terms diverge for m=3.
+					- Replace the photon propagator ((637cbbb3-04ff-4a2e-81be-c3f54ca16692))
+						- $\Lambda$ is a very large mass, corresponding to an infinitely heavy photon.
+						- When k becomes very large, the second term cancels the first term, thus avoiding divergence.
+					- In terms with the heavy photon:
+						- ((637cbc71-4997-4022-b049-6a0c72527a7e))
+							- The numerator algebra is unchanged.
+					- Thus the integral ((637cbaec-83a0-4693-8150-80cd0de2e40a)) is replaced by ((637cbce6-b55c-4e4b-a472-3f10a0915751))
+				- Intermediate result: ((637cbf4e-c94b-4357-8ff5-7bd50ba89e50))
+					- Brutal way to interpret the parameter: Since we know ad hoc that $F_1(0)=1$, ((637cc029-8dee-4ce9-b39f-62204db82286)) Where the subtracted term is the 'correction' to $F_1(0)$
+				- Introduce a small photon mass to fix IR
+					- Problem: $F_1$ diverges at $q^2=0$.
+						- ((637cc1bb-4657-4d3d-bbb4-be6d6404ac3c))
+						-
+			-
+	- [[Bremsstrahlung]]
+- Obtain macroscopic results from QED
+  collapsed:: true
+	- Use Born's approximation to link to [[Quantum Mechanics]]
+		- Add a [[Classical]] external field ((637c75c9-97e2-45d5-8b25-33c61663e7d0))
+		- Lande g-factor
+		  id:: 637c804b-50a9-466d-b43a-e89fdce7ac75
+			- ((637c8054-2570-47cb-b075-f0dc3f8279a6))
+			- The second term is the anomalous magnetic moment.
+		- See Peskin P210
+	-

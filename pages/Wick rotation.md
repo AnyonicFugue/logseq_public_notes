@@ -1,0 +1,4 @@
+- Idea
+	- By substituting $x_0'=ix_0$, the Minkowski metric becomes Euclidean.
+	- If the integrand decays fast enough as $z\to \infty$, the rotation can be easily justified,
+	-

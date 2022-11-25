@@ -1,10 +1,11 @@
 alias:: QFT
 
 - [[References]
-	- ![Peskin](file://C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf)
-	- ![Introduction_to_Quantum_Field_Theory.pdf](file://D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf)
+	- ![Peskin](file://C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf) The classical textbook by Peskin
+	- ![Introduction_to_Quantum_Field_Theory.pdf](file://D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf) Satoshi Nawata's lecturenotes
 	-
 - [[Interaction, Feynman diagrams and S-matrix]]
+  collapsed:: true
 	- [[Feynman rules]]
 	- A fundamental difficulty: We need the states to be asymptotic in the **interaction theory**. However, we only knows how to create **free** plane waves.
 	  collapsed:: true
@@ -44,6 +45,64 @@ alias:: QFT
 		  by a substitution of variable ((6379d42d-2944-458f-9110-e369a7bb0a42))
 			- Both of them only have one diagram, with a photon propagator in the middle.
 			- The kinetics are similar.
+- [[Klein-Gordon Theory]]
+	-
 - [[Yukawa theory]]
 - [[Quantum Electrodynamics]]
--
+- [[Classical Field Theory]]
+	- Noether's theorem #card
+	  collapsed:: true
+		- $$\begin{aligned}
+		  \partial _{\mu } j^{\mu } (x) & =0,\ \ \text{ for } \ \ j^{\mu } (x)=\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\frac{\delta \phi }{\delta \alpha } -\mathcal{J}^{\mu }
+		  \end{aligned}$$
+		- Points: EOM, construct full derivative
+		-
+		- Proof
+			- Consider a Lagrangian with sym. $\alpha$
+			- L must be inv. under different $\alpha$, up to a 4-divergence $\partial_\mu \mathcal{J}^{\mu }$:
+			  $$\begin{aligned}
+			  \frac{\delta \mathcal{L}}{\delta \alpha } & =\frac{\partial \mathcal{L}}{\partial \phi }\frac{\delta \phi }{\delta \alpha } +\left(\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\right) \partial _{\mu } (\frac{\delta \phi }{\delta \alpha } )\\
+			   & =\partial _{\mu }\left(\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\frac{\delta \phi }{\delta \alpha }\right) +\alpha \left[\frac{\partial \mathcal{L}}{\partial \phi } -\partial _{\mu }\left(\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\right)\right]\frac{\delta \phi }{\delta \alpha }
+			  \end{aligned}$$
+			- Substitute EOM: We're done.
+		- Example
+			- [[Energy-momentum Tensor]] 
+			  $\mathcal{T}_{\mu \nu}=\sum_{n} \frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} \phi_{n}\right)} \partial_{\nu} \phi_{n}-g_{\mu \nu} \mathcal{L}$
+		- Ref. Peskin, ((63805db9-661f-470f-9403-3ff9ae8aa7dd))
+- Causality and Propagators
+  collapsed:: true
+	- $\langle 0|[\phi(x), \phi(y)]| 0\rangle=0$ for spacelike separation, which preserves [[Causality]].
+		- Use some invariance/symmetry to simplify the problem. ([[Lorentz invariance]] in this case) #Trick
+	-
+	- [[Propagator]], or time-ordered product
+		- $$\langle 0|\phi(x) \phi(y)| 0\rangle=\int \frac{d^3 p}{(2\pi)^3} \cdot \frac{1}{2 E_p} \cdot e^{-i p(x-y)}:=D(x-y)$$
+		- Feynman propagator
+		  id:: 129a2538-6668-4ae1-a5cc-a7cf58e6122b
+			- Def
+				- $D_{F}( x_{1} ,x_{2}) =\langle 0| T\{\phi _{0}( x_{1}) \phi _{0}( x_{2})\}| 0\rangle =\int \frac{d^{4} k}{(2\pi )^{4}}\frac{i}{k^{2} -m^{2} +i\varepsilon } e^{ik( x_{1} -x_{2})}$
+				- Points: Exponential term from $a_p e^{ipx}$; denominator produces singularities.
+			-
+			- Core point: $$\frac{e^{-iE_{k} \tau } \theta (\tau )+e^{iE _{k} \tau } \theta (-\tau )}{2E_k}=\lim _{\varepsilon \rightarrow 0}\int _{-\infty }^{\infty }\frac{dp_0}{2\pi}\frac{i }{p_0 ^{2} -E _{k}^{2} +i\varepsilon } e^{-ip_0 \tau }$$ 
+			  'Phase multiples Heaviside'
+			- Note tha $D_F$ is the [[Green Function]] of KG operator, i.e. 
+			  $$\left(\partial^\mu \partial_\mu+m^2\right) D_F(x-y)=-i \delta^4(x-y)$$
+		- Dirac Propagator
+			- Def
+				- $$\begin{aligned}
+				  &S_F(x-y)=\int \frac{d^4 p}{(2 \pi)^4} \frac{i(\not p+m)}{p^2-m^2+i \epsilon} e^{-i p \cdot(x-y)}\\
+				  &=\left\{\begin{aligned}
+				  \langle 0|\psi(x) \bar{\psi}(y)| 0\rangle & \text { for } x^0>y^0 \text { (close contour below) } \\
+				  -\langle 0|\bar{\psi}(y) \psi(x)| 0\rangle & \text { for } x^0<y^0 \text { (close contour above) }
+				  \end{aligned}\right.\\
+				  &\equiv\langle 0|T \psi(x) \bar{\psi}(y)| 0\rangle
+				  \end{aligned}$$
+			- This is $-(i\gamma^\mu p_\mu+m)D_F(x-y)$.
+				- With the 'dirac operator' $i\gamma^\mu p_\mu-m$ acting on it, we obtain $(\square+m^2)D_F(x-y)\cdot \mathbb1_4$.
+				- The same idea as obtaining KG eq. from Dirac eq.
+			-
+			- Exercise. The [[Time-ordered product]] gives the correct propagator
+				- Tip: Modify $$\frac{e^{-iE_{k} \tau } \theta (\tau )+e^{iE _{k} \tau } \theta (-\tau )}{2E_k}=\lim _{\varepsilon \rightarrow 0}\int _{-\infty }^{\infty }\frac{dp_0}{2\pi}\frac{i }{p_0 ^{2} -E _{k}^{2} +i\varepsilon } e^{-ip_0 \tau }$$
+				- Use Lorentz invariance (or change of integration variables)
+			-
+			- Take care of the minus sign! (Compare ((129a2538-6668-4ae1-a5cc-a7cf58e6122b)) )
+	-

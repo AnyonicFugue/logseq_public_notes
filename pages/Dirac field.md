@@ -18,7 +18,6 @@
 		- ((6379ca39-4ba2-4254-9131-88e223be6a0c))
 			- ((6379caaa-1758-4942-a553-19b721e4a1c2))
 	- Commutation relations #card
-	  collapsed:: true
 		- ((6379ca88-2a1b-4068-a7f7-0cb7197d696c))
 		- ((6379ca9b-6830-497a-b6bc-0aaec1f62441))
 	- Trace Tricks
@@ -29,6 +28,14 @@
 			- ((636a0c8b-0a46-4264-934f-cd22e44ec60e))
 			- ((636a0c90-f02b-443d-859f-94f734dd5990))
 			  Reversing order
-			- ((636a0c99-3ccf-426e-a1fb-95d1deaf677e))
-			  Contraction identities
+			- Contraction identities
+			  id:: 637c8c74-1534-4627-bdd0-c5cf7f409a67
+				- ((636a0c99-3ccf-426e-a1fb-95d1deaf677e))
 			- Easily proven by anticommutation and symmetry of $g_{\mu\nu}$
+	- Gordon identity
+	  id:: 637c7efe-edc6-41a0-8de5-02abe2f76eb1
+		- ((637c7f07-18ee-4d3d-bdc4-3bde16d6d924))
+	- $\not p u(p)=m \cdot u(p)$ and $\bar{u}\left(p^{\prime}\right) \not p^{\prime}=\bar{u}\left(p^{\prime}\right) \cdot m$
+		- This is just Dirac equation.
+		-
+	-
