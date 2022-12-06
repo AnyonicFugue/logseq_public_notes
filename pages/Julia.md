@@ -1,17 +1,42 @@
 - Frequently used features
   id:: 6378d89e-e3e2-4c22-b277-bc66afece232
 	- Logical operators #card
+	  card-last-interval:: 10
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2022-12-20T11:51:10.189Z
+	  card-last-reviewed:: 2022-12-10T11:51:10.190Z
+	  card-last-score:: 5
 		- C-style `&&, !, ||`
 	- Parallel computation
-		- Multithreading #card
-			- Add `--threads=auto`  as a command argument at startup
-			- Just add `Threads.@threads`  to parallelize a for loop!
-				- ```	 
-				  	Threads.@threads for i = 1:10
-				           a[i] = Threads.threadid()
-				       end
-				  ```
-			- Potential problems
+		- Multithreading
+		  card-last-interval:: 10
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2022-12-15T12:57:37.498Z
+		  card-last-reviewed:: 2022-12-05T12:57:37.498Z
+		  card-last-score:: 5
+			- Syntax #card
+			  card-last-interval:: 10
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2022-12-16T07:42:51.041Z
+			  card-last-reviewed:: 2022-12-06T07:42:51.042Z
+			  card-last-score:: 5
+				- Add `--threads=auto`  as a command argument at startup
+				- Just add `Threads.@threads`  to parallelize a for loop!
+					- ```	 
+					  	Threads.@threads for i = 1:10
+					           a[i] = Threads.threadid()
+					       end
+					  ```
+			- Potential problems #card
+			  card-last-interval:: 10.42
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2022-12-23T16:28:00.325Z
+			  card-last-reviewed:: 2022-12-13T06:28:00.325Z
+			  card-last-score:: 5
 				- Racing
 					- Avoid modifying (including +=) one piece of data from multiple threads.
 				- Overhead at memory allocation
@@ -19,7 +44,24 @@
 					- Use static arrays for critical parts of code
 		- Multiprocessing
 	- Plotting #card
+	  card-last-interval:: 10
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2022-12-19T12:43:40.095Z
+	  card-last-reviewed:: 2022-12-09T12:43:40.096Z
+	  card-last-score:: 5
 		- Temporary solution: Use GR.jl to plot and use readline() to block the program.
+		- ```
+		      GR.xlabel("\$tL^{1/v}\$")
+		      GR.ylabel("\$ML^{ (D-2+\\eta)/ 2}\$")
+		      GR.scatter(vec(x_list),vec(y_list)) #Scattered points
+		      a=readline()
+		  
+		      GR.xlabel("T")
+		      GR.ylabel("Binder cumulant")
+		      GR.plot(T_list, Binder_para_list[1,:]) #Points connected by lines
+		  ```
+		- Essentially, store the data into arrays then plot them.
 	- Matrix operations
 	  collapsed:: true
 		- A' is complex conjugation
@@ -31,17 +73,41 @@
 			  #+END_QUOTE
 		- More generally, the tools [docs.julialang.org/en/v1/manual/performance tips/#tools](https://docs.julialang.org/en/v1/manual/performance-tips/#tools) can help.
 	- Specify the type when declaring a function #card
+	  card-last-interval:: 10
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2022-12-14T06:09:02.065Z
+	  card-last-reviewed:: 2022-12-04T06:09:02.065Z
+	  card-last-score:: 5
 		- `function Wolff_iterate(StateArr::Array{Int8})`
 - Common mistakes
 	- Usage of range #card
+	  card-last-interval:: 10
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2022-12-06T13:01:01.199Z
+	  card-last-reviewed:: 2022-11-26T13:01:01.200Z
+	  card-last-score:: 5
 		- `range(1,10)`
 		- I must specify the beginning.
 		- It is comma instead of colons (Different from [[Python]])
 	- Access and slice multidimensional arrays #card
+	  card-last-interval:: 10.42
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2022-12-17T22:07:20.470Z
+	  card-last-reviewed:: 2022-12-07T12:07:20.470Z
+	  card-last-score:: 5
 		- Use [i,j] instead of [i][j] (Different from [[C++]])
 		- Use [i,:] to obtain a slicing. **The dummy index must have a colon.**
 			- [i] isn't enough; Julia would return only one element.
 			- Note that partial slicing is also possible. See document.
 	- Vectorized operations #card
+	  card-last-interval:: 10
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2022-12-13T07:02:21.115Z
+	  card-last-reviewed:: 2022-12-03T07:02:21.115Z
+	  card-last-score:: 5
 		- `arr=arr.^2`
 		- The dot is necessary.

@@ -1,12 +1,24 @@
 - Defs
 	- Evenly covered #card
 	  collapsed:: true
-		- ((637845df-9171-43f6-a080-223b3657bab1))
+	  card-last-interval:: 10.42
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2022-12-09T21:58:55.462Z
+	  card-last-reviewed:: 2022-11-29T11:58:55.463Z
+	  card-last-score:: 5
+		- Definition. Let $p : E \rightarrow B$ be a continuous surjective map. The open set $U$ of $B$ is said to be **evenly covered** by $p$ if the inverse image $p^{-1}(U)$ can be written as the union of **disjoint** open sets $V_\alpha$ in $E$ such that for each $\alpha$, the restriction of $p$ to $V_\alpha$ is a **homeomorphism** of $V_\alpha$ onto $U$ The collection $\left\{V_\alpha\right\}$ will be called a partition of $p^{-1}(U)$ into slices
 			- In other words, E contains several disjoint copies of U, which are 'squashed into one' by p.
 	- [[Covering map]]
+	  collapsed:: true
 		- Def #card
-			- ((637846bd-bb61-4675-9600-88d9ee045931))
-			  collapsed:: true
+		  card-last-interval:: 10
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2022-12-06T06:21:13.376Z
+		  card-last-reviewed:: 2022-11-26T06:21:13.376Z
+		  card-last-score:: 5
+			- Let $p \quad E \rightarrow B$ be continuous and surjective. If every point $b$ of $B$ **has a neighborhood** $U$ that is evenly covered by $p$, then $p$ is called a covering map, and $E$ is said to be a covering space of $B$
 				- This is not a very [[Global]] property. Each point can only be sliced [[Locally]]
 			- ((637847e2-9127-482b-b496-95136f6e6f95))
 			- ((6378484a-4de6-4e9c-9ea8-8b3c8572e378))

@@ -1,0 +1,17 @@
+- Basic signs
+	- 'Big' things are obtained by {{cloze capitalizing the first letter}}.
+		- $\Rightarrow$ = `\Rightarrow`
+	- $\subset$ and $\subseteq$ #card
+- Lists and Tables
+- Text Alignment
+- Paragraph Formatting
+	- Multi-column
+		- `\package{multicols}{n}`
+		-
+- Citation and Bib
+	- Summary
+		- First, create a `.bib` file
+		- Add items to the file
+			- They can be exported in arXiv
+		- Use `\bibliography{file}` to include it
+		- Use `\cite{Kitaev_2006}` to cite specific articles

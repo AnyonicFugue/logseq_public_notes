@@ -22,21 +22,32 @@ alias:: QFT
 	- [[Helicity]] structure in scattering
 		- High-E limit #card
 		  collapsed:: true
+		  card-last-interval:: 10
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2022-12-07T14:22:22.088Z
+		  card-last-reviewed:: 2022-11-27T14:22:22.089Z
+		  card-last-score:: 3
 			- All fermions can be regarded as massless.
 			- For $\xi=\left(\begin{array}{l}1 \\ 0\end{array}\right)$, ((6379c82e-aa21-424e-9d43-339a251a9bc2))
 				- And the same for spin down.
-				- Note $p^3$ stands for $p\cdot \sigma^3$
+				- Note $p^3$ is $p^z$. The formula can be verified directly by #TODO
 			- ((6379cf92-7252-44e9-b63d-ce792967a710))
 				- Note that it is different for fermions and anti-fermions.
 			- In other words, now [[Helicity]] and [[Chirality]] becomes identical.
 		- Contribution of different helicities
-		  collapsed:: true
 			- Idea: Use the projectors $\frac{1\pm\gamma^5}{2}$ to get certain helicities.
 			- ((6379d13b-9ca8-4786-9cf5-265e23751503))
 				- $\gamma^5$ anticommutes with any single $\gamma^\mu$
 				- LHS determines the helicity of u, while RHS determines v.
 			- Proceed by the common process to obtain $|M|^2$ and $\frac{d \sigma}{d \Omega}$, we can obtain all contributions of the different combinations.
 				- Exercise: what are the possible combinations for $e^{+} e^{-} \rightarrow \mu^{+} \mu^-$? #card
+				  card-last-interval:: 10
+				  card-repeats:: 2
+				  card-ease-factor:: 2.46
+				  card-next-schedule:: 2022-12-24T05:51:31.519Z
+				  card-last-reviewed:: 2022-12-14T05:51:31.519Z
+				  card-last-score:: 5
 					- Input and output can be $(++),(--)$ respectively.
 					- 4 in total.
 	- Crossing symmetry
@@ -52,6 +63,12 @@ alias:: QFT
 - [[Classical Field Theory]]
 	- Noether's theorem #card
 	  collapsed:: true
+	  card-last-interval:: 11.8
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2022-12-27T00:22:55.688Z
+	  card-last-reviewed:: 2022-12-15T05:22:55.689Z
+	  card-last-score:: 5
 		- $$\begin{aligned}
 		  \partial _{\mu } j^{\mu } (x) & =0,\ \ \text{ for } \ \ j^{\mu } (x)=\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\frac{\delta \phi }{\delta \alpha } -\mathcal{J}^{\mu }
 		  \end{aligned}$$

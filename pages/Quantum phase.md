@@ -1,5 +1,11 @@
 - Gapless quantum liquid #card
   collapsed:: true
+  card-last-interval:: 10
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2022-12-14T06:04:03.230Z
+  card-last-reviewed:: 2022-12-04T06:04:03.230Z
+  card-last-score:: 5
 	- ((636875bf-597b-4b49-9d83-1c1ebaf7fa03))
 	- ((636875c8-8ed5-4968-bda6-023612f46a42))
 	-

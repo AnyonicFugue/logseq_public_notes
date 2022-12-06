@@ -51,25 +51,11 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   hl-stamp:: 1668329652220
 - [:span]
   ls-type:: annotation
-  hl-page:: 350
-  hl-color:: blue
-  id:: 6370b321-7ab2-4048-9589-92ceb419c490
-  hl-type:: area
-  hl-stamp:: 1668330272913
-- [:span]
-  ls-type:: annotation
   hl-page:: 353
   hl-color:: blue
   id:: 637845df-9171-43f6-a080-223b3657bab1
   hl-type:: area
   hl-stamp:: 1668826590045
-- [:span]
-  ls-type:: annotation
-  hl-page:: 353
-  hl-color:: blue
-  id:: 637846bd-bb61-4675-9600-88d9ee045931
-  hl-type:: area
-  hl-stamp:: 1668826813457
 - Note that if $$p: E\to B$$ is a covering map, then for each $$x\in B$$, $$p^{-1}(x)$$ has discrete topology, i.e. the points can be separated
   hl-stamp:: 1668827107527
   hl-page:: 353
@@ -145,24 +131,80 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   id:: 63785096-0339-4367-8142-97fb0589ff89
   hl-type:: area
   hl-stamp:: 1668829334357
-- [:span]
+- Lemma
   ls-type:: annotation
   hl-page:: 359
-  hl-color:: purple
-  id:: 63798b93-5359-4575-b76e-e62e28d7fcc3
-  hl-type:: area
-  hl-stamp:: 1668909970682
+  hl-color:: yellow
+  id:: 63830159-da94-4cac-9da6-bf8c5a61256e
+- Definition.
+  ls-type:: annotation
+  hl-page:: 362
+  hl-color:: yellow
+  id:: 638c0dc2-8ba5-49b1-a443-6a4c808f0acf
+- Theorem
+  ls-type:: annotation
+  hl-page:: 362
+  hl-color:: yellow
+  id:: 638c3f1f-7609-4ec8-880f-7b851dea0f63
+- Theorem
+  ls-type:: annotation
+  hl-page:: 363
+  hl-color:: yellow
+  id:: 638c406f-36aa-4e14-916a-5bfa265284e8
+- Lemma
+  ls-type:: annotation
+  hl-page:: 365
+  hl-color:: yellow
+  id:: 638d5522-85b2-4c12-bca3-62846d934042
 - [:span]
+  ls-type:: annotation
+  hl-page:: 366
+  hl-color:: yellow
+  id:: 638d639f-33d9-4a25-b658-4f63d2ddb144
+  hl-type:: area
+  hl-stamp:: 1670210462718
+- Lemma
   ls-type:: annotation
   hl-page:: 192
-  hl-color:: purple
-  id:: 63798d25-b499-41f8-a9e8-262dc4c3b0d3
-  hl-type:: area
-  hl-stamp:: 1668910371318
-- [:span]
+  hl-color:: yellow
+  id:: 638de986-e9a0-45a2-bba8-d698da5b3ed1
+- Lemma
   ls-type:: annotation
   hl-page:: 360
-  hl-color:: purple
-  id:: 637990f4-6cbe-49f4-8616-6817b8cb030d
-  hl-type:: area
-  hl-stamp:: 1668911347055
+  hl-color:: yellow
+  id:: 639146c8-4398-49fe-b838-f118e24d243b
+- Corollary
+  ls-type:: annotation
+  hl-page:: 367
+  hl-color:: yellow
+  id:: 6393ecbc-590b-426b-8528-d730e640b237
+- Theorem
+  ls-type:: annotation
+  hl-page:: 367
+  hl-color:: yellow
+  id:: 6393f3d8-803c-4134-af68-b91b9739c5e7
+- Theorem
+  ls-type:: annotation
+  hl-page:: 368
+  hl-color:: yellow
+  id:: 6393f81a-de32-4d11-b971-629c48983742
+- One might well wonder why fixed-point theorems are of interest in mathematics. It turns out that many problems, such as problems concerning existence of solutions for systems of equations, for instance, can be formulated as fixed-point problems.
+  hl-page:: 368
+  ls-type:: annotation
+  id:: 63953b25-8709-4182-9cb5-87d46acf1a4f
+  hl-color:: green
+- Corollary
+  ls-type:: annotation
+  hl-page:: 368
+  hl-color:: yellow
+  id:: 63953d32-29d5-4ffe-aec8-c9a40be4e936
+- Lemma
+  ls-type:: annotation
+  hl-page:: 377
+  hl-color:: yellow
+  id:: 639541d5-9e08-4c84-97f1-a779990ec598
+- Theorem
+  ls-type:: annotation
+  hl-page:: 377
+  hl-color:: yellow
+  id:: 63954564-3e1d-4f74-81c3-bea192c5ffdd

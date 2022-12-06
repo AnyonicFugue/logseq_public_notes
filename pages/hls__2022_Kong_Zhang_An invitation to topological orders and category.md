@@ -1,5 +1,5 @@
 file:: [2022_Kong_Zhang_An invitation to topological orders and category.pdf](zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf)
-file-path:: zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf
+file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf
 
 - Note that a macroscopic description of a topological order is possible simply because the notion of a quantum phase is itself a macroscopic notion. Therefore, it is reasonable that the precise characterization of a quantum phase can be obtained by summarizing the complete1 set of ‘observables’ in the thermodynamic limit and in the long wave length limit
   ls-type:: annotation
@@ -269,7 +269,7 @@ file-path:: zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An inv
   id:: 636ca710-55ab-45a0-aa16-0274e4ed00e4
   hl-type:: area
   hl-stamp:: 1668065035829
-- A [[Topological excitation]] is a module over the local operator algebra.
+- A [[Topological excitation]] is a [[Module]] over the local operator algebra.
   ls-type:: annotation
   hl-page:: 33
   hl-color:: purple
@@ -851,7 +851,7 @@ file-path:: zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An inv
   ls-type:: annotation
   id:: 63759a9b-ed1d-436b-80c6-44df744f15b4
   hl-color:: purple
-- If two topological orders C, D have the same [[UMTc]] of particle-like topological defects C = D, then it is believed that they are only differed by several copies of the E8 topological order.
+- If two topological orders C, D have the same [[UMTC]] of particle-like topological defects C = D, then it is believed that they are only differed by several copies of the E8 topological order.
   hl-page:: 74
   ls-type:: annotation
   id:: 63759ac0-b94e-46c3-8d51-5b51b31b7c12
@@ -1026,7 +1026,7 @@ file-path:: zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An inv
   id:: 637ad683-2c60-43af-868c-f7eaacd40528
   hl-type:: area
   hl-stamp:: 1668994691585
-- Let G be a finite group. The Drinfeld center of both Rep(G) and $Vec_G$ are equivalent to the [[Quantum double]] category DG (see Section 3.6.3) as modular tensor categories.
+- Let G be a finite group. The Drinfeld center of both Rep(G) and $Vec_G$ are equivalent to the [[Quantum Double]] category DG (see Section 3.6.3) as modular tensor categories.
   hl-page:: 86
   ls-type:: annotation
   id:: 637ad6fa-3746-4892-bba8-183120acd329
@@ -1050,10 +1050,84 @@ file-path:: zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An inv
   id:: 637ad93c-b21f-446d-9d6c-54b25d5ddff7
   hl-type:: area
   hl-stamp:: 1668995387778
-- [:span]
+- Definition 
   ls-type:: annotation
   hl-page:: 87
+  hl-color:: yellow
+  id:: 6396c42e-78cc-49aa-9862-fb85bef0c8d0
+- [:span]
+  ls-type:: annotation
+  hl-page:: 88
   hl-color:: blue
-  id:: 637adb66-1b93-45fd-ba8f-1bcba43f4452
+  id:: 6396c7da-7ad3-4b94-bec5-0391f39cd6ab
   hl-type:: area
-  hl-stamp:: 1668995942133
+  hl-stamp:: 1670825946539
+- Surprisingly,
+  ls-type:: annotation
+  hl-page:: 88
+  hl-color:: purple
+  id:: 6396c828-35e5-4c50-ac66-97596bf4c794
+  hl-stamp:: 1670826082649
+- There exists another domain wall N between D and C such that their fusions are trivial domain walls:
+  hl-stamp:: 1670826160658
+  hl-page:: 89
+  ls-type:: annotation
+  id:: 6396c8ae-1392-44c2-9548-289c962b426b
+  hl-color:: blue
+- [:span]
+  ls-type:: annotation
+  hl-page:: 89
+  hl-color:: purple
+  id:: 6396c9bd-f680-4a7d-b1e5-d9f8de7ae7ff
+  hl-type:: area
+  hl-stamp:: 1670826429261
+- Indeed, this is a group isomorphism and both two groups are isomorphic to the Picard group of C
+  ls-type:: annotation
+  hl-page:: 89
+  hl-color:: purple
+  id:: 6396cb2f-4bd5-4007-8a41-368b75419231
+- There are 6 different simple (i.e., stable) gapped 1d domain walls in the toric code model [LWW15]. Four of them as depicted in Figure 55 are non-invertible 
+  ls-type:: annotation
+  hl-page:: 89
+  hl-color:: purple
+  id:: 6396cfd2-fc56-46df-9ec7-b97a3ddf7bd5
+- [:span]
+  ls-type:: annotation
+  hl-page:: 90
+  hl-color:: purple
+  id:: 6396cfdd-67ea-4977-a4ab-4f34abe42fb9
+  hl-type:: area
+  hl-stamp:: 1670828003991
+- [:span]
+  ls-type:: annotation
+  hl-page:: 90
+  hl-color:: blue
+  id:: 6396d07b-023c-4673-b778-cc1e03d629db
+  hl-type:: area
+  hl-stamp:: 1670828154841
+- This domain wall is also called the e-m-exchange domain wall,
+  ls-type:: annotation
+  hl-page:: 91
+  hl-color:: blue
+  id:: 6397d5cf-973b-4b7d-9ffd-56379c4d8b84
+- [:span]
+  ls-type:: annotation
+  hl-page:: 91
+  hl-color:: purple
+  id:: 6397d84a-bb0f-4e71-93b8-5077ea559ddb
+  hl-type:: area
+  hl-stamp:: 1670895690332
+- [:span]
+  ls-type:: annotation
+  hl-page:: 91
+  hl-color:: purple
+  id:: 6397d8c8-261e-4b5e-8bb6-0dff22e5daec
+  hl-type:: area
+  hl-stamp:: 1670895816316
+- [:span]
+  ls-type:: annotation
+  hl-page:: 91
+  hl-color:: purple
+  id:: 6397d8cf-5735-4cb5-a000-e3edcf67c3a6
+  hl-type:: area
+  hl-stamp:: 1670895823217

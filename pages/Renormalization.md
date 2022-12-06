@@ -1,0 +1,9 @@
+- ((63902f14-d931-401b-a27f-5d9f95c9791c))
+	- For example, physical mass of electrons are not the bare mass.
+- Comparing QFT to classical theories about cutoff
+	- Fluid mechanics
+		- Microscopic degrees of freedom (motion of the atoms) behave as macroscopic degrees of freedom (transportation, sound waves) after renormalization.
+	- [[QFT]]
+		- ((63902fd3-2777-45da-a15d-df163f153399))
+		- It is a miracle that the [[Photon]] has zero mass!
+	-

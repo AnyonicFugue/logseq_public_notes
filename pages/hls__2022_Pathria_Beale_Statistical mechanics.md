@@ -40,7 +40,7 @@ file-path:: zotero_link/Physics/Courses/Statistical/2022_Pathria_Beale_Statistic
   id:: 637e20d9-4cb8-4aef-bd85-d419ff73e31c
   hl-type:: area
   hl-stamp:: 1669210328826
-- Fokker–Planck equation
+- Fokker–Planck
   ls-type:: annotation
   hl-page:: 651
   hl-color:: blue

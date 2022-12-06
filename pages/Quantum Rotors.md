@@ -1,0 +1,1 @@
+- $H_R=\frac{J \tilde{g}}{2} \sum_i \hat{\mathbf{L}}_i^2-J \sum_{\langle i j\rangle} \hat{\mathbf{n}}_i \cdot \hat{\mathbf{n}}_j$

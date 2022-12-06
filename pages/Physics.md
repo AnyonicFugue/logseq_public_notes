@@ -1,3 +1,3 @@
 - [[Quantum Field Theory]]
-- [[Quantum computation]]
+- [[Quantum Computation]]
 - [[Topological Order]]

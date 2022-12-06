@@ -1,6 +1,7 @@
 alias:: QED
 
 - [[Quantization]] of EM field
+  collapsed:: true
 	- $$\begin{aligned}
 	  &A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_p}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}+a_p^{\lambda \dagger} e^{i p \cdot x}\right) \\
 	  &\pi_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3}(+i) \sqrt{\frac{E_p}{2}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}-a_p^{\lambda \dagger} e^{i p \cdot x}\right)
@@ -8,6 +9,12 @@ alias:: QED
 	-
 - From [[Yukawa theory]] to QED #card
   collapsed:: true
+  card-last-interval:: 10
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2022-12-16T07:44:12.953Z
+  card-last-reviewed:: 2022-12-06T07:44:12.953Z
+  card-last-score:: 5
 	- ((636908da-dc02-4ff9-bc45-1b3b3c4e8517))
 		- So elegant! $\gamma^\mu$ marries $A_\mu$
 		- Would different choice of gamma affect physics? eg. Weyl or Majarona? #Problem
@@ -44,27 +51,51 @@ alias:: QED
 	- Note: The 'phase-space dependence' originates from ((636a108d-1c99-463c-bd06-6105cdf58bbd)), where we don't care about the momenta of the particles coming out, only direction.
 	- [[Compton scattering]]
 		- Key points #card
+		  card-last-interval:: 10
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2022-12-25T11:57:00.604Z
+		  card-last-reviewed:: 2022-12-15T11:57:00.604Z
+		  card-last-score:: 5
 			- Draw **two** diagrams
 			- Simplifications
 				- Use some basic relations ((6379e1d5-cde6-45c1-9024-4b12b6a35650)) to simplify the denominator
 				- Use ((6379e3b6-ac3e-4770-a535-ccfaeb1e3f28)) to simplify the numerator.
 			- Perform spin sums
+				- Nothing special here.
 		- Two diagrams
 			- ((6379d890-1f5b-4f30-9855-5dbd1a1b68be))
-				- Can we have antifermions in the inner line? #card
-					- NO. The contractions with external fermions enforce this.
+				- Can we have antifermions, instead of fermions, in the inner line? #card
+				  card-last-interval:: 25.6
+				  card-repeats:: 3
+				  card-ease-factor:: 2.56
+				  card-next-schedule:: 2023-01-10T01:52:28.898Z
+				  card-last-reviewed:: 2022-12-15T11:52:28.898Z
+				  card-last-score:: 5
+					- I think they're actually equivalent. The inner line is the contraction of two field operators.
+					- ![image.png](../assets/image_1669444097713_0.png)
 		- Invoking the Feynman rules, we can write down the total M matrix 
 		  $i \mathcal{M}=\bar{u}\left(p^{\prime}\right)\left(-i e \gamma^\mu\right) \epsilon_\mu^*\left(k^{\prime}\right) \frac{i(\not p+\not k+m)}{(p+k)^2-m^2}\left(-i e \gamma^\nu\right) \epsilon_\nu(k) u(p)$
 		  $+\bar{u}\left(p^{\prime}\right)\left(-i e \gamma^\nu\right) \epsilon_\nu(k) \frac{i\left(\not p-\not k^{\prime}+m\right)}{\left(p-k^{\prime}\right)^2-m^2}\left(-i e \gamma^\mu\right) \epsilon_\mu^*\left(k^{\prime}\right) u(p)\\=-i e^2 \epsilon_\mu^*\left(k^{\prime}\right) \epsilon_\nu(k) \bar{u}\left(p^{\prime}\right)\left[\frac{\gamma^\mu(\not p+\not k+m) \gamma^\nu}{(p+k)^2-m^2}+\frac{\gamma^\nu\left(\not p-\not k^{\prime}+m\right) \gamma^\mu}{\left(p-k^{\prime}\right)^2-m^2}\right] u(p)$
 		- Simplifications
-			- ((6379e1d5-cde6-45c1-9024-4b12b6a35650)) To simplify the denominators
-			- ((6379e3b6-ac3e-4770-a535-ccfaeb1e3f28)) to simplify the numerators.
-				- The last equality can be proven by the spin sums.
+			- $(p+k)^2-m^2=2 p \cdot k \quad$ and $\quad\left(p-k^{\prime}\right)^2-m^2=-2 p \cdot k^{\prime}$ 
+			  To simplify the denominators.
+				- Note the external photons are on-shell. For off-shell internal photons this can't apply.
+			- $\begin{aligned}(\not p+m) \gamma^\nu u(p) &=\left(2 p^\nu-\gamma^\nu \not p+\gamma^\nu m\right) u(p) \\ &=2 p^\nu u(p)-\gamma^\nu(\not p-m) u(p) \\ &=2 p^\nu u(p) \end{aligned}$
+			  to simplify the numerators.
+				- Simply invoke ((6385f0a2-e52f-444e-b94f-41d91b3b69c4)) for the last equality.
 		- ((6379e410-066b-4ee4-a4e2-ac831ae0bcbf))
 		- Now we need to sum the polarizations over the photons and the electrons.
 			- The sum for the spins is familiar.
 			- The trick for photons #card
-				- ((6379e47e-61a5-4599-985f-889017c30915))
+			  card-last-interval:: 10
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2022-12-25T05:25:31.475Z
+			  card-last-reviewed:: 2022-12-15T05:25:31.476Z
+			  card-last-score:: 5
+				- $\sum_{\text {polarizations }} \epsilon_\mu^* \epsilon_\nu \longrightarrow-g_{\mu \nu}$
+				  Don't forget the minus.
 				- This isn't an actual equality, but it works in calculating the scatterings.
 				- Proof
 					- ((637ae38e-ce30-44e7-a6b9-67dec4cec7ed))
@@ -72,99 +103,40 @@ alias:: QED
 					- Select k in z direction for simplicity  $\epsilon_1^\mu=(0,1,0,0) ; \quad \epsilon_2^\mu=(0,0,1,0)$. 
 					  We obtain $\sum_\epsilon\left|\epsilon_\mu^*(k) \mathcal{M}^\mu(k)\right|^2=\left|\mathcal{M}^1(k)\right|^2+\left|\mathcal{M}^2(k)\right|^2$
 					- By [[Ward identity]], $\mathcal{M}^0=\mathcal{M}^3$
-					- Thus ((637ae426-99ad-4d34-868f-db59435efe39))
+					- Thus 
+					  $\begin{aligned} \sum_\epsilon \epsilon_\mu^* \epsilon_\nu \mathcal{M}^\mu(k) \mathcal{M}^{\nu *}(k) &=\left|\mathcal{M}^1\right|^2+\left|\mathcal{M}^2\right|^2 \\ &=\left|\mathcal{M}^1\right|^2+\left|\mathcal{M}^2\right|^2+\left|\mathcal{M}^3\right|^2-\left|\mathcal{M}^0\right|^2 \\ &=-g_{\mu \nu} \mathcal{M}^\mu(k) \mathcal{M}^{\nu *}(k) \end{aligned}$
+					-
 		- The rest is just squaring M and performing the spin sums.
 			- Note that you may find extra $\gamma^0$ in $(\gamma^\mu)^\dag=\gamma^0\gamma^\mu\gamma^0$
 			- The extra gammas are absorbed in $\bar u(p)=u^\dag(p)\gamma^0$
 			-
 		- Final result
 			- ((637ae60f-71b1-4bbd-bfba-96333ac6ecc9))
-- Radiative Corrections
-	- [[Loop-diagrams]]
-		- Overall scheme #card
-			- Write out the vertex function and analyze the possible ingredients by some general principles.
-			- A brief ((637cbf81-c429-40c1-ac36-c05a0c2b58c8)) in Peskin
-		- The loops leads to [[Ultraviolet Divergence]] and [[Infrared Divergence]].
-		- The vertex function
-			- ((637c7ca7-9ad3-4bef-91c6-02723922d5e0))
-			- Denoted as $-i e \Gamma^\mu\left(p^{\prime}, p\right)$
-		- General analysis of the vertex function
-		  collapsed:: true
-			- First of all, the only possible recipes are $p,p',\gamma^\mu,m,e,$ pure numbers.
-			- [[Lorentz covariance]]
-			  collapsed:: true
-				- Forcing ((637c7d3f-7675-407b-85c7-0f9398e74aa0))
-					- ((637c7d9c-c89f-4466-83ff-7e89c733ef8b))
-				- Moreover, the only possible nontrivial scalar is $p^\mu p'_\mu$, since $p^2=m^2$
-			- [[Ward identity]]
-				- $(p^\mu-p'^\mu)\Gamma_\mu=0$
-				- Obviously this forces $C=0$
-				- ((637c7e07-4519-4a7f-825d-65eb89a46046)) #card
-					- [[Ward identity]] actually applies to the S-matrix element, not to the vertex function. So everything can be traced back to the [[S-matrix]].
-			- ((637c7efe-edc6-41a0-8de5-02abe2f76eb1))
-				- Thus we can express a linear combination of $\gamma^\mu$ and $p^\mu+p'^\mu$ by $\gamma^\mu$ and $\sigma^{\mu\nu}q_\nu$
-				-
-			- Final result of the vertex function #card
-				- ((637c7f9b-ad14-479b-abec-cbcd8300bf7f))
-			-
-			-
-		- Evaluation of the vertex function
-			- Notation. ((637c8bcc-7c8a-4541-9ea3-0955c3bc1cc2))
-			- By the Feynman rules, the expression for the correction is ((637c8bd8-d9ef-481c-a08a-3ec965b618a4))
-				- The definition of $\Gamma^\mu$ contains $-ie$, so the one of the inner vertex is cancelled.
-				- The second line uses the third ((637c8c74-1534-4627-bdd0-c5cf7f409a67))
-				- Why the gamma matrices in the last term $2 m\left(k+k^{\prime}\right)^\mu$ disappear? #Problem
-			- Feynman parameters #Trick
-			  collapsed:: true
-				- Idea: {{cloze Introduce auxiliary parameters to simplify the expression, then change the order of integration.}}
-					- The trick is usually followed by changing the order of integrations and shifting integration variables (To complete the square).
-					- So there's the inherent problem: Can we really exchange the order of integration? #Thoughts
-						- Similar problems abound. For example, lots of things don't converge absolutely.
-				- ((637c9a80-85fe-4e5c-bc14-36cd4b691001))
-				- ((637c9a87-b8af-4b42-ac19-a8b8c3edb007)) #card
-					- Proof. Differentiate the first identity
-				- ((637c9aa2-ba77-453f-8139-1e1a97735c0c)) #card
-					- The proof is to be completed.
-			- Apply the trick of Feynman parameters to 6.38
-				- Show the reference again ((637c8bd8-d9ef-481c-a08a-3ec965b618a4))
-				- ((637c9f2a-2b53-4a3e-a235-c66a85253329))
-					- The denominator is $D=\ell^2-\Delta+i \epsilon$, where $\ell \equiv k+y q-z p$, $\Delta \equiv-x y q^2+(1-z)^2 m^2$
-				-
-				- The numerator shall be expressed by $\ell$ and p.
-				- The expressions can be simplified by the symmetry of the integration
-					- ((637c9fce-166f-48b1-b4c1-d30e725f0b4c))
-						- The first vanishes, because $\ell$ and $-\ell$ have equal weights.
-						- The second can also be seen from symmetry. The factor can also be easily obtained.
-			- By some regrouping, we arrive at ((637ca07a-4f49-4ee5-b3da-b7cd50150fa7))
-				- This corresponds to ((637c7f9b-ad14-479b-abec-cbcd8300bf7f))
-			- We can evaluate the integral by [[Wick rotation]]
-				- ((637cbac0-aa10-4074-9829-429c036ea575))
-				- Results
-					- ((637cbae1-e476-44b1-b8fa-f17eea4c3dbb))
-					- ((637cbaec-83a0-4693-8150-80cd0de2e40a))
-						- This is problematic for m=3, which is precisely our situation.
-						  **We need to fix it.**
-			- $F_2$ has neither UV or IR divergence. Thus ((637cbe69-069f-425b-b517-7959ec93212d))
-				- This gives the correction of ((637c804b-50a9-466d-b43a-e89fdce7ac75)) at $\frac\alpha{2\pi}$
-				-
-			- On the other hand, $F_1$ has both UV and IR. So we need some magic to fix the problems.
-				- Pauli-Villars [[Regularization]] to fix UV
-					- Problem: The integration of $\ell^2$ terms diverge for m=3.
-					- Replace the photon propagator ((637cbbb3-04ff-4a2e-81be-c3f54ca16692))
-						- $\Lambda$ is a very large mass, corresponding to an infinitely heavy photon.
-						- When k becomes very large, the second term cancels the first term, thus avoiding divergence.
-					- In terms with the heavy photon:
-						- ((637cbc71-4997-4022-b049-6a0c72527a7e))
-							- The numerator algebra is unchanged.
-					- Thus the integral ((637cbaec-83a0-4693-8150-80cd0de2e40a)) is replaced by ((637cbce6-b55c-4e4b-a472-3f10a0915751))
-				- Intermediate result: ((637cbf4e-c94b-4357-8ff5-7bd50ba89e50))
-					- Brutal way to interpret the parameter: Since we know ad hoc that $F_1(0)=1$, ((637cc029-8dee-4ce9-b39f-62204db82286)) Where the subtracted term is the 'correction' to $F_1(0)$
-				- Introduce a small photon mass to fix IR
-					- Problem: $F_1$ diverges at $q^2=0$.
-						- ((637cc1bb-4657-4d3d-bbb4-be6d6404ac3c))
-						-
-			-
+- Radiative Corrections #[[To be recorded]]
+  id:: 638d5442-2da2-466c-8e73-91b7fff0a3a3
+	- [[The Vertex Function]]
 	- [[Bremsstrahlung]]
+	- Compare ((f148e065-772b-439d-8fb3-cb4024bdd0d6)) and ((74b31acc-246f-48b4-99c9-63059f858425)), we find that the divergent parts cancel!
+	  collapsed:: true
+		- Note that they cancel for arbitrary q (See Satoshi's Homework6, Problem 1). Peskin just shows a special case.
+	- Defs
+	  collapsed:: true
+		- Field-strength renormalizations #card
+		  card-last-interval:: 10
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2022-12-24T05:49:27.693Z
+		  card-last-reviewed:: 2022-12-14T05:49:27.696Z
+		  card-last-score:: 5
+			- ![image.png](../assets/image_1670467826740_0.png)
+				- No effect on the coupling constant $e$. Correct electron mass.
+			- ![image.png](../assets/image_1670467841416_0.png)
+		- Renormalized fields and charge
+			- $A^\mu=Z_3^{\frac{1}{2}} A_r^\mu, \quad \psi=Z_2^{\frac{1}{2}} \psi_r, \quad Z_2 Z_3^{\frac{1}{2}} e_0=e^{\prime}=Z_1 e$
+			-
+	- [[Field-Strength Renormalization]] #[[To be recorded]]
+	- [[Electric Charge Renormalization]] #[[To be recorded]]
+	-
 - Obtain macroscopic results from QED
   collapsed:: true
 	- Use Born's approximation to link to [[Quantum Mechanics]]
@@ -175,3 +147,4 @@ alias:: QED
 			- The second term is the anomalous magnetic moment.
 		- See Peskin P210
 	-
+-

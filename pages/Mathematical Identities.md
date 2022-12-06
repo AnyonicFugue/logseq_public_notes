@@ -1,0 +1,4 @@
+- Surface area of $S^{n+1}$, i.e. Sphere in n dimension
+	- $\frac{2 \pi^{n / 2}}{\Gamma(n / 2)}$
+- [[Gamma Function]]
+- [[Beta Function]]

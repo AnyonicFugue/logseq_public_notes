@@ -1,4 +1,10 @@
 - Def #card
+  card-last-interval:: 10
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2022-12-18T06:23:49.121Z
+  card-last-reviewed:: 2022-12-08T06:23:49.121Z
+  card-last-score:: 5
 	- ((636874d3-031a-4841-a85e-08536a4f1e1e))
 - Remote-detectable principle #card
   card-last-interval:: 10

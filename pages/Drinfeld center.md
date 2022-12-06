@@ -1,11 +1,23 @@
 - Def
 	- Objects #card
 	  collapsed:: true
+	  card-last-interval:: 10
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2022-12-23T06:27:20.210Z
+	  card-last-reviewed:: 2022-12-13T06:27:20.210Z
+	  card-last-score:: 5
 		- Pairs $\left(a, \gamma_{-,}\right)$, where $a \in \mathcal{A}$, $\gamma_{-, a}:-\otimes a \Rightarrow a \otimes-: \mathcal{A} \rightarrow \mathcal{A}$ is a natural isomorphism (called a half-braiding) such that
 		  ((6376ef54-3370-4e8e-8b8b-31f66f878eb9))
 			- Particles carrying different braidings; Hexagon
 	- Morphisms #card
 	  collapsed:: true
+	  card-last-interval:: 10
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2022-12-19T05:57:12.802Z
+	  card-last-reviewed:: 2022-12-09T05:57:12.803Z
+	  card-last-score:: 5
 		- $f\in Hom_A(a,b)$ such that ((6376f089-48ca-44c2-8577-6aca91fcaba6))
 		-
 	- Tensor products, unitors, braidings are naturally induced.
@@ -20,6 +32,12 @@
 		-
 	- Prove that the Drinfeld center $\mathfrak Z_1( Vec)$ is equivalent to Vec as braided monoidal categories. #card
 	  collapsed:: true
+	  card-last-interval:: 10
+	  card-repeats:: 2
+	  card-ease-factor:: 2.22
+	  card-next-schedule:: 2022-12-25T11:52:22.027Z
+	  card-last-reviewed:: 2022-12-15T11:52:22.027Z
+	  card-last-score:: 3
 		- First find the left and right unitors in Vec.
 		- [[Category]]
 			- In categories (Grp, Vec) there is no 'element of a group / vector space'. We must express everything by **Homs**. That is, elements are images of certain Homs.

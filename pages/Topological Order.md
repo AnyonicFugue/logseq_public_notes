@@ -1,7 +1,7 @@
 - [[References]]
 	- ![2018_Lan_A_Classification_of_(2+1)D_Topological_Phase.pdf](../assets/2018_Lan_A_Classification_of_(2+1)D_Topological_Phase_1667264759596_0.pdf) 2018_Lan_A_Classification_of_(2+1)D_Topological_Phase
 		-
-	- ![An invitation to topological order](file://zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf) 2022_Kong_Zhang_An invitation to topological orders and category
+	- ![An invitation to topological order](file://zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf) 2022_Kong_Zhang_An invitation to topological orders and category
 		- p62
 - Sources of refs
   collapsed:: true
@@ -14,6 +14,13 @@
   id:: 636ca803-4a64-4513-8ef8-6b1c523ab28c
 	- ((63686458-bb43-4ca5-b0f2-e499f6154b6c))
 	- Significance of Topo order #card
+	  collapsed:: true
+	  card-last-interval:: 10
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2022-12-25T05:20:40.187Z
+	  card-last-reviewed:: 2022-12-15T05:20:40.188Z
+	  card-last-score:: 5
 		- ((636864d8-05a7-440a-8fb4-0aa262aa340d))
 		- ((63686518-f1bb-44e9-9fe3-a36d3e68b9c8))
 		- ((63686663-a0be-4c76-a689-e4cf37982a71))
@@ -21,11 +28,18 @@
 		-
 	-
 	- How to classify? Why [[Category]] gives a complete classification? #card
+	  card-last-interval:: 10
+	  card-repeats:: 2
+	  card-ease-factor:: 2.22
+	  card-next-schedule:: 2022-12-19T12:54:44.185Z
+	  card-last-reviewed:: 2022-12-09T12:54:44.186Z
+	  card-last-score:: 3
 		- We've faced analogues problems before, eg. why linear algebra describes quantum mechanics.
 		- But we already have the [[First Principle]] for topological orders, that is, underlying lattice models and quantum mechanics. Then we must prove, or at least argue, that the categorical way is equivalent to the old way.
 		- Moreover, we shall demonstrate that the categorical way is better. Equivalently, why [[Set theory]] doesn't serve?
 	-
 - Definitions and topics
+  collapsed:: true
 	- [[Topological skeleton]]
 	- [[Stacking]]
 	- [[Condensable algebra]]
@@ -64,7 +78,7 @@
 - Models
 	- [[Toric code]]
 	  id:: 63687824-ea47-4b9b-89b5-c959a050e0dd
-	- [[Quantum double]]
+	- [[Quantum Double]]
 	- [[Ising type]]
 		-
 	-
@@ -81,8 +95,7 @@
 	  card-last-score:: 3
 	  collapsed:: true
 	   #card
-		- [[Module]]
-		- In plain English, an excitation is an invariant subspace of the local operators.
+		- In plain English, an excitation is an invariant subspace of the local operators, thus also an [[Representation]] of the algebra.
 		- Here local operators shall be **Hermitian measurement operators**, not unitary evolution operators.
 			- 'Topological' means 'invariant under deformations', i.e. invariant under observations at low-T limit.
 		-

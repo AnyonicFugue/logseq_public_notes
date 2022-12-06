@@ -1,5 +1,7 @@
+- [[Abstract Algebra]]
 - [[Topology]]
 - [[Algebraic Topology]]
+- [[Lie Groups and Lie Algebras]]
 - [[Quantum Group]]
 -
 - [[Set theory]]

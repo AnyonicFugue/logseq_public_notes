@@ -430,21 +430,9 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 209
   hl-color:: purple
-  id:: 637c7d3f-7675-407b-85c7-0f9398e74aa0
-  hl-type:: area
-  hl-stamp:: 1669102910944
-- [:span]
-  ls-type:: annotation
-  hl-page:: 209
-  hl-color:: purple
   id:: 637c7d9c-c89f-4466-83ff-7e89c733ef8b
   hl-type:: area
   hl-stamp:: 1669103004445
-- as does the first when sandwiched between u(p') and u(p)
-  ls-type:: annotation
-  hl-page:: 209
-  hl-color:: purple
-  id:: 637c7e07-4519-4a7f-825d-65eb89a46046
 - [:span]
   ls-type:: annotation
   hl-page:: 209
@@ -590,15 +578,298 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   id:: 637cc029-8dee-4ce9-b39f-62204db82286
   hl-type:: area
   hl-stamp:: 1669120041517
-- [:span]
-  ls-type:: annotation
-  hl-page:: 218
-  hl-color:: purple
-  id:: 637cc1bb-4657-4d3d-bbb4-be6d6404ac3c
-  hl-type:: area
-  hl-stamp:: 1669120442941
 - Noether's Theorem
   ls-type:: annotation
   hl-page:: 40
   hl-color:: blue
   id:: 63805db9-661f-470f-9403-3ff9ae8aa7dd
+- Classical Computation
+  ls-type:: annotation
+  hl-page:: 200
+  hl-color:: yellow
+  id:: 638c4d2d-93bd-48eb-a06d-f3ee129fa405
+- [:span]
+  ls-type:: annotation
+  hl-page:: 205
+  hl-color:: yellow
+  id:: 638c4eb7-7eef-4a64-b904-5757a3634520
+  hl-type:: area
+  hl-stamp:: 1670139573414
+- Pretend that the photon has a very small mass $\mu$
+  hl-page:: 207
+  ls-type:: annotation
+  id:: 638d646a-e830-409c-b369-6a78f7f92674
+  hl-color:: yellow
+- $q^2=0$
+  hl-page:: 218
+  ls-type:: annotation
+  id:: 638da965-b083-46b4-ab32-2b53a57c236f
+  hl-color:: yellow
+- limit
+  ls-type:: annotation
+  hl-page:: 223
+  hl-color:: yellow
+  id:: 638dfd14-b08e-4238-a2fb-adc882a365a1
+- The presence of ultraviolet divergences in the relations between these physical parameters and their bare values is a sign that these parameters are controlled by the unknown short-distance physics.
+  ls-type:: annotation
+  hl-page:: 289
+  hl-color:: green
+  id:: 63902f14-d931-401b-a27f-5d9f95c9791c
+- The large-distance physics involves only those particles that have **masses that are very small** compared to the fundamental cutoff scale
+  hl-page:: 290
+  ls-type:: annotation
+  id:: 63902fd3-2777-45da-a15d-df163f153399
+  hl-color:: purple
+- Our analysis of the two-point function will rely only on general principles of relativity and quantum mechanics
+  ls-type:: annotation
+  hl-page:: 235
+  hl-color:: yellow
+  id:: 6390331c-7c49-4e6a-a6ca-696572b0f022
+- Since the momentum operator P commutes with H, we can also choose the states to be eigenstates of P.
+  ls-type:: annotation
+  hl-page:: 235
+  hl-color:: red
+  id:: 6390335e-a793-430c-8a22-87c12f7ff053
+- [:span]
+  ls-type:: annotation
+  hl-page:: 235
+  hl-color:: yellow
+  id:: 639033da-bf24-48bf-a704-d1aebf9aa3b5
+  hl-type:: area
+  hl-stamp:: 1670394840992
+- we can also make a stronger use of Lorentz invariance.
+  ls-type:: annotation
+  hl-page:: 235
+  hl-color:: red
+  id:: 63903a83-0912-45ba-90fd-b1560f31adc1
+- [:span]
+  ls-type:: annotation
+  hl-page:: 235
+  hl-color:: yellow
+  id:: 63903b96-1017-4561-ba08-664f79b588df
+  hl-type:: area
+  hl-stamp:: 1670396822018
+- Kallen-Lehmann spectral representation
+  hl-page:: 237
+  ls-type:: annotation
+  id:: 63903dc0-decd-4562-9c8f-9f20c0b8fbe3
+  hl-color:: yellow
+- [:span]
+  ls-type:: annotation
+  hl-page:: 237
+  hl-color:: yellow
+  id:: 63903e68-8a6e-48a0-9986-d91b226fea87
+  hl-type:: area
+  hl-stamp:: 1670397544477
+- physical mass 
+  ls-type:: annotation
+  hl-page:: 237
+  hl-color:: yellow
+  id:: 63903e92-e09c-4f19-8a07-012214461679
+- bare mass
+  ls-type:: annotation
+  hl-page:: 237
+  hl-color:: yellow
+  id:: 63903ea6-2939-4f43-9d05-c658b31ce1ae
+- [:span]
+  ls-type:: annotation
+  hl-page:: 238
+  hl-color:: yellow
+  id:: 63903fa9-eb94-4b67-944e-453099d998c0
+  hl-type:: area
+  hl-stamp:: 1670397865308
+- The general expression is essentially a sum of scalar propagation amplitudes for states created from the vacuum by the field operator $\phi(0)$.
+  hl-page:: 238
+  ls-type:: annotation
+  id:: 63904004-1719-49a0-a4ed-ae545a9d3ac2
+  hl-color:: yellow
+- The poles in p2 come only from one-particle intermediate states, while multiparticle intermediate states give weaker branch cut singularities.
+  ls-type:: annotation
+  hl-page:: 239
+  hl-color:: purple
+  id:: 63904079-1b0a-4901-9470-1714586e2e26
+  hl-stamp:: 1670398079004
+- The analysis of this section generalizes directly to two-point functions of higher-spin fiel
+  ls-type:: annotation
+  hl-page:: 239
+  hl-color:: purple
+  id:: 6390416f-d1e2-4be7-a6dc-5ca7e71d8cd4
+- [:span]
+  ls-type:: annotation
+  hl-page:: 239
+  hl-color:: purple
+  id:: 63904193-3f90-4077-a320-ee734d2a3f38
+  hl-type:: area
+  hl-stamp:: 1670398355006
+- [:span]
+  ls-type:: annotation
+  hl-page:: 239
+  hl-color:: purple
+  id:: 6390421c-b60b-469d-89ca-ba3cfd888f4e
+  hl-type:: area
+  hl-stamp:: 1670398492214
+- [:span]
+  ls-type:: annotation
+  hl-page:: 240
+  hl-color:: purple
+  id:: 6390428b-6de4-484a-911d-f6844fc10ba1
+  hl-type:: area
+  hl-stamp:: 1670398603233
+- [:span]
+  ls-type:: annotation
+  hl-page:: 240
+  hl-color:: purple
+  id:: 639042b9-c9fd-499a-8cdc-12c6adff64fd
+  hl-type:: area
+  hl-stamp:: 1670398649399
+- [:span]
+  ls-type:: annotation
+  hl-page:: 242
+  hl-color:: yellow
+  id:: 63904489-d38e-4c14-b1e2-45ee3ff06317
+  hl-type:: area
+  hl-stamp:: 1670399113099
+- [:span]
+  ls-type:: annotation
+  hl-page:: 242
+  hl-color:: blue
+  id:: 639044b6-c729-4c9a-835f-8a273b874d9f
+  hl-type:: area
+  hl-stamp:: 1670399158151
+- 7.1
+  hl-page:: 234
+  ls-type:: annotation
+  id:: 639094ce-9088-4138-a4b5-7ac7f96f7d15
+  hl-color:: blue
+- This identity will play a crucial role in justifying the ad hoc subtraction 
+  ls-type:: annotation
+  hl-page:: 245
+  hl-color:: green
+  id:: 639095f7-eca6-4422-b053-b1f4c26be60c
+  hl-stamp:: 1670419961981
+- [:span]
+  ls-type:: annotation
+  hl-page:: 268
+  hl-color:: yellow
+  id:: 63915c6e-59ea-4795-9de9-910021452333
+  hl-type:: area
+  hl-stamp:: 1670470764491
+- [:span]
+  ls-type:: annotation
+  hl-page:: 268
+  hl-color:: yellow
+  id:: 63919292-0de7-4a19-b8ff-99982259edc3
+  hl-type:: area
+  hl-stamp:: 1670484623935
+- [:span]
+  ls-type:: annotation
+  hl-page:: 269
+  hl-color:: purple
+  id:: 63919493-53e0-4220-8289-5db5f6f8d527
+  hl-type:: area
+  hl-stamp:: 1670485136273
+- [:span]
+  ls-type:: annotation
+  hl-page:: 269
+  hl-color:: yellow
+  id:: 639194f7-ab29-4642-880a-6685beb7d55b
+  hl-type:: area
+  hl-stamp:: 1670485238182
+- [:span]
+  ls-type:: annotation
+  hl-page:: 270
+  hl-color:: red
+  id:: 6391954e-762e-4b68-bcd6-2f0acdfa4f50
+  hl-type:: area
+  hl-stamp:: 1670485324771
+- [:span]
+  ls-type:: annotation
+  hl-page:: 270
+  hl-color:: yellow
+  id:: 63957182-d562-4ef6-9ec6-553f171f9c1c
+  hl-type:: area
+  hl-stamp:: 1670738305321
+- [:span]
+  ls-type:: annotation
+  hl-page:: 271
+  hl-color:: yellow
+  id:: 639571b6-7dbd-407c-8f8a-2de144854375
+  hl-type:: area
+  hl-stamp:: 1670738357655
+- This integral is very badly ultraviolet divergent
+  ls-type:: annotation
+  hl-page:: 271
+  hl-color:: red
+  id:: 639571c1-6739-49fa-814c-0f357745e477
+- The shift of the integration variable in (7.67) is not permissible when the integral is divergent
+  ls-type:: annotation
+  hl-page:: 271
+  hl-color:: green
+  id:: 6395721b-ba69-421c-b91e-9d93abdc64cd
+- When two regulators give different answers for observable quantities, it is generally because some symmetry (such as the Ward identity) is being violated by one (or both) of them
+  ls-type:: annotation
+  hl-page:: 272
+  hl-color:: green
+  id:: 639572cb-574a-4725-8bb3-57fdb7d64200
+- [:span]
+  ls-type:: annotation
+  hl-page:: 272
+  hl-color:: yellow
+  id:: 63957331-144d-4f77-adc7-7d665b460576
+  hl-type:: area
+  hl-stamp:: 1670738736787
+- [:span]
+  ls-type:: annotation
+  hl-page:: 273
+  hl-color:: yellow
+  id:: 6395739d-8404-45a2-a2ec-1e88ed4fecd9
+  hl-type:: area
+  hl-stamp:: 1670738843727
+- Since r(z) has isolated poles at $z= 0,-1,-2, ...$, this integral has isolated poles at $d = 4, 6, 8, ...$
+  hl-page:: 273
+  ls-type:: annotation
+  id:: 639573b3-4802-47de-9e2c-5c491d2b2b78
+  hl-color:: purple
+- [:span]
+  ls-type:: annotation
+  hl-page:: 273
+  hl-color:: purple
+  id:: 63957417-2ab9-471b-ab4b-d7fc4cd0332e
+  hl-type:: area
+  hl-stamp:: 1670748957690
+- [:span]
+  ls-type:: annotation
+  hl-page:: 274
+  hl-color:: yellow
+  id:: 63957564-2bfe-4b1f-8004-d6e3f8c78406
+  hl-type:: area
+  hl-stamp:: 1670739298187
+- We would have expected a pole at d = 2, since the quadratic divergence in 4 dimensions becomes a logarithmic divergence in 2 dimensions. But the pole cancels. The Ward identity is working.
+  ls-type:: annotation
+  hl-page:: 274
+  hl-color:: purple
+  id:: 63957569-f8a9-4cf9-bfa1-4734afc52acc
+- the threshold for creation of a real electron-positron pair
+  ls-type:: annotation
+  hl-page:: 275
+  hl-color:: yellow
+  id:: 6395783c-816e-4d2c-a10c-8cd389b1526c
+- [:span]
+  ls-type:: annotation
+  hl-page:: 276
+  hl-color:: yellow
+  id:: 63957900-d7bc-4c25-9af4-67d5fa11a981
+  hl-type:: area
+  hl-stamp:: 1670740224679
+- [:span]
+  ls-type:: annotation
+  hl-page:: 242
+  hl-color:: purple
+  id:: 63996a20-7140-4eed-a808-ddbee821afb6
+  hl-type:: area
+  hl-stamp:: 1670998558761
+- The last equality is a result of the Lorentz invariance
+  ls-type:: annotation
+  hl-page:: 236
+  hl-color:: yellow
+  id:: 63996ae9-da3c-4b64-94cd-0250fbb3555f

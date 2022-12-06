@@ -1,7 +1,8 @@
 alias:: UMTC
 
-	- Def
-		- A nondegenerate(modular) unitary braided fusion(tensor) category
+-
+- Def
+	- A nondegenerate(modular) unitary braided fusion(tensor) category
 - Basic properties
   collapsed:: true
 	- [[S-matrix]]

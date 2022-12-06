@@ -1,0 +1,12 @@
+- [[References]]
+	- ![2015_Hall_Lie Groups, Lie Algebras, and Representations.pdf](file://zotero_link/Mathematics/Lie Algebra/2015_Hall_Lie Groups, Lie Algebras, and Representations.pdf)
+- [[Lie Group]]
+- [[Lie Algebra]]
+- Common [[Strategies]]
+	- Lie groups don't have natural addition and subtraction structures.
+	  Usually we obtain subtraction by {{cloze differentiation}}.
+		- The trick is used in proving ((6382ce57-6b73-4815-b142-0f889766fa01)) preserves bracket.
+- Local homeomorphism
+	- ((6382db2f-701a-41e5-8169-70d9167b1c9f)). For $0<\varepsilon<\log 2$, let $U_{\varepsilon}=\left\{X \in M_n(\mathbb{C}) \mid\|X\|<\varepsilon\right\}$ and let $V_{\varepsilon}=\exp \left(U_{\varepsilon}\right)$. Suppose $G \subset \mathrm{GL}(n ; \mathbb{C})$ is a matrix Lie group with Lie algebra $\mathfrak{g}$. Then there exists $\varepsilon \in(0, \log 2)$ such that for all $A \in V_{\varepsilon}, A$ is in $G$ if and only if $\log A$ is in $\mathfrak{g}$.
+		- Plain English Version: {{cloze exp and log are local homeomorphisms at the origin}}.
+		-

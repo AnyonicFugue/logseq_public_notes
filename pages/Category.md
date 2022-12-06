@@ -43,15 +43,21 @@ alias:: Category Theory
 		- [[Unitary modular tensor category]]
 	- Idempotent #card
 	  collapsed:: true
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-11-23T04:13:40.734Z
-	  card-last-reviewed:: 2022-11-13T04:13:40.735Z
+	  card-last-interval:: 28
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-01-06T12:40:34.714Z
+	  card-last-reviewed:: 2022-12-09T12:40:34.717Z
 	  card-last-score:: 5
 		- A morphism with $$e=e^2:=e \circ e$$
 		-
 		- Split #card
+		  card-last-interval:: 10
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2022-12-18T02:08:52.779Z
+		  card-last-reviewed:: 2022-12-08T02:08:52.780Z
+		  card-last-score:: 5
 			- An idempotent $e: x \rightarrow x$ splits if there exists an object $y \in \mathcal{C}$ equipped with two morphisms $r: x \rightarrow y, s: y \rightarrow x$ such that $r \circ s=\mathrm{id}_y$ and $s \circ r=e$.
 			- The triple $(y, r, s)$ (or simply the object $y)$ is called an image of the idempotent $e$.
 		- Idempotent complete

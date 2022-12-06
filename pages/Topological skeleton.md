@@ -1,9 +1,9 @@
 - Def#card
   card-last-interval:: 10
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2022-11-29T13:43:50.646Z
-  card-last-reviewed:: 2022-11-19T13:43:50.646Z
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2022-12-18T02:08:24.360Z
+  card-last-reviewed:: 2022-12-08T02:08:24.361Z
   card-last-score:: 5
 	- ((63686577-51eb-4169-a076-c1561b5b5ba4)) The higher category formed by excitations in a gapless quantum phase
 	  collapsed:: true
