@@ -1,1 +1,1 @@
-alias:: Lorentz invariance, Lorentz invariant, Lorentz covariant
+alias:: [[Lorentz invariance]], [[Lorentz invariant]], [[Lorentz covariant]]

@@ -1,0 +1,7 @@
+- Precise definitions of topological orders
+	- The problem is what is the Hamiltonian.
+	- At first glimpse it is obvious; but what does 'the Hamiltonian when taking the thermodynamic limit' means?
+		- Should be independent of the way you take the thermodynamic limit.
+	- Tentative answers
+		- A universal function of the graph
+	- Can I construct an intriguing counterexample, where intuitive definitions of the Hamiltonian would lead to contradictions?

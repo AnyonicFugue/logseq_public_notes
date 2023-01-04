@@ -1,1 +1,1 @@
-alias:: Countability
+alias:: [[Countability]]

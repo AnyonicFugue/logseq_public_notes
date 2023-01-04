@@ -1,5 +1,10 @@
 - Overall scheme #card
-  collapsed:: true
+  card-last-interval:: 24
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-01-21T06:45:03.683Z
+  card-last-reviewed:: 2022-12-28T06:45:03.683Z
+  card-last-score:: 5
 	- Write out the vertex function and analyze the possible ingredients by some general principles.
 	- A brief ((637cbf81-c429-40c1-ac36-c05a0c2b58c8)) in Peskin
 - The loops leads to [[Ultraviolet Divergence]] and [[Infrared Divergence]].
@@ -39,7 +44,6 @@
 	  card-next-schedule:: 2022-12-17T11:58:28.770Z
 	  card-last-reviewed:: 2022-12-07T11:58:28.770Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- ((637c7f9b-ad14-479b-abec-cbcd8300bf7f))
 	-
 	-
@@ -61,13 +65,12 @@
 				- Similar problems abound. For example, lots of things don't converge absolutely.
 		- ((637c9a80-85fe-4e5c-bc14-36cd4b691001))
 		- ((637c9a87-b8af-4b42-ac19-a8b8c3edb007)) #card
-		  card-last-interval:: 10
-		  card-repeats:: 2
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-18T02:06:00.717Z
-		  card-last-reviewed:: 2022-12-08T02:06:00.718Z
+		  card-last-interval:: 67.44
+		  card-repeats:: 3
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-01T23:00:44.258Z
+		  card-last-reviewed:: 2022-12-24T13:00:44.258Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- Proof. Differentiate the first identity wrt B
 		- ((637c9aa2-ba77-453f-8139-1e1a97735c0c)) #card
 		  card-last-interval:: 10
@@ -76,7 +79,6 @@
 		  card-next-schedule:: 2022-12-19T05:59:00.112Z
 		  card-last-reviewed:: 2022-12-09T05:59:00.113Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- The proof is to be completed.
 	- Apply the trick of Feynman parameters to 6.38
 	  collapsed:: true
@@ -142,7 +144,6 @@
 	  $$
 - Deal with the IR in $F_1$
   id:: f148e065-772b-439d-8fb3-cb4024bdd0d6
-  collapsed:: true
 	- Note that we just show that IR can be fixed. We don't make a precise calculation of $F_1$. The full calculation can be found in Schwartz.
 	-
 	- We only deal with the divergent part here, where we can set $z=1,x=y=0$.

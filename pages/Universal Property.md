@@ -1,3 +1,3 @@
-alias:: Universal Construction
+alias:: [[Universal Construction]]
 
 -

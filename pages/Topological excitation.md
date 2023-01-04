@@ -1,4 +1,4 @@
-alias:: Topological defect
+alias:: [[Topological defect]]
 
 - Def #card
   card-last-interval:: 10.42
@@ -24,7 +24,6 @@ alias:: Topological defect
   card-next-schedule:: 2023-01-06T12:40:56.184Z
   card-last-reviewed:: 2022-12-09T12:40:56.184Z
   card-last-score:: 5
-  collapsed:: true
 	- ((63687824-ea47-4b9b-89b5-c959a050e0dd)) as an example. 
 	  $$H^{\prime}=H+B_{p_0}=\sum_v\left(1-A_v\right)+\sum_{p \neq p_0}\left(1-B_p\right)+1 $$
 		- Essentially **identify energies** of 2 excitations.

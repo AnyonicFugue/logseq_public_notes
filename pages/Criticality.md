@@ -1,1 +1,1 @@
-alias:: Critical points
+alias:: [[Critical points]]

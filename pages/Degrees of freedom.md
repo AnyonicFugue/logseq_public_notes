@@ -1,1 +1,1 @@
-alias:: DOF
+alias:: [[DOF]]

@@ -1,10 +1,11 @@
-alias:: Fusion
+alias:: [[Fusion]]
 
 - Definition
 	- ((636dff04-0f30-41b4-bb8a-18ae5952d6c5))
 	  A fusion map, triviality of vacuum, and some consistency relations.
 	- Note that the structure is more than a [[tensor product]]. The tensor product only gives the [[Fusion rules]] , but the **associators** are absent.
-		- Can be always extend a [[tensor product]] into a monoidal structure? #Problem
+		- Can be always extend a set of [[Fusion rules]] into a monoidal structure?
+			- NO. Sometimes there are no solutions to the associators.
 - The real physical story is much richer. [[Topological Order]]
   collapsed:: true
 	- In a physical realization, particles at different sites must be linked by adiabatic moves.

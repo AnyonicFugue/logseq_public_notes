@@ -1,9 +1,9 @@
 - ((6382d5fb-ed9c-4470-b9ae-707b7b56afb8)). 
-  card-last-interval:: 11.32
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2022-12-19T13:22:27.502Z
-  card-last-reviewed:: 2022-12-08T06:22:27.503Z
+  card-last-interval:: 24
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-01-17T13:06:37.353Z
+  card-last-reviewed:: 2022-12-24T13:06:37.354Z
   card-last-score:: 5
   $\text { ad }: \mathfrak{g} \rightarrow \text { gl }(\mathfrak{g})$ is the associated Lie algebra map of $\mathrm{Ad}: G \rightarrow \mathrm{GL}(\mathfrak{g})$. #card
 	- An easy exercise to memorize the definitions.

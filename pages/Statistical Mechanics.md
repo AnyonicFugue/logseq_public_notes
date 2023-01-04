@@ -126,13 +126,12 @@ type:: [[Course]]
 - [[Phase Transition]] and [[Criticality]]
   collapsed:: true
 	- Criticality of Van der Waals gas #card
-	  card-last-interval:: 10
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2022-12-22T05:51:59.525Z
-	  card-last-reviewed:: 2022-12-12T05:51:59.525Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-03-10T09:45:21.079Z
+	  card-last-reviewed:: 2023-01-02T05:45:21.080Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- Equation $\left(p+\frac{a}{v^2}\right)(v-b)=R T$
 			- ![IVCJdvJM199kI26xcSqNF__dOXAW-eTJqdaF_vj0XQf7xtK4fyvBd2S_daDTNgbEkRtnjyPqq2xnGJbwxPmZ2nebYRj1MwZNAjgX07H2mOZngUE62EObknQ6HY5g36vW.png](../assets/IVCJdvJM199kI26xcSqNF_dOXAW-eTJqdaF_vj0XQf7xtK4fyvBd2S_daDTNgbEkRtnjyPqq2xnGJbwxPmZ2nebYRj1MwZNAjgX07H2mOZngUE62EObknQ6HY5g36vW_1669207663643_0.png)
 			-
@@ -264,11 +263,11 @@ type:: [[Course]]
 	- Diffusion
 	  collapsed:: true
 		- Fick's law #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-07T14:22:39.132Z
-		  card-last-reviewed:: 2022-11-27T14:22:39.132Z
+		  card-last-interval:: 16
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-01-01T05:48:45.341Z
+		  card-last-reviewed:: 2022-12-16T05:48:45.342Z
 		  card-last-score:: 5
 			- ((637e1fcc-f63b-4263-ae21-3f325af2890a))
 		- Continuity equation
@@ -282,12 +281,11 @@ type:: [[Course]]
 				- Walk for l each step at a random direction
 				- The steps are uncorrelated
 			- Summary #card
-			  collapsed:: true
-			  card-last-interval:: 10.42
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2022-12-14T16:10:12.533Z
-			  card-last-reviewed:: 2022-12-04T06:10:12.534Z
+			  card-last-interval:: 24
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-01-18T13:38:13.493Z
+			  card-last-reviewed:: 2022-12-25T13:38:13.494Z
 			  card-last-score:: 5
 				- The distribution of the position tends to be Gaussian after a large number of jumps.
 				- The average is zero, while the square deviation adds up at each step.
@@ -301,7 +299,6 @@ type:: [[Course]]
 					- F is a random force
 					- B corresponds to viscosity
 			- Summary #card
-			  collapsed:: true
 			  card-last-interval:: 10.42
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6
@@ -368,12 +365,12 @@ type:: [[Course]]
 				  \hat{H}=\hat{H}_0-h(t) \hat{B}
 				  $$
 		- Summary #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2022-12-18T02:12:18.623Z
-		  card-last-reviewed:: 2022-12-08T02:12:18.623Z
-		  card-last-score:: 3
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-01-24T06:59:32.301Z
+		  card-last-reviewed:: 2022-12-31T06:59:32.301Z
+		  card-last-score:: 5
 			- The imaginary part of (Fourier-transformed) linear response function is proportional to (Fourier-transformed) correlation function.
 			- Classical version
 			  collapsed:: true

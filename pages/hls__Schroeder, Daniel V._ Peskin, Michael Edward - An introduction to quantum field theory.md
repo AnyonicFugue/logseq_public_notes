@@ -5,9 +5,9 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 131
   hl-color:: yellow
-  id:: 636753ab-e737-4f19-a1d8-e33ab15c71fc
   hl-type:: area
   hl-stamp:: 1667716009345
+  id:: 636753ab-e737-4f19-a1d8-e33ab15c71fc
 - It is associated with one of the most fundamental difficulties of field theory, that interactions affect not only the scattering of distinct particles but also the form of the single-particle states themselves.
   ls-type:: annotation
   hl-page:: 132
@@ -16,8 +16,8 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
 - In this section we will compute the unpolarized cross section for $e^+e^-\rightarrow \mu^+\mu^-$, to lowest order
   hl-page:: 154
   ls-type:: annotation
-  id:: 636907ca-d056-409f-b6b2-bfb023a167a1
   hl-color:: yellow
+  id:: 636907ca-d056-409f-b6b2-bfb023a167a1
 - Retaining the electron mass as well would be easy but pointless,
   ls-type:: annotation
   hl-page:: 154
@@ -27,54 +27,47 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 154
   hl-color:: yellow
-  id:: 63690855-079b-41b7-95c3-4e8e1dd1b950
   hl-type:: area
   hl-stamp:: 1667827797123
-- [:span]
-  ls-type:: annotation
-  hl-page:: 146
-  hl-color:: yellow
-  id:: 636908da-dc02-4ff9-bc45-1b3b3c4e8517
-  hl-type:: area
-  hl-stamp:: 1667827930336
+  id:: 63690855-079b-41b7-95c3-4e8e1dd1b950
 - How do the Feynman rules change? The answer, though difficult to prove, is easy to guess
   ls-type:: annotation
   hl-page:: 146
   hl-color:: red
-  id:: 636909d9-c786-4017-88e5-4c0d88ed061e
   hl-stamp:: 1667828189940
+  id:: 636909d9-c786-4017-88e5-4c0d88ed061e
 - [:span]
   ls-type:: annotation
   hl-page:: 146
   hl-color:: purple
-  id:: 63690a30-2ec2-456c-8d26-36588ea1e151
   hl-type:: area
   hl-stamp:: 1667828272319
+  id:: 63690a30-2ec2-456c-8d26-36588ea1e151
 - he factor of $-g_{\mu\nu}$, however, requires explanation. Lorentz invariance dictates that the photon propagator be an isotropic second=rank tensor that can dot together the $\gamma_\mu$ and $\gamma_\nu$ from the vertices at each end. The simplest candidate is $g_{\mu\nu}$"
   hl-page:: 147
   ls-type:: annotation
-  id:: 636a070e-b5b1-45b9-97d6-bd27c976f7fe
   hl-color:: purple
+  id:: 636a070e-b5b1-45b9-97d6-bd27c976f7fe
 - [:span]
   ls-type:: annotation
   hl-page:: 148
   hl-color:: purple
-  id:: 636a07b6-4d1f-4b45-a296-0724e701e26c
   hl-type:: area
   hl-stamp:: 1667893174091
+  id:: 636a07b6-4d1f-4b45-a296-0724e701e26c
 - Note that the repulsion in fermion-fermion scattering came entirely from the extra factor $-g_{00}=-1$ in the vector boson propagator
   hl-stamp:: 1667893456761
   hl-page:: 149
   ls-type:: annotation
-  id:: 636a08cd-dc0b-497c-84e8-1209396c615e
   hl-color:: green
+  id:: 636a08cd-dc0b-497c-84e8-1209396c615e
 - [:span]
   ls-type:: annotation
   hl-page:: 155
   hl-color:: purple
-  id:: 636a0984-d932-4dd2-a89e-963d90acda08
   hl-type:: area
   hl-stamp:: 1667893635730
+  id:: 636a0984-d932-4dd2-a89e-963d90acda08
 - . In most experiments the electron and positron beams are unpolarized, so the measured cross section is an **average** over the electron and positron spins s and s'
   ls-type:: annotation
   hl-page:: 155
@@ -84,16 +77,16 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 155
   hl-color:: purple
-  id:: 636a0aa2-99ca-44c2-80cf-e497cb4a1354
   hl-type:: area
   hl-stamp:: 1667893921860
+  id:: 636a0aa2-99ca-44c2-80cf-e497cb4a1354
 - [:span]
   ls-type:: annotation
   hl-page:: 155
   hl-color:: purple
-  id:: 636a0ab1-74ca-4f2b-b875-c0045fad2016
   hl-type:: area
   hl-stamp:: 1667893937179
+  id:: 636a0ab1-74ca-4f2b-b875-c0045fad2016
 - Any QED amplitude involving external fermions, when squared and summed or averaged over spins, can be converted in this way to traces of products of Dirac matrices.
   ls-type:: annotation
   hl-page:: 156
@@ -108,77 +101,77 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 156
   hl-color:: purple
-  id:: 636a0bbd-c463-4b27-9bdf-29f7e78ed455
   hl-type:: area
   hl-stamp:: 1667894204799
+  id:: 636a0bbd-c463-4b27-9bdf-29f7e78ed455
 - [:span]
   ls-type:: annotation
   hl-page:: 157
   hl-color:: purple
-  id:: 636a0c10-4b26-4d64-ab89-433cccab88a3
   hl-type:: area
   hl-stamp:: 1667894288433
+  id:: 636a0c10-4b26-4d64-ab89-433cccab88a3
 - [:span]
   ls-type:: annotation
   hl-page:: 158
   hl-color:: purple
-  id:: 636a0c8b-0a46-4264-934f-cd22e44ec60e
   hl-type:: area
   hl-stamp:: 1667894411128
+  id:: 636a0c8b-0a46-4264-934f-cd22e44ec60e
 - [:span]
   ls-type:: annotation
   hl-page:: 158
   hl-color:: purple
-  id:: 636a0c90-f02b-443d-859f-94f734dd5990
   hl-type:: area
   hl-stamp:: 1667894416564
+  id:: 636a0c90-f02b-443d-859f-94f734dd5990
 - [:span]
   ls-type:: annotation
   hl-page:: 158
   hl-color:: purple
-  id:: 636a0c99-3ccf-426e-a1fb-95d1deaf677e
   hl-type:: area
   hl-stamp:: 1667894425061
+  id:: 636a0c99-3ccf-426e-a1fb-95d1deaf677e
 - [:span]
   ls-type:: annotation
   hl-page:: 158
   hl-color:: purple
-  id:: 636a0d35-79e4-45a4-b9a7-7cd329e624ee
   hl-type:: area
   hl-stamp:: 1667894581325
+  id:: 636a0d35-79e4-45a4-b9a7-7cd329e624ee
 - The terms with only one factor of m vanish, since they contain an odd number of $\gamma$ matrices
   hl-page:: 158
   ls-type:: annotation
-  id:: 636a0d4c-c42b-434b-bb47-95702c4eef39
   hl-color:: purple
+  id:: 636a0d4c-c42b-434b-bb47-95702c4eef39
 - [:span]
   ls-type:: annotation
   hl-page:: 158
   hl-color:: purple
-  id:: 636a0e49-de93-4428-ae7d-ac04fa1beecb
   hl-type:: area
   hl-stamp:: 1667894857271
+  id:: 636a0e49-de93-4428-ae7d-ac04fa1beecb
 - [:span]
   ls-type:: annotation
   hl-page:: 159
   hl-color:: purple
-  id:: 636a0ea3-dbd5-40f4-bf1b-0fe2940a0762
   hl-type:: area
   hl-stamp:: 1667894947078
+  id:: 636a0ea3-dbd5-40f4-bf1b-0fe2940a0762
 - [:span]
   ls-type:: annotation
   hl-page:: 159
   hl-color:: purple
-  id:: 636a0eb0-2a64-48c7-89eb-ee8b61d66889
   hl-type:: area
   hl-stamp:: 1667894959875
+  id:: 636a0eb0-2a64-48c7-89eb-ee8b61d66889
 - [:span]
   ls-type:: annotation
   hl-page:: 130
   hl-color:: purple
-  id:: 636a108d-1c99-463c-bd06-6105cdf58bbd
   hl-type:: area
   hl-stamp:: 1667895437583
+  id:: 636a108d-1c99-463c-bd06-6105cdf58bbd
 - the spin of each particle is separately conserved in this nonrelativistic scattering interaction
   ls-type:: annotation
   hl-page:: 144
@@ -188,92 +181,90 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 155
   hl-color:: yellow
-  id:: 636a4a63-f308-41ef-96ff-d1d2aaefe3d4
   hl-stamp:: 1667910246413
+  id:: 636a4a63-f308-41ef-96ff-d1d2aaefe3d4
 - [:span]
   ls-type:: annotation
   hl-page:: 72
   hl-color:: purple
-  id:: 636a4d10-45b5-432b-b4c2-a66dfdcfd93a
   hl-type:: area
   hl-stamp:: 1667910927764
+  id:: 636a4d10-45b5-432b-b4c2-a66dfdcfd93a
 - [:span]
   ls-type:: annotation
   hl-page:: 71
   hl-color:: purple
-  id:: 636a4d69-a996-4026-a5a6-ab9ba5bdd846
   hl-type:: area
   hl-stamp:: 1667911017356
 - [:span]
   ls-type:: annotation
   hl-page:: 71
   hl-color:: purple
-  id:: 636a4d7e-7e60-4174-8d7f-e43338402e4e
   hl-type:: area
   hl-stamp:: 1667911038396
 - [:span]
   ls-type:: annotation
   hl-page:: 179
   hl-color:: blue
-  id:: 636af081-5d67-4758-887c-ba004b190b71
   hl-type:: area
   hl-stamp:: 1667952767166
+  id:: 636af081-5d67-4758-887c-ba004b190b71
 - [:span]
   ls-type:: annotation
   hl-page:: 67
   hl-color:: blue
-  id:: 636af6f3-6995-4fda-bf09-03a50b003b20
   hl-type:: area
   hl-stamp:: 1667954418557
+  id:: 636af6f3-6995-4fda-bf09-03a50b003b20
 - [:span]
   ls-type:: annotation
   hl-page:: 69
   hl-color:: blue
-  id:: 636af708-6711-4e17-84ba-4140af6f67b4
   hl-type:: area
   hl-stamp:: 1667954440001
+  id:: 636af708-6711-4e17-84ba-4140af6f67b4
 - [:span]
   ls-type:: annotation
   hl-page:: 71
   hl-color:: blue
-  id:: 636af72c-0e40-427d-ad62-609da8b78213
   hl-type:: area
   hl-stamp:: 1667954475724
+  id:: 636af72c-0e40-427d-ad62-609da8b78213
 - [:span]
   ls-type:: annotation
   hl-page:: 69
   hl-color:: blue
-  id:: 636af73d-e54f-4317-a2e4-f57d5c26e3f5
   hl-type:: area
   hl-stamp:: 1667954492317
+  id:: 636af73d-e54f-4317-a2e4-f57d5c26e3f5
 - [:span]
   ls-type:: annotation
   hl-page:: 139
   hl-color:: blue
-  id:: 636e481f-5611-49da-9380-82bbdab13289
   hl-type:: area
   hl-stamp:: 1668171806215
+  id:: 636e481f-5611-49da-9380-82bbdab13289
 - [:span]
   ls-type:: annotation
   hl-page:: 142
   hl-color:: yellow
-  id:: 6371952e-6a1d-4710-922b-873f0ecb5a61
   hl-type:: area
   hl-stamp:: 1668388139600
+  id:: 6371952e-6a1d-4710-922b-873f0ecb5a61
 - [:span]
   ls-type:: annotation
   hl-page:: 69
   hl-color:: yellow
-  id:: 6379c82e-aa21-424e-9d43-339a251a9bc2
   hl-type:: area
   hl-stamp:: 1668925485212
+  id:: 6379c82e-aa21-424e-9d43-339a251a9bc2
 - [:span]
   ls-type:: annotation
   hl-page:: 70
   hl-color:: blue
-  id:: 6379c8a3-0232-49a8-9c02-6a5feab391f5
   hl-type:: area
   hl-stamp:: 1668925602303
+  id:: 6379c8a3-0232-49a8-9c02-6a5feab391f5
 - A particle with h = +1/2 is called right-handed, while one with h = —1/2 is called left-handed
   ls-type:: annotation
   hl-page:: 70
@@ -283,301 +274,299 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 66
   hl-color:: blue
-  id:: 6379c8e3-16aa-41b9-9f0f-7354d118fd3f
   hl-type:: area
   hl-stamp:: 1668925666781
+  id:: 6379c8e3-16aa-41b9-9f0f-7354d118fd3f
 - [:span]
   ls-type:: annotation
   hl-page:: 73
   hl-color:: blue
-  id:: 6379ca39-4ba2-4254-9131-88e223be6a0c
   hl-type:: area
   hl-stamp:: 1668926008941
+  id:: 6379ca39-4ba2-4254-9131-88e223be6a0c
 - [:span]
   ls-type:: annotation
   hl-page:: 64
   hl-color:: blue
-  id:: 6379ca4e-553b-460f-89c6-0fbde5c7f0d9
   hl-type:: area
   hl-stamp:: 1668926029337
+  id:: 6379ca4e-553b-460f-89c6-0fbde5c7f0d9
 - [:span]
   ls-type:: annotation
   hl-page:: 63
   hl-color:: purple
-  id:: 6379ca88-2a1b-4068-a7f7-0cb7197d696c
   hl-type:: area
   hl-stamp:: 1668926087300
+  id:: 6379ca88-2a1b-4068-a7f7-0cb7197d696c
 - [:span]
   ls-type:: annotation
   hl-page:: 73
   hl-color:: purple
-  id:: 6379ca9b-6830-497a-b6bc-0aaec1f62441
   hl-type:: area
   hl-stamp:: 1668926105911
+  id:: 6379ca9b-6830-497a-b6bc-0aaec1f62441
 - [:span]
   ls-type:: annotation
   hl-page:: 73
   hl-color:: blue
-  id:: 6379caaa-1758-4942-a553-19b721e4a1c2
   hl-type:: area
   hl-stamp:: 1668926121348
+  id:: 6379caaa-1758-4942-a553-19b721e4a1c2
 - [:span]
   ls-type:: annotation
   hl-page:: 84
   hl-color:: blue
-  id:: 6379cf92-7252-44e9-b63d-ce792967a710
   hl-type:: area
   hl-stamp:: 1668927378664
+  id:: 6379cf92-7252-44e9-b63d-ce792967a710
 - [:span]
   ls-type:: annotation
   hl-page:: 176
   hl-color:: purple
-  id:: 6379d42d-2944-458f-9110-e369a7bb0a42
   hl-type:: area
   hl-stamp:: 1668928557432
+  id:: 6379d42d-2944-458f-9110-e369a7bb0a42
 - [:span]
   ls-type:: annotation
   hl-page:: 181
   hl-color:: purple
-  id:: 6379d890-1f5b-4f30-9855-5dbd1a1b68be
   hl-type:: area
   hl-stamp:: 1668929680541
+  id:: 6379d890-1f5b-4f30-9855-5dbd1a1b68be
 - [:span]
   ls-type:: annotation
   hl-page:: 141
   hl-color:: purple
-  id:: 6379dcb3-beeb-43b4-9493-b45ef5cd5a9e
   hl-type:: area
   hl-stamp:: 1668930737082
+  id:: 6379dcb3-beeb-43b4-9493-b45ef5cd5a9e
 - [:span]
   ls-type:: annotation
   hl-page:: 182
   hl-color:: purple
-  id:: 6379e1d5-cde6-45c1-9024-4b12b6a35650
   hl-type:: area
   hl-stamp:: 1668932053426
+  id:: 6379e1d5-cde6-45c1-9024-4b12b6a35650
 - [:span]
   ls-type:: annotation
   hl-page:: 182
   hl-color:: purple
-  id:: 6379e3b6-ac3e-4770-a535-ccfaeb1e3f28
   hl-type:: area
   hl-stamp:: 1668932534665
+  id:: 6379e3b6-ac3e-4770-a535-ccfaeb1e3f28
 - [:span]
   ls-type:: annotation
   hl-page:: 182
   hl-color:: purple
-  id:: 6379e410-066b-4ee4-a4e2-ac831ae0bcbf
   hl-type:: area
   hl-stamp:: 1668932624316
+  id:: 6379e410-066b-4ee4-a4e2-ac831ae0bcbf
 - [:span]
   ls-type:: annotation
   hl-page:: 182
   hl-color:: purple
-  id:: 6379e47e-61a5-4599-985f-889017c30915
   hl-type:: area
   hl-stamp:: 1668932733958
 - [:span]
   ls-type:: annotation
   hl-page:: 182
   hl-color:: purple
-  id:: 637ae3b2-dbda-4df2-99bd-8898eb7feb07
   hl-type:: area
   hl-stamp:: 1668998066570
+  id:: 637ae3b2-dbda-4df2-99bd-8898eb7feb07
 - [:span]
   ls-type:: annotation
   hl-page:: 183
   hl-color:: purple
-  id:: 637ae426-99ad-4d34-868f-db59435efe39
   hl-type:: area
   hl-stamp:: 1668998181850
 - [:span]
   ls-type:: annotation
   hl-page:: 183
   hl-color:: purple
-  id:: 637ae474-2d53-4e11-b973-cd140e269b7f
   hl-type:: area
   hl-stamp:: 1668998260476
+  id:: 637ae474-2d53-4e11-b973-cd140e269b7f
 - [:span]
   ls-type:: annotation
   hl-page:: 186
   hl-color:: purple
-  id:: 637ae60f-71b1-4bbd-bfba-96333ac6ecc9
   hl-type:: area
   hl-stamp:: 1668998671023
+  id:: 637ae60f-71b1-4bbd-bfba-96333ac6ecc9
 - [:span]
   ls-type:: annotation
   hl-page:: 181
   hl-color:: purple
-  id:: 637b326c-0792-4cf0-b2e5-d861201c971c
   hl-type:: area
   hl-stamp:: 1669018218624
+  id:: 637b326c-0792-4cf0-b2e5-d861201c971c
 - [:span]
   ls-type:: annotation
   hl-page:: 208
   hl-color:: purple
-  id:: 637c75c9-97e2-45d5-8b25-33c61663e7d0
   hl-type:: area
   hl-stamp:: 1669100997236
+  id:: 637c75c9-97e2-45d5-8b25-33c61663e7d0
 - [:span]
   ls-type:: annotation
   hl-page:: 208
   hl-color:: blue
-  id:: 637c7ca7-9ad3-4bef-91c6-02723922d5e0
   hl-type:: area
   hl-stamp:: 1669102757745
+  id:: 637c7ca7-9ad3-4bef-91c6-02723922d5e0
 - [:span]
   ls-type:: annotation
   hl-page:: 209
   hl-color:: purple
-  id:: 637c7d9c-c89f-4466-83ff-7e89c733ef8b
   hl-type:: area
   hl-stamp:: 1669103004445
+  id:: 637c7d9c-c89f-4466-83ff-7e89c733ef8b
 - [:span]
   ls-type:: annotation
   hl-page:: 209
   hl-color:: purple
-  id:: 637c7f07-18ee-4d3d-bdc4-3bde16d6d924
   hl-type:: area
   hl-stamp:: 1669103367676
+  id:: 637c7f07-18ee-4d3d-bdc4-3bde16d6d924
 - [:span]
   ls-type:: annotation
   hl-page:: 209
   hl-color:: purple
-  id:: 637c7f9b-ad14-479b-abec-cbcd8300bf7f
   hl-type:: area
   hl-stamp:: 1669103515562
+  id:: 637c7f9b-ad14-479b-abec-cbcd8300bf7f
 - [:span]
   ls-type:: annotation
   hl-page:: 211
   hl-color:: purple
-  id:: 637c8054-2570-47cb-b075-f0dc3f8279a6
   hl-type:: area
   hl-stamp:: 1669103700646
+  id:: 637c8054-2570-47cb-b075-f0dc3f8279a6
 - [:span]
   ls-type:: annotation
   hl-page:: 212
   hl-color:: purple
-  id:: 637c8bcc-7c8a-4541-9ea3-0955c3bc1cc2
   hl-type:: area
   hl-stamp:: 1669106635914
+  id:: 637c8bcc-7c8a-4541-9ea3-0955c3bc1cc2
 - [:span]
   ls-type:: annotation
   hl-page:: 212
   hl-color:: purple
-  id:: 637c8bd8-d9ef-481c-a08a-3ec965b618a4
   hl-type:: area
   hl-stamp:: 1669106648540
+  id:: 637c8bd8-d9ef-481c-a08a-3ec965b618a4
 - [:span]
   ls-type:: annotation
   hl-page:: 212
   hl-color:: purple
-  id:: 637c9a80-85fe-4e5c-bc14-36cd4b691001
   hl-type:: area
   hl-stamp:: 1669110400219
+  id:: 637c9a80-85fe-4e5c-bc14-36cd4b691001
 - [:span]
   ls-type:: annotation
   hl-page:: 213
   hl-color:: purple
-  id:: 637c9a87-b8af-4b42-ac19-a8b8c3edb007
   hl-type:: area
   hl-stamp:: 1669110407631
+  id:: 637c9a87-b8af-4b42-ac19-a8b8c3edb007
 - [:span]
   ls-type:: annotation
   hl-page:: 213
   hl-color:: purple
-  id:: 637c9aa2-ba77-453f-8139-1e1a97735c0c
   hl-type:: area
   hl-stamp:: 1669110434176
+  id:: 637c9aa2-ba77-453f-8139-1e1a97735c0c
 - [:span]
   ls-type:: annotation
   hl-page:: 213
   hl-color:: purple
-  id:: 637c9f2a-2b53-4a3e-a235-c66a85253329
   hl-type:: area
   hl-stamp:: 1669111593703
+  id:: 637c9f2a-2b53-4a3e-a235-c66a85253329
 - [:span]
   ls-type:: annotation
   hl-page:: 214
   hl-color:: purple
-  id:: 637c9fce-166f-48b1-b4c1-d30e725f0b4c
   hl-type:: area
   hl-stamp:: 1669111757954
+  id:: 637c9fce-166f-48b1-b4c1-d30e725f0b4c
 - [:span]
   ls-type:: annotation
   hl-page:: 215
   hl-color:: purple
-  id:: 637ca07a-4f49-4ee5-b3da-b7cd50150fa7
   hl-type:: area
   hl-stamp:: 1669111930579
+  id:: 637ca07a-4f49-4ee5-b3da-b7cd50150fa7
 - [:span]
   ls-type:: annotation
   hl-page:: 215
   hl-color:: yellow
-  id:: 637cbac0-aa10-4074-9829-429c036ea575
   hl-type:: area
   hl-stamp:: 1669118654302
+  id:: 637cbac0-aa10-4074-9829-429c036ea575
 - [:span]
   ls-type:: annotation
   hl-page:: 216
   hl-color:: yellow
-  id:: 637cbae1-e476-44b1-b8fa-f17eea4c3dbb
   hl-type:: area
   hl-stamp:: 1669118685895
+  id:: 637cbae1-e476-44b1-b8fa-f17eea4c3dbb
 - [:span]
   ls-type:: annotation
   hl-page:: 216
   hl-color:: yellow
-  id:: 637cbaec-83a0-4693-8150-80cd0de2e40a
   hl-type:: area
   hl-stamp:: 1669118698666
+  id:: 637cbaec-83a0-4693-8150-80cd0de2e40a
 - [:span]
   ls-type:: annotation
   hl-page:: 217
   hl-color:: blue
-  id:: 637cbbb3-04ff-4a2e-81be-c3f54ca16692
   hl-type:: area
   hl-stamp:: 1669118896593
+  id:: 637cbbb3-04ff-4a2e-81be-c3f54ca16692
 - [:span]
   ls-type:: annotation
   hl-page:: 217
   hl-color:: purple
-  id:: 637cbc71-4997-4022-b049-6a0c72527a7e
   hl-type:: area
   hl-stamp:: 1669119088683
+  id:: 637cbc71-4997-4022-b049-6a0c72527a7e
 - [:span]
   ls-type:: annotation
   hl-page:: 217
   hl-color:: purple
-  id:: 637cbce6-b55c-4e4b-a472-3f10a0915751
   hl-type:: area
   hl-stamp:: 1669119206265
+  id:: 637cbce6-b55c-4e4b-a472-3f10a0915751
 - [:span]
   ls-type:: annotation
   hl-page:: 219
   hl-color:: purple
-  id:: 637cbe69-069f-425b-b517-7959ec93212d
   hl-type:: area
   hl-stamp:: 1669119593369
+  id:: 637cbe69-069f-425b-b517-7959ec93212d
 - [:span]
   ls-type:: annotation
   hl-page:: 217
   hl-color:: purple
-  id:: 637cbf4e-c94b-4357-8ff5-7bd50ba89e50
   hl-type:: area
   hl-stamp:: 1669119822556
+  id:: 637cbf4e-c94b-4357-8ff5-7bd50ba89e50
 - Summary
   hl-page:: 218
   ls-type:: annotation
-  id:: 637cbf81-c429-40c1-ac36-c05a0c2b58c8
   hl-color:: purple
+  id:: 637cbf81-c429-40c1-ac36-c05a0c2b58c8
 - [:span]
   ls-type:: annotation
   hl-page:: 218
   hl-color:: purple
-  id:: 637cc029-8dee-4ce9-b39f-62204db82286
   hl-type:: area
   hl-stamp:: 1669120041517
+  id:: 637cc029-8dee-4ce9-b39f-62204db82286
 - Noether's Theorem
   ls-type:: annotation
   hl-page:: 40
@@ -592,19 +581,19 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 205
   hl-color:: yellow
-  id:: 638c4eb7-7eef-4a64-b904-5757a3634520
   hl-type:: area
   hl-stamp:: 1670139573414
+  id:: 638c4eb7-7eef-4a64-b904-5757a3634520
 - Pretend that the photon has a very small mass $\mu$
   hl-page:: 207
   ls-type:: annotation
-  id:: 638d646a-e830-409c-b369-6a78f7f92674
   hl-color:: yellow
+  id:: 638d646a-e830-409c-b369-6a78f7f92674
 - $q^2=0$
   hl-page:: 218
   ls-type:: annotation
-  id:: 638da965-b083-46b4-ab32-2b53a57c236f
   hl-color:: yellow
+  id:: 638da965-b083-46b4-ab32-2b53a57c236f
 - limit
   ls-type:: annotation
   hl-page:: 223
@@ -618,8 +607,8 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
 - The large-distance physics involves only those particles that have **masses that are very small** compared to the fundamental cutoff scale
   hl-page:: 290
   ls-type:: annotation
-  id:: 63902fd3-2777-45da-a15d-df163f153399
   hl-color:: purple
+  id:: 63902fd3-2777-45da-a15d-df163f153399
 - Our analysis of the two-point function will rely only on general principles of relativity and quantum mechanics
   ls-type:: annotation
   hl-page:: 235
@@ -634,9 +623,9 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 235
   hl-color:: yellow
-  id:: 639033da-bf24-48bf-a704-d1aebf9aa3b5
   hl-type:: area
   hl-stamp:: 1670394840992
+  id:: 639033da-bf24-48bf-a704-d1aebf9aa3b5
 - we can also make a stronger use of Lorentz invariance.
   ls-type:: annotation
   hl-page:: 235
@@ -646,21 +635,20 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 235
   hl-color:: yellow
-  id:: 63903b96-1017-4561-ba08-664f79b588df
   hl-type:: area
   hl-stamp:: 1670396822018
 - Kallen-Lehmann spectral representation
   hl-page:: 237
   ls-type:: annotation
-  id:: 63903dc0-decd-4562-9c8f-9f20c0b8fbe3
   hl-color:: yellow
+  id:: 63903dc0-decd-4562-9c8f-9f20c0b8fbe3
 - [:span]
   ls-type:: annotation
   hl-page:: 237
   hl-color:: yellow
-  id:: 63903e68-8a6e-48a0-9986-d91b226fea87
   hl-type:: area
   hl-stamp:: 1670397544477
+  id:: 63903e68-8a6e-48a0-9986-d91b226fea87
 - physical mass 
   ls-type:: annotation
   hl-page:: 237
@@ -675,20 +663,20 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 238
   hl-color:: yellow
-  id:: 63903fa9-eb94-4b67-944e-453099d998c0
   hl-type:: area
   hl-stamp:: 1670397865308
+  id:: 63903fa9-eb94-4b67-944e-453099d998c0
 - The general expression is essentially a sum of scalar propagation amplitudes for states created from the vacuum by the field operator $\phi(0)$.
   hl-page:: 238
   ls-type:: annotation
-  id:: 63904004-1719-49a0-a4ed-ae545a9d3ac2
   hl-color:: yellow
+  id:: 63904004-1719-49a0-a4ed-ae545a9d3ac2
 - The poles in p2 come only from one-particle intermediate states, while multiparticle intermediate states give weaker branch cut singularities.
   ls-type:: annotation
   hl-page:: 239
   hl-color:: purple
-  id:: 63904079-1b0a-4901-9470-1714586e2e26
   hl-stamp:: 1670398079004
+  id:: 63904079-1b0a-4901-9470-1714586e2e26
 - The analysis of this section generalizes directly to two-point functions of higher-spin fiel
   ls-type:: annotation
   hl-page:: 239
@@ -698,104 +686,104 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 239
   hl-color:: purple
-  id:: 63904193-3f90-4077-a320-ee734d2a3f38
   hl-type:: area
   hl-stamp:: 1670398355006
+  id:: 63904193-3f90-4077-a320-ee734d2a3f38
 - [:span]
   ls-type:: annotation
   hl-page:: 239
   hl-color:: purple
-  id:: 6390421c-b60b-469d-89ca-ba3cfd888f4e
   hl-type:: area
   hl-stamp:: 1670398492214
+  id:: 6390421c-b60b-469d-89ca-ba3cfd888f4e
 - [:span]
   ls-type:: annotation
   hl-page:: 240
   hl-color:: purple
-  id:: 6390428b-6de4-484a-911d-f6844fc10ba1
   hl-type:: area
   hl-stamp:: 1670398603233
+  id:: 6390428b-6de4-484a-911d-f6844fc10ba1
 - [:span]
   ls-type:: annotation
   hl-page:: 240
   hl-color:: purple
-  id:: 639042b9-c9fd-499a-8cdc-12c6adff64fd
   hl-type:: area
   hl-stamp:: 1670398649399
+  id:: 639042b9-c9fd-499a-8cdc-12c6adff64fd
 - [:span]
   ls-type:: annotation
   hl-page:: 242
   hl-color:: yellow
-  id:: 63904489-d38e-4c14-b1e2-45ee3ff06317
   hl-type:: area
   hl-stamp:: 1670399113099
+  id:: 63904489-d38e-4c14-b1e2-45ee3ff06317
 - [:span]
   ls-type:: annotation
   hl-page:: 242
   hl-color:: blue
-  id:: 639044b6-c729-4c9a-835f-8a273b874d9f
   hl-type:: area
   hl-stamp:: 1670399158151
+  id:: 639044b6-c729-4c9a-835f-8a273b874d9f
 - 7.1
   hl-page:: 234
   ls-type:: annotation
-  id:: 639094ce-9088-4138-a4b5-7ac7f96f7d15
   hl-color:: blue
+  id:: 639094ce-9088-4138-a4b5-7ac7f96f7d15
 - This identity will play a crucial role in justifying the ad hoc subtraction 
   ls-type:: annotation
   hl-page:: 245
   hl-color:: green
-  id:: 639095f7-eca6-4422-b053-b1f4c26be60c
   hl-stamp:: 1670419961981
+  id:: 639095f7-eca6-4422-b053-b1f4c26be60c
 - [:span]
   ls-type:: annotation
   hl-page:: 268
   hl-color:: yellow
-  id:: 63915c6e-59ea-4795-9de9-910021452333
   hl-type:: area
   hl-stamp:: 1670470764491
+  id:: 63915c6e-59ea-4795-9de9-910021452333
 - [:span]
   ls-type:: annotation
   hl-page:: 268
   hl-color:: yellow
-  id:: 63919292-0de7-4a19-b8ff-99982259edc3
   hl-type:: area
   hl-stamp:: 1670484623935
+  id:: 63919292-0de7-4a19-b8ff-99982259edc3
 - [:span]
   ls-type:: annotation
   hl-page:: 269
   hl-color:: purple
-  id:: 63919493-53e0-4220-8289-5db5f6f8d527
   hl-type:: area
   hl-stamp:: 1670485136273
+  id:: 63919493-53e0-4220-8289-5db5f6f8d527
 - [:span]
   ls-type:: annotation
   hl-page:: 269
   hl-color:: yellow
-  id:: 639194f7-ab29-4642-880a-6685beb7d55b
   hl-type:: area
   hl-stamp:: 1670485238182
+  id:: 639194f7-ab29-4642-880a-6685beb7d55b
 - [:span]
   ls-type:: annotation
   hl-page:: 270
   hl-color:: red
-  id:: 6391954e-762e-4b68-bcd6-2f0acdfa4f50
   hl-type:: area
   hl-stamp:: 1670485324771
+  id:: 6391954e-762e-4b68-bcd6-2f0acdfa4f50
 - [:span]
   ls-type:: annotation
   hl-page:: 270
   hl-color:: yellow
-  id:: 63957182-d562-4ef6-9ec6-553f171f9c1c
   hl-type:: area
   hl-stamp:: 1670738305321
+  id:: 63957182-d562-4ef6-9ec6-553f171f9c1c
 - [:span]
   ls-type:: annotation
   hl-page:: 271
   hl-color:: yellow
-  id:: 639571b6-7dbd-407c-8f8a-2de144854375
   hl-type:: area
   hl-stamp:: 1670738357655
+  id:: 639571b6-7dbd-407c-8f8a-2de144854375
 - This integral is very badly ultraviolet divergent
   ls-type:: annotation
   hl-page:: 271
@@ -815,35 +803,35 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 272
   hl-color:: yellow
-  id:: 63957331-144d-4f77-adc7-7d665b460576
   hl-type:: area
   hl-stamp:: 1670738736787
+  id:: 63957331-144d-4f77-adc7-7d665b460576
 - [:span]
   ls-type:: annotation
   hl-page:: 273
   hl-color:: yellow
-  id:: 6395739d-8404-45a2-a2ec-1e88ed4fecd9
   hl-type:: area
   hl-stamp:: 1670738843727
+  id:: 6395739d-8404-45a2-a2ec-1e88ed4fecd9
 - Since r(z) has isolated poles at $z= 0,-1,-2, ...$, this integral has isolated poles at $d = 4, 6, 8, ...$
   hl-page:: 273
   ls-type:: annotation
-  id:: 639573b3-4802-47de-9e2c-5c491d2b2b78
   hl-color:: purple
+  id:: 639573b3-4802-47de-9e2c-5c491d2b2b78
 - [:span]
   ls-type:: annotation
   hl-page:: 273
   hl-color:: purple
-  id:: 63957417-2ab9-471b-ab4b-d7fc4cd0332e
   hl-type:: area
   hl-stamp:: 1670748957690
+  id:: 63957417-2ab9-471b-ab4b-d7fc4cd0332e
 - [:span]
   ls-type:: annotation
   hl-page:: 274
   hl-color:: yellow
-  id:: 63957564-2bfe-4b1f-8004-d6e3f8c78406
   hl-type:: area
   hl-stamp:: 1670739298187
+  id:: 63957564-2bfe-4b1f-8004-d6e3f8c78406
 - We would have expected a pole at d = 2, since the quadratic divergence in 4 dimensions becomes a logarithmic divergence in 2 dimensions. But the pole cancels. The Ward identity is working.
   ls-type:: annotation
   hl-page:: 274
@@ -858,18 +846,129 @@ file-path:: C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Sc
   ls-type:: annotation
   hl-page:: 276
   hl-color:: yellow
-  id:: 63957900-d7bc-4c25-9af4-67d5fa11a981
   hl-type:: area
   hl-stamp:: 1670740224679
+  id:: 63957900-d7bc-4c25-9af4-67d5fa11a981
 - [:span]
   ls-type:: annotation
   hl-page:: 242
   hl-color:: purple
-  id:: 63996a20-7140-4eed-a808-ddbee821afb6
   hl-type:: area
   hl-stamp:: 1670998558761
+  id:: 63996a20-7140-4eed-a808-ddbee821afb6
 - The last equality is a result of the Lorentz invariance
   ls-type:: annotation
   hl-page:: 236
   hl-color:: yellow
   id:: 63996ae9-da3c-4b64-94cd-0250fbb3555f
+- The identity is generally not true for individual Feynman diagrams; we must sum over the diagrams for M(k) at any given order.
+  ls-type:: annotation
+  hl-page:: 261
+  hl-color:: purple
+  id:: 639c19fd-0bc8-4158-b306-449808d8cc43
+- The crucial observation is that by summing over all the diagrams that contribute to Me, then summing over all possible points of insertion in each of these diagrams, we obtain M(k).
+  ls-type:: annotation
+  hl-page:: 261
+  hl-color:: green
+  id:: 639c1a34-720a-4d01-9557-a61654f6da69
+- The Ward-Takahashi identity is true individually for each diagram contributing to M o, once we sum over insertion points;
+  ls-type:: annotation
+  hl-page:: 261
+  hl-color:: purple
+  id:: 639c1a49-f37f-43bb-8509-d84f56eaa040
+- it must attach either to an electron line that runs out of the diagram to two external points, or to an internal electron loop
+  ls-type:: annotation
+  hl-page:: 261
+  hl-color:: yellow
+  id:: 639c1ae8-fbe6-495f-a51d-be6713390636
+  hl-stamp:: 1671174890629
+- [:span]
+  ls-type:: annotation
+  hl-page:: 262
+  hl-color:: yellow
+  id:: 639c1c8e-84c0-47cd-b43c-63c454b77a8c
+  hl-type:: area
+  hl-stamp:: 1671175309180
+- [:span]
+  ls-type:: annotation
+  hl-page:: 262
+  hl-color:: yellow
+  id:: 639c1c9b-7ebd-4dbd-b6cf-023a1da51739
+  hl-type:: area
+  hl-stamp:: 1671175322582
+- [:span]
+  ls-type:: annotation
+  hl-page:: 262
+  hl-color:: yellow
+  id:: 639c1ca9-d209-4386-9b6a-98adbe8a45cb
+  hl-type:: area
+  hl-stamp:: 1671175335990
+- Note that the first term of this expression cancels the second term of the previous expression
+  ls-type:: annotation
+  hl-page:: 262
+  hl-color:: purple
+  id:: 639c1cb4-5bf9-4b83-9e1e-7d7509eae389
+- When we sum over all possible insertion points along the line, everything cancels except the unpaired terms at the ends.
+  ls-type:: annotation
+  hl-page:: 263
+  hl-color:: purple
+  id:: 639c1cdf-53ff-4aeb-8be6-2bd17a1bb8e4
+- The unpaired term coming from insertion after the last vertex (on the far left) is just e times the value of the original diagram; the other unpaired term, from insertion before the first vertex, is identical except for a minus sign and the replacement of p by p + k everywhere.
+  ls-type:: annotation
+  hl-page:: 263
+  hl-color:: yellow
+  id:: 639c1d0a-3c14-4a60-b2e4-b0423d65c57e
+- [:span]
+  ls-type:: annotation
+  hl-page:: 263
+  hl-color:: yellow
+  id:: 639c1d1a-49ff-4733-9331-55f5be67f5e9
+  hl-type:: area
+  hl-stamp:: 1671175448382
+- According to the LSZ formula, we can extract from each diagram a contribution to an S-matrix element by taking the coefficient of the product of poles $\left(\frac{i}{\not q-m}\right)\left(\frac{i}{\not p-m}\right)$.
+  hl-page:: 263
+  ls-type:: annotation
+  id:: 639c1d9c-f2b6-4816-a9db-475dc983e7af
+  hl-color:: purple
+- The terms on the right-hand side of (7.66) each contain one of these poles, but neither contains both poles. Thus the right-hand side of (7.66) contributes nothing to the S-matrix.*
+  ls-type:: annotation
+  hl-page:: 263
+  hl-color:: purple
+  id:: 639c1db7-2982-4b0c-bb8d-90bfdd9e4111
+- [:span]
+  ls-type:: annotation
+  hl-page:: 266
+  hl-color:: yellow
+  id:: 639c1ef4-a31a-46bd-b64e-db0bfba92723
+  hl-type:: area
+  hl-stamp:: 1671175922896
+- In this case, the amputated function is just the vertex 1-'4(p + k, p)
+  ls-type:: annotation
+  hl-page:: 266
+  hl-color:: red
+  id:: 639c1f57-6e0a-416d-80d8-25daf677d731
+- [:span]
+  ls-type:: annotation
+  hl-page:: 266
+  hl-color:: purple
+  id:: 639c1f66-e1b0-47d9-9b7a-182e3b35fbbc
+  hl-type:: area
+  hl-stamp:: 1671176037536
+- [:span]
+  ls-type:: annotation
+  hl-page:: 266
+  hl-color:: purple
+  id:: 639c1f7f-0a10-4225-b252-863044e988db
+  hl-type:: area
+  hl-stamp:: 1671176063102
+- Setting p near mass shell and expanding (7.69) about k = 0, we find for the first-order terms on the left and right
+  ls-type:: annotation
+  hl-page:: 266
+  hl-color:: yellow
+  id:: 639c1fcb-ea18-4fb5-80d8-c9169634cca4
+  hl-stamp:: 1671176141445
+- Peskin 7.3
+  ls-type:: annotation
+  hl-page:: 253
+  hl-color:: yellow
+  id:: 63af8b36-378e-4cac-b381-c1d7e08d3252

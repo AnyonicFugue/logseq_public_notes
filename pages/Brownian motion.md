@@ -1,1 +1,1 @@
-alias:: Random walk
+alias:: [[Random walk]]

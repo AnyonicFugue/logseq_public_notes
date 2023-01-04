@@ -9,10 +9,15 @@
   id:: 6385f0a2-e52f-444e-b94f-41d91b3b69c4
 	- $(i\gamma^\mu\partial_\mu -m) \psi=0$
 		- Plane wave: $(\not p-m)\psi=0$
+- Basic properties
+	- Adjoint
+		- $\gamma^0 \gamma^\mu \gamma^0=\left(\gamma^\mu\right)^{\dagger}$
+	-
 - Spin identities
 	- Spin sums
 		- ((636a4d10-45b5-432b-b4c2-a66dfdcfd93a))
 	- Normalization
+		- Ref. Peskin P48
 		- $$
 		  \bar{v}^r(p) v^s(p)=-2 m \delta^{r s} \quad \text { or } \quad v^{r \dagger}(p) v^s(p)=+2 E_{\mathbf{p}} \delta^{r s}
 		  $$

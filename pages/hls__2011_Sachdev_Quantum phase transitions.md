@@ -15,12 +15,12 @@ file-path:: C:/Users/10309/Nutstore/1/sync/zotero/Physics/Courses/Statistical/20
   ls-type:: annotation
   hl-page:: 23
   hl-color:: green
-  id:: 6394286c-f118-4cc8-b890-7e38017f4459
   hl-stamp:: 1670654062438
+  id:: 6394286c-f118-4cc8-b890-7e38017f4459
 - [:span]
   ls-type:: annotation
   hl-page:: 25
   hl-color:: yellow
-  id:: 63942988-c4ea-4da9-b66c-ff2bd4b2f692
   hl-type:: area
   hl-stamp:: 1670654343943
+  id:: 63942988-c4ea-4da9-b66c-ff2bd4b2f692

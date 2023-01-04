@@ -27,13 +27,12 @@
 			- If $r: X \rightarrow A$ is a retraction, then the composite map $r \circ j$ equals the identity map of $A$. It follows that $r_* \circ j_*$ is the identity map of $\pi_1(A, a)$, so that $j_*$ must be injective.
 				- This is a general property of inclusions: {{cloze One-side invertible}}
 		- Corollary. No retraction of $B^2$ into $S^1$. #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-19T06:01:54.811Z
-		  card-last-reviewed:: 2022-12-09T06:01:54.811Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-01-17T12:58:44.355Z
+		  card-last-reviewed:: 2022-12-24T12:58:44.356Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- $\pi_1(S^1)=\mathbb Z, \pi_1(B^2)=e$. No injection.
 			- Another application of ((638d57a7-30e1-4243-8ec8-babe77af9cf8)).
 		- Lemma 55.3. Let $h: S^1 \rightarrow X$ be a continuous map. Then the following conditions are **equivalent**: $h$ is nulhomotopic; $h$ extends to a continuous map $k: B^2 \rightarrow X$; $h_*$ is the trivial homomorphism of fundamental groups.
@@ -51,10 +50,17 @@
 					- ![image.png](../assets/image_1670210360212_0.png){:height 169, :width 372}
 					- Or ((638d639f-33d9-4a25-b658-4f63d2ddb144))
 				-
-		- ((6393ecbc-590b-426b-8528-d730e640b237)) The inclusion map $j \cdot S^1 \rightarrow \mathbb{R}^2-\mathbf{0}$ is not nulhomotopic. The identity map i : $S^1 \rightarrow S^1$ is not nulhomotopic. #card
+		- ((6393ecbc-590b-426b-8528-d730e640b237)) The inclusion map $j : S^1 \rightarrow \mathbb{R}^2-\mathbf{0}$ is not nulhomotopic. The identity map i : $S^1 \rightarrow S^1$ is not nulhomotopic. #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-01-19T04:17:50.081Z
+		  card-last-reviewed:: 2022-12-26T04:17:50.082Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- An exercise to express the intuition via the language of retractions.
 			- Hint: Nul -> Trivial hom of $\pi_1$; Retraction -> Injective
+	- [[Deformation Retraction]] and [[Homotopy Equivalence]]
 	- ((6393f3d8-803c-4134-af68-b91b9739c5e7)) Given a **nonvanishing** vector field on $B^2$, there exists a point of $S^1$ where the vector field points directly inward and a point of $S^1$ where it points directly outward.
 	  collapsed:: true
 		- Intuition #card
@@ -80,7 +86,13 @@
 			- Recall inner product in linear algebra.
 		-
 	- ((63953b25-8709-4182-9cb5-87d46acf1a4f))
-	- ((63953d32-29d5-4ffe-aec8-c9a40be4e936)) Let $A$ be a 3 by 3 matn $x$ of positive real numbers. Then $A$ has a positive real eigenvalue. #card
+	- ((63953d32-29d5-4ffe-aec8-c9a40be4e936)) Let $A$ be a 3 by 3 matrix of positive real numbers. Then $A$ has a positive real eigenvalue. #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-01-25T07:08:06.285Z
+	  card-last-reviewed:: 2022-12-31T07:08:06.286Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- Let B be the intersection of $S^2$ with the first octant $$\left\{\left(x_1, x_2, x_3\right) \mid x_1 \geq 0 \text { and } x_2 \geq 0 \text { and } x_3 \geq 0\right\}$$.
 		- Obviously $B \cong B^2$.
@@ -88,6 +100,12 @@
 		-
 		- If the fixed-point theorem holds, we can easily generalize it to arbitrary dimensions. But the fixed-point theorem seems to need some modification.
 	- We can even prove [[The Fundamental Theorem of Algebra]]! #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-01-21T06:17:13.326Z
+	  card-last-reviewed:: 2022-12-27T06:17:13.326Z
+	  card-last-score:: 5
 		- *Review the thought in this card. No need to memorize all details.
 			- Deformation provides much information. #[[Mathematical Thoughts]]
 		- We first deal with the special case that $x^n+a_{n-1} x^{n-1}+\cdots+a_1 x+a_0=0$ where $\left|a_{n-1}\right|+\cdots+\left|a_1\right|+\left|a_0\right|<1$. The general case can be obtained by 'rescaling' the variable.

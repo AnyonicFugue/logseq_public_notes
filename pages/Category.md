@@ -1,12 +1,9 @@
-alias:: Category Theory
+alias:: [[Category Theory]]
 
 - Definitions
-  collapsed:: true
 	- Higher cats
-	  collapsed:: true
+		- [[2-category]]
 		- [[Morita equivalence]]
-			- ((636df950-4025-47cd-8d13-1862db33b9e2))
-			- Equivalent representations?
 		- [[Functor]]
 			- Equivalent categories
 				- ((636ca710-55ab-45a0-aa16-0274e4ed00e4))
@@ -14,6 +11,12 @@ alias:: Category Theory
 				  1. (fully faithful) For any $x, y \in \mathcal{C}$, the map $F_{x, y}: \operatorname{Hom}_{\mathcal{C}}(x, y) \rightarrow \operatorname{Hom}_{\mathcal{D}}(F(x), F(y))$ is a bijection
 				  2. (essentially surjective) For any $z \in \mathcal{D}$, there exists an object $x \in \mathcal{C}$ such that $F(x) \simeq z$.
 		- [[Natural transformation]] #card
+		  card-last-interval:: 25.01
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-01-25T07:04:37.382Z
+		  card-last-reviewed:: 2022-12-31T07:04:37.382Z
+		  card-last-score:: 5
 			- A family $\{\alpha_x\}$ such that ((636ca3f1-0eb2-4ab9-b618-e430f99c3d90))
 			- [[Natural isomorphism]]
 				- Each $\alpha$ is an isomorphism
@@ -42,7 +45,6 @@ alias:: Category Theory
 		- [[Fusion category]]
 		- [[Unitary modular tensor category]]
 	- Idempotent #card
-	  collapsed:: true
 	  card-last-interval:: 28
 	  card-repeats:: 3
 	  card-ease-factor:: 2.8
@@ -52,11 +54,11 @@ alias:: Category Theory
 		- A morphism with $$e=e^2:=e \circ e$$
 		-
 		- Split #card
-		  card-last-interval:: 10
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2022-12-18T02:08:52.779Z
-		  card-last-reviewed:: 2022-12-08T02:08:52.780Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-03-08T11:05:10.205Z
+		  card-last-reviewed:: 2022-12-31T07:05:10.205Z
 		  card-last-score:: 5
 			- An idempotent $e: x \rightarrow x$ splits if there exists an object $y \in \mathcal{C}$ equipped with two morphisms $r: x \rightarrow y, s: y \rightarrow x$ such that $r \circ s=\mathrm{id}_y$ and $s \circ r=e$.
 			- The triple $(y, r, s)$ (or simply the object $y)$ is called an image of the idempotent $e$.
@@ -113,7 +115,6 @@ alias:: Category Theory
 				- Similarly we may define $$\theta_{(V,\rho)}=\rho(z)$$ as a ribbon structure.
 				-
 	- Group-graded vector category, $Vec(G)$
-	  collapsed:: true
 	  id:: 636df91a-04a7-4d74-ab05-5c5939616e84
 		- Definition
 		  collapsed:: true

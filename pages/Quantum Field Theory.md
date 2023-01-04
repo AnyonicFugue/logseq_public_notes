@@ -1,11 +1,10 @@
-alias:: QFT
+alias:: [[QFT]]
 
-- [[References]
+- [[References]]
 	- ![Peskin](file://C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf) The classical textbook by Peskin
 	- ![Introduction_to_Quantum_Field_Theory.pdf](file://D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf) Satoshi Nawata's lecturenotes
 	-
 - [[Interaction, Feynman diagrams and S-matrix]]
-  collapsed:: true
 	- [[Feynman rules]]
 	- A fundamental difficulty: We need the states to be asymptotic in the **interaction theory**. However, we only knows how to create **free** plane waves.
 	  collapsed:: true
@@ -16,12 +15,13 @@ alias:: QFT
 		- Generalize TOP and normal-ordering
 		- Generalized Wick's [TODO]
 	- Mandelstam variables
+	  collapsed:: true
 		- ((636af081-5d67-4758-887c-ba004b190b71))
 		- ((637b326c-0792-4cf0-b2e5-d861201c971c))
 		-
 	- [[Helicity]] structure in scattering
+	  collapsed:: true
 		- High-E limit #card
-		  collapsed:: true
 		  card-last-interval:: 10
 		  card-repeats:: 1
 		  card-ease-factor:: 2.36
@@ -42,27 +42,32 @@ alias:: QFT
 				- LHS determines the helicity of u, while RHS determines v.
 			- Proceed by the common process to obtain $|M|^2$ and $\frac{d \sigma}{d \Omega}$, we can obtain all contributions of the different combinations.
 				- Exercise: what are the possible combinations for $e^{+} e^{-} \rightarrow \mu^{+} \mu^-$? #card
-				  card-last-interval:: 10
-				  card-repeats:: 2
-				  card-ease-factor:: 2.46
-				  card-next-schedule:: 2022-12-24T05:51:31.519Z
-				  card-last-reviewed:: 2022-12-14T05:51:31.519Z
+				  card-last-interval:: 61.44
+				  card-repeats:: 3
+				  card-ease-factor:: 2.56
+				  card-next-schedule:: 2023-02-23T16:08:08.133Z
+				  card-last-reviewed:: 2022-12-24T06:08:08.133Z
 				  card-last-score:: 5
 					- Input and output can be $(++),(--)$ respectively.
 					- 4 in total.
 	- Crossing symmetry
+	  collapsed:: true
 		- He claims to easily relate 
 		  $e^{+} e^{-} \rightarrow \mu^{+} \mu^{-}$ and $e^{-} \mu^{-} \rightarrow e^{-} \mu^{-}$
 		  by a substitution of variable ((6379d42d-2944-458f-9110-e369a7bb0a42))
 			- Both of them only have one diagram, with a photon propagator in the middle.
 			- The kinetics are similar.
+	- [[LSZ Formula]]
+	- Properties of the [[S-matrix]]
+		- [[Lorentz invariance]]
+		- Unitarity
+			- [[Optical Theorem]]
 - [[Klein-Gordon Theory]]
-	-
 - [[Yukawa theory]]
 - [[Quantum Electrodynamics]]
 - [[Classical Field Theory]]
+  collapsed:: true
 	- Noether's theorem #card
-	  collapsed:: true
 	  card-last-interval:: 11.8
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6

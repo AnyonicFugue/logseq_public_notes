@@ -9,7 +9,13 @@
 - Note that he models the scattering process as an infinitely fast change of momentum.
 - Quantum calculation
   collapsed:: true
-	- Summary #card #[[To be recorded]]
+	- Summary #card
+	  card-last-interval:: 16
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-01-01T05:48:20.136Z
+	  card-last-reviewed:: 2022-12-16T05:48:20.138Z
+	  card-last-score:: 5
 		- Two diagrams ((638c4eb7-7eef-4a64-b904-5757a3634520))
 			- Note that an on-shell electron can't still be on-shell after emitting a photon. Fortunately the internal electrons can be off-shell.
 		- Calculate the amplitude (until divergences pop up)

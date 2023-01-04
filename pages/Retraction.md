@@ -6,11 +6,18 @@
 	  card-next-schedule:: 2022-12-25T05:26:17.236Z
 	  card-last-reviewed:: 2022-12-15T05:26:17.237Z
 	  card-last-score:: 5
+	  id:: 63a507a1-db81-4fb5-99ad-f1c6af18e8fc
 		- Intuitively, 
 		  homotopical paths -> equivalent paths
 		  homotopical maps -> equivalent homs of fundamental groups
 		- $I \times I \stackrel{f \times i d}{\longrightarrow} X \times I \stackrel{H}{\longrightarrow} Y$
 	- ((63954564-3e1d-4f74-81c3-bea192c5ffdd)) The inclusion map $j: S^n \rightarrow \mathbb{R}^{n+1}-0$ induces an isomorphism of fundamental groups. #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-01-21T06:41:08.146Z
+	  card-last-reviewed:: 2022-12-28T06:41:08.146Z
+	  card-last-score:: 5
 		- Intuition
 			- We have a natural way of deforming the identity map of $\mathbb{R}^{n+1}-\mathbf{0}$ to a map that collapsed all of $\mathbb{R}^{n+1}-0$ onto $S^n$.
 		- First note that the retraction map $r$ is homotopic to the identity map $id_{\mathbb{R}^{n+1}-0}$.
@@ -20,3 +27,30 @@
 		  (r \circ g)_*: \pi_1(S^{1}) \rightarrow \pi_1(S^{1}) \text { is an isomorphism } \\
 		  r_* \text { is an isomorphism }
 		  \end{array} \Rightarrow j_x \text { is an isomorphism }\right.$$
+	- ((63a6624b-1643-4f31-9c6d-8f96e2245bda)) Let $A$ be a deformation retract of $X$; let $x_0 \in A$. Then the inclusion map
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-01-25T07:03:11.333Z
+	  card-last-reviewed:: 2022-12-31T07:03:11.333Z
+	  card-last-score:: 5
+	  $$
+	  j:\left(A, x_0\right) \rightarrow\left(X, x_0\right)
+	  $$
+	  induces an **isomorphism** of fundamental groups. #card
+		- Intuition
+			- Since deformation retracts preserve all information, they shall preserve fundamental groups.
+		- Proof
+			- Denote the retraction map as r. We may prove $r \circ j=id(\pi_1(A))$, $j \circ r =id(\pi_1(X))$.
+			- The first is obvious, since retractions are identities on A.
+			- The second: $j\circ r$ is 'retract onto X itself'.
+			  Since r is homotopic to $id_X$ and A remains fixed during the homotopy, $r_*=(id_X)_*$. (See this [theorem](((63a507a1-db81-4fb5-99ad-f1c6af18e8fc))))
+		- Example
+			- Let $B$ denote the $z$-axis in $\mathbb{R}^3$ ;Consider the space $\mathbb{R}^3-B$.
+				- It has the punctured $x y$-plane $\left(\mathbb{R}^2-\mathbf{0}\right) \times 0$ as a deformation retract.
+				- The map $H$ defined by the equation
+				  $$
+				  H(x, y, z, t)=(x, y,(1-t) z)
+				  $$
+				  is a deformation retraction; it gradually collapses each line parallel to the $z$-axis into the point where the line intersects the $x y$-plane.
+				- We conclude that the space $\mathbb{R}^3-B$ has an infinite cyclic fundamental group.

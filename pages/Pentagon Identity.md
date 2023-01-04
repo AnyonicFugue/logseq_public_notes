@@ -1,0 +1,5 @@
+- Explicitly:
+	- ![image.png](../assets/image_1672193542203_0.png)
+	- $\left[F_e^{f c d}\right]_{g l}\left[F_e^{a b l}\right]_{f k}=\sum_h\left[F_g^{a b c}\right]_{f h}\left[F_e^{a h d}\right]_{g k}\left[F_k^{b c d}\right]_{h l}$
+	- Write out the multiplicity indices!
+		- ![image.png](../assets/image_1672192214950_0.png)

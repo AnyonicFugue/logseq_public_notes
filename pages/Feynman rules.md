@@ -1,11 +1,10 @@
 - [[Yukawa theory]]
-  collapsed:: true
 	- ((6379dcb3-beeb-43b4-9493-b45ef5cd5a9e)) for fermions and scalar fields
 	  Note that external vertices don't give propagators
+		- **Be careful of the minuses signs from Dirac fields!**
+			- We must always put $\psi$ to the left of $\bar\psi$ for contraction.
 		- ((6371952e-6a1d-4710-922b-873f0ecb5a61))
 - [[QED]]
-  id:: 6369a5ef-1832-40fd-b4b3-87a467e652bc
-  collapsed:: true
 	- The rules for [[Dirac field]] is the same as [[Yukawa theory]]
 	- ((63690a30-2ec2-456c-8d26-36588ea1e151))
 		- Note that different spins can contract at a vertice. i.e. The 4 spins can be arbitrary in ![image.png](../assets/image_1667900431714_0.png)

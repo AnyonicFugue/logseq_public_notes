@@ -1,0 +1,12 @@
+- Def #card
+	- If there exists an [[invertible]] $(\mathcal{P}, \mathcal{Q})$-bimodule, we say $\mathcal{P}$ and $\mathcal{Q}$ are Morita equivalent.
+		- In plain English, the category of [[Domain Wall]] between P and Q can be inverted.
+			- Note that $\mathcal{X}$ isn't a single domain wall, but the **category** of domain walls.
+		- ((63a956c5-693d-4988-9138-0801ee7ab259))
+	- ((636df950-4025-47cd-8d13-1862db33b9e2))
+		- Equivalent representations?
+- ((63a956f5-e076-48f4-ac69-3e6e8817c0bc)) #card
+	- Reminder.
+	- Physically, they are equivalent boundaries of $C\boxtimes \bar D$
+- ((63aa599c-cc2b-4d2d-a3f1-2d15b852f802))
+	- $RMod_P(2Vec)$ denote the 2-cat of P-modules, P-module functors and P-mod natural transformations

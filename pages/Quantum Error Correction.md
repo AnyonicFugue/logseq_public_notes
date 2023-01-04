@@ -9,6 +9,7 @@ type:: Course
 		- The possible errors form a continuous set.
 		- ((63841f61-37f3-44f3-8a55-fe648303ef87))
 - Three-qubit bit-flip code
+  collapsed:: true
 	- Setting
 		- Alice wants to send a single qubit $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$ to Bob.
 		- The quantum channel they use may flip any qubit with probability $\epsilon$.
@@ -123,13 +124,13 @@ type:: Course
 				- ((6385c169-71ce-4fd6-9a59-ab5a1ed8f271))
 		-
 	- 2 Necessary conditions for error correction #card
-	  id:: 638563b0-97c7-407a-b2b0-dcbe845029c7
 	  card-last-interval:: 10
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2022-12-11T01:21:47.833Z
 	  card-last-reviewed:: 2022-12-01T01:21:47.833Z
 	  card-last-score:: 5
+	  id:: 638563b0-97c7-407a-b2b0-dcbe845029c7
 		- $\left\langle i_L\left|E_a^{\dagger} E_b\right| j_L\right\rangle=0 \quad$ for $i \neq j$
 			- Different states must be orthogonal, otherwise not perfectly correctable.
 		- $\left\langle i_L\left|E_a^{\dagger} E_b\right| i_L\right\rangle=C_{a b}$ independent of i
@@ -146,7 +147,6 @@ type:: Course
 			- $C_{a b}=\delta_{a b}$
 			- This means that different errors are **orthogonal**.
 	- Scheme for ECC in nondegenerate case #card
-	  collapsed:: true
 	  card-last-interval:: 10
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
@@ -173,6 +173,12 @@ type:: Course
 	  id:: 6385c5c5-1c56-413f-ae9d-93d1ca14caf4
 		- Example of ((63842469-5dc0-4676-9daa-b5ee2000e5a4)) #card
 		  collapsed:: true
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-01-21T06:44:11.858Z
+		  card-last-reviewed:: 2022-12-28T06:44:11.859Z
+		  card-last-score:: 5
 			- We measure eight operators to correct the errors.
 				- ((6385d21b-16bd-4dfa-a7cc-6e8a7fadcc16))
 			- Prop. They are the generators of the stabilizer of the code in ${G}$.
@@ -188,7 +194,6 @@ type:: Course
 				- Note that $\sigma_y$ can be expressed as a product of x and z, so we don't consider it separately.
 			- Verify the ((638563b0-97c7-407a-b2b0-dcbe845029c7)) #Learning-TODO
 		- Prop. ((63842469-5dc0-4676-9daa-b5ee2000e5a4)) has distance three. #card
-		  collapsed:: true
 		  card-last-interval:: 10.42
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
@@ -199,18 +204,17 @@ type:: Course
 			- $\sigma_z^1\sigma_z^2\sigma_z^3$ flips $|0_L\rangle$ to $|1_L\rangle$.
 		- General formalism
 			- Presettings
-			  collapsed:: true
 				- ${G}_n=\{\pm 1, \pm i\} \otimes\left\{I, \sigma_x, \sigma_y, \sigma_z\right\}^{\otimes n}$
 					- The spanning set of all possible operators.
 					- This ensures that the anti-commutators are only $\pm1$.
 				- $\mathcal S$, the stablizer, is an abelian subgroup of $G_n$
 					- Why abelian? #card
-					  card-last-interval:: 10
-					  card-repeats:: 2
-					  card-ease-factor:: 2.46
-					  card-next-schedule:: 2022-12-25T11:54:11.869Z
-					  card-last-reviewed:: 2022-12-15T11:54:11.869Z
 					  card-last-score:: 5
+					  card-repeats:: 2
+					  card-next-schedule:: 2022-12-25T11:54:11.869Z
+					  card-last-interval:: 10
+					  card-ease-factor:: 2.46
+					  card-last-reviewed:: 2022-12-15T11:54:11.869Z
 						- 1. Abelian allows them to be diagonalized simultaneously and find the preserved eigenspace.
 						- 2. More importantly, the measurements of the operators won't cause extra collapses of states.
 				- Stabilizer code space $\mathcal H_S$

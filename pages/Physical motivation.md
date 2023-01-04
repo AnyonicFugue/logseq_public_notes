@@ -1,1 +1,1 @@
-alias:: Physical intuition
+alias:: [[Physical intuition]]

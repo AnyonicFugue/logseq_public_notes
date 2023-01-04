@@ -19,10 +19,7 @@
 			- Link with $$Vec_G$$
 			  collapsed:: true
 				- ((63758a42-5bb4-4254-93c4-66cd7abf562f))
-				  id:: 63758a39-6e6a-44fd-aab8-cb4817e04123
-				  collapsed:: true
 					- Note that $$C\simeq Vec_G$$ only as [[C-linear category]]. No [[Fusion]] or [[Braiding]] structure here.
-					  id:: 63758a49-b9fe-4121-b70d-45941fdacd86
 				- ((63758b5a-8776-4206-979e-96075d0182c0))
 					- Braiding -> $$a \otimes b \simeq b \otimes a$$ -> They belong to the same isomorphism class.
 			- [[Quadratic form]]

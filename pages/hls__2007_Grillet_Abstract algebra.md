@@ -4,13 +4,12 @@ file-path:: C:/Users/10309/Nutstore/1/sync/zotero/Mathematics/Abstract Algebra/2
 - **The basic relationship between fields is inclusion**
   hl-page:: 168
   ls-type:: annotation
-  id:: 639ad214-1c10-4b45-93b1-a3c8ec42a3ba
   hl-color:: purple
+  id:: 639ad214-1c10-4b45-93b1-a3c8ec42a3ba
 - Subfields
   ls-type:: annotation
   hl-page:: 169
   hl-color:: yellow
-  id:: 639ad3fe-3c9a-4a3f-9038-c14427fdb206
 - Proposition 1.9
   ls-type:: annotation
   hl-page:: 169
@@ -20,7 +19,6 @@ file-path:: C:/Users/10309/Nutstore/1/sync/zotero/Mathematics/Abstract Algebra/2
   ls-type:: annotation
   hl-page:: 174
   hl-color:: yellow
-  id:: 639ae053-8825-426b-92eb-959789ce8af8
 - Proposition
   ls-type:: annotation
   hl-page:: 174

@@ -1,0 +1,3 @@
+- Mathematically, it is ((636ca217-d22e-42b8-984f-f4f35d530948)) generalized to higher cats.
+- Physically, ((63aa60df-a038-4fbe-b7b0-a1296ee9123d)). #Learning-TODO
+	- That is, the 2-cat C shall include all domain walls obtainable by condensing some anyons on some domain wall in C.

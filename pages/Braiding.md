@@ -1,7 +1,8 @@
 - Def
-  collapsed:: true
 	- ((63719fa5-647c-47a0-bebe-73cb8a261a7d))
-	- The consistency conditions are the hexagon equations
+	- [[Hexagon Identity]]
+		- ((63a8ff18-9240-4c57-865c-e12146994dc1))
+		- ((63a8ff22-75e0-45a9-ace0-eacdba091746))
 	-
 	- ((63719ffe-57f9-41a2-87ed-b12d5f4cd7fb))
 - It is not gauge invariant.

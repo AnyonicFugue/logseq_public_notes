@@ -1,6 +1,5 @@
 - Def
 	- Objects #card
-	  collapsed:: true
 	  card-last-interval:: 10
 	  card-repeats:: 2
 	  card-ease-factor:: 2.7
@@ -11,12 +10,11 @@
 		  ((6376ef54-3370-4e8e-8b8b-31f66f878eb9))
 			- Particles carrying different braidings; Hexagon
 	- Morphisms #card
-	  collapsed:: true
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-19T05:57:12.802Z
-	  card-last-reviewed:: 2022-12-09T05:57:12.803Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-01-26T05:45:14.943Z
+	  card-last-reviewed:: 2023-01-02T05:45:14.945Z
 	  card-last-score:: 5
 		- $f\in Hom_A(a,b)$ such that ((6376f089-48ca-44c2-8577-6aca91fcaba6))
 		-
@@ -31,7 +29,6 @@
 	  collapsed:: true
 		-
 	- Prove that the Drinfeld center $\mathfrak Z_1( Vec)$ is equivalent to Vec as braided monoidal categories. #card
-	  collapsed:: true
 	  card-last-interval:: 10
 	  card-repeats:: 2
 	  card-ease-factor:: 2.22

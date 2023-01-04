@@ -5,45 +5,44 @@ file-path:: zotero_link/Mathematics/Lie Algebra/2015_Hall_Lie Groups, Lie Algebr
   hl-stamp:: 1669446430236
   hl-page:: 16
   ls-type:: annotation
-  id:: 6381bb1b-bd7f-4e67-8380-1a111a50408c
   hl-color:: red
+  id:: 6381bb1b-bd7f-4e67-8380-1a111a50408c
 - Definition 1.4 is equivalent to saying that a matrix Lie group is a closed subgroup of $GL(n,\mathbb C)$
   hl-stamp:: 1669446473631
   hl-page:: 16
   ls-type:: annotation
-  id:: 6381bb48-3345-4b06-bbe2-aac3d6c38dde
   hl-color:: blue
+  id:: 6381bb48-3345-4b06-bbe2-aac3d6c38dde
 - [:span]
   ls-type:: annotation
   hl-page:: 33
   hl-color:: purple
-  id:: 6381bd71-4def-4a35-9a6b-67eb050d332f
   hl-type:: area
   hl-stamp:: 1669447024800
 - (1) $\phi$ is a group homomorphism and (2) $\phi$ is continuous.
   hl-page:: 34
   ls-type:: annotation
-  id:: 6381bdc6-e0b4-4d4d-91e3-aeb15dce7e60
   hl-color:: purple
+  id:: 6381bdc6-e0b4-4d4d-91e3-aeb15dce7e60
 - [:span]
   ls-type:: annotation
   hl-page:: 36
   hl-color:: purple
-  id:: 6381bed0-deb1-4cab-94d7-e1e4837c83e8
   hl-type:: area
   hl-stamp:: 1669447376331
+  id:: 6381bed0-deb1-4cab-94d7-e1e4837c83e8
 - Computing the Exponential
   ls-type:: annotation
   hl-page:: 46
   hl-color:: yellow
-  id:: 6381c0cf-5886-4962-856d-b14589f1bdbf
   hl-stamp:: 1669447890714
+  id:: 6381c0cf-5886-4962-856d-b14589f1bdbf
 - For any Lie algebra, the Jacobi identity means that the bracket operation behaves as if it were XY-YX in some associative algebra,
   ls-type:: annotation
   hl-page:: 62
   hl-color:: purple
-  id:: 6381ccf3-b7c4-466d-b7f5-9b966f36817f
   hl-stamp:: 1669451008295
+  id:: 6381ccf3-b7c4-466d-b7f5-9b966f36817f
 - Theorem 
   ls-type:: annotation
   hl-page:: 72

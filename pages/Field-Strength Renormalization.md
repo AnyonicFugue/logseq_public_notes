@@ -1,6 +1,11 @@
 - Peskin
-  id:: 63903248-5ecc-4f16-8bab-63ae5ea8de98
 	- Summary #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-01-27T05:52:21.783Z
+	  card-last-reviewed:: 2023-01-02T05:52:21.784Z
+	  card-last-score:: 5
 		- Goal: calculate the corrections to the electron propagator.
 			- This renormalizes mass, not charge.
 		- General analysis of the correction
@@ -24,6 +29,7 @@
 			- $$\frac{i}{(4 \pi)^2} \log \left(\frac{\Delta_{\Lambda}}{\Delta}\right)$$
 			- Still divergent.
 	- # Remember to also make flashcards!
+	  heading:: 1
 	- Rewrite the Lagrangians
 		- $\mathcal{L}=-\frac{1}{4} Z_3\left(F_{\mu \nu}\right)_r^2+Z_2 \bar{\psi}_r\left(i \not \partial-m_0\right) \psi_r-Z_2 Z_3^{\frac{1}{2}} e_0 \bar{\psi}_r \gamma^\mu \psi_r A_\mu^r$
 		- $$\begin{aligned}
@@ -31,18 +37,22 @@
 		  & =\left(-\frac{1}{4} F_{\mu \nu}^2+\bar{\psi}(i \not \partial-m) \psi-e \bar{\psi} \gamma^\mu \psi A_\mu\right)+\left(-\frac{1}{4} \delta_3 F_{\mu \nu}^2+\bar{\psi}\left(i \delta_2 \not \partial-\delta_m\right) \psi-e \delta_1 \bar{\psi} \gamma^\mu \psi A_\mu\right)
 		  \end{aligned}$$
 			- $Z_i=1+\delta_i$, $\delta_i$ are called **counter terms**.
-	- ((639094ce-9088-4138-a4b5-7ac7f96f7d15)) General analysis of propagators
+	- ((639094ce-9088-4138-a4b5-7ac7f96f7d15)) General analysis of propagators and the spectral representation #[[To be recorded]]
+		- To be moved higher
+		- ## Key points
+			- Lorentz invariance
+				- ((63a12f33-6dfd-496b-8220-28accdbca451))
+			- Translation invariance
+				- ((63a12f3f-388a-4625-ba90-e4e9250b3f84))
+				- $U(\Lambda) |\Omega\rangle=|\Omega\rangle$
 		- ((6390331c-7c49-4e6a-a6ca-696572b0f022))
 			- Non-perturbative analysis is often quite exotic and abstract, but provide more insight. #Thoughts
 		- ((6390335e-a793-430c-8a22-87c12f7ff053))
+		  collapsed:: true
 			- Does this hold for general interacting states?
 			- He writes ((639033da-bf24-48bf-a704-d1aebf9aa3b5)), which seem to justify the claim. But can we do this for interacting states?
-		- ((63903a83-0912-45ba-90fd-b1560f31adc1)), i.e. boost an eigenstate to obtain all possible momenta.
-			- But we may not obtain all eigenstates in this way. We may not change particle numbers, or even relative velocities of the particles, by boosting.
-			- Does he assume H to have (formal) Lorentz invariance?
-			  background-color:: red
-				- Intuitively, we can arbitrarily boost an on-shell particle.
-			- Maybe still justified by the '4-momentum operator'.
+		- ((63903a83-0912-45ba-90fd-b1560f31adc1)), i.e. boost an eigenstate to obtain all possible momenta. Equivalently, the Hilbert space consists of irreps of the Lorentz group.
+			- Intuitively, we can arbitrarily boost an on-shell particles.
 		- Completeness relation
 			- 1-p
 				- $$
@@ -77,7 +87,10 @@
 				- ((63904004-1719-49a0-a4ed-ae545a9d3ac2)), but with field-strength renormalizations
 		- 1-particle part
 			- ((63903e68-8a6e-48a0-9986-d91b226fea87))
-			- Z is the field-strength renormalization
+			- Z is the field-strength renormalization.
+				- Note that $Z=1$ in free theory, but $Z<1$ in interacting theories.
+				- $\left|\left\langle\Omega|\phi(0)| 1_0\right\rangle\right|^2=Z<1$. Physically, the field operator creates a bunch of different states, so the amplitude of $1_0$ is smaller than 1.
+				-
 			- m here is ((63903e92-e09c-4f19-8a07-012214461679))
 			- $m_0$ in the Lagrangian is the ((63903ea6-2939-4f43-9d05-c658b31ce1ae))
 		- ((63904079-1b0a-4901-9470-1714586e2e26))
@@ -91,6 +104,7 @@
 			- Bare mass.
 		- [[1PI]] diagrams
 			- ## To obtain the complete result, we must sum all Feynman diagrams.
+			  heading:: 2
 			- Def
 				- Any diagram that cannot be split in two by removing a single line
 				- ((63904489-d38e-4c14-b1e2-45ee3ff06317))
@@ -99,7 +113,13 @@
 			- Sum all possible diagrams
 				- ((63996a20-7140-4eed-a808-ddbee821afb6))
 				- Note that $\Sigma(p)$ commutes with $\not p$, since $\Sigma(p)$ is a function only of pure numbers and $\not p$. In fact, we can consider $\Sigma(p)$ to be a function of $\not p$, writing $p^2=(\not p)^2$. Then we can rewrite each electron propagator as $i /\left(\not p-m_0\right)$. #card
-					- Reminder card: By analyzing the only possible quantities, we can obtain some commutation relations.
+				  card-last-interval:: 16.67
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-01-01T21:50:40.250Z
+				  card-last-reviewed:: 2022-12-16T05:50:40.251Z
+				  card-last-score:: 5
+					- Reminder card: By analyzing the only possible quantities, we can obtain some commutation relations. #Physical
 					- Very convenient! Simplify the matrix equation into an algebraic equation.
 				- Sum up the geometric series, obtain the next line
 		- $\begin{aligned} \int d^4 x\langle\Omega| T \psi(x) & \bar{\psi}(0)|\Omega\rangle e^{i p \cdot x} \\ & =\frac{i}{\not p-m_0}+\frac{i}{\not p-m_0}\left(\frac{\Sigma(\not p)}{\not p-m_0}\right)+\frac{i}{\not p-m_0}\left(\frac{\Sigma(\not p)}{\not p-m_0}\right)^2+\cdots \\ & =\frac{i}{\not p-m_0-\Sigma(\not p)} \end{aligned}$
@@ -113,9 +133,7 @@
 					- Obtained by differentiating wrt $\not p$
 				- Thus $Z_2^{-1}=1-\left.\frac{d \Sigma}{d \not p}\right|_{\not p=m}$
 					- $Z_2$ is defined as the correction **factor** of the propagator.
-	- Lowest-order correction to 1PI 
-	  id:: 639042c5-a7a2-45aa-a0a6-3d3d10be46e9
-	  collapsed:: true
+	- Lowest-order correction to 1PI
 		- ((639042b9-c9fd-499a-8cdc-12c6adff64fd))
 			- Note that the 'lines connected on it' aren't counted in this diagram.
 		- $$
@@ -141,6 +159,7 @@
 			  \end{aligned}
 			  $$
 	- ## Final result
+	  heading:: 2
 		- $$
 		  \Sigma_2(p)=\frac{\alpha}{2 \pi} \int_0^1 d x\left(2 m_0-x \not p\right) \log \left(\frac{x \Lambda^2}{(1-x) m_0^2+x \mu^2-x(1-x) p^2}\right)
 		  $$

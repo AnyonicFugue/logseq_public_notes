@@ -1,1 +1,1 @@
-alias:: Locally
+alias:: [[Locally]]

@@ -5,130 +5,128 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   ls-type:: annotation
   hl-page:: 348
   hl-color:: blue
-  id:: 6370a8fd-64aa-4453-9384-10636e61c42e
   hl-type:: area
   hl-stamp:: 1668327677367
+  id:: 6370a8fd-64aa-4453-9384-10636e61c42e
 - [:span]
   ls-type:: annotation
   hl-page:: 348
   hl-color:: blue
-  id:: 6370a9b6-cfdd-49ed-a37e-e977b27e99ff
   hl-type:: area
   hl-stamp:: 1668327862135
+  id:: 6370a9b6-cfdd-49ed-a37e-e977b27e99ff
 - [:span]
   ls-type:: annotation
   hl-page:: 343
   hl-color:: blue
-  id:: 6370aa46-c9f9-4a49-8912-99dad0eb621c
   hl-type:: area
   hl-stamp:: 1668328006398
+  id:: 6370aa46-c9f9-4a49-8912-99dad0eb621c
 - [:span]
   ls-type:: annotation
   hl-page:: 349
   hl-color:: purple
-  id:: 6370aafb-bdcd-4007-a202-73f669641f53
   hl-type:: area
   hl-stamp:: 1668328186746
+  id:: 6370aafb-bdcd-4007-a202-73f669641f53
 - there is no natural way of identifying the groups of different points. Different paths may give rise to **different isomorphisms** between these groups.
   hl-stamp:: 1668328725751
   hl-page:: 349
   ls-type:: annotation
-  id:: 6370ad13-5e39-4c81-b39b-544b7be66b09
   hl-color:: red
+  id:: 6370ad13-5e39-4c81-b39b-544b7be66b09
 - [:span]
   ls-type:: annotation
   hl-page:: 350
   hl-color:: blue
-  id:: 6370adca-23c4-49b9-9880-595dfb2923b0
   hl-type:: area
   hl-stamp:: 1668328906384
+  id:: 6370adca-23c4-49b9-9880-595dfb2923b0
 - [:span]
   ls-type:: annotation
   hl-page:: 350
   hl-color:: purple
-  id:: 6370b0b4-024a-4a45-aa3a-c0cbf9789f6c
   hl-type:: area
   hl-stamp:: 1668329652220
+  id:: 6370b0b4-024a-4a45-aa3a-c0cbf9789f6c
 - [:span]
   ls-type:: annotation
   hl-page:: 353
   hl-color:: blue
-  id:: 637845df-9171-43f6-a080-223b3657bab1
   hl-type:: area
   hl-stamp:: 1668826590045
 - Note that if $$p: E\to B$$ is a covering map, then for each $$x\in B$$, $$p^{-1}(x)$$ has discrete topology, i.e. the points can be separated
   hl-stamp:: 1668827107527
   hl-page:: 353
   ls-type:: annotation
-  id:: 637847e2-9127-482b-b496-95136f6e6f95
   hl-color:: purple
+  id:: 637847e2-9127-482b-b496-95136f6e6f95
 	-
 - Note that if p is a covering map, then p is an open map.
   hl-page:: 353
   ls-type:: annotation
-  id:: 6378484a-4de6-4e9c-9ea8-8b3c8572e378
   hl-color:: purple
+  id:: 6378484a-4de6-4e9c-9ea8-8b3c8572e378
 - [:span]
   ls-type:: annotation
   hl-page:: 354
   hl-color:: yellow
-  id:: 63784918-925a-4fa9-97fb-8d3e8841d3d3
   hl-type:: area
   hl-stamp:: 1668827416019
+  id:: 63784918-925a-4fa9-97fb-8d3e8841d3d3
 - [:span]
   ls-type:: annotation
   hl-page:: 355
   hl-color:: yellow
-  id:: 63784a35-429c-434a-a01b-37cf86a8a1b4
   hl-type:: area
   hl-stamp:: 1668827700801
+  id:: 63784a35-429c-434a-a01b-37cf86a8a1b4
 - [:span]
   ls-type:: annotation
   hl-page:: 355
   hl-color:: purple
-  id:: 63784b3e-ca3c-4a6b-8fcb-7e895918d031
   hl-type:: area
   hl-stamp:: 1668827965880
+  id:: 63784b3e-ca3c-4a6b-8fcb-7e895918d031
 - [:span]
   ls-type:: annotation
   hl-page:: 356
   hl-color:: purple
-  id:: 63784b53-c5a9-48d5-ad15-eb33281a8251
   hl-type:: area
   hl-stamp:: 1668827987132
+  id:: 63784b53-c5a9-48d5-ad15-eb33281a8251
 - [:span]
   ls-type:: annotation
   hl-page:: 357
   hl-color:: yellow
-  id:: 63784d71-542c-40ba-be3d-f1946bca1676
   hl-type:: area
   hl-stamp:: 1668828529240
+  id:: 63784d71-542c-40ba-be3d-f1946bca1676
 - [:span]
   ls-type:: annotation
   hl-page:: 357
   hl-color:: yellow
-  id:: 63784d7a-336b-4b06-8ca7-2641dce6a7de
   hl-type:: area
   hl-stamp:: 1668828538688
+  id:: 63784d7a-336b-4b06-8ca7-2641dce6a7de
 - [:span]
   ls-type:: annotation
   hl-page:: 358
   hl-color:: yellow
-  id:: 63784f05-388d-4aee-a1a4-91261088de4c
   hl-type:: area
   hl-stamp:: 1668828933018
+  id:: 63784f05-388d-4aee-a1a4-91261088de4c
 - [:span]
   ls-type:: annotation
   hl-page:: 359
   hl-color:: blue
-  id:: 63784f8e-385d-4529-9c3b-3af9cb1b9d82
   hl-type:: area
   hl-stamp:: 1668829069891
+  id:: 63784f8e-385d-4529-9c3b-3af9cb1b9d82
 - [:span]
   ls-type:: annotation
   hl-page:: 359
   hl-color:: blue
-  id:: 63785096-0339-4367-8142-97fb0589ff89
   hl-type:: area
   hl-stamp:: 1668829334357
 - Lemma
@@ -160,9 +158,9 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   ls-type:: annotation
   hl-page:: 366
   hl-color:: yellow
-  id:: 638d639f-33d9-4a25-b658-4f63d2ddb144
   hl-type:: area
   hl-stamp:: 1670210462718
+  id:: 638d639f-33d9-4a25-b658-4f63d2ddb144
 - Lemma
   ls-type:: annotation
   hl-page:: 192
@@ -191,8 +189,8 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
 - One might well wonder why fixed-point theorems are of interest in mathematics. It turns out that many problems, such as problems concerning existence of solutions for systems of equations, for instance, can be formulated as fixed-point problems.
   hl-page:: 368
   ls-type:: annotation
-  id:: 63953b25-8709-4182-9cb5-87d46acf1a4f
   hl-color:: green
+  id:: 63953b25-8709-4182-9cb5-87d46acf1a4f
 - Corollary
   ls-type:: annotation
   hl-page:: 368
@@ -208,3 +206,35 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   hl-page:: 377
   hl-color:: yellow
   id:: 63954564-3e1d-4f74-81c3-bea192c5ffdd
+- Theorem
+  ls-type:: annotation
+  hl-page:: 378
+  hl-color:: yellow
+  id:: 63a6624b-1643-4f31-9c6d-8f96e2245bda
+- [:span]
+  ls-type:: annotation
+  hl-page:: 380
+  hl-color:: yellow
+  id:: 63a66686-57f7-43bd-8883-017b1642e7f1
+  hl-type:: area
+  hl-stamp:: 1671849605966
+- Theorem
+  ls-type:: annotation
+  hl-page:: 381
+  hl-color:: yellow
+  id:: 63a67422-9e04-4af9-8bae-e9bc5903ed6a
+- theorem
+  ls-type:: annotation
+  hl-page:: 382
+  hl-color:: yellow
+  id:: 63a67588-b6c3-48ab-97fb-5f38f7401e4a
+- Theorem
+  ls-type:: annotation
+  hl-page:: 385
+  hl-color:: yellow
+  id:: 63a7ba49-e539-495b-a981-0f27d65e5201
+- Theorem
+  ls-type:: annotation
+  hl-page:: 391
+  hl-color:: yellow
+  id:: 63a7c45c-fdbe-4da3-9b18-1ee279e2d9c4

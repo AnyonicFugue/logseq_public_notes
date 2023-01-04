@@ -1,4 +1,4 @@
-alias:: Strategy
+alias:: [[Strategy]]
 
 - Dirty way: Install a basis/coordinate and verify things directly.
   id:: 63860946-8380-45c7-b564-1c08f9e7cc70

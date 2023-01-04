@@ -1,1 +1,1 @@
-alias:: Path Connected
+alias:: [[Path Connected]]

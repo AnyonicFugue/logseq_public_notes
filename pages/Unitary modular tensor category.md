@@ -1,4 +1,4 @@
-alias:: UMTC
+alias:: [[UMTC]]
 
 -
 - Def

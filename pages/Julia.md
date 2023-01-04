@@ -1,5 +1,4 @@
 - Frequently used features
-  id:: 6378d89e-e3e2-4c22-b277-bc66afece232
 	- Logical operators #card
 	  card-last-interval:: 10
 	  card-repeats:: 1
@@ -27,8 +26,8 @@
 				- Just add `Threads.@threads`  to parallelize a for loop!
 					- ```	 
 					  	Threads.@threads for i = 1:10
-					           a[i] = Threads.threadid()
-					       end
+					         a[i] = Threads.threadid()
+					     end
 					  ```
 			- Potential problems #card
 			  card-last-interval:: 10.42
@@ -44,22 +43,22 @@
 					- Use static arrays for critical parts of code
 		- Multiprocessing
 	- Plotting #card
-	  card-last-interval:: 10
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2022-12-19T12:43:40.095Z
-	  card-last-reviewed:: 2022-12-09T12:43:40.096Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-03-03T08:16:52.075Z
+	  card-last-reviewed:: 2022-12-26T04:16:52.075Z
 	  card-last-score:: 5
 		- Temporary solution: Use GR.jl to plot and use readline() to block the program.
 		- ```
-		      GR.xlabel("\$tL^{1/v}\$")
-		      GR.ylabel("\$ML^{ (D-2+\\eta)/ 2}\$")
-		      GR.scatter(vec(x_list),vec(y_list)) #Scattered points
-		      a=readline()
+		    GR.xlabel("\$tL^{1/v}\$")
+		    GR.ylabel("\$ML^{ (D-2+\\eta)/ 2}\$")
+		    GR.scatter(vec(x_list),vec(y_list)) #Scattered points
+		    a=readline()
 		  
-		      GR.xlabel("T")
-		      GR.ylabel("Binder cumulant")
-		      GR.plot(T_list, Binder_para_list[1,:]) #Points connected by lines
+		    GR.xlabel("T")
+		    GR.ylabel("Binder cumulant")
+		    GR.plot(T_list, Binder_para_list[1,:]) #Points connected by lines
 		  ```
 		- Essentially, store the data into arrays then plot them.
 	- Matrix operations
@@ -82,11 +81,11 @@
 		- `function Wolff_iterate(StateArr::Array{Int8})`
 - Common mistakes
 	- Usage of range #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-06T13:01:01.199Z
-	  card-last-reviewed:: 2022-11-26T13:01:01.200Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-03-08T11:08:09.696Z
+	  card-last-reviewed:: 2022-12-31T07:08:09.697Z
 	  card-last-score:: 5
 		- `range(1,10)`
 		- I must specify the beginning.

@@ -1,28 +1,84 @@
 alias:: QED
 
 - [[Quantization]] of EM field
-  collapsed:: true
-	- $$\begin{aligned}
-	  &A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_p}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}+a_p^{\lambda \dagger} e^{i p \cdot x}\right) \\
-	  &\pi_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3}(+i) \sqrt{\frac{E_p}{2}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}-a_p^{\lambda \dagger} e^{i p \cdot x}\right)
-	  \end{aligned}$$
-	-
+	- Overall scheme
+		- First write down the Lagrangian and discover some problems
+		- Then introduce a Lagrange multiplier $\frac{1}{2 \xi}\left(\partial_\mu A^\mu\right)^2$ to fix the gauge
+		- Quantize as usual, then eliminate unphysical states (i.e. plug in the gauge condition)
+	- Classical case
+	  collapsed:: true
+		- $\mathcal{L}_{\text {EM }}=-\frac{1}{4} F_{\mu \nu} F^{\mu v} \quad F_{\mu \nu}=\partial_\mu A_v-\partial_v A_\mu$
+			- EOM: $\partial_\mu F^{\mu v}=\partial^2 A^v-\partial^v\left(\partial_\mu A^\mu\right)=0$
+		- This is problematic.
+			- Gauge isn't fixed
+			- $\pi^0=0$, i.e. $\pi^0=\frac{\partial \mathcal{L}}{\partial \dot{A}_0}=0$
+			- The propagator can't be solved
+				- $\partial^2 A_v-\partial_v\left(\partial_\mu A^\mu\right)=(g_{\alpha\nu}\partial_\mu\partial^\mu-\partial_\nu\partial_\alpha)A^\alpha$
+				- In momentum space: $(-g_{\alpha \nu} p^2+p_\nu p_\alpha)A^\alpha$
+				- Unfortunately the expression **isn't invertible**!
+				  In other words, the operator $g_{\alpha\nu}\partial_\mu\partial^\mu-\partial_\nu\partial_\alpha$ isn't invertible.
+	- Solution1. Add a multiplier to enforce Lorenz Gauge $\partial_\mu A^\mu=0$
+	  collapsed:: true
+		- $\mathcal{L}_{\xi}=\mathcal{L}_{\text {EM}}-\frac{1}{2 \xi}\left(\partial_\mu A^\mu\right)^2$
+		- EOM: $\partial^2 A^v-\left(1-\frac{1}{\xi}\right) \partial^v \partial_\mu A^\mu=0$
+		-
+		- We may set $\xi=1$ to eliminate the extra term and get $\mathcal{L}_{\xi}=-\frac{1}{2} \partial_\mu A_v \partial^\mu A^v$
+			- Problem: Is this legitimate?
+				- Specifically, the Lagrangian is a functional to be maximized. The quantities inside are functionals, not common variables.
+				  Also, when we use Lagrangian multipliers in calculus, the value of the multiplier can be **SOLVED **rather than designated.
+			- A: In this case it seems to be.
+				- The EOM of $\xi$ produces $\partial_\mu A^\mu=0$.
+				- EOM of $A^\mu$: $\partial_\mu\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_\mu \phi_a\right)}\right)-\frac{\partial \mathcal{L}}{\partial \phi_a}=0$ .
+				  The extra term $-\frac{1}{2 \xi}\left(\partial_\mu A^\mu\right)^2$ produces no extra term for $\frac{\partial \mathcal{L}}{\partial \phi_a}$ ; for $\partial_\mu\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_\mu \phi_a\right)}\right)$, it produces $-\frac 1 \xi \partial^\mu(\partial_\alpha A^\alpha)$
+				- In the presence the EOM of $\xi$, we can discard the extra term in the EOM of $A^\mu$. 
+				  The **set **of EOM is equivalent to the undiscarded one.
+		-
+		- Thus $\pi^\mu=\frac{\partial \mathcal{L}}{\partial\left(\partial_0 A^\mu\right)}=-\dot{A}^\mu$.
+		- Then we do the usual CCR and mode expansion
+			- $$\begin{aligned}
+			  &A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_p}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}+a_p^{\lambda \dagger} e^{i p \cdot x}\right) \\
+			  &\pi_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3}(+i) \sqrt{\frac{E_p}{2}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}-a_p^{\lambda \dagger} e^{i p \cdot x}\right)
+			  \end{aligned}$$
+			- Enforce the constraint $\partial_\mu A^\mu=0$: only 3 modes are left. 
+			  $$\zeta_T=\left(\begin{array}{c}
+			  0 \\
+			  \zeta^1 \\
+			  \zeta^2 \\
+			  0
+			  \end{array}\right)(2\ transverse\ modes),\quad \zeta_S=c\left(\begin{array}{l}
+			  1 \\
+			  0 \\
+			  0 \\
+			  1
+			  \end{array}\right)$$
+			- $\zeta_S$ is unphysical. Two points of view
+			    1. We may use the remaining gauge freedom.
+			    2. The mode has zero norm.
+			-
+	- Final Result
+		- $$\begin{aligned}
+		  &A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_p}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}+a_p^{\lambda \dagger} e^{i p \cdot x}\right) \\
+		  &\pi_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3}(+i) \sqrt{\frac{E_p}{2}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}-a_p^{\lambda \dagger} e^{i p \cdot x}\right)
+		  \end{aligned}$$
 - From [[Yukawa theory]] to QED #card
-  collapsed:: true
   card-last-interval:: 10
   card-repeats:: 2
   card-ease-factor:: 2.7
   card-next-schedule:: 2022-12-16T07:44:12.953Z
   card-last-reviewed:: 2022-12-06T07:44:12.953Z
   card-last-score:: 5
-	- ((636908da-dc02-4ff9-bc45-1b3b3c4e8517))
+	- $H_{\mathrm{int}}=\int d^3 x\ e \bar{\psi} \gamma^\mu \psi A_\mu$
 		- So elegant! $\gamma^\mu$ marries $A_\mu$
 		- Would different choice of gamma affect physics? eg. Weyl or Majarona? #Problem
 	- ((636909d9-c786-4017-88e5-4c0d88ed061e))
 	- See [[Feynman rules]]
 - Elementary processes
-  id:: 636e47fc-2b5b-48d2-abe9-e9892ac50a40
-  collapsed:: true
+	- Summary #card
+		- Write out the diagrams by Feynman rules
+			- Be careful of the minus signs from exchanging fermionic fields!
+		- Calculate $|M|^2$ by spin sums and trace tricks (explicitly write out the indices)
+			- The order of matrix multiplication is only a notation of how the indices contract.
+			  Explicitly write them out is a good way.
 	- Fermion-fermion
 		- ((636a08cd-dc0b-497c-84e8-1209396c615e))
 		- ((636907ca-d056-409f-b6b2-bfb023a167a1))
@@ -45,18 +101,17 @@ alias:: QED
 			- Select [[Center-of-mass]] frame:
 			-
 		- Final result:
-		  id:: 63703fc2-9ae7-47f5-9a16-84dda6ae25bc
 			- ((636a0ea3-dbd5-40f4-bf1b-0fe2940a0762))
 			  With ((636a0eb0-2a64-48c7-89eb-ee8b61d66889))
 	- Note: The 'phase-space dependence' originates from ((636a108d-1c99-463c-bd06-6105cdf58bbd)), where we don't care about the momenta of the particles coming out, only direction.
 	- [[Compton scattering]]
 		- Key points #card
-		  card-last-interval:: 10
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2022-12-25T11:57:00.604Z
-		  card-last-reviewed:: 2022-12-15T11:57:00.604Z
 		  card-last-score:: 5
+		  card-repeats:: 2
+		  card-next-schedule:: 2022-12-25T11:57:00.604Z
+		  card-last-interval:: 10
+		  card-ease-factor:: 2.7
+		  card-last-reviewed:: 2022-12-15T11:57:00.604Z
 			- Draw **two** diagrams
 			- Simplifications
 				- Use some basic relations ((6379e1d5-cde6-45c1-9024-4b12b6a35650)) to simplify the denominator
@@ -114,7 +169,7 @@ alias:: QED
 			- ((637ae60f-71b1-4bbd-bfba-96333ac6ecc9))
 - Radiative Corrections #[[To be recorded]]
   id:: 638d5442-2da2-466c-8e73-91b7fff0a3a3
-	- [[The Vertex Function]]
+	- [[Electron Vertex Function]]
 	- [[Bremsstrahlung]]
 	- Compare ((f148e065-772b-439d-8fb3-cb4024bdd0d6)) and ((74b31acc-246f-48b4-99c9-63059f858425)), we find that the divergent parts cancel!
 	  collapsed:: true
@@ -147,4 +202,5 @@ alias:: QED
 			- The second term is the anomalous magnetic moment.
 		- See Peskin P210
 	-
--
+- [[Ward-Takahashi Identity]]
+	-

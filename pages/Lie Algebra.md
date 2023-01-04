@@ -12,6 +12,12 @@
 		- ((6381ccf3-b7c4-466d-b7f5-9b966f36817f))
 		-
 	- The Lie algebra of a matrix [[Lie Group]] #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-01-27T05:52:39.955Z
+	  card-last-reviewed:: 2023-01-02T05:52:39.955Z
+	  card-last-score:: 5
 		- The set of all matrices $X$ such that $e^{t X}$ is in $G$ for all **real** numbers $t$.
 		  The bracket is given by the commutator.
 		- Note that it only generates the whole identity component.
@@ -65,7 +71,6 @@
 	  card-next-schedule:: 2022-12-24T06:00:37.205Z
 	  card-last-reviewed:: 2022-12-14T06:00:37.205Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- $A X A^{-1} \in \mathfrak{g}$ for all $A \in G$
 			- ((6381c0a3-1e80-48b1-ba45-9844cd8aabd7))
 		- $s X \in \mathfrak{g}$ for all real numbers $s$
@@ -76,7 +81,6 @@
 			- Corollary. $X Y-Y X \in \mathfrak{g}$
 				- By 1-para group theorem.
 	- Proposition. If $\mathfrak{g}$ is a Lie algebra, then
-	  collapsed:: true
 	  card-last-interval:: 10
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
@@ -89,33 +93,31 @@
 	  that is, $ad:\mathfrak{g} \rightarrow \operatorname{End}(\mathfrak{g})$ is a Lie algebra homomorphism. #card
 		- Direct use of Jacobi identity.
 	- ((6382d511-e047-4a9f-b190-7be918289e2c)) The map $A \rightarrow$ $\mathrm{Ad}_A$ is a homomorphism of $G$ into $\mathrm{GL}(\mathfrak{g})$. Furthermore, for each $A \in G, \operatorname{Ad}_A$ satisfies $\operatorname{Ad}_A([X, Y])=\left[\operatorname{Ad}_A(X), \operatorname{Ad}_A(Y)\right]$ i.e. Preserves the bracket. #card
-	  collapsed:: true
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-16T07:50:23.717Z
-	  card-last-reviewed:: 2022-12-06T07:50:23.717Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-01-18T13:39:17.858Z
+	  card-last-reviewed:: 2022-12-25T13:39:17.858Z
 	  card-last-score:: 5
 		- The first is easy to see.
 		- The second comes from the fact that inner automorphisms can cancel.
 	-
 	- If $G$ is commutative then $\mathfrak{g}$ is commutative. #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-13T06:58:19.215Z
-	  card-last-reviewed:: 2022-12-03T06:58:19.216Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-01-17T06:06:08.068Z
+	  card-last-reviewed:: 2022-12-24T06:06:08.068Z
 	  card-last-score:: 5
 		- As an exercise. Hint: Use a trick 10 lines above to construct the bracket from the Lie group quantities.
 	- ((6382c5bc-957b-4756-8adc-146cca7d1a16)) naturally induces ((6382c5bc-c2fb-4256-b0c1-e00aa69f4db0)) #card
-	  id:: 6382ce57-6b73-4815-b142-0f889766fa01
-	  collapsed:: true
 	  card-last-interval:: 10
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2022-12-20T11:54:36.078Z
 	  card-last-reviewed:: 2022-12-10T11:54:36.079Z
 	  card-last-score:: 5
+	  id:: 6382ce57-6b73-4815-b142-0f889766fa01
 		- ((6382d05c-e2da-47c8-a350-d5ef5f8128b9)). Let $G$ and $H$ be matrix Lie groups, with Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, respectively. Suppose that $\Phi: G \rightarrow H$ is a Lie group homomorphism. Then there exists a unique Lie algebra homomorphism $\phi: \mathfrak{g} \rightarrow \mathfrak{h}$ such that
 		  $$
 		  \Phi\left(e^X\right)=e^{\phi(X)}

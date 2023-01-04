@@ -208,7 +208,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["Topological Order" "Quantum Field Theory" "Homepage"]
+ :favorites ["homepage" "Topological Order" "Quantum Field Theory" "Homepage"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
 :srs/learning-fraction 0.6

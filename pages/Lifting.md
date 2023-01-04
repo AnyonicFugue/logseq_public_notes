@@ -23,13 +23,12 @@
 - Paths and path homotopies can be uniquely lifted.
   collapsed:: true
 	- ((63830159-da94-4cac-9da6-bf8c5a61256e)) Let $p: E \rightarrow B$ be a covering map, let $p\left(e_0\right)=b_0$. Any path $f: [0,1] \rightarrow B$ beginning at $b_0$ has a unique lifting to a path $\bar{f}$ in $E$ beginning at $e_0$. #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-15T13:06:55.516Z
-	  card-last-reviewed:: 2022-12-05T13:06:55.517Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-01-20T06:15:19.538Z
+	  card-last-reviewed:: 2022-12-27T06:15:19.539Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- Intuition
 			- The path f have several 'copies' in the covering space, with different starting points.
 		- Proof
@@ -45,11 +44,11 @@
 				- The intervals are mapped back by $p^{-1}$ into disjoint slices.
 				- The endpoints grant a unique choice.
 	- ((639146c8-4398-49fe-b838-f118e24d243b)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$. Let the map $F: I \times I \rightarrow B$ be continuous, with $F(0,0)=b_0$. There is a **unique lifting** of $F$ to a continuous map
-	  card-last-interval:: 10.42
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-19T22:55:22.898Z
-	  card-last-reviewed:: 2022-12-09T12:55:22.898Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-01-17T12:55:43.810Z
+	  card-last-reviewed:: 2022-12-24T12:55:43.810Z
 	  card-last-score:: 5
 	  $$
 	  \tilde{F}: I \times I \rightarrow E
@@ -65,19 +64,14 @@
 	-
 -
 - Lifting the fundamental group
-	- ((638c3f1f-7609-4ec8-880f-7b851dea0f63)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$. If $E$ is path connected, then the lifting correspondence
-	  id:: 638c0f2d-33eb-4634-9467-e083bf50506d
-	  collapsed:: true
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-22T05:47:51.281Z
-	  card-last-reviewed:: 2022-12-12T05:47:51.281Z
+	- ((638c3f1f-7609-4ec8-880f-7b851dea0f63)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$. If $E$ is path connected, then the lifting correspondence $\phi: \pi_1\left(B, b_0\right) \rightarrow p^{-1}\left(b_0\right)$ is surjective. If $E$ is simply connected, it is bijective. #card
 	  card-last-score:: 5
-	  $$
-	  \phi: \pi_1\left(B, b_0\right) \rightarrow p^{-1}\left(b_0\right)
-	  $$
-	  is surjective. If $E$ is simply connected, it is bijective. #card
+	  card-repeats:: 2
+	  card-next-schedule:: 2023-01-19T04:18:07.464Z
+	  card-last-interval:: 24
+	  id:: 638c0f2d-33eb-4634-9467-e083bf50506d
+	  card-ease-factor:: 2.7
+	  card-last-reviewed:: 2022-12-26T04:18:07.464Z
 		- Intuition
 			- (1) A path from $e_0$ to $e_1$ is compressed into a loop by the covering map. It is decompressed by the lifting correspondence.
 			- (2) We just need to prove it is injective.

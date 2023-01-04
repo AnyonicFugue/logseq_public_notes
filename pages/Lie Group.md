@@ -14,13 +14,13 @@
 		  id:: 6381bc92-5f90-4322-9a1b-0cbbf9128acc
 			- The path component with the identity
 		- Lie group homomorphism #card
-		  id:: 6382c5bc-957b-4756-8adc-146cca7d1a16
 		  card-last-interval:: 10
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
 		  card-next-schedule:: 2022-12-13T07:02:48.388Z
 		  card-last-reviewed:: 2022-12-03T07:02:48.388Z
 		  card-last-score:: 5
+		  id:: 6382c5bc-957b-4756-8adc-146cca7d1a16
 			- ((6381bdc6-e0b4-4d4d-91e3-aeb15dce7e60))
 			  To be an isomorphism, the inverse map must also be continuous.
 			- All structures must correspond.
@@ -40,11 +40,11 @@
 			- We may construct a homeomorphism to $S^3$
 		- ((639330f5-2eca-4f75-93cf-3fd1f6f9fe12)) There is a continuous bijection between $\mathrm{SO}(3)$ and $\mathbb{R} P^3$, thus $SO(3)$ isn't simply connected. #card
 		  card-last-score:: 5
-		  card-repeats:: 2
-		  card-next-schedule:: 2022-12-19T12:57:30.399Z
-		  card-last-interval:: 10
-		  card-ease-factor:: 2.7
-		  card-last-reviewed:: 2022-12-09T12:57:30.400Z
+		  card-repeats:: 3
+		  card-next-schedule:: 2023-03-01T16:56:34.620Z
+		  card-last-interval:: 67.2
+		  card-ease-factor:: 2.8
+		  card-last-reviewed:: 2022-12-24T12:56:34.621Z
 			- Note that $\mathbb{R} P^3$ is obtained by identifying points in $\mathbb R^4$.
 			- Intuition
 				- A rotation always has a principle axis. Thus the topological structure of $SO(3)$ is analogous to a 'direction' and an 'angle'.
@@ -95,7 +95,6 @@
 - Exapmles
 	- General Linear Group, $GL(n,\mathbb C)$
 	- Special Unitary Group
-	  id:: 6381bfb5-10ab-4876-94a6-21f10a02b058
 		- ((6381bed0-deb1-4cab-94d7-e1e4837c83e8))
 		-
 	-

@@ -4,7 +4,6 @@ type:: [[Course]]
 - Exercises #Learning-TODO
 	- Prove that [[Completely Positive]] is stronger than positive.
 		- $|\psi\rangle_{S E}=\frac{1}{\sqrt{2}}\left(|0\rangle_S|1\rangle_E+|1\rangle_S|0\rangle_E\right)$
-		  id:: 6386ca3b-8e7a-48dd-ade6-1d2291a3b904
 		- The partial trace $T_s\left(\rho_s\right)=\rho_s^{T}$ is positive but not completely positive.
 		- Note that writing out the density matrix is the simplest here.
 - Def
@@ -12,7 +11,6 @@ type:: [[Course]]
 	- In short, when tracing out the environment, the superposition degenerates to a classical probability.
 - Kraus operator
   id:: 63840eb6-970a-4787-ad25-13a3cc29ece5
-  collapsed:: true
 	- Def #card
 	  card-last-interval:: 10
 	  card-repeats:: 1
@@ -147,13 +145,12 @@ type:: [[Course]]
 			  -i & 0
 			  \end{array}\right)$$
 		- Depolarization #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-11T01:24:37.705Z
-		  card-last-reviewed:: 2022-12-01T01:24:37.705Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-01-26T05:54:01.234Z
+		  card-last-reviewed:: 2023-01-02T05:54:01.234Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- ((6371f38f-c95e-4d59-a4d8-237a069a12e7))
 				- Note that this channel needs two control bits to flip 3 directions **independently**.
 			- ((6371f3bf-7f5d-4f59-aa03-954d582fd946))
@@ -168,8 +165,6 @@ type:: [[Course]]
 				- $\rho_s^{\prime}=(1-p) \rho_s+p \frac{\mathbb{1}_s}{2}$
 					- The 1/2 factor is to keep unit trace.
 		- Amplitude damping #card
-		  collapsed:: true
-		  id:: 638608ee-85bb-4479-a743-068caacaba73
 		  card-last-interval:: 10
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
@@ -188,7 +183,6 @@ type:: [[Course]]
 		  card-next-schedule:: 2022-12-01T16:00:00.000Z
 		  card-last-reviewed:: 2022-12-01T11:57:56.205Z
 		  card-last-score:: 1
-		  collapsed:: true
 			- Simple version: The same as phase-flip, which causes the **diagonal** terms to vanish.
 			- Complicated version: Add a Gaussian-distributed relative phase.
 				- $p(\theta)=\frac{1}{\sqrt{4 \pi \lambda}} e^{-\frac{\theta^2}{4 \lambda}}$
@@ -197,6 +191,7 @@ type:: [[Course]]
 				  e^{-\lambda}(x+i y) & 1-z
 				  \end{array}\right)$$
 		- ## Strange feature of amplitude damping and phase damping
+		  heading:: 2
 			- Repeated application would arrive at 'pure cases'.
 			- For the former, the density operator becomes $|0\rangle\lang 0|$; for the latter it becomes a purely classical mix.
 			-
@@ -204,7 +199,6 @@ type:: [[Course]]
 			- ((63720490-57d6-4fac-acdf-f0227800dd0a))
 			- When $$\theta=\pi/2$$, the operation makes the Bell state a classical mix, which is 'de-entangle'.
 				- Intuitively: $$F_0$$ selects the second bit being 0,
-				  id:: 637204c0-0117-40dc-8aa6-2edd3de193c7
 				  while $$F_1$$ selects the second bit being 1.
 - The master equation
   collapsed:: true
@@ -216,9 +210,7 @@ type:: [[Course]]
 			  collapsed:: true
 				- R means reservoir.
 			- Use interaction picture and obtain ((63830b3b-4513-4772-8e43-8f53dae0527a))
-			  id:: 63830b27-7ebe-4dad-a464-adf64c6ec83c
 		- Simplifications #card
-		  collapsed:: true
 		  card-last-interval:: 10
 		  card-repeats:: 1
 		  card-ease-factor:: 2.36
@@ -242,7 +234,6 @@ type:: [[Course]]
 				- The equation now becomes purely differential ($\rho$ isn't integrated over).
 		- We finally obtain ((63830d27-bbb4-41f7-b322-443a6778d318))
 		- Lindblad operators #card
-		  collapsed:: true
 		  card-last-interval:: 10
 		  card-repeats:: 2
 		  card-ease-factor:: 2.7
@@ -270,13 +261,13 @@ type:: [[Course]]
 		  The time dependence is ignored by ((63830bb8-bc07-4352-a0d9-97a69af9dafd)).
 		-
 	- GKLS master equation #card
-	  id:: 63840eb6-312d-4a41-a9d9-a1c754156965
 	  card-last-interval:: 10
 	  card-repeats:: 2
 	  card-ease-factor:: 2.46
 	  card-next-schedule:: 2022-12-24T05:52:19.302Z
 	  card-last-reviewed:: 2022-12-14T05:52:19.302Z
 	  card-last-score:: 5
+	  id:: 63840eb6-312d-4a41-a9d9-a1c754156965
 		- $\dot{\rho}=-\frac{i}{\hbar}[H, \rho]+\sum_{k=1}^{M-1}\left(L_k \rho L_k^{\dagger}-\frac{1}{2} L_k^{\dagger} L_k \rho-\frac{1}{2} \rho L_k^{\dagger} L_k\right)$
 		- Note again that it is only possible under ((63830be8-7298-42ab-b88d-1391d1b1045c)).
 	- Examples.
@@ -346,11 +337,11 @@ type:: [[Course]]
 		- In short, if the system has interaction with the environment, quantum superposition becomes classical probability.
 	- Example. Collapse of a 1-Dim particle under an external perturbation
 		- Summary #card
-		  card-last-interval:: 10
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2022-12-25T05:25:54.425Z
-		  card-last-reviewed:: 2022-12-15T05:25:54.426Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-03-02T17:35:54.533Z
+		  card-last-reviewed:: 2022-12-25T13:35:54.534Z
 		  card-last-score:: 5
 			- Interaction (eg scattering) -> Superposition of entangled final states (system and environment) -> Classical mix after tracing out the environment
 			- [[Entanglement]]
@@ -379,10 +370,10 @@ type:: [[Course]]
 				- Prove $\left\langle\sigma_z\right\rangle_A=\left(|\alpha|^2-|\beta|^2\right) \cos \theta$ and obtain polarization.
 				-
 	- Summary #card
-	  card-last-interval:: 10
-	  card-repeats:: 2
-	  card-ease-factor:: 2.46
-	  card-next-schedule:: 2022-12-22T05:50:49.772Z
-	  card-last-reviewed:: 2022-12-12T05:50:49.773Z
+	  card-last-interval:: 61.44
+	  card-repeats:: 3
+	  card-ease-factor:: 2.56
+	  card-next-schedule:: 2023-03-02T17:00:14.070Z
+	  card-last-reviewed:: 2022-12-31T07:00:14.070Z
 	  card-last-score:: 5
 		- First, the apparatus establishes entanglement with the system. Then interaction with the environment destroys the coherence.

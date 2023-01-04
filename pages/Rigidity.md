@@ -1,4 +1,4 @@
-alias:: Dual structure
+alias:: [[Dual structure]]
 
 - Definition
 	- ((636e0b2a-6b6f-431d-aded-337e35071939))

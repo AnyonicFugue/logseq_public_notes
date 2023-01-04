@@ -5,6 +5,40 @@ file-path:: D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf
   ls-type:: annotation
   hl-page:: 63
   hl-color:: purple
-  id:: 6379d13b-9ca8-4786-9cf5-265e23751503
   hl-type:: area
   hl-stamp:: 1668927803608
+  id:: 6379d13b-9ca8-4786-9cf5-265e23751503
+- [:span]
+  ls-type:: annotation
+  hl-page:: 89
+  hl-color:: purple
+  id:: 639c26b2-9024-40b8-83d1-bbdc1e38189f
+  hl-type:: area
+  hl-stamp:: 1671177906483
+- this is consistent with the fact that ψ, ψ and Aμ create quanta with charge Q equal to −e, +e and zero, respectively
+  hl-stamp:: 1671177978229
+  hl-page:: 89
+  ls-type:: annotation
+  id:: 639c26f7-b208-49c8-a94b-7075007f4ac6
+  hl-color:: green
+- [:span]
+  ls-type:: annotation
+  hl-page:: 90
+  hl-color:: red
+  id:: 639c282f-4856-49bc-bfd1-3bd48c4fb75d
+  hl-type:: area
+  hl-stamp:: 1671178286748
+- [:span]
+  ls-type:: annotation
+  hl-page:: 93
+  hl-color:: yellow
+  id:: 63a12f33-6dfd-496b-8220-28accdbca451
+  hl-type:: area
+  hl-stamp:: 1671507761355
+- [:span]
+  ls-type:: annotation
+  hl-page:: 93
+  hl-color:: yellow
+  id:: 63a12f3f-388a-4625-ba90-e4e9250b3f84
+  hl-type:: area
+  hl-stamp:: 1671507775472

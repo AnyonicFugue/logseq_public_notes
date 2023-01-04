@@ -62,7 +62,6 @@
 						- $\int_0^1 d x x^{\alpha-1}(1-x)^{\beta-1}=B(\alpha, \beta)=\frac{\Gamma(\alpha) \Gamma(\beta)}{\Gamma(\alpha+\beta)}$
 				- ((6395739d-8404-45a2-a2ec-1e88ed4fecd9))
 					- ((639573b3-4802-47de-9e2c-5c491d2b2b78))
-					  id:: 63957393-3c4d-4672-b863-1fc1c3ee7ef9
 				- Expand to series wrt $1/\epsilon$
 					- $\Gamma\left(2-\frac{d}{2}\right)=\Gamma(\epsilon / 2)=\frac{2}{\epsilon}-\gamma+\mathcal{O}(\epsilon)$
 						- $\gamma \approx .5772$
