@@ -1,0 +1,50 @@
+file:: [CPE_Bach_Solfeggietto_H220.pdf](nutstore_link/music sheet/CPE_Bach_Solfeggietto_H220.pdf)
+file-path:: nutstore_link/music sheet/CPE_Bach_Solfeggietto_H220.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: red
+  hl-type:: area
+  hl-stamp:: 1668342599544
+  id:: 6370e347-b4f1-4968-ad09-8212a6e1fd1c
+- [:span]
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668342718333
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668945266032
+  id:: 637a1573-9a13-4d78-9f11-f28f535c9527
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: purple
+  hl-type:: area
+  hl-stamp:: 1669455968682
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1669456000709
+  id:: 6381e081-a44b-45b5-82ca-a27ab6295b29
+- [:span]
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1669456048224
+  id:: 6381e0b0-9b78-4781-a953-f831711d6a1a
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: red
+  hl-type:: area
+  hl-stamp:: 1669456067153
+  id:: 6381e0c3-3af0-4ebe-bb8b-af3b9d4be721

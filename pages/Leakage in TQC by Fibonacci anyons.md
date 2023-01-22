@@ -1,0 +1,8 @@
+- [[2013_Kliuchnikov_Asymptotically Optimal Topological Quantum Compiling]]
+-
+- # Ideas
+	- Write a program to help me simplify algebraic expressions
+		- Perhaps use the relevant MMA package named 'algebraic number theory'?
+- # TODOs
+	- Check 3+3, 3+4, 4+4, my devil design respectively.
+		- Maybe there would be some simplifications.

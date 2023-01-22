@@ -1,10 +1,10 @@
 - [[Deformation Retraction]]
 	- ((639541d5-9e08-4c84-97f1-a779990ec598)) Let $h, k : X \rightarrow Y$ be continuous maps, where $h(x_0)=k(x_0)=y_0$. If $h$ and $k$ are homotopic, and if the image of the base point $x_0$ of $X$ remains fixed at $y_0$ during the homotopy, then the homomorphisms $h_*$ and $k_*$ are equal. #card
-	  card-last-interval:: 10
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2022-12-25T05:26:17.236Z
-	  card-last-reviewed:: 2022-12-15T05:26:17.237Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-03-17T17:01:47.804Z
+	  card-last-reviewed:: 2023-01-09T13:01:47.804Z
 	  card-last-score:: 5
 	  id:: 63a507a1-db81-4fb5-99ad-f1c6af18e8fc
 		- Intuitively, 

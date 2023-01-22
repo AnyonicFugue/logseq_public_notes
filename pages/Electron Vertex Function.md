@@ -23,11 +23,11 @@
 			- $q^\mu=p^\mu-p'^\mu$
 		- Obviously this forces $C=0$
 	- $q_\mu \gamma^\mu$ vanishes when sandwiched between $\bar{u}\left(p^{\prime}\right)$ and $u(p)$ #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-25T05:18:23.098Z
-	  card-last-reviewed:: 2022-12-15T05:18:23.100Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-03T01:16:43.025Z
+	  card-last-reviewed:: 2023-01-10T01:16:43.025Z
 	  card-last-score:: 5
 		- Proof
 			- $q_\mu=p_\mu-p'_\mu$
@@ -38,11 +38,11 @@
 		- Thus we can express a linear combination of $\gamma^\mu$ and $p^\mu+p'^\mu$ by $\gamma^\mu$ and $\sigma^{\mu\nu}q_\nu$
 		-
 	- Final result of the vertex function #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-17T11:58:28.770Z
-	  card-last-reviewed:: 2022-12-07T11:58:28.770Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-03T23:47:12.223Z
+	  card-last-reviewed:: 2023-01-10T23:47:12.225Z
 	  card-last-score:: 5
 		- ((637c7f9b-ad14-479b-abec-cbcd8300bf7f))
 	-
@@ -55,6 +55,7 @@
 		- The definition of $\Gamma^\mu$ contains $-ie$, so the one of the inner vertex is cancelled.
 		- The second line uses the third ((637c8c74-1534-4627-bdd0-c5cf7f409a67))
 		- Why the gamma matrices in the last term $2 m\left(k+k^{\prime}\right)^\mu$ disappear? #Problem
+		  id:: 63c14165-99e3-4b5f-ae75-f1c13f66ef2e
 	- [[Feynman parameter]] #Trick
 	  collapsed:: true
 		- Idea: {{cloze Introduce auxiliary parameters to simplify the expression, then change the order of integration.}}
@@ -73,12 +74,13 @@
 		  card-last-score:: 5
 			- Proof. Differentiate the first identity wrt B
 		- ((637c9aa2-ba77-453f-8139-1e1a97735c0c)) #card
-		  card-last-interval:: 10
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2022-12-19T05:59:00.112Z
-		  card-last-reviewed:: 2022-12-09T05:59:00.113Z
+		  card-last-interval:: 61.44
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2023-03-11T22:55:33.729Z
+		  card-last-reviewed:: 2023-01-09T12:55:33.730Z
 		  card-last-score:: 5
+			- Core: It turns an awkward product into a summation.
 			- The proof is to be completed.
 	- Apply the trick of Feynman parameters to 6.38
 	  collapsed:: true

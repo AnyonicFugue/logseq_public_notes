@@ -1,8 +1,15 @@
 - Solving problems
   collapsed:: true
 	- Partial solutions shall also be valued. #card [[Academic]]
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-06T13:24:20.259Z
+	  card-last-reviewed:: 2023-01-12T13:24:20.259Z
+	  card-last-score:: 5
 		- The problem may be solved by holding several 'partial solutions' together.
 		- Moreover, the reason for the failure is often quite instructive.
+			- Why it doesn't work? How can we fix the defect?
 		- Failure is a beneficial part of research.
 	- There's more than rigor and proof. [[Academic]]
 		- To become mature, we need to learn to be rigorous. But that's not the end of things; proceeding only with rigorous formality is extremely slow.

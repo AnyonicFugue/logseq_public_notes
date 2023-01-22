@@ -1,0 +1,5 @@
+- Everything is up to a [[Phase Factor]].
+	- But the space isn't a projective space.
+	- Where does the phase pop up in QM?
+		- Berry phase
+		-

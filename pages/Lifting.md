@@ -64,7 +64,7 @@
 	-
 -
 - Lifting the fundamental group
-	- ((638c3f1f-7609-4ec8-880f-7b851dea0f63)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$. If $E$ is path connected, then the lifting correspondence $\phi: \pi_1\left(B, b_0\right) \rightarrow p^{-1}\left(b_0\right)$ is surjective. If $E$ is simply connected, it is bijective. #card
+	- ((638c3f1f-7609-4ec8-880f-7b851dea0f63)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$. If $E$ is **path connected**, then the lifting correspondence $\phi: \pi_1\left(B, b_0\right) \rightarrow p^{-1}\left(b_0\right)$ is **surjective**. If $E$ is **simply connected**, it is **bijective**. #card
 	  card-last-score:: 5
 	  card-repeats:: 2
 	  card-next-schedule:: 2023-01-19T04:18:07.464Z

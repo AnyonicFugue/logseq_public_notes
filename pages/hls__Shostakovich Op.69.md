@@ -1,0 +1,45 @@
+file:: [Shostakovich Op.69.pdf](nutstore_link/music sheet/Shostakovich Op.69.pdf)
+file-path:: nutstore_link/music sheet/Shostakovich Op.69.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1669635466130
+  id:: 63849d8c-3001-44dc-aea7-e4765d93f69c
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1670719424436
+  id:: 639527c1-08d5-449f-b8c3-044335d63d0d
+- [:span]
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: red
+  hl-type:: area
+  hl-stamp:: 1670931682831
+  id:: 639864e3-d2ec-4795-9afe-dfd95023d700
+- [:span]
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1670931758563
+  id:: 6398652f-2ad7-43c5-b743-1268ba5e4b40
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: yellow
+  id:: 63a985ef-b5c5-4cb6-a695-a1185f436184
+  hl-type:: area
+  hl-stamp:: 1672054252201
+- [:span]
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: red
+  id:: 63aad825-f0cf-4c63-828e-9b21a10c6e33
+  hl-type:: area
+  hl-stamp:: 1672140837265

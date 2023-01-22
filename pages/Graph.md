@@ -1,0 +1,12 @@
+- Def
+	- A (finite) linear graph $G$ is a Hausdorff space that is written as the union of finitely many arcs, each pair of which intersect in **at most one** common end point.
+	- The arcs are called the **edges** of the graph, and the end points of the arcs are called the **vertices** of the graph.
+- Examples
+	- Complete graph
+		- If $G$ contains exactly $n$ vertices, and if for every pair of distinct vertices of $G$ there is an edge of $G$ joining them, then $G$ is called the complete graph on $n$ vertices and is denoted $G_n$.
+	- Utility graph
+		- Connect 3 houses to 3 utilities, without any intersection.
+	- Theta space
+	  id:: 63bd0841-c1c2-4d33-8265-2d57561e49ac
+		- A theta space $X$ is a Hausdorff space that is written as the union of three arcs $A, B$, and $C$, each pair of which intersect precisely in their end points.
+			- Actually it is not a graph, but we can make it one by breaking some arcs into two.

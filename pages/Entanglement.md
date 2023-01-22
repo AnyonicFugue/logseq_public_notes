@@ -1,0 +1,2 @@
+- Interesting facts
+	- 'If you work too hard you get nothing'. Equal-weight superposition of all configurations doesn't work, but partial sum does.

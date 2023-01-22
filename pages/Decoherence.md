@@ -12,11 +12,11 @@ type:: [[Course]]
 - Kraus operator
   id:: 63840eb6-970a-4787-ad25-13a3cc29ece5
 	- Def #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-11T01:19:15.714Z
-	  card-last-reviewed:: 2022-12-01T01:19:15.716Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-04T00:56:10.259Z
+	  card-last-reviewed:: 2023-01-11T00:56:10.260Z
 	  card-last-score:: 5
 		- ((6371e60d-7b26-47f7-b159-0c11111473aa))
 			- U is some evolution of the **total** system.
@@ -165,11 +165,11 @@ type:: [[Course]]
 				- $\rho_s^{\prime}=(1-p) \rho_s+p \frac{\mathbb{1}_s}{2}$
 					- The 1/2 factor is to keep unit trace.
 		- Amplitude damping #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-16T07:52:01.042Z
-		  card-last-reviewed:: 2022-12-06T07:52:01.042Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-02-05T00:18:51.217Z
+		  card-last-reviewed:: 2023-01-12T00:18:51.217Z
 		  card-last-score:: 5
 			- ((6371fe7e-8fc1-482f-b505-582cb00d99cc))
 				- Intuitively: $$|0\rangle\lang0|$$ is always retained, while $$|1\rangle\lang1|$$ is flipped with probability p.
@@ -261,11 +261,11 @@ type:: [[Course]]
 		  The time dependence is ignored by ((63830bb8-bc07-4352-a0d9-97a69af9dafd)).
 		-
 	- GKLS master equation #card
-	  card-last-interval:: 10
-	  card-repeats:: 2
-	  card-ease-factor:: 2.46
-	  card-next-schedule:: 2022-12-24T05:52:19.302Z
-	  card-last-reviewed:: 2022-12-14T05:52:19.302Z
+	  card-last-interval:: 61.44
+	  card-repeats:: 3
+	  card-ease-factor:: 2.56
+	  card-next-schedule:: 2023-03-13T11:00:04.679Z
+	  card-last-reviewed:: 2023-01-11T01:00:04.679Z
 	  card-last-score:: 5
 	  id:: 63840eb6-312d-4a41-a9d9-a1c754156965
 		- $\dot{\rho}=-\frac{i}{\hbar}[H, \rho]+\sum_{k=1}^{M-1}\left(L_k \rho L_k^{\dagger}-\frac{1}{2} L_k^{\dagger} L_k \rho-\frac{1}{2} \rho L_k^{\dagger} L_k\right)$

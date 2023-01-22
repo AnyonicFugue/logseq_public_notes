@@ -99,11 +99,11 @@ type:: [[Course]]
 			- Use randomized time-evolution to simulate ensemble average.
 	- Wolff Algorithm
 		- Idea #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-16T07:49:32.058Z
-		  card-last-reviewed:: 2022-12-06T07:49:32.058Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-02-05T00:27:03.237Z
+		  card-last-reviewed:: 2023-01-12T00:27:03.237Z
 		  card-last-score:: 5
 			- Flip a cluster of spins at a stroke to accelerate.
 				- Specifically, form a cluster by try to activate adjacent parallel spins
@@ -229,11 +229,11 @@ type:: [[Course]]
 			- Trick: set $\epsilon=4-D$, expand wrt $\epsilon$
 			-
 			- Relevance of coupling constants #card
-			  card-last-interval:: 10
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2022-12-07T06:16:24.881Z
-			  card-last-reviewed:: 2022-11-27T06:16:24.882Z
+			  card-last-interval:: 24
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-02-07T01:37:56.556Z
+			  card-last-reviewed:: 2023-01-14T01:37:56.556Z
 			  card-last-score:: 5
 				- Thought: The irrelevant ones vanish in the rescaling process
 				- Criteria: Scaling dimension
@@ -289,6 +289,7 @@ type:: [[Course]]
 			  card-last-score:: 5
 				- The distribution of the position tends to be Gaussian after a large number of jumps.
 				- The average is zero, while the square deviation adds up at each step.
+				  id:: 63b186e4-627f-4de6-adec-727488e67a6f
 				- ((637e1f66-cd2e-4736-a58a-f243ab833dab))
 				  collapsed:: true
 					- D is the diffusion coefficient.
@@ -313,11 +314,11 @@ type:: [[Course]]
 	- ((637e2117-23ec-4369-8b80-8dc4c6e7c618)) Equation
 		- We study an ensemble of particles and study how they evolve (and reach equilibrium)
 		- Summary #card
-		  card-last-interval:: 10
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2022-12-20T11:54:06.974Z
-		  card-last-reviewed:: 2022-12-10T11:54:06.975Z
+		  card-last-interval:: 61.44
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2023-03-15T10:57:47.145Z
+		  card-last-reviewed:: 2023-01-13T00:57:47.146Z
 		  card-last-score:: 5
 			- Master equation
 				- $$\frac{\partial f(x, t)}{\partial t}=\int_{-\infty}^{\infty}\left\{-f(x, t) W\left(x, x^{\prime}\right)+f\left(x^{\prime}, t\right) W\left(x^{\prime}, x\right)\right\} d x^{\prime}$$
@@ -406,6 +407,12 @@ type:: [[Course]]
 	- Kramers-Kronig relations
 		- Summary #card
 		  collapsed:: true
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-02-05T00:16:09.428Z
+		  card-last-reviewed:: 2023-01-12T00:16:09.429Z
+		  card-last-score:: 5
 			- Mathematically
 				- For a complex function analytic on the upper half-plane (and vanish rapidly enough at infinity), we have 
 				  $$\chi(\omega)=\frac{1}{i \pi} \mathcal{P} \int_{-\infty}^{\infty} \frac{\chi\left(\omega^{\prime}\right)}{\omega^{\prime}-\omega} d \omega^{\prime}$$

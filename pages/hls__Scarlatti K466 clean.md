@@ -1,0 +1,52 @@
+file:: [Scarlatti K466 clean.pdf](nutstore_link/music sheet/Scarlatti K466 clean.pdf)
+file-path:: nutstore_link/music sheet/Scarlatti K466 clean.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: red
+  hl-type:: area
+  hl-stamp:: 1668343139705
+  id:: 6370e564-1216-471a-a57d-68323afda207
+- [:span]
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668343161236
+  id:: 6370e57a-f0c5-43ca-84f9-ad5ef8b9715d
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668343170606
+  id:: 6370e584-9935-42a8-a2d2-e25d7ea53728
+- [:span]
+  ls-type:: annotation
+  hl-page:: 3
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668343201568
+  id:: 6370e5a3-2337-490c-9e5f-a9991a6633d7
+- [:span]
+  ls-type:: annotation
+  hl-page:: 3
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668343217714
+  id:: 6370e5b2-3ca1-4097-bc02-91cb688e9b19
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668559305514
+  id:: 637431cb-33e9-4b70-94b2-cf4ed7529f47
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668560256645
+  id:: 63743583-0039-4b21-8416-e785e9f78ef6

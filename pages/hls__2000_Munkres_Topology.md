@@ -238,3 +238,77 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   hl-page:: 391
   hl-color:: yellow
   id:: 63a7c45c-fdbe-4da3-9b18-1ee279e2d9c4
+- Lemma
+  hl-page:: 394
+  ls-type:: annotation
+  id:: 63ba6c1b-ec02-4407-839d-f3522cc4abb9
+  hl-color:: yellow
+- Nulhomotopy lemma
+  hl-page:: 394
+  ls-type:: annotation
+  id:: 63ba7047-d03a-4029-8daf-5787e7eabe4f
+  hl-color:: yellow
+- Theorem
+  ls-type:: annotation
+  hl-page:: 396
+  hl-color:: yellow
+  id:: 63ba7757-abc4-4455-8a09-b5fba5a4b80d
+- Theorem
+  ls-type:: annotation
+  hl-page:: 400
+  hl-color:: yellow
+  id:: 63bbc09a-2a79-48b1-bb63-72957cc721cc
+- Theorem
+  ls-type:: annotation
+  hl-page:: 402
+  hl-color:: yellow
+  id:: 63bbc3d9-da3a-4571-86da-58b279d881a0
+- Theorem
+  ls-type:: annotation
+  hl-page:: 406
+  hl-color:: yellow
+  id:: 63bbcc50-fdce-4a0d-aa5b-94592f62dcac
+- Borsuk lemma
+  hl-page:: 399
+  ls-type:: annotation
+  id:: 63bbcfcf-7da8-4aa7-887c-c2b566e5ebfa
+  hl-color:: yellow
+- Theorem
+  ls-type:: annotation
+  hl-page:: 407
+  hl-color:: yellow
+  id:: 63bbd065-c178-4b84-b697-5ef07bb7c652
+- Lemma
+  ls-type:: annotation
+  hl-page:: 412
+  hl-color:: yellow
+  id:: 63bd088d-0b32-447b-84ee-45bfc3959a98
+- Theorem
+  ls-type:: annotation
+  hl-page:: 413
+  hl-color:: yellow
+  id:: 63bd0c90-1981-4b7c-9b7f-ea9f9efc9eb0
+- Theorem
+  ls-type:: annotation
+  hl-page:: 414
+  hl-color:: yellow
+  id:: 63bd1790-40f5-4e6f-a2f3-d021dd7c88dc
+- [:span]
+  ls-type:: annotation
+  hl-page:: 414
+  hl-color:: yellow
+  id:: 63bd18fc-f313-4f33-8d66-1244667d0d3b
+  hl-type:: area
+  hl-stamp:: 1673337083738
+- Lemma
+  ls-type:: annotation
+  hl-page:: 416
+  hl-color:: yellow
+  id:: 63be53bc-62bf-41bf-afc3-62805726de36
+- [:span]
+  ls-type:: annotation
+  hl-page:: 417
+  hl-color:: yellow
+  id:: 63be53e5-0e1f-43be-8bb1-2bd7b88e5e16
+  hl-type:: area
+  hl-stamp:: 1673417700797

@@ -1,0 +1,20 @@
+- Ref. ((63be27bf-992a-4e50-bad4-a45c1724e747))
+- Spontaneous symmetry breaking orders
+	- $\left(G_{\Psi} \subset G_H\right)$
+- Gapped 1D quantum states
+	- $\left[G_{\Psi} \subset G_H ; \operatorname{pRep}\left(G_{\Psi}\right)\right]$
+		- $G_H$ is an ((63be2322-53b6-4a37-b68a-4aa8ff9da271))
+		- $\operatorname{pRep}\left(G_{\Psi}\right)$ is a projective representation of $G_{\Psi}$
+- (2+1)D bosonic topo orders
+	- $(\mathrm{MTC}, c)$
+- (2+1)D fermionic topo orders
+	- $\left[\operatorname{sRep}\left(Z_2^f\right) \subset \mathrm{BFC} ; c\right]$
+		- $\operatorname{sRep}\left(Z_2^f\right)$ is the symmetric fusion category (SFC) formed by the representations of the fermion-number-parity symmetry $Z_2^f$ where the non-trivial representation is assigned **Fermi statistics**, and BFC is a unitary braided fusion category.
+- Bosonic [[SET]] orders
+	- $\left[G_{\Psi} \subset G_H ; \operatorname{Rep}\left(G_{\Psi}\right) \subset \mathrm{BFC} \subset \mathrm{MTC} ; c\right]$
+		- ((63be2886-afd9-499f-8c00-2196e4e68548))
+		-
+- Fermionic [[SET]] orders
+	- $\left[G_{\Psi}^f \subset G_H^f ; \operatorname{sRep}\left(G_{\Psi}^f\right) \subset \operatorname{BFC} \subset MTC ; c\right]$
+- We are still struggling for (3+1)D topo orders!
+-

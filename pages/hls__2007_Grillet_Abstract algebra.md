@@ -1,5 +1,5 @@
-file:: [2007_Grillet_Abstract algebra.pdf](C:/Users/10309/Nutstore/1/sync/zotero/Mathematics/Abstract Algebra/2007_Grillet_Abstract algebra.pdf)
-file-path:: C:/Users/10309/Nutstore/1/sync/zotero/Mathematics/Abstract Algebra/2007_Grillet_Abstract algebra.pdf
+file:: [2007_Grillet_Abstract algebra.pdf](zotero_link/Mathematics/Abstract Algebra/2007_Grillet_Abstract algebra.pdf)
+file-path:: zotero_link/Mathematics/Abstract Algebra/2007_Grillet_Abstract algebra.pdf
 
 - **The basic relationship between fields is inclusion**
   hl-page:: 168
@@ -24,3 +24,13 @@ file-path:: C:/Users/10309/Nutstore/1/sync/zotero/Mathematics/Abstract Algebra/2
   hl-page:: 174
   hl-color:: yellow
   id:: 639ae49b-2cd4-4c51-8269-536c1758f5f9
+- Proposition
+  ls-type:: annotation
+  hl-page:: 188
+  hl-color:: yellow
+  id:: 63c0a684-6cd0-4449-bb38-4278a8f304b2
+- Proposition
+  ls-type:: annotation
+  hl-page:: 191
+  hl-color:: yellow
+  id:: 63c0a6c5-915b-4040-bad6-53634a83f21e

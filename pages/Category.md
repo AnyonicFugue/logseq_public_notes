@@ -1,5 +1,8 @@
 alias:: [[Category Theory]]
 
+- [[References]]
+	- ((63ba25c2-8eff-41fb-b08c-9098b6a3047c)) Invitation
+	- Denis-Charles Cisinski. Higher Categories and Homotopical Algebra.
 - Definitions
 	- Higher cats
 		- [[2-category]]
@@ -45,11 +48,11 @@ alias:: [[Category Theory]]
 		- [[Fusion category]]
 		- [[Unitary modular tensor category]]
 	- Idempotent #card
-	  card-last-interval:: 28
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-01-06T12:40:34.714Z
-	  card-last-reviewed:: 2022-12-09T12:40:34.717Z
+	  card-last-interval:: 201.84
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2023-08-02T20:55:14.542Z
+	  card-last-reviewed:: 2023-01-13T00:55:14.542Z
 	  card-last-score:: 5
 		- A morphism with $$e=e^2:=e \circ e$$
 		-

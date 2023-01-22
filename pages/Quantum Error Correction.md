@@ -14,8 +14,13 @@ type:: Course
 		- Alice wants to send a single qubit $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$ to Bob.
 		- The quantum channel they use may flip any qubit with probability $\epsilon$.
 	- Code #card
+	  card-last-interval:: 26.06
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-08T02:02:28.374Z
+	  card-last-reviewed:: 2023-01-13T01:02:28.374Z
+	  card-last-score:: 5
 		- Encoding
-		  collapsed:: true
 			- $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle \rightarrow \alpha\left|0_L\right\rangle+\beta\left|1_L\right\rangle=\alpha|000\rangle+\beta|111\rangle$
 				- ((63842195-9e57-46b6-b34a-6e62c211e353))
 				- 'L' means 'logical'.
@@ -105,30 +110,30 @@ type:: Course
 			- The set of all possible errors $\mathcal{E}=\left\{E_0, \ldots, E_{4^n-1}\right\}$
 			- $\mathcal{E}_c$ the subset of errors correctable by the code
 			- Weight of an error #card
-			  card-last-interval:: 10
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2022-12-14T06:03:16.966Z
-			  card-last-reviewed:: 2022-12-04T06:03:16.967Z
+			  card-last-interval:: 24
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-02-02T12:54:18.497Z
+			  card-last-reviewed:: 2023-01-09T12:54:18.497Z
 			  card-last-score:: 5
 				- The number of qubits on which a given operator differs from the identity
 				- eg. The weight of $I_1 \otimes \sigma_2^y \otimes \sigma_3^x \otimes I_4 \otimes \sigma_5^z$ is 3.
 			- Distance of a code #card
-			  card-last-interval:: 10
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2022-12-11T01:22:13.210Z
-			  card-last-reviewed:: 2022-12-01T01:22:13.210Z
+			  card-last-interval:: 24
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-02-05T13:30:59.377Z
+			  card-last-reviewed:: 2023-01-12T13:30:59.378Z
 			  card-last-score:: 5
 				- The smallest distance between two codewords.
 				- ((6385c169-71ce-4fd6-9a59-ab5a1ed8f271))
 		-
 	- 2 Necessary conditions for error correction #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-11T01:21:47.833Z
-	  card-last-reviewed:: 2022-12-01T01:21:47.833Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-01-30T06:05:34.812Z
+	  card-last-reviewed:: 2023-01-06T06:05:34.812Z
 	  card-last-score:: 5
 	  id:: 638563b0-97c7-407a-b2b0-dcbe845029c7
 		- $\left\langle i_L\left|E_a^{\dagger} E_b\right| j_L\right\rangle=0 \quad$ for $i \neq j$
@@ -210,11 +215,11 @@ type:: Course
 				- $\mathcal S$, the stablizer, is an abelian subgroup of $G_n$
 					- Why abelian? #card
 					  card-last-score:: 5
-					  card-repeats:: 2
-					  card-next-schedule:: 2022-12-25T11:54:11.869Z
-					  card-last-interval:: 10
-					  card-ease-factor:: 2.46
-					  card-last-reviewed:: 2022-12-15T11:54:11.869Z
+					  card-repeats:: 3
+					  card-next-schedule:: 2023-03-16T11:34:45.161Z
+					  card-last-interval:: 61.44
+					  card-ease-factor:: 2.56
+					  card-last-reviewed:: 2023-01-14T01:34:45.162Z
 						- 1. Abelian allows them to be diagonalized simultaneously and find the preserved eigenspace.
 						- 2. More importantly, the measurements of the operators won't cause extra collapses of states.
 				- Stabilizer code space $\mathcal H_S$
@@ -250,27 +255,28 @@ type:: Course
 			- Why no $M_5$?
 				- Because $M_5=M_1M_2M_3M_4$
 		- All stabilizers with generators ((638605de-c46e-4b9d-89ea-a69241304577)) #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-23T06:26:56.411Z
-		  card-last-reviewed:: 2022-12-13T06:26:56.413Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-02-08T01:09:35.673Z
+		  card-last-reviewed:: 2023-01-15T01:09:35.674Z
 		  card-last-score:: 5
 			- 4 generators, each can be 0 or 1. $|G|=4^2=16$
 			- Aside from M1 and the four operators obtained from it by cyclic permutations, the stabilizer will also contains M1M2 plus its cyclic permutations, and M1M3 plus its cyclic permutations.
 			- Note that $M_1M_2M_3M_4M_5=I$, so 3=5-2.
 		-
 	- Codewords #card
-	  card-last-interval:: 10
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2022-12-23T06:33:35.741Z
-	  card-last-reviewed:: 2022-12-13T06:33:35.742Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-03-20T04:14:45.084Z
+	  card-last-reviewed:: 2023-01-12T00:14:45.085Z
 	  card-last-score:: 5
 		- Naive construction
 			- $|0\rangle \rightarrow\left|0_L\right\rangle \equiv \sum_{M \in \mathcal{S}} M|00000\rangle$
 			- $|1\rangle \rightarrow\left|1_L\right\rangle \equiv \sum_{M \in \mathcal{S}} M|11111\rangle$
-			- Sum all possible permutations to obtain an invariant form. #Strategies
+			- Sum all possible permutations to obtain an invariant form. #Strategy
+			  id:: 63c1416d-8273-48d4-8cdf-b3fc6ecdf937
 		- Simplification
 			- Only sum the actions of the **generators**.
 	- Verify that the code is nondegenerate and have length 3. #Learning-TODO

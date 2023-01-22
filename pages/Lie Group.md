@@ -14,11 +14,11 @@
 		  id:: 6381bc92-5f90-4322-9a1b-0cbbf9128acc
 			- The path component with the identity
 		- Lie group homomorphism #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-13T07:02:48.388Z
-		  card-last-reviewed:: 2022-12-03T07:02:48.388Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-02-08T01:09:09.988Z
+		  card-last-reviewed:: 2023-01-15T01:09:09.988Z
 		  card-last-score:: 5
 		  id:: 6382c5bc-957b-4756-8adc-146cca7d1a16
 			- ((6381bdc6-e0b4-4d4d-91e3-aeb15dce7e60))
@@ -37,7 +37,14 @@
 		  card-next-schedule:: 2022-12-13T07:05:18.224Z
 		  card-last-reviewed:: 2022-12-03T07:05:18.224Z
 		  card-last-score:: 5
-			- We may construct a homeomorphism to $S^3$
+			- We may construct a homeomorphism to $S^3$ by 
+			  $$
+			  A=\left(\begin{array}{cc}
+			  \alpha & -\bar{\beta} \\
+			  \beta & \bar{\alpha}
+			  \end{array}\right)
+			  $$
+				- $\alpha$ and $\beta$ are arbitrary complex numbers satisfying $|\alpha|^2+|\beta|^2=1$
 		- ((639330f5-2eca-4f75-93cf-3fd1f6f9fe12)) There is a continuous bijection between $\mathrm{SO}(3)$ and $\mathbb{R} P^3$, thus $SO(3)$ isn't simply connected. #card
 		  card-last-score:: 5
 		  card-repeats:: 3
@@ -50,47 +57,16 @@
 				- A rotation always has a principle axis. Thus the topological structure of $SO(3)$ is analogous to a 'direction' and an 'angle'.
 				- The latter is isomorphic to $S_1$.
 	- [[Norms of Matrices]]
+	  collapsed:: true
 		- Hilbert–Schmidt norm, or Frobenius norm
 			- $\|X\|=\left(\sum_{j, k=1}^n\left|X_{j k}\right|^2\right)^{1 / 2}$
 			- See X as an $n^2$-dimensional vector.
 			- Properties
 				- $\left\|(A-I)^m\right\| \leq\|(A-I)\|^m$
 	- [[Matrix Exponential]]
-		- Def
-			- $e^X=\sum_{m=0}^{\infty} \frac{X^m}{m !}$
-			- It it convergent and continuous on all $X\in M_n(\mathbb C)$
-		- Here is a useful decomposition of ((6381c0cf-5886-4962-856d-b14589f1bdbf)).
-		- Notable properties #card
-		  card-last-interval:: 10
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2022-12-16T07:48:02.114Z
-		  card-last-reviewed:: 2022-12-06T07:48:02.114Z
-		  card-last-score:: 5
-			- $e^{C X C^{-1}}=C e^X C^{-1}$
-			  id:: 6381c0a3-1e80-48b1-ba45-9844cd8aabd7
-			- $e^{X+Y}=\lim _{m \rightarrow \infty}\left(e^{\frac{X}{m}} e^{\frac{Y}{m}}\right)^m$
-			  id:: 6381ca36-6077-413b-8665-7fbbb620d7db
-				- Provable by taking log of $e^{\frac{X}{m}} e^{\frac{Y}{m}}$
-			- $\operatorname{det}\left(e^X\right)=e^{\operatorname{trace}(X)}$
-			- Theorem (One-Parameter Subgroups). If $A(\cdot)$ is a one-parameter subgroup of $\mathrm{GL}(n ; \mathbb{C})$, there exists a unique $n \times n$ complex matrix $X$ such that
-			  $$
-			  A(t)=e^{t X} \text {. }
-			  $$
-				- Provable by PDE.
-				- Intuitively, a 1-para group must be an integral curve of a constant vector.
-			-
 	- [[Matrix Logarithm]]
 		- We hope to define something as an inverse of the matrix exponential.
 		  However, a bit knowledge in [[Complex Analysis]] would show that it is impossible to have a global one.
-		- Def #card
-			- $\log A=\sum_{m=1}^{\infty}(-1)^{m+1} \frac{(A-I)^m}{m}$
-			- The strategy is to define it near $I_n$, since we can't have it globally.\
-			-
-			- Theorem. It is defined and continuous on all matrices s.t. $\|A-I\|<1$
-				- Use $\left\|(A-I)^m\right\| \leq\|(A-I)\|^m$.
-				- We can slightly modify the condition in a variety of ways. The idea is always to avoid multiple values.
-				-
 	-
 - Exapmles
 	- General Linear Group, $GL(n,\mathbb C)$

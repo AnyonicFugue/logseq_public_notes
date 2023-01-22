@@ -74,8 +74,14 @@ alias:: QED
 	- See [[Feynman rules]]
 - Elementary processes
 	- Summary #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-06T13:25:31.902Z
+	  card-last-reviewed:: 2023-01-12T13:25:31.902Z
+	  card-last-score:: 5
 		- Write out the diagrams by Feynman rules
-			- Be careful of the minus signs from exchanging fermionic fields!
+			- Be careful of the **minus** signs from exchanging fermionic fields!
 		- Calculate $|M|^2$ by spin sums and trace tricks (explicitly write out the indices)
 			- The order of matrix multiplication is only a notation of how the indices contract.
 			  Explicitly write them out is a good way.
@@ -143,17 +149,16 @@ alias:: QED
 		- Now we need to sum the polarizations over the photons and the electrons.
 			- The sum for the spins is familiar.
 			- The trick for photons #card
-			  card-last-interval:: 10
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2022-12-25T05:25:31.475Z
-			  card-last-reviewed:: 2022-12-15T05:25:31.476Z
+			  card-last-interval:: 67.2
+			  card-repeats:: 3
+			  card-ease-factor:: 2.8
+			  card-next-schedule:: 2023-03-19T04:56:44.002Z
+			  card-last-reviewed:: 2023-01-11T00:56:44.002Z
 			  card-last-score:: 5
 				- $\sum_{\text {polarizations }} \epsilon_\mu^* \epsilon_\nu \longrightarrow-g_{\mu \nu}$
 				  Don't forget the minus.
 				- This isn't an actual equality, but it works in calculating the scatterings.
 				- Proof
-					- ((637ae38e-ce30-44e7-a6b9-67dec4cec7ed))
 					- $\sum_\epsilon\left|\epsilon_\mu^*(k) \mathcal{M}^\mu(k)\right|^2=\sum_\epsilon \epsilon_\mu^* \epsilon_\nu \mathcal{M}^\mu(k) \mathcal{M}^{\nu *}(k)$
 					- Select k in z direction for simplicity  $\epsilon_1^\mu=(0,1,0,0) ; \quad \epsilon_2^\mu=(0,0,1,0)$. 
 					  We obtain $\sum_\epsilon\left|\epsilon_\mu^*(k) \mathcal{M}^\mu(k)\right|^2=\left|\mathcal{M}^1(k)\right|^2+\left|\mathcal{M}^2(k)\right|^2$

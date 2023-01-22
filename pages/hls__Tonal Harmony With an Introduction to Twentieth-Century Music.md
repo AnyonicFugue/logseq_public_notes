@@ -1,0 +1,357 @@
+file:: [Tonal Harmony With an Introduction to Twentieth-Century Music.pdf](nutstore_link/books/Miscellaneous/Tonal Harmony With an Introduction to Twentieth-Century Music.pdf)
+file-path:: nutstore_link/books/Miscellaneous/Tonal Harmony With an Introduction to Twentieth-Century Music.pdf
+
+- We use the term cadence to mean a harmonic goal, specifically the chords used at the goal
+  ls-type:: annotation
+  hl-page:: 166
+  hl-color:: blue
+  id:: 636f3ee5-8564-4948-a774-b2fbe23d42cd
+- Some cadences sound more or less conclusive, or final, whereas others leave us off balance, feeling a need for the music to continue.
+  ls-type:: annotation
+  hl-page:: 166
+  hl-color:: yellow
+  id:: 636f3f14-6a78-4e6d-bd42-4db1ab0ee01c
+- a tonic triad preceded by some form of V or $$vii^\circ$$.
+  hl-page:: 166
+  ls-type:: annotation
+  hl-color:: blue
+  id:: 636f3f71-dc2d-43bb-af8e-3fa67bd3a9db
+- The PAC is the most final sounding of all cadence
+  ls-type:: annotation
+  hl-page:: 166
+  hl-color:: purple
+  id:: 636f3fc5-2fb3-4f7a-98dd-c8fba60dba58
+- usually defined simply as any authentic cadence that is not a PAC.
+  ls-type:: annotation
+  hl-page:: 167
+  hl-color:: blue
+  id:: 636f4007-0ef3-4e08-8b1e-569914e1e51b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 167
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668235334606
+  id:: 636f4048-b431-4234-858e-52381fb8dff0
+- [:span]
+  ls-type:: annotation
+  hl-page:: 167
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668235358165
+  id:: 636f4060-7fa1-4e4c-87c1-c03770cec22a
+- [:span]
+  ls-type:: annotation
+  hl-page:: 167
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668235412666
+  id:: 636f4095-ed1e-458b-9cbe-cac9f18f7c8b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 167
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668235619292
+  id:: 636f4164-6c89-4381-864b-66e77c32ecb9
+- [:span]
+  ls-type:: annotation
+  hl-page:: 167
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668235628701
+  id:: 636f416e-9f15-4e51-8f83-a6789c15e07f
+- [:span]
+  ls-type:: annotation
+  hl-page:: 168
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668235656701
+  id:: 636f4189-c503-4c90-952f-eccb9ff2a024
+- [:span]
+  ls-type:: annotation
+  hl-page:: 168
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668235665492
+  id:: 636f4191-5a28-43ea-ab83-aea7e9a9efa3
+- Remember that not every V–I progression constitutes an authentic cadence. Only when the I chord seems to serve as the goal of a longer passage—usually at least a few measures— would we term a V–I progression a cadence. 
+  ls-type:: annotation
+  hl-page:: 168
+  hl-color:: red
+  hl-stamp:: 1668235853796
+  id:: 636f424b-805c-472f-baf9-a64f23bb3109
+- when the ear expects a V–I authentic cadence but hears V–? instead. The ? is usually a submediant triad, as in Example 10-5, but others are possible.
+  ls-type:: annotation
+  hl-page:: 168
+  hl-color:: blue
+  hl-stamp:: 1668235884296
+  id:: 636f426a-1769-41f0-a7e0-d1cc808bed2b
+- A DC produces a very unstable feeling and would never be used to end a tonal work
+  ls-type:: annotation
+  hl-page:: 168
+  hl-color:: purple
+  hl-stamp:: 1668235896658
+  id:: 636f4275-bb90-46b3-999e-b604e32aec83
+- [:span]
+  ls-type:: annotation
+  hl-page:: 168
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668235928096
+  id:: 636f4298-0210-47a8-bf7b-1b3e9961c134
+- A deceptive progression is often used not to really end a phrase but to extend it a few measures until it reaches the true cadence.
+  ls-type:: annotation
+  hl-page:: 168
+  hl-color:: purple
+  hl-stamp:: 1668235966175
+  id:: 636f42ba-b877-4a31-a46b-d1173b25b829
+- The HC ends with a V chord, which can be preceded by any other chord 
+  ls-type:: annotation
+  hl-page:: 168
+  hl-color:: blue
+  hl-stamp:: 1668236006993
+  id:: 636f42e2-272a-4114-8fec-b6a7eae4a225
+- [:span]
+  ls-type:: annotation
+  hl-page:: 169
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668236041520
+  id:: 636f4309-cd05-4072-a998-56bf532d1eea
+- typically involves a IV–I progressio
+  ls-type:: annotation
+  hl-page:: 169
+  hl-color:: blue
+  id:: 636f436e-1994-47d9-886d-08e035058178
+- [:span]
+  ls-type:: annotation
+  hl-page:: 170
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668236154369
+  id:: 636f437a-fd9c-4d91-8e8f-51f909750774
+- [:span]
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668239329845
+  id:: 636f4fe2-d8a7-4723-908e-edc34a91c4ea
+- [:span]
+  ls-type:: annotation
+  hl-page:: 61
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668239401263
+  id:: 636f5029-ae8b-4515-ab24-1e7d2127aeee
+- [:span]
+  ls-type:: annotation
+  hl-page:: 62
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668239452707
+  id:: 636f505d-1d4e-40c1-b350-f1d111e12554
+- [:span]
+  ls-type:: annotation
+  hl-page:: 75
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668239525176
+  id:: 636f50a5-b729-4a32-bc6f-c29065265352
+- [:span]
+  ls-type:: annotation
+  hl-page:: 78
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668239605748
+  id:: 636f50f6-ce0f-4b24-835b-77309cf907d6
+- [:span]
+  ls-type:: annotation
+  hl-page:: 82
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668239732744
+  id:: 636f5175-8b0b-4395-a07d-ab1c2d99c58d
+- [:span]
+  ls-type:: annotation
+  hl-page:: 83
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668239746794
+  id:: 636f5183-41aa-44cc-980b-dc6c1726ee24
+- [:span]
+  ls-type:: annotation
+  hl-page:: 83
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668239942194
+  id:: 636f5246-b146-44eb-a11b-753b05516487
+- [:span]
+  ls-type:: annotation
+  hl-page:: 23
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668240158336
+  id:: 636f531e-2881-4e8b-909f-6788ac9a571b
+- a pattern that is repeated immediately in the same voice but that begins on a different pitch class
+  ls-type:: annotation
+  hl-page:: 117
+  hl-color:: blue
+  id:: 63704187-356a-4b01-b450-1c7f70751595
+- keep the pattern in a single key, which means that modifiers of the intervals (major, minor, and so on) will probably change,
+  ls-type:: annotation
+  hl-page:: 117
+  hl-color:: blue
+  id:: 637041c5-491c-4d98-8c4c-6dd9405b1d5d
+- [:span]
+  ls-type:: annotation
+  hl-page:: 117
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668301263294
+  id:: 637041d0-edae-4962-b1c1-e1f06c21ced9
+- [:span]
+  ls-type:: annotation
+  hl-page:: 117
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668301293897
+  id:: 637041ee-73df-48c6-8376-f180d6a624c2
+- transposes the pattern to a new key.
+  ls-type:: annotation
+  hl-page:: 117
+  hl-color:: blue
+  hl-stamp:: 1668301314223
+  id:: 637041fe-7043-48a4-8a33-a5c00ea484a7
+- occurs between two or more voices. 
+  ls-type:: annotation
+  hl-page:: 117
+  hl-color:: blue
+  id:: 6370426d-7102-4faa-bc96-16fbbdfbba20
+- a series of roots related by descending 5ths (and/or ascending 4ths
+  ls-type:: annotation
+  hl-page:: 118
+  hl-color:: blue
+  id:: 637042f0-d8ad-4e77-9253-f6d56c803814
+- [:span]
+  ls-type:: annotation
+  hl-page:: 118
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668301574333
+  id:: 63704306-d41b-417e-9564-b78927be742d
+- [:span]
+  ls-type:: annotation
+  hl-page:: 119
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668301873727
+  id:: 63704432-1a36-43b8-b800-43803a2d5b98
+- [:span]
+  ls-type:: annotation
+  hl-page:: 119
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668302447582
+  id:: 6370466f-bed2-4057-a546-3790876a1eee
+- [:span]
+  ls-type:: annotation
+  hl-page:: 120
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668302457121
+  id:: 63704679-41a7-425e-9a41-cd04bae3d7ed
+- [:span]
+  ls-type:: annotation
+  hl-page:: 120
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668302747764
+  id:: 6370479c-ef2d-4c9a-ae46-64e98066f36b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 121
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668303658815
+  id:: 63704b2b-965c-432b-84e9-db33e98dac10
+- [:span]
+  ls-type:: annotation
+  hl-page:: 121
+  hl-color:: yellow
+  hl-type:: area
+  hl-stamp:: 1668303720893
+  id:: 63704b69-1093-4afc-b03f-bb6fdb84cdca
+- . When ˆ3 is found in a major-mode bass line, the chord above it is almost always a I6 rather than a iii. The iii chord does occur occasionally, of course.
+  ls-type:: annotation
+  hl-page:: 122
+  hl-color:: purple
+  hl-stamp:: 1668303837089
+  id:: 63704bd8-e57c-4902-be92-6924bc56a71c
+- Although the vii。–iii progression does occur in sequential passages, the vii。usually acts instead as a substitute for V.
+  ls-type:: annotation
+  hl-page:: 123
+  hl-color:: yellow
+  hl-stamp:: 1668304257192
+  id:: 63704c3c-cfe8-4559-8dda-2bd41135cae4
+- In fact, vii。and V are so closely related that moving from one to the other is not considered to be a “progression” at all. This is because they share the dominant function, which is to define the tonality by resolving to the tonic tria
+  ls-type:: annotation
+  hl-page:: 123
+  hl-color:: purple
+  id:: 63704d77-47d4-430f-98b3-7d0417bbf67a
+- The pattern of beats is called the meter. Groups of two, three, and four beats are the most common, although other meters occur.
+  hl-stamp:: 1668306267745
+  hl-page:: 46
+  ls-type:: annotation
+  hl-color:: blue
+  id:: 6370554f-0089-4461-9e49-64f8fc59c97a
+- [:span]
+  ls-type:: annotation
+  hl-page:: 45
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668306779027
+  id:: 6370575b-e60b-408f-b039-05cf1f4578eb
+- [:span]
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1668310828478
+  id:: 6370672c-cb99-44e5-acd9-f5b0bbaefc6b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1669173107769
+  id:: 637d8f74-1237-4187-a87f-00cc1180c3d3
+- [:span]
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1669173130277
+  id:: 637d8f8b-9a08-42c1-a30a-de05431076ca
+- [:span]
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1669173138706
+  id:: 637d8f93-be1a-43cc-a918-2c6fe67b19fb
+- [:span]
+  ls-type:: annotation
+  hl-page:: 65
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1669174532706
+  id:: 637d9506-cbc8-4df9-bc99-08ee11113cd2
+- [:span]
+  ls-type:: annotation
+  hl-page:: 67
+  hl-color:: blue
+  hl-type:: area
+  hl-stamp:: 1669174873713
+  id:: 637d965b-d897-4ed3-adf5-5ea412f16202

@@ -8,11 +8,11 @@
   $\text { ad }: \mathfrak{g} \rightarrow \text { gl }(\mathfrak{g})$ is the associated Lie algebra map of $\mathrm{Ad}: G \rightarrow \mathrm{GL}(\mathfrak{g})$. #card
 	- An easy exercise to memorize the definitions.
 - Corollary.
-  card-last-interval:: 10.42
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2022-12-17T22:06:31.498Z
-  card-last-reviewed:: 2022-12-07T12:06:31.498Z
+  card-last-interval:: 24
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-02-06T01:01:01.711Z
+  card-last-reviewed:: 2023-01-13T01:01:01.711Z
   card-last-score:: 5
   $$
   e^X Y e^{-X}=\operatorname{Ad}_{e^X}(Y)=e^{\operatorname{ad} X}(Y),

@@ -1,8 +1,152 @@
 file:: [Simon_Topological Quantum.pdf](C:/Users/10309/Nutstore/1/sync/zotero/Physics/Topological order/Intros and Reviews/Simon_Topological Quantum.pdf)
-file-path:: C:/Users/10309/Nutstore/1/sync/zotero/Physics/Topological order/Intros and Reviews/Simon_Topological Quantum.pdf
+file-path:: zotero_link/Physics/Topological order/Intros and Reviews/Simon_Topological Quantum.pdf
 
 - Shor’s Code is a Toric Code
   ls-type:: annotation
   hl-page:: 371
   hl-color:: yellow
   id:: 63b28e8f-3c98-420e-ba5f-95f95f20202c
+- [:span]
+  ls-type:: annotation
+  hl-page:: 388
+  hl-color:: yellow
+  id:: 63c20bfd-1509-47fb-814a-aa10e153f50c
+  hl-type:: area
+  hl-stamp:: 1673661434194
+- 27.3
+  ls-type:: annotation
+  hl-page:: 389
+  hl-color:: yellow
+  id:: 63c21455-c62e-41d1-82a7-5b6e54e89441
+- Toric Code Basics
+  ls-type:: annotation
+  hl-page:: 340
+  hl-color:: yellow
+  id:: 63c2176e-689e-4871-9dcb-d820669e68ac
+- Introduction to Tube Algebra
+  ls-type:: annotation
+  hl-page:: 392
+  hl-color:: yellow
+  id:: 63c21788-4217-4cb3-8a20-099a3cfa23ba
+- [:span]
+  ls-type:: annotation
+  hl-page:: 400
+  hl-color:: yellow
+  id:: 63c24f08-74e0-47d7-8c28-bf0217916833
+  hl-type:: area
+  hl-stamp:: 1673678600554
+- [:span]
+  ls-type:: annotation
+  hl-page:: 400
+  hl-color:: yellow
+  id:: 63c24f10-c712-4262-860c-c34cdf9a69a1
+  hl-type:: area
+  hl-stamp:: 1673678607748
+- when we build a model based on a planar diagrammatic algebra, the particle types that arise must include all of the possible solutions to the hexagon equation for that planar algebra.
+  ls-type:: annotation
+  hl-page:: 402
+  hl-color:: purple
+  id:: 63c24f85-b229-4920-88cf-78b0207f7682
+  hl-stamp:: 1673678727990
+- [:span]
+  ls-type:: annotation
+  hl-page:: 403
+  hl-color:: purple
+  id:: 63c25382-8f46-4fd5-973a-ae5042a11520
+  hl-type:: area
+  hl-stamp:: 1673679746197
+- If we connect the inside of the annulus to the outside to form a torus, as discussed at the end of section 28.2.3 we realize that the twist transformation is exactly the T transformation
+  ls-type:: annotation
+  hl-page:: 403
+  hl-color:: green
+  id:: 63c25463-4c00-47de-8b21-3c9b5f2740ef
+  hl-stamp:: 1673679974567
+- [:span]
+  ls-type:: annotation
+  hl-page:: 403
+  hl-color:: purple
+  id:: 63c2552b-3d48-4a77-9891-ca7aca3817a7
+  hl-type:: area
+  hl-stamp:: 1673680171105
+- [:span]
+  ls-type:: annotation
+  hl-page:: 404
+  hl-color:: purple
+  id:: 63c25660-8f63-48ee-b221-4ecceea3314b
+  hl-type:: area
+  hl-stamp:: 1673680480651
+- [:span]
+  ls-type:: annotation
+  hl-page:: 405
+  hl-color:: purple
+  id:: 63c25681-7b53-4c30-99c8-9af8bd2fda8a
+  hl-type:: area
+  hl-stamp:: 1673680513497
+- More General Loop Gas and String Net Models
+  ls-type:: annotation
+  hl-page:: 410
+  hl-color:: yellow
+  id:: 63c356c2-2dfd-480e-a0a4-49e6db63d25f
+- [:span]
+  ls-type:: annotation
+  hl-page:: 417
+  hl-color:: blue
+  id:: 63c35d0a-d99c-40d3-9a33-0e1ab6b67f35
+  hl-type:: area
+  hl-stamp:: 1673747721713
+- [:span]
+  ls-type:: annotation
+  hl-page:: 418
+  hl-color:: blue
+  id:: 63c35d32-495b-46d6-b8a8-ca80a077ee6b
+  hl-type:: area
+  hl-stamp:: 1673747761747
+- [:span]
+  ls-type:: annotation
+  hl-page:: 419
+  hl-color:: blue
+  id:: 63c35db9-7581-4bb9-b557-8a4f428fb71e
+  hl-type:: area
+  hl-stamp:: 1673747897164
+- [:span]
+  ls-type:: annotation
+  hl-page:: 420
+  hl-color:: purple
+  id:: 63c35e34-0bb7-4b7e-80ff-9801ce4c1143
+  hl-type:: area
+  hl-stamp:: 1673748020657
+- [:span]
+  ls-type:: annotation
+  hl-page:: 419
+  hl-color:: blue
+  id:: 63c35e83-e9eb-4022-8ba1-d78433fb3a41
+  hl-type:: area
+  hl-stamp:: 1673748098967
+- [:span]
+  ls-type:: annotation
+  hl-page:: 419
+  hl-color:: purple
+  id:: 63c36205-6142-426d-b135-78ed41fc12f2
+  hl-type:: area
+  hl-stamp:: 1673748996832
+- [:span]
+  ls-type:: annotation
+  hl-page:: 420
+  hl-color:: purple
+  id:: 63c366db-187f-4c87-b7ff-e47dc4bde837
+  hl-type:: area
+  hl-stamp:: 1673750234730
+- [:span]
+  ls-type:: annotation
+  hl-page:: 420
+  hl-color:: blue
+  id:: 63c366e4-dfa4-4466-a587-8b6f8d1e7512
+  hl-type:: area
+  hl-stamp:: 1673750243777
+- [:span]
+  ls-type:: annotation
+  hl-page:: 421
+  hl-color:: yellow
+  id:: 63c3b5c4-31cd-4d46-ac19-ea191ea27c71
+  hl-type:: area
+  hl-stamp:: 1673770436536

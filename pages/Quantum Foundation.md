@@ -1,0 +1,5 @@
+- [[Superposition]] and [[Entanglement]] seem to be closely related. Any deeper insight? #[[Open problem]]
+- It is astounding that spins and statistics can emerge from strings and nets!
+	- Would QM, or at least some parts of it, be emergent?
+		- We can't imagine the superposition principle to be emergent...
+-

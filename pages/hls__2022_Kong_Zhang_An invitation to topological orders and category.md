@@ -44,7 +44,7 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Z
   hl-page:: 7
   hl-color:: yellow
   hl-type:: area
-  hl-stamp:: 1667786420311
+  hl-stamp:: 1674297905733
   id:: 636866b4-a674-47ef-bc02-ec464e6209d0
 - The new exotic phases of matter challenge us to find radically new mathematical language to characterize gapped quantum liquids.
   ls-type:: annotation
@@ -1434,3 +1434,65 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Z
   hl-page:: 111
   hl-color:: yellow
   id:: 63aa65c7-5e7e-40f4-8216-535034102848
+- In 2011, the representation theory of fusion categories was later used by Kitaev and Kong to construct all gapped defects of codimension 1 and 2 in Levin-Wen models, including boundaries, walls and walls between walls [KK12] (see also [Kon13, LW14, HWW17, CCW17] for further developments).
+  ls-type:: annotation
+  hl-page:: 112
+  hl-color:: yellow
+  id:: 63ba2525-914d-473d-922c-810918eb6fd8
+- Now we recommend a few books and some references on tensor categories.
+  ls-type:: annotation
+  hl-page:: 112
+  hl-color:: yellow
+  id:: 63ba25c2-8eff-41fb-b08c-9098b6a3047c
+- It turns out that the global observables can be obtained by integrating the R2-observable A over Σ. We denote the integral by ∫Σ A. It was explicitly computed in [AKZ17]. The mathematical foundation of this integral is the mathematical theory of factorization homology (see [Lur17] or a recent review [AF20] and references therein).
+  ls-type:: annotation
+  hl-page:: 113
+  hl-color:: purple
+  id:: 63ba270d-1704-41a3-bf9f-8acc7184b7ab
+  hl-stamp:: 1673144082213
+- String-net models in 3d
+  ls-type:: annotation
+  hl-page:: 114
+  hl-color:: yellow
+  id:: 63ba284d-d0db-4427-9867-ae2d3e1f83ff
+- There are a few non-categorical approaches towards SPT orders, 
+  ls-type:: annotation
+  hl-page:: 116
+  hl-color:: yellow
+  id:: 63ba2bd5-8405-4144-96cc-bdcb79d07633
+- For a finite onsite symmetry, there are two approaches.
+  ls-type:: annotation
+  hl-page:: 116
+  hl-color:: yellow
+  id:: 63ba2c4f-d4c2-417a-b29b-3de7ee33d6e2
+- Unfortunately, the categorical description of SPT/SET orders with spacetimes symmetries has not yet been developed. T
+  ls-type:: annotation
+  hl-page:: 116
+  hl-color:: green
+  id:: 63ba2c7f-9371-40ea-aa48-1cce95df86b1
+- In mathematics, the notion of center can be defined for any algebraic object in any monoidal higher category by its **universal property**
+  hl-page:: 116
+  ls-type:: annotation
+  id:: 63ba2d3f-81a8-4acb-b1c4-cc82f9d7ae2d
+  hl-color:: green
+- For any anomaly-free nd topological order C and one of its gapped/gaples boundary X, the bulk C is the center of the boundary X, and we denote this relation by $C=\mathfrak Z(X)$.
+  hl-page:: 117
+  ls-type:: annotation
+  id:: 63ba2dc0-b1ee-48e6-8d59-201de7f43a7c
+  hl-color:: purple
+- A gapless boundary can be mathematically described by a unitary fusion category X♯ enriched in a UMTC such that C = Z1(X♯) [KZ18b, KYZZ21]. This result led to a new and systematic approach towards 1+1D topological phase transitions [CJKYZ20].
+  ls-type:: annotation
+  hl-page:: 117
+  hl-color:: yellow
+  id:: 63ba2e87-e908-4995-b6ac-4eb60c52c290
+- Without knowing how to rigorously define a fusion higher category, guided by the so-called remotedetectable principle 3.5.1 and boundary-bulk relation, Kong, Wen and Zheng proposed in [KW14, KWZ15] that topological defects of codimension 2 or higher in an anomaly-free stable nd topological order form a unitary braided fusion (n-1)-category with a trivial E2-center
+  ls-type:: annotation
+  hl-page:: 118
+  hl-color:: green
+  id:: 63ba3043-2dc8-461c-bef1-dab20f2474c5
+  hl-stamp:: 1673146439792
+- Applying the topological Wick rotation introduced in [KZ20b, KZ21b] to the results in [KLWZZ20b], Kong and Zheng proposed to use enriched higher categories to give a grand unification of the categorical description of all quantum liquids, including topological orders, SPT/SET orders
+  ls-type:: annotation
+  hl-page:: 118
+  hl-color:: yellow
+  id:: 63ba31c8-0a9f-4918-8f14-200ff757172d

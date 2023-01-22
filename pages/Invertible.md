@@ -1,4 +1,10 @@
 - Def #card
+  card-last-interval:: 26.06
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-02-01T07:10:39.672Z
+  card-last-reviewed:: 2023-01-06T06:10:39.673Z
+  card-last-score:: 5
 	- [[Topological Order]]
 		- Invertible under [[Stacking]]
 		- ((63759a9b-ed1d-436b-80c6-44df744f15b4))

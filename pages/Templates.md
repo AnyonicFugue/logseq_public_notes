@@ -1,0 +1,43 @@
+- Daily
+  template:: Daily
+  template-including-parent:: false
+	- # Random Things
+		- You may click the button any time you want!
+		- ### Tag *Random* {{renderer random-block, #Random , 2}}
+		- ### Tag *Thoughts* {{renderer random-block, #Thoughts, 1}}
+		- ### Page *Contents* {{renderer random-block, [[Contents]] , 1}}
+		- ### Academic
+			- Tag *Strategy* {{renderer random-block, #Strategy , 1}}
+				-
+			- Tag *Open Problem* {{renderer random-block, #Open problem , 1}}
+				-
+			- Tag *Learning-TODO* {{renderer random-block, #Learning-TODO , 1}}
+				-
+			- Tag *Problem* {{renderer random-block, #Problem , 1}}
+				-
+			- Page *Research* {{renderer random-block, [[Research]] , 1}}
+				-
+	- # Output
+		-
+- # Random Things
+	- You may click the button any time you want!
+	- ### Tag *Random* {{renderer random-block, #Random , 2}}
+		- ((63c51f27-320b-4169-8b4d-da25e2dfdab5))
+		- ((63c51f2b-91c5-4ce3-840d-68d364892d0b))
+	- ### Tag *Thoughts* {{renderer random-block, #Thoughts, 1}}
+		- ((63c14166-98ea-48ae-a115-b91b991489e8))
+	- ### Page *Contents* {{renderer random-block, [[Contents]] , 1}}
+		- ((63c1415f-9b47-4278-a1f7-cb737ffb4bdf))
+	- ### Academic
+		- Tag *Strategy* {{renderer random-block, #Strategy , 1}}
+			- ((63c1416f-3871-4985-9009-5731e43864e6))
+		- Tag *Open Problem* {{renderer random-block, #Open problem , 1}}
+			- ((63c14170-59fe-4267-a7ea-d123220da418))
+		- Tag *Learning-TODO* {{renderer random-block, #Learning-TODO , 1}}
+			- ((63c14170-c2a3-4086-927c-1832933fae46))
+		- Tag *Problem* {{renderer random-block, #Problem , 1}}
+			- ((63c14165-4924-45e7-8b59-17ba4ac6b993))
+		- Page *Research* {{renderer random-block, [[Research]] , 1}}
+			- ((63c1416e-2a0a-4fc2-af3b-b54d51580bee))
+# Output
+	-

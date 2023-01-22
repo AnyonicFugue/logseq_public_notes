@@ -2,7 +2,7 @@
 	- ![2015_Hall_Lie Groups, Lie Algebras, and Representations.pdf](file://zotero_link/Mathematics/Lie Algebra/2015_Hall_Lie Groups, Lie Algebras, and Representations.pdf)
 - [[Lie Group]]
 - [[Lie Algebra]]
-- Common [[Strategies]]
+- Common [[Strategy]]
 	- Lie groups don't have natural addition and subtraction structures.
 	  Usually we obtain subtraction by {{cloze differentiation}}.
 		- The trick is used in proving ((6382ce57-6b73-4815-b142-0f889766fa01)) preserves bracket.

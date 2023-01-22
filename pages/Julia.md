@@ -91,11 +91,11 @@
 		- I must specify the beginning.
 		- It is comma instead of colons (Different from [[Python]])
 	- Access and slice multidimensional arrays #card
-	  card-last-interval:: 10.42
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-17T22:07:20.470Z
-	  card-last-reviewed:: 2022-12-07T12:07:20.470Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-05T00:27:44.849Z
+	  card-last-reviewed:: 2023-01-12T00:27:44.849Z
 	  card-last-score:: 5
 		- Use [i,j] instead of [i][j] (Different from [[C++]])
 		- Use [i,:] to obtain a slicing. **The dummy index must have a colon.**

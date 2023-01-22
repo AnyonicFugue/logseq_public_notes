@@ -15,6 +15,7 @@
 			-
 		- Shall the momenta in the last two lines be reversed? #Problem
 		- Why the form of the photon propagator? It seems to include unphysical polarizations? #Problem
+		  id:: 63c14165-4924-45e7-8b59-17ba4ac6b993
 			- For diagrams without loops it's easy to solve. Different polarizations are orthogonal, so the photons coming in and out a vertex must have the same polarization.
 			- For loops it seems problematic.
 		- Why can the gamma matrices between [[Dirac field]] operators be separated? #Problem

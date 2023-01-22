@@ -1,0 +1,2 @@
+- Properties
+	- Component <-> Path component

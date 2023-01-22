@@ -71,7 +71,7 @@
  ;; 1. Setup page "Changelog" as home page and "Contents" in sidebar
  ;; :default-home {:page "Changelog", :sidebar "Contents"}
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
-:default-home {:page "Homepage"}
+:default-home {:page "Homepage" :sidebar "Contents"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
  ;; :default-home {:page "home" :sidebar ["page a" "page b"]}
 
@@ -208,7 +208,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["homepage" "Topological Order" "Quantum Field Theory" "Homepage"]
+ :favorites []
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
 :srs/learning-fraction 0.6

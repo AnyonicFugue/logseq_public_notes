@@ -1,6 +1,11 @@
-- ((6370aa46-c9f9-4a49-8912-99dad0eb621c))
-- ((6370a8fd-64aa-4453-9384-10636e61c42e))
-	- Sometimes called first [[Homotopy group]]
+- Def
+	- ((6370aa46-c9f9-4a49-8912-99dad0eb621c))
+	- ((6370a8fd-64aa-4453-9384-10636e61c42e))
+		- Sometimes called first [[Homotopy group]]
+- Summary #card
+	- **Note:** This kind of cards enable me to have better sense of what I've learned.
+	- Def
+	- Applications
 - Hat-map
   collapsed:: true
 	- ((6370a9b6-cfdd-49ed-a37e-e977b27e99ff))
@@ -36,6 +41,12 @@
 		- Moreover, $$h_*$$ is a group homomorphism. #Exercise
 	- If h is a homeomorphism, then $$h_*$$ is a group isomorphism.
 - $\pi_1\left(X \times Y, x_0 \times y_0\right)$ is isomorphic with $\pi_1\left(X, x_0\right) \times \pi_1\left(Y, y_0\right)$ #card
+  card-last-interval:: 26.06
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-02-07T14:28:27.172Z
+  card-last-reviewed:: 2023-01-12T13:28:27.172Z
+  card-last-score:: 5
 	- This is very intuitive.
 	- Corollary. Since $T^2=S^1 \times S^1$, $\pi_1(T^2)=\mathbb Z \times \mathbb Z$
 -
@@ -52,12 +63,14 @@
 			- By the [Theorem](((638c0f2d-33eb-4634-9467-e083bf50506d))), we may select a simply connected covering space. Here we choose R and covers $S^1$ in the usual way.
 			- Let $e_0=0$. Now it's easy to see that the lifting correspondence $\phi$ is a group homomorphism.
 	- $S^n$
-	  collapsed:: true
-		- ((63a7ba49-e539-495b-a981-0f27d65e5201)) Suppose $X=U \cup V$, where $U$ and $V$ are open sets of $X$. Suppose that $U \cap V$ is path connected, and that $x_0 \in U \cap V$. Let $i$ and $j$ be the inclusion mappings of $U$ and $V$, respectively, into $X$. Then the images of the induced homomorphisms
-		  $$
-		  i_*: \pi_1\left(U, x_0\right) \rightarrow \pi_1\left(X, x_0\right) \quad \text { and } \quad j_*: \pi_1\left(V, x_0\right) \rightarrow \pi_1\left(X, x_0\right)
-		  $$
-		  **generate** $\pi_1\left(X, x_0\right)$. #card
+		- ((63a7ba49-e539-495b-a981-0f27d65e5201)) Suppose $X=U \cup V$, where $U$ and $V$ are open sets of $X$. Suppose that $U \cap V$ is path connected, and that $x_0 \in U \cap V$. Let $i$ and $j$ be the inclusion mappings of $U$ and $V$, respectively, into $X$. Then the images of the induced homomorphisms $i_*: \pi_1\left(U, x_0\right) \rightarrow \pi_1\left(X, x_0\right) \quad \text { and } \quad j_*: \pi_1\left(V, x_0\right) \rightarrow \pi_1\left(X, x_0\right)$ **generate** $\pi_1\left(X, x_0\right)$. #card
+		  id:: 63b186e0-b1f4-4b2d-9772-895775842ded
+		  card-last-interval:: 26.06
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-02-07T14:28:13.680Z
+		  card-last-reviewed:: 2023-01-12T13:28:13.680Z
+		  card-last-score:: 5
 			- **This would be used to prove that** ((63a7be70-1a63-4e7e-932f-66d5791e4a09)).
 			- Intuition
 				- ![Image.png](../assets/Image_1671936792013_0.png){:height 222, :width 426}

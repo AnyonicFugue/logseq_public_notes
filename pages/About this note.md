@@ -9,6 +9,7 @@
 	- I believe that modern softwares would reshape and supercharge the learning process. Human brains have limitations; computers can help us to overcome them.
 		- I've painlessly memorized about a thousand English words by Anki.
 		- Logseq has further made my learning about 2x faster.
+-
 - Misc
 	- This note is published with [CC-BY 4.0 licsense](https://creativecommons.org/licenses/by/4.0/).
 	- The lines with a colored dot and a page number at the beginning, like ![image.png](../assets/image_1669363571676_0.png) 
