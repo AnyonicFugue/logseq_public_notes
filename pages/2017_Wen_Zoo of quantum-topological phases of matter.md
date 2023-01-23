@@ -14,6 +14,7 @@ type:: paper_reading
 			-
 	- II. New world of condensed matter physics
 	- III. Topologically ordered phases
+	  collapsed:: true
 		- A.Chiral spin liquids and topological order
 			- [[Spin Liquid]]
 				- Spin liquid can leads to a so called spin-charge separation: an electron disintegrates into two quasiparticles – a **spinon**(spin-1/2 charge-0 ) and a **holon** (spin-0 charge-e).

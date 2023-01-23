@@ -245,7 +245,6 @@
 				- 1. G closed in $X$, $G_0$ closed in G -> $G_0$ closed in X
 				- 2. For $X\in G$, $e^{tX} \in G$.
 - Examples
-  collapsed:: true
 	- sl(2,C)
 		- $sl(2,C)$ is irreducible, thus simple. #card
 		  card-last-interval:: 24
