@@ -20,15 +20,15 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@main
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@main
         with:
-          version: "master"
+          version: "main"
       - name: add a nojekyll file
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@main
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: www # The folder the action should deploy.
