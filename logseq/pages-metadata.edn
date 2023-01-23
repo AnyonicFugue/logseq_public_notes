@@ -1,0 +1,580 @@
+[{:block/name
+  "\"c:\\users\\10309\\nutstore\\1\\sync\\logseq\\assets\\nutstore_link",
+  :block/created-at 1668342137926,
+  :block/updated-at 1668342137926}
+ {:block/name
+  "\"c:\\users\\10309\\nutstore\\1\\sync\\logseq\\assets\\nutstore_link/music sheet",
+  :block/created-at 1668342137927,
+  :block/updated-at 1668342137927}
+ {:block/name
+  "\"c:\\users\\10309\\nutstore\\1\\sync\\logseq\\assets\\nutstore_link/music sheet/inventio 1.pdf",
+  :block/created-at 1668342137925,
+  :block/updated-at 1668342137925}
+ {:block/name
+  "\"c:\\users\\10309\\nutstore\\1\\sync\\logseq\\assetsnutstore_link",
+  :block/created-at 1668342139388,
+  :block/updated-at 1668342139388}
+ {:block/name
+  "\"c:\\users\\10309\\nutstore\\1\\sync\\logseq\\assetsnutstore_link/music sheet",
+  :block/created-at 1668342139389,
+  :block/updated-at 1668342139389}
+ {:block/name
+  "\"c:\\users\\10309\\nutstore\\1\\sync\\logseq\\assetsnutstore_link/music sheet/inventio 1.pdf",
+  :block/created-at 1668342139387,
+  :block/updated-at 1668342139387}
+ {:block/name "-wulkbkkz",
+  :block/created-at 1668300738717,
+  :block/updated-at 1668300738717}
+ {:block/name "@topology",
+  :block/created-at 1668327484431,
+  :block/updated-at 1668327484431}
+ {:block/name "a",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "abelian topological order",
+  :block/created-at 1668648787060,
+  :block/updated-at 1668648887298}
+ {:block/name "algebraic topology",
+  :block/created-at 1668329596580,
+  :block/updated-at 1668474551512}
+ {:block/name "aliases",
+  :block/created-at 1667390300350,
+  :block/updated-at 1667390300350}
+ {:block/name "anomaly",
+  :block/created-at 1668389389253,
+  :block/updated-at 1668395925180}
+ {:block/name "attachments",
+  :block/created-at 1667375873533,
+  :block/updated-at 1667375873533}
+ {:block/name "authors",
+  :block/created-at 1667375872939,
+  :block/updated-at 1667375872939}
+ {:block/name "b",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "bicharacter",
+  :block/created-at 1668648456316,
+  :block/updated-at 1668648456316}
+ {:block/name "bloch sphere",
+  :block/created-at 1668411817322,
+  :block/updated-at 1668411817322}
+ {:block/name "book",
+  :block/created-at 1668171772517,
+  :block/updated-at 1668171772517}
+ {:block/name "braiding",
+  :block/created-at 1668390727035,
+  :block/updated-at 1668563122621}
+ {:block/name "bulk",
+  :block/created-at 1668389472406,
+  :block/updated-at 1668389494511}
+ {:block/name "c",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "c-linear category",
+  :block/created-at 1668156947471,
+  :block/updated-at 1668156984264}
+ {:block/name
+  "c:/users/10309/nutstore/1/sync/zotero/physics/topological order/2003_kitaev_fault-tolerant quantum computation by anyons.pdf",
+  :block/created-at 1668429084264,
+  :block/updated-at 1668429084264}
+ {:block/name "cadence",
+  :block/created-at 1668300737559,
+  :block/updated-at 1668312921765}
+ {:block/name "call-number",
+  :block/created-at 1667375872935,
+  :block/updated-at 1667375872935}
+ {:block/name "canceled",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "cancelled",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "card",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "cartesian product",
+  :block/created-at 1668063448456,
+  :block/updated-at 1668063448456}
+ {:block/name "category",
+  :block/created-at 1668062440759,
+  :block/updated-at 1668566064638}
+ {:block/name "center-of-mass",
+  :block/created-at 1667894911345,
+  :block/updated-at 1667894911345}
+ {:block/name "central charge",
+  :block/created-at 1668396914450,
+  :block/updated-at 1668396914450}
+ {:block/name "chord",
+  :block/created-at 1668300737850,
+  :block/updated-at 1668300737850}
+ {:block/name "circle-of-fifths progression",
+  :block/created-at 1668301541909,
+  :block/updated-at 1668301876453}
+ {:block/name "condensable algebra",
+  :block/created-at 1668389283759,
+  :block/updated-at 1668389301440}
+ {:block/name "contents",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "d:/downloads/homework5.pdf",
+  :block/created-at 1668430532036,
+  :block/updated-at 1668430532036}
+ {:block/name "d:/downloads/热统 midterm.pdf",
+  :block/created-at 1668430634497,
+  :block/updated-at 1668430634497}
+ {:block/name "dagger structure",
+  :block/created-at 1668156969935,
+  :block/updated-at 1668157120036}
+ {:block/name "date",
+  :block/created-at 1667375872930,
+  :block/updated-at 1667375872930}
+ {:block/name "decoherence",
+  :block/created-at 1668408349467,
+  :block/updated-at 1668416755629}
+ {:block/name "deligne tensor product",
+  :block/created-at 1668562795430,
+  :block/updated-at 1668563022712}
+ {:block/name "density operator",
+  :block/created-at 1668409129326,
+  :block/updated-at 1668409129326}
+ {:block/name "diminished",
+  :block/created-at 1668304063716,
+  :block/updated-at 1668304063716}
+ {:block/name "dirac field",
+  :block/created-at 1667892518657,
+  :block/updated-at 1667954498023}
+ {:block/name "doing",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "done",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "dual structure",
+  :block/created-at 1668393263738,
+  :block/updated-at 1668393263738}
+ {:block/name "edition",
+  :block/created-at 1667375872938,
+  :block/updated-at 1667375872938}
+ {:block/name "entanglement",
+  :block/created-at 1668415806219,
+  :block/updated-at 1668415806219}
+ {:block/name "entanglement entropy",
+  :block/created-at 1667390300365,
+  :block/updated-at 1667390300365}
+ {:block/name "exercise",
+  :block/created-at 1668330708255,
+  :block/updated-at 1668330708255}
+ {:block/name "favorites",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "feynman rules",
+  :block/created-at 1667868143516,
+  :block/updated-at 1668388274233}
+ {:block/name "file",
+  :block/created-at 1667481453983,
+  :block/updated-at 1667481453983}
+ {:block/name "file-path",
+  :block/created-at 1667481453984,
+  :block/updated-at 1667481453984}
+ {:block/name "filenutstore_link",
+  :block/created-at 1668342149244,
+  :block/updated-at 1668342149244}
+ {:block/name "filenutstore_link/music sheet",
+  :block/created-at 1668342149245,
+  :block/updated-at 1668342149245}
+ {:block/name "filenutstore_link/music sheet/inventio 1.pdf",
+  :block/created-at 1668342149243,
+  :block/updated-at 1668342149243}
+ {:block/name "fundamental group",
+  :block/created-at 1668327514764,
+  :block/updated-at 1668432271762}
+ {:block/name "fusion",
+  :block/created-at 1668395025590,
+  :block/updated-at 1668395025590}
+ {:block/name "fusion category",
+  :block/created-at 1668156586772,
+  :block/updated-at 1668648787067}
+ {:block/name "fusion rules",
+  :block/created-at 1668156752655,
+  :block/updated-at 1668570915629}
+ {:block/name "gapped liquid quantum system",
+  :block/created-at 1668389545617,
+  :block/updated-at 1668389615995}
+ {:block/name "gauss sum",
+  :block/created-at 1668396882160,
+  :block/updated-at 1668397728797}
+ {:block/name "group cohomology",
+  :block/created-at 1668155536036,
+  :block/updated-at 1668155536036}
+ {:block/name "harmonic progression",
+  :block/created-at 1668300738115,
+  :block/updated-at 1668306072446}
+ {:block/name "harmony",
+  :block/created-at 1668300738113,
+  :block/updated-at 1668300738113}
+ {:block/name "heisenberg",
+  :block/created-at 1667390300358,
+  :block/updated-at 1667390300358}
+ {:block/name "hls__2000_munkres_topology",
+  :block/created-at 1668327677688,
+  :block/updated-at 1668328808184}
+ {:block/name
+  "hls__2018_lan_a_classification_of_(2+1)d_topological_phase_1667264759596_0",
+  :block/created-at 1667264784639,
+  :block/updated-at 1667264784639}
+ {:block/name
+  "hls__2019_howard_principles of quantum computation and information",
+  :block/created-at 1668408845771,
+  :block/updated-at 1668414562182}
+ {:block/name
+  "hls__2022_kong_zhang_an invitation to topological orders and category",
+  :block/created-at 1667785816598,
+  :block/updated-at 1668648694817}
+ {:block/name
+  "hls__2022_zhao_lou et al_string condensations in 3+1d and lagrangian",
+  :block/created-at 1667481453976,
+  :block/updated-at 1667481453976}
+ {:block/name "hls__cpe_bach_solfeggietto_h220",
+  :block/created-at 1668342586339,
+  :block/updated-at 1668342586339}
+ {:block/name "hls__inventio 1",
+  :block/created-at 1668342396535,
+  :block/updated-at 1668342396535}
+ {:block/name "hls__scarlatti k466 clean",
+  :block/created-at 1668343140547,
+  :block/updated-at 1668343140547}
+ {:block/name
+  "hls__schroeder, daniel v._ peskin, michael edward - an introduction to quantum field theory",
+  :block/created-at 1667716011467,
+  :block/updated-at 1667894620030}
+ {:block/name "hls__shostakovich op.69",
+  :block/created-at 1668473073906,
+  :block/updated-at 1668473073906}
+ {:block/name
+  "hls__tonal harmony with an introduction to twentieth-century music",
+  :block/created-at 1668300737968,
+  :block/updated-at 1668306289347}
+ {:block/name "homotopy group",
+  :block/created-at 1668327714699,
+  :block/updated-at 1668327714699}
+ {:block/name "imitation",
+  :block/created-at 1668301386222,
+  :block/updated-at 1668301435548}
+ {:block/name "in-progress",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "invertible",
+  :block/created-at 1668571101875,
+  :block/updated-at 1668571101875}
+ {:block/name "isbn",
+  :block/created-at 1667375872933,
+  :block/updated-at 1667375872933}
+ {:block/name "ising type",
+  :block/created-at 1668566150662,
+  :block/updated-at 1668566222366}
+ {:block/name "item-type",
+  :block/created-at 1667375872934,
+  :block/updated-at 1667375872934}
+ {:block/name "james r. munkres",
+  :block/created-at 1667375872928,
+  :block/updated-at 1667375872928}
+ {:block/name "language",
+  :block/created-at 1667375872937,
+  :block/updated-at 1667375872937}
+ {:block/name "later",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "lattice model",
+  :block/created-at 1668389665481,
+  :block/updated-at 1668389697243}
+ {:block/name "library-catalog",
+  :block/created-at 1667375872939,
+  :block/updated-at 1667375872939}
+ {:block/name "linear algebra",
+  :block/created-at 1668152904524,
+  :block/updated-at 1668152904524}
+ {:block/name "links",
+  :block/created-at 1667375872940,
+  :block/updated-at 1667375872940}
+ {:block/name "mapping class group",
+  :block/created-at 1668397900373,
+  :block/updated-at 1668397900373}
+ {:block/name "mathematic thoughts",
+  :block/created-at 1668571029555,
+  :block/updated-at 1668571029555}
+ {:block/name "module",
+  :block/created-at 1668065420819,
+  :block/updated-at 1668066754360}
+ {:block/name "monoidal structure",
+  :block/created-at 1668156964997,
+  :block/updated-at 1668647705004}
+ {:block/name "muger center",
+  :block/created-at 1668395996627,
+  :block/updated-at 1668396018166}
+ {:block/name "music theory",
+  :block/created-at 1668300737427,
+  :block/updated-at 1668312790676}
+ {:block/name "newsletter",
+  :block/created-at 1667650878652,
+  :block/updated-at 1668606538198}
+ {:block/name "nondegenerate",
+  :block/created-at 1668396049419,
+  :block/updated-at 1668396065263}
+ {:block/name "nov 10th, 2022",
+  :block/created-at 1668061720598,
+  :block/updated-at 1668410555271}
+ {:block/name "nov 11th, 2022",
+  :block/created-at 1668151059208,
+  :block/updated-at 1668151059208}
+ {:block/name "nov 12th, 2022",
+  :block/created-at 1668300737431,
+  :block/updated-at 1668300737431}
+ {:block/name "nov 13th, 2022",
+  :block/created-at 1668300737116,
+  :block/updated-at 1668300737116}
+ {:block/name "nov 14th, 2022",
+  :block/created-at 1668388074008,
+  :block/updated-at 1668430793928}
+ {:block/name "nov 15th, 2022",
+  :block/created-at 1668472997019,
+  :block/updated-at 1668472997019}
+ {:block/name "nov 16th, 2022",
+  :block/created-at 1668557314762,
+  :block/updated-at 1668557314762}
+ {:block/name "nov 17th, 2022",
+  :block/created-at 1668646832956,
+  :block/updated-at 1668646832956}
+ {:block/name "nov 2nd, 2022",
+  :block/created-at 1668327514749,
+  :block/updated-at 1668327514749}
+ {:block/name "nov 3rd, 2022",
+  :block/created-at 1667445635109,
+  :block/updated-at 1667482506381}
+ {:block/name "nov 4th, 2022",
+  :block/created-at 1667541918574,
+  :block/updated-at 1667549435967}
+ {:block/name "nov 5th, 2022",
+  :block/created-at 1667606503476,
+  :block/updated-at 1667650892029}
+ {:block/name "nov 6th, 2022",
+  :block/created-at 1667694765469,
+  :block/updated-at 1667715803016}
+ {:block/name "nov 8th, 2022",
+  :block/created-at 1667868143365,
+  :block/updated-at 1667908565146}
+ {:block/name "now",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "num-pages",
+  :block/created-at 1667375872941,
+  :block/updated-at 1667375872941}
+ {:block/name "nutstore_link",
+  :block/created-at 1668342143314,
+  :block/updated-at 1668342143314}
+ {:block/name "nutstore_link/music sheet",
+  :block/created-at 1668342143315,
+  :block/updated-at 1668342143315}
+ {:block/name "nutstore_link/music sheet/inventio 1.pdf",
+  :block/created-at 1668342143314,
+  :block/updated-at 1668342143314}
+ {:block/name "open problem",
+  :block/created-at 1668153491805,
+  :block/updated-at 1668153491805}
+ {:block/name "original-title",
+  :block/created-at 1667375872936,
+  :block/updated-at 1667375872936}
+ {:block/name "path connectedness",
+  :block/created-at 1668395209844,
+  :block/updated-at 1668395209844}
+ {:block/name "pauli matrices",
+  :block/created-at 1667390300375,
+  :block/updated-at 1667390300375}
+ {:block/name "physics",
+  :block/created-at 1667715803015,
+  :block/updated-at 1668407783487}
+ {:block/name "piano",
+  :block/created-at 1668341950063,
+  :block/updated-at 1668560287862}
+ {:block/name "pivotal structure",
+  :block/created-at 1668157547097,
+  :block/updated-at 1668157647905}
+ {:block/name "place",
+  :block/created-at 1667375872932,
+  :block/updated-at 1667375872932}
+ {:block/name "pointed",
+  :block/created-at 1668648650095,
+  :block/updated-at 1668648650095}
+ {:block/name "pre-dorminant",
+  :block/created-at 1668302718169,
+  :block/updated-at 1668302718169}
+ {:block/name "pre-metric group",
+  :block/created-at 1668648528504,
+  :block/updated-at 1668648528504}
+ {:block/name "problem",
+  :block/created-at 1667787475285,
+  :block/updated-at 1667787475285}
+ {:block/name "projective representation",
+  :block/created-at 1668397891435,
+  :block/updated-at 1668397891435}
+ {:block/name "prolongation",
+  :block/created-at 1668302357841,
+  :block/updated-at 1668302474775}
+ {:block/name "publisher",
+  :block/created-at 1667375872931,
+  :block/updated-at 1667375872931}
+ {:block/name "qed",
+  :block/created-at 1667868143512,
+  :block/updated-at 1667868143512}
+ {:block/name "qft",
+  :block/created-at 1667868143618,
+  :block/updated-at 1668388087807}
+ {:block/name "quadratic form",
+  :block/created-at 1668648443211,
+  :block/updated-at 1668648443211}
+ {:block/name "quantum computation",
+  :block/created-at 1668407783486,
+  :block/updated-at 1668408349467}
+ {:block/name "quantum dimension",
+  :block/created-at 1668157203497,
+  :block/updated-at 1668390720053}
+ {:block/name "quantum double",
+  :block/created-at 1668565879833,
+  :block/updated-at 1668565950394}
+ {:block/name "quantum electrodynamics",
+  :block/created-at 1667868143610,
+  :block/updated-at 1668348415775}
+ {:block/name "quantum phase",
+  :block/created-at 1668389373201,
+  :block/updated-at 1668389633106}
+ {:block/name "readme",
+  :block/created-at 1668300743630,
+  :block/updated-at 1668300743630}
+ {:block/name "real sequence",
+  :block/created-at 1668301209410,
+  :block/updated-at 1668301348279}
+ {:block/name "references",
+  :block/created-at 1668300738099,
+  :block/updated-at 1668300738099}
+ {:block/name "relative entropy",
+  :block/created-at 1667390300367,
+  :block/updated-at 1667390300367}
+ {:block/name "representation",
+  :block/created-at 1668066754360,
+  :block/updated-at 1668066754360}
+ {:block/name "ribbon",
+  :block/created-at 1668392716510,
+  :block/updated-at 1668397074491}
+ {:block/name "rigidity",
+  :block/created-at 1668156971626,
+  :block/updated-at 1668394768699}
+ {:block/name "rythm",
+  :block/created-at 1668306210946,
+  :block/updated-at 1668310022762}
+ {:block/name "s-matrix",
+  :block/created-at 1668392630364,
+  :block/updated-at 1668396234911}
+ {:block/name "scale",
+  :block/created-at 1668310813620,
+  :block/updated-at 1668310830291}
+ {:block/name "semisimplicity",
+  :block/created-at 1668156957187,
+  :block/updated-at 1668157058057}
+ {:block/name "sequence",
+  :block/created-at 1668301169139,
+  :block/updated-at 1668301209411}
+ {:block/name "sevenths",
+  :block/created-at 1668300738108,
+  :block/updated-at 1668300738108}
+ {:block/name "simply connected",
+  :block/created-at 1668328884595,
+  :block/updated-at 1668329745253}
+ {:block/name "sketch",
+  :block/created-at 1668300738173,
+  :block/updated-at 1668329303117}
+ {:block/name "space-reversed category",
+  :block/created-at 1668563636367,
+  :block/updated-at 1668563651130}
+ {:block/name "stacking",
+  :block/created-at 1668389810192,
+  :block/updated-at 1668389816225}
+ {:block/name "t-matrix",
+  :block/created-at 1668397074490,
+  :block/updated-at 1668397088997}
+ {:block/name "tensor product",
+  :block/created-at 1668647589337,
+  :block/updated-at 1668647589337}
+ {:block/name "to be recorded",
+  :block/created-at 1668327448514,
+  :block/updated-at 1668327448514}
+ {:block/name "todo",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "tonal sequence",
+  :block/created-at 1668301203540,
+  :block/updated-at 1668301366508}
+ {:block/name "topological defect",
+  :block/created-at 1668396396336,
+  :block/updated-at 1668396396336}
+ {:block/name "topological excitation",
+  :block/created-at 1668389754807,
+  :block/updated-at 1668396448781}
+ {:block/name "topological invariant",
+  :block/created-at 1668330247544,
+  :block/updated-at 1668330247544}
+ {:block/name "topological order",
+  :block/created-at 1667264751284,
+  :block/updated-at 1668566150662}
+ {:block/name "topological quantum field theory",
+  :block/created-at 1667790684564,
+  :block/updated-at 1667790684564}
+ {:block/name "topological skeleton",
+  :block/created-at 1668389248291,
+  :block/updated-at 1668389284336}
+ {:block/name "topological spin",
+  :block/created-at 1668392765057,
+  :block/updated-at 1668392765057}
+ {:block/name "topological-order-aiz835v4",
+  :block/created-at 1668300739031,
+  :block/updated-at 1668300739031}
+ {:block/name "topology",
+  :block/created-at 1667375872926,
+  :block/updated-at 1668329596581}
+ {:block/name "topology sketch",
+  :block/created-at 1668329303116,
+  :block/updated-at 1668329355976}
+ {:block/name "toric code",
+  :block/created-at 1668389330698,
+  :block/updated-at 1668565021460}
+ {:block/name "torus",
+  :block/created-at 1668395213531,
+  :block/updated-at 1668395213531}
+ {:block/name "trace",
+  :block/created-at 1668157476791,
+  :block/updated-at 1668157509862}
+ {:block/name "triads",
+  :block/created-at 1668300738105,
+  :block/updated-at 1668300738105}
+ {:block/name "umtc",
+  :block/created-at 1668395722261,
+  :block/updated-at 1668395722261}
+ {:block/name "unique bulk principle",
+  :block/created-at 1668389426589,
+  :block/updated-at 1668389515922}
+ {:block/name "unitary modular tensor category",
+  :block/created-at 1668395711727,
+  :block/updated-at 1668397403330}
+ {:block/name "verlinde formula",
+  :block/created-at 1668396745013,
+  :block/updated-at 1668396795481}
+ {:block/name "wait",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "waiting",
+  :block/created-at 1661071061856,
+  :block/updated-at 1661071061856}
+ {:block/name "yukawa theory",
+  :block/created-at 1667868143844,
+  :block/updated-at 1668171808435}
+ {:block/name "时，食指出一点，中指微弯且再出一点。",
+  :block/created-at 1668558396106, 
+  :block/updated-at 1668558396106}]

@@ -1,0 +1,3 @@
+- Cure
+	- Resort to my [[Personal Philosophy]]. Embrace discomfort, go back inside my own heart, etc.
+	- Write down my feelings and thoughts. This always helps.
