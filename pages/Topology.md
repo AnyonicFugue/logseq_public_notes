@@ -113,6 +113,12 @@
 	-
 	- Hausdorff  #card
 	  alias:: T2
+	  card-last-interval:: 10
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-02T02:22:08.873Z
+	  card-last-reviewed:: 2023-01-23T02:22:08.874Z
+	  card-last-score:: 5
 		- Def
 			- For each pair $x_{1} ,x_{2}$ of distinct points of $X$, there exist neighborhoods $U_{1}$, and $U_{2}$ of $x_{1}$ and $x_{2}$, respectively, that are disjoint.
 		-
