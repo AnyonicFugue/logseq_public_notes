@@ -26,10 +26,10 @@
 - Customized by logseq
 	- ^^Highlight^^ #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-17T06:05:41.207Z
-	  card-last-reviewed:: 2022-12-24T06:05:41.207Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-18T01:14:23.621Z
+	  card-last-reviewed:: 2023-01-25T01:14:23.622Z
 	  card-last-score:: 5
 		- `^^highlight^^`
 -

@@ -34,3 +34,8 @@ file-path:: zotero_link/Mathematics/Abstract Algebra/2007_Grillet_Abstract algeb
   hl-page:: 191
   hl-color:: yellow
   id:: 63c0a6c5-915b-4040-bad6-53634a83f21e
+- Proposition
+  ls-type:: annotation
+  hl-page:: 169
+  hl-color:: yellow
+  id:: 63d511b2-870b-4a08-a2b4-3ea0f6aa5178

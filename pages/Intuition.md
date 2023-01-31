@@ -1,10 +1,10 @@
 - It seems much more important than I used to think. On the obscure sea of knowledge, it is a compass.
 - Fundamental problems about intuition #card
   card-last-interval:: 24
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-01-21T06:38:48.602Z
-  card-last-reviewed:: 2022-12-28T06:38:48.604Z
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-02-18T01:14:18.445Z
+  card-last-reviewed:: 2023-01-25T01:14:18.445Z
   card-last-score:: 5
 	- What's the basic elements of intuition?
 		- Extract patterns? Apply common and uncommon tricks? Rephrase the problem in as many ways as possible to create more connection?

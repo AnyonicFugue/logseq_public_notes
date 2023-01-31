@@ -23,7 +23,7 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/Simon_Topol
   hl-page:: 340
   hl-color:: yellow
   id:: 63c2176e-689e-4871-9dcb-d820669e68ac
-- Introduction to Tube Algebra
+- Introduction to [[Tube Algebra]]
   ls-type:: annotation
   hl-page:: 392
   hl-color:: yellow
@@ -150,3 +150,53 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/Simon_Topol
   id:: 63c3b5c4-31cd-4d46-ac19-ea191ea27c71
   hl-type:: area
   hl-stamp:: 1673770436536
+- [:span]
+  ls-type:: annotation
+  hl-page:: 426
+  hl-color:: blue
+  id:: 63d0992e-6662-4705-8dae-d4df96d24470
+  hl-type:: area
+  hl-stamp:: 1674615083835
+- [:span]
+  ls-type:: annotation
+  hl-page:: 425
+  hl-color:: blue
+  id:: 63d722e4-a906-4ca8-9314-c4ea20559097
+  hl-type:: area
+  hl-stamp:: 1675043552724
+- [:span]
+  ls-type:: annotation
+  hl-page:: 425
+  hl-color:: yellow
+  id:: 63d7236d-d676-49da-9017-e5b6a419220a
+  hl-type:: area
+  hl-stamp:: 1675043692092
+- [:span]
+  ls-type:: annotation
+  hl-page:: 427
+  hl-color:: purple
+  id:: 63d7281d-1155-4a5f-9a69-0ff87597b1ad
+  hl-type:: area
+  hl-stamp:: 1675044888144
+- [:span]
+  ls-type:: annotation
+  hl-page:: 430
+  hl-color:: purple
+  id:: 63d72ea6-1d09-4480-876f-e8e54ee2f18f
+  hl-type:: area
+  hl-stamp:: 1675046566604
+- The Kitaev model is essentially a discrete gauge theory with gauge group G.
+  ls-type:: annotation
+  hl-page:: 431
+  hl-color:: purple
+  id:: 63d868eb-8ba0-4f1d-beb7-45997a27c337
+- The theories discussed in this chapter (discrete gauge theories) can be generalized to 3+1 dimensions. This is discussed in some detail, including a discussion of the higher dimensional tube algebra, by Delcamp[2017]; Bullivant and Delcamp [2019].
+  ls-type:: annotation
+  hl-page:: 436
+  hl-color:: yellow
+  id:: 63d86a2d-bfe7-4efa-a01e-5b185310a084
+- Another generalization is to “higher” (or sometimes “higher-lattice”) discrete gauge theories in 2+1 and 3+1 dimensions. In such a generalization, on assigns not only gauge variables on edges, but also a “higher” gauge variable on the plaquettes. These are discussed by Bullivant et al.[2017, 2020] and less abstractly by Huxford and Simon [2021].
+  ls-type:: annotation
+  hl-page:: 436
+  hl-color:: yellow
+  id:: 63d86a58-4562-4977-a216-0bcccabe0b90

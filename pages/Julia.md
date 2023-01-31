@@ -1,12 +1,13 @@
 - Frequently used features
 	- Logical operators #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-20T11:51:10.189Z
-	  card-last-reviewed:: 2022-12-10T11:51:10.190Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-21T07:05:59.852Z
+	  card-last-reviewed:: 2023-01-28T07:05:59.852Z
 	  card-last-score:: 5
 		- C-style `&&, !, ||`
+		- All doubled except `!`
 	- Parallel computation
 		- Multithreading
 		  card-last-interval:: 10

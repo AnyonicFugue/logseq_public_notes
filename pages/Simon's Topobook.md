@@ -4,11 +4,11 @@ type:: paper_reading
 -
 - # Main Points
 	- ## ((63c2176e-689e-4871-9dcb-d820669e68ac))
+	  collapsed:: true
 		- ### ((63c21788-4217-4cb3-8a20-099a3cfa23ba)) ; Diagrams and Physical Quantities #card
 			- Define toric code by local dancing rules (similar to 2017_Wen)
 				- Isotopy, adding/removing contractable loops, reconnection
 			- Strange operation: Detect the total charge of a disk of [[Toric code]] by an annulus surrounding it
-			  collapsed:: true
 				- #+BEGIN_NOTE
 				  The name 'Tube' originated from its topology, which is the same as an annulus.
 				  #+END_NOTE
@@ -43,6 +43,7 @@ type:: paper_reading
 						- Thus $\theta_m=1, \theta_f=-1$
 						- **There got to be something deeper inside.**
 					- Determine the [[S-matrix]]
+					  collapsed:: true
 						- ((63c2552b-3d48-4a77-9891-ca7aca3817a7))
 						- Making a basis transformation, we obtain our familiar S-matrix!
 			- Generalization: Determine general braidings and fusions by a **double-punctured disk**
@@ -59,7 +60,7 @@ type:: paper_reading
 				- There is an example of $Z_n$ on topobook
 			- ((63c24f85-b229-4920-88cf-78b0207f7682))
 				- There are two sets of solutions to the hexagons of the $Z_2$ planar algebra
-	- # ((63c356c2-2dfd-480e-a0a4-49e6db63d25f))
+	- ## ((63c356c2-2dfd-480e-a0a4-49e6db63d25f))
 		- Quantum Double
 		- Double semion
 		- Levin-Wen

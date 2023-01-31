@@ -312,3 +312,59 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   id:: 63be53e5-0e1f-43be-8bb1-2bd7b88e5e16
   hl-type:: area
   hl-stamp:: 1673417700797
+- Lemma
+  ls-type:: annotation
+  hl-page:: 425
+  hl-color:: yellow
+  id:: 63d60be7-4847-414f-b5bc-114fe9bb9320
+  hl-stamp:: 1674972137286
+- Theorem
+  ls-type:: annotation
+  hl-page:: 428
+  hl-color:: yellow
+  id:: 63d6160a-a7f7-427c-b3bf-a89cda400f12
+- Lemma
+  ls-type:: annotation
+  hl-page:: 431
+  hl-color:: yellow
+  id:: 63d762a3-8318-440f-b53f-41feaca0d812
+- Theorem
+  ls-type:: annotation
+  hl-page:: 436
+  hl-color:: yellow
+  id:: 63d7642c-363d-44b6-970e-dd670e678218
+- Lemma
+  ls-type:: annotation
+  hl-page:: 438
+  hl-color:: yellow
+  id:: 63d8b862-853a-4f40-84a8-3399d286193e
+  hl-stamp:: 1675147364341
+- Theore
+  ls-type:: annotation
+  hl-page:: 440
+  hl-color:: yellow
+  id:: 63d8b994-a24d-4c55-a175-51c32f4f9bd2
+- Theorem
+  ls-type:: annotation
+  hl-page:: 443
+  hl-color:: yellow
+  id:: 63d8c0d3-9503-4553-ae46-34d60bc7acd4
+- [:span]
+  ls-type:: annotation
+  hl-page:: 443
+  hl-color:: yellow
+  id:: 63d8c1ce-9535-4c47-a262-fb3cb71d8071
+  hl-type:: area
+  hl-stamp:: 1675149773700
+- [:span]
+  ls-type:: annotation
+  hl-page:: 443
+  hl-color:: yellow
+  id:: 63d8c1ea-a5a1-4c97-b296-2496217fccb9
+  hl-type:: area
+  hl-stamp:: 1675149802560
+- Theorem
+  ls-type:: annotation
+  hl-page:: 448
+  hl-color:: yellow
+  id:: 63d8d0b2-907b-40cc-9de2-cd4e81471a48

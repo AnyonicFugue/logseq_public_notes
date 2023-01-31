@@ -13,10 +13,10 @@
 		- $I \times I \stackrel{f \times i d}{\longrightarrow} X \times I \stackrel{H}{\longrightarrow} Y$
 	- ((63954564-3e1d-4f74-81c3-bea192c5ffdd)) The inclusion map $j: S^n \rightarrow \mathbb{R}^{n+1}-0$ induces an isomorphism of fundamental groups. #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-21T06:41:08.146Z
-	  card-last-reviewed:: 2022-12-28T06:41:08.146Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-24T13:07:46.583Z
+	  card-last-reviewed:: 2023-01-31T13:07:46.583Z
 	  card-last-score:: 5
 		- Intuition
 			- We have a natural way of deforming the identity map of $\mathbb{R}^{n+1}-\mathbf{0}$ to a map that collapsed all of $\mathbb{R}^{n+1}-0$ onto $S^n$.
@@ -28,11 +28,11 @@
 		  r_* \text { is an isomorphism }
 		  \end{array} \Rightarrow j_x \text { is an isomorphism }\right.$$
 	- ((63a6624b-1643-4f31-9c6d-8f96e2245bda)) Let $A$ be a deformation retract of $X$; let $x_0 \in A$. Then the inclusion map
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-25T07:03:11.333Z
-	  card-last-reviewed:: 2022-12-31T07:03:11.333Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-21T07:03:56.142Z
+	  card-last-reviewed:: 2023-01-28T07:03:56.142Z
 	  card-last-score:: 5
 	  $$
 	  j:\left(A, x_0\right) \rightarrow\left(X, x_0\right)

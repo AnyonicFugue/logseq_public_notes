@@ -1,10 +1,10 @@
 - Common mistakes
 	- How are p ; . located? #card
-	  card-last-interval:: 27.15
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-20T16:01:03.381Z
-	  card-last-reviewed:: 2022-12-24T13:01:03.381Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-18T01:13:37.277Z
+	  card-last-reviewed:: 2023-01-25T01:13:37.278Z
 	  card-last-score:: 5
 		- ; is the rightmost.
 	- v #card
@@ -16,11 +16,11 @@
 	  card-last-score:: 5
 		- left to b
 	- m #card
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-20T06:35:03.951Z
-	  card-last-reviewed:: 2022-12-26T06:35:03.951Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-21T12:00:42.591Z
+	  card-last-reviewed:: 2023-01-28T12:00:42.592Z
 	  card-last-score:: 5
 		- Just left to the dot. 一弯食指就能够到。
 - Fingerings
@@ -41,12 +41,12 @@
 	  card-last-score:: 5
 		- left index
 	- shift #card
-	  card-last-interval:: 9.58
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2022-12-13T19:27:12.405Z
-	  card-last-reviewed:: 2022-12-04T06:27:12.405Z
-	  card-last-score:: 3
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-02-22T00:46:05.420Z
+	  card-last-reviewed:: 2023-01-29T00:46:05.421Z
+	  card-last-score:: 5
 		- Principle: One hand presses the desired key; the other press shift.
 		- Much of the time shall be the **right** pinky.
 	- m #card

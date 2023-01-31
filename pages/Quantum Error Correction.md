@@ -199,11 +199,11 @@ type:: Course
 				- Note that $\sigma_y$ can be expressed as a product of x and z, so we don't consider it separately.
 			- Verify the ((638563b0-97c7-407a-b2b0-dcbe845029c7)) #Learning-TODO
 		- Prop. ((63842469-5dc0-4676-9daa-b5ee2000e5a4)) has distance three. #card
-		  card-last-interval:: 10.42
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-16T17:46:27.153Z
-		  card-last-reviewed:: 2022-12-06T07:46:27.154Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-02-22T12:04:25.924Z
+		  card-last-reviewed:: 2023-01-29T12:04:25.925Z
 		  card-last-score:: 5
 			- Codes to correct 1-qubit errors must have distance at least 3.
 			- $\sigma_z^1\sigma_z^2\sigma_z^3$ flips $|0_L\rangle$ to $|1_L\rangle$.

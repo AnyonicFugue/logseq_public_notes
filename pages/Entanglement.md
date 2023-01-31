@@ -1,2 +1,13 @@
-- Interesting facts
+- # What structures can describe it?
+	- Blind guess: Sheaf
+	- Should we describe a particular state, or try to describe the ground state of a Hamiltonian?
+		- The latter seems not so practical. What if it is degenerate?
+- # Thoughts
 	- 'If you work too hard you get nothing'. Equal-weight superposition of all configurations doesn't work, but partial sum does.
+	- The emerging structure of [[UMTC]] implies something deeper behind the scenes.
+	- ## Must be related to the fundamental properties of QM
+		- ### What happens when we superpose states?
+		- ### 'Redundancy' of phase
+			- [[Jan 29th, 2023]] Link with wonders of the universe, then delete the line
+-
+-

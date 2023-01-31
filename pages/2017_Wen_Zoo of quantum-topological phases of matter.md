@@ -14,6 +14,7 @@ type:: paper_reading
 			-
 	- II. New world of condensed matter physics
 	- III. Topologically ordered phases
+	  collapsed:: true
 		- A.Chiral spin liquids and topological order
 			- [[Spin Liquid]]
 				- Spin liquid can leads to a so called spin-charge separation: an electron disintegrates into two quasiparticles – a **spinon**(spin-1/2 charge-0 ) and a **holon** (spin-0 charge-e).
@@ -23,8 +24,7 @@ type:: paper_reading
 				- [[Chiral Spin Liquid]]
 					- There are deconfined spinons and holons.
 					- However, ((63bbae75-1abe-41d3-b98f-c89924453c96))
-						- Find a characteristic. If it is different for two objects, then they must be different.
-							- The same for trace, determinant and the [[Fundamental group]]. #Strategy
+						- ((63c14160-28c9-4f15-82dc-977a38e0993b))
 			- Def of topo orders
 				- Cannot be deformed into product states.
 			- [[invertible]] topological orders #card
@@ -59,9 +59,7 @@ type:: paper_reading
 							- ![image.png](../assets/image_1673314520057_0.png)
 				- DONE Calculate the spins and statistics by myself.
 			- 2.Emergence of Fermi and fractional statistics #card
-			  collapsed:: true
 				- Spin
-				  collapsed:: true
 					- We consider a rotation (twist) by comparing ((63bcc1fa-40ee-453e-bba7-c91daefea9e7))
 					  collapsed:: true
 						- Note that they're **different**!

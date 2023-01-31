@@ -1,10 +1,10 @@
 - Defs
 	- Lifting #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-19T05:59:49.343Z
-	  card-last-reviewed:: 2022-12-09T05:59:49.345Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-23T03:25:30.230Z
+	  card-last-reviewed:: 2023-01-30T03:25:30.231Z
 	  card-last-score:: 5
 		- ((63784f8e-385d-4529-9c3b-3af9cb1b9d82))
 		  $\bar f$ is a lifting of f.

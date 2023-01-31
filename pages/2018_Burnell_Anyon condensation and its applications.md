@@ -1,0 +1,21 @@
+type:: paper_reading
+
+-
+- ![2018_Burnell_Anyon condensation and its applications.pdf](file://zotero_link/Physics/Topological order/Anyon Condensation/2018_Burnell_Anyon condensation and its applications.pdf)
+- # Intro
+	- Different from vortex proliferation in 2D [[Superfluid]]
+		- Energy cost diverges >= logarithmically
+	- Similar to 2D superconductors
+		- Vortices are point defects, with long-range statitics
+		- ((63d873c2-b58b-4e3b-8469-3fe30da04a61))
+		- However, vortices in superconductors are created by external fields, whereas anyons are excited states of the Hamiltonian.
+	- Terminology: topological symmetry breaking (TSB) := condense self-bosons #card
+		- ((63d87ab7-cf2e-4c76-833e-f02c8a92d40c))
+		- ((63d87b0d-33e4-4add-beb8-a78299edffb4))
+	- ((63d87b66-fa46-4c0e-ae19-2faf248fdbd1))
+- # ((63d873f3-58cd-4d48-b066-1db9cacae89c))
+	- ## Condensable bosons
+		- Requirement #card
+			- Have trivial braiding for **at least one** of the fusion channels of $a \otimes \bar a$
+			-
+		-

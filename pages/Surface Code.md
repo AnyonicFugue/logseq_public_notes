@@ -16,11 +16,11 @@
 		- ![image.png](../assets/image_1671782175469_0.png)
 			- Note there are no $A_v$ on the rough boundary.
 		- Ground states #card
-		  card-last-interval:: 25.01
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-01-27T05:47:21.792Z
-		  card-last-reviewed:: 2023-01-02T05:47:21.793Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-02-21T06:58:42.862Z
+		  card-last-reviewed:: 2023-01-28T06:58:42.864Z
 		  card-last-score:: 5
 			- Details in Onenote.
 			- GSD
@@ -37,10 +37,16 @@
 		- Comment: Alternating boundaries -> Extra qubits
 		  collapsed:: true
 			- Exercise. What happens when we add back a spin to the middle of the rough boundary? #card
+			  card-last-interval:: 25.01
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-02-22T07:00:03.553Z
+			  card-last-reviewed:: 2023-01-28T07:00:03.554Z
+			  card-last-score:: 5
 				- One more spin.
-				- Two more $A_v$, two more constraints.
-				- The constraints are still independent.
-				- **Conclusion: One less degree of freedom.**
+				- No more constraints. (The vertices of the spin aren't counted.)
+				- **Conclusion: One more degree of freedom.**
+					- Alternating boundaries lead to qubits!
 		- Error correction
 			- Generally we correct errors by measuring the stabilizers. In this case they are $A_s$ and $B_p$.
 			- Visualize:

@@ -49,8 +49,14 @@
 		- Just take $Hom(1_C,1_C)$, the cat of all topo excitations, in the equivalence.
 -
 - ((63aa65c7-5e7e-40f4-8216-535034102848)) 3D version #card
+  card-last-interval:: 24
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-02-22T00:51:07.604Z
+  card-last-reviewed:: 2023-01-29T00:51:07.605Z
+  card-last-score:: 5
 	- (a) The bulk topological defects of codimension 2 and higher form a braided fusion 2-category $\mathbf{B}$.
-		- 'Codimemsion >=2' excludes point-like excitations??
+		- 'Codimension >=2' includes points and strings.
 	- (b) The topological skeleton of the boundary $\mathrm{C}$ is a multi-fusion 2-category $\mathrm{C}$.
 	- (c) The bulk-to-boundary map induces an equivalence $\mathbf{B} \simeq \mathfrak{Z}_1(\mathbf{C})$ of braided fusion 2-categories.
 -

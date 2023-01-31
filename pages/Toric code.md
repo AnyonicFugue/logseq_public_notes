@@ -94,7 +94,7 @@
 		- ((6371a8f3-e2d5-4eb9-91e3-e0342be2efcc))
 		- He doesn't write the [[Dual structure]]. Instead, he just moved the particle along a circle.
 		  Is this equivalent to Double [[Braiding]] with vacuum? If not, why? How to explicitly write out the creators and annihilators? #Problem
-- Explicitly calculate all relevent structures and write them in the familiar operator form: Dual, Ribbon, Braiding, etc. #Learning-TODO
+- Explicitly calculate all relevent structures and write them in the familiar operator form: Dual, Ribbon, Braiding, Drinfeld center of the boundary, etc. #Learning-TODO
 	- [[Fusion]]
 		- Note that I may need to select a homotopy class. There is a convenient choice: those not crossing the left and right 'borders'.
 		- Also I shall fix how e and m fuse.

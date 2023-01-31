@@ -1,3 +1,6 @@
+- # Comments
+	- ((63d8728e-64bc-4c90-aaf2-63efb1e11fac))
+	- ((63d872bb-9d03-495a-8030-e76fb77eb849))
 - A critical point of the condensation
 	- ((63aa5ee4-d8ac-4c34-aa3c-fe3a1d5c8ac9)) #Problem
 		- Can we obtain the exchange domain wall from the trivial one?

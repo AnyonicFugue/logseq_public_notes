@@ -113,12 +113,14 @@ alias:: QED
 	- [[Compton scattering]]
 		- Key points #card
 		  card-last-score:: 5
-		  card-repeats:: 2
-		  card-next-schedule:: 2022-12-25T11:57:00.604Z
-		  card-last-interval:: 10
-		  card-ease-factor:: 2.7
-		  card-last-reviewed:: 2022-12-15T11:57:00.604Z
+		  card-repeats:: 3
+		  card-next-schedule:: 2023-04-06T04:54:13.715Z
+		  card-last-interval:: 67.2
+		  card-ease-factor:: 2.8
+		  card-last-reviewed:: 2023-01-29T00:54:13.717Z
 			- Draw **two** diagrams
+				- Reminder: The lines can cross!
+				- The better strategy should be first draw the vertices (including internal ones), then find out all possible ways of connecting them.
 			- Simplifications
 				- Use some basic relations ((6379e1d5-cde6-45c1-9024-4b12b6a35650)) to simplify the denominator
 				- Use ((6379e3b6-ac3e-4770-a535-ccfaeb1e3f28)) to simplify the numerator.
@@ -127,11 +129,11 @@ alias:: QED
 		- Two diagrams
 			- ((6379d890-1f5b-4f30-9855-5dbd1a1b68be))
 				- Can we have antifermions, instead of fermions, in the inner line? #card
-				  card-last-interval:: 25.6
-				  card-repeats:: 3
-				  card-ease-factor:: 2.56
-				  card-next-schedule:: 2023-01-10T01:52:28.898Z
-				  card-last-reviewed:: 2022-12-15T11:52:28.898Z
+				  card-last-interval:: 169.81
+				  card-repeats:: 4
+				  card-ease-factor:: 2.66
+				  card-next-schedule:: 2023-07-13T20:14:34.765Z
+				  card-last-reviewed:: 2023-01-25T01:14:34.765Z
 				  card-last-score:: 5
 					- I think they're actually equivalent. The inner line is the contraction of two field operators.
 					- ![image.png](../assets/image_1669444097713_0.png)
@@ -182,11 +184,11 @@ alias:: QED
 	- Defs
 	  collapsed:: true
 		- Field-strength renormalizations #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-24T05:49:27.693Z
-		  card-last-reviewed:: 2022-12-14T05:49:27.696Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-04-05T16:00:44.958Z
+		  card-last-reviewed:: 2023-01-28T12:00:44.958Z
 		  card-last-score:: 5
 			- ![image.png](../assets/image_1670467826740_0.png)
 				- No effect on the coupling constant $e$. Correct electron mass.

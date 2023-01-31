@@ -12,6 +12,12 @@
 		- ![Image.png](../assets/Image_1671852973168_0.png)
 		-
 - ((63a67422-9e04-4af9-8bae-e9bc5903ed6a)) Let $f: X \rightarrow Y$ be continuous; let $f\left(x_0\right)=y_0$. If $f$ is a **homotopy equivalence** then
+  card-last-interval:: 26.06
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-02-24T13:05:21.686Z
+  card-last-reviewed:: 2023-01-29T12:05:21.687Z
+  card-last-score:: 5
   $$
   f_*: \pi_1\left(X, x_0\right) \longrightarrow \pi_1\left(Y, y_0\right)
   $$

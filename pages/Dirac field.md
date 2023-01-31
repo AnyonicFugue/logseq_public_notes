@@ -31,11 +31,11 @@
 			- ((6379caaa-1758-4942-a553-19b721e4a1c2))
 	- Commutation relations (including those with $\gamma^5$)  #card
 	  card-last-score:: 5
-	  card-repeats:: 2
-	  card-next-schedule:: 2022-12-25T05:21:32.614Z
-	  card-last-interval:: 10
-	  card-ease-factor:: 2.7
-	  card-last-reviewed:: 2022-12-15T05:21:32.615Z
+	  card-repeats:: 3
+	  card-next-schedule:: 2023-04-06T04:55:38.292Z
+	  card-last-interval:: 67.2
+	  card-ease-factor:: 2.8
+	  card-last-reviewed:: 2023-01-29T00:55:38.292Z
 		- ((6379ca88-2a1b-4068-a7f7-0cb7197d696c))
 		- ((6379ca9b-6830-497a-b6bc-0aaec1f62441))
 	- Trace Tricks

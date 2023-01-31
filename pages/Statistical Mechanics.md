@@ -170,11 +170,11 @@ type:: [[Course]]
   collapsed:: true
 	- Momentum shell
 		- Thought of the approach #card
-		  card-last-interval:: 10
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2022-12-24T05:58:43.168Z
-		  card-last-reviewed:: 2022-12-14T05:58:43.168Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-04-08T17:09:13.209Z
+		  card-last-reviewed:: 2023-01-31T13:09:13.210Z
 		  card-last-score:: 5
 			- We integrate a bit of high-energy degrees of freedom, then examine how the system changes.
 			  At the critical point, the system shall be **insensitive to rescaling**.

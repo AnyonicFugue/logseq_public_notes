@@ -60,6 +60,12 @@
 		- (3) The intersection of the elements of any finite subcollection of $\mathcal{T}$ is in $\mathcal{T}$.
 	-
 	- Basis #card
+	  card-last-interval:: 36.21
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-05T17:05:47.192Z
+	  card-last-reviewed:: 2023-01-28T12:05:47.192Z
+	  card-last-score:: 5
 		- If $X$ is a set, a basis for a topology on $X$ is a collection $\mathscr{B}$ of subsets of $X$ (called basis elements) such that 
 		  (1) For each $x\in X$, there is at least one basis element $B$ containing $x$.
 		  (2) If $x$ belongs to the intersection of two basis elements $B_{1}$ and $B_{2}$, then there is a basis element $B_{3}$ containing $x$ such that $B_{3} \subset B_{1} \cap B_{2}$.
@@ -106,6 +112,12 @@
 		- the closure of $A$ in $Y$ equals $\overline{A} \cap Y$.
 	-
 	- Limit point #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-21T12:16:56.950Z
+	  card-last-reviewed:: 2023-01-27T12:16:56.950Z
+	  card-last-score:: 5
 		- Every neighborhood of $x$ intersects $A$ in some point **other than** $x$ itself. 
 		  Said differently, $x$ is a limit point of $A$ if it belongs to the closure of $A-\{x\}$ .
 		- let $A^{\prime }$ be the set of all limit points of $A$. Then $$\overline{A} =A\cup A^{\prime }$$
@@ -113,12 +125,6 @@
 	-
 	- Hausdorff  #card
 	  alias:: T2
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-02T02:22:08.873Z
-	  card-last-reviewed:: 2023-01-23T02:22:08.874Z
-	  card-last-score:: 5
 		- Def
 			- For each pair $x_{1} ,x_{2}$ of distinct points of $X$, there exist neighborhoods $U_{1}$, and $U_{2}$ of $x_{1}$ and $x_{2}$, respectively, that are disjoint.
 		-
@@ -135,6 +141,12 @@
 			- A function $f:X\rightarrow Y$ is said to be continuous if for each open subset $V$ of $Y$, the set $f^{-1} (V)$ is an [[Open]] subset of $X$.
 		-
 		- Then the following are equivalent #card
+		  card-last-interval:: 25.01
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-02-21T12:24:58.235Z
+		  card-last-reviewed:: 2023-01-27T12:24:58.236Z
+		  card-last-score:: 5
 			- (1) $f$ is continuous.
 			- (2) For every closed set $B$ of $Y$, the set $f^{-1} (B)$ is closed in $X$
 			- (3) For every subset $A$ of $X$, one has $f(\overline{A} )\subset \overline{f(A)}$.

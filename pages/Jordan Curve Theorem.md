@@ -1,6 +1,5 @@
 - ((63bbc3d9-da3a-4571-86da-58b279d881a0)) Let $X$ be the union of two open sets $U$ and $V$, such that $U \cap V$ can be written as the union of two **disjoint** open sets $A$ and $B$. Assume that there is a path $\alpha$ in $U$ from a point $a$ of $A$ to a point $b$ of $B$, and that there is a path $\beta$ in $V$ from $b$ to $a$. Let $f$ be the loop $f=\alpha * \beta$.
   id:: 63bbc3cd-2356-45f1-819c-e950c33d75aa
-  collapsed:: true
   card-last-interval:: 25.01
   card-repeats:: 1
   card-ease-factor:: 2.6
@@ -30,6 +29,12 @@
 			- Then prove it is covering
 - ((63bbcc50-fdce-4a0d-aa5b-94592f62dcac)) Let $D$ be an arc in $S^2$. Then $D$ does not separate $S^2$. #card
   collapsed:: true
+  card-last-interval:: 24
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-02-18T01:10:14.069Z
+  card-last-reviewed:: 2023-01-25T01:10:14.070Z
+  card-last-score:: 5
 	- First proof
 		- Use the ((63bbcfcf-7da8-4aa7-887c-c2b566e5ebfa))
 			- Let $a$ and $b$ be points of $S^2$. Let $A$ be a compact space, and let $f: A \rightarrow S^2-a-b$ be a continuous injective map. If $f$ is **nulhomotopic**, then $a$ and $b$ lie in the **same component** of $S^2-f(A)$.
@@ -42,7 +47,7 @@
 			- $X=U\cup V$; $U\cap V=S^2-D$.
 		- By the above theorem, if a and b can be connected both in U and V, then we can find an infinite cyclic subgroup of $\pi_1(X)$, which derives a **contradiction**.
 		- However, if U isn't path-connected... then we may repeat the above operations to split $D_1$ into 2 parts.
-		- The process can be infinitely repeated, and we obtain a Nested Sequence, with the final point x.
+		- The process can be infinitely repeated, and we obtain a **Nested Sequence**, with the final point x.
 		- Then we derive a contradiction, since $S^2-x$ is path connected (and some other obvious things).
 - Statement of the theorem
 	- Let $C$ be a simple closed curve in $S^2$. Then $C$ separates $S^2$ into precisely two components $W_1$ and $W_2$. Each of the sets $W_1$ and $W_2$ has $C$ as its boundary; that is, $C=\bar{W}_i-W_i$ for $i=1,2$. #card

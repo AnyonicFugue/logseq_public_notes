@@ -1,4 +1,10 @@
 - Def #card
+  card-last-interval:: 24
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-02-22T00:49:22.146Z
+  card-last-reviewed:: 2023-01-29T00:49:22.148Z
+  card-last-score:: 5
 	- $\log A=\sum_{m=1}^{\infty}(-1)^{m+1} \frac{(A-I)^m}{m}$
 	- The strategy is to define it near $I_n$, since we can't have it globally.
 	-

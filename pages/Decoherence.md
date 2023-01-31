@@ -234,18 +234,17 @@ type:: [[Course]]
 				- The equation now becomes purely differential ($\rho$ isn't integrated over).
 		- We finally obtain ((63830d27-bbb4-41f7-b322-443a6778d318))
 		- Lindblad operators #card
-		  card-last-interval:: 10
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2022-12-24T05:59:54.234Z
-		  card-last-reviewed:: 2022-12-14T05:59:54.234Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-04-08T17:08:43.817Z
+		  card-last-reviewed:: 2023-01-31T13:08:43.818Z
 		  card-last-score:: 5
 			- $E_0=I+\frac{1}{\hbar}(-i H+K) d t$
 			  collapsed:: true
 			  $E_k=L_k \sqrt{d t}, \quad(k=1, \ldots, M-1)$
 				- K is hermitian, denoting the 'deviation from isolated evolution'
 			- Why $E_0$ is different?
-			  collapsed:: true
 				- collapsed:: true
 				  1. They're not all independent.
 					- ((63830f97-5b80-4cd8-8e4e-e90a3e4d74d3))

@@ -16,9 +16,9 @@
 		- Since $S^2-C$ is **locally connected**, the sets $U_\alpha$ are connected, disjoint, **open** subsets of $S^2$. Therefore, the sets $V_\alpha$ are connected, disjoint, open subsets of $\mathbb{R}^2-h(C)$, so the sets $V_\alpha$ are the components of $\mathbb{R}^2-h(C)$.
 		- The point is **open**, which is preserved by h.
 	- Step3. Invoke the [[One-Point Compactification]].
-		- Another common [[Strategy]]!
+		- Another common [[Strategy]!
 		  id:: 63c14167-6109-4d3b-a9cc-0b33bb63e764
-			- Embed into better spaces.
+			- ((63c1416f-d51b-4487-865b-f9d3cf9b5918))
 		- Then b is mapped to $\infty$.
 		- The neighborhoods of $\infty$ are $\mathbb R \cap \infty -C$. Compact <-> Closed and bounded.
 		-
