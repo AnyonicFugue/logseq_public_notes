@@ -732,8 +732,9 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Z
 - Ising type categories
   ls-type:: annotation
   hl-page:: 66
-  hl-color:: blue
+  hl-color:: yellow
   id:: 63744c99-ad88-49b3-961c-f37d7b3aca41
+  hl-stamp:: 1675233126922
 - [:span]
   ls-type:: annotation
   hl-page:: 67

@@ -1,4 +1,4 @@
-- We can't do quantum computation on the ground space of [[Toric code]].
+- We can't do quantum computation on the ground space of [[Toric Code]].
 	- The logical operators aren't universal, only $X$ and $Z$. Moreover, the two qubits aren't coupled.
 - Excited states are even more hopeless, since there are only abelian anyons.
 -

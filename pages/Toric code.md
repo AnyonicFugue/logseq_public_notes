@@ -33,6 +33,12 @@
 	- ((6368782c-d09f-467b-a891-689e3f35f66a)) Invitation
 	- ## Quantum memory
 		- Stabilizers and logical states #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-01T00:17:09.316Z
+		  card-last-reviewed:: 2023-02-05T00:17:09.317Z
+		  card-last-score:: 5
 			- $A_v$, $B_p$ as the stabilizers of the code. Flips are regarded as errors.
 			- Ground space (different homotopy types) as the logical space.
 		- Logical operators #card

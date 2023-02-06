@@ -72,11 +72,11 @@ type:: Course
 			- Hadamard generates the Bell basis.
 			- The CNOTs 'copy' the qubits.
 	- Decode #card
-	  card-last-interval:: 28
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-01-10T06:32:42.387Z
-	  card-last-reviewed:: 2022-12-13T06:32:42.388Z
+	  card-last-interval:: 201.84
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2023-08-23T08:22:59.959Z
+	  card-last-reviewed:: 2023-02-02T12:22:59.960Z
 	  card-last-score:: 5
 		- In a word, correct bit-flip errors in a single group and correct phase-flip errors across groups.
 		- Spin-flip errors are corrected in the usual way. For example, measure $\sigma_{1z}\sigma_{2z}$ and $\sigma_{1z}\sigma_{3z}$ for the first group.
@@ -87,11 +87,11 @@ type:: Course
 			- Not $\sigma_1^x \sigma_4^x$ or $\sigma_1^x \sigma_7^x$! Intuitively, we must flip all three qubits of a group **simultaneously**.
 			- On the other hand, phase flip on a single qubit add a minus to $|111\rangle$ as a whole.
 	- Theorem. The code may correct any errors to a single qubit. #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-11T01:22:48.370Z
-	  card-last-reviewed:: 2022-12-01T01:22:48.370Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-25T03:50:00.095Z
+	  card-last-reviewed:: 2023-02-01T03:50:00.096Z
 	  card-last-score:: 5
 		- Essentially, a 'mixed error' would be projected to a 'pure error' by a measurement of the syndromes, then easily corrected by the Shor code.
 			- A general $U(2)$ operator can be expanded on the basis $\left\{I, \sigma_x, \sigma_y, \sigma_z\right\}$ as an element of $M_2(\mathbb C)$.
@@ -243,11 +243,11 @@ type:: Course
 	- Stabilizer
 	  collapsed:: true
 		- Generators  (Hint: Cyc. permute) #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-15T12:56:32.490Z
-		  card-last-reviewed:: 2022-12-05T12:56:32.492Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-02-26T12:23:37.102Z
+		  card-last-reviewed:: 2023-02-02T12:23:37.102Z
 		  card-last-score:: 5
 			- ((638605de-c46e-4b9d-89ea-a69241304577))
 				- Here is a typo: 4th of $M_4$ shall be $\sigma_4^x$

@@ -18,5 +18,5 @@ alias:: [[UMTC]]
 - ((6371b5f1-6e22-4e33-8345-e203fd463882)) #Problem
   collapsed:: true
 	- Very strange... then could particles really braid on a sphere?
-	- Maybe try the spherical version of [[Toric code]] #TODO
+	- Maybe try the spherical version of [[Toric Code]] #TODO
 	-

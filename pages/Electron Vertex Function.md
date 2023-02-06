@@ -1,11 +1,12 @@
 - Overall scheme #card
   card-last-interval:: 24
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-01-21T06:45:03.683Z
-  card-last-reviewed:: 2022-12-28T06:45:03.683Z
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-02-25T03:52:34.749Z
+  card-last-reviewed:: 2023-02-01T03:52:34.750Z
   card-last-score:: 5
 	- Write out the vertex function and analyze the possible ingredients by some general principles.
+		- Lorentz invariance, Ward identity, possible quantities
 	- A brief ((637cbf81-c429-40c1-ac36-c05a0c2b58c8)) in Peskin
 - The loops leads to [[Ultraviolet Divergence]] and [[Infrared Divergence]].
 - The vertex function

@@ -281,17 +281,17 @@ type:: [[Course]]
 				- Walk for l each step at a random direction
 				- The steps are uncorrelated
 			- Summary #card
-			  card-last-interval:: 24
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-01-18T13:38:13.493Z
-			  card-last-reviewed:: 2022-12-25T13:38:13.494Z
+			  card-last-interval:: 67.2
+			  card-repeats:: 3
+			  card-ease-factor:: 2.8
+			  card-next-schedule:: 2023-04-13T04:15:31.452Z
+			  card-last-reviewed:: 2023-02-05T00:15:31.453Z
 			  card-last-score:: 5
 				- The distribution of the position tends to be Gaussian after a large number of jumps.
 				- The average is zero, while the square deviation adds up at each step.
 				  id:: 63b186e4-627f-4de6-adec-727488e67a6f
-				- ((637e1f66-cd2e-4736-a58a-f243ab833dab))
-				  collapsed:: true
+				- collapsed:: true
+				  $$\begin{gathered}p(x) d x=\frac{d x}{\sqrt{ }(4 \pi D t)} \exp \left(-\frac{x^2}{4 D t}\right) \\ D=l^2 / 2 \tau^*\end{gathered}$$
 					- D is the diffusion coefficient.
 					- $\tau$ is the time for a single step
 		- ((637e200d-781d-4108-a25a-782b8b561888))
@@ -456,6 +456,12 @@ type:: [[Course]]
 		- General analysis
 		  collapsed:: true
 			- Proposition. Inhomogeneity won't affect the universality class. #card
+			  card-last-interval:: 24
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-02-26T12:12:55.558Z
+			  card-last-reviewed:: 2023-02-02T12:12:55.559Z
+			  card-last-score:: 5
 				- In short, we can always **rescale** the coordinates to eliminate the inhomogeneity.
 				- eg. Inhomogeneity between space and time
 					- $\mathcal L=K_1(\nabla \phi)^2+K_2\left(\partial_\tau \phi\right)^2+\frac{r}{2} \phi^2+\frac{y}{4} \phi^4$

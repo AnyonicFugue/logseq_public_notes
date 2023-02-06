@@ -239,6 +239,12 @@
 					- This is the **power of locality**!
 		- Corollary. Exp and Log are homeomorphisms on the sets.
 		- Corollary. Let $G$ be a matrix Lie group with Lie algebra $\mathfrak{g}$ and let $k$ be the dimension of $\mathfrak{g}$ as a real vector space. Then $G$ is a **smooth embedded submanifold** of $M_n(\mathbb{C})$ of dimension $k$ and hence a Lie group. #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-02-26T12:14:49.094Z
+		  card-last-reviewed:: 2023-02-02T12:14:49.094Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- First note that we may take any point homeomorphically to the identity by the map $g^{-1}$ (continuity is granted by the def of Lie groups).
 				- Therefore any point has a neighborhood which is homeomorphic to ...

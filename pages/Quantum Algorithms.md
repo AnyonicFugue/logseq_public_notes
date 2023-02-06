@@ -1,4 +1,10 @@
 - ## Deutsch Josa #card
+  card-last-interval:: 24
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-02-27T01:13:04.082Z
+  card-last-reviewed:: 2023-02-03T01:13:04.082Z
+  card-last-score:: 5
 	- Problem
 		- We have a function $f:\{0,1\}^n \rightarrow\{0,1\}$, which is promised to be constant or balanced.
 		  We wish to find which it is the case.
@@ -8,6 +14,7 @@
 	-
 	- Algorithm
 		- Prepare input $|x_{in}\rang=\otimes^n|+\rang$, $|y_{in}\rang=|-\rang$
+			- x is the equal superposition of all possible elements of $\{0,1\}^n$, while y is the 'testing bit'.
 		- Apply f.
 			- The trick appears again: ((63bab430-6e29-491b-9ae5-d02bed06e35d))
 		- Use Hadamard to go back to the computational basis and measure the output.

@@ -25,6 +25,12 @@
 		- Right side: Known as subadditivity. Prove by [[Relative Entropy]] and $\log(\rho_A\otimes\rho_B)=\log(\rho_A)\otimes I+ I\otimes\log(\rho_B)$
 		- Left side: [TODO]
 	- Fidelity #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-26T03:50:21.794Z
+	  card-last-reviewed:: 2023-02-01T03:50:21.794Z
+	  card-last-score:: 5
 		- $F(\rho, \sigma)=\operatorname{tr} \sqrt{\sqrt{\rho} \sigma \sqrt{\rho}}$
 		- A measure of how close two density matrices are.
 		-

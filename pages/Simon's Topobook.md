@@ -8,7 +8,7 @@ type:: paper_reading
 		- ### ((63c21788-4217-4cb3-8a20-099a3cfa23ba)) ; Diagrams and Physical Quantities #card
 			- Define toric code by local dancing rules (similar to 2017_Wen)
 				- Isotopy, adding/removing contractable loops, reconnection
-			- Strange operation: Detect the total charge of a disk of [[Toric code]] by an annulus surrounding it
+			- Strange operation: Detect the total charge of a disk of [[Toric Code]] by an annulus surrounding it
 				- #+BEGIN_NOTE
 				  The name 'Tube' originated from its topology, which is the same as an annulus.
 				  #+END_NOTE

@@ -8,7 +8,7 @@ alias:: QC
 - [[Quantum Algorithms]]
 - [[Decoherence]]
 - [[Quantum Error Correction]]
-	- [[Toric code]] and [[Quantum double]]
+	- [[Toric Code]] and [[Quantum double]]
 	- [[Surface Code]]
 - [[Topological Quantum Computation]]
 -

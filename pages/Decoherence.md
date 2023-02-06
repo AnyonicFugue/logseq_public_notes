@@ -12,21 +12,21 @@ type:: [[Course]]
 - Kraus operator
   id:: 63840eb6-970a-4787-ad25-13a3cc29ece5
 	- Def #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-04T00:56:10.259Z
-	  card-last-reviewed:: 2023-01-11T00:56:10.260Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-04-13T04:14:13.920Z
+	  card-last-reviewed:: 2023-02-05T00:14:13.920Z
 	  card-last-score:: 5
-		- ((6371e60d-7b26-47f7-b159-0c11111473aa))
+		- $E_k \equiv{ }_2\langle k|U| 0\rangle_2$
 			- U is some evolution of the **total** system.
 			- 0 is the initial state of the environment
-		- ((6371e616-f41d-4b6c-b9dd-e8d497df9ebf))
+		- $\rho_1^{\prime}=\sum_k E_k \rho_1 E_k^{\dagger}$
 			- Essentially tracing out the environment.
 			- For a pure state $|\psi\rang$, the final state is a classical mix of $E_k|\psi\rang$
 			- The map $$S:\rho_1 \mapsto \rho_1'$$ is called ((6371e68c-e4f9-4b7b-870e-5a144d39cb75))
 			- The map always maps a [[Density operator]] to another one. #Exercise
-		- ((6371e642-3c01-46d2-a2c0-96edf6427116))
+		- $\sum_k E_k^{\dagger} E_k=\sum_k{ }_2\left\langle 0\left|U^{\dagger}\right| k\right\rangle_2{ }_2\langle k|U| 0\rangle_2={ }_2\left\langle 0\left|U^{\dagger} U\right| 0\right\rangle_2=I_1$
 	- Equivalence of 2 sets of Kraus operators #card
 		- Two superoperators $\mathbb{S}\left(\rho_1\right)=\sum_k E_k \rho_1 E_k^{\dagger}$ and $\mathbb{S}^{\prime}\left(\rho_1\right)=\sum_k F_k \rho_1 F_k^{\dagger}$ are equivalent if and only if there exists a **unitary** matrix $W$ such that $F_i=\sum_j W_{i j} E_j$.
 			- Essentially, W is the basis transformation between two bases of the environment.
@@ -120,11 +120,11 @@ type:: [[Course]]
 		- Rule:
 		  **Entanglement with the environment ->** {{cloze Classical probability within the system}}
 		- Bit-flip #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-10T13:06:13.503Z
-		  card-last-reviewed:: 2022-11-30T13:06:13.504Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-01T00:23:08.520Z
+		  card-last-reviewed:: 2023-02-05T00:23:08.520Z
 		  card-last-score:: 5
 			- Controlled-X with the environment bit being $\alpha |1\rang+\beta |0\rangle$
 			- Flip z direction with probability $$|\alpha|^2$$

@@ -1,4 +1,10 @@
 - Def #card
+  card-last-interval:: 25.01
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-02-27T12:20:24.662Z
+  card-last-reviewed:: 2023-02-02T12:20:24.662Z
+  card-last-score:: 5
 	- Let $f: X \rightarrow Y$ and $g: Y \rightarrow X$ be continuous maps. Suppose that the map $g \circ f: X \rightarrow X$ is **homotopic to the identity map** of $X$, and the map $f \circ g: Y \rightarrow Y$ is **homotopic to the identity map** of $Y$.
 	- Then the **maps** $f$ and $g$ are called **homotopy equivalences**, and each is said to be a homotopy inverse of the other.
 	- Example

@@ -25,6 +25,12 @@
 		- **The correspondence is 1-to-1**. When $\theta \neq \pi$ it's obvious; when $\theta=\pi$ there's only one point, so phi is unimportant.
 	-
 	- Mixed case #card
+	  card-last-interval:: 27.15
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-28T06:53:06.506Z
+	  card-last-reviewed:: 2023-02-01T03:53:06.506Z
+	  card-last-score:: 5
 		- General density matrix $\rho=a I+b \sigma_x+c \sigma_y+d \sigma_z$
 			- Note the Pauli's and I constitute a basis. Hermitian ⇒ the coefficients are real.
 		-

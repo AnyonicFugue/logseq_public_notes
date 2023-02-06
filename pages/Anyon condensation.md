@@ -1,4 +1,6 @@
 - # Comments
+	- Why does the mathematical structure (not being first principles) fit so well with physics? #[[Thoughts/Math and Physics]]
+		- Deeper structures behind?
 	- ((63d8728e-64bc-4c90-aaf2-63efb1e11fac))
 	- ((63d872bb-9d03-495a-8030-e76fb77eb849))
 - A critical point of the condensation

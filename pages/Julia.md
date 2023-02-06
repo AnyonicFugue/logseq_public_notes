@@ -103,11 +103,11 @@
 			- [i] isn't enough; Julia would return only one element.
 			- Note that partial slicing is also possible. See document.
 	- Vectorized operations #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-13T07:02:21.115Z
-	  card-last-reviewed:: 2022-12-03T07:02:21.115Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-25T03:51:00.890Z
+	  card-last-reviewed:: 2023-02-01T03:51:00.890Z
 	  card-last-score:: 5
 		- `arr=arr.^2`
-		- The dot is necessary.
+		- The dot is necessary. Otherwise only a single element is modified.

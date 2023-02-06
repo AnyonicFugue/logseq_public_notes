@@ -1,4 +1,8 @@
 - # What structures can describe it?
+	- Do we need to describe a distribution, a correlation, or some higher structure?
+		- Distribution (at single point) seems not satisfactory. We only know how mixed the state is, but don't know whom it mixes with.
+		- Note that distribution is 1-point correlation.
+		-
 	- Blind guess: Sheaf
 	- Should we describe a particular state, or try to describe the ground state of a Hamiltonian?
 		- The latter seems not so practical. What if it is degenerate?

@@ -3,7 +3,7 @@
 		- Since the fusion channels are simple, the braiding isomorphisms must be scalars.
 	- ((63759125-c889-4a41-af3d-608a8313b795))
 - Example
-	- [[Toric code]], [[Quantum Double]]
+	- [[Toric Code]], [[Quantum Double]]
 	- ((637590a3-f007-4609-a74d-4d23a42cca63))
 -
 -

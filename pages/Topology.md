@@ -165,6 +165,12 @@
 		- Let $X$ and $Y$ be topological spaces; let $f.X\rightarrow Y$ be a bijection. If both the function $f$ and **the inverse function** $f^{-1} :Y\rightarrow X$ are continuous, then $f$ is called a homeomorphism.
 	-
 	- Quotient map #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-26T12:14:00.930Z
+	  card-last-reviewed:: 2023-02-02T12:14:00.930Z
+	  card-last-score:: 5
 		- Definition
 			- Let $X$ and $Y$ be topological spaces; let $p: X \rightarrow Y$ be a surjective map. 
 			  The map $p$ is said to be a quotient map provided a subset $U$ of $Y$ is open in $Y$ if and only if $p^{-1}(U)$ is open in $X$.
@@ -174,9 +180,6 @@
 		- Theorem 22.1. Let $p: X \rightarrow Y$ be a quotient map; let $A$ be a subspace of $X$ that is saturated with respect to $p$; let $q: A \rightarrow p(A)$ be the map obtained by restricting $p$.
 			- (1) If $A$ is either open or closed in $X$, then $q$ is a quotient map.
 			- (2) If $p$ is either an open map or a closed map, then $q$ is a quotient map.
-			-
-			- ![](local://C:/Users/10309/remnote/remnote-624a8cdd2a47080035c9f8d6/files/iKLXTYgVjfTXzs11GcMpb-q6lVyQoy_rbiIviSiz3GmnDCoedCHaBiFV5CNR7f56NyZmi6pL84ugJGKNMkaND9os6etuIBG7mIzlNWRjbDiMcOr2P3WlDF9lC49s5YdE.png)
-			- Graph is a good tool for thinking! Even for commuting graphs of functions! #Remark
 		-
 		- More Properties:
 			- Composites of maps behave nicely.

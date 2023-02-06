@@ -97,6 +97,12 @@
 				- The uniqueness of $f'$ is guaranteed by that of $f$.
 			-
 		- Corollary. If $N$ is the least normal subgroup of $G_1 * G_2$ that contains $G_1$, then $$\left(G_1 * G_2\right) / N \cong G_2$$ #card
+		  card-last-interval:: 26.06
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-02-27T04:51:20.089Z
+		  card-last-reviewed:: 2023-02-01T03:51:20.090Z
+		  card-last-score:: 5
 			- Exercise.
 		- ((63d8b994-a24d-4c55-a175-51c32f4f9bd2)) If $G$ is a free group with free generators $a_\alpha$, then $G /[G, G]$ is a free abelian group with basis $\left[a_\alpha\right]$, where $\left[a_\alpha\right]$ denotes the coset of $a_\alpha$ in $G /[G, G]$. #card
 			- Prove by the universal properties.

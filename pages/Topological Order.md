@@ -105,7 +105,7 @@
 		- ### 0D and 1D
 			- Description of the [[Boundary]]
 			  collapsed:: true
-				- Boundaries of the [[Toric code]] #card
+				- Boundaries of the [[Toric Code]] #card
 				  card-last-interval:: 24
 				  card-repeats:: 2
 				  card-ease-factor:: 2.7
@@ -166,11 +166,11 @@
 							- In other words, it smooths out all details!
 				- Move particle-like [[Topological excitation]] across the invertible domain wall #card
 				  collapsed:: true
-				  card-last-interval:: 26.06
-				  card-repeats:: 1
-				  card-ease-factor:: 2.6
-				  card-next-schedule:: 2023-02-01T07:09:18.820Z
-				  card-last-reviewed:: 2023-01-06T06:09:18.821Z
+				  card-last-interval:: 24
+				  card-repeats:: 2
+				  card-ease-factor:: 2.7
+				  card-next-schedule:: 2023-03-01T00:23:32.757Z
+				  card-last-reviewed:: 2023-02-05T00:23:32.758Z
 				  card-last-score:: 5
 					- ((6396c9bd-f680-4a7d-b1e5-d9f8de7ae7ff))
 					  collapsed:: true
@@ -226,7 +226,7 @@
 						  $$
 							- Actually Deligne tensor products.
 						- Intuitively, the anyons on the right side are permuted by $\phi$.
-					- Gapped 1D domain walls in [[Toric code]]
+					- Gapped 1D domain walls in [[Toric Code]]
 						- ((6396cfd2-fc56-46df-9ec7-b97a3ddf7bd5))
 						  collapsed:: true
 							- A natural problem: How are we sure that they are the only examples? #Learning-TODO
@@ -398,7 +398,7 @@
 					- Anomaly-free 0D topo orders are simply quantum mechanic systems because there are no thermo limits.
 						- The only nontrivial thing is the ground space. So the category of them is $Vec$.
 					- Anomalous ones are more interesting, because they are excitations in some higher-dim topo orders.
-				- Example of [[Toric code]]
+				- Example of [[Toric Code]]
 					- ((63a944d2-6eab-4275-9cef-b5c2c2fbbbf3)) #Learning-TODO
 					  id:: 63c14170-2c71-419f-bcb0-196784f071ef
 					- Is the 0D wall between the same type of 1D walls trivial? #Learning-TODO
@@ -440,11 +440,11 @@
 						- Seems some info are lost. For example, we no longer know whether a wall is invertible. #Problem
 			- ((63a95644-d8a1-4133-ae26-4a0cff407548)) #card
 			  card-last-interval:: 24
-			  card-repeats:: 1
-			  card-ease-factor:: 2.36
-			  card-next-schedule:: 2023-02-02T13:08:54.775Z
-			  card-last-reviewed:: 2023-01-09T13:08:54.776Z
-			  card-last-score:: 3
+			  card-repeats:: 2
+			  card-ease-factor:: 2.46
+			  card-next-schedule:: 2023-02-27T01:06:05.707Z
+			  card-last-reviewed:: 2023-02-03T01:06:05.708Z
+			  card-last-score:: 5
 				- Reminder. Strange argument; maybe try to understand in the future...
 				- ((63a95652-7730-40fb-b3aa-bbbbff2241be))
 			-
@@ -472,7 +472,7 @@
 		- [[Symmetry Protected Topological Order]]
 		- [[Symmetry Enriched Topological Order]]
 - # Models
-	- [[Toric code]]
+	- [[Toric Code]]
 	  id:: 63687824-ea47-4b9b-89b5-c959a050e0dd
 	- [[Quantum Double]]
 	- [[Ising type]]
@@ -563,7 +563,7 @@
 			- x can be created by some local $\hat O$, which commutes with the braiding(because of locality).
 			- Thus: Braid x with y ⇔ Create x, then braid with y ⇔ Braid y with vacuum, then create x(commutativity)
 		-
-		- 3D [[Toric code]]
+		- 3D [[Toric Code]]
 			- $H=-\sum_v A_v-\Sigma_p B_p$ 
 			  $$\begin{array}{ll}
 			  A_\nu:=\prod_{\partial v} \sigma_i^x & (4 个) \\

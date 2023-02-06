@@ -368,3 +368,15 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   hl-page:: 448
   hl-color:: yellow
   id:: 63d8d0b2-907b-40cc-9de2-cd4e81471a48
+- The process of constructing a space by pasting the edges of a polygonal region  in the plane onto another space is quite useful.
+  hl-stamp:: 1675320582448
+  hl-page:: 456
+  ls-type:: annotation
+  id:: 63db5d04-9f31-4092-9dc4-bb8447e6e7f0
+  hl-color:: purple
+- Theorem
+  ls-type:: annotation
+  hl-page:: 456
+  hl-color:: yellow
+  id:: 63db6329-9ccb-4b48-8766-5de3c0bc8d26
+  hl-stamp:: 1675322157103

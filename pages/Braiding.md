@@ -7,7 +7,7 @@
 	- ((63719ffe-57f9-41a2-87ed-b12d5f4cd7fb))
 - It is not gauge invariant.
   collapsed:: true
-	- For example, there are two braiding structures on [[Toric code]]((6371a0ef-d363-4689-8755-ec3463edf9ea))
+	- For example, there are two braiding structures on [[Toric Code]]((6371a0ef-d363-4689-8755-ec3463edf9ea))
 	- ((6371a0fd-5b8c-4f80-832b-d4ae39f95d6d))
 	-
 - [[S-matrix]]

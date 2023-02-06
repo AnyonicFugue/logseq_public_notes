@@ -10,11 +10,11 @@
 			- In other words, E contains several disjoint copies of U, which are 'squashed into one' by p.
 	- [[Covering map]]
 		- Def #card
-		  card-last-interval:: 16
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-01-01T05:53:19.858Z
-		  card-last-reviewed:: 2022-12-16T05:53:19.858Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-04-10T16:12:10.508Z
+		  card-last-reviewed:: 2023-02-02T12:12:10.510Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- Let $p: E \rightarrow B$ be continuous and surjective. If every point $b$ of $B$ **has a neighborhood** $U$ that is evenly covered by $p$, then $p$ is called a covering map, and $E$ is said to be a covering space of $B$

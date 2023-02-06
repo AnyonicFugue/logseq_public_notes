@@ -150,11 +150,11 @@
 		-
 		- If the fixed-point theorem holds, we can easily generalize it to arbitrary dimensions. But the fixed-point theorem seems to need some modification.
 	- We can even prove [[The Fundamental Theorem of Algebra]]! #card
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-21T06:17:13.326Z
-	  card-last-reviewed:: 2022-12-27T06:17:13.326Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-02-26T12:19:40.674Z
+	  card-last-reviewed:: 2023-02-02T12:19:40.674Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- *Review the thought in this card. No need to memorize all details.

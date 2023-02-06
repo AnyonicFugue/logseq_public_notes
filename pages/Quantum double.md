@@ -56,6 +56,12 @@
 - # Solution
   collapsed:: true
 	- ## GSD on a torus #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-01T00:20:56.187Z
+	  card-last-reviewed:: 2023-02-05T00:20:56.187Z
+	  card-last-score:: 5
 		- Idea: Since it is topological (independent of the details), we may examine a minimal lattice.
 			- Note that the analysis is given on the dual lattice.
 			- **It seems more complicated on the original lattice. Or did I make mistakes?**
@@ -101,6 +107,12 @@
 			- Charges labeled by **irreps** of $Z^A$
 			- Thus each anyon labeled by a **pair** $(A, \mu)$.
 	- ## Explicit construction by [[Tube Algebra]] #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-27T01:09:47.477Z
+	  card-last-reviewed:: 2023-02-03T01:09:47.478Z
+	  card-last-score:: 5
 		- ((63d722e4-a906-4ca8-9314-c4ea20559097))
 			- Recall that we detected anyons in toric code on a disk
 			- Exercise: The two basis indeed have the same dimensions.

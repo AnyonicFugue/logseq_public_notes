@@ -40,3 +40,109 @@ file-path:: zotero_link/Physics/Topological order/Anyon Condensation/2018_Burnel
   hl-color:: purple
   id:: 63d87b66-fa46-4c0e-ae19-2faf248fdbd1
   hl-stamp:: 1675131752834
+- the
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 63da0538-be4c-44ca-a996-c6db61e99a11
+- general fluxes have non-trivial Aharonov-Bohm phases with the condensed Cooper pairs, and flux (where permitted at all) is confined to vortex cores carrying an integer number of half-flux quanta
+  hl-page:: 5
+  ls-type:: annotation
+  id:: 63da0573-e5f4-4625-aad1-c37cc553363f
+  hl-color:: purple
+- Example
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 63da0e16-0074-496a-952b-bd3534890de6
+- General prescription
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 63db1d78-28d6-469b-bc93-808cf8bce702
+- we may condense multiple boson types{γi}, which is often necessary
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: red
+  id:: 63db1d9e-5704-402f-88e6-3cca500d3951
+  hl-stamp:: 1675304362569
+- the condensing boson may be non-abelian
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: red
+  id:: 63db1db1-b3fc-45e6-9ba1-6e2181840a9f
+- After condensation, this means that some linear combinations involving a become confined while others do not.
+  hl-stamp:: 1675305263881
+  hl-page:: 7
+  ls-type:: annotation
+  id:: 63db212c-55c2-4693-a5c8-bb5713898e44
+  hl-color:: purple
+- In general, it can be somewhat technically involved to work out the details of the topological order that is obtained by condensation; systematic approaches to doing this are described in Refs
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: green
+  id:: 63db223b-823d-4c25-8301-f669a6ff09cd
+  hl-stamp:: 1675305534605
+- If the topological order describes a discrete gauge theory,92 and the condensing boson can be mapped to a charge(rather than flux) type excitation, then the two yield the same gapped phases.
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 63db2299-1c12-4e12-b2d5-2aba292d26f6
+  hl-stamp:: 1675305627269
+- a TSB transition relates the Chern-Simons theory with gauge group G = SU (2) to that with gauge group G = SO(3); however there is **no** Higgs field that reduces the gauge symmetry from SU (2) to SO(3), since these have the same Lie algebra. .
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: red
+  id:: 63db22af-446a-415a-a70b-d3947dfbda7b
+  hl-stamp:: 1675305649909
+- ANYON CONDENSATION AND PHYSICS AT THE EDGE
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 63db239a-76d1-41f8-9736-8b52f1cd4f65
+  hl-stamp:: 1675305884245
+- In general, two phases that cannot be separated by a gapped boundary must be topologically distinct
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: purple
+  id:: 63db2510-dd12-4a31-8a40-c7b129c44f3b
+- Here, we review arguments44–46 implying that boundaries between topological orders related by TSB are gappable, while other boundaries are not.
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 63db2560-1f72-426d-86b0-bc4ecbfda560
+  hl-stamp:: 1675306338548
+- if T contains a set of bosons (known as a Lagrangian algebra [46]) that can be condensed to give the vacuum
+  hl-page:: 8
+  ls-type:: annotation
+  id:: 63dc62f4-12d5-4fcf-8046-9e5aed8894fa
+  hl-color:: yellow
+- to understand in general when boundaries may be gapped, we need only to study gapped boundaries between a general topological order T ≡ C × D and the vacuum.
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: green
+  id:: 63dc6419-e606-46ea-bd64-6a576a6acfb6
+- If not, we arrive at a contradiction, and will be forced to conclude that either the upper boundary is also gapped, or the lower boundary is gapless – i.e. the upper and lower boundaries are not individually gappable.
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: green
+  id:: 63dc6512-b706-412f-b5a6-e267ae68e4f8
+- the strip with 1 gapped boundary has a partition function that is modular invariant only if T and the vacuum are either isomorphic121 or related by extending the chiral algebra (e.g. by TSB)
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: purple
+  id:: 63dc6627-451d-4910-8dec-df9069fd9d1f
+  hl-stamp:: 1675388463921
+- Multiple boundary types and topological bound states
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 63dc6779-5db0-4282-9299-3d2c00e971f1
+  hl-stamp:: 1675388796467
+- [:span]
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 63dc67f4-2540-44eb-b7bc-64cf53790405
+  hl-type:: area
+  hl-stamp:: 1675388916677
