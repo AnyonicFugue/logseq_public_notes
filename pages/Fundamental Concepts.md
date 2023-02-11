@@ -1,0 +1,8 @@
+- Interesting to think over these familiar concepts.
+	- Any existing problems?
+	- How to interpret or reformulate them?
+	- Any seeming nonsense which might work?
+		- Think out of the box!
+- [[QFT]]
+- [[Spacetime]]
+-

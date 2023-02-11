@@ -127,12 +127,12 @@ file-path:: zotero_link/Physics/Topological order/Anyon Condensation/2018_Burnel
   hl-page:: 8
   hl-color:: green
   id:: 63dc6512-b706-412f-b5a6-e267ae68e4f8
-- the strip with 1 gapped boundary has a partition function that is modular invariant only if T and the vacuum are either isomorphic121 or related by extending the chiral algebra (e.g. by TSB)
-  ls-type:: annotation
-  hl-page:: 9
-  hl-color:: purple
-  id:: 63dc6627-451d-4910-8dec-df9069fd9d1f
+- the strip with 1 gapped boundary has a partition function that is modular invariant only if T and the vacuum are either isomorphic[121] or related by extending the chiral algebra (e.g. by TSB)
   hl-stamp:: 1675388463921
+  hl-page:: 9
+  ls-type:: annotation
+  id:: 63dc6627-451d-4910-8dec-df9069fd9d1f
+  hl-color:: purple
 - Multiple boundary types and topological bound states
   ls-type:: annotation
   hl-page:: 9
@@ -146,3 +146,52 @@ file-path:: zotero_link/Physics/Topological order/Anyon Condensation/2018_Burnel
   id:: 63dc67f4-2540-44eb-b7bc-64cf53790405
   hl-type:: area
   hl-stamp:: 1675388916677
+- IV. TSB, DEFECTS, AND ANYON-PERMUTING SYMMETRIES
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 63e596ca-3a36-45c5-a5e4-e9b010914654
+- This symmetry at the level of fusion and braiding rules is not necessarily a symmetry of Hamiltonians.
+  hl-stamp:: 1675991207118
+  hl-page:: 9
+  ls-type:: annotation
+  id:: 63e598a3-08bc-463d-a0d5-1811d2b4b644
+  hl-color:: purple
+- in the condensation picture
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 63e59a16-79ea-47db-9108-9f7b02aa7952
+  hl-stamp:: 1675991576576
+- The relationship between APS – or indeed any global symmetry acting on a system of anyons – and condensation transitions is quite general
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 63e59ac6-63fe-4fa3-ace7-bef1e93f239c
+- It turns out that any topological order in which a subset of the anyons transform under a discrete symmetry group can be obtained by TSB from such a parent topological order, and vice versa.
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: purple
+  id:: 63e59bb0-c3f6-4994-bc2b-ef7f79320965
+  hl-stamp:: 1675991986535
+- V. TSB AND CRITICALITY
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 63e59e44-b68a-4bcd-945c-82c3a8b541dd
+  hl-stamp:: 1675992648350
+- Tensor-network constructions58,139 provide an alternative, wave-function based, approach to TSB on the lattice.
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 63e59eb0-8b95-4032-8bbf-ccd1935320d1
+- More generally, one may consider transitions where the condensing bosons have the fusion and braiding rules of a set of charges of a discrete gauge theory
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 63e59fd0-742b-427d-b513-0457af410432
+- However if they are second order, series expansion results suggest89 that they may comprise novel universality classes, and as such are worthy of further study.
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 63e5a0b6-8650-4b2d-adc4-b7c1bc764786

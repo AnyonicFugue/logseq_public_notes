@@ -3,3 +3,4 @@
 		- $T^2=S^1\times S^1$
 	- Standard [[Covering map]]
 		- $p \times p: \mathbb{R} \times \mathbb{R} \rightarrow S^1 \times S^1$
+- Two ways to compute the fundamental group

@@ -879,7 +879,7 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Z
   hl-page:: 76
   hl-color:: purple
   id:: 6376e089-fce4-4848-81c9-ba80dc22e8ff
-- Mathematically, these condensation processes are described by Lagrangian algebras 1 ⊕ m and 1 ⊕ e in the modular tensor category TC, respectively. More generally, all gapped boundaries of a 2d topological order can be obtained by [[Anyon condensation]]
+- Mathematically, these condensation processes are described by Lagrangian algebras 1 ⊕ m and 1 ⊕ e in the modular tensor category TC, respectively. More generally, all gapped boundaries of a 2d topological order can be obtained by [[Anyon Condensation]]
   ls-type:: annotation
   hl-page:: 76
   hl-color:: purple

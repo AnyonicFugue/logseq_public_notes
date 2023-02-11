@@ -1,7 +1,7 @@
 alias:: [[QFT]]
 
 - [[References]]
-	- ![Peskin](file://C:\Users\10309\Nutstore\1\sync\我的坚果云\资料\physics\QFT\Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf) The classical textbook by Peskin
+	- ![Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf](file://C:/Users/yizho/Nutstore/1/sync/我的坚果云/资料/physics/QFT/Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf) The classical textbook by Peskin
 	- ![Introduction_to_Quantum_Field_Theory.pdf](file://D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf) Satoshi Nawata's lecturenotes
 	-
 - [[Interaction, Feynman diagrams and S-matrix]]

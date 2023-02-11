@@ -2,6 +2,12 @@
 - Ref. Peskin, 7.4
 -
 - Statement #card
+  card-last-interval:: 23.96
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-03-02T23:38:41.507Z
+  card-last-reviewed:: 2023-02-07T00:38:41.507Z
+  card-last-score:: 5
 	- Often, in the literature, the terms Ward identity, current conservation, and gauge invariance are used interchangeably.
 	- Ward identity
 		- If $\mathcal{M}(k)=\epsilon_\mu(k) \mathcal{M}^\mu(k)$ is the amplitude for some QED process involving an external photon with momentum $k$, then this amplitude vanishes if we replace $\epsilon_\mu$ with $k_\mu$ :

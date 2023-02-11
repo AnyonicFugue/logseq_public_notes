@@ -380,3 +380,8 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   hl-color:: yellow
   id:: 63db6329-9ccb-4b48-8766-5de3c0bc8d26
   hl-stamp:: 1675322157103
+- Definition
+  ls-type:: annotation
+  hl-page:: 460
+  hl-color:: yellow
+  id:: 63e2f868-ca9c-4ce7-8b48-b1dfeed85715

@@ -33,6 +33,12 @@
 		- This is a generalization of sequences: always 'later' terms.
 		-
 	- Net #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-04T11:21:40.814Z
+	  card-last-reviewed:: 2023-02-08T11:21:40.815Z
+	  card-last-score:: 5
 		- Def
 			- A net in $X$ is a function $f$ from a directed set $J$ into $X$.
 			- We usually denote $f(\alpha)$ by $x_\alpha$. We denote the net $f$ itself by the symbol $\left(x_\alpha\right)_{\alpha \in J}$, or merely by $\left(x_\alpha\right)$.
@@ -125,6 +131,12 @@
 	-
 	- Hausdorff  #card
 	  alias:: T2
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-04T11:19:19.694Z
+	  card-last-reviewed:: 2023-02-08T11:19:19.694Z
+	  card-last-score:: 5
 		- Def
 			- For each pair $x_{1} ,x_{2}$ of distinct points of $X$, there exist neighborhoods $U_{1}$, and $U_{2}$ of $x_{1}$ and $x_{2}$, respectively, that are disjoint.
 		-
@@ -138,7 +150,7 @@
 	-
 	- Continuous
 		- Def
-			- A function $f:X\rightarrow Y$ is said to be continuous if for each open subset $V$ of $Y$, the set $f^{-1} (V)$ is an [[Open]] subset of $X$.
+			- A function $f:X\rightarrow Y$ is said to be continuous if for each open subset $V$ of $Y$, the set $f^{-1} (V)$ is an [[Open]subset of $X$.
 		-
 		- Then the following are equivalent #card
 		  card-last-interval:: 25.01
@@ -162,6 +174,12 @@
 			- (f) (**Local formulation of continuity**) The map $f:X\rightarrow Y$ is continuous if $X$ can be written as the union of open sets $U_{\alpha }$ such that $f\mid U_{\alpha }$ is continuous for each $\alpha$.
 	-
 	- Homeomorphism #card
+	  card-last-interval:: 23.96
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-02T23:34:39.135Z
+	  card-last-reviewed:: 2023-02-07T00:34:39.135Z
+	  card-last-score:: 5
 		- Let $X$ and $Y$ be topological spaces; let $f.X\rightarrow Y$ be a bijection. If both the function $f$ and **the inverse function** $f^{-1} :Y\rightarrow X$ are continuous, then $f$ is called a homeomorphism.
 	-
 	- Quotient map #card

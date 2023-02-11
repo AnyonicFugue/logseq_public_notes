@@ -142,6 +142,12 @@
 	-
 	- Theorem. 1-qubit gates plus CNOT is universal
 		- Scheme for proof #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-03T00:30:50.104Z
+		  card-last-reviewed:: 2023-02-07T00:30:50.105Z
+		  card-last-score:: 5
 			- Obtain arbitrary 2-qubit gates by CNOT
 			- Gray code (Which only requires generalized C^k-NOT) to move any 2 qubits adjacent
 			- Invoke (without proof) decomposition into 2-qubit gates
@@ -164,6 +170,12 @@
 			- Corollary. Plug in $m\sim n^2\ 4^n$, arbitrary n-qubit gates needs $O\left(n^2\ 4^n\log ^c(n^2\ 4^n / \varepsilon)\right)$ gates to approximate.
 		-
 		- How the errors accumulate by step? #card
+		  card-last-interval:: 23.96
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-02T23:37:47.630Z
+		  card-last-reviewed:: 2023-02-07T00:37:47.631Z
+		  card-last-score:: 5
 			- Suppose $U_i$ is the target gate, $V_i$ is the approximated gate.
 			   $\left\|V_i-U_i\right\|_{\text {sup }}<\epsilon$. Then $\left|E_i\right\rangle=\left(V_i-U_i\right)\left|\psi_{i-1}\right\rangle$, $||E_i||<\epsilon$.
 			- For a sequence $V=V_1V_2...V_n$, 

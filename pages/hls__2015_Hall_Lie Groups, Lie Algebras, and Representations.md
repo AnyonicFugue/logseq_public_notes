@@ -84,3 +84,28 @@ file-path:: zotero_link/Mathematics/Lie Algebra/2015_Hall_Lie Groups, Lie Algebr
   hl-color:: yellow
   id:: 63c3a497-cfe2-4196-937a-e539d56c9667
   hl-stamp:: 1673766042312
+- Theorem
+  ls-type:: annotation
+  hl-page:: 107
+  hl-color:: yellow
+  id:: 63e44777-3acd-49d6-bfd7-2edcf2e03f46
+- Theorem
+  ls-type:: annotation
+  hl-page:: 105
+  hl-color:: yellow
+  id:: 63e44b9a-8e76-4cce-9663-a87a332bad1b
+- Theorem
+  ls-type:: annotation
+  hl-page:: 103
+  hl-color:: yellow
+  id:: 63e44c94-f6b7-45ad-86c7-a5068ae7d4b6
+- Definition
+  ls-type:: annotation
+  hl-page:: 88
+  hl-color:: yellow
+  id:: 63e4510a-8748-4b9b-9675-2177e4df32ab
+- Theorem
+  ls-type:: annotation
+  hl-page:: 110
+  hl-color:: yellow
+  id:: 63e5e77e-a5dc-4ac8-a4a3-d9ff04d5f522

@@ -8,4 +8,5 @@ public:: true
 	-
 	- [[Mathematics]]
 	- [[Physics]]
+		- [[Entanglement]]
 	- [[Misc]]

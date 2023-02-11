@@ -14,11 +14,11 @@ alias:: [[Category Theory]]
 				  1. (fully faithful) For any $x, y \in \mathcal{C}$, the map $F_{x, y}: \operatorname{Hom}_{\mathcal{C}}(x, y) \rightarrow \operatorname{Hom}_{\mathcal{D}}(F(x), F(y))$ is a bijection
 				  2. (essentially surjective) For any $z \in \mathcal{D}$, there exists an object $x \in \mathcal{C}$ such that $F(x) \simeq z$.
 		- [[Natural transformation]] #card
-		  card-last-interval:: 25.01
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-01-25T07:04:37.382Z
-		  card-last-reviewed:: 2022-12-31T07:04:37.382Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-03T00:32:59.438Z
+		  card-last-reviewed:: 2023-02-07T00:32:59.439Z
 		  card-last-score:: 5
 			- A family $\{\alpha_x\}$ such that ((636ca3f1-0eb2-4ab9-b618-e430f99c3d90))
 			- [[Natural isomorphism]]

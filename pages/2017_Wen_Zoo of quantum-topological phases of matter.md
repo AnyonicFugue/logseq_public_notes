@@ -104,6 +104,12 @@ type:: paper_reading
 		- G.Table of some topological orders
 	- IV. Nontrivial product states
 		- A. [[Haldane Phase]] #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-04T11:17:58.970Z
+		  card-last-reviewed:: 2023-02-08T11:17:58.970Z
+		  card-last-score:: 5
 			- First example: Spin-1/2 Heisenberg chain
 				- $H=\sum_i \boldsymbol{S}_i \cdot \boldsymbol{S}_{i+1}$
 				- Strange properties...

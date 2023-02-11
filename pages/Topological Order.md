@@ -34,16 +34,16 @@
 	- What's the difference between the description by [[UMTC]] and [[2-category]]? #[[Open Problem]]
 		- ((63aa62d4-a830-4de1-9845-879ed6ed65a1))
 	- How to classify? Why [[Category]] gives a complete classification? #card
-	  card-last-interval:: 10
-	  card-repeats:: 2
-	  card-ease-factor:: 2.22
-	  card-next-schedule:: 2022-12-19T12:54:44.185Z
-	  card-last-reviewed:: 2022-12-09T12:54:44.186Z
-	  card-last-score:: 3
+	  card-last-interval:: 55.68
+	  card-repeats:: 3
+	  card-ease-factor:: 2.32
+	  card-next-schedule:: 2023-04-03T16:42:27.207Z
+	  card-last-reviewed:: 2023-02-07T00:42:27.207Z
+	  card-last-score:: 5
 		- We've faced analogues problems before, eg. why linear algebra describes quantum mechanics.
 		- But we already have the [[First Principle]] for topological orders, that is, underlying lattice models and quantum mechanics. Then we must prove, or at least argue, that the categorical way is equivalent to the old way.
 		- Moreover, we shall demonstrate that the categorical way is better. Equivalently, why [[Set theory]] doesn't serve?
-		-
+		- Is it related to some deeper structure of quantum entanglement?
 	- Why we usually define the lattices by commuting pairs of projectors ($A_s,B_p$)?
 		- Tentative: Topo orders are robust against local perturbations. So we may deform them in some ways; the form of commuting pairs are the simplest.
 	- FQH states only have gapless boundaries; string-net models can only give rise to models with gappable boundaries.
@@ -282,11 +282,11 @@
 									- Move m to the wall as usual. Become X on the same side.
 									- Move e to the wall by $\sigma_z$. Become X **on the opposite side**.
 								- Move particles across the domain wall #card
-								  card-last-interval:: 12.82
-								  card-repeats:: 1
-								  card-ease-factor:: 2.6
-								  card-next-schedule:: 2022-12-28T00:26:14.258Z
-								  card-last-reviewed:: 2022-12-15T05:26:14.259Z
+								  card-last-interval:: 24
+								  card-repeats:: 2
+								  card-ease-factor:: 2.7
+								  card-next-schedule:: 2023-03-03T00:39:27.631Z
+								  card-last-reviewed:: 2023-02-07T00:39:27.631Z
 								  card-last-score:: 5
 									- m is easily recovered by moving back to the same side.
 									- We notice that $X$ becomes $e$ on the other side with an action of $\sigma_z^4$.
@@ -306,6 +306,12 @@
 							- ((6397d8c8-261e-4b5e-8bb6-0dff22e5daec))
 								- Intuitively it's very obvious: The exchange wall swaps rough and smooth.
 								- What does the subscript of the deligne tensor mean? #card
+								  card-last-interval:: 24
+								  card-repeats:: 1
+								  card-ease-factor:: 2.6
+								  card-next-schedule:: 2023-03-04T11:15:37.075Z
+								  card-last-reviewed:: 2023-02-08T11:15:37.075Z
+								  card-last-score:: 5
 									- A wall must have two sides. Here one side is vacuum and the other side is $\mathcal {TC}$.
 										- The subscript denotes which **side** the wall fuses.
 							- ((6397d8cf-5735-4cb5-a000-e3edcf67c3a6))
@@ -497,7 +503,7 @@
 	  card-last-score:: 5
 	  collapsed:: true
 	   #card
-		- In plain English, an excitation is an invariant subspace of the local operators, thus also an [[Representation]] of the algebra.
+		- In plain English, an excitation is an invariant subspace of the local operators, thus also an [[Representation Theory]] of the algebra.
 		- Here local operators shall be **Hermitian measurement operators**, not unitary evolution operators.
 			- 'Topological' means 'invariant under deformations', i.e. invariant under observations at low-T limit.
 		-

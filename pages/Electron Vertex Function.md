@@ -57,33 +57,7 @@
 		- The second line uses the third ((637c8c74-1534-4627-bdd0-c5cf7f409a67))
 		- Why the gamma matrices in the last term $2 m\left(k+k^{\prime}\right)^\mu$ disappear? #Problem
 		  id:: 63c14165-99e3-4b5f-ae75-f1c13f66ef2e
-	- [[Feynman parameter]] #Trick
-	  collapsed:: true
-		- Idea: {{cloze Introduce auxiliary parameters to simplify the expression, then change the order of integration.}}
-		  collapsed:: true
-			- The trick is usually followed by changing the order of integrations and shifting integration variables (To complete the square).
-			- So there's the inherent problem: Can we really exchange the order of integration? #Thoughts
-			  collapsed:: true
-				- Similar problems abound. For example, lots of things don't converge absolutely.
-		- ((637c9a80-85fe-4e5c-bc14-36cd4b691001))
-		- ((637c9a87-b8af-4b42-ac19-a8b8c3edb007)) #card
-		  card-last-interval:: 67.44
-		  card-repeats:: 3
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-01T23:00:44.258Z
-		  card-last-reviewed:: 2022-12-24T13:00:44.258Z
-		  card-last-score:: 5
-			- Proof. Differentiate the first identity wrt B
-		- ((637c9aa2-ba77-453f-8139-1e1a97735c0c)) #card
-		  card-last-interval:: 61.44
-		  card-repeats:: 3
-		  card-ease-factor:: 2.56
-		  card-next-schedule:: 2023-03-11T22:55:33.729Z
-		  card-last-reviewed:: 2023-01-09T12:55:33.730Z
-		  card-last-score:: 5
-			- Core: It turns an awkward product into a summation.
-			- The proof is to be completed.
-	- Apply the trick of Feynman parameters to 6.38
+	- Apply the trick of [[Feynman parameter]] to 6.38
 	  collapsed:: true
 		- Show the reference again ((637c8bd8-d9ef-481c-a08a-3ec965b618a4))
 		- ((637c9f2a-2b53-4a3e-a235-c66a85253329))

@@ -165,11 +165,11 @@ type:: [[Course]]
 				- $\rho_s^{\prime}=(1-p) \rho_s+p \frac{\mathbb{1}_s}{2}$
 					- The 1/2 factor is to keep unit trace.
 		- Amplitude damping #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-02-05T00:18:51.217Z
-		  card-last-reviewed:: 2023-01-12T00:18:51.217Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-04-15T04:36:18.179Z
+		  card-last-reviewed:: 2023-02-07T00:36:18.179Z
 		  card-last-score:: 5
 			- ((6371fe7e-8fc1-482f-b505-582cb00d99cc))
 				- Intuitively: $$|0\rangle\lang0|$$ is always retained, while $$|1\rangle\lang1|$$ is flipped with probability p.
@@ -211,12 +211,12 @@ type:: [[Course]]
 				- R means reservoir.
 			- Use interaction picture and obtain ((63830b3b-4513-4772-8e43-8f53dae0527a))
 		- Simplifications #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2022-12-11T11:59:49.145Z
-		  card-last-reviewed:: 2022-12-01T11:59:49.145Z
-		  card-last-score:: 3
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-03-05T11:06:45.768Z
+		  card-last-reviewed:: 2023-02-09T11:06:45.768Z
+		  card-last-score:: 5
 			- ((63830b80-1527-4610-b040-b1121e92a009))
 			  collapsed:: true
 				- The initial state is unentangled.

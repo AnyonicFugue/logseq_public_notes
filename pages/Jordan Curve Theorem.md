@@ -51,6 +51,12 @@
 		- Then we derive a contradiction, since $S^2-x$ is path connected (and some other obvious things).
 - Statement of the theorem
 	- Let $C$ be a simple closed curve in $S^2$. Then $C$ separates $S^2$ into precisely two components $W_1$ and $W_2$. Each of the sets $W_1$ and $W_2$ has $C$ as its boundary; that is, $C=\bar{W}_i-W_i$ for $i=1,2$. #card
+	  card-last-interval:: 23.96
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-02T23:35:09.231Z
+	  card-last-reviewed:: 2023-02-07T00:35:09.231Z
+	  card-last-score:: 5
 		- The first part is proven in [[Jordan Separation Theorem]].
 		- Now we attack the second part, i.e. precisely 2 components.
 			- As usual, write $C$ as the union of two arcs $C_1$ and $C_2$ that intersect in a two-point set $\{p, q\}$.

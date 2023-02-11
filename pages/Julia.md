@@ -17,12 +17,12 @@
 		  card-last-reviewed:: 2022-12-05T12:57:37.498Z
 		  card-last-score:: 5
 			- Syntax #card
-			  card-last-interval:: 10
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2022-12-16T07:42:51.041Z
-			  card-last-reviewed:: 2022-12-06T07:42:51.042Z
-			  card-last-score:: 5
+			  card-last-interval:: 24
+			  card-repeats:: 2
+			  card-ease-factor:: 2.46
+			  card-next-schedule:: 2023-03-03T00:32:03.667Z
+			  card-last-reviewed:: 2023-02-07T00:32:03.667Z
+			  card-last-score:: 3
 				- Add `--threads=auto`  as a command argument at startup
 				- Just add `Threads.@threads`  to parallelize a for loop!
 					- ```	 

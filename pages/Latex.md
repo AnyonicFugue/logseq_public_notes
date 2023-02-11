@@ -2,11 +2,11 @@
 	- 'Big' things are obtained by {{cloze capitalizing the first letter}}.
 		- $\Rightarrow$ = `\Rightarrow`
 	- $\subset$ and $\subseteq$ #card
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-20T06:35:17.440Z
-	  card-last-reviewed:: 2022-12-26T06:35:17.440Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-05T11:10:11.393Z
+	  card-last-reviewed:: 2023-02-09T11:10:11.394Z
 	  card-last-score:: 5
 		- `\sub` and `\subseteq`
 - Lists and Tables

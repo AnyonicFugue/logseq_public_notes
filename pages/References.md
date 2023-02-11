@@ -1,8 +1,18 @@
 - [[Papers and Books to Read]]
-- Topo order
-	- [[1995_Propitius_Topological interactions in broken gauge theories]]
+- # Topo order
+	- [[Simon's Topobook]]
+		- An encyclopedia!
 	- Intros and Reviews
-		- Invitation
+		- [[hls__2022_Kong_Zhang_An invitation to topological orders and category]]
+			- Mainly categorical language.
 		- [[2017_Wen_Zoo of quantum-topological phases of matter]]
+			- Quite readable, with lots of illustrations and examples.
 		- [[2019_Wen_Choreographed entangle dances]]
 			- Much less detailed than that of 2017.
+	- Anyon condensation
+		- [[2018_Burnell_Anyon condensation and its applications]]
+			- Intro to the general theory.
+		- [[2021_Hu_Huang_Wan_Anyon Condensation]]
+			- Practical approach, with effective Hamiltonian.
+	-
+- # Quantun Circuit Dynamics

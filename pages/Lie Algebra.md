@@ -22,6 +22,7 @@
 		  The bracket is given by the commutator.
 		- Note that it only generates the whole identity component.
 - Some Defs
+  collapsed:: true
 	- Center
 	  collapsed:: true
 		- Those commuting with everything else.
@@ -36,10 +37,8 @@
 	  card-next-schedule:: 2023-02-21T11:58:07.641Z
 	  card-last-reviewed:: 2023-01-28T11:58:07.642Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- $\operatorname{ad}_X(Y)=[X, Y]$
 		- $\operatorname{Ad}_A(X)=A X A^{-1}$
-		  collapsed:: true
 			- Note that A is a group element, while the map still maps to the Lie algebra.
 	- [[Structure Constant]]
 	  collapsed:: true
@@ -176,6 +175,7 @@
 		- [[Universal Property]]
 			- Every real Lie algebra homomorphism of $\mathfrak{g}$ into $\mathfrak{h}$ extends uniquely to a complex Lie algebra homomorphism of $\mathfrak{g}_{\mathbb{C}}$ into $\mathfrak{h}$, i.e. $\pi(X+i Y)=\pi(X)+i \pi(Y)$
 	- The [[Exponential Map]]
+	  collapsed:: true
 		- Note that the exponential map may not be injective (eg, $SU(2)$ ) or surjective (disconnected Lie group). However, it is a [[Local Homeomorphism]].
 		- ((6382db2f-701a-41e5-8169-70d9167b1c9f)) For $0<\varepsilon<\log 2$, $U_{\varepsilon}:=\left\{X \in M_n(\mathbb{C}) \mid\|X\|<\varepsilon\right\}$ and $V_{\varepsilon}:=\exp \left(U_{\varepsilon}\right)$. Suppose $G \subset \mathrm{GL}(n ; \mathbb{C})$ is a matrix Lie group with Lie algebra $\mathfrak{g}$. Then there exists $\varepsilon \in(0, \log 2)$ such that for all $A \in V_{\varepsilon}, A$ is in $G$ **if and only if** $\log A$ is in $\mathfrak{g}$. #card
 		  card-last-interval:: 33.35
@@ -270,16 +270,49 @@
 		- Corollary. Let $G$ and $H$ be matrix Lie groups with Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, respectively, and assume $G$ is **connected**. Suppose $\Phi_1$ and $\Phi_2$ are Lie group homomorphisms of $G$ into $H$ and that $\phi_1$ and $\phi_2$ be the associated Lie algebra homomorphisms of $\mathfrak{g}$ into $\mathfrak{h}$. Then if $\phi_1=\phi_2$, we have $\Phi_1=\Phi_2$. #card
 			- Exercise.
 		- Corollary. If $G$ is a **connected** matrix Lie group and the Lie algebra $\mathfrak{g}$ of $G$ is commutative, then $G$ is commutative. #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-04T11:20:49.447Z
+		  card-last-reviewed:: 2023-02-08T11:20:49.447Z
+		  card-last-score:: 5
 			- Exercise.
 			- Hint: {{cloze ((6381c0a3-1e80-48b1-ba45-9844cd8aabd7))}}
 		- Corollary. If $G \subset M_n(\mathbb{C})$ is a matrix Lie group, the identity component $G_0$ of $G$ is a closed subgroup of $\mathrm{GL}(N ; \mathbb{C})$ and thus a matrix Lie group. Furthermore, the Lie algebra of $G_0$ is the same as the Lie algebra of $G$. #card
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-03T00:38:44.832Z
+		  card-last-reviewed:: 2023-02-07T00:38:44.832Z
+		  card-last-score:: 5
 			- Plain English version
 				- The Lie algebra only generates the identity component.
 			- Proof
 				- 1. G closed in $X$, $G_0$ closed in G -> $G_0$ closed in X
 				- 2. For $X\in G$, $e^{tX} \in G$.
 - Examples
+  collapsed:: true
 	- sl(2,C)
+		- Basis and commutation relations
+			- $$
+			  X=\left(\begin{array}{ll}
+			  0 & 1 \\
+			  0 & 0
+			  \end{array}\right) ; \quad Y=\left(\begin{array}{ll}
+			  0 & 0 \\
+			  1 & 0
+			  \end{array}\right) ; \quad H=\left(\begin{array}{rr}
+			  1 & 0 \\
+			  0 & -1
+			  \end{array}\right)
+			  $$
+			- $$
+			  \begin{aligned}
+			  {[H, X] } & =2 X \\
+			  {[H, Y] } & =-2 Y \\
+			  {[X, Y] } & =H
+			  \end{aligned}
+			  $$
 		- $sl(2,C)$ is irreducible, thus simple. #card
 		  card-last-interval:: 24
 		  card-repeats:: 2
@@ -288,4 +321,5 @@
 		  card-last-reviewed:: 2023-01-12T13:22:44.602Z
 		  card-last-score:: 5
 			- Verify that any nontrivial element can generate the whole algebra by commutating with the generators. ((63860946-8380-45c7-b564-1c08f9e7cc70))
-		-
+		- ((63e44faf-be39-4003-a238-c50fedbd07e4))
+		  id:: 63c14167-777b-4ede-ab9b-08f6586376df

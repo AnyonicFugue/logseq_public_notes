@@ -1,5 +1,5 @@
 - Definition
-	- Essentially, a module over A is a 'vector space to be acted on by A', or a [[Representation]] of the algebra.
+	- Essentially, a module over A is a 'vector space to be acted on by A', or a [[Representation Theory]] of the algebra.
 	- Let $A$ be an algebra. A left module over A or a left A-module is a vector space $M$ equipped with a bilinear map (called the left $A$-action)
 	  $$
 	  \begin{aligned}

@@ -9,3 +9,7 @@
 - Find a characteristic. If it is different for two objects, then they must be different.
   id:: 63c14160-28c9-4f15-82dc-977a38e0993b
 	- The same for trace, determinant, cardinality and the [[Fundamental group]]. #Strategy
+-
+- # [[Algebraic Topology]]
+	- Prove nulhomotopy by rescale the shape (in particular, curve) with a parameter $t\in [0,1]$
+		- Especially useful for shapes embeddable into $R^n$

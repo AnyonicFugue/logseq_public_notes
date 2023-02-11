@@ -425,11 +425,11 @@ type:: [[Course]]
 				  $$
 					- $\chi(\omega)=\chi_1(\omega)+i \chi_2(\omega)$
 				- Proof #card
-				  card-last-interval:: 10
-				  card-repeats:: 1
-				  card-ease-factor:: 2.6
-				  card-next-schedule:: 2022-12-22T05:43:58.862Z
-				  card-last-reviewed:: 2022-12-12T05:43:58.864Z
+				  card-last-interval:: 24
+				  card-repeats:: 2
+				  card-ease-factor:: 2.7
+				  card-next-schedule:: 2023-03-04T11:23:55.567Z
+				  card-last-reviewed:: 2023-02-08T11:23:55.567Z
 				  card-last-score:: 5
 					- ![image.png](../assets/image_1670505431236_0.png)
 					- The total is zero.

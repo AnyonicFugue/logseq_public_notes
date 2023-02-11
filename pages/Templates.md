@@ -1,33 +1,22 @@
 - Daily
   template:: Daily
   template-including-parent:: false
-	- # Random Things
-	  collapsed:: true
-		- You may click the button any time you want!
-		- ### Tag *Random* {{renderer random-block, #Random , 2}}
-		- ### Tag *Thoughts* {{renderer random-block, #Thoughts, 1}}
-		- ### Page *Contents* {{renderer random-block, [[Contents]] , 1}}
-		- ### Academic
-			- Tag *Strategy* {{renderer random-block, #Strategy , 1}}
-				-
-			- Tag *Open Problem* {{renderer random-block, #Open problem , 1}}
-				-
-			- Tag *Learning-TODO* {{renderer random-block, #Learning-TODO , 1}}
-				-
-			- Tag *Problem* {{renderer random-block, #Problem , 1}}
-				-
-			- Page *Research* {{renderer random-block, [[Research]] , 1}}
-				-
-	- {{embed ((5353c7a8-93d8-49c5-9090-15b511dfbb1a))}}
 	- # Planning
 		- ## Morning
 			- Have some sunlight after getting up.
+			- TODO 吹气球
 		- ## Afternoon
 			- TODO 吃沃克
 			- ^^15:45 进食^^
+			- TODO Enforce Liquidtext workflow in Piano practice.
+				- Amoeba: 慢练、高抬指一段时间
 		- ## Evening
-			- TODO 背单词
+			- TODO 背单词 or Review Logseq
 			- ^^21:00 Stop hard TODOs, eat something and prepare for sleep.^^
-			- TODO 吃一颗氯雷他定
 	- # Tasks
+		- Daily tidy-up
+		  id:: 63e19713-3af5-4931-939e-35fde543a762
+			- TODO Move 3 inbox items
+			- TODO Complete 1 reform
+			- TODO Explore 1 new thing
 	- # Output

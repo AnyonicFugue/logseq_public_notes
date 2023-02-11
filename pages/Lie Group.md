@@ -31,11 +31,11 @@
 		- The ((6381bc92-5f90-4322-9a1b-0cbbf9128acc)) is a normal subgroup. #card
 			- A simple exercise. Directly construct the path.
 		- $SU(2)$ is [[Simply connected]]. #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-13T07:05:18.224Z
-		  card-last-reviewed:: 2022-12-03T07:05:18.224Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-05T11:20:00.269Z
+		  card-last-reviewed:: 2023-02-09T11:20:00.269Z
 		  card-last-score:: 5
 			- We may construct a homeomorphism to $S^3$ by 
 			  $$

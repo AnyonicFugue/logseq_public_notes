@@ -1,0 +1,3 @@
+- Def
+	- A map $f: X \rightarrow Y$ is a quotient map (sometimes called an identification map) if it is surjective, and a subset $V \subseteq Y$ is open if and only if $f^{-1}(V)$ is open.
+	- Equivalently, a surjection $f: X \rightarrow Y$ is a quotient map if and only if for every subset $D \subseteq Y, D$ is closed in $Y$ if and only if $f^{-1}(D)$ is closed in $X$.

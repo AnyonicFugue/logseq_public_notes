@@ -1,13 +1,14 @@
 - Solving problems
   collapsed:: true
 	- Partial solutions shall also be valued. #card [[Academic]]
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-06T13:24:20.259Z
-	  card-last-reviewed:: 2023-01-12T13:24:20.259Z
-	  card-last-score:: 5
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-03-05T11:13:36.835Z
+	  card-last-reviewed:: 2023-02-09T11:13:36.835Z
+	  card-last-score:: 3
 		- The problem may be solved by holding several 'partial solutions' together.
+			- Therefore you may study under what conditions a partial solution hold and glue multiple together.
 		- Moreover, the reason for the failure is often quite instructive.
 			- Why it doesn't work? How can we fix the defect?
 		- Failure is a beneficial part of research.

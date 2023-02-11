@@ -1,10 +1,10 @@
 - Defs
 	- Evenly covered #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-08T01:10:35.515Z
-	  card-last-reviewed:: 2023-01-15T01:10:35.516Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-04-16T15:19:05.456Z
+	  card-last-reviewed:: 2023-02-08T11:19:05.456Z
 	  card-last-score:: 5
 		- Definition. Let $p : E \rightarrow B$ be a continuous surjective map. The open set $U$ of $B$ is said to be **evenly covered** by $p$ if the inverse image $p^{-1}(U)$ can be written as the union of **disjoint** open sets $V_\alpha$ in $E$ such that for each $\alpha$, the restriction of $p$ to $V_\alpha$ is a **homeomorphism** of $V_\alpha$ onto $U$ The collection $\left\{V_\alpha\right\}$ will be called a partition of $p^{-1}(U)$ into slices
 			- In other words, E contains several disjoint copies of U, which are 'squashed into one' by p.
