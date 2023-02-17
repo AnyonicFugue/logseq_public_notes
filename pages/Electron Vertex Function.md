@@ -55,7 +55,7 @@
 	  collapsed:: true
 		- The definition of $\Gamma^\mu$ contains $-ie$, so the one of the inner vertex is cancelled.
 		- The second line uses the third ((637c8c74-1534-4627-bdd0-c5cf7f409a67))
-		- Why the gamma matrices in the last term $2 m\left(k+k^{\prime}\right)^\mu$ disappear? #Problem
+		- Why the gamma matrices in the last term $2 m\left(k+k^{\prime}\right)^\mu$ disappear? #Inbox/Problem
 		  id:: 63c14165-99e3-4b5f-ae75-f1c13f66ef2e
 	- Apply the trick of [[Feynman parameter]] to 6.38
 	  collapsed:: true

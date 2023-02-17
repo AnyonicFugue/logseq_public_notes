@@ -4,11 +4,11 @@
 	- [[The Lebesgue number lemma]]
 	  collapsed:: true
 		- Lemma. #card
-		  card-last-interval:: 27.15
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-02-05T16:11:29.927Z
-		  card-last-reviewed:: 2023-01-09T13:11:29.928Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-11T01:55:59.182Z
+		  card-last-reviewed:: 2023-02-15T01:55:59.182Z
 		  card-last-score:: 5
 			- ((638de986-e9a0-45a2-bba8-d698da5b3ed1)) Let $\mathcal{A}$ be an open covering of the metric space $(X, d)$. If $X$ is compact, there is a $\delta>0$ such that for each subset of $X$ having diameter less than $\delta$, there exists an element of $\mathcal{A}$ **containing** it.
 			  The number $\delta$ is called a Lebesgue number for the covering $\mathcal{A}$.
@@ -25,6 +25,12 @@
 				- f is continuous, X is compact -> f has a minimum $\delta$, which is our required number.
 - Basics
 	- Directed set #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-08T10:59:04.179Z
+	  card-last-reviewed:: 2023-02-11T10:59:04.179Z
+	  card-last-score:: 5
 		- Def
 			- A directed set $J$ is a set with a partial order $\preceq$ such that for 
 			  each pair $\alpha, \beta$ of elements of $J$, there exists an element $\gamma$ of $J$ having the property that $\alpha \preceq \gamma$ and $\beta \preceq \gamma$

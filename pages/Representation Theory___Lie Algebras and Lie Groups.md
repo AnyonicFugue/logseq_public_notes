@@ -14,6 +14,8 @@
 	- Reps of $sl(2,C)$
 	  id:: 63e44faf-be39-4003-a238-c50fedbd07e4
 		- ((63e44777-3acd-49d6-bfd7-2edcf2e03f46)) For each integer $m \geq 0$, there is an irreducible complex representation of $\mathrm{sl}(2 ; \mathbb{C})$ with dimension $m+1$, unique up to isomorphism. #card
+			- Implications
+				- Since $sl(2;C)\cong so(3)_C \cong su(2)$, complexifications of irreps of $su(2;C)$ are determined.
 			- Existence
 				- Our familiar creation and annihilation operators!
 					- Just need some slight tweaks to suit Hall's convention.

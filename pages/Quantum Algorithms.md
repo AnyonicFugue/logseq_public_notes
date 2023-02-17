@@ -68,8 +68,8 @@
 	  card-next-schedule:: 2023-02-02T01:48:11.651Z
 	  card-last-reviewed:: 2023-01-09T01:48:11.653Z
 	  card-last-score:: 5
-		- Idea: It can be viewed as 'adding controlled phases $2 \pi  \frac{j k}{2^n}$ to the final qubits'
-			- The key is that QFT isn't entangling, i.e. the effect of each qubit of the input can be **separated.**
+		- Key: The gate is nonentangling, thus can be viewed as 'adding controlled phases $2 \pi  \frac{j k}{2^n}$ to the final qubits'
+			- Moreover, only $m+n<N$ has nontrivial contribution to the phase. Others are multiples or $2\pi$, thus trivial.
 		- $$
 		  \begin{aligned}
 		  F(|j\rangle) & =\frac{1}{\sqrt{2^n}} \sum_{k=0}^{2^n-1} \exp \left(\frac{2 \pi i j k}{2^n}\right)|k\rangle \\
@@ -99,11 +99,11 @@
 			- Measure k and obtain some $k=\frac p q N,(p,q)=1$. 
 			  Perform the process several times and find $$lcm(q_1,...,q_w)$$ which is quite likely to be r.
 	- ### Shor's Algorithm #card
-	  card-last-interval:: 26.06
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-06T01:59:23.803Z
-	  card-last-reviewed:: 2023-01-11T00:59:23.803Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-13T01:01:57.336Z
+	  card-last-reviewed:: 2023-02-17T01:01:57.336Z
 	  card-last-score:: 5
 		- Problem
 			- Factor a given number.
@@ -119,6 +119,7 @@
 		- Algorithm
 			- Pick random $x\in\{2,3,...,N-1\}$ s.t. $gcd(x,N)=1$. This condition is to ensure that r **exists**.
 			- Quantumly find the period $r$ of $x$. If r is odd then pick x again.
+				- Note that $N$, the number to be factored, is the number to be moduled (not to be powered).
 			- Now r is even. Calculate $gcd(x^r-1,N)$ and $gcd(x^r+1,N)$ to find nontrivial factors.
 			  The only failing case is that $N|(x^r+1)$
 		-

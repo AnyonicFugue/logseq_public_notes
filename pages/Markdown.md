@@ -19,11 +19,11 @@
 	- 有序列表：行首添加数字"1." "2." etc.
 	- 无序列表：行首添加+或-
 - 分隔线 #card
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-02-05T13:25:36.778Z
-  card-last-reviewed:: 2023-01-12T13:25:36.778Z
+  card-last-interval:: 67.2
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-04-19T15:02:28.722Z
+  card-last-reviewed:: 2023-02-11T11:02:28.722Z
   card-last-score:: 5
 	- *** or ---
 	- This is quite useful! Use it more!

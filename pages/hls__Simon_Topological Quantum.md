@@ -200,3 +200,51 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/Simon_Topol
   hl-page:: 436
   hl-color:: yellow
   id:: 63d86a58-4562-4977-a216-0bcccabe0b90
+- This priniciple is very general. If we start with any anyon theory with a braiding, then we throw away the braiding and just use it as a planar diagram algebra to build a quantum loop (not putting in any of the braiding relations) we will get out the doubled theory
+  ls-type:: annotation
+  hl-page:: 449
+  hl-color:: purple
+  id:: 63e84674-1f56-48e0-a54d-8585ffb076cc
+- [:span]
+  ls-type:: annotation
+  hl-page:: 440
+  hl-color:: purple
+  id:: 63e8469b-9c89-4ae2-a224-ed6b71d1b33d
+  hl-type:: area
+  hl-stamp:: 1676166811576
+- the resulting theory is isotopy invariant but nonunitary
+  ls-type:: annotation
+  hl-page:: 445
+  hl-color:: purple
+  id:: 63e84a0a-17de-487e-9fe6-56d1a4166559
+- When the input diagram algebra (spherical tensor category) plus a braiding is a **modular** anyon theory, the Drinfel’d double of this input theory is then two copies of the input modular anyon theory — one right handed copy, and one left handed copy.
+  hl-page:: 452
+  ls-type:: annotation
+  id:: 63e84dee-bee0-4b90-aace-679bc17deab5
+  hl-color:: purple
+- More generally a planar diagram algebra (a spherical tensor category) may not have any braidings at all.
+  ls-type:: annotation
+  hl-page:: 452
+  hl-color:: purple
+  id:: 63e84ee7-70c8-46ae-843c-8a87f2643564
+- [:span]
+  ls-type:: annotation
+  hl-page:: 453
+  hl-color:: blue
+  id:: 63e85270-994b-4bc9-b5b0-621fe43c45f2
+  hl-type:: area
+  hl-stamp:: 1676169840259
+- [:span]
+  ls-type:: annotation
+  hl-page:: 454
+  hl-color:: blue
+  id:: 63e85457-40a3-4f6a-9c79-3cdee0efc747
+  hl-type:: area
+  hl-stamp:: 1676170327592
+- [:span]
+  ls-type:: annotation
+  hl-page:: 239
+  hl-color:: blue
+  id:: 63e85493-7abb-4406-95d9-6059dbada06e
+  hl-type:: area
+  hl-stamp:: 1676170387239

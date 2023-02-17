@@ -14,11 +14,11 @@ type:: Course
 		- Alice wants to send a single qubit $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$ to Bob.
 		- The quantum channel they use may flip any qubit with probability $\epsilon$.
 	- Code #card
-	  card-last-interval:: 26.06
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-08T02:02:28.374Z
-	  card-last-reviewed:: 2023-01-13T01:02:28.374Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-08T09:40:07.949Z
+	  card-last-reviewed:: 2023-02-12T09:40:07.951Z
 	  card-last-score:: 5
 		- Encoding
 			- $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle \rightarrow \alpha\left|0_L\right\rangle+\beta\left|1_L\right\rangle=\alpha|000\rangle+\beta|111\rangle$
@@ -110,11 +110,11 @@ type:: Course
 			- The set of all possible errors $\mathcal{E}=\left\{E_0, \ldots, E_{4^n-1}\right\}$
 			- $\mathcal{E}_c$ the subset of errors correctable by the code
 			- Weight of an error #card
-			  card-last-interval:: 24
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-02-02T12:54:18.497Z
-			  card-last-reviewed:: 2023-01-09T12:54:18.497Z
+			  card-last-interval:: 67.2
+			  card-repeats:: 3
+			  card-ease-factor:: 2.8
+			  card-next-schedule:: 2023-04-23T05:57:31.967Z
+			  card-last-reviewed:: 2023-02-15T01:57:31.967Z
 			  card-last-score:: 5
 				- The number of qubits on which a given operator differs from the identity
 				- eg. The weight of $I_1 \otimes \sigma_2^y \otimes \sigma_3^x \otimes I_4 \otimes \sigma_5^z$ is 3.

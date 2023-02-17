@@ -109,3 +109,8 @@ file-path:: zotero_link/Mathematics/Lie Algebra/2015_Hall_Lie Groups, Lie Algebr
   hl-page:: 110
   hl-color:: yellow
   id:: 63e5e77e-a5dc-4ac8-a4a3-d9ff04d5f522
+- Theorem
+  ls-type:: annotation
+  hl-page:: 115
+  hl-color:: yellow
+  id:: 63e88de6-862b-46b6-8689-bbd85d966509

@@ -66,7 +66,7 @@
 	- ((63d872bb-9d03-495a-8030-e76fb77eb849))
 - # Misc
 	- A critical point of the condensation
-		- ((63aa5ee4-d8ac-4c34-aa3c-fe3a1d5c8ac9)) #Problem
+		- ((63aa5ee4-d8ac-4c34-aa3c-fe3a1d5c8ac9)) #Inbox/Problem
 			- Can we obtain the exchange domain wall from the trivial one?
 		- ((63a95e51-a8e4-4bd3-bc50-77ce4d2dd60f))
 - [[Condensation Completeness]]

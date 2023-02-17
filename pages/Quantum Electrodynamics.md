@@ -69,7 +69,7 @@ alias:: QED
   card-last-score:: 5
 	- $H_{\mathrm{int}}=\int d^3 x\ e \bar{\psi} \gamma^\mu \psi A_\mu$
 		- So elegant! $\gamma^\mu$ marries $A_\mu$
-		- Would different choice of gamma affect physics? eg. Weyl or Majarona? #Problem
+		- Would different choice of gamma affect physics? eg. Weyl or Majarona? #Inbox/Problem
 	- ((636909d9-c786-4017-88e5-4c0d88ed061e))
 	- See [[Feynman rules]]
 - Elementary processes

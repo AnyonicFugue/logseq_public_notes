@@ -27,6 +27,12 @@
 -
 - Reversible computation
 	- Landauer's principle #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-08T10:58:29.177Z
+	  card-last-reviewed:: 2023-02-11T10:58:29.178Z
+	  card-last-score:: 5
 		- Erasing a bit costs dissipation $\Delta E\geq kT\ln2$
 	- Toffoli gate
 		- a,b would not be modified

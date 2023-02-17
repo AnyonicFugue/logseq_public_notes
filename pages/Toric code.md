@@ -18,7 +18,7 @@
 	- ((63aa5b5b-1bd1-47bd-941c-a5c86a2fd734)) Invitation
 	- A monoidal [[2-category]], denoted by $\mathbf{TC}$
 		- Monoidal means the objects (1D domain walls) can be fused.
-		- However, some objects aren't invertible? #Problem
+		- However, some objects aren't invertible? #Inbox/Problem
 	- ((63aa5b9e-3d1c-450a-9877-4bc7b61b2766))
 		- Objects -> Six simple domain walls
 		- Black arrow -> Topo skeleton of the 1D domain walls\
@@ -80,7 +80,7 @@
 			- To obtain a nonzero correction term, we must move a quasiparticle along the whole torus.
 			  id:: 63b29c20-9dce-4db3-b7c0-7e81dff5cd27
 			- When $L \to \infty$, this requires extremely high orders of the perturbation terms.
-		- Effect on excitations #[[Inbox/To Be Explored]]
+		- Effect on excitations #[[Inbox/Explore]]
 			- Simon claims that the positions of the excitations would fluctuate due to the perturbation, i.e. a finite-size cloud.
 			- However, if we do the braidings far enough, then the size of the cloud is negligible.
 			- He doesn't mention the extra pairs (strings) of excitations incurred by the perturbation term, which may cause extra minuses?
@@ -93,13 +93,13 @@
 			- Rigidity of [[TQFT]], i.e. No deformations? This seem to motivate the definition of topological orders by deformations.
 - # Problems
 	- How to prove there are only 4 simple topo ((636879d9-dfe3-4bdd-a078-587cc9c25350)) and thus labelled? They can't be connected by local operators?
-	   #Problem
+	   #Inbox/Problem
 		- The excitations can only be $A_v=-1$ or $B_p=-1$. But is this sufficient?
 	- [[Ribbon]] structure
 	  collapsed:: true
 		- ((6371a8f3-e2d5-4eb9-91e3-e0342be2efcc))
 		- He doesn't write the [[Dual structure]]. Instead, he just moved the particle along a circle.
-		  Is this equivalent to Double [[Braiding]] with vacuum? If not, why? How to explicitly write out the creators and annihilators? #Problem
+		  Is this equivalent to Double [[Braiding]] with vacuum? If not, why? How to explicitly write out the creators and annihilators? #Learning-TODO
 - Explicitly calculate all relevent structures and write them in the familiar operator form: Dual, Ribbon, Braiding, Drinfeld center of the boundary, etc. #Learning-TODO
 	- [[Fusion]]
 		- Note that I may need to select a homotopy class. There is a convenient choice: those not crossing the left and right 'borders'.

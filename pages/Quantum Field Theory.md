@@ -22,12 +22,12 @@ alias:: [[QFT]]
 	- [[Helicity]] structure in scattering
 	  collapsed:: true
 		- High-E limit #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2022-12-07T14:22:22.088Z
-		  card-last-reviewed:: 2022-11-27T14:22:22.089Z
-		  card-last-score:: 3
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-03-13T00:58:19.808Z
+		  card-last-reviewed:: 2023-02-17T00:58:19.809Z
+		  card-last-score:: 5
 			- All fermions can be regarded as massless.
 			- For $\xi=\left(\begin{array}{l}1 \\ 0\end{array}\right)$, ((6379c82e-aa21-424e-9d43-339a251a9bc2))
 				- And the same for spin down.

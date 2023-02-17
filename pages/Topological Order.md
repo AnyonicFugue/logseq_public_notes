@@ -336,7 +336,7 @@
 								- It may be realized in 1D quantum [[Ising model]] without transverse field.
 									- 2 ground states -> Up or down
 									- Domain wall -> Spin flip, can't be created by  local operators
-								- ((63a6b519-2881-4f66-be9e-c6dd8145efa2)) #Problem
+								- ((63a6b519-2881-4f66-be9e-c6dd8145efa2)) #Inbox/Problem
 									- There are 4 excitations in the double-smooth case, whereas only 2 in the direct sum of trivial 1D?
 							- ((63a6b6ef-ebc7-4c73-877f-3d033dd3a732)) #Learning-TODO
 							  id:: 63c14170-db52-44f7-8b1e-92d9b2d44130
@@ -424,7 +424,13 @@
 						- Identity-Swap
 							- ((63a812f4-ed38-4776-b113-a9efcdcf941d))
 								- $Q:=\sigma_x^1 \sigma_y^2 \sigma_z^3 \sigma_z^4 \sigma_z^5$
-							- Fusion of the domain walls #card
+							- Fusion of the 0D domain walls between 1D domain walls #card
+							  card-last-interval:: 24
+							  card-repeats:: 1
+							  card-ease-factor:: 2.36
+							  card-next-schedule:: 2023-03-11T01:58:52.904Z
+							  card-last-reviewed:: 2023-02-15T01:58:52.904Z
+							  card-last-score:: 3
 								- ((63a94538-8523-4da0-893f-7e7a7ed7aac3))
 								- $Q_1 Q_2=A_{v_1} A_{v_2} B_p, \quad\left[Q_i, B_p\right]=0, \quad\left\{Q_i, A_{v_1}\right\}=\left\{Q_i, A_{v_2}\right\}=0,(i=1,2)$
 								- $\chi_{\pm} \otimes \chi_{\pm}=\mathbb{1} \oplus f, \quad \chi_{\pm} \otimes \chi_{\mp}=e \oplus m$
@@ -432,18 +438,18 @@
 									- The interesting part is that $A_v$ can't be simultaneously diagonalized with $B_p$ (exercise), so the eigenstates are superpositions of eigenstates of $A_v$.
 									  id:: 63b186e4-a2bb-4c7a-8529-f491ad7969f7
 										- However, $A_{v_1}A_{v_2}$ can. So there is some entanglement in the superposition.
-								- Would the fusion depend on the details of the domain wall? #Problem
+								- Would the fusion depend on the details of the domain wall? #Inbox/Problem
 							- The picture is even richer.
 								- We see the set $\left\{\mathbb{1}, e, m, f_{,} \chi_{+}, \chi_{-}\right\}$is closed under the fusion.
 								- ((63a95152-92f4-4d6e-a7e5-378be61beccd))
 									- When an e crosses the domain wall, it becomes m. The instanton is $\chi_{\pm} \otimes e \rightarrow m \otimes \chi_{\pm}$.
 									- Formally this forms a [[G-crossed fusion category]] with a G-graded braiding.
 									- ((63a9520a-ce11-4a9a-9b48-91cc11182c68))
-							- Why 2 Hamiltonian? Why 2 excitations? #Problem
+							- Why 2 Hamiltonian? Why 2 excitations? #Inbox/Problem
 								- The eigenvalue is either +1 or -1. I think one shall be the vacuum and the other shall be the excitation.
 								- Maybe it is regarded as 2 different domain walls (with different ground states)
 					- In principle there are also others, but may be dealt with by the folding trick and stacking?
-						- Seems some info are lost. For example, we no longer know whether a wall is invertible. #Problem
+						- Seems some info are lost. For example, we no longer know whether a wall is invertible. #Inbox/Problem
 			- ((63a95644-d8a1-4133-ae26-4a0cff407548)) #card
 			  card-last-interval:: 24
 			  card-repeats:: 2
@@ -470,6 +476,12 @@
 				- Can we overcome the difficulty?
 	- [[Principle of Emergence]]
 		- It is simply astounding that fermionic and anyonic, even abelian, statistics can arise from purely bosonic systems! #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-07T10:57:35.135Z
+		  card-last-reviewed:: 2023-02-11T10:57:35.135Z
+		  card-last-score:: 5
 			- This strongly suggests that the [[Elementary Particles]] might be emergent.
 	- ## Experimental Realizations
 		- It is a big problem.
@@ -513,7 +525,7 @@
 			- Note: 'Generate' means generate the whole algebra by multiplication, scalar product and addition. Equivalent to 4 basis elements of a vector space.
 			- ((636df84e-113e-4681-8261-8c549b217a8d)) #Learning-TODO
 				- ((636df97b-42a9-44c3-91b2-e22aa340f793))
-			- The site seem to have 2 spins, which has 4-dim space.  The space of 4x4 hermitian matrices shall be 16-dim. Inconsistent? #Problem
+			- The site seem to have 2 spins, which has 4-dim space.  The space of 4x4 hermitian matrices shall be 16-dim. Inconsistent? #Inbox/Problem
 				- What precisely are the 'local operators'?
 					- One answer: Within a fixed range when taking the thermodynamic limit.
 					- In lattice models, 'local' only means 'within a fixed range when taking the [[Thermodynamic limit]]. #card

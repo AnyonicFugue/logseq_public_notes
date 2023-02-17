@@ -1,0 +1,3 @@
+- References
+	- [[Andreas Gathmann - Class Notes: Algebraic Geometry (uni-kl.de)](https://www.mathematik.uni-kl.de/~gathmann/en/alggeom.php)](https://todoist.com/showTask?id=6608784240)
+	- The rising sea

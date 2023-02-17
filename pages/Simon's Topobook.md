@@ -62,5 +62,24 @@ type:: paper_reading
 				- There are two sets of solutions to the hexagons of the $Z_2$ planar algebra
 	- ## ((63c356c2-2dfd-480e-a0a4-49e6db63d25f))
 		- Quantum Double
-		- Double semion
-		- Levin-Wen
+		- [[Double Semion Model]]
+		- [[Levin-Wen Model]]
+			- # Setup #card
+				- ## Fat Lattice
+					- Trivalent, with a direction on each edge
+						- Why does the lattice need to be trivalent? #Learning-TODO
+							- Fusion multiplicity is also defined for multiple particles fusion together
+					- Each edge is labeled by a simple object of the input tensor category
+						- Reversing the direction of an edge changes the particle to its dual
+							- ((63e85270-994b-4bc9-b5b0-621fe43c45f2))
+					- In the middle of each plaquette there is a $\times$, which indicates we cannot contract loops on the plaquettes.
+				- ## Hamiltonian
+					- $H=-\sum_v A_v-\sum_p B_p$
+					- Vertex operators enforce the fusion rules, i.e. $A_v=1$ iff $\left(N_{a b c}=N_{a b}^{\bar{c}}>0\right)$
+					- Plaquette operators add $\tilde \Omega$ loops on the plaquette
+						- ((63e85457-40a3-4f6a-9c79-3cdee0efc747))
+						- ((63e85493-7abb-4406-95d9-6059dbada06e))
+					- Proposition. $A_v^2=A_v,B_p^2=B_p, [A_v,B_p]=0$
+						- (1) is obvious.
+						- (2)
+						- (3)

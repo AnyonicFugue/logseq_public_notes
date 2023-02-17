@@ -15,10 +15,10 @@
   card-last-reviewed:: 2023-01-31T13:08:03.487Z
   card-last-score:: 5
 	- Local decomposition of the Hamiltonian.
-	- What Hamiltonian can be called 'local'? Only adjacent sites? Range of interaction smaller than a given size? Only **finite** sites? #Problem
+	- What Hamiltonian can be called 'local'? Only adjacent sites? Range of interaction smaller than a given size? Only **finite** sites? #Inbox/Problem
 	-
 	- Similarly: ((63686b20-ec87-494c-a7d5-0f70f513cbc9))m
 		- Proposal: By equivalence classes of ground state wave functions [With ref]
 - Example: ((63686b76-be61-478b-a8e2-378c8c78153d))
-	- This is called 'trivial'. Physically intuitive(no interactions), but how to characterize mathematically? #Problem
+	- This is called 'trivial'. Physically intuitive(no interactions), but how to characterize mathematically? #Inbox/Problem
 	-

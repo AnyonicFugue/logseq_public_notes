@@ -94,11 +94,11 @@
 			  collapsed:: true
 				- By 1-para group theorem.
 	- Proposition. If $\mathfrak{g}$ is a Lie algebra, then
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-20T11:45:30.524Z
-	  card-last-reviewed:: 2022-12-10T11:45:30.524Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-07T11:09:12.719Z
+	  card-last-reviewed:: 2023-02-11T11:09:12.719Z
 	  card-last-score:: 5
 	  collapsed:: true
 	  $$
@@ -118,14 +118,18 @@
 		- The second comes from the fact that inner automorphisms can cancel.
 	-
 	- If $G$ is commutative then $\mathfrak{g}$ is commutative. #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-01-17T06:06:08.068Z
-	  card-last-reviewed:: 2022-12-24T06:06:08.068Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-04-24T15:45:59.730Z
+	  card-last-reviewed:: 2023-02-16T11:45:59.730Z
 	  card-last-score:: 5
 	  collapsed:: true
-		- As an exercise. Hint: Use a trick 10 lines above to construct the bracket from the Lie group quantities.
+		- As an exercise.
+			- Hint: Use a trick 10 lines above to construct the bracket from the Lie group quantities.
+		- Another path
+			- $[X, Y]=\left.\frac{d}{d t}\left(\left.\frac{d}{d s} e^{t X} e^{s Y} e^{-t X}\right|_{s=0}\right)\right|_{t=0}$
+			-
 	- ((6382c5bc-957b-4756-8adc-146cca7d1a16)) naturally induces ((6382c5bc-c2fb-4256-b0c1-e00aa69f4db0)) #card
 	  card-last-interval:: 24
 	  card-repeats:: 2
@@ -134,7 +138,6 @@
 	  card-last-reviewed:: 2023-01-31T13:13:33.022Z
 	  card-last-score:: 5
 	  id:: 6382ce57-6b73-4815-b142-0f889766fa01
-	  collapsed:: true
 		- ((6382d05c-e2da-47c8-a350-d5ef5f8128b9)). Let $G$ and $H$ be matrix Lie groups, with Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, respectively. Suppose that $\Phi: G \rightarrow H$ is a Lie group homomorphism. Then there exists a unique Lie algebra homomorphism $\phi: \mathfrak{g} \rightarrow \mathfrak{h}$ such that
 		  $$
 		  \Phi\left(e^X\right)=e^{\phi(X)}
@@ -144,8 +147,9 @@
 		  collapsed:: true
 			- $\phi\left(A X A^{-1}\right)=\Phi(A) \phi(X) \Phi(A)^{-1}$, for all $X \in \mathfrak{g}, A \in G$.
 		- Rephrase in plain English:
-		  $\phi$ just maps the tangent space around
-		-
+		  $\phi$ just maps the tangent space around.
+		- Implications
+			- Representations of Lie groups naturally induces reps of Lie algebras, but generally **not vice versa**.
 		- Proof
 		  collapsed:: true
 			- Existence
@@ -291,7 +295,35 @@
 				- 1. G closed in $X$, $G_0$ closed in G -> $G_0$ closed in X
 				- 2. For $X\in G$, $e^{tX} \in G$.
 - Examples
-  collapsed:: true
+	- A nonmatrix Lie group
+	  id:: 63e8847a-9140-4cd5-a6e3-a3baa7222645
+		- Def
+			- $G=\mathbb{R} \times \mathbb{R} \times S^1$
+			- $\left(x_1, y_1, u_1\right) \cdot\left(x_2, y_2, u_2\right)=\left(x_1+x_2, y_1+y_2, e^{2\pi i x_1 y_2} u_1 u_2\right)$
+			- Of course it is a group and the multiplication is smooth.
+		- Theorem. It is not isomorphic to any matrix Lie group. #card
+			- Consider a homomorphism from the ((63e884c8-ec49-498f-8b3c-1decb6106562)), $\Phi\left(\begin{array}{lll}1 & a & b \\ 0 & 1 & c \\ 0 & 0 & 1\end{array}\right)=\left(a, c, e^{2 \pi i b}\right)$
+				- $N:=\operatorname{Ker}\Phi=\left\{\left(\begin{array}{lll}1 & 0 & n \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{array}\right) \mid n \in \mathbb{Z}\right\}$
+			- For some rep of $G$, it naturally induces a rep of $H$ by ![image.png](../assets/image_1676185047825_0.png)
+			- ((63e88de6-862b-46b6-8689-bbd85d966509)). Let $\Pi$ be any finite-dimensional representation of $H$. If ker $\Pi \supset$ $N$, then 
+			  $$\operatorname{ker} \Pi \supset Z(H)=\left\{\left(\begin{array}{lll}
+			  1 & 0 & b \\
+			  0 & 1 & 0 \\
+			  0 & 0 & 1
+			  \end{array}\right) \mid b \in \mathbb{R}\right\}$$
+				- Lemma 4.38. If $X$ is a nilpotent matrix and $e^{t X}=I$ for some nonzero $t$, then $X=0$.
+					- Simple way: Jordan standard form.
+						- All eigenvalues are 0.
+						- Only to consider the blocks where all up-diagonal terms are 1.
+						- Consider the second-lowest line. Only first-order term has the nonzero up-diagonal term. So $e^tX=I$ leads to a contradiction.
+					- Official proof: Rather interesting.
+						- Since $X$ is nilpotent, the power series for $e^{t X}$ terminates after a finite number of terms. Thus, each entry of $e^{t X}$ depends **polynomially** on $t$; that is, there exist polynomials $p_{j k}(t)$ such that $\left(e^{t X}\right)_{j k}=p_{j k}(t)$.
+						- If $e^{t X}=I$ for some nonzero $t$, then $e^{n t X}=I$ for all $n \in \mathbb{Z}$, showing that $p_{j k}(n t)=\delta_{j k}$ for all $n$. **However, a polynomial that takes on a certain value infinitely many times must be constant**. Thus, actually, $e^{t X}=I$ for all $t$.
+				- Then consider the associated rep for $\mathfrak h$.
+			- Thus the rep of $G$ cannot be faithful.
+	- Heisenberg group
+	  id:: 63e884c8-ec49-498f-8b3c-1decb6106562
+		- Matrices of the form $\left(\begin{array}{lll}1 & a & b \\ 0 & 1 & c \\ 0 & 0 & 1\end{array}\right)$
 	- sl(2,C)
 		- Basis and commutation relations
 			- $$
@@ -314,11 +346,11 @@
 			  \end{aligned}
 			  $$
 		- $sl(2,C)$ is irreducible, thus simple. #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-02-05T13:22:44.602Z
-		  card-last-reviewed:: 2023-01-12T13:22:44.602Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-04-19T14:59:47.811Z
+		  card-last-reviewed:: 2023-02-11T10:59:47.811Z
 		  card-last-score:: 5
 			- Verify that any nontrivial element can generate the whole algebra by commutating with the generators. ((63860946-8380-45c7-b564-1c08f9e7cc70))
 		- ((63e44faf-be39-4003-a238-c50fedbd07e4))

@@ -20,7 +20,7 @@
 		-
 	- Tensor products, unitors, braidings are naturally induced.
 	-
-	- Is it 'the collection of all possible half-braidings of the objects'? #Problem
+	- Is it 'the collection of all possible half-braidings of the objects'? #Learning-TODO
 		- If not, he should have said '**a** drinfeld center' rather than '**the** drinfeld center'.
 		- ((6376f533-10f8-4d2a-9437-0d43597d3bf8))
 			- It seems that the Drinfeld center is the 'maximal central structure'.

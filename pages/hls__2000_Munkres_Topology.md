@@ -385,3 +385,37 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   hl-page:: 460
   hl-color:: yellow
   id:: 63e2f868-ca9c-4ce7-8b48-b1dfeed85715
+- Definitio
+  ls-type:: annotation
+  hl-page:: 464
+  hl-color:: yellow
+  id:: 63eed74a-00c4-4be3-9add-e89064a97dca
+- [:span]
+  ls-type:: annotation
+  hl-page:: 465
+  hl-color:: yellow
+  id:: 63eed83b-fcf4-4bd5-88f5-ef10ccafa501
+  hl-type:: area
+  hl-stamp:: 1676597306316
+- [:span]
+  ls-type:: annotation
+  hl-page:: 465
+  hl-color:: yellow
+  id:: 63eed843-b814-406c-901b-e7ebbaeda54d
+  hl-type:: area
+  hl-stamp:: 1676597314835
+- Definition
+  ls-type:: annotation
+  hl-page:: 465
+  hl-color:: yellow
+  id:: 63eed911-bc13-4c34-8089-b7a5a155a035
+- Theorem
+  ls-type:: annotation
+  hl-page:: 467
+  hl-color:: yellow
+  id:: 63eedadc-dcd0-43a1-8515-5bb384b50e50
+- Theorem
+  ls-type:: annotation
+  hl-page:: 468
+  hl-color:: yellow
+  id:: 63eee202-1568-4bf6-8431-b49a1be4497b

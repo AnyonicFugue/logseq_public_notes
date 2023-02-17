@@ -15,7 +15,7 @@ alias:: [[UMTC]]
 	- [[Verlinde formula]]
 	- [[Gauss sum]]
 - ((6371b4f9-93c1-4633-b305-2ad44d9387e2))
-- ((6371b5f1-6e22-4e33-8345-e203fd463882)) #Problem
+- ((6371b5f1-6e22-4e33-8345-e203fd463882)) #Inbox/Problem
   collapsed:: true
 	- Very strange... then could particles really braid on a sphere?
 	- Maybe try the spherical version of [[Toric Code]] #TODO

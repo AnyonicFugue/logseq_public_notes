@@ -1,5 +1,11 @@
 - # [[Bloch Sphere]] and Bloch Ball
-	- Summary #card
+	- Summary: Density matrix in terms of coordinates, rotation of the ball, expectation valuesr #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-12T11:40:26.537Z
+	  card-last-reviewed:: 2023-02-16T11:40:26.538Z
+	  card-last-score:: 5
 		- $Tr \rho=1$ ⇒ $a=1/2$ ⇒ $\rho=\frac{1}{2}\left(I+x \sigma_x+y \sigma_y+z \sigma_z\right)$
 		- Rotation
 			- $$R_n(\theta)=e^{-i\frac \theta 2 \vec \sigma\cdot \vec n}$$

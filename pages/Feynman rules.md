@@ -13,12 +13,12 @@
 			- The last two rules obviously come from contractions of photon fields.
 			- ((636a070e-b5b1-45b9-97d6-bd27c976f7fe))
 			-
-		- Shall the momenta in the last two lines be reversed? #Problem
-		- Why the form of the photon propagator? It seems to include unphysical polarizations? #Problem
+		- Shall the momenta in the last two lines be reversed? #Inbox/Problem
+		- Why the form of the photon propagator? It seems to include unphysical polarizations? #Inbox/Problem
 		  id:: 63c14165-4924-45e7-8b59-17ba4ac6b993
 			- For diagrams without loops it's easy to solve. Different polarizations are orthogonal, so the photons coming in and out a vertex must have the same polarization.
 			- For loops it seems problematic.
-		- Why can the gamma matrices between [[Dirac field]] operators be separated? #Problem
+		- Why can the gamma matrices between [[Dirac field]] operators be separated? #Inbox/Problem
 			- ((636a07b6-4d1f-4b45-a296-0724e701e26c))
 			  Possibly helpful.
 			- Similarly: for the contraction of [[Dirac field]]s between inner vertices, the gamma-matrices appear between $\not p+m$

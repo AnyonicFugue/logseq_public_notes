@@ -366,11 +366,11 @@ type:: [[Course]]
 				  \hat{H}=\hat{H}_0-h(t) \hat{B}
 				  $$
 		- Summary #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-01-24T06:59:32.301Z
-		  card-last-reviewed:: 2022-12-31T06:59:32.301Z
+		  card-last-interval:: 61.44
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2023-04-13T21:08:52.315Z
+		  card-last-reviewed:: 2023-02-11T11:08:52.315Z
 		  card-last-score:: 5
 			- The imaginary part of (Fourier-transformed) linear response function is proportional to (Fourier-transformed) correlation function.
 			- Classical version

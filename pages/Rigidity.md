@@ -6,5 +6,5 @@ alias:: [[Dual structure]]
 - Note that unitarity provides a natural way to identify left duals with right duals (exercise).
 -
 - How to write out the concrete $$b_x$$ and $$d_x$$ in [[Toric Code]]?
-  In the general case, do we need the specific form of them, or just the zigzag equation? #Problem #Exercise
+  In the general case, do we need the specific form of them, or just the zigzag equation? #Exercise #Learning-TODO
 -

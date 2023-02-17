@@ -13,5 +13,10 @@
 		- ### What happens when we superpose states?
 		- ### 'Redundancy' of phase
 			- [[Jan 29th, 2023]] Link with wonders of the universe, then delete the line
--
+	- Low-entanglement states can be approximated by states with a small Schmidt number (nonzero eigenvalues of reduced density matrices)
+- # Quantifications
+	- [[von-Neumann Entropy]]
+	- [[Renyi Entropy]]
+	- [[Mutual Information]]
+	-
 -

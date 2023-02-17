@@ -117,11 +117,11 @@
 				- For $\left|q^2\right| \ll m^2$, 
 				  $$V(\mathbf{x})=-\frac{\alpha}{r}-\frac{4 \alpha^2}{15 m^2} \delta^{(3)}(\mathbf{x})$$
 				- **EM force is much stronger at small distances than it seems!** #card
-				  card-last-interval:: 10.42
-				  card-repeats:: 1
-				  card-ease-factor:: 2.6
-				  card-next-schedule:: 2022-12-23T16:30:55.965Z
-				  card-last-reviewed:: 2022-12-13T06:30:55.966Z
+				  card-last-interval:: 24
+				  card-repeats:: 2
+				  card-ease-factor:: 2.7
+				  card-next-schedule:: 2023-03-11T01:52:15.760Z
+				  card-last-reviewed:: 2023-02-15T01:52:15.761Z
 				  card-last-score:: 5
 					- This is a reminder card: Macroscopic neatness and elegance may be destroyed when we examine it more closely.
 					- However, this doesn't mean that physics is ugly. It just means we need a new description.

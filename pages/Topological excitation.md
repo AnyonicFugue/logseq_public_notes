@@ -1,17 +1,17 @@
 alias:: [[Topological defect]]
 
 - Def #card
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-02-02T12:55:55.447Z
-  card-last-reviewed:: 2023-01-09T12:55:55.447Z
+  card-last-interval:: 67.2
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-04-24T15:38:35.907Z
+  card-last-reviewed:: 2023-02-16T11:38:35.908Z
   card-last-score:: 5
 	- ((63687a48-cc4d-4088-9060-9918b21e857e))
 	  collapsed:: true
 		- ((636879c1-c63b-41b4-ad96-beabb3db76e9))
 		- ((636879eb-1696-437d-ae76-c54ff880f8d0))
-			- Can I construct some perturbation which affects the state **globally**? Or the nonexistence of such perturbations is itself a good property? #Problem
+			- Can I construct some perturbation which affects the state **globally**? Or the nonexistence of such perturbations is itself a good property? #Inbox/Problem
 	- What are *Local operators*?
 	  collapsed:: true
 		- ((63687af7-43ca-4032-849e-661692511fb4))
