@@ -102,10 +102,10 @@
 	  collapsed:: true
 		- Intuition #card
 		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-02-18T01:13:24.361Z
-		  card-last-reviewed:: 2023-01-25T01:13:24.362Z
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-19T00:25:55.604Z
+		  card-last-reviewed:: 2023-02-23T00:25:55.605Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- A vector field on $B^2$ is a continuous map of $B^2$ into $\mathbb{R}^2$. Nonvanishing -> $v$ actually maps $B^2$ into $\mathbb{R}^2-0$.
@@ -179,42 +179,70 @@
 - [[Seifert-van Kampen Theorem]]
 - Classification of Surfaces
 	- Defs
-	  collapsed:: true
 		- Polygonal region
+		  collapsed:: true
 			- Roughly speaking, we have a set of points $\{a_n\}$equaldistant to the center $c$. $P$ is the intersection of the closed half-planes created by the lines $a_{i-1}a_i$
 		- Orientation
+		  collapsed:: true
 			- An ordering of the two end points of a line segment
 		- Positive linear map between line segments
+		  collapsed:: true
 			- Preserving the orientations, i.e. is the homeomorphism $h$ that carries the point $x=(1-s) a+s b$ of $L$ to the point $h(x)=(1-s) c+s d$
 		- Pasting the edges
+		  collapsed:: true
 			- ((63eed74a-00c4-4be3-9add-e89064a97dca)) Let $P$ be a polygonal region in the plane. A **labelling** of the edges of $P$ is a map from the set of edges of $P$ to a set $S$ called the set of labels.
 			- Given an orientation of each edge of $P$, and given a labelling of the edges of $P$, we define an *equivalence relation* on the points of $P$:
+			  collapsed:: true
 				- Each point of Int $P$ is equivalent only to itself.
 				- Given any two edges of $P$ that have the same label, let $h$ be the *positive linear map* of one onto the other, and define each point $x$ to be equivalent to the point $h(x)$.
 			- The quotient space $X$ obtained from this equivalence relation is said to have been obtained by **pasting the edges** of $P$ together according to the given *orientations* and labelling.
+			  collapsed:: true
 				- Orientations matter!
 			- Examples (to gain intuitions) #card
+			  collapsed:: true
 				- ((63eed83b-fcf4-4bd5-88f5-ef10ccafa501))
+				  collapsed:: true
 					- The unit ball
 					- Note that $a$ is nothing special in the space $B^2$, not any kind of boundary. Only an ancillary device to visualize the generation of $B^2$ from polygons.
 				- ((63eed843-b814-406c-901b-e7ebbaeda54d))
+				  collapsed:: true
 					- $S^2$
 					- Note that $a$ and $b$ are nothing special in the space $S^2$, not any kind of boundaries. They're only ancillary devices to visualize the generation of $S^2$ from polygons.
 			- Convenient notation: Labelling scheme
+			  collapsed:: true
 				- ((63eed911-bc13-4c34-8089-b7a5a155a035)) Let $P$ be a polygonal region with successive vertices $p_0, \ldots, p_n$, where $p_0=p_n$.
 				- For each $k$, let $a_{i_k}$ be the label assigned to the edge $p_{k-1} p_k$, and let $\epsilon_k=+1$ or $-1$ according as the orientation assigned to this edge goes from $p_{k-1}$ to $p_k$ or the reverse. Then the number of edges of $P$, the orientations of the edges, and the labelling are completely specified by the symbol
 				  $$
 				  w=\left(a_{i_1}\right)^{\epsilon_1}\left(a_{i_2}\right)^{\epsilon_2} \cdots\left(a_{i_n}\right)^{\epsilon_n} .
 				  $$
 				- Examples
+				  collapsed:: true
 					- ((63eed843-b814-406c-901b-e7ebbaeda54d)) is $bb^{-1}aa^{-1}$
 					- $RP^2$
+					  collapsed:: true
 						- First thought: Identifying $x$ and $-x$ on $S^1$
 						- Expressed by polynomials and labelling schemes is $abab$
 					- The [[Mobius Band]]
+					  collapsed:: true
 						- $abac$
 					- Vaguely reminiscent to a freely generated group?
 				-
+		- n-fold torus #card
+		  id:: 63f218b7-eddb-4fe3-bd5e-daff1b591487
+		  collapsed:: true
+			- Pasting a $4n$-sided polygon by $\left(a_1 b_1 a_1^{-1} b_1^{-1}\right)\left(a_2 b_2 a_2^{-1} b_2^{-1}\right) \cdots\left(a_n b_n a_n^{-1} b_n^{-1}\right)$
+			- What does it mean?
+				- Consider the $n=2$ case, ![Image(1).png](../assets/Image(1)_1676811151957_0.png)
+					- Prop. All vertices are identified.
+					- Therefore, the common part of the two tori is a **circle**.
+					- ((63f21c79-2841-4abc-a109-c068df01ff2b))
+				- General case: All vertices are identified, but the tori are not connected by a circle. Instead they're connected by an **n-pant**.
+		- m-fold projective plane #card
+		  id:: 63f21c4d-b959-43e5-889d-90abd29a1092
+			- An $2m$-polygon pasted by $\left(a_1 a_1\right)\left(a_2 a_2\right) \cdots\left(a_m a_m\right)$.
+			- $m=3$ example
+				- ![Image(1).png](../assets/Image(1)_1676812325317_0.png){:height 688, :width 847}
+				- Each component is a projective plane minus a circle.
 	- Basic facts
 		- ((63eedadc-dcd0-43a1-8515-5bb384b50e50)) Let $X$ be the space obtained from a finite collection of polygonal regions by pasting edges together according to some labelling scheme. Then $X$ is a compact Hausdorff space. #card
 			- Compact is immediate, since $\pi$ is continuous.
@@ -229,5 +257,8 @@
 		  $$
 		  \left(\alpha_{i_1}\right)^{\epsilon 1} \cdots\left(\alpha_{i_n}\right)^{\epsilon_n} .
 		  $$ #card
-			- This is the case for the [[Torus]] and ((63e86249-c48a-4740-a36d-100aeb1da16c)) . Thus the striking resemblance.
+			- This is the case for the [[Torus]], the ((63f218b7-eddb-4fe3-bd5e-daff1b591487)), the ((63f21c4d-b959-43e5-889d-90abd29a1092)) and ((63e86249-c48a-4740-a36d-100aeb1da16c)) . Thus the striking resemblance.
 			- The proof directly follows ((63db6326-2852-429b-acc7-21e25d249828)).
+		-
+			-
+			-

@@ -1,10 +1,10 @@
 - Def #card
   card-last-interval:: 24
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-02-05T00:18:07.787Z
-  card-last-reviewed:: 2023-01-12T00:18:07.788Z
-  card-last-score:: 5
+  card-repeats:: 2
+  card-ease-factor:: 2.46
+  card-next-schedule:: 2023-03-20T01:53:14.232Z
+  card-last-reviewed:: 2023-02-24T01:53:14.233Z
+  card-last-score:: 3
 	- If there exists an [[invertible]] $(\mathcal{P}, \mathcal{Q})$-bimodule, we say $\mathcal{P}$ and $\mathcal{Q}$ are Morita equivalent.
 		- In plain English, the category of [[Domain Wall]] between P and Q can be inverted.
 			- Note that $\mathcal{X}$ isn't a single domain wall, but the **category** of domain walls.

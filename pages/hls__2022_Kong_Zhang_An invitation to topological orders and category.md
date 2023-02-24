@@ -137,12 +137,12 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Z
   hl-color:: red
   hl-stamp:: 1667790272839
   id:: 636875bf-597b-4b49-9d83-1c1ebaf7fa03
-- Roughly speaking, a gapless quantum liquid is a gapless quantum phase that is ‘soft’ enough so that it does not rigidly depend on the local spacetime geometry. Moreover, the unique bulk principle is proposed as a defining property of a quantum liquid.
-  ls-type:: annotation
-  hl-page:: 14
-  hl-color:: blue
+- Roughly speaking, a gapless quantum liquid is a gapless quantum phase that is ‘soft’ enough so that it **does not rigidly depend on the local spacetime geometry**. Moreover, the **unique bulk principle** is proposed as a defining property of a quantum liquid.
   hl-stamp:: 1667790281610
+  hl-page:: 14
+  ls-type:: annotation
   id:: 636875c8-8ed5-4968-bda6-023612f46a42
+  hl-color:: blue
 - A defect itself can be viewed as a lower-dimensional lattice model embedded into a higherdimensional lattice model.
   ls-type:: annotation
   hl-page:: 15

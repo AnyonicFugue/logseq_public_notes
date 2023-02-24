@@ -7,10 +7,10 @@ type:: paper_reading
 - [[Symmetry]]
 	- ((63a69bf0-b7f4-47e1-b0b7-8a9034600f29)) #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-21T06:39:34.011Z
-	  card-last-reviewed:: 2022-12-28T06:39:34.012Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-16T11:56:35.848Z
+	  card-last-reviewed:: 2023-02-20T11:56:35.849Z
 	  card-last-score:: 5
 		- *Reminder card.* May be better understood in the future.
 		- ((63a69c05-60e9-40ad-8376-c16632b5446b))

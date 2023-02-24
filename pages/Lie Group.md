@@ -29,6 +29,12 @@
 	  collapsed:: true
 		- In Lie groups, [[Connected]] is equivalent to [[Path Connected]]
 		- The ((6381bc92-5f90-4322-9a1b-0cbbf9128acc)) is a normal subgroup. #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-14T09:18:57.372Z
+		  card-last-reviewed:: 2023-02-18T09:18:57.373Z
+		  card-last-score:: 5
 			- A simple exercise. Directly construct the path.
 		- $SU(2)$ is [[Simply connected]]. #card
 		  card-last-interval:: 24

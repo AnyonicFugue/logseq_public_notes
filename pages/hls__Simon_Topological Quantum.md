@@ -248,3 +248,149 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/Simon_Topol
   id:: 63e85493-7abb-4406-95d9-6059dbada06e
   hl-type:: area
   hl-stamp:: 1676170387239
+- [:span]
+  ls-type:: annotation
+  hl-page:: 464
+  hl-color:: blue
+  id:: 63f1dc64-debc-421e-b334-2cfc0e75207c
+  hl-type:: area
+  hl-stamp:: 1676794977098
+- [:span]
+  ls-type:: annotation
+  hl-page:: 463
+  hl-color:: purple
+  id:: 63f1ddd2-9f0d-4e7e-a23b-94ab139e161f
+  hl-type:: area
+  hl-stamp:: 1676795343784
+- [:span]
+  ls-type:: annotation
+  hl-page:: 213
+  hl-color:: blue
+  id:: 63f1ddff-4d6d-4e9c-8703-eeac52e3bfb5
+  hl-type:: area
+  hl-stamp:: 1676795386349
+- [:span]
+  ls-type:: annotation
+  hl-page:: 455
+  hl-color:: purple
+  id:: 63f1dfaa-c3ef-4c6a-8cac-1c5a9aafbdc8
+  hl-type:: area
+  hl-stamp:: 1676795818017
+- [:span]
+  ls-type:: annotation
+  hl-page:: 456
+  hl-color:: yellow
+  id:: 63f1e575-e066-4e22-9614-a8f2a6fd2ab6
+  hl-type:: area
+  hl-stamp:: 1676797301155
+- [:span]
+  ls-type:: annotation
+  hl-page:: 456
+  hl-color:: yellow
+  id:: 63f1e581-4ebb-4a66-85a3-0af2aa11c759
+  hl-type:: area
+  hl-stamp:: 1676797313294
+- Doubled Fibonacci
+  ls-type:: annotation
+  hl-page:: 459
+  hl-color:: yellow
+  id:: 63f2cb2c-5abf-4881-bac9-403813ff05dd
+- [:span]
+  ls-type:: annotation
+  hl-page:: 460
+  hl-color:: yellow
+  id:: 63f2cc10-b805-49a9-8d6d-370366dd60ad
+  hl-type:: area
+  hl-stamp:: 1676856334512
+- String Operator Example
+  ls-type:: annotation
+  hl-page:: 464
+  hl-color:: yellow
+  id:: 63f2ce3a-202d-4bb4-8c39-a923cda51c6e
+- Anyon Condensation
+  ls-type:: annotation
+  hl-page:: 322
+  hl-color:: yellow
+  id:: 63f2cf5d-e5e1-423f-9ad7-90214e40392f
+- [:span]
+  ls-type:: annotation
+  hl-page:: 324
+  hl-color:: yellow
+  id:: 63f2d3e0-cdbb-4ba7-b167-e079ee114330
+  hl-type:: area
+  hl-stamp:: 1676858335830
+- The reason some particles of T are not valid anyons in the condensed phase is that they braid nontrivially with the condensed boson
+  ls-type:: annotation
+  hl-page:: 326
+  hl-color:: purple
+  id:: 63f2d7e1-1783-432e-ba83-3cdfdbd3468e
+- a physical understanding is given by realizing the presence of a condensate can cause certain physical quantities to be locally conserved where they are indefinite in the uncondensed phase
+  ls-type:: annotation
+  hl-page:: 329
+  hl-color:: yellow
+  id:: 63f46e64-addc-45fb-899a-b713b1398657
+- [:span]
+  ls-type:: annotation
+  hl-page:: 331
+  hl-color:: yellow
+  id:: 63f4c021-3966-42c9-9ad3-50a2dc95fe3d
+  hl-type:: area
+  hl-stamp:: 1676984352353
+- If we start with a modular anyon theory, A, then the condensed theory U is also modular.
+  ls-type:: annotation
+  hl-page:: 333
+  hl-color:: purple
+  id:: 63f5d1a9-34d2-488d-b5d1-805be16af7a4
+- Anyons from Groups
+  ls-type:: annotation
+  hl-page:: 272
+  hl-color:: yellow
+  id:: 63f5d393-9003-4c31-b6de-5dc05564fdec
+- State Sum TQFTs
+  ls-type:: annotation
+  hl-page:: 294
+  hl-color:: yellow
+  id:: 63f5d3a0-24c4-49f6-bbd6-905c87ee21f8
+- The edge of a topologically ordered system can only be gapped if one can condense a set of bosons from this system and obtain a topologically trivially ordered system (a system with no anyons).
+  ls-type:: annotation
+  hl-page:: 336
+  hl-color:: purple
+  id:: 63f5df0c-23b7-47b7-94d1-67355b1bd6f5
+- while there is no rigorous proof of this criterion, although the arguments given in the literature are farily strong! 
+  ls-type:: annotation
+  hl-page:: 336
+  hl-color:: yellow
+  id:: 63f5df67-c282-461b-bd71-fde7d5d37c40
+- Further Reading
+  ls-type:: annotation
+  hl-page:: 337
+  hl-color:: yellow
+  id:: 63f6b590-4f48-4057-ba98-2420680fe94e
+- Symmetries and Entanglement
+  ls-type:: annotation
+  hl-page:: 468
+  hl-color:: yellow
+  id:: 63f6d99c-848e-4b22-983b-44f2a6f4abde
+- Anyon Permuting Symmetry
+  ls-type:: annotation
+  hl-page:: 470
+  hl-color:: yellow
+  id:: 63f6d9c3-7d19-4d5c-9c5c-3ac52297b388
+- First, if a boson condenses from a parent theory and if a splitting occurs, there the resulting theory after the condensation will have an anyon permuting symmetry
+  ls-type:: annotation
+  hl-page:: 470
+  hl-color:: purple
+  id:: 63f6db13-324a-405f-a76a-0110f0aacaa6
+  hl-stamp:: 1677122324799
+- Moreover, whenever a theory has an anyon permuting symmetry, it is always possible to view this theory as the result of a condensation process with a splitting.
+  ls-type:: annotation
+  hl-page:: 470
+  hl-color:: purple
+  id:: 63f6db1b-ee95-4073-a8f5-374de40ae98b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 472
+  hl-color:: yellow
+  id:: 63f6dc5b-cb2c-4479-b282-9adf540020c9
+  hl-type:: area
+  hl-stamp:: 1677122650853

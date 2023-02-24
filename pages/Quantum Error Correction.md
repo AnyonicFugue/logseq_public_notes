@@ -119,11 +119,11 @@ type:: Course
 				- The number of qubits on which a given operator differs from the identity
 				- eg. The weight of $I_1 \otimes \sigma_2^y \otimes \sigma_3^x \otimes I_4 \otimes \sigma_5^z$ is 3.
 			- Distance of a code #card
-			  card-last-interval:: 24
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-02-05T13:30:59.377Z
-			  card-last-reviewed:: 2023-01-12T13:30:59.378Z
+			  card-last-interval:: 67.2
+			  card-repeats:: 3
+			  card-ease-factor:: 2.8
+			  card-next-schedule:: 2023-04-27T10:49:16.841Z
+			  card-last-reviewed:: 2023-02-19T06:49:16.841Z
 			  card-last-score:: 5
 				- The smallest distance between two codewords.
 				- ((6385c169-71ce-4fd6-9a59-ab5a1ed8f271))

@@ -142,7 +142,7 @@
 			- Structures and properties
 			  collapsed:: true
 				- ((6376e3e8-d3ef-44b3-9d52-30e6d6c3f9eb))
-				- [[Bulk-boundary relation]]
+				- [[Bulk-Boundary Relation]]
 					- ((637ad78a-4267-428e-84b3-f93291247476))
 			- 1D [[Domain Wall]]
 			  collapsed:: true
@@ -259,11 +259,11 @@
 									- There are no braided equivalences between them which preserves the bulk-to-boundary map.
 								- In this case it is obvious; just examine the kernel of the bulk-to-boundary map.
 						- Invertible ones #card
-						  card-last-interval:: 27.15
-						  card-repeats:: 1
-						  card-ease-factor:: 2.6
-						  card-next-schedule:: 2023-02-11T04:11:01.740Z
-						  card-last-reviewed:: 2023-01-15T01:11:01.740Z
+						  card-last-interval:: 24
+						  card-repeats:: 2
+						  card-ease-factor:: 2.7
+						  card-next-schedule:: 2023-03-20T01:51:09.573Z
+						  card-last-reviewed:: 2023-02-24T01:51:09.573Z
 						  card-last-score:: 5
 							- Trivial wall
 							- Dislocation
@@ -279,6 +279,12 @@
 								- Fusion rules
 									- $X \otimes X=Y \otimes Y=Z \otimes Z=\mathbb{1}, X \otimes Y=Y \otimes X=Z$
 								- Bulk-to-wall map #card
+								  card-last-interval:: 24
+								  card-repeats:: 1
+								  card-ease-factor:: 2.6
+								  card-next-schedule:: 2023-03-14T05:42:51.499Z
+								  card-last-reviewed:: 2023-02-18T05:42:51.499Z
+								  card-last-score:: 5
 									- Move m to the wall as usual. Become X on the same side.
 									- Move e to the wall by $\sigma_z$. Become X **on the opposite side**.
 								- Move particles across the domain wall #card
@@ -345,7 +351,7 @@
 								- As an exercise.
 				- [[Witt Equivalence]]
 				-
-			- [[Bulk-boundary relation]] in 1D
+			- [[Bulk-Boundary Relation]] in 1D
 			  collapsed:: true
 				- Intuition
 					- ((63a7ff4b-4913-4400-89a3-fdac0537fa89))
@@ -390,7 +396,7 @@
 					- 0D [[Domain Wall]] between different sectors can be selected out by fusing with identities in the sectors
 						- ((63a962ae-57d2-41aa-9dbb-59ddc69a8aaf))
 					- The perturbation can split the ground states into different sectors. However, the perturbation doesn't affect the bulk, so the sectors share the same bulk.
-						- The [[Bulk-boundary relation]] implies $\mathfrak{Z}_1\left(\mathcal{P}_{i i}\right) \simeq \mathfrak{Z}_1(\mathcal{P})$
+						- The [[Bulk-Boundary Relation]] implies $\mathfrak{Z}_1\left(\mathcal{P}_{i i}\right) \simeq \mathfrak{Z}_1(\mathcal{P})$
 						- By the theorems, every $\mathcal{P}_{i i}$ is Morita equivalent to $\mathcal{P}$.
 						- Consequently , $\mathcal{P}_{i j}$ is an invertible $\left(\mathcal{P}_{i i}, \mathcal{P}_{i j}\right)$-bimodule (Modules between Morita equivalent cats).
 				- Summarized in ((63a963b9-9708-46a6-8806-a5486bd70ea2))

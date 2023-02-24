@@ -51,10 +51,16 @@ alias:: Representation
 			- Connecting Abstract algebra and rep. theory
 	- Regular representation #card 
 	  id:: 1e9f6e33-36ec-4362-9505-3b42540bb3a7
-		- Denoted by Reg
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-20T01:47:40.295Z
+	  card-last-reviewed:: 2023-02-24T01:47:40.295Z
+	  card-last-score:: 5
 		- $$\left(\operatorname{Reg}( g_{1} ,g_{2}) f\right) (g)=f\left( g_{2}^{-1} gg_{1}\right),f\in M(T)$$
-		- The definition ensures Associativity:
-		  $(L(g_1)L(g_2)f)(g)=L(g_1)f(gg_2)=f((gg_1)g_2)=f(gg_1g_2)$
+			- The definition ensures Associativity:
+			  $(L(g_1)L(g_2)f)(g)=L(g_1)f(gg_2)=f((gg_1)g_2)=f(gg_1g_2)$
+			- $f$ usually taken to be $f_g(h)=\delta_{gh}$
 		-
 		- Maybe linked to differential geometry:
 		  A definition by pushforward.

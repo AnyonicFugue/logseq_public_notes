@@ -12,11 +12,11 @@
 		- ((6381ccf3-b7c4-466d-b7f5-9b966f36817f))
 		-
 	- The Lie algebra of a matrix [[Lie Group]] #card
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-27T05:52:39.955Z
-	  card-last-reviewed:: 2023-01-02T05:52:39.955Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-16T12:03:52.904Z
+	  card-last-reviewed:: 2023-02-20T12:03:52.904Z
 	  card-last-score:: 5
 		- The set of all matrices $X$ such that $e^{t X}$ is in $G$ for all **real** numbers $t$.
 		  The bracket is given by the commutator.
@@ -302,6 +302,12 @@
 			- $\left(x_1, y_1, u_1\right) \cdot\left(x_2, y_2, u_2\right)=\left(x_1+x_2, y_1+y_2, e^{2\pi i x_1 y_2} u_1 u_2\right)$
 			- Of course it is a group and the multiplication is smooth.
 		- Theorem. It is not isomorphic to any matrix Lie group. #card
+		  card-last-interval:: 29.48
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-21T23:05:57.636Z
+		  card-last-reviewed:: 2023-02-20T12:05:57.636Z
+		  card-last-score:: 5
 			- Consider a homomorphism from the ((63e884c8-ec49-498f-8b3c-1decb6106562)), $\Phi\left(\begin{array}{lll}1 & a & b \\ 0 & 1 & c \\ 0 & 0 & 1\end{array}\right)=\left(a, c, e^{2 \pi i b}\right)$
 				- $N:=\operatorname{Ker}\Phi=\left\{\left(\begin{array}{lll}1 & 0 & n \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{array}\right) \mid n \in \mathbb{Z}\right\}$
 			- For some rep of $G$, it naturally induces a rep of $H$ by ![image.png](../assets/image_1676185047825_0.png)

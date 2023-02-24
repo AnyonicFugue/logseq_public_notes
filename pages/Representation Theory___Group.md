@@ -5,6 +5,12 @@
 		- Can be used on "The remaining part of the sum"
 	- ## Decomposition into Minimal invariant subspaces
 		- Theorem. Let $T:G\rightarrow \mathrm{GL} (V)$ be a linear representation. Let $V=V_{1} +V_{2} +\dotsc +V_{m}$ be a decomposition of the space $V$ into a (**not necessarily direct**) sum of minimal invariant subspace. 
+		  card-last-interval:: 23.96
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-20T00:54:11.987Z
+		  card-last-reviewed:: 2023-02-24T01:54:11.987Z
+		  card-last-score:: 5
 		  Then for every invariant subspace $U$ there exist indices $i_{1} ,\dotsc ,i_{p}$ such that $V=U\oplus V_{i_{1}} \oplus \dotsc \oplus V_{i_{p}}$  #card
 			- For a $U$: we use a common construction.
 			- "Maximal LI list $\{U,V_{i1},...V_{ip}\}$"  #Trick
@@ -15,17 +21,29 @@
 				- Min ⇒ the intersection must be 0 or full space.
 		- Theorem. Suppose the representation $T:G\rightarrow \mathrm{GL} (V)$ is isomorphic to a sum of irreducible representations $T_{i} :G\rightarrow \operatorname{GL}( V_{i}) ,i=1,\dotsc ,m$. 
 		  collapsed:: true
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-14T09:23:29.466Z
+		  card-last-reviewed:: 2023-02-18T09:23:29.467Z
+		  card-last-score:: 5
 		  Then every subrepresentation of $T$ ,as well as every quotient representation of $T$ is isomorphic to a sum of some of the representations $T_{i}$ #card
-			- Invoke  [Theorem 3. Let T:G\rightarrow \mathrm{GL} (V) be a linear Representation. Let V=V_{1} +V_{2} +\dotsc +V_{m} be a decomposition of the space V into a (not necessarily direct) sum of Minimal invariant subspace. 
-			  Then for every Invariant subspace  U there exist indices i_{1} ,\dotsc ,i_{p} such thatV=U\oplus V_{i_{1}} \oplus \dotsc \oplus V_{i_{p}}  ](../Representation theory/Preliminary results/Decomposition into Minimal invariant subspaces/Theorem 3. Let T_G_rightarrow _mathrm{GL} (V) be a linear Representation. Let V=V_{1} +V_{2} +_dotsc +V_{m} be a decomposition of the space V into a (not necessarily direct) sum of Minimal invariant s.md)
+			- Invoke  Theorem 3. Let $T:G\rightarrow \mathrm{GL} (V)$ be a linear Representation. Let $V=V_{1} +V_{2} +\dotsc +V_{m}$ be a decomposition of the space V into a (not necessarily direct) sum of minimal invariant subspace. 
+			  Then for every invariant subspace  U there exist indices $i_{1} ,\dotsc ,i_{p}$ such that $V=U\oplus V_{i_{1}} \oplus \dotsc \oplus V_{i_{p}}$
 			- Consider a subrep $T_U$: $$T_U\simeq T_{V/({V_{i_{1}} \oplus \dotsc \oplus V_{i_{p}}})}\simeq T_{sum\ of\ the\ remaining\ V_j }$$
 			- Isomorphism is the best we can obtain, without more conditions.
 			- i.e. Decomposition isn't unique.
 			-
-			- Corollary. Let $T:G\rightarrow \mathrm{GL} (V)$ be a linear representation. Let $V_{1} ,\dotsc ,V_{m}$ be [[Minimal invariant subspace]] such that the representations $T_{i} =T_{V_{i}}$ are **pairwise nonisomorphic**(New condition). Then $V_{1} ,\dotsc ,V_{m}$ are linearly independent.
+			- Corollary. Let $T:G\rightarrow \mathrm{GL} (V)$ be a linear representation. Let $V_{1} ,\dotsc ,V_{m}$ be minimal invariant subspaces such that the representations $T_{i} =T_{V_{i}}$ are **pairwise nonisomorphic**(New condition). Then $V_{1} ,\dotsc ,V_{m}$ are linearly independent.
 			  id:: 4b39adbd-96d1-4605-8870-8ce25437e6f7
 		- Theorem. Let $T$ be a linear representation. If $$T\simeq T_{1} +\dotsc +T_{m} \simeq S_{1} +\dotsc +S_{p}$$ where $T_{i}$ and $S_{j}$ are irreducible representations, then $m=p$ and, for a suitable labeling, $T_{i} \simeq S_{i}$. #card
 		  collapsed:: true
+		  card-last-interval:: 23.96
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-20T00:53:18.474Z
+		  card-last-reviewed:: 2023-02-24T01:53:18.474Z
+		  card-last-score:: 5
 			- By induction.
 			- For m=2 case: invoke [Theorem 3. Suppose the representation T:G\rightarrow \mathrm{GL} (V) is isomorphic to a sum of Irreducible representations T_{i} :G\rightarrow \operatorname{GL}( V_{i}) ,i=1,\dotsc ,m. 
 			  Then every Subrepresentation of T ,as well as every Quotient representation of T is Isomorphic to a sum of some of the representations T_{i}.  ](../Representation theory/Preliminary results/Decomposition into Minimal invariant subspaces/Theorem 3. Suppose the representation T_G_rightarrow _mathrm{GL} (V) is isomorphic to a sum of Irreducible representations T_{i} _G_rightarrow _operatorname{GL}( V_{i}) ,i=1,_dotsc ,m. 
@@ -40,8 +58,15 @@
 		  collapsed:: true
 			- Construct an invariant inner product by summing:  #Trick
 			- Given any inner product $f_0(\cdot,\cdot)$, define $f(u,v)=\sum_{g}f_0(T(g)u,T(g)v)$
-		- Theorem. Every real (complex) linear representation of a compact  topological group is orthogonal (respectively, unitary). #card
+		- Theorem. Every real (complex) linear representation of a compact topological group is orthogonal (respectively, unitary). #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-16T11:53:25.978Z
+		  card-last-reviewed:: 2023-02-20T11:53:25.980Z
+		  card-last-score:: 5
 			- The point is an invariant integration on the group manifold.
+			- From the point of view of the theory of (continuous) linear representations, compact topological groups are similar to discrete ones. #[[Thoughts/Math and Physics]]
 		- Lemma. Let $f$ and $f_{0}$ be two inner products in the complex vector space $V$. Then there exists a linear operator $\sigma$ such that $f(x,y)=f_{0} (\sigma x,y)$  for all $x,y\in V$.
 		- Theorem. Let $T:G\rightarrow \operatorname{GL} (V)$ be an irreducible unitary representation. Then the $T$-invariant inner product in $V$ is unique up to a constant factor.  #card
 		  collapsed:: true
@@ -55,7 +80,13 @@
 	- ## Complexification
 	  collapsed:: true
 		-
-		- Two finite-dimensional real linear representations are isomorphic if and only if their [[Complexification]] are isomorphic. #card 
+		- Two finite-dimensional real representations are isomorphic if and only if their [[Complexification]] are isomorphic. #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-20T01:48:58.817Z
+		  card-last-reviewed:: 2023-02-24T01:48:58.818Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- p⇒q is obvious.
 			- q⇒p: The matrix equation is $T_{1C}S=ST_{2C}$, which is linear.
@@ -104,6 +135,12 @@
 			-
 		- Theorem. The tensor product of two irreducible complex representations $T:G\rightarrow \operatorname{GL} (V)$ and $S:H\rightarrow \operatorname{GL} (U)$ of the groups $G$ and $H$ 
 		  collapsed:: true
+		  card-last-interval:: 27.15
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-19T15:03:27.457Z
+		  card-last-reviewed:: 2023-02-20T12:03:27.458Z
+		  card-last-score:: 5
 		  is an **irreducible** representation of $G\times H$.  #card
 			- Invoke ((4746422f-8ebd-4b6e-b09a-a6d71742468b)).
 			-

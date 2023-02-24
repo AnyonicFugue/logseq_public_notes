@@ -15,14 +15,6 @@
 	  card-last-reviewed:: 2022-12-31T07:04:55.526Z
 	  card-last-score:: 5
 		- left to b
-	- m #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-21T12:00:42.591Z
-	  card-last-reviewed:: 2023-01-28T12:00:42.592Z
-	  card-last-score:: 5
-		- Just left to the dot. 一弯食指就能够到。
 - Fingerings
 	- p #card
 	  card-last-interval:: 24

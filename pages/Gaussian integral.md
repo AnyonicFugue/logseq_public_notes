@@ -11,11 +11,11 @@
 	- Proof: Diagonalize A and everything else follows.
 -
 - [[Wick's Theorem]] for Gaussian integrals #card
-  card-last-interval:: 10
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2022-12-16T07:46:58.699Z
-  card-last-reviewed:: 2022-12-06T07:46:58.699Z
+  card-last-interval:: 67.2
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-04-28T16:02:04.732Z
+  card-last-reviewed:: 2023-02-20T12:02:04.733Z
   card-last-score:: 5
 	- $\left\langle v_{m} v_{n}\right\rangle=A_{m n}^{-1}$
 	- $\left\langle v_{i_{1}} v_{i_{2}} \ldots v_{i_{2 n}}\right\rangle=\sum\limits_{\substack{\text { pairings of } \\\left\{i_{1}, \ldots, i_{2 n}\right\}}} A_{i_{k_{1}} i_{k_{2}}}^{-1} \ldots A_{i_{k_{2 n-1}}^{-1} i_{k_{2 n}}}$

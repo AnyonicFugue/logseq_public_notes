@@ -300,11 +300,11 @@ type:: [[Course]]
 					- F is a random force
 					- B corresponds to viscosity
 			- Summary #card
-			  card-last-interval:: 10.42
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2022-12-09T22:01:42.175Z
-			  card-last-reviewed:: 2022-11-29T12:01:42.176Z
+			  card-last-interval:: 24
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-03-19T00:27:05.677Z
+			  card-last-reviewed:: 2023-02-23T00:27:05.677Z
 			  card-last-score:: 5
 				- There are three possible operations: Multiply x or v; integrate t; take ensemble average.
 				- When all these are useless, we can solve the ODE directly.

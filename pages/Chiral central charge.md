@@ -10,9 +10,9 @@
 - ((63759ac0-b94e-46c3-8d51-5b51b31b7c12))
 	- What does it mean? #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-18T01:02:22.599Z
-	  card-last-reviewed:: 2023-01-25T01:02:22.600Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-16T12:04:55.731Z
+	  card-last-reviewed:: 2023-02-20T12:04:55.731Z
 	  card-last-score:: 5
 		- This means that the chiral central charge completes the classification!

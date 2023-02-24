@@ -18,5 +18,7 @@
 	- [[von-Neumann Entropy]]
 	- [[Renyi Entropy]]
 	- [[Mutual Information]]
-	-
+	- Refs given in [[2023_Li_Sang_Hsieh_Entanglement Dynamics of Noisy Random Circuits]]
+		- [[Entanglement Negativity]] #[[Research/To Be Investigated]]
+		- [[Operator Entanglement Entropy]] #[[Research/To Be Investigated]]
 -

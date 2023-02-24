@@ -419,3 +419,10 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   hl-page:: 468
   hl-color:: yellow
   id:: 63eee202-1568-4bf6-8431-b49a1be4497b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 469
+  hl-color:: yellow
+  id:: 63f21c79-2841-4abc-a109-c068df01ff2b
+  hl-type:: area
+  hl-stamp:: 1676811384852

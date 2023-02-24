@@ -57,3 +57,31 @@ file-path:: zotero_link/Physics/Quantum/Quantum Circuit Dynamics/2022_Fisher_Khe
   id:: 63ed8e34-04c9-4844-bdb6-f00461024e05
   hl-type:: area
   hl-stamp:: 1676512819049
+- Under the evolution, an arbitrary initial state (pure or mixed) eventually equilibrates locally to the Gibbs state (2). As there are no conserved quantities here, this is simply the featureless infinite temperature state 
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: purple
+  id:: 63ef2614-4b9b-4177-934e-bf85dbc568e1
+- There is no notion of a ground state or of elementary excitations above a ground state.
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: red
+  id:: 63ef267f-ff5a-4caf-a00d-c6368d7605b3
+  hl-stamp:: 1676617344500
+- nonequilibrium dynamics, thermalization, and entanglement generation in local many-body systems
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 63ef28fe-44d3-44b1-826c-793191d74b54
+  hl-stamp:: 1676617985468
+- Unitary circuit dynamics
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 63ef2f9d-32d7-43f8-9d6e-960280a201db
+- generated at a rate proportional to the area of the boundary of A
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: purple
+  id:: 63ef3032-fbea-4bca-bdd0-d6a0c7eb223e
+  hl-stamp:: 1676619828760

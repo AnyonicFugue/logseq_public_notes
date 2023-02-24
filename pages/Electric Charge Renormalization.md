@@ -1,16 +1,25 @@
 -
 - We want to renormalize the photon propagators.
-- [[1PI]] diagrams and general analysis of them
+- Photon [[1PI]] diagrams and general analysis of them
   collapsed:: true
 	- Summary #card
-		-
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-15T06:45:15.481Z
+	  card-last-reviewed:: 2023-02-19T06:45:15.483Z
+	  card-last-score:: 5
+		- Only possible quantities are ...
+			- $g^{\mu \nu}$ and $q^\mu q^\nu$
+		- Ward identity to determine the combination
+		- Effect on the photon propagator and electron charge
+			- Geometric series
+			- Charge renormalization
 	- ((63915c6e-59ea-4795-9de9-910021452333))
 	- ((63919292-0de7-4a19-b8ff-99982259edc3))
 	- Which quantities may appear in the tensor indices?
-	  collapsed:: true
 		- Only $g^{\mu \nu}$ and $q^\mu q^\nu$
 	- Use [[Ward identity]]
-	  collapsed:: true
 		- The combination can only be proportional to $\left(g^{\mu \nu}-q^\mu q^\nu / q^2\right)$.
 		- The rest of $\Pi$ must be scalar factors.
 	- $\Pi^{\mu \nu}(q)=\left(q^2 g^{\mu \nu}-q^\mu q^\nu\right) \Pi\left(q^2\right)$

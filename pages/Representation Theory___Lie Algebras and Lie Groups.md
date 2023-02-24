@@ -14,6 +14,12 @@
 	- Reps of $sl(2,C)$
 	  id:: 63e44faf-be39-4003-a238-c50fedbd07e4
 		- ((63e44777-3acd-49d6-bfd7-2edcf2e03f46)) For each integer $m \geq 0$, there is an irreducible complex representation of $\mathrm{sl}(2 ; \mathbb{C})$ with dimension $m+1$, unique up to isomorphism. #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-15T06:48:55.446Z
+		  card-last-reviewed:: 2023-02-19T06:48:55.447Z
+		  card-last-score:: 5
 			- Implications
 				- Since $sl(2;C)\cong so(3)_C \cong su(2)$, complexifications of irreps of $su(2;C)$ are determined.
 			- Existence
@@ -28,8 +34,9 @@
 				- The point is that $X$ and $Y$ indeed serve as creation and annihilation operators.
 				- I think we should explicitly construct an intertwining map.
 					- We need a correspondence of vectors. How to find a canonical choice of vectors?
+				- Standard way: Work out the whole eigensystem of $H$ as in quantum mechanics. $X$ and $Y$ are also fixed up to normalization of eigenvectors.
 				- First try: Eigensystem.
-					- This is problematic,
+					- This is problematic, since Lie algebra homomorphisms only preserve Lie brackets, not multiplication.
 					- Jordan standard form?
 					- H must have an eigenvector. Select one, $v_0$, with the *largest* eigenvalue.
 					- We want $\Phi T_1(A) v= T_2(A) \Phi v$
@@ -39,7 +46,6 @@
 						- It suffices to prove that $T_1(A)e_0=0 \implies T_2(A)v_0=0$
 						- LHS holds only when $A=\lambda X$. Let's take $A=X$.
 						- From $[H, X]=2 X$, we conclude $HX|v_0\rangle=(\lambda_0+2)|v_0\rangle$, which gives $X|v_0\rangle=0$ since $\lambda_0$ is the **largest**!
-				- Standard way: Work out the whole eigensystem of $H$ as in quantum mechanics. $X$ and $Y$ are also fixed up to normalization of eigenvectors.
 		- ((63e5e77e-a5dc-4ac8-a4a3-d9ff04d5f522)) If $(\pi, V)$ is a finite-dimensional representation of $\operatorname{sl}(2 ; \mathbb{C})$, not necessarily irreducible, the following results hold.
 		  1. Every eigenvalue of $\pi(H)$ is an **integer**. Furthermore, if $v$ is an eigenvector for $\pi(H)$ with eigenvalue $\lambda$ and $\pi(X) v=0$, then $\lambda$ is a non-negative integer.
 		  2. The operators $\pi(X)$ and $\pi(Y)$ are **nilpotent**.
