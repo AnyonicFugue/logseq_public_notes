@@ -7,6 +7,12 @@
   collapsed:: true
 	- ((63bd088d-0b32-447b-84ee-45bfc3959a98)) Let $X$ be a theta space that is a subspace of $S^2$; let $A, B$, and $C$ be the arcs whose union is $X$. Then $X$ separates $S^2$ into **three components**, whose boundaries are $A \cup B, B \cup C$, and $A \cup C$, respectively. #card
 	  collapsed:: true
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-28T00:22:14.410Z
+	  card-last-reviewed:: 2023-03-03T00:22:14.410Z
+	  card-last-score:: 5
 		- Intuition is very clear. Now let's learn the construction.
 		- Point: First separate $S^2$ into two parts, then add C to create the third part.
 		- Step1. Consider $A\cup B$.
@@ -22,11 +28,11 @@
 			  id:: 63bd0bf2-1307-4b7d-846f-12c2d775d521
 			- id:: 63bd0b55-7532-4b80-acb7-62765f843de2
 	- ((63bd0c90-1981-4b7c-9b7f-ea9f9efc9eb0)) Let $X$ be the utilities graph. Then $X$ cannot be imbedded in the plane. #card
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-24T03:20:36.556Z
-	  card-last-reviewed:: 2023-01-30T03:20:36.556Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-21T00:14:30.997Z
+	  card-last-reviewed:: 2023-02-25T00:14:30.998Z
 	  card-last-score:: 5
 		- Idea: Reach a contradiction by showing some point can be in no component.
 		- First define three arcs: $A=g h_1 w$ $B=g h_2 w$ $C=g h_3 w$. Obviously they form a ((63bd0841-c1c2-4d33-8265-2d57561e49ac)).
@@ -36,9 +42,16 @@
 			- $h_1\notin U,h_2 \notin V, h_3\notin W$. Thus we arrive at a contradiction.
 	- ((63bd1790-40f5-4e6f-a2f3-d021dd7c88dc)) $G_5$ cannot be imbedded in $S^2$. #card
 	  collapsed:: true
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-26T00:32:08.798Z
+	  card-last-reviewed:: 2023-03-01T00:32:08.798Z
+	  card-last-score:: 5
 		- The strategy is similar: first show that $G_4$ divides $S^2$ into four parts and the boundaries, then show the fifth vertex can lie in none of the four.
 		- Properties of $G_4$
 			- $G_4$ minus an edge is a theta space, which separates $S^2$ into three parts.
+				- Strategy of 'adding edges successively'.
 			- By an similar operation of 'filling the previous shape' we show the last edge also separates $S^2$. Moreover, one of the components doesn't intersect $a_1$.
 				- ((63bd18fc-f313-4f33-8d66-1244667d0d3b))
 			- The following is completely analogous to that of the utility graph.

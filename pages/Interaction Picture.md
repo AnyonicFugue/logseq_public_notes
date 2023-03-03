@@ -1,0 +1,10 @@
+- Evolution #card
+	- $$\begin{aligned} & i \frac{\partial}{\partial t} O_I(t)=\left[O_I, H_0\right] \\ & i \frac{\partial}{\partial t}|\psi(t)\rangle_I=V_I|\psi(t)\rangle_I\end{aligned}$$
+		- $H_0$ is the free Hamiltonian, $V_I$ is the interaction.
+	- Note that $V_I$ also evolves with time.
+		- This is a small exercise.
+	-
+	- Evolution operator
+		- $U(t,t_0):=T\{\exp[-i\int^{t}_{t_0}dt' V_I(t')]\}$
+		- Note that we must **fix** $t_0$ and define $U_(t_2,t_1):=U(t_2,t_0)U^\dag(t_1,t_0)$. Otherwise the operators won't compose properly.
+	-

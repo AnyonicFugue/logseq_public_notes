@@ -426,3 +426,79 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   id:: 63f21c79-2841-4abc-a109-c068df01ff2b
   hl-type:: area
   hl-stamp:: 1676811384852
+- Definition
+  ls-type:: annotation
+  hl-page:: 472
+  hl-color:: yellow
+  id:: 63f95d84-10e7-484d-8591-9e785fbbf5bb
+- Theorem
+  ls-type:: annotation
+  hl-page:: 472
+  hl-color:: yellow
+  id:: 63f9607e-52d2-4362-81b9-9392cd5509e1
+- [:span]
+  ls-type:: annotation
+  hl-page:: 473
+  hl-color:: yellow
+  id:: 63f96759-3738-48a8-8e1d-6fa03d6d2e5d
+  hl-type:: area
+  hl-stamp:: 1677289305153
+- Corollary
+  ls-type:: annotation
+  hl-page:: 473
+  hl-color:: yellow
+  id:: 63f967c8-2ec0-44a3-ad3f-4a9a9d1cc739
+- Theorem
+  ls-type:: annotation
+  hl-page:: 473
+  hl-color:: yellow
+  id:: 63f96977-bed6-4449-ad50-8114274d72d9
+- Theorem
+  ls-type:: annotation
+  hl-page:: 473
+  hl-color:: yellow
+  id:: 63f96a7e-89f5-4b82-a31f-2c730b301a80
+- [:span]
+  ls-type:: annotation
+  hl-page:: 475
+  hl-color:: yellow
+  id:: 63fab6e4-190d-40c1-981e-515a552a48ab
+  hl-type:: area
+  hl-stamp:: 1677375203348
+- [:span]
+  ls-type:: annotation
+  hl-page:: 476
+  hl-color:: yellow
+  id:: 63fab713-7618-4b6c-96a6-693fd18fffe6
+  hl-type:: area
+  hl-stamp:: 1677375250838
+- Elementary operations
+  ls-type:: annotation
+  hl-page:: 477
+  hl-color:: yellow
+  id:: 63fab983-7e3c-40e1-aad1-2c7eb691fd73
+- Definition
+  ls-type:: annotation
+  hl-page:: 480
+  hl-color:: yellow
+  id:: 63fabe49-9a20-4104-a118-7a3cb4228e3c
+- Lemma
+  ls-type:: annotation
+  hl-page:: 480
+  hl-color:: yellow
+  id:: 63ff1367-a528-454e-aee9-bb1d36897060
+- Lemma
+  ls-type:: annotation
+  hl-page:: 482
+  hl-color:: yellow
+  id:: 63ff145f-7f9e-4b11-8b84-ca36597daf79
+- Lemma
+  ls-type:: annotation
+  hl-page:: 485
+  hl-color:: yellow
+  id:: 63ff1cab-4221-49ab-9d57-42cf9aa3952d
+- Theorem
+  ls-type:: annotation
+  hl-page:: 486
+  hl-color:: yellow
+  id:: 63ff1f74-71d1-4d4e-b347-d0746b62e728

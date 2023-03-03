@@ -13,3 +13,10 @@
 - # [[Algebraic Topology]]
 	- Prove nulhomotopy by rescale the shape (in particular, curve) with a parameter $t\in [0,1]$
 		- Especially useful for shapes embeddable into $R^n$
+- Use a set of elementary moves. Prove invariance under each element of the set.
+  id:: 63fa1061-a719-42a4-8b01-2bd603e394fc
+	- Quite interesting. So useful in classification and invariance (equivalence) problems.
+- # Physics
+	- By analyzing the only possible quantities, we can obtain some nontrivial relations.
+	  id:: 63e86244-9e83-4bd6-bf03-aa29c6f1ee0e
+	-

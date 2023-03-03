@@ -129,15 +129,15 @@ type:: Course
 				- ((6385c169-71ce-4fd6-9a59-ab5a1ed8f271))
 		-
 	- 2 Necessary conditions for error correction #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-01-30T06:05:34.812Z
-	  card-last-reviewed:: 2023-01-06T06:05:34.812Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-03T04:11:09.280Z
+	  card-last-reviewed:: 2023-02-25T00:11:09.280Z
 	  card-last-score:: 5
 	  id:: 638563b0-97c7-407a-b2b0-dcbe845029c7
 		- $\left\langle i_L\left|E_a^{\dagger} E_b\right| j_L\right\rangle=0 \quad$ for $i \neq j$
-			- Different states must be orthogonal, otherwise not perfectly correctable.
+			- Different states must be **orthogonal**, otherwise not perfectly correctable.
 		- $\left\langle i_L\left|E_a^{\dagger} E_b\right| i_L\right\rangle=C_{a b}$ independent of i
 			- If dependent of i, obtain information about the state <-> collapse of quantum state
 		- Put the above two together, we arrive at $\left\langle i_L\left|E_a^{\dagger} E_b\right| j_L\right\rangle=C_{a b} \delta_{i j}$
@@ -152,11 +152,11 @@ type:: Course
 			- $C_{a b}=\delta_{a b}$
 			- This means that different errors are **orthogonal**.
 	- Scheme for ECC in nondegenerate case #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-16T07:49:03.231Z
-	  card-last-reviewed:: 2022-12-06T07:49:03.232Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-27T00:30:14.069Z
+	  card-last-reviewed:: 2023-03-03T00:30:14.069Z
 	  card-last-score:: 5
 		- Input: $|\psi\rang$
 		- After error: $\sum_{E_k \in \mathcal{E}_c} E_k|\psi\rangle\left|e_k\right\rangle_E$
@@ -228,10 +228,10 @@ type:: Course
 					- The set of all measured eigenvalues $\{m_j\}$, which are all from $\pm1$.
 					- In other words, they indicate the error.
 			- Theorem. $\left\langle\psi\left|E_a^{\dagger} E_b\right| \psi\right\rangle=C_{a b}$ iff either one of the following holds:
-			  collapsed:: true
 			  (1) $E_a^{\dagger} E_b \in \mathcal{S}$;
 			  (2) There is an $M \in \mathcal{S}$ that anti-commutes with $E_a^{\dagger} E_b$.
-				- This is 'non-distinguishability'. Prove orthogonality of different states as an exercise! #Learning-TODO
+				- (1) is 'non-distinguishability'. Prove orthogonality of different states as an exercise! #Learning-TODO
+				- (2) means that $E_a^{\dagger} E_b$ flips the eigenvalue of $M$, thus detectable.
 			- Two stabilizer codes are said to be equivalent if they only differ by permutation of qubits and single-qubit transformations.
 				- Not general basis transformations!
 			-
@@ -255,11 +255,11 @@ type:: Course
 			- Why no $M_5$?
 				- Because $M_5=M_1M_2M_3M_4$
 		- All stabilizers with generators ((638605de-c46e-4b9d-89ea-a69241304577)) #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-02-08T01:09:35.673Z
-		  card-last-reviewed:: 2023-01-15T01:09:35.674Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-05-09T04:39:11.276Z
+		  card-last-reviewed:: 2023-03-03T00:39:11.277Z
 		  card-last-score:: 5
 			- 4 generators, each can be 0 or 1. $|G|=4^2=16$
 			- Aside from M1 and the four operators obtained from it by cyclic permutations, the stabilizer will also contains M1M2 plus its cyclic permutations, and M1M3 plus its cyclic permutations.

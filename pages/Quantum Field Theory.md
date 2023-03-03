@@ -3,77 +3,40 @@ alias:: [[QFT]]
 - [[References]]
 	- ![Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf](file://C:/Users/yizho/Nutstore/1/sync/我的坚果云/资料/physics/QFT/Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf) The classical textbook by Peskin
 	- ![Introduction_to_Quantum_Field_Theory.pdf](file://D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf) Satoshi Nawata's lecturenotes
+- # Setup and Notations
+	- $|\Omega\rangle$ is the interactive vacuum, while $|0\rangle$ is the free vacuum.
+	- $G\left(x_1, \cdots, x_n\right)=\left\langle\Omega\left|T\left\{\phi\left(x_1\right) \cdots \phi\left(x_n\right)\right\}\right| \Omega\right\rangle$
 	-
-- [[Interaction, Feynman diagrams and S-matrix]]
-	- [[Feynman rules]]
-	- A fundamental difficulty: We need the states to be asymptotic in the **interaction theory**. However, we only knows how to create **free** plane waves.
+	- ## Assumptions about the Hilbert Space #card
 	  collapsed:: true
-		- ((63675402-6c64-443b-b71c-90c3a99a4842))
-		- For the vacuum we use ((636753ab-e737-4f19-a1d8-e33ab15c71fc)), which used the property that the vacuum has the lowest energy.
-		- Not so good for general states.
-	- Feynman rules for fermions
-		- Generalize TOP and normal-ordering
-		- Generalized Wick's [TODO]
-	- Mandelstam variables
-	  collapsed:: true
-		- ((636af081-5d67-4758-887c-ba004b190b71))
-		- ((637b326c-0792-4cf0-b2e5-d861201c971c))
+		- #+BEGIN_NOTE
+		  Not a rigorous structure, but seems natural in perturbation theories.
+		  #+END_NOTE
+		- A unique ground state $|\Omega\rangle$ with momentum $q_{\nu a c}^\mu=0$
+			- Note we don't consider GSD or spontaneous symmetry breaking here.
+		- A continuum of single-particle states $|p\rangle$ eigen to the Hamiltonian, with $p^2=m^2\geq 0$
+		  id:: 63fc166f-9a06-42b7-a7e3-947eff93ae12
+			- 'Continuum' means that any 3-momenta is allowed.
+		- The spectra is a continuum for $p^2 \gtrsim 4 m^2$
+			- These correspond to multi-particle states. Interaction between them leads to the continuum.
+			- However the spectrum is **not** strictly greater than $4m^2$, since attracting interaction lowers the energy.
 		-
-	- [[Helicity]] structure in scattering
-	  collapsed:: true
-		- High-E limit #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-03-13T00:58:19.808Z
-		  card-last-reviewed:: 2023-02-17T00:58:19.809Z
-		  card-last-score:: 5
-			- All fermions can be regarded as massless.
-			- For $\xi=\left(\begin{array}{l}1 \\ 0\end{array}\right)$, ((6379c82e-aa21-424e-9d43-339a251a9bc2))
-				- And the same for spin down.
-				- Note $p^3$ is $p^z$. The formula can be verified directly by #TODO
-			- ((6379cf92-7252-44e9-b63d-ce792967a710))
-				- Note that it is different for fermions and anti-fermions.
-			- In other words, now [[Helicity]] and [[Chirality]] becomes identical.
-		- Contribution of different helicities
-			- Idea: Use the projectors $\frac{1\pm\gamma^5}{2}$ to get certain helicities.
-			- ((6379d13b-9ca8-4786-9cf5-265e23751503))
-				- $\gamma^5$ anticommutes with any single $\gamma^\mu$
-				- LHS determines the helicity of u, while RHS determines v.
-			- Proceed by the common process to obtain $|M|^2$ and $\frac{d \sigma}{d \Omega}$, we can obtain all contributions of the different combinations.
-				- Exercise: what are the possible combinations for $e^{+} e^{-} \rightarrow \mu^{+} \mu^-$? #card
-				  card-last-interval:: 61.44
-				  card-repeats:: 3
-				  card-ease-factor:: 2.56
-				  card-next-schedule:: 2023-02-23T16:08:08.133Z
-				  card-last-reviewed:: 2022-12-24T06:08:08.133Z
-				  card-last-score:: 5
-					- Input and output can be $(++),(--)$ respectively.
-					- 4 in total.
-	- Crossing symmetry
-	  collapsed:: true
-		- He claims to easily relate 
-		  $e^{+} e^{-} \rightarrow \mu^{+} \mu^{-}$ and $e^{-} \mu^{-} \rightarrow e^{-} \mu^{-}$
-		  by a substitution of variable ((6379d42d-2944-458f-9110-e369a7bb0a42))
-			- Both of them only have one diagram, with a photon propagator in the middle.
-			- The kinetics are similar.
-	- [[LSZ Formula]]
-	- Properties of the [[S-matrix]]
-		- [[Lorentz invariance]]
-		- Unitarity
-			- [[Optical Theorem]]
-- [[Klein-Gordon Theory]]
-- [[Yukawa theory]]
-- [[Quantum Electrodynamics]]
+		- Other ones
+			- The theory is an irreducible representation of the operator algebra. Equivalently, we can always relate two states in the Hilbert space by some operator.
+			  id:: 63fc4f1b-f3c8-4e99-a31f-add4fe16f8ec
+				- For a single theory, we can relates 1-particle states by boosts.
+				  id:: 63fc5025-5650-4054-ba3a-0520194bfb13
+- # [[Interaction, Feynman diagrams and S-matrix]]
 - [[Classical Field Theory]]
   collapsed:: true
 	- Noether's theorem #card
-	  card-last-interval:: 11.8
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-27T00:22:55.688Z
-	  card-last-reviewed:: 2022-12-15T05:22:55.689Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-26T14:12:47.860Z
+	  card-last-reviewed:: 2023-03-02T14:12:47.861Z
 	  card-last-score:: 5
+	  id:: 63e86248-d68b-4d57-bed2-c7a0d75b3be7
 		- $$\begin{aligned}
 		  \partial _{\mu } j^{\mu } (x) & =0,\ \ \text{ for } \ \ j^{\mu } (x)=\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\frac{\delta \phi }{\delta \alpha } -\mathcal{J}^{\mu }
 		  \end{aligned}$$
@@ -91,7 +54,7 @@ alias:: [[QFT]]
 			- [[Energy-momentum Tensor]] 
 			  $\mathcal{T}_{\mu \nu}=\sum_{n} \frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} \phi_{n}\right)} \partial_{\nu} \phi_{n}-g_{\mu \nu} \mathcal{L}$
 		- Ref. Peskin, ((63805db9-661f-470f-9403-3ff9ae8aa7dd))
-- Causality and Propagators
+- # Causality and Propagators
   collapsed:: true
 	- $\langle 0|[\phi(x), \phi(y)]| 0\rangle=0$ for spacelike separation, which preserves [[Causality]].
 		- Use some invariance/symmetry to simplify the problem. ([[Lorentz invariance]] in this case) #Trick
@@ -127,4 +90,10 @@ alias:: [[QFT]]
 				- Use Lorentz invariance (or change of integration variables)
 			-
 			- Take care of the minus sign! (Compare ((129a2538-6668-4ae1-a5cc-a7cf58e6122b)) )
+	-
+- # Specific Theories
+	- [[Klein-Gordon Theory]]
+	- [[Yukawa theory]]
+	- [[Quantum Electrodynamics]]
+	- [[Proca Theory]]
 	-

@@ -328,6 +328,12 @@
 								- GSD=2. We may label the ground states by the eigenvalues of the X operators.
 									- The trivial topological excitation $\mathbb{1}$ can be decomposed as the direct sum of simple ones $\mathbb{1}=\mathbb{1}_{+} \oplus \mathbb{1}_{-}$. where $X$ acts on $\mathbb{1}_{\pm}$as $\pm 1$.
 								- [[Fusion rules]] #card
+								  card-last-interval:: 25.01
+								  card-repeats:: 1
+								  card-ease-factor:: 2.6
+								  card-next-schedule:: 2023-03-25T13:39:53.086Z
+								  card-last-reviewed:: 2023-02-28T13:39:53.087Z
+								  card-last-score:: 5
 									- $$
 									  \mathbb{1}_{\pm} \otimes \mathbb{1}_{\pm}=\mathbb{1}_{\pm} \text { 
 									   and  } \mathbb{1}_{\pm} \otimes \mathbb{1}_{\mp}=0

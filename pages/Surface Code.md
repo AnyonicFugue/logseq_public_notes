@@ -37,11 +37,11 @@
 		- Comment: Alternating boundaries -> Extra qubits
 		  collapsed:: true
 			- Exercise. What happens when we add back a spin to the middle of the rough boundary? #card
-			  card-last-interval:: 25.01
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-02-22T07:00:03.553Z
-			  card-last-reviewed:: 2023-01-28T07:00:03.554Z
+			  card-last-interval:: 24
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-03-21T00:09:34.992Z
+			  card-last-reviewed:: 2023-02-25T00:09:34.992Z
 			  card-last-score:: 5
 				- One more spin.
 				- No more constraints. (The vertices of the spin aren't counted.)

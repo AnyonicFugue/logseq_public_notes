@@ -216,6 +216,12 @@
 				-
 				- ((4b39adbd-96d1-4605-8870-8ce25437e6f7))
 			- Theorem. $\mathbf{C} [G]=\mathrm{M}( T_{1}) \oplus \dotsc \oplus \mathrm{M}( T_{q})$ #card
+			  card-last-interval:: 24
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-03-24T13:54:45.818Z
+			  card-last-reviewed:: 2023-02-28T13:54:45.818Z
+			  card-last-score:: 3
 				- Linear independence: Since they're pairwise nonisomorphic.
 				-
 				- Spanning: we use the dirty way i.e. matrix

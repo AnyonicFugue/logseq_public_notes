@@ -56,6 +56,12 @@
 		  Thus we rotate a bit each step and get very close to $|0\rangle$ after $m\sim \sqrt N$ steps.
 - ## Quantum Fourier Transformation
 	- Def #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-22T01:18:33.567Z
+	  card-last-reviewed:: 2023-02-26T01:18:33.568Z
+	  card-last-score:: 5
 		- Discrete [[Fourier Transformation]]
 			- $\tilde{f}(k):=\frac{1}{\sqrt{N } } \sum_{j=0}^{N-1} e^{2 \pi i \frac{j k}{N}} f(j)$
 		- Quantum Fourier Transformation
@@ -63,10 +69,10 @@
 			- Note it is the behavior on a basis vector.
 	- Circuit #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-02T01:48:11.651Z
-	  card-last-reviewed:: 2023-01-09T01:48:11.653Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-27T00:31:34.082Z
+	  card-last-reviewed:: 2023-03-03T00:31:34.082Z
 	  card-last-score:: 5
 		- Key: The gate is nonentangling, thus can be viewed as 'adding controlled phases $2 \pi  \frac{j k}{2^n}$ to the final qubits'
 			- Moreover, only $m+n<N$ has nontrivial contribution to the phase. Others are multiples or $2\pi$, thus trivial.

@@ -68,11 +68,11 @@ type:: [[Course]]
 - [[Gaussian theory]]
   collapsed:: true
 	- Summary #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-25T11:53:45.113Z
-	  card-last-reviewed:: 2022-12-15T11:53:45.114Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-24T13:44:25.600Z
+	  card-last-reviewed:: 2023-02-28T13:44:25.601Z
 	  card-last-score:: 5
 		- After Fourier transforming to momentum space, different momenta decouple. So the correlation functions are easy to evaluate.
 	- $$F=\int d^D r\left[\frac{1}{2}(\nabla \phi)^2+\frac{r}{2} \phi^2\right]$$
@@ -99,11 +99,11 @@ type:: [[Course]]
 			- Use randomized time-evolution to simulate ensemble average.
 	- Wolff Algorithm
 		- Idea #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-02-05T00:27:03.237Z
-		  card-last-reviewed:: 2023-01-12T00:27:03.237Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-05-04T05:08:27.928Z
+		  card-last-reviewed:: 2023-02-26T01:08:27.929Z
 		  card-last-score:: 5
 			- Flip a cluster of spins at a stroke to accelerate.
 				- Specifically, form a cluster by try to activate adjacent parallel spins
@@ -229,11 +229,11 @@ type:: [[Course]]
 			- Trick: set $\epsilon=4-D$, expand wrt $\epsilon$
 			-
 			- Relevance of coupling constants #card
-			  card-last-interval:: 24
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-02-07T01:37:56.556Z
-			  card-last-reviewed:: 2023-01-14T01:37:56.556Z
+			  card-last-interval:: 67.2
+			  card-repeats:: 3
+			  card-ease-factor:: 2.8
+			  card-next-schedule:: 2023-05-07T04:29:32.559Z
+			  card-last-reviewed:: 2023-03-01T00:29:32.560Z
 			  card-last-score:: 5
 				- Thought: The irrelevant ones vanish in the rescaling process
 				- Criteria: Scaling dimension
@@ -406,13 +406,13 @@ type:: [[Course]]
 					- The rest is very simple.
 	- Kramers-Kronig relations
 		- Summary #card
-		  collapsed:: true
 		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-02-05T00:16:09.428Z
-		  card-last-reviewed:: 2023-01-12T00:16:09.429Z
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-26T14:14:44.746Z
+		  card-last-reviewed:: 2023-03-02T14:14:44.747Z
 		  card-last-score:: 5
+			- The real and imaginary parts of an analytic function aren't independent.
 			- Mathematically
 				- For a complex function analytic on the upper half-plane (and vanish rapidly enough at infinity), we have 
 				  $$\chi(\omega)=\frac{1}{i \pi} \mathcal{P} \int_{-\infty}^{\infty} \frac{\chi\left(\omega^{\prime}\right)}{\omega^{\prime}-\omega} d \omega^{\prime}$$
@@ -457,10 +457,10 @@ type:: [[Course]]
 		  collapsed:: true
 			- Proposition. Inhomogeneity won't affect the universality class. #card
 			  card-last-interval:: 24
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-02-26T12:12:55.558Z
-			  card-last-reviewed:: 2023-02-02T12:12:55.559Z
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-03-25T00:30:42.964Z
+			  card-last-reviewed:: 2023-03-01T00:30:42.965Z
 			  card-last-score:: 5
 				- In short, we can always **rescale** the coordinates to eliminate the inhomogeneity.
 				- eg. Inhomogeneity between space and time

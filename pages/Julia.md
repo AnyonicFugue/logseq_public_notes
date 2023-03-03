@@ -1,10 +1,10 @@
 - Frequently used features
 	- Logical operators #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-21T07:05:59.852Z
-	  card-last-reviewed:: 2023-01-28T07:05:59.852Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-03T04:15:01.231Z
+	  card-last-reviewed:: 2023-02-25T00:15:01.232Z
 	  card-last-score:: 5
 		- C-style `&&, !, ||`
 		- All doubled except `!`
@@ -103,11 +103,12 @@
 			- [i] isn't enough; Julia would return only one element.
 			- Note that partial slicing is also possible. See document.
 	- Vectorized operations #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-25T03:51:00.890Z
-	  card-last-reviewed:: 2023-02-01T03:51:00.890Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-04T17:08:18.196Z
+	  card-last-reviewed:: 2023-02-26T13:08:18.196Z
 	  card-last-score:: 5
-		- `arr=arr.^2`
+		- `arr3=(arr1.+arr2).^2`
 		- The dot is necessary. Otherwise only a single element is modified.
+			- But no dot before the equality.

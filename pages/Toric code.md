@@ -80,7 +80,7 @@
 			- To obtain a nonzero correction term, we must move a quasiparticle along the whole torus.
 			  id:: 63b29c20-9dce-4db3-b7c0-7e81dff5cd27
 			- When $L \to \infty$, this requires extremely high orders of the perturbation terms.
-		- Effect on excitations #[[Inbox/Explore]]
+		- Effect on excitations  #[[Research/To Be Investigated]]
 			- Simon claims that the positions of the excitations would fluctuate due to the perturbation, i.e. a finite-size cloud.
 			- However, if we do the braidings far enough, then the size of the cloud is negligible.
 			- He doesn't mention the extra pairs (strings) of excitations incurred by the perturbation term, which may cause extra minuses?

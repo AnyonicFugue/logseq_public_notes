@@ -1,0 +1,3 @@
+- Def
+	- A group where every element has finite order.
+- In finitely generated abelian groups, this corresponds to the 'non-free part'.

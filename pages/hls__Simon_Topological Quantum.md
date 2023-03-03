@@ -394,3 +394,44 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/Simon_Topol
   id:: 63f6dc5b-cb2c-4479-b282-9adf540020c9
   hl-type:: area
   hl-stamp:: 1677122650853
+- For each pair of dislocations, there is one more qubit unassigned, or the ground state degeneracy doubles. This means that each dislocation is associated with half of a qubit.
+  ls-type:: annotation
+  hl-page:: 475
+  hl-color:: purple
+  id:: 63f9a8bb-5e68-43a6-8cf2-c8686b577d49
+  hl-stamp:: 1677306045214
+- Topological Entanglement
+  ls-type:: annotation
+  hl-page:: 478
+  hl-color:: yellow
+  id:: 63f9a9a2-190e-4948-b6a5-faa1ad08eb83
+  hl-stamp:: 1677306276189
+- [:span]
+  ls-type:: annotation
+  hl-page:: 479
+  hl-color:: yellow
+  id:: 63f9ab7a-5493-4741-8119-f9751148f6a8
+  hl-type:: area
+  hl-stamp:: 1677306746020
+- 33.1.1
+  ls-type:: annotation
+  hl-page:: 482
+  hl-color:: yellow
+  id:: 63fec44a-15d9-4e69-a1cd-e966b65798a7
+- [:span]
+  ls-type:: annotation
+  hl-page:: 483
+  hl-color:: yellow
+  id:: 63fec57c-f224-4f78-9201-a8d052e816e5
+  hl-type:: area
+  hl-stamp:: 1677641084379
+- Phases of Matter from/with Symmetry
+  ls-type:: annotation
+  hl-page:: 486
+  hl-color:: yellow
+  id:: 63fec6f9-50a7-4f7d-b378-5110f39f0bde
+- Definition
+  ls-type:: annotation
+  hl-page:: 487
+  hl-color:: yellow
+  id:: 63fec80b-8082-4e56-a5d6-2d4577d1be71

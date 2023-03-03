@@ -15,6 +15,7 @@
 				- TODO 箭步蹲
 					- 拉伸腘绳肌
 		- ## Afternoon
+			- TODO 午饭后吃胃逆舒
 			- TODO ^^15:45 进食^^
 			- TODO Enforce Liquidtext workflow in Piano practice.
 		- ## Evening
@@ -25,6 +26,10 @@
 	- # Tasks
 		- Daily tidy-up
 		  id:: 63e19713-3af5-4931-939e-35fde543a762
+			- #+BEGIN_NOTE
+			  No need complete all of them every day. One or two is OK.
+			  The point is to remind myself that there are rich mines to explore.
+			  #+END_NOTE
 			- TODO Move 3 inbox items
 			- TODO Complete 1 reform
 			- TODO Explore 1 new thing

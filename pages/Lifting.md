@@ -91,6 +91,12 @@
 		- Applications
 			- Construct a simply connected covering space to obtain the fundamental group?
 	- ((638c406f-36aa-4e14-916a-5bfa265284e8)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$.
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-24T00:40:44.713Z
+	  card-last-reviewed:: 2023-02-28T00:40:44.714Z
+	  card-last-score:: 5
 	  (a) The homomorphism $p_*: \pi_1\left(E, e_0\right) \rightarrow \pi_1\left(B, b_0\right)$ is a **monomorphism**.
 	  (b) Let $H=p_*\left(\pi_1\left(E, e_0\right)\right)$. The lifting correspondence $\phi$ induces an **injective** map
 	  $$
@@ -103,6 +109,6 @@
 		- (b)
 			- Independent of the representative element: If $f_2=f_1 * h$ and $\tilde h$ is a loop, then obviously $\phi(f_2)=\phi(f_1)$
 			- Injective: If $\phi(f_2)=\phi(f_1)$, then $\phi(f_2 * f_1^{-1})=e$ (go backwards)
-			- Bijective(Surjective): If E is path connected, $\phi$ is surjective.
+			- Bijective(Surjective): If E is path connected, we can always find a path from $b_1$ to $b_2$. Thus $\phi$ is surjective.
 		- (c)
 			- Directly follows from the definition of lifting. Or from (b).

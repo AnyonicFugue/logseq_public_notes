@@ -11,12 +11,12 @@
 	- ((6370a9b6-cfdd-49ed-a37e-e977b27e99ff))
 	- ![图像.png](../assets/图像_1668328082216_0.png)
 	- ((6370aafb-bdcd-4007-a202-73f669641f53)) #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2022-12-10T07:01:41.412Z
-	  card-last-reviewed:: 2022-11-30T07:01:41.414Z
-	  card-last-score:: 3
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-03-27T00:28:03.312Z
+	  card-last-reviewed:: 2023-03-03T00:28:03.312Z
+	  card-last-score:: 5
 		- This hints that the fundamental group doesn't depend on the points (on the same path component of X).
 		  Moreover, $$\pi_1(C,x_0)=\pi_1(X,x_0)$$
 		- Different path components are actually different 'objects'.

@@ -108,10 +108,10 @@
 			- Thus each anyon labeled by a **pair** $(A, \mu)$.
 	- ## Explicit construction by [[Tube Algebra]] #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-27T01:09:47.477Z
-	  card-last-reviewed:: 2023-02-03T01:09:47.478Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-03-27T00:39:19.680Z
+	  card-last-reviewed:: 2023-03-03T00:39:19.680Z
 	  card-last-score:: 5
 		- ((63d722e4-a906-4ca8-9314-c4ea20559097))
 			- Recall that we detected anyons in toric code on a disk

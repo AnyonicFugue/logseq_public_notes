@@ -1,4 +1,8 @@
 - # Different pictures
+	- In principle, we could decompose $H=H_1+H_2$ and let $H_1$ acts on the operator and $H_2$ acts on the state.
+		- Schrodinger -> $H_1=0$
+		- Heisenberg -> $H_2=0$
+		- Interaction -> $H_2$ is the perturbative part
 	- How does the superposition principle come into play in these pictures? #Learning-TODO
 	  id:: 63c1416d-2412-467c-b765-fa06441cb373
 	- [[Heisenberg Picture]]
@@ -8,19 +12,6 @@
 	- Evolution
 		- $\frac{d}{d t} \rho(t)=\frac{1}{i \hbar}[H, \rho(t)]$
 	-
-	- Schmidt decomposition #card
-	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-02-03T01:14:54.140Z
-	  card-last-reviewed:: 2023-01-10T01:14:54.141Z
-	  card-last-score:: 3
-		- For a pure state $|\psi\rangle\in V_1\otimes V_2$, we can always decompose it into $|\psi\rangle=\sum_ip_i|e_i\rangle| f_i\rangle$, where $\{e_i\}$ and $\{f_j\}$ are ONBs.
-		-
-		- Calculation strategy: $T=UDV$, U consists of the normalized eigenvectors of ${T T^\dag}$ (The eigenvectors are the same as the square root), V consists of the eigenvectors of ${T^\dag T}$
-		-
-		- Purification
-			- For some mixed state $\rho$, we can always **add an auxiliary system** to make the whole state a (entangled) **pure** state.
 	-
 	-
 	- Generalized measurement #card
@@ -36,3 +27,17 @@
 		-
 		- Remark: Equivalent to projective measurements with an auxiliary system. [TODO: prove it.]
 	-
+- # Misc
+	- Schmidt decomposition of an entangled state #card
+	  card-last-score:: 3
+	  card-repeats:: 2
+	  card-next-schedule:: 2023-03-26T00:57:42.783Z
+	  card-last-interval:: 24
+	  card-ease-factor:: 2.22
+	  card-last-reviewed:: 2023-03-02T00:57:42.785Z
+		- For a pure state $|\psi\rangle\in V_1\otimes V_2$, we can always decompose it into $|\psi\rangle=\sum_ip_i|e_i\rangle| f_i\rangle$, where $\{e_i\}$ and $\{f_j\}$ are ONBs.
+		-
+		- Calculation strategy: $T=UDV$, U consists of the normalized eigenvectors of ${T T^\dag}$ (The eigenvectors are the same as the square root), V consists of the eigenvectors of ${T^\dag T}$
+		-
+		- Purification
+			- For some mixed state $\rho$, we can always **add an auxiliary system** to make the whole state a (entangled) **pure** state.

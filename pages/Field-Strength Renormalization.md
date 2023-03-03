@@ -37,67 +37,6 @@
 		  & =\left(-\frac{1}{4} F_{\mu \nu}^2+\bar{\psi}(i \not \partial-m) \psi-e \bar{\psi} \gamma^\mu \psi A_\mu\right)+\left(-\frac{1}{4} \delta_3 F_{\mu \nu}^2+\bar{\psi}\left(i \delta_2 \not \partial-\delta_m\right) \psi-e \delta_1 \bar{\psi} \gamma^\mu \psi A_\mu\right)
 		  \end{aligned}$$
 			- $Z_i=1+\delta_i$, $\delta_i$ are called **counter terms**.
-	- ((639094ce-9088-4138-a4b5-7ac7f96f7d15)) General analysis of propagators and the spectral representation #[[To be recorded]]
-		- To be moved higher
-		- ## Key points
-			- Lorentz invariance
-				- ((63a12f33-6dfd-496b-8220-28accdbca451))
-			- Translation invariance
-				- ((63a12f3f-388a-4625-ba90-e4e9250b3f84))
-				- $U(\Lambda) |\Omega\rangle=|\Omega\rangle$
-		- ((6390331c-7c49-4e6a-a6ca-696572b0f022))
-			- Non-perturbative analysis is often quite exotic and abstract, but provide more insight. #Thoughts
-		- ((6390335e-a793-430c-8a22-87c12f7ff053))
-		  collapsed:: true
-			- Does this hold for general interacting states?
-			- He writes ((639033da-bf24-48bf-a704-d1aebf9aa3b5)), which seem to justify the claim. But can we do this for interacting states?
-		- ((63903a83-0912-45ba-90fd-b1560f31adc1)), i.e. boost an eigenstate to obtain all possible momenta. Equivalently, the Hilbert space consists of irreps of the Lorentz group.
-			- Intuitively, we can arbitrarily boost an on-shell particles.
-		- Completeness relation
-			- 1-p
-				- $$
-				  (\mathbf{1})_{1-\text { particlc }}=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{2 E_{\mathbf{p}}}|\mathbf{p}\rangle\langle\mathbf{p}|
-				  $$
-				- In other words, zero-momentum state is unique for 1-particle.
-			- General
-				- id:: 63973120-efca-48be-9b42-55cc35b82675
-				  $$
-				  \mathbf{1}=|\Omega\rangle\langle\Omega|+\sum_\lambda \int \frac{d^3 p}{(2 \pi)^3} \frac{1}{2 E_{\mathbf{p}}(\lambda)}| \lambda_{\mathbf{p}}\rangle\left\langle\lambda_{\mathbf{p}}\right|
-				  $$
-				- Boost all momenta from zero-momentum states.
-		- Insert the relation
-			- $$\langle\Omega|\phi(x) \phi(y\rangle| \Omega\rangle=\sum_\lambda \int \frac{d^3 p}{(2 \pi)^3} \frac{1}{2 E_{\mathbf{p}}(\lambda)}\left\langle\Omega|\phi(x)| \lambda_{\mathbf{p}}\right\rangle\left\langle\lambda_{\mathbf{p}}|\phi(y)| \Omega\right\rangle$$
-				- The vacuum diagonal element is zero.
-			- $\begin{aligned}\left\langle\Omega^{\prime} |\phi(x) |\lambda_{\mathbf{p}}\right\rangle & =\left\langle\Omega\left|e^{i P \cdot x} \phi(0) e^{-i P \cdot x}\right| \lambda_{\mathbf{p}}\right\rangle \\ & =\left.\left\langle\Omega|\phi(0)| \lambda_{\mathbf{p}}\right\rangle e^{-i p \cdot x}\right|_{p^0=E_{\mathbf{p}}} \\ & =\left.\left\langle\Omega|\phi(0)| \lambda_0\right\rangle e^{-i p \cdot x}\right|_{p^0=E_{\mathbf{p}}}\end{aligned}$
-				- 1st line: Just a change of basis. P is the generator of translations.
-				- 2nd: Extract the eigenvalues
-				- 3rd: ((63996ae9-da3c-4b64-94cd-0250fbb3555f)).
-		- Introduce an integration over p to obtain the heaviside function, $\langle\Omega|\phi(x) \phi(y)| \Omega\rangle=\sum_\lambda \int \frac{d^4 p}{(2 \pi)^4} \frac{i}{p^2-m_\lambda^2+i \epsilon} e^{-i p \cdot(x-y)}\left|\left\langle\Omega|\phi(0)| \lambda_0\right\rangle\right|^2$
-			- Familiar form!
-		- ((63903dc0-decd-4562-9c8f-9f20c0b8fbe3))
-			- $$\langle\Omega|T \phi(x) \phi(y)| \Omega\rangle=\int_0^{\infty} \frac{d M^2}{2 \pi} \rho\left(M^2\right) D_F\left(x-y ; M^2\right)$$
-				- $$
-				  \rho\left(M^2\right)=\sum_\lambda(2 \pi) \delta\left(M^2-m_\lambda^2\right)\left|\left\langle\Omega|\phi(0)| \lambda_0\right\rangle\right|^2
-				  $$
-				  Called **spectral density**
-				- Intuitively, the 2-point correlation function can be decomposed into contributions of different effective masses.
-			- Fourier Transformation
-				- ((63903fa9-eb94-4b67-944e-453099d998c0))
-					- Familiar Feynman propagator!
-				- ((63904004-1719-49a0-a4ed-ae545a9d3ac2)), but with field-strength renormalizations
-		- 1-particle part
-			- ((63903e68-8a6e-48a0-9986-d91b226fea87))
-			- Z is the field-strength renormalization.
-				- Note that $Z=1$ in free theory, but $Z<1$ in interacting theories.
-				- $\left|\left\langle\Omega|\phi(0)| 1_0\right\rangle\right|^2=Z<1$. Physically, the field operator creates a bunch of different states, so the amplitude of $1_0$ is smaller than 1.
-				-
-			- m here is ((63903e92-e09c-4f19-8a07-012214461679))
-			- $m_0$ in the Lagrangian is the ((63903ea6-2939-4f43-9d05-c658b31ce1ae))
-		- ((63904079-1b0a-4901-9470-1714586e2e26))
-		- ((6390416f-d1e2-4be7-a6dc-5ca7e71d8cd4))ds. We just need to modify the transformation rules under Lorentz transformations.
-		  collapsed:: true
-			- Dirac field ((63904193-3f90-4077-a320-ee734d2a3f38))
-		-
 	- Electron self-energy
 		- ((6390421c-b60b-469d-89ca-ba3cfd888f4e))
 		- ((6390428b-6de4-484a-911d-f6844fc10ba1))
@@ -113,13 +52,13 @@
 			- Sum all possible diagrams
 				- ((63996a20-7140-4eed-a808-ddbee821afb6))
 				- Note that $\Sigma(p)$ commutes with $\not p$, since $\Sigma(p)$ is a function only of pure numbers and $\not p$. In fact, we can consider $\Sigma(p)$ to be a function of $\not p$, writing $p^2=(\not p)^2$. Then we can rewrite each electron propagator as $i /\left(\not p-m_0\right)$. #card
-				  card-last-interval:: 16.67
-				  card-repeats:: 1
-				  card-ease-factor:: 2.6
-				  card-next-schedule:: 2023-01-01T21:50:40.250Z
-				  card-last-reviewed:: 2022-12-16T05:50:40.251Z
 				  card-last-score:: 5
-					- Reminder card: By analyzing the only possible quantities, we can obtain some commutation relations. #Physical
+				  card-repeats:: 2
+				  card-next-schedule:: 2023-03-22T13:02:24.496Z
+				  card-last-interval:: 24
+				  card-ease-factor:: 2.7
+				  card-last-reviewed:: 2023-02-26T13:02:24.496Z
+					- ((63e86244-9e83-4bd6-bf03-aa29c6f1ee0e))
 					- Very convenient! Simplify the matrix equation into an algebraic equation.
 				- Sum up the geometric series, obtain the next line
 		- $\begin{aligned} \int d^4 x\langle\Omega| T \psi(x) & \bar{\psi}(0)|\Omega\rangle e^{i p \cdot x} \\ & =\frac{i}{\not p-m_0}+\frac{i}{\not p-m_0}\left(\frac{\Sigma(\not p)}{\not p-m_0}\right)+\frac{i}{\not p-m_0}\left(\frac{\Sigma(\not p)}{\not p-m_0}\right)^2+\cdots \\ & =\frac{i}{\not p-m_0-\Sigma(\not p)} \end{aligned}$
