@@ -1,0 +1,7 @@
+- # Strange Experimental Phenomena
+	- When hitting the proton with a electron, the scattering section of the electron behaves as if the proton is a hard particle. However, the proton is shattered into pieces rather than remaining as a whole.
+	- Explanation
+		- Obviously proton is a composite particle.
+		- Strong interaction have [[Asymptotic Freedom]], that is, the coupling constant tends to zero as the momenta tends to infinity.
+			- It is the opposite case for [[QED]].
+		- Therefore, the electromagnetic interaction is 'hard' while the strong interaction is 'small'.

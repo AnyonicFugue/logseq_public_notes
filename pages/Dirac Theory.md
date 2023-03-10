@@ -1,10 +1,10 @@
 - # Setup and Definitions
 	- Gamma matrices
-	  collapsed:: true
 		- Defs
 		  collapsed:: true
 			- ((6379ca4e-553b-460f-89c6-0fbde5c7f0d9))
 			- ((6379ca39-4ba2-4254-9131-88e223be6a0c))
+			  collapsed:: true
 				- ((6379caaa-1758-4942-a553-19b721e4a1c2))
 		- Commutation relations (including those with $\gamma^5$)  #card
 		  card-last-score:: 5
@@ -13,6 +13,7 @@
 		  card-last-interval:: 67.2
 		  card-ease-factor:: 2.8
 		  card-last-reviewed:: 2023-01-29T00:55:38.292Z
+		  collapsed:: true
 			- ((6379ca88-2a1b-4068-a7f7-0cb7197d696c))
 			- ((6379ca9b-6830-497a-b6bc-0aaec1f62441))
 		- Trace Tricks
@@ -20,21 +21,27 @@
 			- ((636a0b9a-df35-40b3-9e91-9c2560aa064f))
 			- Conclusion: ((636a0c10-4b26-4d64-ab89-433cccab88a3))
 			- More properties
+			  collapsed:: true
 				- ((636a0c8b-0a46-4264-934f-cd22e44ec60e))
 				- ((636a0c90-f02b-443d-859f-94f734dd5990))
 				  Reversing order
 				- Contraction identities
 				  id:: 637c8c74-1534-4627-bdd0-c5cf7f409a67
+				  collapsed:: true
 					- ((636a0c99-3ccf-426e-a1fb-95d1deaf677e))
 				- Easily proven by anticommutation and symmetry of $g_{\mu\nu}$
 		- Gordon identity
 		  id:: 637c7efe-edc6-41a0-8de5-02abe2f76eb1
+		  collapsed:: true
 			- ((637c7f07-18ee-4d3d-bdc4-3bde16d6d924))
 		- $\not p u(p)=m \cdot u(p)$ and $\bar{u}\left(p^{\prime}\right) \not p^{\prime}=\bar{u}\left(p^{\prime}\right) \cdot m$
+		  collapsed:: true
 			- This is just Dirac equation.
 			-
 		- Basic properties
+		  collapsed:: true
 			- Adjoint
+			  collapsed:: true
 				- $\gamma^0 \gamma^\mu \gamma^0=\left(\gamma^\mu\right)^{\dagger}$
 			-
 		-
@@ -45,6 +52,13 @@
 		- ((636af73d-e54f-4317-a2e4-f57d5c26e3f5))
 		  ((636af72c-0e40-427d-ad62-609da8b78213))
 		-
+	- Quantization
+		- $$
+		  \begin{aligned}
+		  & \psi(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_{\mathbf{p}}}} \sum_s\left(a_{\mathbf{p}}^s u^s(p) e^{-i p \cdot x}+b_{\mathbf{p}}^{s \dagger} v^s(p) e^{i p \cdot x}\right) \\
+		  & \bar{\psi}(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_{\mathbf{p}}}} \sum_s\left(b_{\mathbf{p}}^s \bar{v}^s(p) e^{-i p \cdot x}+a_{\mathbf{p}}^{s \dagger} \bar{u}^s(p) e^{i p \cdot x}\right)
+		  \end{aligned}
+		  $$
 - # Lorentz Transformations and Spins
 	- Transformation Law
 		- $\Lambda_{\frac{1}{2}}=\exp \left(-\frac{i}{2} \omega_{\mu \nu} S^{\mu \nu}\right)$
@@ -55,7 +69,7 @@
 		- Plane wave: $(\not p-m)\psi=0$
 - Spin identities
   collapsed:: true
-	- Spin sums
+	- Spin sum
 		- ((636a4d10-45b5-432b-b4c2-a66dfdcfd93a))
 	- Normalization
 		- Ref. Peskin P48

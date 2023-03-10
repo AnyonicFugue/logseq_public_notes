@@ -1,6 +1,13 @@
 alias:: QED
 
-- [[Quantization]] of EM field
+- # Setup
+	- $$
+	  \begin{aligned}
+	  \mathcal{L}_{\text {QED }} & =\mathcal{L}_{\text {Dirac }}+\mathcal{L}_{\text {Maxwell }}+\mathcal{L}_{\text {int }} \\
+	  & =\bar{\psi}(i \not \partial-m) \psi-\frac{1}{4} F_{\mu \nu} F^{\mu \nu}-e \bar{\psi} \gamma \mu \psi A_\mu
+	  \end{aligned}
+	  $$
+- # [[Quantization]] of EM field
 	- Overall scheme
 		- First write down the Lagrangian and discover some problems
 		- Then introduce a Lagrange multiplier $\frac{1}{2 \xi}\left(\partial_\mu A^\mu\right)^2$ to fix the gauge
@@ -57,8 +64,8 @@ alias:: QED
 			-
 	- Final Result
 		- $$\begin{aligned}
-		  &A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_p}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}+a_p^{\lambda \dagger} e^{i p \cdot x}\right) \\
-		  &\pi_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3}(+i) \sqrt{\frac{E_p}{2}} \sum_{\lambda=0}^3 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}-a_p^{\lambda \dagger} e^{i p \cdot x}\right)
+		  &A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_p}} \sum_{\lambda=1}^2 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}+a_p^{\lambda \dagger} e^{i p \cdot x}\right) \\
+		  &\pi_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3}(+i) \sqrt{\frac{E_p}{2}} \sum_{\lambda=1}^2 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}-a_p^{\lambda \dagger} e^{i p \cdot x}\right)
 		  \end{aligned}$$
 - From [[Yukawa theory]] to QED #card
   card-last-interval:: 10
@@ -72,7 +79,8 @@ alias:: QED
 		- Would different choice of gamma affect physics? eg. Weyl or Majarona? #Inbox/Problem
 	- ((636909d9-c786-4017-88e5-4c0d88ed061e))
 	- See [[Feynman rules]]
-- Elementary processes
+- # Elementary processes
+  collapsed:: true
 	- Summary #card
 	  card-last-interval:: 25.01
 	  card-repeats:: 1
@@ -85,20 +93,24 @@ alias:: QED
 		- Calculate $|M|^2$ by spin sums and trace tricks (explicitly write out the indices)
 			- The order of matrix multiplication is only a notation of how the indices contract.
 			  Explicitly write them out is a good way.
-	- Fermion-fermion
+	- ## $e^+e^-\to\mu^+\mu^-$
+	  collapsed:: true
 		- ((636a08cd-dc0b-497c-84e8-1209396c615e))
-		- ((636907ca-d056-409f-b6b2-bfb023a167a1))
-		- ((63690837-39c9-4e6c-974f-7db6c09a9bc5))
-			- The mass would be ignored!
+		-
+		- ### Simplifications
+			- Ignore electron mass (but not muon mass)
+			- Average over initial polarizations and sum over final polarizations
 		- ((63690855-079b-41b7-95c3-4e8e1dd1b950))
 			- The expression isn't difficult. But to find $|\mathcal{M}|^2$, we need to **find its complex conjugation**
-		- Conjugation of bi-spinor products ((636a0984-d932-4dd2-a89e-963d90acda08))
-		- ((636a0a09-665c-450a-81b8-fc919bb5d8e5)). Thus we can use spin sums to simplify the expression.
-			- Actually **sum** over outgoing spins and **average** over incoming spins
-		- ((636a4a63-f308-41ef-96ff-d1d2aaefe3d4)) and obtain the lovely traces
-		  ((636a0aa2-99ca-44c2-80cf-e497cb4a1354))((636a0ab1-74ca-4f2b-b875-c0045fad2016))
-			- ((636a0ace-b81b-4ff0-8e67-0e1acf8f3264))
+		- ### Perform the spin sum
+		  collapsed:: true
+			- ((636a0a09-665c-450a-81b8-fc919bb5d8e5)). Thus we can use spin sums to simplify the expression.
+				- Actually **sum** over outgoing spins and **average** over incoming spins
+			- Conjugation of bi-spinor products ((636a0984-d932-4dd2-a89e-963d90acda08))
+			- ((636a4a63-f308-41ef-96ff-d1d2aaefe3d4)) and obtain the lovely traces
+				- ((636a0aa2-99ca-44c2-80cf-e497cb4a1354))((636a0ab1-74ca-4f2b-b875-c0045fad2016))
 		- Continue to evaluate the probability
+		  collapsed:: true
 			- ((636a0d35-79e4-45a4-b9a7-7cd329e624ee))
 			  ((636a0d4c-c42b-434b-bb47-95702c4eef39))
 				- Note $\not p$ is actually $p_\alpha \gamma^\alpha$
@@ -110,7 +122,7 @@ alias:: QED
 			- ((636a0ea3-dbd5-40f4-bf1b-0fe2940a0762))
 			  With ((636a0eb0-2a64-48c7-89eb-ee8b61d66889))
 	- Note: The 'phase-space dependence' originates from ((636a108d-1c99-463c-bd06-6105cdf58bbd)), where we don't care about the momenta of the particles coming out, only direction.
-	- [[Compton scattering]]
+	- ## [[Compton scattering]]
 		- Key points #card
 		  card-last-score:: 5
 		  card-repeats:: 3
@@ -118,6 +130,7 @@ alias:: QED
 		  card-last-interval:: 67.2
 		  card-ease-factor:: 2.8
 		  card-last-reviewed:: 2023-01-29T00:54:13.717Z
+		  collapsed:: true
 			- Draw **two** diagrams
 				- Reminder: The lines can cross!
 				- The better strategy should be first draw the vertices (including internal ones), then find out all possible ways of connecting them.
@@ -127,6 +140,7 @@ alias:: QED
 			- Perform spin sums
 				- Nothing special here.
 		- Two diagrams
+		  collapsed:: true
 			- ((6379d890-1f5b-4f30-9855-5dbd1a1b68be))
 				- Can we have antifermions, instead of fermions, in the inner line? #card
 				  card-last-interval:: 169.81
@@ -140,7 +154,7 @@ alias:: QED
 		- Invoking the Feynman rules, we can write down the total M matrix 
 		  $i \mathcal{M}=\bar{u}\left(p^{\prime}\right)\left(-i e \gamma^\mu\right) \epsilon_\mu^*\left(k^{\prime}\right) \frac{i(\not p+\not k+m)}{(p+k)^2-m^2}\left(-i e \gamma^\nu\right) \epsilon_\nu(k) u(p)$
 		  $+\bar{u}\left(p^{\prime}\right)\left(-i e \gamma^\nu\right) \epsilon_\nu(k) \frac{i\left(\not p-\not k^{\prime}+m\right)}{\left(p-k^{\prime}\right)^2-m^2}\left(-i e \gamma^\mu\right) \epsilon_\mu^*\left(k^{\prime}\right) u(p)\\=-i e^2 \epsilon_\mu^*\left(k^{\prime}\right) \epsilon_\nu(k) \bar{u}\left(p^{\prime}\right)\left[\frac{\gamma^\mu(\not p+\not k+m) \gamma^\nu}{(p+k)^2-m^2}+\frac{\gamma^\nu\left(\not p-\not k^{\prime}+m\right) \gamma^\mu}{\left(p-k^{\prime}\right)^2-m^2}\right] u(p)$
-		- Simplifications
+		- ### Simplifications
 			- $(p+k)^2-m^2=2 p \cdot k \quad$ and $\quad\left(p-k^{\prime}\right)^2-m^2=-2 p \cdot k^{\prime}$ 
 			  To simplify the denominators.
 				- Note the external photons are on-shell. For off-shell internal photons this can't apply.
@@ -174,7 +188,7 @@ alias:: QED
 			-
 		- Final result
 			- ((637ae60f-71b1-4bbd-bfba-96333ac6ecc9))
-- Radiative Corrections #[[To be recorded]]
+- # Radiative Corrections #[[To be recorded]]
   id:: 638d5442-2da2-466c-8e73-91b7fff0a3a3
 	- [[Electron Vertex Function]]
 	- [[Bremsstrahlung]]

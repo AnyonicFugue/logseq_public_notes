@@ -1,7 +1,7 @@
 alias:: [[QFT]]
 
 - [[References]]
-	- ![Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf](file://C:/Users/yizho/Nutstore/1/sync/我的坚果云/资料/physics/QFT/Schroeder, Daniel V._ Peskin, Michael Edward - An introduction to quantum field theory.pdf) The classical textbook by Peskin
+	- ![2018_Peskin_An Introduction To Quantum Field Theory.pdf](file://zotero_link/Physics/Courses/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf) Classical book of Peskin
 	- ![Introduction_to_Quantum_Field_Theory.pdf](file://D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf) Satoshi Nawata's lecturenotes
 - # Setup and Notations
 	- $|\Omega\rangle$ is the interactive vacuum, while $|0\rangle$ is the free vacuum.

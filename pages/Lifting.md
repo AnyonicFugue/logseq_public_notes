@@ -23,11 +23,11 @@
 - Paths and path homotopies can be uniquely lifted.
   collapsed:: true
 	- ((63830159-da94-4cac-9da6-bf8c5a61256e)) Let $p: E \rightarrow B$ be a covering map, let $p\left(e_0\right)=b_0$. Any path $f: [0,1] \rightarrow B$ beginning at $b_0$ has a unique lifting to a path $\bar{f}$ in $E$ beginning at $e_0$. #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-01-20T06:15:19.538Z
-	  card-last-reviewed:: 2022-12-27T06:15:19.539Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-14T07:57:03.342Z
+	  card-last-reviewed:: 2023-03-08T03:57:03.342Z
 	  card-last-score:: 5
 		- Intuition
 			- The path f have several 'copies' in the covering space, with different starting points.

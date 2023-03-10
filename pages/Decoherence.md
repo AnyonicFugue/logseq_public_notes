@@ -135,11 +135,11 @@ type:: [[Course]]
 			- Controlled-X with the environment bit being $\alpha |1\rang+\beta |0\rangle$
 			- Flip z direction with probability $$|\alpha|^2$$
 		- Phase-flip #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-10T13:01:35.934Z
-		  card-last-reviewed:: 2022-11-30T13:01:35.934Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-29T00:58:26.184Z
+		  card-last-reviewed:: 2023-03-05T00:58:26.184Z
 		  card-last-score:: 5
 			- Controlled-Z with the environment in superposition
 			- Add a relative phase
@@ -307,11 +307,11 @@ type:: [[Course]]
 				  \end{array}\right)
 				  $$
 					- We can read off two time scales from the solution #card
-					  card-last-interval:: 10
-					  card-repeats:: 2
-					  card-ease-factor:: 2.7
-					  card-next-schedule:: 2022-12-22T05:49:46.114Z
-					  card-last-reviewed:: 2022-12-12T05:49:46.115Z
+					  card-last-interval:: 67.2
+					  card-repeats:: 3
+					  card-ease-factor:: 2.8
+					  card-next-schedule:: 2023-05-10T04:42:43.533Z
+					  card-last-reviewed:: 2023-03-04T00:42:43.533Z
 					  card-last-score:: 5
 						- Amplitude dampening time (diagonal) $t_1 \sim 1/\Gamma$
 						- Decoherence time (off-diagonal) $t_2 \sim 2/\Gamma$

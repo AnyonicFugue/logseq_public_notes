@@ -29,11 +29,11 @@
 			- Examine the solution to some polynomial #Strategy
 				- A common strategy in fields, where addition and multiplication both come into play.
 	- A field has no proper [[Ideal]] , thus every homomorphism of fields is injective.  #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-21T07:04:49.423Z
-	  card-last-reviewed:: 2023-01-28T07:04:49.424Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-10T04:52:00.668Z
+	  card-last-reviewed:: 2023-03-04T00:52:00.669Z
 	  card-last-score:: 5
 		- Since each element has an inverse in a field, $x\in I \Rightarrow 1 \in I \Rightarrow I=K$
 		- $Ker\ \phi$ is an ideal, which must be trivial since $\phi(1)=1$.

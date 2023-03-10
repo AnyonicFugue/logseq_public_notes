@@ -11,11 +11,11 @@
 			  \frac{1}{A B}=\int_0^1 d x \frac{1}{[x A+(1-x) B]^2}=\int_0^1 d x d y \delta(x+y-1) \frac{1}{[x A+y B]^2}
 			  $$
 			- card-last-score:: 5
-			  card-repeats:: 3
-			  card-next-schedule:: 2023-03-01T23:00:44.258Z
-			  card-last-interval:: 67.44
-			  card-ease-factor:: 2.7
-			  card-last-reviewed:: 2022-12-24T13:00:44.258Z
+			  card-repeats:: 4
+			  card-next-schedule:: 2023-09-08T03:36:46.375Z
+			  card-last-interval:: 188.16
+			  card-ease-factor:: 2.8
+			  card-last-reviewed:: 2023-03-04T00:36:46.376Z
 			  $$
 			  \frac{1}{A B^n}=\int_0^1 d x d y \delta(x+y-1) \frac{n y^{n-1}}{[x A+y B]^{n+1}}
 			  $$

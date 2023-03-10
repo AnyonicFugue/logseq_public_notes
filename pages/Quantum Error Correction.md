@@ -87,13 +87,13 @@ type:: Course
 			- Not $\sigma_1^x \sigma_4^x$ or $\sigma_1^x \sigma_7^x$! Intuitively, we must flip all three qubits of a group **simultaneously**.
 			- On the other hand, phase flip on a single qubit add a minus to $|111\rangle$ as a whole.
 	- Theorem. The code may correct any errors to a single qubit. #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-25T03:50:00.095Z
-	  card-last-reviewed:: 2023-02-01T03:50:00.096Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-13T05:01:48.929Z
+	  card-last-reviewed:: 2023-03-07T01:01:48.929Z
 	  card-last-score:: 5
-		- Essentially, a 'mixed error' would be projected to a 'pure error' by a measurement of the syndromes, then easily corrected by the Shor code.
+		- Essentially, a 'mixed error' would be **projected** to a 'pure error' by a measurement of the syndromes, then easily corrected by the Shor code.
 			- A general $U(2)$ operator can be expanded on the basis $\left\{I, \sigma_x, \sigma_y, \sigma_z\right\}$ as an element of $M_2(\mathbb C)$.
 		- Remark: A continuous set of errors can be corrected by a discrete code!
 - General Theory ((63860023-4dc1-4576-aca0-d11763757723))

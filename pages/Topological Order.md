@@ -106,11 +106,11 @@
 			- Description of the [[Boundary]]
 			  collapsed:: true
 				- Boundaries of the [[Toric Code]] #card
-				  card-last-interval:: 24
-				  card-repeats:: 2
-				  card-ease-factor:: 2.7
-				  card-next-schedule:: 2023-01-17T12:57:02.773Z
-				  card-last-reviewed:: 2022-12-24T12:57:02.773Z
+				  card-last-interval:: 67.2
+				  card-repeats:: 3
+				  card-ease-factor:: 2.8
+				  card-next-schedule:: 2023-05-13T05:29:32.025Z
+				  card-last-reviewed:: 2023-03-07T01:29:32.026Z
 				  card-last-score:: 5
 					- ((6376e089-fce4-4848-81c9-ba80dc22e8ff))
 						- ((6376e0a2-267d-44b2-b4ce-07caab40cd56))
@@ -308,6 +308,12 @@
 								- Non-invertible ones are the (noninvertible) endomorphisms.
 						- [[Fusion rules]] of the domain walls #card
 						  id:: 63a69765-9737-4e07-a68e-b2b4796aa6b2
+						  card-last-interval:: 27.15
+						  card-repeats:: 1
+						  card-ease-factor:: 2.6
+						  card-next-schedule:: 2023-04-01T04:03:26.403Z
+						  card-last-reviewed:: 2023-03-05T01:03:26.403Z
+						  card-last-score:: 5
 							- ((6397d84a-bb0f-4e71-93b8-5077ea559ddb))
 							- ((6397d8c8-261e-4b5e-8bb6-0dff22e5daec))
 								- Intuitively it's very obvious: The exchange wall swaps rough and smooth.

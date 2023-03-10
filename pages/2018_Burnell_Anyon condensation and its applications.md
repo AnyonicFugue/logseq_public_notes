@@ -19,6 +19,12 @@ type:: paper_reading
 	- ## Similarities to boson condensation #card
 	  id:: 63d87e90-19ca-426a-93d5-77c0b39eac21
 	  collapsed:: true
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-04-03T00:45:37.002Z
+	  card-last-reviewed:: 2023-03-10T00:45:37.002Z
+	  card-last-score:: 5
 		- Identification of different particles
 			- eg. Superconductor: Cooper pairs, which have charge $2e$, are condensed. Thus quasiparticles are labeled by charge **modulo 2e**
 			- This seems hard to explain just by representations
@@ -60,6 +66,12 @@ type:: paper_reading
 					- Very interesting. Individually gappable?
 				- It is believed that 'legitimate CFT' -> partition functions invariant under modular transformations
 		- Conclusion #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-02T00:45:04.280Z
+		  card-last-reviewed:: 2023-03-09T00:45:04.280Z
+		  card-last-score:: 5
 			- ((63dc62f4-12d5-4fcf-8046-9e5aed8894fa)), then the Hamiltonian models with gapped boundaries can be explicitly constructed. Thus gappable.
 			  id:: 63dc6611-b249-4a6b-9d84-61424d5eb2b0
 			- Conversely, ((63dc6627-451d-4910-8dec-df9069fd9d1f))

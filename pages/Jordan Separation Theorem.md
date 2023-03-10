@@ -45,6 +45,12 @@
 -
 - Statement
 	- ((63ba7757-abc4-4455-8a09-b5fba5a4b80d)) A simple closed curve $C$ separates $S^2$, i.e. $S^2-C$ isn't connected. #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-04-01T03:53:06.479Z
+	  card-last-reviewed:: 2023-03-08T03:53:06.479Z
+	  card-last-score:: 3
 		- Summary of the scheme
 			- Write $C$ as the union of 2 arcs $A_1$ and $A_2$, which only intersect at endpoints $a$ and $b$.
 			- Write $U=S^2-A_1$, $V=S^2-A_2$, $X=U \cup V$.

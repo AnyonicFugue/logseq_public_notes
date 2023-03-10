@@ -1,0 +1,5 @@
+- # Def
+	- Primary constraints
+		- Arise from the Lagrangian (eg. $\pi_0\equiv0$) or from a gauge fixing
+	- Secondary constraints
+		- Further arise from the EOM

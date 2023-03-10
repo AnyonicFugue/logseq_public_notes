@@ -47,6 +47,12 @@
 						- LHS holds only when $A=\lambda X$. Let's take $A=X$.
 						- From $[H, X]=2 X$, we conclude $HX|v_0\rangle=(\lambda_0+2)|v_0\rangle$, which gives $X|v_0\rangle=0$ since $\lambda_0$ is the **largest**!
 		- ((63e5e77e-a5dc-4ac8-a4a3-d9ff04d5f522)) If $(\pi, V)$ is a finite-dimensional representation of $\operatorname{sl}(2 ; \mathbb{C})$, not necessarily irreducible, the following results hold.
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-04-02T00:44:43.129Z
+		  card-last-reviewed:: 2023-03-09T00:44:43.129Z
+		  card-last-score:: 3
 		  1. Every eigenvalue of $\pi(H)$ is an **integer**. Furthermore, if $v$ is an eigenvector for $\pi(H)$ with eigenvalue $\lambda$ and $\pi(X) v=0$, then $\lambda$ is a non-negative integer.
 		  2. The operators $\pi(X)$ and $\pi(Y)$ are **nilpotent**.
 		  3. If we define $S: V \rightarrow V$ by

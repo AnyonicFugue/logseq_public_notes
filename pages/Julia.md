@@ -73,12 +73,12 @@
 			  #+END_QUOTE
 		- More generally, the tools [docs.julialang.org/en/v1/manual/performance tips/#tools](https://docs.julialang.org/en/v1/manual/performance-tips/#tools) can help.
 	- Specify the type when declaring a function #card
-	  card-last-interval:: 10
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2022-12-14T06:09:02.065Z
-	  card-last-reviewed:: 2022-12-04T06:09:02.065Z
-	  card-last-score:: 5
+	  card-last-interval:: 61.44
+	  card-repeats:: 3
+	  card-ease-factor:: 2.56
+	  card-next-schedule:: 2023-05-10T10:40:26.970Z
+	  card-last-reviewed:: 2023-03-10T00:40:26.971Z
+	  card-last-score:: 3
 		- `function Wolff_iterate(StateArr::Array{Int8})`
 - Common mistakes
 	- Usage of range #card

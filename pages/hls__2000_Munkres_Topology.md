@@ -502,3 +502,13 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   hl-page:: 486
   hl-color:: yellow
   id:: 63ff1f74-71d1-4d4e-b347-d0746b62e728
+- Definition
+  ls-type:: annotation
+  hl-page:: 488
+  hl-color:: yellow
+  id:: 6407fb80-5967-40fa-9773-ae5903f117a0
+- Theorem
+  ls-type:: annotation
+  hl-page:: 489
+  hl-color:: yellow
+  id:: 6407fddd-bfbc-4b68-b54a-ae71c0566d35

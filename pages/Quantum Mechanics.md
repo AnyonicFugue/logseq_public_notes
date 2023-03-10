@@ -9,6 +9,7 @@
 	  id:: 63baadc0-61ea-47ef-9e08-884c8c612e9d
 	- [[Interaction Picture]]
 - # Density-matrix formulation
+  collapsed:: true
 	- Evolution
 		- $\frac{d}{d t} \rho(t)=\frac{1}{i \hbar}[H, \rho(t)]$
 	-
@@ -27,7 +28,9 @@
 		-
 		- Remark: Equivalent to projective measurements with an auxiliary system. [TODO: prove it.]
 	-
+- # [[Second Quantization]]
 - # Misc
+  collapsed:: true
 	- Schmidt decomposition of an entangled state #card
 	  card-last-score:: 3
 	  card-repeats:: 2

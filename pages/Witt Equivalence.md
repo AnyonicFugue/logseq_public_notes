@@ -1,6 +1,12 @@
 alias:: Witt equivalent
 
 - Def #card
+  card-last-interval:: 24
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-04-01T03:53:32.549Z
+  card-last-reviewed:: 2023-03-08T03:53:32.549Z
+  card-last-score:: 5
 	- ((63a6b763-d79b-49fa-a285-b530384b965a)) We say that two anomaly-free stable 2d topological orders C and D are Witt equivalent if there **exists a gapped 1d domain wall between them**.
 	- Mathematically: We say that two nondegenerate braided fusion categories $\mathcal{C}$ and $\mathcal{D}$ are Witt equivalent if there exists a closed fusion $(\mathcal{C}, \mathcal{D})$-bimodule $\mathcal{M}$.
 - Relation with [[Stacking]]

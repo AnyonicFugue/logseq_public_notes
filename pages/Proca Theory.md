@@ -8,6 +8,7 @@
 		- Thus the EOM becomes 
 		  $$(m^2+\partial_\nu \partial^\nu)A^\mu=0$$.
 	- ## Quantization
+	  collapsed:: true
 		- Classically 
 		  $$A^\mu(x)=\sum_{\lambda=1}^3 \int \frac{d^3 p}{(2 \pi)^3} a_{p\lambda}\varepsilon^\mu(\vec{p}, \lambda) e^{i p \cdot x}$$
 		- The corresponding field operator is clearly 
@@ -17,6 +18,9 @@
 		- $\sum_{\lambda=1}^3 \varepsilon_\mu(\beta, \lambda) \varepsilon_\nu^*(\beta, \lambda)=-g_{\mu \nu}+\beta_\mu \beta_\nu / m^2$
 			- This can be easily proven in the rest frame, then it holds in all frames by Lorentz invariance.
 		-
+	- The interaction part is 
+	  id:: 6402a553-2dce-4be3-b74c-ed2ec51ef393
+	  $$\begin{aligned} V_I & =-\vec{j} \cdot \vec{A}+j^0 A^0+\frac{1}{2 m^2} j^{0^2} \\ & =j^\mu A_\mu+\frac{1}{2 m^2}\left(j^0\right)^2\end{aligned}$$
 - # CCR and Causality
 	- $\left[A_\mu(x), A_\nu(y)\right]=\left(-g_{\mu \nu}-\frac{\partial_\mu \partial_v}{m^2}\right) \Delta(x-y)$, where $\Delta(x-y)=\int \frac{d^3 p}{(2 \pi)^3 2 \omega_p}\left[e^{-i p \cdot(x-y)}-e^{i p \cdot(x-y)}\right]$
 		- Obviously it is zero for spacelike separations. Easy to prove by invoking Lorentz invariance.
@@ -24,6 +28,12 @@
 - # Spin Operator
   collapsed:: true
 	- Spin and Lorentz symmetry #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-02T00:46:42.231Z
+	  card-last-reviewed:: 2023-03-09T00:46:42.231Z
+	  card-last-score:: 5
 		- In principle, spins are conserved currents of the Lorentz symmetry.
 		- Moreover, the current naturally decomposes into an orbital part and an internal part, corresponding to orbital angular momentum and spin.
 	- Here the field transforms as $A^\mu(x) \longrightarrow \Lambda_\nu^\mu A^\nu\left(\Lambda^{-1} x\right)$, where $\Lambda^\mu_\nu=\frac{i}{2} \Omega_{\rho \sigma}\left(J^{\rho \sigma}\right)^\mu_\nu$
@@ -55,8 +65,10 @@
 		  a_{p, 0}=a_{p, 3}
 		  \end{array}\right.
 		  $$
-- # Propagator
-	- $$
+- # Propagator and Feynman Diagrams
+  collapsed:: true
+	- collapsed:: true
+	  $$
 	  \begin{aligned}
 	  D_F^{\mu \nu}(x-y) & =\left\langle 0\left|T\left\{A^\mu(x) A^\nu(y)\right\}\right| 0\right\rangle \\
 	  & =\theta\left(x^0-y^0\right)\left(-g^{\mu \nu}-\frac{\partial^\mu \partial^\nu}{m^2}\right) D(x-y)+\theta\left(y^0-x^0\right)\left(-g^{\mu \nu}-\frac{\partial^\mu \partial^\nu}{m^2}\right) D(y-x)
@@ -65,13 +77,29 @@
 		- Why can we write the propagator in this form? #card
 			- $$A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 \omega_p}} \sum_{\lambda=1}^3\left[\varepsilon_\mu(p, \lambda) a_{p, \lambda} e^{-i p \cdot x}+\varepsilon_\mu^*(p, \lambda) a_{p, \lambda}^{\dag} e^{i p \cdot x}\right]$$. 
 			  The extra term is the sum over polarizations, so we just need to add $-g^{\mu \nu}-\frac{\partial^\mu \partial^\nu}{m^2}$ before every scalar-field quantities.
-	- Prop. 
-	  $$
-	  \begin{aligned}
-	  & \theta\left(x^0-y^0\right) \partial_0^2 D(x-y)+\theta\left(y^0-x^0\right) \partial_0^2 D(y-x) \\
-	  = & \partial_0^2 D_F(x-y)-\delta^{\prime}\left(x^0-y^0\right)[\phi(x), \phi(y)]-2 \delta\left(x^0-y^0\right) \frac{\partial}{\partial x^0}[\phi(x), \phi(y)]
-	  \end{aligned}
-	  $$
-		-
+	- Furthermore, we would like to express it in terms of the scalar [[Feynman Propagator]].
+		- However $D_F^{\mu \nu}(x-y)\neq\left(-g^{\mu \nu}-\partial^\mu \partial \nu / m^2\right) D_F(x-y)$, since derivatives doesn't commute with time ordering. We should find the extra term caused by the non-commutativity.
+			- Prop. Only $\partial_0^2$ has contributions. #card
+		- Prop. #card 
+		  $$
+		  \begin{aligned}
+		  & \theta\left(x^0-y^0\right) \partial_0^2 D(x-y)+\theta\left(y^0-x^0\right) \partial_0^2 D(y-x) \\
+		  = & \partial_0^2 D_F(x-y)-\delta^{\prime}\left(x^0-y^0\right)[\phi(x), \phi(y)]-2 \delta\left(x^0-y^0\right) \frac{\partial}{\partial x^0}[\phi(x), \phi(y)]
+		  \end{aligned}
+		  $$
+		- Prop. 
+		  $$
+		  D_F^{\mu \nu}(x-y)=\left(-g^{\mu \nu}-\partial^\mu \partial^\nu / m^2\right) D_F(x-y)-\frac{i}{m^2} g^{\mu 0} g^{\nu 0} \delta^{(k)}(x-y)
+		  $$
+			- The second term $-\frac{i}{m^2} g^{\mu 0} g^{\nu 0} \delta^{(k)}(x-y)$ would cancel the unphysical term $\frac{1}{2 m^2}\left(j^0\right)^2$. #card
+				- Consider the vacuum diagrams $\left\langle 0\left|T\left\{\exp \left[-i \int d t V_I(t)\right]\right\}\right| 0\right\rangle$ first.
+					- Note that the interaction part is $$V_I =j^\mu A_\mu+\frac{1}{2 m^2}\left(j^0\right)^2$$ and refer to the ((6401b897-2b58-4ac2-85b6-6a8b08ac6797))
+					-
+				- We cannot contract the first order.
+				- Second order
+					- *To be completed*
+					-
 	-
+- # [[Constraint]] and [[Dirac Bracket]]
+	- The quantization can be done by Dirac brackets. The final result is $\left[A^i(t . \vec{x}), \pi_j(t, \vec{y})\right]=i \delta_j^i \delta^{(3)}(x-y)$
 -

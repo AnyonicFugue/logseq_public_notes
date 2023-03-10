@@ -1,9 +1,9 @@
 - Def #card
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-03-03T00:40:53.211Z
-  card-last-reviewed:: 2023-02-07T00:40:53.212Z
+  card-last-interval:: 67.2
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-05-16T04:43:30.023Z
+  card-last-reviewed:: 2023-03-10T00:43:30.023Z
   card-last-score:: 5
 	- [[Topological Order]]
 		- Invertible under [[Stacking]]

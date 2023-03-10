@@ -7,11 +7,11 @@
 	  ((63719d3c-6026-4c67-ab32-d7b4211a7b4b))
 		- ((63719d59-3c84-4cde-86d5-1889cdcbd6a9))
 		- How to prove the uniqueness? #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2022-12-06T13:00:42.548Z
-		  card-last-reviewed:: 2022-11-26T13:00:42.548Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.22
+		  card-next-schedule:: 2023-04-01T03:56:02.404Z
+		  card-last-reviewed:: 2023-03-08T03:56:02.405Z
 		  card-last-score:: 3
 - Properties
 	- $$\operatorname{dim}(x \oplus y)=\operatorname{dim}(x)+\operatorname{dim}(y)\\ \quad \operatorname{dim}(x \otimes y)=\operatorname{dim}(x) \cdot \operatorname{dim}(y)$$

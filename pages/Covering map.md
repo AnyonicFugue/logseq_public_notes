@@ -10,9 +10,9 @@
 		  card-last-score:: 5
 			- Essentially, taking the subspace affect neither disjointed nor open.
 		- ((63784b53-c5a9-48d5-ad15-eb33281a8251)) #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-02-07T01:35:33.485Z
-		  card-last-reviewed:: 2023-01-14T01:35:33.486Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-05-11T15:21:03.341Z
+		  card-last-reviewed:: 2023-03-05T11:21:03.341Z
 		  card-last-score:: 5

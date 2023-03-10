@@ -1,5 +1,4 @@
 - # Setup and Definitions
-  collapsed:: true
 	- Incoming and outgoing states
 		- $\begin{aligned} & \left.\left.\mid\left\{p_i\right\}(t) \text { in }\right\rangle_I=U(t,-\infty) \mid\left\{p_i\right\} \text { in }\right\rangle_H \\ & \left.\left.\mid\left\{p_i\right\}(t) \text { out }\right\rangle_I=U(t,+\infty) \mid\left\{p_i\right\} \text { out }\right\rangle_H\end{aligned}$
 		- Completeness relation
@@ -12,6 +11,7 @@
 		- ((637b326c-0792-4cf0-b2e5-d861201c971c))
 		-
 - Gell-Mann-Low formula #card
+  id:: 6401b897-2b58-4ac2-85b6-6a8b08ac6797
   collapsed:: true
 	- $$\langle\Omega|T\{\phi(x) \phi(y)\}| \Omega\rangle=\lim _{T \rightarrow \infty(1-i e)} \frac{\left\langle 0\left|T\left\{\phi_I(x) \phi_I(y) \exp \left[-i \int_{-T}^T d t H_I(t)\right]\right\}\right| 0\right\rangle}{\left\langle 0\left|T\left\{\exp \left[-i \int_{-T}^T d t H_I(t)\right]\right\}\right| 0\right\rangle}$$
 	- Notes
@@ -19,6 +19,22 @@
 		- [[Haag's Theorem]] actually forbids the interaction picture for relativistic QFT.
 			- Actually this is a notoriously difficult mathematical problem to construct interacting QFT satisfying the [[Wightman Axioms]].
 			-
+- # From S-matrix to Cross Section
+- # [[Feynman rules]]
+  collapsed:: true
+	- $$\begin{aligned} i \mathcal{M} \cdot & (2 \pi)^4 \delta^{(4)}\left(p_{\mathcal{A}}+p_{\mathcal{B}}-\sum p_f\right) \\ & =\left(\begin{array}{c}\text { sum of all connected, amputated Feynman } \\ \text { diagrams with } p_{\mathcal{A}}, p_{\mathcal{B}} \text { incoming, } p_f \text { outgoing }\end{array}\right) .\end{aligned}$$
+		- Note that $S=\mathcal 1+i \mathcal M$, so it is customary to {{cloze write a factor of i before M}}! #card
+		  card-last-interval:: 25.01
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-04T00:40:46.736Z
+		  card-last-reviewed:: 2023-03-10T00:40:46.736Z
+		  card-last-score:: 5
+		- See ((6407dea0-fd6b-4c8f-9e20-de12dfe7edb2))
+		-
+	- Feynman rules for fermions
+		- Generalize TOP and normal-ordering
+		- Generalized Wick's [TODO]
 - # Källén-Lehmann Spectral  Representation
   collapsed:: true
 	- Peskin ((639094ce-9088-4138-a4b5-7ac7f96f7d15))
@@ -61,9 +77,15 @@
 				- A delta function at $M^2=m^2$ (physical mass, not bare mass), a continuum for $M^2 \gtrsim 4m^2$
 			- Intuitively, the 2-point correlation function can be decomposed into contributions of different effective masses.
 	- ## Relation to the Propagator #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-01T01:40:17.121Z
+	  card-last-reviewed:: 2023-03-07T01:40:17.122Z
+	  card-last-score:: 5
 		- We perform a Fourier transformation to see the thing more clearly in the momentum space.
 			- $$\begin{aligned} & \int d^4 x e^{i p \cdot x}\langle\Omega|T \phi(x) \phi(0)| \Omega\rangle=\int_0^{\infty} \frac{d M^2}{2 \pi} \rho\left(M^2\right) \frac{i}{p^2-M^2+i \epsilon} \\ &= \frac{i Z}{p^2-m^2+i \epsilon}+\int_{\sim 4 m^2}^{\infty} \frac{d M^2}{2 \pi} \rho\left(M^2\right) \frac{i}{p^2-M^2+i \epsilon}\end{aligned}$$
-				- Familiar Feynman propagator!
+				- Familiar Feynman propagator! Different density for different masses.
 		- ((63904004-1719-49a0-a4ed-ae545a9d3ac2)), but with field-strength renormalizations.
 		- ### 1-particle part
 			- $\rho\left(M^2\right)=2 \pi \delta\left(M^2-m^2\right) \cdot Z+\left(\right.$ nothing else until $\left.M^2 \gtrsim(2 m)^2\right)$
@@ -79,11 +101,8 @@
 			- Dirac field ((63904193-3f90-4077-a320-ee734d2a3f38))
 		-
 	-
-- # [[Feynman rules]]
-	- Feynman rules for fermions
-		- Generalize TOP and normal-ordering
-		- Generalized Wick's [TODO]
 - # Topics
+  collapsed:: true
 	- A fundamental difficulty: We need the states to be asymptotic in the **interaction theory**. However, we only knows how to create **free** plane waves.
 	  collapsed:: true
 		- ((63675402-6c64-443b-b71c-90c3a99a4842))

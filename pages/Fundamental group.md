@@ -42,14 +42,14 @@
 		- Moreover, $$h_*$$ is a group homomorphism. #Exercise
 	- If h is a homeomorphism, then $$h_*$$ is a group isomorphism.
 - $\pi_1\left(X \times Y, x_0 \times y_0\right)$ is isomorphic with $\pi_1\left(X, x_0\right) \times \pi_1\left(Y, y_0\right)$ #card
-  card-last-interval:: 26.06
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-02-07T14:28:27.172Z
-  card-last-reviewed:: 2023-01-12T13:28:27.172Z
+  card-last-interval:: 24
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-03-29T01:06:41.577Z
+  card-last-reviewed:: 2023-03-05T01:06:41.578Z
   card-last-score:: 5
   collapsed:: true
-	- This is very intuitive.
+	- This is very intuitive. Path in $X\times Y$ <-> product of path in $X$ and path in $Y$.
 	- Corollary. Since $T^2=S^1 \times S^1$, $\pi_1(T^2)=\mathbb Z \times \mathbb Z$
 -
 	- ((63a7ba49-e539-495b-a981-0f27d65e5201)) Suppose $X=U \cup V$, where $U$ and $V$ are open sets of $X$. Suppose that $U \cap V$ is path connected, and that $x_0 \in U \cap V$. Let $i$ and $j$ be the inclusion mappings of $U$ and $V$, respectively, into $X$. Then the images of the induced homomorphisms $i_*: \pi_1\left(U, x_0\right) \rightarrow \pi_1\left(X, x_0\right) \quad \text { and } \quad j_*: \pi_1\left(V, x_0\right) \rightarrow \pi_1\left(X, x_0\right)$ **generate** $\pi_1\left(X, x_0\right)$. #card
@@ -74,11 +74,11 @@
 - Examples
 	- The circle
 		- $\pi_1(S^1)=\mathbb Z$ #card
-		  card-last-interval:: 10.42
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-23T16:30:11.447Z
-		  card-last-reviewed:: 2022-12-13T06:30:11.448Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-29T11:16:58.383Z
+		  card-last-reviewed:: 2023-03-05T11:16:58.384Z
 		  card-last-score:: 5
 			- By the [Theorem](((638c0f2d-33eb-4634-9467-e083bf50506d))), we may select a simply connected covering space. Here we choose R and covers $S^1$ in the usual way.
 			- Let $e_0=0$. Now it's easy to see that the lifting correspondence $\phi$ is a group homomorphism.

@@ -1,3 +1,9 @@
+- # How to do the calculations?
+	- Add the symmetry factor
+		- Note that exchanging fermion operators would lead to factors of $-1$.
+		- Also, a fermion loop always leads to a factor of $-1$.
+	- From top-left to down-right, proceed vertex by vertex
+	- Integrate over all internal momenta (positions).
 - [[Yukawa theory]]
 	- ((6379dcb3-beeb-43b4-9493-b45ef5cd5a9e)) for fermions and scalar fields
 	  Note that external vertices don't give propagators

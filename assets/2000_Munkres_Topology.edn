@@ -1723,5 +1723,45 @@
       :height 1572.0959999999998}),
     :page 486},
    :content {:text "Theorem"},
+   :properties {:color "yellow"}}
+  {:id #uuid "6407fb80-5967-40fa-9773-ae5903f117a0",
+   :page 488,
+   :position
+   {:bounding
+    {:x1 66.66278076171875,
+     :y1 1029.3493041992188,
+     :x2 158.73577880859375,
+     :y2 1053.9761962890625,
+     :width 890.8799999999999,
+     :height 1367.04},
+    :rects
+    ({:x1 66.66278076171875,
+      :y1 1029.3493041992188,
+      :x2 158.73577880859375,
+      :y2 1053.9761962890625,
+      :width 890.8799999999999,
+      :height 1367.04}),
+    :page 488},
+   :content {:text "Definition"},
+   :properties {:color "yellow"}}
+  {:id #uuid "6407fddd-bfbc-4b68-b54a-ae71c0566d35",
+   :page 489,
+   :position
+   {:bounding
+    {:x1 66.66265869140625,
+     :y1 208.90665435791016,
+     :x2 153.1512451171875,
+     :y2 234.27979278564453,
+     :width 890.8799999999999,
+     :height 1367.04},
+    :rects
+    ({:x1 66.66265869140625,
+      :y1 208.90665435791016,
+      :x2 153.1512451171875,
+      :y2 234.27979278564453,
+      :width 890.8799999999999,
+      :height 1367.04}),
+    :page 489},
+   :content {:text "Theorem"},
    :properties {:color "yellow"}}], 
- :extra {:page 479}}
+ :extra {:page 481}}

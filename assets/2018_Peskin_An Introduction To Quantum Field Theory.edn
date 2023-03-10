@@ -38,5 +38,59 @@
       :height 1723.1428571428573}),
     :page 246},
    :content {:text "analyze"},
+   :properties {:color "yellow"}}
+  {:id #uuid "640458fa-7092-47a3-a5db-acb4759ce58a",
+   :page 504,
+   :position
+   {:bounding
+    {:x1 0,
+     :y1 189.73880004882812,
+     :x2 1201.5728073120117,
+     :y2 1013.7826232910156,
+     :width 1352.3999999999999,
+     :height 2042.3999999999999},
+    :rects
+    ({:x1 0,
+      :y1 189.73880004882812,
+      :x2 0,
+      :y2 209.14178466796875,
+      :width 1352.3999999999999,
+      :height 2042.3999999999999}
+     {:x1 1075.0725631713867,
+      :y1 942.6538696289062,
+      :x2 1201.5728073120117,
+      :y2 976.9822387695312,
+      :width 1352.3999999999999,
+      :height 2042.3999999999999}
+     {:x1 170.74393463134766,
+      :y1 979.4542541503906,
+      :x2 1024.2721328735352,
+      :y2 1013.7826232910156,
+      :width 1352.3999999999999,
+      :height 2042.3999999999999}),
+    :page 504},
+   :content
+   {:text
+    " They are effectively canceled out by the longitudinal polarization states"},
+   :properties {:color "purple"}}
+  {:id #uuid "6407dea0-fd6b-4c8f-9e20-de12dfe7edb2",
+   :page 137,
+   :position
+   {:bounding
+    {:x1 719.5600891113281,
+     :y1 479.93233489990234,
+     :x2 765.1588439941406,
+     :y2 502.32039642333984,
+     :width 882,
+     :height 1332},
+    :rects
+    ({:x1 719.5600891113281,
+      :y1 479.93233489990234,
+      :x2 765.1588439941406,
+      :y2 502.32039642333984,
+      :width 882,
+      :height 1332}),
+    :page 137},
+   :content {:text "4.103"},
    :properties {:color "yellow"}}], 
- :extra {:page 237}}
+ :extra {:page 135}}

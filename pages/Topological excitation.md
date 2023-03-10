@@ -18,15 +18,15 @@ alias:: [[Topological defect]]
 		- ((63687b11-001c-4dee-baa5-f37127a4ed6d))
 		-
 - Realization of composite excitation #card
-  card-last-interval:: 28
-  card-repeats:: 3
-  card-ease-factor:: 2.8
-  card-next-schedule:: 2023-01-06T12:40:56.184Z
-  card-last-reviewed:: 2022-12-09T12:40:56.184Z
+  card-last-interval:: 201.84
+  card-repeats:: 4
+  card-ease-factor:: 2.9
+  card-next-schedule:: 2023-09-22T21:07:34.958Z
+  card-last-reviewed:: 2023-03-05T01:07:34.958Z
   card-last-score:: 5
 	- ((63687824-ea47-4b9b-89b5-c959a050e0dd)) as an example. 
 	  $$H^{\prime}=H+B_{p_0}=\sum_v\left(1-A_v\right)+\sum_{p \neq p_0}\left(1-B_p\right)+1 $$
-		- Essentially **identify energies** of 2 excitations.
+		- Essentially **degeneracy** of 2 excitations.
 	- ((636dfa7f-9f43-4049-bcac-0ab2a9d8670a))
 - ((6371b4f9-93c1-4633-b305-2ad44d9387e2))
 	- Note that 'anomaly-free' implies 'modular'.

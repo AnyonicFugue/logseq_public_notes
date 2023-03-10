@@ -116,6 +116,7 @@
 	- ### The dunce cap
 	  id:: 63e86249-c48a-4740-a36d-100aeb1da16c
 		- ((63e2f868-ca9c-4ce7-8b48-b1dfeed85715)) Let $n$ be a positive integer with $n>1$. Let $r: S^1 \rightarrow S^{\mathbf{l}}$ be rotation through the angle $2 \pi / n$, mapping $(\cos \theta, \sin \theta)$ to $(\cos (\theta+$ $2 \pi / n), \sin (\theta+2 \pi / n))$. Form a quotient space $X$ from the unit ball $B^2$ by identifying each point $x$ of $S^1$ with the points $r(x), r^2(x), \ldots, r^{n-1}(x)$. $X$ is a compact Hausdorff space; we call it the n-fold dunce cap.
+		- The labelling scheme is $a^n$.
 		- Theorem. The fundamental group of the $n$-fold dunce cap is a cyclic group of order $n$. #card
 		  card-last-interval:: 26.06
 		  card-repeats:: 1

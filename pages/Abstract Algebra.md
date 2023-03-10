@@ -105,16 +105,22 @@
 		  card-last-score:: 5
 			- Exercise.
 		- ((63d8b994-a24d-4c55-a175-51c32f4f9bd2)) If $G$ is a free group with free generators $a_\alpha$, then $G /[G, G]$ is a free abelian group with basis $\left[a_\alpha\right]$, where $\left[a_\alpha\right]$ denotes the coset of $a_\alpha$ in $G /[G, G]$. #card
+		  card-last-interval:: 29.48
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-03T22:15:11.242Z
+		  card-last-reviewed:: 2023-03-05T11:15:11.242Z
+		  card-last-score:: 5
 			- Prove by the universal properties.
 			- ![Image(1).png](../assets/Image(1)_1675148605297_0.png)
 				- H is an abelian group.
 				- $f$ must factor through $\pi$ since H is abelian.
 		- Corollary. The rank of a free group doesn't depend on the basis chosen. #card
-		  card-last-interval:: 26.06
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-02-26T14:11:03.853Z
-		  card-last-reviewed:: 2023-01-31T13:11:03.854Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-29T01:07:17.486Z
+		  card-last-reviewed:: 2023-03-05T01:07:17.487Z
 		  card-last-score:: 5
 			- Exercise.
 - [[Luroth Theorem]]

@@ -71,12 +71,49 @@
 				- $\left\|(A-I)^m\right\| \leq\|(A-I)\|^m$
 	- [[Matrix Exponential]]
 	- [[Matrix Logarithm]]
+	  collapsed:: true
 		- We hope to define something as an inverse of the matrix exponential.
 		  However, a bit knowledge in [[Complex Analysis]] would show that it is impossible to have a global one.
 	-
 - Exapmles
+  collapsed:: true
 	- General Linear Group, $GL(n,\mathbb C)$
 	- Special Unitary Group
 		- ((6381bed0-deb1-4cab-94d7-e1e4837c83e8))
 		-
+	- Heisenberg group
+	  id:: 63e884c8-ec49-498f-8b3c-1decb6106562
+		- Matrices of the form $\left(\begin{array}{lll}1 & a & b \\ 0 & 1 & c \\ 0 & 0 & 1\end{array}\right)$
+	- A nonmatrix Lie group
+	  id:: 63e8847a-9140-4cd5-a6e3-a3baa7222645
+		- Def
+			- $G=\mathbb{R} \times \mathbb{R} \times S^1$
+			- $\left(x_1, y_1, u_1\right) \cdot\left(x_2, y_2, u_2\right)=\left(x_1+x_2, y_1+y_2, e^{2\pi i x_1 y_2} u_1 u_2\right)$
+			- Of course it is a group and the multiplication is smooth.
+		- Theorem. It is not isomorphic to any matrix Lie group. #card
+		  card-last-interval:: 29.48
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-21T23:05:57.636Z
+		  card-last-reviewed:: 2023-02-20T12:05:57.636Z
+		  card-last-score:: 5
+			- Consider a homomorphism from the ((63e884c8-ec49-498f-8b3c-1decb6106562)), $\Phi\left(\begin{array}{lll}1 & a & b \\ 0 & 1 & c \\ 0 & 0 & 1\end{array}\right)=\left(a, c, e^{2 \pi i b}\right)$
+				- $N:=\operatorname{Ker}\Phi=\left\{\left(\begin{array}{lll}1 & 0 & n \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{array}\right) \mid n \in \mathbb{Z}\right\}$
+			- For some rep of $G$, it naturally induces a rep of $H$ by ![image.png](../assets/image_1676185047825_0.png)
+			- ((63e88de6-862b-46b6-8689-bbd85d966509)). Let $\Pi$ be any finite-dimensional representation of $H$. If ker $\Pi \supset$ $N$, then 
+			  $$\operatorname{ker} \Pi \supset Z(H)=\left\{\left(\begin{array}{lll}
+			  1 & 0 & b \\
+			  0 & 1 & 0 \\
+			  0 & 0 & 1
+			  \end{array}\right) \mid b \in \mathbb{R}\right\}$$
+				- Lemma 4.38. If $X$ is a nilpotent matrix and $e^{t X}=I$ for some nonzero $t$, then $X=0$.
+					- Simple way: Jordan standard form.
+						- All eigenvalues are 0.
+						- Only to consider the blocks where all up-diagonal terms are 1.
+						- Consider the second-lowest line. Only first-order term has the nonzero up-diagonal term. So $e^tX=I$ leads to a contradiction.
+					- Official proof: Rather interesting.
+						- Since $X$ is nilpotent, the power series for $e^{t X}$ terminates after a finite number of terms. Thus, each entry of $e^{t X}$ depends **polynomially** on $t$; that is, there exist polynomials $p_{j k}(t)$ such that $\left(e^{t X}\right)_{j k}=p_{j k}(t)$.
+						- If $e^{t X}=I$ for some nonzero $t$, then $e^{n t X}=I$ for all $n \in \mathbb{Z}$, showing that $p_{j k}(n t)=\delta_{j k}$ for all $n$. **However, a polynomial that takes on a certain value infinitely many times must be constant**. Thus, actually, $e^{t X}=I$ for all $t$.
+				- Then consider the associated rep for $\mathfrak h$.
+			- Thus the rep of $G$ cannot be faithful.
 	-

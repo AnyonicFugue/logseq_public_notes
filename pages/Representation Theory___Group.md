@@ -56,6 +56,12 @@
 			- U inv ⇒ Complement of U inv.
 		- Theorem. Every real (complex) linear representation of a finite group is isomorphic to an orthogonal (unitary) representation. #card
 		  collapsed:: true
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-29T00:57:10.930Z
+		  card-last-reviewed:: 2023-03-05T00:57:10.931Z
+		  card-last-score:: 5
 			- Construct an invariant inner product by summing:  #Trick
 			- Given any inner product $f_0(\cdot,\cdot)$, define $f(u,v)=\sum_{g}f_0(T(g)u,T(g)v)$
 		- Theorem. Every real (complex) linear representation of a compact topological group is orthogonal (respectively, unitary). #card
@@ -194,6 +200,12 @@
 				- The same man in different mirrors by isomorphisms. #[[Thoughts/Math and Physics]]
 			-
 			- Corollary 1. $\operatorname{dim}\mathrm{M} (T)=n^{2}$, where  $n=\operatorname{dim} V$. #card
+			  card-last-interval:: 24
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-04-01T03:54:17.672Z
+			  card-last-reviewed:: 2023-03-08T03:54:17.672Z
+			  card-last-score:: 5
 			- Corollary 2. The map $\mu$ establishes an isomorphism of $IT^{\prime }$ and $L_{\mathrm{M} (T)}$ as well as→$TI^{\prime }$ and $R_{\mathrm{M} (T)}$.
 			- Corollary 3. $L_{\mathrm{M} (T)} \simeq nT^{\prime }$ and  $R_{\mathrm{M} (T)} \simeq nT$. 
 			  id:: caeeba62-511c-4014-abcc-0317e98b10e8

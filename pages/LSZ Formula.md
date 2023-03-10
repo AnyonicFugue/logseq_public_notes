@@ -6,8 +6,13 @@
 			- Example. $\int d^4 x e^{i p \cdot x}\langle\Omega|T \phi(x) \phi(0)| \Omega\rangle \underset{p^2 \rightarrow m^2}{\sim} \frac{i Z}{p^2-m^2+i \epsilon}$ up to some phase or non-singular terms
 		- Take the limit where all particles are on shell, the coefficient (residue) of the multiple pole is an S-matrix element.
 	- Simple case: Examine $\int d^4 x e^{i p \cdot x}\left\langle\Omega\left|T\left\{\phi(x) \phi\left(z_1\right) \phi\left(z_2\right) \cdots\right\}\right| \Omega\right\rangle$. #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-01T01:35:22.928Z
+	  card-last-reviewed:: 2023-03-07T01:35:22.928Z
+	  card-last-score:: 5
 		- Key points
-		  collapsed:: true
 			- Divide the integral into three regions 
 			  $$\int d x^0=\int_{T_{+}}^{\infty} d x^0+\int_{T_{-}}^{T_{+}} d x^0+\int_{-\infty}^{T_{-}} d x^0$$.
 			  The asymptotic regions are easy to analyze, while **the finite region has no contribution** to the singularity structure.
@@ -22,7 +27,6 @@
 			- We recognize $\left\langle\Omega|\phi(0)| \lambda_0\right\rangle=\sqrt Z$ up to a phase. Moreover, since the field is free, we only need to consider the 1-particle part.
 			-
 			- **Conclusion**
-			  collapsed:: true
 				- id:: 640000d5-4226-4b33-b898-933b0e843e33
 				  collapsed:: true
 				  $$\begin{aligned} \int d^4 x e^{i p \cdot x} & \left\langle\Omega\left|T\left\{\phi(x) \phi\left(z_1\right) \cdots\right\}\right| \Omega\right\rangle \\ \underset{p^0 \rightarrow+E_{\mathbf{p}}}{\sim} & \frac{i}{p^2-m^2+i \epsilon} \sqrt{Z}\left\langle\mathbf{p}\left|T\left\{\phi\left(z_1\right) \cdots\right\}\right| \Omega\right\rangle\end{aligned}$$

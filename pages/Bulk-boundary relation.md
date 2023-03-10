@@ -7,10 +7,10 @@ alias:: Bulk-Boundary Correspondence
 		- Interesting! Investigate it later! #[[ToRead]]
 		- Mathematically: ((63ba2dc0-b1ee-48e6-8d59-201de7f43a7c)) #card
 		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-02-26T12:15:11.022Z
-		  card-last-reviewed:: 2023-02-02T12:15:11.023Z
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-04-03T00:33:08.105Z
+		  card-last-reviewed:: 2023-03-10T00:33:08.106Z
 		  card-last-score:: 5
 			- On the one hand, we may obtain the bulk from the boundary (if we know the correct definition of morphisms)
 			- On the other hand, we may solve for the boundary by $\mathcal{C}=\mathfrak{Z}_1(?)$.
@@ -58,10 +58,10 @@ alias:: Bulk-Boundary Correspondence
 -
 - ((63aa65c7-5e7e-40f4-8216-535034102848)) 3D version #card
   card-last-interval:: 24
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-02-22T00:51:07.604Z
-  card-last-reviewed:: 2023-01-29T00:51:07.605Z
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-03-31T00:58:24.890Z
+  card-last-reviewed:: 2023-03-07T00:58:24.891Z
   card-last-score:: 5
 	- (a) The bulk topological defects of codimension 2 and higher form a braided fusion 2-category $\mathbf{B}$.
 		- 'Codimension >=2' includes points and strings.

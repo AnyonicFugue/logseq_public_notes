@@ -8,7 +8,6 @@
 -
 - Homotopy
 	- Defs
-	  collapsed:: true
 		- Homotopy of maps
 		  collapsed:: true
 			- If $f$ and $f^{\prime}$ are continuous maps of the space $X$ into the space $Y$, we say that $f$ is homotopic to $f^{\prime}$ if there is a continuous map $F : X \times I \rightarrow Y$ such that
@@ -17,7 +16,6 @@
 			-
 			- The maps don't have 'endpoints' as paths, so there's no extra condition of 'fixed endpoints'.
 		- Homotopy of paths
-		  collapsed:: true
 			- With the extra requirement that the **endpoints are fixed.**
 			- Two paths $f$ and $f^{\prime}$, mapping the interval $I=[0,1]$ into $X$, are said to be path homotopic if they have the same initial point $x_0$ and the same final point $x_1$, and if there is a continuous map $F: I \times I \rightarrow X$ such that
 			- $$\begin{array}{lll}
@@ -28,7 +26,6 @@
 			- for each $s \in I$ and each $t \in I$. We call $F$ a path homotopy between $f$ and $f^{\prime}$ See Figure 51.1. If $f$ is path homotopic to $f^{\prime}$, we write $f \simeq_p f^{\prime}$.
 			  id:: 63c14161-a2e6-4179-a53c-7bc62b6233d5
 	- Lemma. The relations $\simeq$ and $\simeq p$ are equivalence relations.
-	  collapsed:: true
 		- Easy to verify identity, reflexivity and transitivity.
 	- Homotopy class
 - [[Fundamental group]]
@@ -59,11 +56,11 @@
 			  collapsed:: true
 				- This is a general property of inclusions: {{cloze One-side invertible}}
 		- Corollary. No retraction of $B^2$ into $S^1$. #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-01-17T12:58:44.355Z
-		  card-last-reviewed:: 2022-12-24T12:58:44.356Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-05-16T04:41:24.688Z
+		  card-last-reviewed:: 2023-03-10T00:41:24.689Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- $\pi_1(S^1)=\mathbb Z, \pi_1(B^2)=e$. No injection.
@@ -258,6 +255,12 @@
 				- Each component is a projective plane minus a circle.
 		- First [[Homology Group]] #card
 		  collapsed:: true
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-01T03:55:56.759Z
+		  card-last-reviewed:: 2023-03-08T03:55:56.760Z
+		  card-last-score:: 5
 			- ((63f95d84-10e7-484d-8591-9e785fbbf5bb)) $H_1(X):=\pi_1\left(X, x_0\right) /\left[\pi_1\left(X, x_0\right), \pi_1\left(X, x_0\right)\right]$
 		- Proper labelling scheme
 		  collapsed:: true
@@ -322,9 +325,12 @@
 			- As an exercise of the above corollary!
 		- ((63f96a7e-89f5-4b82-a31f-2c730b301a80)) If $X$ is the ((63f21c4d-b959-43e5-889d-90abd29a1092)) , then the [[Torsion Group]] $T(X)$ of $H_1(X)$ has order 2, and $H_1(X) / T(X)$ is a free abelian group of rank $m-1$. #card
 			- Another easy exercise.
+			- Recall a theorem that $\pi_1(X)=\pi_1(A)/\langle p(f_0)\rangle$.
+			- Moreover, we can that $H_1(X) / T(X)$ is free.
+				- Actually we may directly invoke the theorem for finitely-generated abelian groups.
+			-
 		- Thus we can conclude that $S^2,T_1,T_2,...; P_1,P_2,...$ are topologically distinct!
 	- Cutting and Pasting
-	  collapsed:: true
 		- Cutting
 		  collapsed:: true
 			- ((63fab6e4-190d-40c1-981e-515a552a48ab))
@@ -362,17 +368,37 @@
 			  $$
 			- Actually reversing the orientation of the polygon, which has no effect on the geometry.
 		- Cancel and uncancel
-		  collapsed:: true
 			- Replace $w_i=y_0 a a^{-1} y_1$ by $y_0y_1$ provided that $a$ doesn't appear elsewhere.
 				- Uncancel is the reverse operation.
 			- Intuitively, $aa^{-1}$ is a cone (which is topologically trivial), with the bottom pasted to the polygon in question.
 	- Exercise. The Klein bottle $a b a^{-1} b$ is homeomorphic to the 2-fold projective plane. #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-01T01:00:39.895Z
+	  card-last-reviewed:: 2023-03-07T01:00:39.896Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- We define two labelling schemes to be equivalent if {{cloze one can be obtained from another by elementary operations above}}.
 		- Try to find the operations by yourself!
-	- Towards The Classification Theorem
+	- Exercise. Can we simplify ((63e86249-c48a-4740-a36d-100aeb1da16c)) to a projective plane?
+		- eg. 6-fold dunce cap: $aaaaaa \to aaac, c^{-1}aaa \to aaac,a^{-3}c \to cc$ **?**
+		- Answer: {{cloze NO. Cancelling can only be applied to a label which doesn't appear elsewhere.}}
+	- The Classification Theorem
 		- Simplify the representation into some canonical form. #Strategy #card
+		  card-last-interval:: 30.72
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-05T04:20:16.557Z
+		  card-last-reviewed:: 2023-03-05T11:20:16.557Z
+		  card-last-score:: 5
 		- Theorem. If $w$ is a scheme of projective type, then $w$ is equivalent to a scheme of the same length having the form
+		  card-last-interval:: 21.86
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-03-31T07:01:53.427Z
+		  card-last-reviewed:: 2023-03-09T11:01:53.427Z
+		  card-last-score:: 5
 		  $$
 		  \left(a_1 a_1\right)\left(a_2 a_2\right) \cdots\left(a_k a_k\right) w_1
 		  $$
@@ -380,7 +406,6 @@
 			- In plain English, the same edges can all be pushed to the front.
 			- ((63ff1367-a528-454e-aee9-bb1d36897060)) Let $w$ be a proper scheme of the form
 			  id:: 63fabdf6-dd04-4a9c-9d8f-a3635ac7b108
-			  collapsed:: true
 			  $$
 			  w=\left[y_0\right] a\left[y_1\right] a\left[y_2\right],
 			  $$
@@ -389,6 +414,7 @@
 			  w \sim a a\left[y_0 y_1^{-1} y_2\right]
 			  $$
 				- An easy exercise. Just proceed concretely to avoid mistakes!
+				- Note that there is one extra step. Not obtainable by just one cutting and pasting.
 			- Now it suffices to apply the lemma repeatedly.
 		- ((63ff145f-7f9e-4b11-8b84-ca36597daf79)) Let $w$ be a proper scheme of the form $w=w_0 w_1$, where $w_1$ is a scheme of torus type that does not contain two adjacent terms having the same label. Then $w$ is equivalent to a scheme of the form $w_0 w_2$, where $w_2$ has the same length as $w_1$ and has the form
 		  $$
@@ -407,7 +433,24 @@
 			- Proof
 				- Hint: Use the [lemma](((63fabdf6-dd04-4a9c-9d8f-a3635ac7b108))) forwards and backwards for several times.
 		- ((63ff1f74-71d1-4d4e-b347-d0746b62e728)) (The classification theorem). Let $X$ be a surface formed by a proper scheme. Then $X$ is homeomorphic either to $S^2$, to the $n$-fold torus $T_n$, or to the $m$-fold projective plane $P_m$. #card
+		  id:: 6401b892-1a98-4844-89b5-e95da63050da
 			- Note this only works for pasting edges in pairs. Not for, eg. ((63e86249-c48a-4740-a36d-100aeb1da16c)).
 			- Collecting the lemmas above!
 		-
+	- Construct Compact Surfaces
+		- Now we'd like to know whether all compact surfaces can be tackled by the classification theorem.
+		- [[Triangulation]]
+		- ((6407fddd-bfbc-4b68-b54a-ae71c0566d35)) If $X$ is a compact triangulable surface, then $X$ is homeomorphic to a space obtained from a collection of disjoint triangular regions in the plane by pasting their edges together in pairs.
+			- Plain English
+				- Every triangulable surface falls in the scope of the classification theorem.
+			- This is quite obvious. Only needing some work to show pathological cases can't be called surfaces.
+		- Theorem. Each connected compact surface can be classified by the [classification theorem](((6401b892-1a98-4844-89b5-e95da63050da))). #card
+			- First, ((6407fc4c-c8f0-405e-9919-d73a637dbe87)).
+			- Second, the surface can be obtained by pasting the edges of a set of triangles **in pairs**.
+				- We must prove that pasting several edges together isn't allowed.
+			- Furthermore, connectedness means that it can be obtained by pasting a polygon (paste the triangles successively to obtain a polygon)
+			-
+			- Note that a polygon is **not** a surface. The boundary points don't have neighborhoods homeomorphic to an open disk.
+		- Exercise. Does the classification theorem work for ((63e86249-c48a-4740-a36d-100aeb1da16c))? #card
+			- **NO**. It is not a surface for $n>2$.
 -

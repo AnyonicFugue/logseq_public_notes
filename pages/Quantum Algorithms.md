@@ -1,9 +1,9 @@
 - ## Deutsch Josa #card
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-02-27T01:13:04.082Z
-  card-last-reviewed:: 2023-02-03T01:13:04.082Z
+  card-last-interval:: 67.2
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-05-10T04:42:23.250Z
+  card-last-reviewed:: 2023-03-04T00:42:23.251Z
   card-last-score:: 5
 	- Problem
 		- We have a function $f:\{0,1\}^n \rightarrow\{0,1\}$, which is promised to be constant or balanced.
@@ -97,8 +97,15 @@
 		- Idea: [[Quantum Fourier Transformation]] is a perfect tool to interfere phases.
 		- Algorithm #card
 		  id:: f8507a4e-f0a6-4134-af3a-8d602a276de1
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-04-02T00:43:36.489Z
+		  card-last-reviewed:: 2023-03-09T00:43:36.491Z
+		  card-last-score:: 3
 			- Prepare input state $\frac{1}{\sqrt{2^n}} \sum_{x=0}^{2^n-1}|x\rangle|f(x)\rangle$
-			- Measure the second register and obtain some $x_0$. The state collapses into $\frac{1}{\sqrt{m}} \sum_{j=0}^{m-1}\left|x_0+j r\right\rangle\left|f\left(x_0\right)\right\rangle$.
+			- **Measure** the second register and obtain some $x_0$. The state collapses into $\frac{1}{\sqrt{m}} \sum_{j=0}^{m-1}\left|x_0+j r\right\rangle\left|f\left(x_0\right)\right\rangle$.
+				- Project the superposed state to something pure! #Strategy
 			- Perform QFT to the first register. $$\frac{1}{\sqrt{m}} \sum_{j=0}^{m-1} \frac{1}{\sqrt{2^n}} \sum_{k=0}^{2^n-1} e^{i2 \pi \left(x_0+j r\right) k / 2^n}|k\rangle=\frac{1}{\sqrt{m 2^n}} \sum_{k=0}^{2^n-1} e^{i2 \pi  x_0 k / 2^n} \sum_{j=0}^{m-1} e^{\color{yellow}{i2 \pi  j r k / 2^n}}|k\rangle$$
 			  Only when $rk/2^n\in Z$ can we obtain a nonzero coefficient. That is, $k=N\frac tr, t\in Z$
 			-
