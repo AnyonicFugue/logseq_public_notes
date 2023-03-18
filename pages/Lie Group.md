@@ -14,15 +14,19 @@
 		  id:: 6381bc92-5f90-4322-9a1b-0cbbf9128acc
 			- The path component with the identity
 		- Lie group homomorphism #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-02-08T01:09:09.988Z
-		  card-last-reviewed:: 2023-01-15T01:09:09.988Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-05-17T05:18:50.520Z
+		  card-last-reviewed:: 2023-03-11T01:18:50.521Z
 		  card-last-score:: 5
 		  id:: 6382c5bc-957b-4756-8adc-146cca7d1a16
 			- ((6381bdc6-e0b4-4d4d-91e3-aeb15dce7e60))
 			  To be an isomorphism, the inverse map must also be continuous.
+				- But the map shall be smooth for manifolds?
+					- For most homomorphisms we see, it is satisfied.
+				- Could we deduce smoothness from continuity?
+					- The group multiplication is smooth.
 			- All structures must correspond.
 			-
 	- Connectedness

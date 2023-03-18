@@ -126,11 +126,11 @@ type:: [[Course]]
 		- Rule:
 		  **Entanglement with the environment ->** {{cloze Classical probability within the system}}
 		- Bit-flip #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-01T00:23:08.520Z
-		  card-last-reviewed:: 2023-02-05T00:23:08.520Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-05-17T05:05:27.590Z
+		  card-last-reviewed:: 2023-03-11T01:05:27.591Z
 		  card-last-score:: 5
 			- Controlled-X with the environment bit being $\alpha |1\rang+\beta |0\rangle$
 			- Flip z direction with probability $$|\alpha|^2$$
@@ -318,12 +318,12 @@ type:: [[Course]]
 				-
 			-
 		- NMR
-			- Setting #card
-			  card-last-interval:: 10
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2022-12-19T06:02:22.365Z
-			  card-last-reviewed:: 2022-12-09T06:02:22.365Z
+			- Setting
+			  card-last-interval:: 24
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-04-06T12:11:35.690Z
+			  card-last-reviewed:: 2023-03-13T12:11:35.691Z
 			  card-last-score:: 5
 				- $H=-\frac{\omega_0}{2} \sigma_z$
 				- $L_{+}=\sqrt{\Gamma_{+}}\left(\begin{array}{ll}0 & 1 \\ 0 & 0\end{array}\right)$

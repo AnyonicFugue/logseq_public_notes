@@ -22,17 +22,16 @@
 		- Theorem. Suppose the representation $T:G\rightarrow \mathrm{GL} (V)$ is isomorphic to a sum of irreducible representations $T_{i} :G\rightarrow \operatorname{GL}( V_{i}) ,i=1,\dotsc ,m$. 
 		  collapsed:: true
 		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-14T09:23:29.466Z
-		  card-last-reviewed:: 2023-02-18T09:23:29.467Z
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-04-08T00:35:31.397Z
+		  card-last-reviewed:: 2023-03-15T00:35:31.397Z
 		  card-last-score:: 5
 		  Then every subrepresentation of $T$ ,as well as every quotient representation of $T$ is isomorphic to a sum of some of the representations $T_{i}$ #card
-			- Invoke  Theorem 3. Let $T:G\rightarrow \mathrm{GL} (V)$ be a linear Representation. Let $V=V_{1} +V_{2} +\dotsc +V_{m}$ be a decomposition of the space V into a (not necessarily direct) sum of minimal invariant subspace. 
-			  Then for every invariant subspace  U there exist indices $i_{1} ,\dotsc ,i_{p}$ such that $V=U\oplus V_{i_{1}} \oplus \dotsc \oplus V_{i_{p}}$
+			- Trick of *select a maximal linear independent set*
 			- Consider a subrep $T_U$: $$T_U\simeq T_{V/({V_{i_{1}} \oplus \dotsc \oplus V_{i_{p}}})}\simeq T_{sum\ of\ the\ remaining\ V_j }$$
 			- Isomorphism is the best we can obtain, without more conditions.
-			- i.e. Decomposition isn't unique.
+				- i.e. Decomposition isn't unique.
 			-
 			- Corollary. Let $T:G\rightarrow \mathrm{GL} (V)$ be a linear representation. Let $V_{1} ,\dotsc ,V_{m}$ be minimal invariant subspaces such that the representations $T_{i} =T_{V_{i}}$ are **pairwise nonisomorphic**(New condition). Then $V_{1} ,\dotsc ,V_{m}$ are linearly independent.
 			  id:: 4b39adbd-96d1-4605-8870-8ce25437e6f7
@@ -53,6 +52,12 @@
 	-
 	- ## Inner product and reducibility
 		- Proposition. Every orthogonal or unitary representation is completely reducible. #card
+		  card-last-interval:: 26.06
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-11T02:43:45.748Z
+		  card-last-reviewed:: 2023-03-16T01:43:45.748Z
+		  card-last-score:: 5
 			- U inv ⇒ Complement of U inv.
 		- Theorem. Every real (complex) linear representation of a finite group is isomorphic to an orthogonal (unitary) representation. #card
 		  collapsed:: true
@@ -76,11 +81,16 @@
 		- Lemma. Let $f$ and $f_{0}$ be two inner products in the complex vector space $V$. Then there exists a linear operator $\sigma$ such that $f(x,y)=f_{0} (\sigma x,y)$  for all $x,y\in V$.
 		- Theorem. Let $T:G\rightarrow \operatorname{GL} (V)$ be an irreducible unitary representation. Then the $T$-invariant inner product in $V$ is unique up to a constant factor.  #card
 		  collapsed:: true
-			- [[Lemma. Let f and f_{0} be two inner products in the complex vector space V. Then there exists a linear operator \sigma such that f(x,y)=f_{0} (\sigma x,y)  for all x,y\in V.]]
-			- $\sigma$ is a self-intertwining map. #Exercise
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-07T01:02:37.712Z
+		  card-last-reviewed:: 2023-03-14T01:02:37.712Z
+		  card-last-score:: 5
+			- Lemma. Let $f$ and $f_{0}$ be two inner products in the complex vector space V. Then there exists a linear operator $\sigma$ such that $f(x,y)=f_{0} (\sigma x,y)$  for all x,y\in V.
+			- $\sigma$ is a self-intertwining map. (Exercise)
 			-
 			- This allows some construction of inner products.  #Remark
-			- [[Make full use of every definition (Write its immediate consequences） ]]
 		-
 	-
 	- ## Complexification
@@ -99,9 +109,15 @@
 			  We can take complex conjugate of both sides, then $S^*$ is also a solution.
 			  Then $(S+S^*)$, which is real, is also a solution.
 		-
-		- Theorem 6. Let $T:G\rightarrow \operatorname{GL} (V)$ be an [[Irreducible]] real linear representation. Then $T_{\mathbf{C}}$ is ^^either irreducible, or the sum of two irreducible representations^^. 
+		- Theorem 6. Let $T:G\rightarrow \operatorname{GL} (V)$ be an [[Irreducible]] real linear representation. Then the [[Complexification]] $T_{\mathbf{C}}$ is ^^either irreducible, or the sum of two irreducible representations^^. 
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-07T00:59:10.976Z
+		  card-last-reviewed:: 2023-03-14T00:59:10.976Z
+		  card-last-score:: 5
 		  collapsed:: true
-		  In the second case $V_{\mathbf{C}}$ decomposes into the direct sum of two complex-conjugate minimal invariant subspaces. #[[Complexification]]   #card
+		  In the second case $V_{\mathbf{C}}$ decomposes into the direct sum of two complex-conjugate minimal invariant subspaces. #card
 			- Obviously, for any $W\sub V$, $V=W+\overline{W}$
 			- $u+iv \in W$ ⇒ $u-iv\in \overline{W}$ . Given $u \ and\ iv$ , since T is irreducible, the whole space can be covered.
 			-
@@ -109,20 +125,32 @@
 			- $W\cap \overline{W}=0\ or\ W$
 	-
 	- ## Lift and factoring of representation #card
+	  card-last-interval:: 23.96
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-04T00:12:43.175Z
+	  card-last-reviewed:: 2023-03-11T01:12:43.176Z
+	  card-last-score:: 5
 		- Def
 			- For a rep. of quotient group $G/N$, $S:G/N\rightarrow \operatorname{GL} (V)$  and $p:G\rightarrow G/N$:
-			  $$(S\circ p)(h)=\varepsilon   \text{ for all } h\in N$$ is a lift of S.
+			  $$(S\circ p)(h)=e \text{ for all } h\in N$$ is a lift of S.
 		-
 		- Conversely, every linear representation $T$ of $G$ whose kernel contains $N$ 
 		  can be **factored** through $p$, i.e., $T=S\circ p$
 		-
-		- We thus establish a one-to-one correspondence between the **Linear representations of the quotient group**  and those **linear representations of ** $G$ whose kernel contains $N$.
+		- We thus establish a one-to-one correspondence between the **Linear representations of the quotient group** and those **linear representations of** $G$ whose kernel contains $N$.
 			- Can be used to simplify some problems.
 	-
 	- ## On tensor products of reps
 	  collapsed:: true
 		- Theorem. Let $T$ be an complex irreducible representation of the group $G$ in the space $V$, and let $I$ be the trivial representation of $G$ in the space $U$. Then every minimal subspace $W\subset V\otimes U$ invariant under the product representation $TI$ has the form $V\otimes u_{0}$, where $u_{0} \in U$.  #card
 		  id:: 4746422f-8ebd-4b6e-b09a-a6d71742468b
+		  card-last-interval:: 25.01
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-08T11:55:28.429Z
+		  card-last-reviewed:: 2023-03-14T11:55:28.430Z
+		  card-last-score:: 5
 			- A wrong attempt
 			  collapsed:: true
 				- Directly construction: Consider some $v_0\otimes u_{0} \in W$
@@ -212,6 +240,12 @@
 				- $IT'\simeq nT^{\prime }$
 			- Corollary 4. Let $T_{1}$ and $T_{2}$ be nonisomorphic irreducible complex representations of the group $G$. 
 			  id:: 0e1d7f6e-d7fc-4bb8-bc17-e7506829c273
+			  card-last-interval:: 25.01
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-04-06T00:26:23.575Z
+			  card-last-reviewed:: 2023-03-12T00:26:23.575Z
+			  card-last-score:: 5
 			  Then $\operatorname{Reg}_{\mathrm{M}( T_{1})}$ and $\operatorname{Reg}_{\mathrm{M}( T_{2})}$ are not isomorphic. #card
 				- 【Proof by restricting the group】
 				- If $\operatorname{Reg}_{\mathrm{M}( T_{2})}\simeq \operatorname{Reg}_{\mathrm{M}( T_{1})}$ , then $\operatorname{L}_{\mathrm{M}( T_{1})}\simeq \operatorname{L}_{\mathrm{M}( T_{2})}$

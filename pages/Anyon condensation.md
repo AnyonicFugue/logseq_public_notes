@@ -3,11 +3,11 @@
 	  id:: 63d873f9-1041-49a2-8b5a-1908f8fa53a8
 	  collapsed:: true
 		- Requirement #card
-		  card-last-interval:: 27.15
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-08T14:11:36.282Z
-		  card-last-reviewed:: 2023-02-09T11:11:36.282Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-04-06T01:21:34.482Z
+		  card-last-reviewed:: 2023-03-13T01:21:34.482Z
 		  card-last-score:: 5
 			- $R_{a\bar a}^cR_{\bar a a}^c=1$ (bosonic) for **at least one** of the fusion channels of $a \otimes \bar a$
 				- Note that it is the **double braiding**.
@@ -102,7 +102,13 @@
 			- ((63f5df67-c282-461b-bd71-fde7d5d37c40))
 			- With lots of references!
 		- However, the more general rule for gappability between two systems is **different**: #card
-			- The boundary between two topologically ordered systems $\mathcal{C}$ and $\mathcal{D}$ can only be gapped if the system $\mathcal{C} \times \overline{\mathcal{D}}$ can have a gapped edge to the trivial theory, i.e., if a set of bosons from $\mathcal{C} \times \overline{\mathcal{D}}$ can be condensed to give a topologically trivially ordered system.
+		  card-last-interval:: 25.01
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-09T00:39:23.934Z
+		  card-last-reviewed:: 2023-03-15T00:39:23.935Z
+		  card-last-score:: 5
+			- The boundary between two topologically ordered systems $\mathcal{C}$ and $\mathcal{D}$ can only be gapped if the system $\mathcal{C} \times \overline{\mathcal{D}}$ can have a gapped edge to the trivial theory, i.e. if a set of bosons from $\mathcal{C} \times \overline{\mathcal{D}}$ can be condensed to give a topologically trivially ordered system.
 			- Actually they might **not** be linked by condensation. The difference is that particles can pair up then condense to vacuum, which is different from condensing $C$ to obtain $D$.
 				- This is different from [Burnell2018]([[2018_Burnell_Anyon condensation and its applications]]). But also some useful references and arguments there.
 		- ((63dc6611-b249-4a6b-9d84-61424d5eb2b0))
@@ -125,6 +131,12 @@
 - # Examples
 	- ## ((63da0e16-0074-496a-952b-bd3534890de6)): Double Ising to [[Toric Code]] condensation #card
 	  collapsed:: true
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-09T01:35:51.326Z
+	  card-last-reviewed:: 2023-03-16T01:35:51.327Z
+	  card-last-score:: 5
 		- Note: We choose double Ising rather than Ising because $s_\psi=-1$. Pair two $\psi$ cancels the sign.
 		- Choose $\psi_1\psi_2$ as the anyon to be condensed.
 			- Confined anyons
@@ -199,6 +211,12 @@
 			- ((63f4c021-3966-42c9-9ad3-50a2dc95fe3d))
 	- ### Constructing $S U(2)_2 / U(1)_2$ #card
 	  collapsed:: true
+	  card-last-interval:: 23.96
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-04T00:13:56.968Z
+	  card-last-reviewed:: 2023-03-11T01:13:56.968Z
+	  card-last-score:: 5
 		- Setup
 			- $SU(2)_2$ is [[Ising type]], with $\theta_{\sigma}=e^{2 \pi i 3 / 16}$
 			- $\overline{U(1)_2}$

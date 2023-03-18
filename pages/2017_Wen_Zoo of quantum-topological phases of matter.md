@@ -105,10 +105,10 @@ type:: paper_reading
 	- IV. Nontrivial product states
 		- A. [[Haldane Phase]] #card
 		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-04T11:17:58.970Z
-		  card-last-reviewed:: 2023-02-08T11:17:58.970Z
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-04-05T00:25:14.443Z
+		  card-last-reviewed:: 2023-03-12T00:25:14.444Z
 		  card-last-score:: 5
 			- First example: Spin-1/2 Heisenberg chain
 				- $H=\sum_i \boldsymbol{S}_i \cdot \boldsymbol{S}_{i+1}$
@@ -126,7 +126,7 @@ type:: paper_reading
 							- So wild!
 						- This is purely quantum effect displayed at a macroscopic scale! Why this could happen? #[[Thoughts/Math and Physics]]
 				- Solution of the problem
-					- TEFR approach ((63be14c2-b215-4684-b9b2-7761f006c987)) for XXZ chain $H=\sum_i J \boldsymbol{S}_i \cdot \boldsymbol{S}_{i+1}+U\left(S_i^z\right)^2$
+					- TEFR approach ((63be14c2-b215-4684-b9b2-7761f006c987)) for XXZ chain $H=\sum_i J \boldsymbol{S}_i \cdot \boldsymbol{S}_{i+1}+U\left(S_i^z\right)^2$ #[[Research/To Be Investigated]]
 						- A trivial tensor for $U>>J$, with ground state a product state
 						- The fixed-point tensor has a 'corner-double-line' structure for $U<<J$
 							- ((63be1596-f4bd-442a-bf9a-f4a636139773))

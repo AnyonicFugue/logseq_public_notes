@@ -1,12 +1,13 @@
 - # [[Bloch Sphere]] and Bloch Ball
-	- Summary: Density matrix in terms of coordinates, rotation of the ball, expectation valuesr #card
+	- Summary: Density matrix in terms of coordinates, rotation of the ball, expectation values #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-12T11:40:26.537Z
-	  card-last-reviewed:: 2023-02-16T11:40:26.538Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-04-09T01:42:41.587Z
+	  card-last-reviewed:: 2023-03-16T01:42:41.587Z
 	  card-last-score:: 5
 		- $Tr \rho=1$ ⇒ $a=1/2$ ⇒ $\rho=\frac{1}{2}\left(I+x \sigma_x+y \sigma_y+z \sigma_z\right)$
+			- The range of the coordinates could be obtained by nonnegativity.
 		- Rotation
 			- $$R_n(\theta)=e^{-i\frac \theta 2 \vec \sigma\cdot \vec n}$$
 		- Expectation
@@ -149,10 +150,10 @@
 	- Theorem. 1-qubit gates plus CNOT is universal
 		- Scheme for proof #card
 		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-03T00:30:50.104Z
-		  card-last-reviewed:: 2023-02-07T00:30:50.105Z
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-04-07T11:57:43.217Z
+		  card-last-reviewed:: 2023-03-14T11:57:43.217Z
 		  card-last-score:: 5
 			- Obtain arbitrary 2-qubit gates by CNOT
 			- Gray code (Which only requires generalized C^k-NOT) to move any 2 qubits adjacent

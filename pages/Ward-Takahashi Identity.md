@@ -2,11 +2,11 @@
 - Ref. Peskin, 7.4
 -
 - Statement #card
-  card-last-interval:: 23.96
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-03-02T23:38:41.507Z
-  card-last-reviewed:: 2023-02-07T00:38:41.507Z
+  card-last-interval:: 24
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-04-07T11:55:53.353Z
+  card-last-reviewed:: 2023-03-14T11:55:53.353Z
   card-last-score:: 5
 	- Often, in the literature, the terms Ward identity, current conservation, and gauge invariance are used interchangeably.
 	- Ward identity

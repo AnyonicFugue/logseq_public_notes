@@ -44,11 +44,11 @@
 				- The intervals are mapped back by $p^{-1}$ into disjoint slices.
 				- The endpoints grant a unique choice.
 	- ((639146c8-4398-49fe-b838-f118e24d243b)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$. Let the map $F: I \times I \rightarrow B$ be continuous, with $F(0,0)=b_0$. There is a **unique lifting** of $F$ to a continuous map
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-01-17T12:55:43.810Z
-	  card-last-reviewed:: 2022-12-24T12:55:43.810Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-20T05:00:55.053Z
+	  card-last-reviewed:: 2023-03-14T01:00:55.053Z
 	  card-last-score:: 5
 	  $$
 	  \tilde{F}: I \times I \rightarrow E

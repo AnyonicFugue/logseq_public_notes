@@ -1,0 +1,22 @@
+{:highlights
+ [{:id #uuid "640d1d70-46de-41cb-b2ae-e023f3c93812",
+   :page 37,
+   :position
+   {:bounding
+    {:x1 86.55242919921875,
+     :y1 515.9040825366974,
+     :x2 147.3987579345703,
+     :y2 529.8014824390411,
+     :width 654,
+     :height 846.3529411764706},
+    :rects
+    ({:x1 86.55242919921875,
+      :y1 515.9040825366974,
+      :x2 147.3987579345703,
+      :y2 529.8014824390411,
+      :width 654,
+      :height 846.3529411764706}),
+    :page 37},
+   :content {:text "Definition"},
+   :properties {:color "yellow"}}], 
+ :extra {:page 37}}

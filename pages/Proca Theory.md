@@ -8,7 +8,6 @@
 		- Thus the EOM becomes 
 		  $$(m^2+\partial_\nu \partial^\nu)A^\mu=0$$.
 	- ## Quantization
-	  collapsed:: true
 		- Classically 
 		  $$A^\mu(x)=\sum_{\lambda=1}^3 \int \frac{d^3 p}{(2 \pi)^3} a_{p\lambda}\varepsilon^\mu(\vec{p}, \lambda) e^{i p \cdot x}$$
 		- The corresponding field operator is clearly 
@@ -26,7 +25,6 @@
 		- Obviously it is zero for spacelike separations. Easy to prove by invoking Lorentz invariance.
 	- $\left[A^i(t, \vec{x}), \pi^j(t, \vec{y})\right]=-i \delta^{i j} \delta^{(3)}(\vec{x}-\vec{y})$
 - # Spin Operator
-  collapsed:: true
 	- Spin and Lorentz symmetry #card
 	  card-last-interval:: 24
 	  card-repeats:: 1
@@ -36,12 +34,12 @@
 	  card-last-score:: 5
 		- In principle, spins are conserved currents of the Lorentz symmetry.
 		- Moreover, the current naturally decomposes into an orbital part and an internal part, corresponding to orbital angular momentum and spin.
-	- Here the field transforms as $A^\mu(x) \longrightarrow \Lambda_\nu^\mu A^\nu\left(\Lambda^{-1} x\right)$, where $\Lambda^\mu_\nu=\frac{i}{2} \Omega_{\rho \sigma}\left(J^{\rho \sigma}\right)^\mu_\nu$
+	- Here the field transforms as $A^\mu(x) \longrightarrow \Lambda_\nu^\mu A^\nu\left(\Lambda^{-1} x\right)$, where $\Lambda^\mu_\nu=exp\{\frac{i}{2} \Omega_{\rho \sigma}\left(J^{\rho \sigma}\right)^\mu_\nu\}$
 	- Invoke ((63e86248-d68b-4d57-bed2-c7a0d75b3be7))
 		- $\frac{\delta A^{\nu} }{\delta \Omega_{\rho \sigma} }$ has two parts.
 			- $$\frac{\delta A^v}{\delta\left(\Omega_{\rho \sigma}\right)}=\frac{\delta \Lambda_\mu^v}{\delta\left(\Omega_{\rho \sigma}\right)} \cdot A^\mu+\Lambda_\mu^v \cdot \partial_\alpha A^\mu \cdot \frac{\delta\left(\Lambda^{-1}\right)^\alpha_\beta}{\delta \Omega_{\rho\sigma}} \cdot x^\beta$$
 			- Obviously the first part corresponds to spin and the second part corresponds to orbital angular momentum.
-		- Thus the spin part is $-F^\mu{ }_\nu \frac{i}{2}(J_{\rho\sigma})^\nu_\alpha A^\alpha$.
+		- Thus the spin part is $\frac{i}{2}(J_{\rho\sigma})^\nu_\alpha A^\alpha$.
 	- Spin corresponds to the rotations, i.e. $\rho, \sigma=1,2,3$.
 		- Note that it is perfectly legitimate to say the current corresponding to a single generator.
 		- Take $\left(J^{\rho \sigma}\right)^{\mu \nu}=i\left(g^{\rho \mu} g^{\sigma \nu}-g^{\sigma \mu} g^{\rho \nu}\right)$, we find

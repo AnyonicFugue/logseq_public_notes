@@ -12,6 +12,12 @@ type:: paper_reading
 		- ((63d873c2-b58b-4e3b-8469-3fe30da04a61))
 		- However, vortices in superconductors are created by external fields, whereas anyons are excited states of the Hamiltonian.
 	- Terminology: topological symmetry breaking (TSB) := condense self-bosons #card
+	  card-last-interval:: 27.15
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-09T15:16:48.833Z
+	  card-last-reviewed:: 2023-03-13T12:16:48.833Z
+	  card-last-score:: 5
 		- ((63d87ab7-cf2e-4c76-833e-f02c8a92d40c))
 		- ((63d87b0d-33e4-4add-beb8-a78299edffb4))
 	- ((63d87b66-fa46-4c0e-ae19-2faf248fdbd1))

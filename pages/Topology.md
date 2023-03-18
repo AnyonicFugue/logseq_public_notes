@@ -4,11 +4,11 @@
 	- [[The Lebesgue number lemma]]
 	  collapsed:: true
 		- Lemma. #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-11T01:55:59.182Z
-		  card-last-reviewed:: 2023-02-15T01:55:59.182Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-05-21T04:37:57.993Z
+		  card-last-reviewed:: 2023-03-15T00:37:57.993Z
 		  card-last-score:: 5
 			- ((638de986-e9a0-45a2-bba8-d698da5b3ed1)) Let $\mathcal{A}$ be an open covering of the metric space $(X, d)$. If $X$ is compact, there is a $\delta>0$ such that for each subset of $X$ having diameter less than $\delta$, there exists an element of $\mathcal{A}$ **containing** it.
 			  The number $\delta$ is called a Lebesgue number for the covering $\mathcal{A}$.

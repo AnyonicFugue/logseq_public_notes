@@ -10,12 +10,12 @@
 - Quantum calculation
   collapsed:: true
 	- Summary #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.46
-	  card-next-schedule:: 2023-03-04T11:35:47.981Z
-	  card-last-reviewed:: 2023-02-08T11:35:47.981Z
-	  card-last-score:: 3
+	  card-last-interval:: 61.44
+	  card-repeats:: 3
+	  card-ease-factor:: 2.56
+	  card-next-schedule:: 2023-05-13T21:58:38.726Z
+	  card-last-reviewed:: 2023-03-13T11:58:38.728Z
+	  card-last-score:: 5
 		- Two diagrams ((638c4eb7-7eef-4a64-b904-5757a3634520))
 			- Note that an on-shell electron can't still be on-shell after emitting a photon. Fortunately the internal electrons can be off-shell.
 		- Calculate the amplitude (until divergences pop up)

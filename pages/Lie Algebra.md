@@ -21,8 +21,7 @@
 		- The set of all matrices $X$ such that $e^{t X}$ is in $G$ for all **real** numbers $t$.
 		  The bracket is given by the commutator.
 		- Note that it only generates the whole identity component.
-- Some Defs
-  collapsed:: true
+- # Some Defs
 	- Center
 	  collapsed:: true
 		- Those commuting with everything else.
@@ -37,6 +36,7 @@
 	  card-next-schedule:: 2023-05-04T05:13:22.087Z
 	  card-last-reviewed:: 2023-02-26T01:13:22.089Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- $\operatorname{ad}_X(Y)=[X, Y]$
 		- $\operatorname{Ad}_A(X)=A X A^{-1}$
 			- Note that A is a group element, while the map still maps to the Lie algebra.
@@ -71,7 +71,7 @@
 		- No proper ideals.
 		- Note that it is stronger than 'no proper subalgebra'.
 		- 'Simple' is irreducible and dim>1.
-- Basic Theory
+- # Basic Theory
   collapsed:: true
 	- Notable properties of an Lie algebra of an Lie group #card
 	  card-last-interval:: 10
@@ -80,7 +80,6 @@
 	  card-next-schedule:: 2022-12-24T06:00:37.205Z
 	  card-last-reviewed:: 2022-12-14T06:00:37.205Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- $A X A^{-1} \in \mathfrak{g}$ for all $A \in G$
 		  collapsed:: true
 			- ((6381c0a3-1e80-48b1-ba45-9844cd8aabd7))
@@ -89,9 +88,8 @@
 		  collapsed:: true
 			- ((6381ca36-6077-413b-8665-7fbbb620d7db))
 		- $\left.\frac{d}{d t}\left(e^{t X} Y e^{-t X}\right)\right|_{t=0}=XY-YX$
-		  collapsed:: true
 			- This makes use of the structure on R. R have a whole bunch of useful structures!
-			- Corollary. $X Y-Y X \in \mathfrak{g}$
+			- Corollary. $X Y-Y X \in \mathfrak{g}$ #card
 			  collapsed:: true
 				- By 1-para group theorem.
 	- Proposition. If $\mathfrak{g}$ is a Lie algebra, then
@@ -148,7 +146,7 @@
 			  $$
 		- [[Universal Property]]
 			- Every real Lie algebra homomorphism of $\mathfrak{g}$ into $\mathfrak{h}$ extends uniquely to a complex Lie algebra homomorphism of $\mathfrak{g}_{\mathbb{C}}$ into $\mathfrak{h}$, i.e. $\pi(X+i Y)=\pi(X)+i \pi(Y)$
-- Examples
+- # Examples
   collapsed:: true
 	- sl(2,C)
 		- Basis and commutation relations
@@ -181,3 +179,14 @@
 			- Verify that any nontrivial element can generate the whole algebra by commutating with the generators. ((63860946-8380-45c7-b564-1c08f9e7cc70))
 		- ((63e44faf-be39-4003-a238-c50fedbd07e4))
 		  id:: 63c14167-777b-4ede-ab9b-08f6586376df
+- # Classification of Simple Compact Lie Algebras
+	- 'Simple' means we cannot have two mutually commutative subalgebras.
+	- 'Compact' is more tricky.
+		- Actually we have two definitions. One is that the Lie group is compact; the other uses so called Killing form.
+	- ## Three Classical Groups
+		- $U(N)$
+		- $SO(N)$
+		- [[Symplectic Groups]] $Sp(N)$
+			- Preserving the metric $E_{a b}=\left(\begin{array}{cc}0 & 1 \\ -1 & 0\end{array}\right)$, where the elements are $N/2 \times N/2$ blocks
+	- ## Five Exceptions
+		- $G_2, F_4, E_6, E_7$, and $E_8$

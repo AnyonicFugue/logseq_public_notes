@@ -14,11 +14,11 @@ type:: Course
 		- Alice wants to send a single qubit $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$ to Bob.
 		- The quantum channel they use may flip any qubit with probability $\epsilon$.
 	- Code #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-03-08T09:40:07.949Z
-	  card-last-reviewed:: 2023-02-12T09:40:07.951Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-17T05:17:59.010Z
+	  card-last-reviewed:: 2023-03-11T01:17:59.010Z
 	  card-last-score:: 5
 		- Encoding
 			- $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle \rightarrow \alpha\left|0_L\right\rangle+\beta\left|1_L\right\rangle=\alpha|000\rangle+\beta|111\rangle$
@@ -56,11 +56,11 @@ type:: Course
   collapsed:: true
 	- The idea is to combine phase-flip and bit-flip codes.
 	- Code #card
-	  card-last-interval:: 10
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2022-12-25T11:54:39.187Z
-	  card-last-reviewed:: 2022-12-15T11:54:39.188Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-04-07T11:57:26.624Z
+	  card-last-reviewed:: 2023-03-14T11:57:26.624Z
 	  card-last-score:: 5
 		- $$
 		  \begin{aligned}
@@ -165,6 +165,12 @@ type:: Course
 		- Perform the necessary correction operation.
 	- Quantum Hamming Bound #card
 	  collapsed:: true
+	  card-last-interval:: 21.86
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-02T20:33:41.425Z
+	  card-last-reviewed:: 2023-03-12T00:33:41.427Z
+	  card-last-score:: 5
 		- Theorem. $\sum_{j=0}^t\left(\begin{array}{l}n \\ j\end{array}\right) 3^j 2^k \leq 2^n$
 			- n is the total number of qubits
 			- t is the max number of erroneous qubits

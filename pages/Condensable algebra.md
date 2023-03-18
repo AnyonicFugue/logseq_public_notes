@@ -1,2 +1,7 @@
 - Def #card
-	- ((636b1f36-e5d2-4ac3-b387-5b06fc93ee16))
+	- ((640d1d70-46de-41cb-b2ae-e023f3c93812)) A condensable algebra in a UBFC $\mathcal{C}$ is a triple $(A, m, \eta), A \in \mathcal{C}, m: A \otimes A \rightarrow$ $A, \eta: 1 \rightarrow A$ satisfying
+		- Associative: $m\left(\mathrm{id}_A \otimes m\right)=m\left(m \otimes \mathrm{id}_A\right)$
+		- Unit: $m\left(\eta \otimes \mathrm{id}_A\right)=m\left(\mathrm{id}_A \otimes \eta\right)=\mathrm{id}_A$
+		- Isometric: $m m^{\dagger}=\operatorname{id}_A$
+		- Connected: $\operatorname{Hom}(1, A)=\mathbb{C}$
+		- Commutative: $m c_{A, A}=m$

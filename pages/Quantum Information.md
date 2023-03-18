@@ -16,14 +16,15 @@
 		- [en.wikipedia.org/wiki/Quantum relative entropy](https://en.wikipedia.org/wiki/Quantum_relative_entropy)
 	- Triangle inequality of [[Entanglement Entropy]] #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-05T13:20:45.653Z
-	  card-last-reviewed:: 2023-01-12T13:20:45.654Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-04-06T01:21:22.647Z
+	  card-last-reviewed:: 2023-03-13T01:21:22.649Z
 	  card-last-score:: 5
 		- $\left|S\left(\rho_A\right)-S\left(\rho_B\right)\right| \leq S\left(\rho_{A B}\right) \leq S\left(\rho_A\right)+S\left(\rho_B\right)$
 		- Right side: Known as subadditivity. Prove by [[Relative Entropy]] and $\log(\rho_A\otimes\rho_B)=\log(\rho_A)\otimes I+ I\otimes\log(\rho_B)$
 		- Left side: [TODO]
+		- *In principle they can all be solved by the variational method (with a Lagrange multiplier)
 	- Fidelity #card
 	  card-last-interval:: 25.01
 	  card-repeats:: 1

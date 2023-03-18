@@ -319,10 +319,10 @@
 								- Intuitively it's very obvious: The exchange wall swaps rough and smooth.
 								- What does the subscript of the deligne tensor mean? #card
 								  card-last-interval:: 24
-								  card-repeats:: 1
-								  card-ease-factor:: 2.6
-								  card-next-schedule:: 2023-03-04T11:15:37.075Z
-								  card-last-reviewed:: 2023-02-08T11:15:37.075Z
+								  card-repeats:: 2
+								  card-ease-factor:: 2.7
+								  card-next-schedule:: 2023-04-07T11:49:16.443Z
+								  card-last-reviewed:: 2023-03-14T11:49:16.444Z
 								  card-last-score:: 5
 									- A wall must have two sides. Here one side is vacuum and the other side is $\mathcal {TC}$.
 										- The subscript denotes which **side** the wall fuses.
@@ -444,10 +444,10 @@
 								- $Q:=\sigma_x^1 \sigma_y^2 \sigma_z^3 \sigma_z^4 \sigma_z^5$
 							- Fusion of the 0D domain walls between 1D domain walls #card
 							  card-last-interval:: 24
-							  card-repeats:: 1
-							  card-ease-factor:: 2.36
-							  card-next-schedule:: 2023-03-11T01:58:52.904Z
-							  card-last-reviewed:: 2023-02-15T01:58:52.904Z
+							  card-repeats:: 2
+							  card-ease-factor:: 2.22
+							  card-next-schedule:: 2023-04-08T00:31:28.325Z
+							  card-last-reviewed:: 2023-03-15T00:31:28.326Z
 							  card-last-score:: 3
 								- ((63a94538-8523-4da0-893f-7e7a7ed7aac3))
 								- $Q_1 Q_2=A_{v_1} A_{v_2} B_p, \quad\left[Q_i, B_p\right]=0, \quad\left\{Q_i, A_{v_1}\right\}=\left\{Q_i, A_{v_2}\right\}=0,(i=1,2)$

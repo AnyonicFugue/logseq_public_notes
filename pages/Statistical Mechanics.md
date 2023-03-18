@@ -312,6 +312,7 @@ type:: [[Course]]
 				- ((637e20d9-4cb8-4aef-bd85-d419ff73e31c))
 					- This needs solving the ODE.
 	- ((637e2117-23ec-4369-8b80-8dc4c6e7c618)) Equation
+	  collapsed:: true
 		- We study an ensemble of particles and study how they evolve (and reach equilibrium)
 		- Summary #card
 		  card-last-interval:: 61.44
@@ -335,14 +336,14 @@ type:: [[Course]]
 				-
 		-
 	- Fluctuation-Dissipation Theorem
-	  collapsed:: true
+	  id:: 6401b89c-e517-4e8f-ad4e-f98d5b166921
 		- Motivation
 			- Dissipation is the response to external perturbations.
 			- Fluctuation can also be viewed as perturbations to the system (by god).
 		- Settings and Definitions
+		  collapsed:: true
 			- $\lang x\rang =0$ when the external field is zero.
 			- Linear response function $\chi$
-			  collapsed:: true
 				- $$
 				  \langle x(t)\rangle:=\int_{-\infty}^t d t^{\prime} h\left(t^{\prime}\right) \chi\left(t^{\prime}, t\right)
 				  $$
@@ -365,7 +366,41 @@ type:: [[Course]]
 				- $$
 				  \hat{H}=\hat{H}_0-h(t) \hat{B}
 				  $$
-		- Summary #card
+		- Classical version
+			- $$
+			  A_x(\omega)=\frac{2 k T}{\omega} \operatorname{Im} \chi(\omega)
+			  $$
+			- Proof
+			  collapsed:: true
+				- Consider the case where the field is $h_0 \theta (-t)$
+				- Write 
+				  $$
+				  \langle x(t)\rangle=\int d x^{\prime} d x \ x^{\prime} P\left(x^{\prime}, t \mid x, 0\right) W(x, 0)
+				  $$
+					- $W(x,0)$ is the distribution at t=0. P is the Green function.
+				- **Key point:** Invoke Boltzman distribution and $h<<1$ to perform expansions to relate $\langle x(t)\rangle$ with $A_x(t)$
+					- $e^{-\beta\left(E_0(x)-h_0 x\right)} \simeq e^{-\beta E_0(x)}(1+\beta h_0 (x))$
+					- Also note that $<x>=0$ at equilibrium.
+				- On the other hand, $\langle x(t)\rangle$ can be related to linear response by def.
+				- The theorem follows by comparison.
+		-
+		- Quantum version
+			- $$
+			  \operatorname{Im} \chi^{ret}_{BA}(\omega)=\frac{1-e^{-\beta \omega}}{2} S_{BA}(\omega)
+			  $$
+			- Proof 1
+			  collapsed:: true
+				- Write $\hat{\rho}(t)=\hat{\rho}_{e q}+\hat{\delta \rho}(t)$
+				- Write the Heisenberg equation and discard second-order terms
+				- Directly write out the solution $\delta\hat{\rho}(t)=\frac{i}{\hbar} \int_{-\infty}^t h\left(t^{\prime}\right) e^{-\frac{i}{\hbar} H_0\left(t-t^{\prime}\right)}\left[\hat{B}, \hat{\rho}_{e q}\right] e^{\frac{i}{\hbar} H_0\left(t-t^{\prime}\right)} d t^{\prime}$
+				- Next, consider $\langle\hat{\delta A}(t)\rangle =\langle A(t)\rangle:=\operatorname{Tr}(\hat{A} \delta \hat{p})=\frac{i}{\hbar} \int_{-\infty}^t h\left(t^{\prime}\right) \operatorname{Tr}\left\{\left[\hat{A}(t), \hat{B}\left(t^{\prime}\right)\right] \hat{p}_{e q}\right\} d t$
+					- Absorb the evolution into the operators.
+				- Insert completeness relations to absorb $H_0$
+					- ![image.png](../assets/image_1669212892551_0.png)
+				- The rest is very simple.
+			- Proof 2 #card
+				- *Complete by the definitions of solid state!
+		- Summary
 		  card-last-interval:: 61.44
 		  card-repeats:: 3
 		  card-ease-factor:: 2.56
@@ -373,38 +408,8 @@ type:: [[Course]]
 		  card-last-reviewed:: 2023-02-11T11:08:52.315Z
 		  card-last-score:: 5
 			- The imaginary part of (Fourier-transformed) linear response function is proportional to (Fourier-transformed) correlation function.
-			- Classical version
-			  collapsed:: true
-				- $$
-				  A_x(\omega)=\frac{2 k T}{\omega} \operatorname{Im} \chi(\omega)
-				  $$
-				- Proof
-				  collapsed:: true
-					- Consider the case where the field is $h_0 \theta (-t)$
-					- Write 
-					  $$
-					  \langle x(t)\rangle=\int d x^{\prime} d x \ x^{\prime} P\left(x^{\prime}, t \mid x, 0\right) W(x, 0)
-					  $$
-						- $W(x,0)$ is the distribution at t=0. P is the Green function.
-					- **Key point:** Invoke Boltzman distribution and $h<<1$ to perform expansions to relate $\langle x(t)\rangle$ with $A_x(t)$
-						- $e^{-\beta\left(E_0(x)-h_0 x\right)} \simeq e^{-\beta E_0(x)}(1+\beta h_0 (x))$
-						- Also note that $<x>=0$ at equilibrium.
-					- On the other hand, $\langle x(t)\rangle$ can be related to linear response by def.
-					- The theorem follows by comparison.
-			- Quantum version
-				- $$
-				  \operatorname{Im} \chi(\omega)=\frac{1-e^{-\beta \omega}}{2} A_x(\omega)
-				  $$
-				- Proof
-					- Write $\hat{\rho}(t)=\hat{\rho}_{e q}+\hat{\delta \rho}(t)$
-					- Write the Heisenberg equation and discard second-order terms
-					- Directly write out the solution $\delta\hat{\rho}(t)=\frac{i}{\hbar} \int_{-\infty}^t h\left(t^{\prime}\right) e^{-\frac{i}{\hbar} H_0\left(t-t^{\prime}\right)}\left[\hat{B}, \hat{\rho}_{e q}\right] e^{\frac{i}{\hbar} H_0\left(t-t^{\prime}\right)} d t^{\prime}$
-					- Next, consider $\langle\hat{\delta A}(t)\rangle =\langle A(t)\rangle:=\operatorname{Tr}(\hat{A} \delta \hat{p})=\frac{i}{\hbar} \int_{-\infty}^t h\left(t^{\prime}\right) \operatorname{Tr}\left\{\left[\hat{A}(t), \hat{B}\left(t^{\prime}\right)\right] \hat{p}_{e q}\right\} d t$
-						- Absorb the evolution into the operators.
-					- Insert completeness relations to absorb $H_0$
-						- ![image.png](../assets/image_1669212892551_0.png)
-					- The rest is very simple.
 	- Kramers-Kronig relations
+	  id:: 6401b89c-a4af-4f0c-b59f-d44a3c164ff6
 		- Summary #card
 		  card-last-interval:: 24
 		  card-repeats:: 2
@@ -416,7 +421,7 @@ type:: [[Course]]
 			- Mathematically
 				- For a complex function analytic on the upper half-plane (and vanish rapidly enough at infinity), we have 
 				  $$\chi(\omega)=\frac{1}{i \pi} \mathcal{P} \int_{-\infty}^{\infty} \frac{\chi\left(\omega^{\prime}\right)}{\omega^{\prime}-\omega} d \omega^{\prime}$$
-					- P denotes the Cauchy principle value
+					- P denotes the Cauchy principle value, which can also be realized by adding $i\epsilon$ to the denominator.
 					- This formula encloses both the real and imaginary part.
 				- Equivalently, 
 				  $$

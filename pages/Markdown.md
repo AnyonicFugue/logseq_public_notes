@@ -32,11 +32,11 @@
 	- For inline images use `![这是图片](/assets/img/philly-magic-garden.jpg "Magic Gardens")`
 - Customized by logseq
 	- ^^Highlight^^ #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-18T01:14:23.621Z
-	  card-last-reviewed:: 2023-01-25T01:14:23.622Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-20T15:53:11.457Z
+	  card-last-reviewed:: 2023-03-14T11:53:11.457Z
 	  card-last-score:: 5
 		- `^^highlight^^`
 -

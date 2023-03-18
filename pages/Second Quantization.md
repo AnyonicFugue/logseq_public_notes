@@ -21,10 +21,12 @@
 		- Also can be viewed as scattering
 	- The generalization to n-body shall be similar: Sum the possible scatterings, then divide by $n!$.
 - # Changing representations
-	- ## General Principle
+	- ## Transformation Law #card
 		- We could change the basis
-		- Exercise. The transformation of creation and annihilation operators is identical to the basis transformation. #card
-			-
+		  id:: 640846c2-c0a4-42de-8fa9-8c9b4a1faed0
+		  $$\hat d_a=\sum_b \langle\psi_a|\phi_b\rangle \hat c_b$$
+		- Intuitively, extract the $\psi_a$ part in $\phi_b$
+		-
 	- ## Field Operators
 		- $$\hat{\psi}\left(\mathbf{r}^{\prime}\right)=\sum_k \hat{b}_k \psi_k\left(\mathbf{r}^{\prime}\right)$$
 			- $\psi_k(r):=\langle r|k\rangle$

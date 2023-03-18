@@ -1,12 +1,26 @@
-- [[References]]
-  id:: 63c14161-aa39-45f2-9e56-717fda4804b2
-	- ![2000_Munkres_Topology](file://zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf) Topology, Munkres
--
 - Study obscure topological properties in an algebraic manner! #Thoughts
   id:: 638d57a7-30e1-4243-8ec8-babe77af9cf8
 	- There seems to be something deeper inside. Galois theory -> Study field extensions by means of automorphism groups.
--
+- Intro of rotman
+	- Standard n-simplex
+		- $$
+		  \Delta^n=\left\{\left(x_1, x_2, \ldots, x_{n+1}\right) \in \mathbf{R}^{n+1}: \text { each } x_i \geq 0 \text { and } \sum x_i=1\right\}
+		  $$
+			- A (inclining) closed interval for n=1, a triangle (vertices being $(1,0,0),(0,1,0),(0,0,1)$)) for n=2, a tetrahedron (?) for n=3, ...
+			- Obviously $\Delta^n \approx D^n$
+	- Some cats
+		- $\mathscr{C}=$ Top $^2$.
+			- Here obj $\mathscr{C}$ consists of all ordered pairs $(X, A)$, where $X$ is a topological space and $A$ is a subspace of $X$. A morphism $f:(X, A) \rightarrow$ $(Y, B)$ is an ordered pair $\left(f, f^{\prime}\right)$, where $f: X \rightarrow Y$ is continuous and $f i=j f^{\prime}$ (where $i$ and $j$ are inclusions),
+		- $\mathscr{C}=\operatorname{Top}_*$.
+			- Here obj $\mathscr{C}$ consists of all ordered pairs $\left(X, x_0\right)$, where $X$ is a topological space and $x_0$ is a point of $X$.
+			- $Top_*$ is a subcategory of Top ${ }^2$ (subspaces here are always one-point subspaces), and it is called the category of **pointed spaces**; $x_0$ is called the basepoint of $\left(X, x_0\right)$, and morphisms are called pointed maps (or basepoint preserving maps). The category ${Sets}_*$ of pointed sets is defined similarly.
+	- ((64113a62-8e58-494b-bade-e5ec6dff42e1)) (Brouwer fixed-point theorem) If $f: D^n \rightarrow D^n$ is continuous, then $f$ has a fixed point. #card
+		- First we shall prove that there's no retract from $D^{n+1}$ to $S_n$.
+			- This cannot be easily done by conventional methods, but very simple using homology.
+			- The power of the algebraic way!
+		- Then we may start by assuming that there's no fixed points, then construct a retract by ((64113b44-ccd4-41d8-b489-12572e41a829)).
 - Homotopy
+  collapsed:: true
 	- Defs
 		- Homotopy of maps
 		  collapsed:: true
@@ -29,7 +43,6 @@
 		- Easy to verify identity, reflexivity and transitivity.
 	- Homotopy class
 - [[Fundamental group]]
-  collapsed:: true
 	- [[Simply connected]]
 	- [[Covering space]]
 	- [[Retraction]]
@@ -133,6 +146,7 @@
 		  collapsed:: true
 			- Recall inner product in linear algebra.
 		-
+	-
 	- ((63953b25-8709-4182-9cb5-87d46acf1a4f))
 	- ((63953d32-29d5-4ffe-aec8-c9a40be4e936)) Let $A$ be a 3 by 3 matrix of positive real numbers. Then $A$ has a positive real eigenvalue. #card
 	  card-last-interval:: 24
@@ -175,6 +189,7 @@
 - [[The Separation Theorems]]
 - [[Seifert-van Kampen Theorem]]
 - Classification of Surfaces
+  collapsed:: true
 	- Defs
 		- Polygonal region
 		  collapsed:: true
@@ -271,6 +286,12 @@
 	- Basic facts
 	  collapsed:: true
 		- ((63eedadc-dcd0-43a1-8515-5bb384b50e50)) Let $X$ be the space obtained from a finite collection of polygonal regions by pasting edges together according to some labelling scheme. Then $X$ is a compact Hausdorff space. #card
+		  card-last-interval:: 26.06
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-08T13:07:39.691Z
+		  card-last-reviewed:: 2023-03-13T12:07:39.692Z
+		  card-last-score:: 5
 			- Compact is immediate, since $\pi$ is continuous.
 			- Hausdorff can be shown using the metric and finiteness, but another more elegant way.
 				- Exercise. A closed quotient map preserves normality.
@@ -322,8 +343,20 @@
 			- We know that $G/[G,G]\cong p(F)/p(N)$. Moreover, $F/[F,F]$ is abelian with the same basis.
 			-
 		- ((63f96977-bed6-4449-ad50-8114274d72d9))  If $X$ is the ((63f218b7-eddb-4fe3-bd5e-daff1b591487)) then $H_1(X)$ is a free abelian group of rank $2 n$. #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-06T01:04:23.811Z
+		  card-last-reviewed:: 2023-03-13T01:04:23.814Z
+		  card-last-score:: 5
 			- As an exercise of the above corollary!
 		- ((63f96a7e-89f5-4b82-a31f-2c730b301a80)) If $X$ is the ((63f21c4d-b959-43e5-889d-90abd29a1092)) , then the [[Torsion Group]] $T(X)$ of $H_1(X)$ has order 2, and $H_1(X) / T(X)$ is a free abelian group of rank $m-1$. #card
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-04-07T11:55:36.298Z
+		  card-last-reviewed:: 2023-03-14T11:55:36.298Z
+		  card-last-score:: 5
 			- Another easy exercise.
 			- Recall a theorem that $\pi_1(X)=\pi_1(A)/\langle p(f_0)\rangle$.
 			- Moreover, we can that $H_1(X) / T(X)$ is free.
@@ -417,6 +450,12 @@
 				- Note that there is one extra step. Not obtainable by just one cutting and pasting.
 			- Now it suffices to apply the lemma repeatedly.
 		- ((63ff145f-7f9e-4b11-8b84-ca36597daf79)) Let $w$ be a proper scheme of the form $w=w_0 w_1$, where $w_1$ is a scheme of torus type that does not contain two adjacent terms having the same label. Then $w$ is equivalent to a scheme of the form $w_0 w_2$, where $w_2$ has the same length as $w_1$ and has the form
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-07T00:56:29.783Z
+		  card-last-reviewed:: 2023-03-14T00:56:29.784Z
+		  card-last-score:: 5
 		  $$
 		  w_2=a b a^{-1} b^{-1} w_3
 		  $$ #card
@@ -445,6 +484,12 @@
 				- Every triangulable surface falls in the scope of the classification theorem.
 			- This is quite obvious. Only needing some work to show pathological cases can't be called surfaces.
 		- Theorem. Each connected compact surface can be classified by the [classification theorem](((6401b892-1a98-4844-89b5-e95da63050da))). #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-04T01:04:49.368Z
+		  card-last-reviewed:: 2023-03-11T01:04:49.369Z
+		  card-last-score:: 5
 			- First, ((6407fc4c-c8f0-405e-9919-d73a637dbe87)).
 			- Second, the surface can be obtained by pasting the edges of a set of triangles **in pairs**.
 				- We must prove that pasting several edges together isn't allowed.
@@ -452,5 +497,11 @@
 			-
 			- Note that a polygon is **not** a surface. The boundary points don't have neighborhoods homeomorphic to an open disk.
 		- Exercise. Does the classification theorem work for ((63e86249-c48a-4740-a36d-100aeb1da16c))? #card
+		  card-last-interval:: 26.06
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-08T12:53:45.802Z
+		  card-last-reviewed:: 2023-03-13T11:53:45.803Z
+		  card-last-score:: 5
 			- **NO**. It is not a surface for $n>2$.
 -

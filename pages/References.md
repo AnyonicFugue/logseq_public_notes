@@ -1,18 +1,16 @@
 - [[Papers and Books to Read]]
+- # Math
+	- ## Algebraic Topology
+		- ![2000_Munkres_Topology](file://zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf) Topology, Munkres
+		- ![1988_Rotman_An Introduction to Algebraic Topology.pdf](file://zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introduction to Algebraic Topology.pdf)
+		-
+-
 - # Topo order
 	- [[Simon's Topobook]]
 		- An encyclopedia!
-	- Intros and Reviews
-		- [[hls__2022_Kong_Zhang_An invitation to topological orders and category]]
-			- Mainly categorical language.
-		- [[2017_Wen_Zoo of quantum-topological phases of matter]]
-			- Quite readable, with lots of illustrations and examples.
-		- [[2019_Wen_Choreographed entangle dances]]
-			- Much less detailed than that of 2017.
-	- Anyon condensation
-		- [[2018_Burnell_Anyon condensation and its applications]]
-			- Intro to the general theory.
-		- [[2021_Hu_Huang_Wan_Anyon Condensation]]
-			- Practical approach, with effective Hamiltonian.
 	-
 - # Quantun Circuit Dynamics
+- # QFT
+	- ![2018_Peskin_An Introduction To Quantum Field Theory.pdf](file://zotero_link/Physics/Courses/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf) Classical book of Peskin
+	- ![Introduction_to_Quantum_Field_Theory.pdf](file://D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf) Satoshi Nawata's lecturenotes
+	-

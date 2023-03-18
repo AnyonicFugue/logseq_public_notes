@@ -111,11 +111,11 @@
 	- [[Helicity]] structure in scattering
 	  collapsed:: true
 		- High-E limit #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-03-13T00:58:19.808Z
-		  card-last-reviewed:: 2023-02-17T00:58:19.809Z
+		  card-last-interval:: 61.44
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2023-05-14T21:40:16.069Z
+		  card-last-reviewed:: 2023-03-14T11:40:16.070Z
 		  card-last-score:: 5
 			- All fermions can be regarded as massless.
 			- For $\xi=\left(\begin{array}{l}1 \\ 0\end{array}\right)$, ((6379c82e-aa21-424e-9d43-339a251a9bc2))

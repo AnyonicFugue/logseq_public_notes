@@ -23,21 +23,25 @@
 					- The first part can be proven by direct construction.
 					- It suffices to prove the linear independence for the second part.
 			- [[Free Product of Groups]]
-			  collapsed:: true
 				- Reduced word
 				  collapsed:: true
 					- The sequence $\left(y_1, \ldots, y_m\right)$, where no group $G_\alpha$ contains both $y_i$ and $y_{i+1}$ and no element is the identity.
 					- In short, a sequence cannot be further simplified.
-				- Let $G$ be a group, let $\left\{G_\alpha\right\}_{\alpha \in J}$ be a family of subgroups of $G$ that generates $G$. We say that $G$ is **the free product** of the groups $G_\alpha$ if for each $x \in G$, there **exist a unique reduced word** in the groups $G_\alpha$ that represents $x$. In this case, we write
-				  collapsed:: true
-				  $$
-				  G=\prod_{\alpha \in J}^* G_\alpha .
-				  $$
-				  or in the finite case, $G=G_1 * \cdots * G_n$.
-					- Equivalently, $\left\{G_\alpha\right\}_{\alpha \in J}$ generate the group and linear independent (only obtain identity by multiplying identities)
-					- Note that the $G_\alpha$ *don't commute*.
+				- Two equivalent definitions #card
+					- Let $G$ be a group, let $\left\{G_\alpha\right\}_{\alpha \in J}$ be a family of subgroups of $G$ that generates $G$. We say that $G$ is **the free product** of the groups $G_\alpha$ if for each $x \in G$, there **exist a unique reduced word** in the groups $G_\alpha$ that represents $x$. In this case, we write
+					  collapsed:: true
+					  $$
+					  G=\prod_{\alpha \in J}^* G_\alpha .
+					  $$
+					  or in the finite case, $G=G_1 * \cdots * G_n$.
+						- Equivalently, $\left\{G_\alpha\right\}_{\alpha \in J}$ generate the group and linear independent (only obtain identity by multiplying identities)
+						- Note that the $G_\alpha$ *don't commute*.
+					- ![image.png](../assets/image_1678841497565_0.png){:height 371, :width 482}
+					- Why doesn't the direct sum serve?
+					  background-color:: red
+						- The key point is that $f_1(g_1)$ and $f_2(g_2)$ may not commute, which can't be seen in the direct sum.
+						- More formally, the direct sum requires $f_1(G_1)$ and $f_2(G_2)$ to commute, which might not necessarily be the case.
 				- ((63d762a3-8318-440f-b53f-41feaca0d812)) (Extension condition for free products) Let $G$ be a group; let $\left\{G_\alpha\right\}$ be a family of subgroups of $G$. If $G$ is the free product of the groups $G_\alpha$, then $G$ satisfies the following condition:
-				  collapsed:: true
 				  Given any group $H$ and any family of homomorphisms $h_\alpha: G_\alpha \rightarrow H$, there **exists a unique homomorphism** $h: G \rightarrow H$ whose restriction to $G_\alpha$ equals $h_\alpha$, for each $\alpha$.
 					- ![image.png](../assets/image_1675060704420_0.png)
 					- Note that when using the reverse of the lemma, we don't need to prove that h is unique; it is **automatically satisfied**.

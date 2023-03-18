@@ -14,8 +14,7 @@
   e^X e^Y=e^{X+Y+\frac{1}{2}[X, Y]} .
   $$
 	- As an first example.
-	- Construct a differential equation. #Strategy
-		- Different objects can be shown to be identical by uniqueness of solution.
+	- ((640ad127-cc23-464b-b796-fb5a07f8049a))
 	- Proof
 		- Consider $L(t)=e^{tX}e^{tY}$.
 		  $\frac {dL}{dt}=e^{tX}(X+Y)e^{tY}$.

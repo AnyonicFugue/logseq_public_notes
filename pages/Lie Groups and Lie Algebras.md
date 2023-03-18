@@ -8,7 +8,6 @@
 		- The trick is used in proving ((6382ce57-6b73-4815-b142-0f889766fa01)) preserves bracket.
 - # Basic Theory
 	- The [[Exponential Map]]
-	  collapsed:: true
 		- Note that the exponential map may not be injective (eg, $SU(2)$ ) or surjective (disconnected Lie group). However, it is a [[Local Homeomorphism]].
 		- ((6382db2f-701a-41e5-8169-70d9167b1c9f)) For $0<\varepsilon<\log 2$, $U_{\varepsilon}:=\left\{X \in M_n(\mathbb{C}) \mid\|X\|<\varepsilon\right\}$ and $V_{\varepsilon}:=\exp \left(U_{\varepsilon}\right)$. Suppose $G \subset \mathrm{GL}(n ; \mathbb{C})$ is a matrix Lie group with Lie algebra $\mathfrak{g}$. Then there exists $\varepsilon \in(0, \log 2)$ such that for all $A \in V_{\varepsilon}, A$ is in $G$ **if and only if** $\log A$ is in $\mathfrak{g}$. #card
 		  card-last-interval:: 33.35

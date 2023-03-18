@@ -3,16 +3,38 @@ alias:: [[Category Theory]]
 - [[References]]
 	- ((63ba25c2-8eff-41fb-b08c-9098b6a3047c)) Invitation
 	- Denis-Charles Cisinski. Higher Categories and Homotopical Algebra.
-- Definitions
+- # Definitions
+	- Congruence #card
+	  collapsed:: true
+		- An equivalence relation on the class of all Homs $\cup_{A,B}Hom(A,B)$ in the cat, with the following conditions:
+		- (i) $f \in \operatorname{Hom}(A, B)$ and $f \sim f^{\prime}$ implies $f^{\prime} \in \operatorname{Hom}(A, B)$
+			- Necessary but insufficient.
+		- (ii) $f \sim f^{\prime}, g \sim g^{\prime}$, and the composite $g \circ f$ exists imply that
+		  $$
+		  g \circ f \sim g^{\prime} \circ f^{\prime} .
+		  $$
+			- Transitive.
+	- ## [[Functor]]s
+		- Contravariant functor #card
+			- Definition. If $\mathscr{A}$ and $\mathscr{C}$ are categories, a contravariant functor $S: \mathscr{A} \rightarrow \mathscr{C}$ is a function, that is,
+			- (i) if $f: A \rightarrow A^{\prime}$ is a morphism in $\mathscr{A}$, then $S f: S A^{\prime} \rightarrow S A$ is a morphism in $\mathscr{C}$, such that:
+			- (ii) if $f, g$ are morphisms in $\mathscr{A}$ for which $g \circ f$ is defined, then
+			  background-color:: yellow
+			  $$
+			  S(g \circ f)=S(f) \circ S(g)
+			  $$
+				- This is what 'contravariant' means.
+				- Usual functors are actually **covariant functors**.
+			- (iii) $S\left(1_A\right)=1_{S A}$ for every $A \in \operatorname{obj} \mathscr{A}$.
+		- Equivalent categories
+			- ((636ca710-55ab-45a0-aa16-0274e4ed00e4))
+			- Theorem 3.3.52. A functor $F: \mathcal{C} \rightarrow \mathcal{D}$ between two categories $\mathcal{C}, \mathcal{D}$ is an equivalence **if and only if** it satisfies the following conditions:
+			  1. (fully faithful) For any $x, y \in \mathcal{C}$, the map $F_{x, y}: \operatorname{Hom}_{\mathcal{C}}(x, y) \rightarrow \operatorname{Hom}_{\mathcal{D}}(F(x), F(y))$ is a bijection
+			  2. (essentially surjective) For any $z \in \mathcal{D}$, there exists an object $x \in \mathcal{C}$ such that $F(x) \simeq z$.
+		-
 	- Higher cats
 		- [[2-category]]
 		- [[Morita equivalence]]
-		- [[Functor]]
-			- Equivalent categories
-				- ((636ca710-55ab-45a0-aa16-0274e4ed00e4))
-				- Theorem 3.3.52. A functor $F: \mathcal{C} \rightarrow \mathcal{D}$ between two categories $\mathcal{C}, \mathcal{D}$ is an equivalence **if and only if** it satisfies the following conditions:
-				  1. (fully faithful) For any $x, y \in \mathcal{C}$, the map $F_{x, y}: \operatorname{Hom}_{\mathcal{C}}(x, y) \rightarrow \operatorname{Hom}_{\mathcal{D}}(F(x), F(y))$ is a bijection
-				  2. (essentially surjective) For any $z \in \mathcal{D}$, there exists an object $x \in \mathcal{C}$ such that $F(x) \simeq z$.
 		- [[Natural transformation]] #card
 		  card-last-interval:: 24
 		  card-repeats:: 2
@@ -33,6 +55,7 @@ alias:: [[Category Theory]]
 				- A monoidal functor with ((6376e81c-2e47-48db-8cd0-86df3405e14e))
 				-
 	- Additional structures
+	  collapsed:: true
 		- [[C-linear category]]
 		- [[Semisimplicity]]
 		- [[Monoidal structure]]
@@ -44,7 +67,7 @@ alias:: [[Category Theory]]
 		- [[Central functor]]
 	- [[Muger center]]
 		- [[Nondegenerate]]
-	- Some terminologie
+	- Some terminologies
 		- [[Fusion category]]
 		- [[Unitary modular tensor category]]
 	- Idempotent #card
@@ -54,21 +77,34 @@ alias:: [[Category Theory]]
 	  card-next-schedule:: 2023-08-02T20:55:14.542Z
 	  card-last-reviewed:: 2023-01-13T00:55:14.542Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- A morphism with $$e=e^2:=e \circ e$$
 		-
 		- Split #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-03-08T11:05:10.205Z
-		  card-last-reviewed:: 2022-12-31T07:05:10.205Z
+		  card-last-interval:: 201.84
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2023-10-01T08:08:48.299Z
+		  card-last-reviewed:: 2023-03-13T12:08:48.299Z
 		  card-last-score:: 5
 			- An idempotent $e: x \rightarrow x$ splits if there exists an object $y \in \mathcal{C}$ equipped with two morphisms $r: x \rightarrow y, s: y \rightarrow x$ such that $r \circ s=\mathrm{id}_y$ and $s \circ r=e$.
 			- The triple $(y, r, s)$ (or simply the object $y)$ is called an image of the idempotent $e$.
 		- Idempotent complete
 		  id:: 636ca217-d22e-42b8-984f-f4f35d530948
 			- A category $\mathcal{C}$ where every idempotent in $\mathcal{C}$ splits.
-	- Constructions
+	- ## New cats from old ones
+	  collapsed:: true
+		- Quotient category #card
+			- Let $\mathscr{C}$ be a category with congruence $\sim$, and let $[f]$ denote the equivalence class of a morphism $f$. 
+			  Define the quotient category $\mathscr{C}^{\prime}$ as follows:
+			  $$
+			  \begin{aligned}
+			  \operatorname{obj} \mathscr{C}^{\prime} & =\operatorname{obj} \mathscr{C} ; \\
+			  \operatorname{Hom}_{\mathscr{E}^{\prime}}(A, B) & =\left\{[f]: f \in \operatorname{Hom}_{\mathscr{E}}(A, B)\right\} ; \\
+			  {[g] \circ[f] } & =[g \circ f] .
+			  \end{aligned}
+			  $$
+			- Homs are equivalence classes.
 		- [[Deligne tensor product]]
 		- Reversing some spacetime direction of a [[Topological Order]]
 		  collapsed:: true
@@ -95,7 +131,9 @@ alias:: [[Category Theory]]
 			-
 		- [[Drinfeld center]]
 	-
-- Examples
+- # Basic Theory
+	-
+- # Examples
   collapsed:: true
 	- Representation category, $Rep(G)$
 	  collapsed:: true
