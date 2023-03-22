@@ -1,8 +1,15 @@
-alias:: [[Fusion]]
+alias:: [[Fusion]], Monoidal Category
 
-- Definition
+-
+- # Defs
+  collapsed:: true
 	- ((636dff04-0f30-41b4-bb8a-18ae5952d6c5))
-	  A fusion map, triviality of vacuum, and some consistency relations.
+	  A fusion map, unitality of vacuum, and some consistency relations.
+	-
+	- Monoidal functor
+		- Physical intuitions
+			- 'Map and fuse' shall be isomorphic to 'fuse and map'
+				- ((6376e69f-4dbd-4465-b405-49950dce1124))
 	- Note that the structure is more than a [[tensor product]]. The tensor product only gives the [[Fusion rules]] , but the **associators** are absent.
 		- Can be always extend a set of [[Fusion rules]] into a monoidal structure?
 			- NO. Sometimes there are no solutions to the associators.
@@ -17,9 +24,16 @@ alias:: [[Fusion]]
 			-
 	-
 	-
-- Example
+- # Properties
+	- Theorem. Each monoidal category is equivalent to a strict monoidal category. #card
+		- 'Strict' means that all associators are identity.
+	-
+- # Example
 	- Different monoidal structures for ((636df91a-04a7-4d74-ab05-5c5939616e84))
 	  id:: 636e074a-e3f3-4c93-8ee1-d5b97e7c05ea
+	  collapsed:: true
 		- ((636e07c8-8de8-40a2-9ace-ad0e0248d95d))
 		- Linked to [[Group Cohomology]]!
+	- Exercise. The left dual of $G\in \mathrm{End}(\mathcal{C})$ is the left adjoint of G. #card
+	-
 	-

@@ -149,4 +149,10 @@
 			- ((63c0a6c5-915b-4040-bad6-53634a83f21e)) Let $K$ be a field. A nonconstant polynomial $f \in K[X]$ is separable over $K$ if and only if $\operatorname{Dis}(f) \neq 0$.
 		- Let $K$ be a field. If $f \in K[X]$ has degree $n \geqq 2$ and leading coefficient $a_n$, then $\operatorname{Res}\left(f, f^{\prime}\right)=(-1)^{n(n-1) / 2} a_n \operatorname{Dis}(f)$.
 - [[Galois Theory]]
--
+- # Rings
+	- ## Division Ring
+		- When $\mathbb k=\mathbb R$, there only three finite-dimensional division algebras. #card
+			- They're $\mathbb R, \mathbb C, \mathbb H$.
+			- $\mathbb H$ is the quarternion algebra.
+		- For any algebraically-closed field, there is only one finite-dimensional division algebra. #card
+			- Itself.

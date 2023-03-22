@@ -1,0 +1,138 @@
+{:highlights
+ [{:id #uuid "6416ba90-2deb-428b-b6cf-fb6dedf75dd1",
+   :page 62,
+   :position
+   {:bounding
+    {:x1 428.19911193847656,
+     :y1 889.7734375,
+     :x2 636.1991119384766,
+     :y2 991.7734375,
+     :width 1060.8,
+     :height 1372.8},
+    :rects (),
+    :page 62},
+   :content {:text "[:span]", :image 1679211150363},
+   :properties {:color "yellow"}}
+  {:id #uuid "6416bb24-d547-4c3d-b1f5-88eedd9b956c",
+   :page 63,
+   :position
+   {:bounding
+    {:x1 427.6211242675781,
+     :y1 691.6953125,
+     :x2 610.6211242675781,
+     :y2 794.6953125,
+     :width 1060.8,
+     :height 1372.8},
+    :rects (),
+    :page 63},
+   :content {:text "[:span]", :image 1679211299862},
+   :properties {:color "yellow"}}
+  {:id #uuid "6416bb8b-f1b1-4df6-9e95-433f64466150",
+   :page 63,
+   :position
+   {:bounding
+    {:x1 403.0509948730469,
+     :y1 1106.03125,
+     :x2 662.0509948730469,
+     :y2 1224.03125,
+     :width 1060.8,
+     :height 1372.8},
+    :rects (),
+    :page 63},
+   :content {:text "[:span]", :image 1679211403074},
+   :properties {:color "yellow"}}
+  {:id #uuid "6416cac5-4bfa-43d5-bedc-223b9ff5e0da",
+   :page 75,
+   :position
+   {:bounding
+    {:x1 219.55906105041504,
+     :y1 249.60203552246094,
+     :x2 287.7064151763916,
+     :y2 269.2219543457031,
+     :width 1060.8,
+     :height 1372.8},
+    :rects
+    ({:x1 219.55906105041504,
+      :y1 249.60203552246094,
+      :x2 287.7064151763916,
+      :y2 269.2219543457031,
+      :width 1060.8,
+      :height 1372.8}),
+    :page 75},
+   :content {:text "Theorem"},
+   :properties {:color "yellow"}}
+  {:id #uuid "6417c7d7-9d66-45c8-b1ea-2d11deb1bff8",
+   :page 92,
+   :position
+   {:bounding
+    {:x1 501.5909729003906,
+     :y1 970.34375,
+     :x2 638.5909729003906,
+     :y2 1045.34375,
+     :width 1142.3999999999999,
+     :height 1478.3999999999999},
+    :rects (),
+    :page 92},
+   :content {:text "[:span]", :image 1679280086760},
+   :properties {:color "yellow"}}
+  {:id #uuid "64180626-c15e-44ef-b728-b8fddc2263d2",
+   :page 212,
+   :position
+   {:bounding
+    {:x1 211.1193962097168,
+     :y1 467.2014846801758,
+     :x2 276.6356315612793,
+     :y2 485.7089385986328,
+     :width 1019.9999999999999,
+     :height 1319.9999999999998},
+    :rects
+    ({:x1 211.1193962097168,
+      :y1 467.2014846801758,
+      :x2 276.6356315612793,
+      :y2 485.7089385986328,
+      :width 1019.9999999999999,
+      :height 1319.9999999999998}),
+    :page 212},
+   :content {:text "Theorem"},
+   :properties {:color "yellow"}}
+  {:id #uuid "64180925-7584-4cba-83a2-b731525d514b",
+   :page 228,
+   :position
+   {:bounding
+    {:x1 211.11938858032227,
+     :y1 299.84140396118164,
+     :x2 297.3836097717285,
+     :y2 318.3488655090332,
+     :width 1019.9999999999999,
+     :height 1319.9999999999998},
+    :rects
+    ({:x1 211.11938858032227,
+      :y1 299.84140396118164,
+      :x2 297.3836097717285,
+      :y2 318.3488655090332,
+      :width 1019.9999999999999,
+      :height 1319.9999999999998}),
+    :page 228},
+   :content {:text "Proposition"},
+   :properties {:color "yellow"}}
+  {:id #uuid "64180e96-5979-463b-ade9-fc2e4c2edd44",
+   :page 228,
+   :position
+   {:bounding
+    {:x1 211.11938858032227,
+     :y1 641.0260925292969,
+     :x2 297.3836097717285,
+     :y2 659.5335540771484,
+     :width 1019.9999999999999,
+     :height 1319.9999999999998},
+    :rects
+    ({:x1 211.11938858032227,
+      :y1 641.0260925292969,
+      :x2 297.3836097717285,
+      :y2 659.5335540771484,
+      :width 1019.9999999999999,
+      :height 1319.9999999999998}),
+    :page 228},
+   :content {:text "Proposition"},
+   :properties {:color "yellow"}}], 
+ :extra {:page 228}}

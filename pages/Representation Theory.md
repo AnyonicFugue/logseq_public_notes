@@ -58,10 +58,10 @@ alias:: Representation
 	- Regular representation #card 
 	  id:: 1e9f6e33-36ec-4362-9505-3b42540bb3a7
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-20T01:47:40.295Z
-	  card-last-reviewed:: 2023-02-24T01:47:40.295Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-04-14T01:21:46.953Z
+	  card-last-reviewed:: 2023-03-21T01:21:46.954Z
 	  card-last-score:: 5
 		- $$\left(\operatorname{Reg}( g_{1} ,g_{2}) f\right) (g)=f\left( g_{2}^{-1} gg_{1}\right),f\in M(T)$$
 			- The definition ensures Associativity:
@@ -70,7 +70,7 @@ alias:: Representation
 		-
 		- Maybe linked to differential geometry:
 		  A definition by pushforward.
-		- Higher ranks of tensor ⇒ [Tensor product](../Representation theory/Basic Definitions/Tensor product.md) of [Regular representation](../Representation theory/Basic Definitions/Matrix elements/Regular representation.md). Also irreducible.
+		- Obviously we can generalize to higher-rank tensors, which are tensor products of the regular representation.
 	- Character #card
 	  card-last-interval:: 25.01
 	  card-repeats:: 1

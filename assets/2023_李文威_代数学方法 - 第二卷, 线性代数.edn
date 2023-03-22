@@ -1,0 +1,30 @@
+{:highlights
+ [{:id #uuid "6417cf47-91da-4a70-9d80-c3a8b38344a2",
+   :page 52,
+   :position
+   {:bounding
+    {:x1 388.94359588623047,
+     :y1 575.6875,
+     :x2 503.94359588623047,
+     :y2 670.6875,
+     :width 931.2799999999999,
+     :height 1322.8319999999999},
+    :rects (),
+    :page 52},
+   :content {:text "[:span]", :image 1679281991468},
+   :properties {:color "yellow"}}
+  {:id #uuid "6417fcc4-201f-41c7-8bd7-78752eb8850d",
+   :page 52,
+   :position
+   {:bounding
+    {:x1 267,
+     :y1 870.89453125,
+     :x2 557,
+     :y2 1004.89453125,
+     :width 831.4999999999999,
+     :height 1181.1},
+    :rects (),
+    :page 52},
+   :content {:text "[:span]", :image 1679293636566},
+   :properties {:color "yellow"}}], 
+ :extra {:page 52}}

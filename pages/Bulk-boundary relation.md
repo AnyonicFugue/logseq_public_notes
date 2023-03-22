@@ -34,10 +34,10 @@ alias:: Bulk-Boundary Correspondence
 - Version of [[UMTC]] #card
   id:: 63a6b228-a5d2-400f-84c2-b7367f9cdef2
   card-last-interval:: 24
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-02-05T00:17:09.642Z
-  card-last-reviewed:: 2023-01-12T00:17:09.642Z
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-04-14T01:56:26.161Z
+  card-last-reviewed:: 2023-03-21T01:56:26.161Z
   card-last-score:: 5
 	- ((637ad40d-928c-428f-b8be-6efaaffb1156))
 		- Which conditions are necessary?

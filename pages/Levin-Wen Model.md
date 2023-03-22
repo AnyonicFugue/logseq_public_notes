@@ -46,6 +46,12 @@
 		  card-last-score:: 5
 			- Ground states are eigen to $B_p$. So we can first add a $\tilde \Omega$ by $B_p$, use the handle-slide property to move across the puncture, then remove the $\tilde \Omega$.
 		- Prop. The ground space is topological. #card
+		  card-last-interval:: 22.99
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-14T02:06:26.618Z
+		  card-last-reviewed:: 2023-03-22T03:06:26.618Z
+		  card-last-score:: 5
 			- ((63fa1061-a719-42a4-8b01-2bd603e394fc))
 			- ((63f1e575-e066-4e22-9614-a8f2a6fd2ab6))
 				- Note that not only the quantum numbers are changed, but also the underlying lattice structure.

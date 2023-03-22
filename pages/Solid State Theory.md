@@ -173,6 +173,12 @@ type:: [[Course]]
 				  background-color:: yellow
 			- Experimentalists often use this method to obtain the effective mass.
 		- Susceptibility #card
+		  card-last-interval:: 27.15
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-16T04:32:04.890Z
+		  card-last-reviewed:: 2023-03-20T01:32:04.890Z
+		  card-last-score:: 5
 			- Idea
 				- First obtain the dependence of $E_0$ on $m$.
 				- Since $E=E_0-m\cdot h$, m would be obtained by minimizing the total energy.

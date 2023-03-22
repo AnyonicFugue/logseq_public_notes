@@ -48,6 +48,12 @@ alias:: Gauge Theory
 	- See [here](((64115d22-ffe4-4ee4-8a05-79bbe0f520f2))).
 	- ## Def
 		- Wilson loop #card
+		  card-last-interval:: 27.15
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-16T04:28:29.777Z
+		  card-last-reviewed:: 2023-03-20T01:28:29.778Z
+		  card-last-score:: 5
 			- In the nonabelian case, $U(x,x)$ is not gauge-invariant.
 			  So we define $\operatorname{tr} U_P(x, x)$ as the **Wilson loop**.
 				-
@@ -91,9 +97,8 @@ alias:: Gauge Theory
 			- $U(y, x)=\exp \left[-i e \int_\gamma A_\mu(x) d x^\mu\right]$
 			  id:: 6404430c-1c1c-40a7-a9f6-977362c15589
 				- Obviously $A_\mu$ must also transform.
-				- Exercise. Prove its law of transformation. #card
+				- Exercise. Prove the law of transformation of $A_\mu$. #card
 					- Hint: Examine the infinitesimal behavior.
-					- Answer: {{cloze $A^\mu(x) \rightarrow A^\mu(x)-\frac{1}{e} \partial^\mu \alpha$}}
 			- This also absorbs the interaction term into the derivative!
 		- Conclusion
 			- $\mathcal L=-\frac{1}{4} F^{\mu \nu} F_{\mu \nu}+\bar{\psi}\left(i \gamma^\mu D_\mu-m\right) \psi$

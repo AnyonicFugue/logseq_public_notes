@@ -99,11 +99,11 @@
 				-
 		- ((6393ecbc-590b-426b-8528-d730e640b237)) The inclusion map $j : S^1 \rightarrow \mathbb{R}^2-\mathbf{0}$ is not nulhomotopic. #card
 		  card-last-score:: 5
-		  card-repeats:: 2
-		  card-next-schedule:: 2023-02-24T13:13:04.854Z
-		  card-last-interval:: 24
-		  card-ease-factor:: 2.7
-		  card-last-reviewed:: 2023-01-31T13:13:04.854Z
+		  card-repeats:: 3
+		  card-next-schedule:: 2023-05-27T09:35:29.691Z
+		  card-last-interval:: 67.2
+		  card-ease-factor:: 2.8
+		  card-last-reviewed:: 2023-03-21T05:35:29.692Z
 		  collapsed:: true
 			- An exercise to express the intuition via the language of retractions.
 			- Hint: Nul -> Trivial hom of $\pi_1$; Retraction -> Injective
@@ -264,7 +264,14 @@
 		- m-fold projective plane #card
 		  id:: 63f21c4d-b959-43e5-889d-90abd29a1092
 		  collapsed:: true
+		  card-last-interval:: 23.96
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-15T02:29:02.062Z
+		  card-last-reviewed:: 2023-03-22T03:29:02.064Z
+		  card-last-score:: 5
 			- An $2m$-polygon pasted by $\left(a_1 a_1\right)\left(a_2 a_2\right) \cdots\left(a_m a_m\right)$.
+				- Also a connected sum of $m$ projective planes.
 			- $m=3$ example
 				- ![Image(1).png](../assets/Image(1)_1676812325317_0.png){:height 688, :width 847}
 				- Each component is a projective plane minus a circle.
@@ -473,6 +480,12 @@
 				- Hint: Use the [lemma](((63fabdf6-dd04-4a9c-9d8f-a3635ac7b108))) forwards and backwards for several times.
 		- ((63ff1f74-71d1-4d4e-b347-d0746b62e728)) (The classification theorem). Let $X$ be a surface formed by a proper scheme. Then $X$ is homeomorphic either to $S^2$, to the $n$-fold torus $T_n$, or to the $m$-fold projective plane $P_m$. #card
 		  id:: 6401b892-1a98-4844-89b5-e95da63050da
+		  card-last-interval:: 26.02
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-16T01:34:37.879Z
+		  card-last-reviewed:: 2023-03-21T01:34:37.880Z
+		  card-last-score:: 5
 			- Note this only works for pasting edges in pairs. Not for, eg. ((63e86249-c48a-4740-a36d-100aeb1da16c)).
 			- Collecting the lemmas above!
 		-

@@ -226,32 +226,11 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Z
   hl-type:: area
   hl-stamp:: 1668063463227
   id:: 636ca0e8-2319-486b-99ab-44be23202cff
-- [:span]
-  ls-type:: annotation
-  hl-page:: 28
-  hl-color:: blue
-  hl-type:: area
-  hl-stamp:: 1668063970019
-  id:: 636ca2e3-8e0c-4bbf-9901-9964401c07d5
 - Given a topological order C, it is expected that the category C of particle-like topological defects is C-linear, because the instantons (morphisms) are microscopically realized by linear operators.
   ls-type:: annotation
   hl-page:: 28
   hl-color:: green
   id:: 636ca2f8-7130-45e2-abc4-1220ed351269
-- [:span]
-  ls-type:: annotation
-  hl-page:: 29
-  hl-color:: blue
-  hl-type:: area
-  hl-stamp:: 1668064093625
-  id:: 636ca361-54bc-4203-8329-d235ed1814e9
-- [:span]
-  ls-type:: annotation
-  hl-page:: 30
-  hl-color:: blue
-  hl-type:: area
-  hl-stamp:: 1668064150575
-  id:: 636ca397-e0e2-42d4-8e7d-89f1da820733
 - [:span]
   ls-type:: annotation
   hl-page:: 31
@@ -308,13 +287,6 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Z
   ls-type:: annotation
   hl-color:: green
   id:: 636dfa7f-9f43-4049-bcac-0ab2a9d8670a
-- [:span]
-  ls-type:: annotation
-  hl-page:: 35
-  hl-color:: blue
-  hl-type:: area
-  hl-stamp:: 1668152002338
-  id:: 636dfac4-b7e4-415e-878e-fdeac5efcd9d
 - The category of particle-like topological defects of an nd topological order is also a finite semisimple category.
   ls-type:: annotation
   hl-page:: 36
@@ -1497,3 +1469,13 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Z
   hl-page:: 118
   hl-color:: yellow
   id:: 63ba31c8-0a9f-4918-8f14-200ff757172d
+- Definition
+  ls-type:: annotation
+  hl-page:: 28
+  hl-color:: yellow
+  id:: 641a5ef2-1a8b-4179-b19f-06af5390f5e8
+- Definition
+  ls-type:: annotation
+  hl-page:: 35
+  hl-color:: yellow
+  id:: 641a6c67-bd98-4266-bc5d-75ce90e2c7e0

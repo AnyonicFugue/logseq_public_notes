@@ -1,15 +1,15 @@
 - [[Deformation Retraction]]
 	- ((639541d5-9e08-4c84-97f1-a779990ec598)) Let $h, k : X \rightarrow Y$ be continuous maps, where $h(x_0)=k(x_0)=y_0$. If $h$ and $k$ are homotopic, and if the image of the base point $x_0$ of $X$ remains fixed at $y_0$ during the homotopy, then the homomorphisms $h_*$ and $k_*$ are equal. #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-03-17T17:01:47.804Z
-	  card-last-reviewed:: 2023-01-09T13:01:47.804Z
+	  card-last-interval:: 201.84
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2023-10-09T23:19:07.921Z
+	  card-last-reviewed:: 2023-03-22T03:19:07.922Z
 	  card-last-score:: 5
 	  id:: 63a507a1-db81-4fb5-99ad-f1c6af18e8fc
 		- Intuitively, 
-		  homotopical paths -> equivalent paths
-		  homotopical maps -> equivalent homs of fundamental groups
+		  homotopic paths -> equivalent paths
+		  homotopic maps -> equivalent homs of fundamental groups
 		- $I \times I \stackrel{f \times i d}{\longrightarrow} X \times I \stackrel{H}{\longrightarrow} Y$
 	- ((63954564-3e1d-4f74-81c3-bea192c5ffdd)) The inclusion map $j: S^n \rightarrow \mathbb{R}^{n+1}-0$ induces an isomorphism of fundamental groups. #card
 	  card-last-interval:: 67.2

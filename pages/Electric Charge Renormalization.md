@@ -4,12 +4,12 @@
   collapsed:: true
 	- Summary #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-15T06:45:15.481Z
-	  card-last-reviewed:: 2023-02-19T06:45:15.483Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-04-14T05:38:58.013Z
+	  card-last-reviewed:: 2023-03-21T05:38:58.014Z
 	  card-last-score:: 5
-		- Only possible quantities are ...
+		- Only possible quantities are
 			- $g^{\mu \nu}$ and $q^\mu q^\nu$
 		- Ward identity to determine the combination
 		- Effect on the photon propagator and electron charge

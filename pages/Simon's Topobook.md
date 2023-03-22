@@ -7,10 +7,10 @@ type:: paper_reading
   collapsed:: true
 	- ### ((63c21788-4217-4cb3-8a20-099a3cfa23ba)) ; Diagrams and Physical Quantities #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-22T01:07:34.189Z
-	  card-last-reviewed:: 2023-02-26T01:07:34.190Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-04-15T03:18:31.963Z
+	  card-last-reviewed:: 2023-03-22T03:18:31.964Z
 	  card-last-score:: 5
 		- Define toric code by local dancing rules (similar to 2017_Wen)
 			- Isotopy, adding/removing contractable loops, reconnection

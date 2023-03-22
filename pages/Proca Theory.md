@@ -79,6 +79,12 @@
 		- However $D_F^{\mu \nu}(x-y)\neq\left(-g^{\mu \nu}-\partial^\mu \partial \nu / m^2\right) D_F(x-y)$, since derivatives doesn't commute with time ordering. We should find the extra term caused by the non-commutativity.
 			- Prop. Only $\partial_0^2$ has contributions. #card
 		- Prop. #card 
+		  card-last-interval:: 26.06
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-15T02:25:32.811Z
+		  card-last-reviewed:: 2023-03-20T01:25:32.811Z
+		  card-last-score:: 5
 		  $$
 		  \begin{aligned}
 		  & \theta\left(x^0-y^0\right) \partial_0^2 D(x-y)+\theta\left(y^0-x^0\right) \partial_0^2 D(y-x) \\

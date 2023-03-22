@@ -272,11 +272,11 @@ type:: Course
 			- Note that $M_1M_2M_3M_4M_5=I$, so 3=5-2.
 		-
 	- Codewords #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-03-20T04:14:45.084Z
-	  card-last-reviewed:: 2023-01-12T00:14:45.085Z
+	  card-last-interval:: 201.84
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2023-10-08T21:20:10.813Z
+	  card-last-reviewed:: 2023-03-21T01:20:10.819Z
 	  card-last-score:: 5
 		- Naive construction
 			- $|0\rangle \rightarrow\left|0_L\right\rangle \equiv \sum_{M \in \mathcal{S}} M|00000\rangle$

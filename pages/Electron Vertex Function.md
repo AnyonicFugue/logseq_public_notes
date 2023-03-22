@@ -1,9 +1,9 @@
 - Overall scheme #card
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-02-25T03:52:34.749Z
-  card-last-reviewed:: 2023-02-01T03:52:34.750Z
+  card-last-interval:: 67.2
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-05-28T07:29:26.726Z
+  card-last-reviewed:: 2023-03-22T03:29:26.727Z
   card-last-score:: 5
 	- Write out the vertex function and analyze the possible ingredients by some general principles.
 		- Lorentz invariance, Ward identity, possible quantities

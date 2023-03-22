@@ -126,11 +126,11 @@ type:: [[Course]]
 - [[Phase Transition]] and [[Criticality]]
   collapsed:: true
 	- Criticality of Van der Waals gas #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-03-10T09:45:21.079Z
-	  card-last-reviewed:: 2023-01-02T05:45:21.080Z
+	  card-last-interval:: 201.84
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2023-10-08T21:35:08.247Z
+	  card-last-reviewed:: 2023-03-21T01:35:08.248Z
 	  card-last-score:: 5
 		- Equation $\left(p+\frac{a}{v^2}\right)(v-b)=R T$
 			- ![IVCJdvJM199kI26xcSqNF__dOXAW-eTJqdaF_vj0XQf7xtK4fyvBd2S_daDTNgbEkRtnjyPqq2xnGJbwxPmZ2nebYRj1MwZNAjgX07H2mOZngUE62EObknQ6HY5g36vW.png](../assets/IVCJdvJM199kI26xcSqNF_dOXAW-eTJqdaF_vj0XQf7xtK4fyvBd2S_daDTNgbEkRtnjyPqq2xnGJbwxPmZ2nebYRj1MwZNAjgX07H2mOZngUE62EObknQ6HY5g36vW_1669207663643_0.png)

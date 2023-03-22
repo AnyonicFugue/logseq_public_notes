@@ -112,11 +112,11 @@
 			- Measure k and obtain some $k=\frac p q N,(p,q)=1$. 
 			  Perform the process several times and find $$lcm(q_1,...,q_w)$$ which is quite likely to be r.
 	- ### Shor's Algorithm #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-03-13T01:01:57.336Z
-	  card-last-reviewed:: 2023-02-17T01:01:57.336Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-27T05:26:47.270Z
+	  card-last-reviewed:: 2023-03-21T01:26:47.271Z
 	  card-last-score:: 5
 		- Problem
 			- Factor a given number.

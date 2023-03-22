@@ -1,4 +1,10 @@
 - Evolution #card
+  card-last-interval:: 26.02
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-04-16T01:55:06.618Z
+  card-last-reviewed:: 2023-03-21T01:55:06.619Z
+  card-last-score:: 5
 	- $$\begin{aligned} & i \frac{\partial}{\partial t} O_I(t)=\left[O_I, H_0\right] \\ & i \frac{\partial}{\partial t}|\psi(t)\rangle_I=V_I|\psi(t)\rangle_I\end{aligned}$$
 		- $H_0$ is the free Hamiltonian, $V_I$ is the interaction.
 	- Note that $V_I$ also evolves with time.

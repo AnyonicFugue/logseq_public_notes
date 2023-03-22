@@ -44,12 +44,12 @@
 					- Use static arrays for critical parts of code
 		- Multiprocessing
 	- Plotting #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-03-03T08:16:52.075Z
-	  card-last-reviewed:: 2022-12-26T04:16:52.075Z
-	  card-last-score:: 5
+	  card-last-interval:: 169.81
+	  card-repeats:: 4
+	  card-ease-factor:: 2.66
+	  card-next-schedule:: 2023-09-07T00:39:24.288Z
+	  card-last-reviewed:: 2023-03-21T05:39:24.289Z
+	  card-last-score:: 3
 		- Temporary solution: Use GR.jl to plot and use readline() to block the program.
 		- ```
 		    GR.xlabel("\$tL^{1/v}\$")

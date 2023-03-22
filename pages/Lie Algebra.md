@@ -93,11 +93,11 @@
 			  collapsed:: true
 				- By 1-para group theorem.
 	- Proposition. If $\mathfrak{g}$ is a Lie algebra, then
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-03-07T11:09:12.719Z
-	  card-last-reviewed:: 2023-02-11T11:09:12.719Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-26T05:29:27.583Z
+	  card-last-reviewed:: 2023-03-20T01:29:27.583Z
 	  card-last-score:: 5
 	  collapsed:: true
 	  $$

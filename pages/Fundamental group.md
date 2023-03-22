@@ -3,6 +3,12 @@
 	- ((6370a8fd-64aa-4453-9384-10636e61c42e))
 		- Sometimes called first [[Homotopy group]]
 - Summary #card
+  card-last-interval:: 25.01
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-04-14T01:20:10.582Z
+  card-last-reviewed:: 2023-03-20T01:20:10.582Z
+  card-last-score:: 5
 	- **Note:** This kind of cards enable me to have better sense of what I've learned.
 	- Def
 	- Applications
@@ -25,11 +31,11 @@
 	-
 -
 - The fundamental group is a [[Topological invariant]] #card
-  card-last-interval:: 10
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2022-12-25T05:20:03.507Z
-  card-last-reviewed:: 2022-12-15T05:20:03.509Z
+  card-last-interval:: 67.2
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-05-28T07:16:56.504Z
+  card-last-reviewed:: 2023-03-22T03:16:56.509Z
   card-last-score:: 5
   collapsed:: true
 	- Homomorphism induced by a continuous map
