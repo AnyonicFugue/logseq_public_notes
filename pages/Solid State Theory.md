@@ -3,6 +3,7 @@ type:: [[Course]]
 -
 - ![2012_Phillips_Advanced Solid State Physics.pdf](file://zotero_link/Physics/Courses/Solid State/2012_Phillips_Advanced Solid State Physics.pdf)
 - # Problem-Solving Tricks
+  collapsed:: true
 	- Diagonalizing tight-binding model
 		- Perform a FT to the momentum space
 			- Note that the momenta is a continuum, not discreet.
@@ -161,6 +162,12 @@ type:: [[Course]]
 		- Obviously the volume of the phase space is proportional to $\epsilon^2$.
 	- Calculate physical quantities
 		- Heat capacity at low temperatures #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-21T00:59:48.624Z
+		  card-last-reviewed:: 2023-03-28T00:59:48.624Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- First calculate the energy of a certain configuration. The heat capacity would be known once the state density is known.
 				- $$\begin{aligned}
@@ -171,6 +178,9 @@ type:: [[Course]]
 				- Therefore the 2-body part is zero, only the 1-body part remains.
 				- The heat capacity can be calculated like free fermions (by inserting the effective mass).
 				  background-color:: yellow
+			- Note that Fermi-Dirac distribution shall be used since we're dealing with fermions!
+			  background-color:: red
+				- Never see anything like $e^{-\beta E}$.
 			- Experimentalists often use this method to obtain the effective mass.
 		- Susceptibility #card
 		  card-last-interval:: 27.15
@@ -202,51 +212,68 @@ type:: [[Course]]
 		-
 	-
 - # Green Function, Correlation and Dissipation
-  collapsed:: true
 	- Definitions
 	  collapsed:: true
 		- [[Green Function]] #card
+		  collapsed:: true
 			- ((640be051-94a7-40d3-bcc0-581ee03f5cdb)) $G_\sigma\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right):=-\mathrm{i} T\left\langle\psi_\sigma(\mathbf{r}, t) \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\rangle$
+			  collapsed:: true
 				- T is the time ordering, where 
 				  $$
 				  T\left(a\left(t_1\right) b\left(t_2\right)\right)= \begin{cases}a\left(t_1\right) b\left(t_2\right), & t_1>t_2, \\ (-1)^P b\left(t_2\right) a\left(t_1\right), & t_2>t_1,\end{cases}
 				  $$
 				- Don't forget the minus for fermions!
 			- Retarded
+			  collapsed:: true
 				- $G_\sigma^{\mathrm{R}}\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right)=-\mathrm{i} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_\sigma(\mathbf{r}, t), \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\}\right\rangle$
 				- $x_{B A}^{ret}\left(t, t^{\prime}\right)=\frac{i}{\hbar} \theta\left(t, t^{\prime}\right)\left\langle\left[\hat{B}(t), \hat{A}\left(t^{\prime}\right)\right]\right\rangle$
+				  collapsed:: true
 					- This follows ((6410762b-de4a-479c-961f-baa5532f6a5d)).
 				- Only retarded (from the earlier time $t'$ to the later time $t$) part.
 			- Advanced
+			  collapsed:: true
 				- $G_\sigma^{\mathrm{A}}\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right)=\mathrm{i} \theta\left(t^{\prime}-t\right)\left\langle\left\{\psi_\sigma(\mathbf{r}, t), \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\}\right\rangle$
 				- Only advanced (from the later time $t'$ to the earlier time $t$) part.
 		- Correlation function
 		- Spectral function
+		  collapsed:: true
 			- ((640be0e1-63f2-426b-96be-b5b698e93cdb)) $A_\sigma(\omega, \mathbf{p})=-\frac{1}{\pi} \operatorname{Im} G_\sigma^{\mathrm{R}}(\omega, \mathbf{p})$
+			  collapsed:: true
 				- Quite analogous to the ((6401b89c-e517-4e8f-ad4e-f98d5b166921))
 			-
 	- ## Fermionic Green Function
+	  collapsed:: true
 		- Def
-			- $$G_{\sigma_1 \sigma_2}^R\left(r_1, t_1; r_2, t_2\right):=-\frac{i}{\hbar} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_{\sigma_1}\left(r_1, t_1\right), \psi_{\sigma_2}^{\dagger}\left(r_2, t_2\right)\right\}\right\rangle$$
+		  collapsed:: true
+			- collapsed:: true
+			  $$G_{\sigma_1 \sigma_2}^R\left(r_1, t_1; r_2, t_2\right):=-\frac{i}{\hbar} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_{\sigma_1}\left(r_1, t_1\right), \psi_{\sigma_2}^{\dagger}\left(r_2, t_2\right)\right\}\right\rangle$$
 				- Always use anti-commutators for fermions.
 			- $$
 			  \tilde{G}^R(\vec{k}, \omega):=\int dt e^{-i\omega t}\int d^3 \vec{r}\ e^{-i \vec{k} \cdot \vec{r}}\ G^R(\vec{r}, t) 
 			  $$
 			- $A(k, \omega):=-\frac{1}{\pi} \operatorname{Im} G^R(k, \omega)$
+			  collapsed:: true
 				- Exercise. $A(\vec{k}, \omega) {=} \frac{1}{2 \pi} \int d t \ e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle$ #card
+				  collapsed:: true
 					- $A=(G^R-\overline{G^R})/(2i)$, which completes the integral to the whole real axis.
 				- Exercise. 
+				  collapsed:: true
 				  $$G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(k, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i \varepsilon}
 				  $$ #card
 					- Prop. 
+					  collapsed:: true
 					  $$\begin{aligned} & \int_{-\infty}^{\infty} d \omega^{\prime} f\left(\omega^{\prime}\right)\left\{P \frac{1}{\omega^{\prime}-\omega}+i \pi \delta\left(\omega^{\prime}-\omega\right)\right\} \\ & =\int_{-\infty}^{\infty} d \omega^{\prime} f\left(\omega^{\prime}\right) \frac{1}{\omega^{\prime}-\omega-i \epsilon}\end{aligned}$$
 						- The delta function adds back the imaginary part.
 					- Invoke ((6401b89c-a4af-4f0c-b59f-d44a3c164ff6)): $\chi_1(\omega)=\frac{1}{\pi} \mathcal{P} \int_{-\infty}^{\infty} \frac{\chi_2\left(\omega^{\prime}\right)}{\omega^{\prime}-\omega} d \omega^{\prime}$
+					  collapsed:: true
 						- Note that there is an extra minus in the definition of $A$, thus the denominator of the integrand is also minused.
 		- Exercise. $\tilde{G}^R(\vec{k} , t):=\int d^3 \vec{r} \ G^R(\vec{r}, t) e^{-i \vec{k} \cdot \vec{r}}$ is equal to $-\frac{i}{\hbar} \theta(t)\left\langle\left\{c_k(t), \hat{c}_k^{\dagger}(0)\right\}\right\rangle$ #card
+		  collapsed:: true
 			- That is, FT of the Green function is equal to the Green function of the FT representation.
 		- Example. Free fermions
+		  collapsed:: true
 			- Calculate 
+			  collapsed:: true
 			  $$
 			  G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(\vec{k}, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i\epsilon}=\frac{1}{\omega-\xi_k+i\epsilon}
 			  $$ #card
@@ -294,6 +321,7 @@ type:: [[Course]]
 				- Cyclic permutation
 	- {{embed ((6401b89c-e517-4e8f-ad4e-f98d5b166921))}}
 - # Thomas-Fermi Screening
+  collapsed:: true
 	- ## Idea
 		- In a Fermi liquid, some positive external charge would attract electrons to gather near it, thus weakens the external field.
 			- The actual field is solved by consistency equations.
@@ -337,3 +365,67 @@ type:: [[Course]]
 			- 动量空间卷积变乘积
 		-
 		-
+- # Local Magnetic Moment
+	- Summary #card
+	  collapsed:: true
+		-
+	- Model: Single-impurity Anderson Model
+	  collapsed:: true
+		- 'Single impurity' corresponds to the second term, which is the orbital electrons at a single site.
+		- collapsed:: true
+		  $$H= \sum_{k \sigma} E_k c^\dag_{k \sigma} c_{k \sigma} + \sum_\sigma E_d c^\dag_{d \sigma} c_{d \sigma} + \sum_{k \sigma}\left(V_{k d} c_{k \sigma}^{\dag} c_{d \sigma}+(c.c.)\right)+U n_{d \uparrow} n_{d \downarrow} .$$
+			- First term: Electrons moving freely in the solid. Could occupy different momenta.
+			- Second term: Localized electrons on the $d$ orbit. No summation over space or position.
+			- Third term: Hopping between moving electrons and localized ones. We may assume $V_{kd}$ is real.
+			  collapsed:: true
+				- '轨道杂化'
+			- Last term: Columb interaction within the same orbit.
+		- Notes on the properties
+		  collapsed:: true
+			- If we ignore the interaction (hopping) term, the local magnetic moment depends on the position of the Fermi surface.
+			  collapsed:: true
+				- If surface above $E_d$ but below $E_d + U$, then the orbit would be occupied by a single electron, thus producing a magnetic moment.
+			- However, the interaction term would lead to hybridization (杂化) of different states
+		- Two limits of the Single-impurity model #card
+		  collapsed:: true
+			- Notation: $\Delta$ is the width of the energy.
+			- collapsed:: true
+			  $$
+			  U \gg \left|\epsilon_d\right| \gg \Delta
+			  $$
+				- Weak hybridization
+				- Occupation number = 1 -> Local magnetic moment
+			- collapsed:: true
+			  $$
+			  U \gg \Delta \gg |\epsilon_d|
+			  $$
+				- Strong hybridization. 
+				  We can't talk about a well-defined local orbit; rather, the electron is mixed into the Fermi sea.
+				-
+		-
+		-
+		-
+	- [[Mean-Field Approximation]]
+	  collapsed:: true
+		- collapsed:: true
+		  $$H=\sum _{k\sigma } E_{k} c_{k\sigma }^{\dagger } c_{k\sigma } +\sum _{\sigma } E_{d} c_{d\sigma }^{\dagger } c_{d\sigma } +\sum _{k\sigma }\left( V_{kd} c_{k\sigma }^{\dagger } c_{d\sigma } +(h.c.)\right) +Un_{d\uparrow }< n_{d\downarrow }> +U< n_{d\uparrow }> n_{d\downarrow }$$
+			- Obtained by ignoring 2nd variation
+		- The consistency relation can be obtained by solving $\langle n_{d\uparrow } \rangle$ and  $\langle n_{d\downarrow } \rangle$
+		-
+		-
+		-
+	- Obtain [[Green Function]]
+	  collapsed:: true
+		- #+BEGIN_NOTE
+		  We often want Green function rather than the spectrum.
+		  #+END_NOTE
+		-
+- # Kondo Effect
+	- ## Degenerate Second-Order Perturbation
+		- Effective Hamiltonian #card
+			- $$\left< \alpha |H_{eff}^{( 2)} |\beta \right> =\sum _{n} \langle \alpha |W|n\rangle < n|W|\beta > \frac{1}{2}\left(\frac{1}{E_{\alpha } -E_{n}} +\frac{1}{E_{\beta } -E_{n}}\right)$$
+				- $\alpha,\beta$ are (nearly) degenerate energy levels with $\langle \alpha |W|\beta\rangle =0$
+				- $n$ is some state in the excited space
+			- Intuitively, we can jump from $\alpha$ to an intermediate state $n$, then jump from $n$ to $beta$, multiplied by an energy factor.
+			- Proof
+				- *To be completed

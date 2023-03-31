@@ -2620,20 +2620,6 @@
     :page 46},
    :content {:text "[:span]", :image 1668156210780},
    :properties {:color "blue"}}
-  {:id #uuid "636e0ccb-b824-4c0a-9259-d9c07fdeace1",
-   :page 48,
-   :position
-   {:bounding
-    {:x1 144.33834838867188,
-     :y1 1453.90625,
-     :x2 1130.3383483886719,
-     :y2 1598.90625,
-     :width 1269.3333333333333,
-     :height 1796.2666666666667},
-    :rects (),
-    :page 48},
-   :content {:text "[:span]", :image 1668156618136},
-   :properties {:color "blue"}}
   {:id #uuid "636e0d2a-d931-4220-90a4-a37c3f69e41e",
    :page 49,
    :position
@@ -8017,4 +8003,4 @@
     :page 35},
    :content {:text "Definition"},
    :properties {:color "yellow"}}], 
- :extra {:page 35}}
+ :extra {:page 104}}

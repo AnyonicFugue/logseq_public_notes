@@ -72,20 +72,20 @@
 	- ## ((63f2cb2c-5abf-4881-bac9-403813ff05dd))
 		- Diagrammatic rules
 			- ((63f2cc10-b805-49a9-8d6d-370366dd60ad))
+				- As an exercise, determine the GSD on a torus. #card
+					- The answer is four. The theory is indeed doubled.
+				- As another exercise, find out the S-matrix. #card
+					- $$
+					  S=\frac{1}{\mathcal{D}}\left(\begin{array}{ll}
+					  1 & \phi \\
+					  \phi & y
+					  \end{array}\right)
+					  $$
+					- Solve by F-move and R-move. Not so hard.
+					- Don't forget the prefactor for a unitary S-matrix!
 			- The first two are F-move.
 			- The third is the quantum dimension. The last is the so called 'quantum dimension'.
 		- The twists and braidings can be obtained by diagrammatic rules.
-		- As an exercise, determine the GSD on a torus. #card
-			- The answer is four. The theory is indeed doubled.
-		- As another exercise, find out the S-matrix. #card
-			- $$
-			  S=\frac{1}{\mathcal{D}}\left(\begin{array}{ll}
-			  1 & \phi \\
-			  \phi & y
-			  \end{array}\right)
-			  $$
-			- Solve by F-move and R-move. Not so hard.
-			- Don't forget the prefactor for a unitary S-matrix!
 - # Topics
 	- ## Relations to Math Axioms
 		- ((63d1e7c7-5e46-4a7e-a93a-80eea0451f8c)) #card #[[Research/To Be Investigated]]

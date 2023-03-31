@@ -29,6 +29,12 @@
 		- Moreover it is fully faithful.
 		- Therefore, if we have a natural isomorphism (which is an isomorphism in the cat $\mathrm{Fun}(\mathcal{C},\mathrm{Set}))$, we must be able to find an isomorphism as its preimage.
 	- An adjoint functor $G$ of some $F$ is unique up to an unique isomorphism. #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-04-24T11:48:41.768Z
+	  card-last-reviewed:: 2023-03-31T11:48:41.770Z
+	  card-last-score:: 3
 		- It is easier from the second version of the ((6416c1f0-2caa-46a8-85c7-b247488d0785)). (Exercise)
 		- From the first definition:
 			- Suppose $G_1$ and $G_2$ are both adjoint functors.

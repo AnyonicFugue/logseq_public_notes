@@ -20,8 +20,8 @@
 			- The power of the algebraic way!
 		- Then we may start by assuming that there's no fixed points, then construct a retract by ((64113b44-ccd4-41d8-b489-12572e41a829)).
 - Homotopy
-  collapsed:: true
 	- Defs
+	  collapsed:: true
 		- Homotopy of maps
 		  collapsed:: true
 			- If $f$ and $f^{\prime}$ are continuous maps of the space $X$ into the space $Y$, we say that $f$ is homotopic to $f^{\prime}$ if there is a continuous map $F : X \times I \rightarrow Y$ such that
@@ -42,53 +42,67 @@
 	- Lemma. The relations $\simeq$ and $\simeq p$ are equivalence relations.
 		- Easy to verify identity, reflexivity and transitivity.
 	- Homotopy class
-- [[Fundamental group]]
-	- [[Simply connected]]
-	- [[Covering space]]
-	- [[Retraction]]
+- [[Retraction]]
+	- Def
 	  collapsed:: true
-		- Def
-		  collapsed:: true
-			- $A \subset X$, a **retraction** of $X$ onto $A$ is a continuous map $r: X \rightarrow A$ such that $r | _ A$ is the **identity** map of $A$. $A$ is a retract of $X$.
-		- Examples
-		  collapsed:: true
-			- $r(x)=x /\|x\|$ retracts $\mathbb{R}^2-0$ onto $S^1$
-		- ((638d5522-85b2-4c12-bca3-62846d934042)) If $A$ is a retract of $X$, then the homomorphism of fundamental groups induced by inclusion $j: A \rightarrow X$ is injective.
-		  collapsed:: true
-			- Intuition #card
-			  card-last-interval:: 24
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-01-30T06:04:06.831Z
-			  card-last-reviewed:: 2023-01-06T06:04:06.832Z
-			  card-last-score:: 5
-			  collapsed:: true
-				- X and A are 'homeomorphic in A'. Thus, homotopic in X <-> homotopic in A.
-			-
-			- If $r: X \rightarrow A$ is a retraction, then the composite map $r \circ j$ equals the identity map of $A$. It follows that $r_* \circ j_*$ is the identity map of $\pi_1(A, a)$, so that $j_*$ must be injective.
-			  collapsed:: true
-				- This is a general property of inclusions: {{cloze One-side invertible}}
-		- Corollary. No retraction of $B^2$ into $S^1$. #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-05-16T04:41:24.688Z
-		  card-last-reviewed:: 2023-03-10T00:41:24.689Z
+		- $A \subset X$, a **retraction** of $X$ onto $A$ is a continuous map $r: X \rightarrow A$ such that $r | _ A$ is the **identity** map of $A$. $A$ is a retract of $X$.
+	- Examples
+	  collapsed:: true
+		- $r(x)=x /\|x\|$ retracts $\mathbb{R}^2-0$ onto $S^1$
+	- ((638d5522-85b2-4c12-bca3-62846d934042)) If $A$ is a retract of $X$, then the homomorphism of fundamental groups induced by inclusion $j: A \rightarrow X$ is injective.
+	  collapsed:: true
+		- Intuition #card
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-01-30T06:04:06.831Z
+		  card-last-reviewed:: 2023-01-06T06:04:06.832Z
 		  card-last-score:: 5
 		  collapsed:: true
-			- $\pi_1(S^1)=\mathbb Z, \pi_1(B^2)=e$. No injection.
-			- Another application of ((638d57a7-30e1-4243-8ec8-babe77af9cf8)).
-			  id:: 63c14161-2eea-4c90-94d9-cb032f916f40
-		- Lemma 55.3. Let $h: S^1 \rightarrow X$ be a continuous map. Then the following conditions are **equivalent**: $h$ is nulhomotopic; $h$ extends to a continuous map $k: B^2 \rightarrow X$; $h_*$ is the trivial homomorphism of fundamental groups.
+			- X and A are 'homeomorphic in A'. Thus, homotopic in X <-> homotopic in A.
+		-
+		- If $r: X \rightarrow A$ is a retraction, then the composite map $r \circ j$ equals the identity map of $A$. It follows that $r_* \circ j_*$ is the identity map of $\pi_1(A, a)$, so that $j_*$ must be injective.
 		  collapsed:: true
-			- Intuitions #card
+			- This is a general property of inclusions: {{cloze One-side invertible}}
+	- Corollary. No retraction of $B^2$ into $S^1$. #card
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-05-16T04:41:24.688Z
+	  card-last-reviewed:: 2023-03-10T00:41:24.689Z
+	  card-last-score:: 5
+	  collapsed:: true
+		- $\pi_1(S^1)=\mathbb Z, \pi_1(B^2)=e$. No injection.
+		- Another application of ((638d57a7-30e1-4243-8ec8-babe77af9cf8)).
+		  id:: 63c14161-2eea-4c90-94d9-cb032f916f40
+	- ((6422b6cc-a25b-4228-9495-394b752cebfe)) Let $f:S^n \to Y$ continuous. The following are equivalent:
+	  (i) $f$ is nullhomotopic;
+	  (ii) $f$ can be extended to a continuous map $D^{n+1} \rightarrow Y$;
+	  (iii) if $x_0 \in S^n$ and $k: S^n \rightarrow Y$ is the constant map at $f\left(x_0\right)$, then there is a homotopy $F: f \simeq k$ with $F\left(x_0, t\right)=f\left(x_0\right)$ for all $t \in \mathbf{I}$. #card
+		- This reveals the general thought of homotopy: We may know a lot about the topo space if we study continuous maps from $S^n$
+		- Intuition
+		  collapsed:: true
+			- For $n=1$, the (parameterized) image forms an uncontractible loop.
+			- For $n=2$, the image forms a closed surface.
+				- On the contrary, an open disk could be contracted to a single point.
+		- Proof
+			- (i) -> (ii): We can extend the map to $D^{n+1}$ by $\tilde f(tx):=F(t,x)$
+				- Well-defined since it is nullhomotopic
+				- Continuity follows from the diagram:
+				   ![image.png](../assets/image_1680079777617_0.png){:height 338, :width 423}
+					- Since $F$ is continuous and $\pi$ is an open map (as a quotient map), we can show $\tilde f$ is also continuous.
+			- (ii) -> (iii): Geometrically this means shrinking the ball to the point $f(x_0)$
+				- It can be constructed explicitly as $F(x,t):=g((1-t)x+tx_0)$, which is obviously a **scaling**.
+			- (iii) -> (i): The homotopy is given in (iii).
+		- As a special case, we might see Munkres for $n=1$:
+			- Let $h: S^1 \rightarrow X$ be a continuous map. Then the following conditions are **equivalent**: $h$ is nulhomotopic; $h$ extends to a continuous map $k: B^2 \rightarrow X$; $h_*$ is the trivial homomorphism of fundamental groups.
+			- Intuitions
 			  card-last-interval:: 67.2
 			  card-repeats:: 3
 			  card-ease-factor:: 2.8
 			  card-next-schedule:: 2023-04-24T15:39:27.657Z
 			  card-last-reviewed:: 2023-02-16T11:39:27.657Z
 			  card-last-score:: 5
-			  collapsed:: true
 				- (1) and (3) are directly seen to be equivalent, since nulhomotopic means that the image can be contracted to be a point. Thus the generator of $\pi_1(S^1)$ is mapped to the trivial element.
 				- (2) to (1): In $B^2$, $S^1$ can be contracted to a point. Since [[Continuous]] maps preserve path homotopies, the image can also be contracted.
 				- (1) to (2) is the most interesting part. We may construct maps which shrink $S^1$ and $h(S^1)$ to a point respectively, then establish a correspondence between them.
@@ -97,16 +111,19 @@
 					- Or ((638d639f-33d9-4a25-b658-4f63d2ddb144))
 					  id:: 63c14161-6c0b-4e20-8aed-7b1ef3003b03
 				-
-		- ((6393ecbc-590b-426b-8528-d730e640b237)) The inclusion map $j : S^1 \rightarrow \mathbb{R}^2-\mathbf{0}$ is not nulhomotopic. #card
-		  card-last-score:: 5
-		  card-repeats:: 3
-		  card-next-schedule:: 2023-05-27T09:35:29.691Z
-		  card-last-interval:: 67.2
-		  card-ease-factor:: 2.8
-		  card-last-reviewed:: 2023-03-21T05:35:29.692Z
-		  collapsed:: true
-			- An exercise to express the intuition via the language of retractions.
-			- Hint: Nul -> Trivial hom of $\pi_1$; Retraction -> Injective
+	- ((6393ecbc-590b-426b-8528-d730e640b237)) The inclusion map $j : S^1 \rightarrow \mathbb{R}^2-\mathbf{0}$ is not nulhomotopic. #card
+	  card-last-score:: 5
+	  card-repeats:: 3
+	  card-next-schedule:: 2023-05-27T09:35:29.691Z
+	  card-last-interval:: 67.2
+	  card-ease-factor:: 2.8
+	  card-last-reviewed:: 2023-03-21T05:35:29.692Z
+	  collapsed:: true
+		- An exercise to express the intuition via the language of retractions.
+		- Hint: Nul -> Trivial hom of $\pi_1$; Retraction -> Injective
+- [[Covering space]]
+- [[Fundamental group]]
+	- [[Simply connected]]
 	- [[Deformation Retraction]] and [[Homotopy Equivalence]]
 	- ((6393f3d8-803c-4134-af68-b91b9739c5e7)) Given a **nonvanishing** vector field on $B^2$, there exists a point of $S^1$ where the vector field points directly inward and a point of $S^1$ where it points directly outward.
 	  collapsed:: true

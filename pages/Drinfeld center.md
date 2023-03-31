@@ -35,9 +35,13 @@
 	  card-next-schedule:: 2022-12-25T11:52:22.027Z
 	  card-last-reviewed:: 2022-12-15T11:52:22.027Z
 	  card-last-score:: 3
+	  collapsed:: true
 		- First find the left and right unitors in Vec.
 		- [[Category]]
 			- In categories (Grp, Vec) there is no 'element of a group / vector space'. We must express everything by **Homs**. That is, elements are images of certain Homs.
 		- ((6376f23f-1e1d-44a4-ba13-da0f58abe912))
+	- Exercise. $Z(\mathrm{Vec}_G) \simeq Z(\mathrm{Rep}(G) )$ for finite $G$ #card
+		-
+	-
 	- ((637ad6fa-3746-4892-bba8-183120acd329))
 - ((637ad5f5-f508-44e9-819a-d70887b72bc1))

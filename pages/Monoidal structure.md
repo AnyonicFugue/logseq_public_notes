@@ -26,6 +26,12 @@ alias:: [[Fusion]], Monoidal Category
 	-
 - # Properties
 	- Theorem. Each monoidal category is equivalent to a strict monoidal category. #card
+	  card-last-interval:: 26.06
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-21T08:55:51.485Z
+	  card-last-reviewed:: 2023-03-26T07:55:51.485Z
+	  card-last-score:: 5
 		- 'Strict' means that all associators are identity.
 	-
 - # Example

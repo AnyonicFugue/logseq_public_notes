@@ -380,13 +380,6 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Z
   hl-type:: area
   hl-stamp:: 1668156210780
   id:: 636e0b34-d6c6-4bda-b28e-001165a6ded3
-- [:span]
-  ls-type:: annotation
-  hl-page:: 48
-  hl-color:: blue
-  hl-type:: area
-  hl-stamp:: 1668156618136
-  id:: 636e0ccb-b824-4c0a-9259-d9c07fdeace1
 - the multiplication is given by the tensor product of C. Then its structure constants are the fusion rules of C.
   ls-type:: annotation
   hl-page:: 49

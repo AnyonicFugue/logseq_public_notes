@@ -6,8 +6,10 @@ alias:: [[Category Theory]]
 	- ![2014_Riehl_Category Theory in Context.pdf](file://zotero_link/Mathematics/Category Theory/2014_Riehl_Category Theory in Context.pdf)
 	- ![2019_李文威_代数学方法 - 第一卷, 基础架构.pdf](file://zotero_link/Mathematics/Category Theory/2019_李文威_代数学方法 - 第一卷, 基础架构.pdf)
 	- ![2023_李文威_代数学方法 - 第二卷, 线性代数.pdf](file://zotero_link/Mathematics/Category Theory/2023_李文威_代数学方法 - 第二卷, 线性代数.pdf)
--
+	- ![2015_Etingof_Gelaki et al_Tensor categories.pdf](file://zotero_link/Mathematics/Category Theory/2015_Etingof_Gelaki et al_Tensor categories.pdf)
+	-
 - # Basics
+  collapsed:: true
 	- Notations
 		- Functor category $Fun(C,D)$
 		-
@@ -36,6 +38,7 @@ alias:: [[Category Theory]]
 		  card-last-score:: 5
 		  collapsed:: true
 			- A morphism with $$e=e^2:=e \circ e$$
+				- Motivated by projectors in $\mathrm{Set}$
 			-
 			- Split #card
 			  card-last-interval:: 201.84
@@ -45,6 +48,7 @@ alias:: [[Category Theory]]
 			  card-last-reviewed:: 2023-03-13T12:08:48.299Z
 			  card-last-score:: 5
 				- An idempotent $e: x \rightarrow x$ splits if there exists an object $y \in \mathcal{C}$ equipped with two morphisms $r: x \rightarrow y, s: y \rightarrow x$ such that $r \circ s=\mathrm{id}_y$ and $s \circ r=e$.
+					- Motivated by surjective maps (projections) in $\mathrm{Vec}$: We can project $V$ to $W$ and embed $W$ back to $V$.
 				- The triple $(y, r, s)$ (or simply the object $y)$ is called an image of the idempotent $e$.
 			- Idempotent complete
 			  id:: 636ca217-d22e-42b8-984f-f4f35d530948
@@ -90,6 +94,7 @@ alias:: [[Category Theory]]
 		  collapsed:: true
 			- Equivalent definitions #card
 			  id:: 6416c1f0-2caa-46a8-85c7-b247488d0785
+			  collapsed:: true
 				- Version 1. A pair of functors $F:C \to D$ and $G:D \to C$ s.t. $\mathrm{Hom}_{\mathcal{C}}((-),G(-))$ and $\mathrm{Hom}_{\mathcal{D}}(F(-),(-))$ are naturally isomorphic.
 					-
 					- $\mathrm{Hom}_{\mathcal{C}}((-),G(-))$ is a functor $\bar C \times D \to \mathrm{Set}$.
@@ -108,6 +113,10 @@ alias:: [[Category Theory]]
 				-
 			- Examples
 				- Theorem. The free functor is the left adjoint of the forgetful functor. （自由是遗忘的左伴随） #card
+					-
+				- Theorem. (Frobenius Reciprocity) Consider $\mathrm{Rep}(G)$ and $\mathrm{Rep}(Z(x))$ for some $x \in G$. We have two functors: a forgetful functor $F$ and a functor $\mathrm{Ind}$ of induced representations. Then $F$ is both the left and right adjoint of $G$. #card
+					- The induced representation is natural on the vector space graded by $G / Z(x)$, which is a set of cosets rather than a quotient group.
+					-
 					-
 	- ## Natural Transformation
 	  collapsed:: true
@@ -171,6 +180,8 @@ alias:: [[Category Theory]]
 			  \end{aligned}
 			  $$
 			- Homs are equivalence classes.
+			- The most important example is the homotopy category (Exercise).
+			-
 		- [[Deligne tensor product]]
 		- Reversing some spacetime direction of a [[Topological Order]]
 		  collapsed:: true
@@ -197,6 +208,7 @@ alias:: [[Category Theory]]
 			-
 		- [[Drinfeld center]]
 - # Additional structures
+  collapsed:: true
 	- # C-linear category
 		- ## Defs
 		  collapsed:: true
@@ -219,30 +231,29 @@ alias:: [[Category Theory]]
 				-
 		- [[Semisimplicity]]
 	- [[Monoidal Structure]]
-	  collapsed:: true
 		- Braided Monoidal functor
 			- Def
 				- A monoidal functor with ((6376e81c-2e47-48db-8cd0-86df3405e14e))
 				-
 	- [[Dagger structure]] and Unitarity
 	- [[Rigidity]] and [[Pivotal structure]]
-	- [[Quantum dimension]] and [[Trace]]
 	- [[Braiding]]
 	- [[Ribbon]]
 	- [[Central functor]]
-	- Some terminologies
-		- [[Fusion category]]
+	- Combination of structures
 		- [[Unitary modular tensor category]]
+- # [[Fusion category]]
 - # Monad
   id:: 641813e5-e452-4c3b-aa79-fe4b3df4596f
 	- Exercise. Check the left dual of $G \in \mathrm{End}(C)$ is the right adjoint. #card
 	-
 - # Higher cats
+  collapsed:: true
 	- [[2-category]]
 	- [[Morita equivalence]]
 	- [[Muger center]]
 		- [[Nondegenerate]]
-- # Higher Algebras and Centers
+- # Higher Algebras, Higher Modules and Centers
   id:: 6401b893-4fac-428b-81c2-677ffb42ac72
   collapsed:: true
 	- Remark: As we go higher and higher, the properties are better and better (monoidal, braided, symmetric, ...)
@@ -279,8 +290,7 @@ alias:: [[Category Theory]]
 			- Objects are algebras
 			- Homs are homomorphisms
 			-
-	- ## Higher Algebras (To be reorganized) #card
-	  collapsed:: true
+	- ## Higher Algebras
 		- How does the requirements of $E_0,E_1,E_2,E_3$ corresponds to physical intuitions? #card
 		  collapsed:: true
 			- $E_0$: {{cloze 0D, not any special structures}}
@@ -374,17 +384,23 @@ alias:: [[Category Theory]]
 		- Prop. A braided monoidal category is an $E_2$-algebra in the 2-cat $\mathrm{Cat}$ #card
 			- My task is to explicitly construct the monoidal structure.
 		-
-	- ## Higher Modules (To be reorganized) #card
-		- Remark: Modules can be regarded as representations of the algebras
-			- Here's the categorified version
+	- ## Higher Modules
+		- Remark: Modules can be regarded as representations of the algebras #card
+		  card-last-interval:: 25.01
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-20T07:52:48.215Z
+		  card-last-reviewed:: 2023-03-26T07:52:48.215Z
+		  card-last-score:: 5
+			- Here's the categorified version.
 		- ### Physical Intuition
 			- Consider some topo order with a domain wall. It is a module in the sense that excitations on both sides can be moved inside and fuse.
 		- ### Definitions
-			- A left module $M$ over a monoidal category $C$
-				- Essentially a functor $\odot: C \otimes M \to M$, with some consistency relations
-			- C is a monoidal category, $A \in C$ is an algebra, $M$ is a left C-module cat, $\odot: C \times M \to M$.
-			  A left module over $A$ in $M$ is a pair $(D\in M, \rho: A \odot D \to D)$ satisfying two consistency relations called associativity and unitality.
-				- Essentially, $A$ is the algebra providing actions and $D$ is the thing to be acted on.
+			- A left module $M$ over a monoidal category $C$ #card
+				- C is a monoidal category, $A \in C$ is an algebra, $M$ is a left C-module cat, $\odot: C \times M \to M$.
+				  A left module over $A$ in $M$ is a pair $(D\in M, \rho: A \odot D \to D)$ satisfying two consistency relations called associativity and unitality.
+					- Essentially an action functor $\odot: C \otimes M \to M$, with some consistency relations
+					- $A$ is the algebra providing actions and $D$ is the thing to be acted on.
 			- Left $E_2$-module over $A$ in $S$ #card
 				- A pair $(D \in E_2\mathrm{Alg}(S), \rho: A \odot D \to D)$
 				- Consistency relations
@@ -426,7 +442,6 @@ alias:: [[Category Theory]]
 			- A triple, $E: B \to B$, $m: E\circ E \to E$, $u: \mathrm{id}_B \to E$
 			- It is precisely a ((641813e5-e452-4c3b-aa79-fe4b3df4596f)) on B!
 		- For a category $C$ with a terminal object $T$, $\mathrm{Alg}(C)$ has a terminal object constructed from $T$ and an initial object constructed from $I$. #card
-		-
 -
 - # Limits and Colimits
   collapsed:: true
@@ -464,6 +479,7 @@ alias:: [[Category Theory]]
 				- Exercise. Explicitly construct the natural isomorphism.
 	- [[Yoneda Lemma]]
 - # Kan Extension
+  collapsed:: true
 	- > All concepts are Kan extensions.
 	- Idea
 	  collapsed:: true
@@ -522,12 +538,12 @@ alias:: [[Category Theory]]
 				-
 				-
 - # Examples
-  collapsed:: true
 	- Representation category, $Rep(G)$
 	  collapsed:: true
 		- Definition
 			- $ob(\operatorname{Rep}(G))=$ finite-dimensional $G$-representations (over $\mathbb{C}$ )
 			- Homs: Given two finite-dimensional $G$-representations $(V, \rho)$ and $(W, \sigma)$, a morphism $f:(V, \rho) \rightarrow(W, \sigma)$ is a $\mathbb{C}$-linear map $f: V \rightarrow W$ satisfying $f \circ \rho(g)=\sigma(g) \circ f$ for all $g \in G$
+			  id:: 6401b893-c43d-4ec7-a680-2489a4420d77
 				- Morphism of Reps
 			- The composition of morphisms is the usual composition of maps.
 			- The identity morphism: Trivial Rep.
@@ -568,7 +584,13 @@ alias:: [[Category Theory]]
 		- Seems to be links with the [[Quantum Group]]
 		- Complete the details here: Fusion rules, braiding structures, quantum dimension. #TODO
 		-
+	- [[Tube Category]]
+	- Homotopy category $\mathrm{hTop}$ #card
+		- The quotient category defined by homotopies.
+		- Exercise. Homotopy is a congruence on $\mathrm{Top}$
+		-
 - # Misc
+  collapsed:: true
 	- ## Thoughts
 		- Try to unify all mathematics by pointing out what kind of questions should we study
 			- Universal construction, extension, ...

@@ -1,4 +1,0 @@
-- Definitions
-	- Categorical
-		- ((636e1042-cd00-4384-bf8a-5a0e9f6e53b2))
-		-

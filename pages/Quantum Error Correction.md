@@ -249,11 +249,11 @@ type:: Course
 	- Stabilizer
 	  collapsed:: true
 		- Generators  (Hint: Cyc. permute) #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-02-26T12:23:37.102Z
-		  card-last-reviewed:: 2023-02-02T12:23:37.102Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-06-01T11:50:48.486Z
+		  card-last-reviewed:: 2023-03-26T07:50:48.486Z
 		  card-last-score:: 5
 			- ((638605de-c46e-4b9d-89ea-a69241304577))
 				- Here is a typo: 4th of $M_4$ shall be $\sigma_4^x$

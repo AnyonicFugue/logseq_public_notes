@@ -8,7 +8,9 @@
 - # Topo order
 	- [[Simon's Topobook]]
 		- An encyclopedia!
-	-
+- # GR
+	- ![1984_Wald_General relativity.pdf](file://zotero_link/Physics/General Relativity/1984_Wald_General relativity.pdf)
+	- ![2004_Poisson_A relativist's toolkit.pdf](file://zotero_link/Physics/General Relativity/2004_Poisson_A relativist's toolkit.pdf)
 - # Quantun Circuit Dynamics
 - # QFT
 	- ![2018_Peskin_An Introduction To Quantum Field Theory.pdf](file://zotero_link/Physics/Courses/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf) Classical book of Peskin

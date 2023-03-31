@@ -5,8 +5,8 @@
   card-next-schedule:: 2023-02-27T12:20:24.662Z
   card-last-reviewed:: 2023-02-02T12:20:24.662Z
   card-last-score:: 5
-	- Let $f: X \rightarrow Y$ and $g: Y \rightarrow X$ be continuous maps. Suppose that the map $g \circ f: X \rightarrow X$ is **homotopic to the identity map** of $X$, and the map $f \circ g: Y \rightarrow Y$ is **homotopic to the identity map** of $Y$.
-	- Then the **maps** $f$ and $g$ are called **homotopy equivalences**, and each is said to be a homotopy inverse of the other.
+	- Let $f: X \rightarrow Y$ and $g: Y \rightarrow X$ be continuous maps. Suppose $g \circ f \simeq 1_X$ and $f \circ g \simeq 1_Y$. Then the **maps** $f$ and $g$ are called **homotopy equivalences**.
+	- In other words, homotopy equivalences are isomorphisms in $\mathrm{hTop}$
 	- Example
 		- Inclusion j and deformation retraction r
 - Let $h, k: X \rightarrow Y$ be continuous maps; let $h\left(x_0\right)=y_0$ and $k\left(x_0\right)=y_1$. If $h$ and $k$ are **homotopic**, there is a path $\alpha$ in $Y$ from $y_0$ to $y_1$ such that $k_*=\hat{\alpha} \circ h_*$. Indeed, if $H: X \times I \rightarrow Y$ is the homotopy between $h$ and $k$, then $\alpha$ is the path $\alpha(t)=H\left(x_0, t\right)$ #card

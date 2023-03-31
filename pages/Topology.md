@@ -40,10 +40,10 @@
 		-
 	- Net #card
 	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-04T11:21:40.814Z
-	  card-last-reviewed:: 2023-02-08T11:21:40.815Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-04-19T07:50:26.119Z
+	  card-last-reviewed:: 2023-03-26T07:50:26.120Z
 	  card-last-score:: 5
 		- Def
 			- A net in $X$ is a function $f$ from a directed set $J$ into $X$.

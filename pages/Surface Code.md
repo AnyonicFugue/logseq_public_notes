@@ -13,7 +13,7 @@
 			- Quiescent state
 				- A 'pure' logical state, i.e. Same eigenvalue to all stabilizers.
 				- Note that the quiescent state can be the eigenstate of all A and B with eigenvalue either $+1$ or $-1$.
-		- ![image.png](../assets/image_1671782175469_0.png)
+		- ![image.png](../assets/image_1671782175469_0.png){:height 458, :width 512}
 			- Note there are no $A_v$ on the rough boundary.
 		- Ground states #card
 		  card-last-interval:: 24
