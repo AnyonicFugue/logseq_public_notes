@@ -32,12 +32,12 @@
 - # Misc
   collapsed:: true
 	- Schmidt decomposition of an entangled state #card
-	  card-last-score:: 3
-	  card-repeats:: 2
-	  card-next-schedule:: 2023-03-26T00:57:42.783Z
-	  card-last-interval:: 24
-	  card-ease-factor:: 2.22
-	  card-last-reviewed:: 2023-03-02T00:57:42.785Z
+	  card-last-score:: 5
+	  card-repeats:: 3
+	  card-next-schedule:: 2023-06-14T01:19:18.262Z
+	  card-last-interval:: 69.6
+	  card-ease-factor:: 2.32
+	  card-last-reviewed:: 2023-04-05T11:19:18.263Z
 		- For a pure state $|\psi\rangle\in V_1\otimes V_2$, we can always decompose it into $|\psi\rangle=\sum_ip_i|e_i\rangle| f_i\rangle$, where $\{e_i\}$ and $\{f_j\}$ are ONBs.
 		-
 		- Calculation strategy: $T=UDV$, U consists of the normalized eigenvectors of ${T T^\dag}$ (The eigenvectors are the same as the square root), V consists of the eigenvectors of ${T^\dag T}$

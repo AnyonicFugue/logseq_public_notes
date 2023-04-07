@@ -12,17 +12,17 @@ alias:: Gauge Theory
 	- $$\left[T^a, T^b\right]=i f^{a b c} T^c$$
 		- Structure constants
 		-
-- # Some Lie Algebras
-  collapsed:: true
+- # Elements of Lie Algebras
 	- $\operatorname{tr}\left[t_r^a t_r^b\right] \equiv D^{a b}$
-	- Prop. As long as the generator matrices are Hermitian, the matrix $D^{a b}$ is positive definite. #card
+	- Prop. As long as the generator matrices are Hermitian, the matrix $D^{a b}$ is positive definite. Thus it can be diagonalized and made in the form $\operatorname{tr}\left[t_r^a t_r^b\right]=C(r) \delta^{a b}$ #card
 		- Very simple exercise.
 		- Abstraction leads to the underlying structure, which points to the path. #[[Thoughts/Math and Physics]]
-	- Thus we can select a basis where $D^{ab}$ is diagonal, then $f^{a b c}=-\frac{i}{C(r)} \operatorname{tr}\left\{\left[t_r^a, t_r^b\right] t_r^c\right\}$
+	- Thus we can select a basis where $D^{ab}=C(r) \delta^{a b}$, then $f^{a b c}=-\frac{i}{C(r)} \operatorname{tr}\left\{\left[t_r^a, t_r^b\right] t_r^c\right\}$
 		- It is completely antisymmetric.
 	- ## Some reps
-		- Fundamental representation for $SU(N)$
-			- Acting as itself on $C^N$.
+		- Fundamental representation for $SU(N)$ #card
+			- The set of $N \times N$ unitary matrices with $det(U)=1$.
+			- It is complex, so there's a conjugate rep.
 			- Prop. This rep is irreducible.
 				-
 		- Adjoint representation for any simple Lie Algebra
@@ -34,19 +34,52 @@ alias:: Gauge Theory
 			- Quadratic Casimir operator
 				- $t_r^a t_r^a=C_2(r) \cdot \mathbf{1}$, where r labels the irrep.
 		- Prop. It commutes with all generators, thus proportional to identity. #card
-			- *To be completed*
-			- Only holds in the preferred basis or in all bases?
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-05T09:39:51.891Z
+		  card-last-reviewed:: 2023-04-04T03:39:51.891Z
+		  card-last-score:: 5
+			- $C:=\sum_a (T^a)^2$
+			- $[C,T^b]=\sum_{ac}((f^{abc}T^c)T^a+T^a(f^{abc}T_c)$
+			  Obviously it vanishes by anti-symmetricity.
+			- Only holds in the preferred basis, where $f^{abc}$ is completely anti-symmetric.
 		- For the adjoint representation, it is written as $f^{a c d} f^{b c d}=C_2(G) \delta^{a b}$
-		- Prop. $\operatorname{tr}\left(t_{r_1 \otimes r_2}^a\right)^2=\sum C_2\left(r_i\right) d\left(r_i\right)$ #card
-			- Note that the definition of tensor product representations is 
-			  $$\begin{aligned} \rho_1 \otimes \rho_2: \mathfrak{g} & \rightarrow \mathfrak{g l}\left(V_1 \otimes V_2\right), \\ x & \mapsto\left(v_1 \otimes v_2 \mapsto\left(\rho_1(x)\right)\left(v_1\right) \otimes v_2+v_1 \otimes\left(\rho_2(x)\right)\left(v_2\right)\right)\end{aligned}$$
-			- P
-			-
+		- card-last-score:: 3
+		  card-repeats:: 1
+		  card-next-schedule:: 2023-04-27T01:13:50.246Z
+		  card-last-interval:: 24
+		  card-ease-factor:: 2.36
+		  card-last-reviewed:: 2023-04-03T01:13:50.248Z
+		- Note that the definition of tensor product representations is 
+		  $$\begin{aligned} \rho_1 \otimes \rho_2: \mathfrak{g} & \rightarrow \mathfrak{g l}\left(V_1 \otimes V_2\right), \\ x & \mapsto\left(v_1 \otimes v_2 \mapsto\left(\rho_1(x)\right)\left(v_1\right) \otimes v_2+v_1 \otimes\left(\rho_2(x)\right)\left(v_2\right)\right)\end{aligned}$$
+			- I can verify it by universal property of tensor products.
+		- Prop. $d(r) C_2(r)=d(G) C(r)$, where $d(r)$ is the dimension of the irrep and $d(G)$ is the dimension of the Lie group. #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-07T11:23:15.984Z
+		  card-last-reviewed:: 2023-04-07T11:23:15.985Z
+		  card-last-score:: 5
+			- Could be easily proved by taking trace of $\operatorname{tr}\left[t_r^a t_r^b\right]=C(r) \delta^{a b}$
+		-
 		-
 - # General Construction
   collapsed:: true
 	- See [here](((64115d22-ffe4-4ee4-8a05-79bbe0f520f2))).
 	- ## Def
+		- Curvature $F^{\mu\nu}$ #card
+			- $$[D_\mu,D_\nu]=(- ig) F_{\mu\nu}=(- i g)\left\{\partial_\mu A_\nu-\partial_\nu A_\mu -( i g )[A_\mu, A_\nu]\right\}$$
+			- The last term arises from the fact that the theory is non-abelian.
+		- Covariant derivative
+			- $D_\mu=\partial_\mu-i g A_\mu$
+	- ## Wilson Line
+		- $$
+		  U_P(z, y)=P\left\{\exp \left[i g \int_0^1 d s \frac{d x^\mu}{d s} A_\mu^a(x(s)) t^a\right]\right\}
+		  $$
+			- Exercise. Show that it indeed transforms as $U_P\left(z, y, A^V\right)=V(z) U_P(z, y, A) V^{\dagger}(y)$, where $A^V$ is the field after gauge transformation. #card
+				- Hint: ((640ad127-cc23-464b-b796-fb5a07f8049a))
+				-
 		- Wilson loop #card
 		  card-last-interval:: 27.15
 		  card-repeats:: 1
@@ -56,14 +89,6 @@ alias:: Gauge Theory
 		  card-last-score:: 5
 			- In the nonabelian case, $U(x,x)$ is not gauge-invariant.
 			  So we define $\operatorname{tr} U_P(x, x)$ as the **Wilson loop**.
-				-
-			-
-	- ## Wilson Line
-		- $$
-		  U_P(z, y)=P\left\{\exp \left[i g \int_0^1 d s \frac{d x^\mu}{d s} A_\mu^a(x(s)) t^a\right]\right\}
-		  $$
-			- Exercise. Show that it indeed transforms as $U_P\left(z, y, A^V\right)=V(z) U_P(z, y, A) V^{\dagger}(y)$, where $A^V$ is the field after gauge transformation. #card
-				- Hint: ((640ad127-cc23-464b-b796-fb5a07f8049a))
 				-
 		- Notes
 			- $P$ is the path-ordering operator. It is introduced since different generators might be non-commutative.
@@ -76,8 +101,24 @@ alias:: Gauge Theory
 				  $$
 					- That is, the total amount of holonomy is equal to the flux on the surface.
 		-
+	- ## Transformation Rules
+		- Spinor field
+			- $\psi \to V(x)\psi$
+		- Wilson line
+			- $$U(y,x)\to V(y)U(y,x)V^\dag(x)$$
+		- Vector field (Connection)
+			- $$A_{\mu } (x)\rightarrow V(x)\left( A_{\mu } (x)+\frac{i}{g} \partial _{\mu }\right) V^{\dagger } (x)$$
+			- This can be derived from the transformation rule of the Wilson line.
+		- Covariant derivative
+			- $D_\mu=\partial_\mu-i g A_\mu$
+		- Expansion by generators
+			- $A_\mu := A^a_\mu T_a$
+			-
+		- Derive transformation rules from the Wilson line $U(y,x)\to V(y)U(y,x)V^\dag(x)$ #card
+			- **Note that all can find analogy in electromagnetism, so check it when feeling unsure about the defs.**
+			- The vector field can be derived from $$U_P(z, y)=P\left\{\exp \left[i g \int_0^1 d s \frac{d x^\mu}{d s} A_\mu^a(x(s)) t^a\right]\right\}$$
+			- The covariant derivative can be derived by using $U$ as the connection
 - # Examples
-  collapsed:: true
 	- Reconstruct [[QED]] from a viewpoint of gauge invariance
 	  collapsed:: true
 		- It is striking that the covariant derivative, the field $A^\mu$ and subsequently the interaction term could emerge from such a simple principle!
@@ -117,7 +158,6 @@ alias:: Gauge Theory
 			- The gauge group is $SU(2)$, with the transformation analogous to a 2-component spinor, $\psi \rightarrow \exp \left(i \alpha^i(x) \frac{\sigma^i}{2}\right) \psi \equiv V(x)\psi$
 				- Note that each 'component' here is a spinor!
 		- # Construction of important quantities
-		  collapsed:: true
 			- Peskin, ((640fe071-b87c-4027-a3f7-0a0c906b8659))
 			- ## Parallel transport $U(y,x)$ and Covariant derivative
 				- We would like to have $U(y, x) \rightarrow V(y) U(y, x) V^{\dagger}(x)$ (1)
@@ -144,10 +184,9 @@ alias:: Gauge Theory
 				  \end{gathered}
 				  $$
 					- Plug in the commutation relations of Pauli matrices, $$F_{\mu \nu}^i=\partial_\mu A_\nu^i-\partial_\nu A_\mu^i+g \epsilon^{i j k} A_\mu^j A_\nu^k$$
-				- Transformation rule
-					- Here's a simple way: Since we know $D_\mu D_\nu \psi$ (thus also $[D_\mu D_\nu]\psi)$ transforms by multiplying $V$ and $[D_\mu D_\nu]$ is a tensor, it must transform by $[D_\mu D_\nu] \to V[D_\mu D_\nu]V^\dag$
+					- Transformation rule #card
+						- Here's a simple way: Since we know $D_\mu D_\nu \psi$ (thus also $[D_\mu D_\nu]\psi)$ transforms by multiplying $V$ and $[D_\mu D_\nu]$ is a tensor, it must transform by $[D_\mu D_\nu] \to V[D_\mu D_\nu]V^\dag$
 		- # Lagrangian
-		  collapsed:: true
 			- ## Possible terms
 				- $\bar\psi \psi, \bar\psi D_\mu \psi$ are covariant.
 				- $F_{\mu \nu}$ is **not** covariant, but we can produce a covariant quantity by taking the trace: 
@@ -155,7 +194,7 @@ alias:: Gauge Theory
 				  \mathcal{L}=-\frac{1}{2} \operatorname{tr}\left[\left(F_{\mu \nu}^i \frac{\sigma^i}{2}\right)^2\right]=-\frac{1}{4}\left(F_{\mu \nu}^i F^{\mu\nu}_i\right)
 				  $$
 					- The second equality follows from $tr(\sigma_i \sigma_j)= 2\delta_{ij}$
-			- Yang-Mills Lagrangian
+			- Yang-Mills Lagrangian #card
 				- $$
 				  \mathcal{L}=\bar{\psi}(i \not D) \psi-\frac{1}{4}\left(F_{\mu \nu}^i\right)^2-m \bar{\psi} \psi
 				  $$

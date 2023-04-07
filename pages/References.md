@@ -16,3 +16,5 @@
 	- ![2018_Peskin_An Introduction To Quantum Field Theory.pdf](file://zotero_link/Physics/Courses/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf) Classical book of Peskin
 	- ![Introduction_to_Quantum_Field_Theory.pdf](file://D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf) Satoshi Nawata's lecturenotes
 	-
+- # Misc
+	- ![2013_Arfken_Weber_Harris_Mathematical methods for physicists.pdf](file://zotero_link/Physics/Mathematical Methods/2013_Arfken_Weber_Harris_Mathematical methods for physicists.pdf)

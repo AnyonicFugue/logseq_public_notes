@@ -28,11 +28,11 @@
 		  r_* \text { is an isomorphism }
 		  \end{array} \Rightarrow j_x \text { is an isomorphism }\right.$$
 	- ((63a6624b-1643-4f31-9c6d-8f96e2245bda)) Let $A$ be a deformation retract of $X$; let $x_0 \in A$. Then the inclusion map
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-21T07:03:56.142Z
-	  card-last-reviewed:: 2023-01-28T07:03:56.142Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-06-30T11:24:58.144Z
+	  card-last-reviewed:: 2023-04-07T11:24:58.144Z
 	  card-last-score:: 5
 	  $$
 	  j:\left(A, x_0\right) \rightarrow\left(X, x_0\right)

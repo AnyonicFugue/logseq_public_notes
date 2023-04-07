@@ -59,7 +59,7 @@ alias:: [[QFT]]
 	-
 	- [[Propagator]], or time-ordered product
 		- $$\langle 0|\phi(x) \phi(y)| 0\rangle=\int \frac{d^3 p}{(2\pi)^3} \cdot \frac{1}{2 E_p} \cdot e^{-i p(x-y)}:=D(x-y)$$
-		- Feynman propagator
+		- [[Feynman Propagator]]
 		  id:: 129a2538-6668-4ae1-a5cc-a7cf58e6122b
 			- Def
 				- $D_{F}( x_{1} ,x_{2}) =\langle 0| T\{\phi _{0}( x_{1}) \phi _{0}( x_{2})\}| 0\rangle =\int \frac{d^{4} k}{(2\pi )^{4}}\frac{i}{k^{2} -m^{2} +i\varepsilon } e^{ik( x_{1} -x_{2})}$

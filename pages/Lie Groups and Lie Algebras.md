@@ -22,11 +22,11 @@
 				- Exist a neighborhood of the identity in G, small enough to let it be a homeomorphism with $\mathfrak g$.
 				- Note that injectivity is guaranteed by ((63c14167-8540-43ba-9aa0-4d1c2bc7cf64))
 			- Lemma. Suppose $B_m$ are elements of $G$ and that $B_m \rightarrow I$. Let $Y_m=\log B_m$, which is defined for all sufficiently large $m$. Suppose that $Y_m$ is nonzero for all $m$ and that $Y_m /\left\|Y_m\right\| \rightarrow Y \in M_n(\mathbb{C})$. Then $Y$ is in $\mathfrak{g}$. #card
-			  card-last-interval:: 24
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-02-24T13:07:34.223Z
-			  card-last-reviewed:: 2023-01-31T13:07:34.224Z
+			  card-last-interval:: 30
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-05-06T00:41:45.131Z
+			  card-last-reviewed:: 2023-04-06T00:41:45.133Z
 			  card-last-score:: 5
 			  collapsed:: true
 				- Idea
@@ -45,8 +45,8 @@
 					  $$
 						- Note that we do not need to show $e^{t Y_m / \|Y_m\|} \in \mathfrak g$.
 							- We need a sequence tending to $e^tY$, but still some freedom :)
-						- The point is we **construct another sequence**, so that we only need to deal with **integers**.
-			- My (suspicious) solution
+						- The point is we construct another sequence as an approximation, so that we only need to deal with **integers**.
+			- My wong solution
 				- Note that $Y\in \mathfrak g \Leftrightarrow cY \in \mathfrak g$. Moreover, since taking norm is continuous, $\|Y\|=1$
 				- We shall construct a sequence $B_m \to I$ s.t. $\frac{\log B_m}{\left\|\log B_m\right\|} \rightarrow \frac{\log A}{\|\log A\|}:=\tilde Y$
 					- Reminiscent of the projective space? lol
@@ -59,16 +59,37 @@
 					- That is, we can find an open ball contained in the identity component.
 					- **Problem**: The identity component is open in G, not necessarily open in $M_n(C)$.
 						- Another point of view: Only certain directions (spanned by the Lie algebra) are allowed at the origin. Therefore we cannot find an open ball.
-				- Now the problem is I didn't use the condition that $A\in V_\epsilon$; I didn't even require $A\in G$
-				  background-color:: red
-					- Why doesn't my path work?
 			- Wrong attempts
 				- We cannot write A as $e^X$, since it is what we are going to prove.
 			- Full proof
 				- First, $\log A \in \mathfrak g \Rightarrow A \in G$ from ((63c14167-8540-43ba-9aa0-4d1c2bc7cf64)). We just need to prove the other direction.
-				- 'Exist a neighborhood' allows us to hypothesize there isn't a neighborhood, then **construct a sequence converging to the point** to derive a contradiction. #Strategy
-				  id:: 63c39f45-34ad-4185-8953-e3fd376bdf66
-					- This is the **power of locality**!
+				- We need to prove that for some $\varepsilon$, if $A \in V_{\varepsilon} \cap G$, then $\log A \in \mathfrak{g}$. If not, we could find a sequence $A_m$ in $G$ such that $A_m \rightarrow I$ as $m \rightarrow \infty$ and for all $m, \log A_m \notin \mathfrak{g}$.
+					- 'Exist a neighborhood' allows us to hypothesize there isn't a neighborhood, then **construct a sequence converging to the point** to derive a contradiction. #Strategy
+					  id:: 63c39f45-34ad-4185-8953-e3fd376bdf66
+						- This is the **power of locality**!
+				- Decompose $M_n(\mathbb C)$ into $\mathfrak g$ and its orthogonal complement $D$.
+					- Consider the map $\Phi: M_n(\mathbb{C}) \rightarrow M_n(\mathbb{C})$ given by
+					  $$
+					  \Phi(Z)=e^X e^Y
+					  $$
+					  where $Z=X+Y$ with $X \in \mathfrak{g}$ and $Y \in D$.
+					- Proposition. $\Phi$ has a local inverse near the identity.
+				- What's the thought behind the proof?
+				  background-color:: yellow
+					- I can understand all technical constructions. But why do we have a decomposition? Why do we construct a local inverse? Why we prove the above lemma?
+				- Using the local inverse of the map $\Phi$, we can write $A_m$ (for all sufficiently large $m$ ) as
+				  $$
+				  A_m=e^{X_m} e^{Y_m}, \quad X_m \in \mathfrak{g}, Y_m \in D
+				  $$
+				  with $X_m$ and $Y_m$ tending to zero as $m$ tends to infinity. We must have $Y_m \neq 0$, since otherwise we would have $\log A_m=X_m \in \mathfrak{g}$.
+				- Since $e^{X_m}$ and $A_m$ are in $G$, we see that
+				  $$
+				  B_m:=e^{-X_m} A_m=e^{Y_m} \in G
+				  $$
+				- Since the unit sphere is compact -> limit point compact, we can choose a subsequence s.t. $Y_m /\left\|Y_m\right\|$ converges to some $Y \in D$.
+					- By the above lemma, $Y \in g$, which is a contradiction!
+				-
+				-
 		- Corollary. Exp and Log are homeomorphisms on the sets.
 		- Corollary. Let $G$ be a matrix Lie group with Lie algebra $\mathfrak{g}$ and let $k$ be the dimension of $\mathfrak{g}$ as a real vector space. Then $G$ is a **smooth embedded submanifold** of $M_n(\mathbb{C})$ of dimension $k$ and hence a Lie group. #card
 		  card-last-interval:: 24

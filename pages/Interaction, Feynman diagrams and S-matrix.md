@@ -1,4 +1,5 @@
 - # Setup and Definitions
+  collapsed:: true
 	- Incoming and outgoing states
 		- $\begin{aligned} & \left.\left.\mid\left\{p_i\right\}(t) \text { in }\right\rangle_I=U(t,-\infty) \mid\left\{p_i\right\} \text { in }\right\rangle_H \\ & \left.\left.\mid\left\{p_i\right\}(t) \text { out }\right\rangle_I=U(t,+\infty) \mid\left\{p_i\right\} \text { out }\right\rangle_H\end{aligned}$
 		- Completeness relation
@@ -10,7 +11,7 @@
 		- ((636af081-5d67-4758-887c-ba004b190b71))
 		- ((637b326c-0792-4cf0-b2e5-d861201c971c))
 		-
-- Gell-Mann-Low formula #card
+- Gell-Mann-Low formula
   id:: 6401b897-2b58-4ac2-85b6-6a8b08ac6797
   collapsed:: true
 	- $$\langle\Omega|T\{\phi(x) \phi(y)\}| \Omega\rangle=\lim _{T \rightarrow \infty(1-i e)} \frac{\left\langle 0\left|T\left\{\phi_I(x) \phi_I(y) \exp \left[-i \int_{-T}^T d t H_I(t)\right]\right\}\right| 0\right\rangle}{\left\langle 0\left|T\left\{\exp \left[-i \int_{-T}^T d t H_I(t)\right]\right\}\right| 0\right\rangle}$$

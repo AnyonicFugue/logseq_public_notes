@@ -18,12 +18,12 @@
 	- 2Vec
 		- Finite semisimple categories, $\mathbb{C}$-linear functors and natural transformations
 	- ((63aa59fc-0206-4dd0-ade2-930331519524)) #card
-	  card-last-interval:: 26.06
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-07T14:30:09.253Z
-	  card-last-reviewed:: 2023-01-12T13:30:09.254Z
-	  card-last-score:: 5
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-05-04T11:24:42.900Z
+	  card-last-reviewed:: 2023-04-04T11:24:42.902Z
+	  card-last-score:: 3
 		- Objects are gapped 1D domain walls
 		- 1-morphisms are 0D domain walls
 			- In particular, the hom category $\operatorname{Hom}{ }_{\mathrm{C}}\left(\mathbb{1}_{\mathrm{C}}, \mathbb{1}_{\mathrm{C}}\right)$ from the trivial 1d domain wall to itself is the category $\mathcal{C}$ of particle-like topological defects of C.

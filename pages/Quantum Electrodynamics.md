@@ -4,7 +4,7 @@ alias:: QED
 	- $$
 	  \begin{aligned}
 	  \mathcal{L}_{\text {QED }} & =\mathcal{L}_{\text {Dirac }}+\mathcal{L}_{\text {Maxwell }}+\mathcal{L}_{\text {int }} \\
-	  & =\bar{\psi}(i \not \partial-m) \psi-\frac{1}{4} F_{\mu \nu} F^{\mu \nu}-e \bar{\psi} \gamma \mu \psi A_\mu
+	  & =\bar{\psi}(i \not \partial-m) \psi-\frac{1}{4} F_{\mu \nu} F^{\mu \nu}-e \bar{\psi} \gamma^\mu \psi A_\mu
 	  \end{aligned}
 	  $$
 - # [[Quantization]] of EM field

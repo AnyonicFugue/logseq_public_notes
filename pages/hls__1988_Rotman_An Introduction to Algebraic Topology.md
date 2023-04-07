@@ -23,3 +23,72 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   hl-page:: 29
   hl-color:: yellow
   id:: 6422b6cc-a25b-4228-9495-394b752cebfe
+- Theorem 
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 6427a17b-2b44-4fbe-a61f-27a9b853464c
+- [:span]
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: yellow
+  id:: 6427a564-e84e-4a24-b545-824c745dc62f
+  hl-type:: area
+  hl-stamp:: 1680319843731
+- Corollary
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: yellow
+  id:: 6427a61a-b555-44c4-8ba2-c37e4c6faa27
+- Theorem
+  ls-type:: annotation
+  hl-page:: 35
+  hl-color:: yellow
+  id:: 6427effd-8884-4ae1-9041-60e508559560
+- Theorem
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: yellow
+  id:: 6427f09b-7a0d-4fff-9b5a-17c5f0084aca
+- Theorem
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: yellow
+  id:: 6427f13b-04bb-41d0-b06b-f35e68b40624
+- Theorem
+  ls-type:: annotation
+  hl-page:: 39
+  hl-color:: yellow
+  id:: 6427f2e4-0f92-4d71-9056-c205ac7f7736
+- Theorem
+  ls-type:: annotation
+  hl-page:: 40
+  hl-color:: yellow
+  id:: 642be6d7-d592-4d6e-9bed-7e9e0d6624dc
+- [:span]
+  ls-type:: annotation
+  hl-page:: 42
+  hl-color:: yellow
+  id:: 642beb92-a7b0-4614-816f-5e3042f3e7db
+  hl-type:: area
+  hl-stamp:: 1680599954604
+- Theorem
+  ls-type:: annotation
+  hl-page:: 44
+  hl-color:: yellow
+  id:: 642d7f26-c4a3-4172-a3bd-398cca94309e
+- Theorem
+  ls-type:: annotation
+  hl-page:: 45
+  hl-color:: yellow
+  id:: 642d8003-6824-4805-ba5e-7ce8cb5333e2
+- Theorem
+  ls-type:: annotation
+  hl-page:: 46
+  hl-color:: yellow
+  id:: 642f6f75-ef56-46e8-9c59-b9d8a53c670f
+- Theorem
+  ls-type:: annotation
+  hl-page:: 49
+  hl-color:: yellow
+  id:: 642f75cf-4934-42ad-9567-a1cb71c1b3a8

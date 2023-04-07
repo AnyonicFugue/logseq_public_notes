@@ -1,9 +1,9 @@
 - Summary #card
-  card-last-interval:: 27.15
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-02-05T16:06:48.323Z
-  card-last-reviewed:: 2023-01-09T13:06:48.323Z
+  card-last-interval:: 24
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-04-25T01:11:42.002Z
+  card-last-reviewed:: 2023-04-01T01:11:42.003Z
   card-last-score:: 5
 	- ((63af8b36-378e-4cac-b381-c1d7e08d3252))
 	- Statement

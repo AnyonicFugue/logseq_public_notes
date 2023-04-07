@@ -1,25 +1,115 @@
 - Study obscure topological properties in an algebraic manner! #Thoughts
   id:: 638d57a7-30e1-4243-8ec8-babe77af9cf8
 	- There seems to be something deeper inside. Galois theory -> Study field extensions by means of automorphism groups.
-- Intro of rotman
-	- Standard n-simplex
-		- $$
-		  \Delta^n=\left\{\left(x_1, x_2, \ldots, x_{n+1}\right) \in \mathbf{R}^{n+1}: \text { each } x_i \geq 0 \text { and } \sum x_i=1\right\}
+- # Intro of Rotman
+	- Mapping cylinder #card
+	  collapsed:: true
+		- Let $f: X \rightarrow Y$ be continuous and define
 		  $$
-			- A (inclining) closed interval for n=1, a triangle (vertices being $(1,0,0),(0,1,0),(0,0,1)$)) for n=2, a tetrahedron (?) for n=3, ...
-			- Obviously $\Delta^n \approx D^n$
+		  M_f=((X \times \mathbf{I}) \sqcup Y) / \sim
+		  $$
+		  where $(x, t) \sim y$ if $y=f(x)$ and $t=1$.
+		- ((642beb92-a7b0-4614-816f-5e3042f3e7db))
+			- Gluing the bottom to the target!
 	- Some cats
-		- $\mathscr{C}=$ Top $^2$.
+		- $\mathscr{C}=\mathrm{Top}^2$
 			- Here obj $\mathscr{C}$ consists of all ordered pairs $(X, A)$, where $X$ is a topological space and $A$ is a subspace of $X$. A morphism $f:(X, A) \rightarrow$ $(Y, B)$ is an ordered pair $\left(f, f^{\prime}\right)$, where $f: X \rightarrow Y$ is continuous and $f i=j f^{\prime}$ (where $i$ and $j$ are inclusions),
-		- $\mathscr{C}=\operatorname{Top}_*$.
+		- $\mathscr{C}=\operatorname{Top}_*$
 			- Here obj $\mathscr{C}$ consists of all ordered pairs $\left(X, x_0\right)$, where $X$ is a topological space and $x_0$ is a point of $X$.
 			- $Top_*$ is a subcategory of Top ${ }^2$ (subspaces here are always one-point subspaces), and it is called the category of **pointed spaces**; $x_0$ is called the basepoint of $\left(X, x_0\right)$, and morphisms are called pointed maps (or basepoint preserving maps). The category ${Sets}_*$ of pointed sets is defined similarly.
 	- ((64113a62-8e58-494b-bade-e5ec6dff42e1)) (Brouwer fixed-point theorem) If $f: D^n \rightarrow D^n$ is continuous, then $f$ has a fixed point. #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-07T00:43:56.884Z
+	  card-last-reviewed:: 2023-04-07T00:43:56.885Z
+	  card-last-score:: 5
+	  collapsed:: true
 		- First we shall prove that there's no retract from $D^{n+1}$ to $S_n$.
 			- This cannot be easily done by conventional methods, but very simple using homology.
 			- The power of the algebraic way!
 		- Then we may start by assuming that there's no fixed points, then construct a retract by ((64113b44-ccd4-41d8-b489-12572e41a829)).
-- Homotopy
+- # Affine Spaces
+	- Def
+		- Affine #card
+			- A subset $A$ of Euclidean space is called affine if, for every pair of distinct points $x, x^{\prime} \in A$, the **line** determined by $x, x^{\prime}$ is contained in $A$.
+			- Note that convex only requires the line segment, while affine requires the whole line.
+		- Convex (Affine) hull of some $X\sub R^n$ #card
+			- The intersection of all affine/convex sets containing $X$.
+			- Theorem 2.1. If $\left\{X_j: j \in J\right\}$ is a family of convex (or affine) subsets of $\mathbf{R}^n$, then $\cap X_j$ is also convex (or affine).
+		- Affine (Convex) combination #card
+			- For a finite set of points $$p_0, p_1, \ldots, p_m$$, an affine combination is a single point
+			  $$x=t_0 p_0+t_1 p_1+\cdots+t_m p_m$$
+			  where $\sum_{i=0}^m t_i=1$.
+				- What does $\sum_{i=0}^m t_i=1$ mean?
+					- For 2 points this is the line crossing both points.
+					- For 3 points (not on the same line) this is the plane determined by them.
+					- For general cases this is the unique 'infinite simplex' by induction.
+			- A convex combination is an affine combination for which $t_i \geq 0$ for all $i$.
+			- ((642d7f26-c4a3-4172-a3bd-398cca94309e)). If $p_0, p_1, \ldots, p_m \in \mathbf{R}^n$, then $\left[p_0, p_1, \ldots, p_m\right]$, the convex (affine) set spanned by these points is the set of all convex (affine) combinations of $p_0, p_1, \ldots, p_m$.
+		- Affine independent #card
+			- An ordered set of points $\left\{p_0, p_1, \ldots, p_m\right\} \subset \mathbf{R}^n$ is affine independent if $\left\{p_1-p_0, p_2-p_0, \ldots, p_m-p_0\right\}$ is a linearly independent subset of the real vector space $\mathbf{R}^n$.
+			- Prop. The definition is independent of the 'base point' $p_0$
+			- Examples
+				- A set $\left\{p_0, p_1\right\}$ is affine independent if $p_1-p_0 \neq 0$, that is, if $p_1 \neq p_0$
+				- A set $\left\{p_0, p_1, p_2\right\}$ is affine independent if it is not collinear
+				- A set $\left\{p_0, p_1, p_2, p_3\right\}$ is affine independent if it is not coplanar.
+		- In General position
+			- A set of points $\left\{a_1, a_2, \ldots, a_k\right\}$ in $\mathbf{R}^n$ is in general position if every $n+1$ of its points forms an affine independent set.
+			- $n=1$: Any two points don't coincide.
+			- $n=2$: Any three points aren't colinear.
+		- ### About Simplexes
+			- Barycentric coordinate #card
+				- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$, and let $A$ be the affine set spanned by this subset.
+				- If $x \in A$, then the [theorem](((642d8032-73a8-473d-8bc5-9da77152a596))) gives a unique $(m+1)$-tuple $\left(t_0, t_1, \ldots, t_m\right)$ with $\sum t_i=1$ and $x=\sum_{i=0}^m t_i p_i$. 
+				  The entries of this $(m+1)$-tuple are called the **barycentric coordinates** of $x$ (relative to the ordered set $\left.\left\{p_0, p_1, \ldots, p_m\right\}\right)$.
+				- Intuitively, this means how to obtain a point in the 'affine simplex' by the vertices.
+			- Barycenter #card
+				- If $\left\{p_0, \ldots, p_m\right\}$ is affine independent, the barycenter of $\left[p_0, \ldots, p_m\right]$ is $(1 / m+1)\left(p_0+p_1+\cdots+p_m\right)$.
+				- > Barycenter comes from the Greek *barys* meaning heavy; thus, barycenter is just "center of gravity"
+			- m-simplex #card
+				- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$. The **convex** set spanned by this set, denoted by $\left[p_0, p_1, \ldots, p_m\right]$, is called the (affine) $\boldsymbol{m}$-simplex with vertices $p_0, p_1, \ldots, p_m$.
+					- 'Convex' means $t_i \geq 0$
+				- Standard n-simplex
+					- $$
+					  \Delta^n=\left\{\left(x_1, x_2, \ldots, x_{n+1}\right) \in \mathbf{R}^{n+1}: \text { each } x_i \geq 0 \text { and } \sum x_i=1\right\}
+					  $$
+						- A (inclining) closed interval for n=1, a triangle (vertices being $(1,0,0),(0,1,0),(0,0,1)$)) for n=2, a tetrahedron (?) for n=3, ...
+						- Obviously $\Delta^n \approx D^n$
+			- $k$-face and boundary #card
+				- A $\boldsymbol{k}$-face of $\left[p_0, p_1, \ldots, p_m\right]$ is a $k$-simplex spanned by $k+1$ of the vertices $\left\{p_0, p_1, \ldots, p_m\right\}$. 
+				  In this terminology, the boundary is the union of all $m$-faces.
+				- Boundary of a simplex
+					- Let $\left[p_0, p_1, \ldots, p_m\right]$ be an $m$-simplex. The face opposite $p_i$ is
+					  $$
+					  \left[p_0, \ldots, \hat{p}_i, \ldots, p_m\right]=\left\{\sum t_j p_j: t_j \geq 0, \sum t_j=1 \text {, and } t_i=0\right\}
+					  $$
+					  (circumflex ^ means "delete").
+					- The boundary of $\left[p_0, p_1, \ldots, p_m\right]$ is the union of its $m$-faces.
+	- ## Basic Facts
+		- ((642d8003-6824-4805-ba5e-7ce8cb5333e2)) The following conditions on an ordered set of points $\left\{p_0, p_1, \ldots, p_m\right\}$ in $\mathbf{R}^n$ are equivalent.
+		  id:: 642d8032-73a8-473d-8bc5-9da77152a596
+		  (i) $\left\{p_0, p_1, \ldots, p_m\right\}$ is affine independent;
+		  (ii) if $\left\{s_0, s_1, \ldots, s_m\right\} \subset \mathbf{R}$ satisfies $\sum_{i=0}^m s_i p_i=0$ and $\sum_{i=0}^m s_i=0$, then $s_0=$ $s_1=\cdots=s_m=0$
+		  (iii) each $x \in A$, the affine set spanned by $\left\{p_0, p_1, \ldots, p_m\right\}$, has a unique expression as an affine combination:
+		  $$
+		  x=\sum_{i=0}^m t_i p_i \quad \text { and } \quad \sum_{i=0}^m t_i=1
+		  $$ #card
+			- *To be completed*
+		- ((642f6f75-ef56-46e8-9c59-b9d8a53c670f)) For every $k \geq 0$, euclidean space $\mathbf{R}^n$ contains $k$ points in general position. #card
+			- This can be proved by induction.
+			- Intuition
+				- Consider adding a point to the existing $k$ points.
+				- The new point should be affine independent with $n$ arbitrary existing points, i.e. outside the affine hull spanned by them.
+				- So we need to prove the union of such affine hulls never cover the whole space.
+				  This is obvious, since an affine hull is $n-1$-dimensional, which is measure zero in $\mathbb R^n$
+		- ((642f75cf-4934-42ad-9567-a1cb71c1b3a8))  Let $S$ denote the $n$-simplex $\left[p_0, \ldots, p_n\right]$.
+		  (i) If $u, v \in S$, then $\|u-v\| \leq \sup _i\left\|u-p_i\right\|$.
+		  (ii) $\operatorname{diam} S=\sup _{i, j}\left\|p_i-p_j\right\|$.
+		  (iii) If $b$ is the barycenter of $S$, then $\left\|b-p_i\right\| \leq(n / n+1)$ diam $S$. #card
+			-
+- # Homotopy
+  collapsed:: true
 	- Defs
 	  collapsed:: true
 		- Homotopy of maps
@@ -39,9 +129,51 @@
 			-
 			- for each $s \in I$ and each $t \in I$. We call $F$ a path homotopy between $f$ and $f^{\prime}$ See Figure 51.1. If $f$ is path homotopic to $f^{\prime}$, we write $f \simeq_p f^{\prime}$.
 			  id:: 63c14161-a2e6-4179-a53c-7bc62b6233d5
-	- Lemma. The relations $\simeq$ and $\simeq p$ are equivalence relations.
-		- Easy to verify identity, reflexivity and transitivity.
+	- ## Basic facts
+		- Lemma. The relations $\simeq$ and $\simeq p$ are equivalence relations.
+			- Easy to verify identity, reflexivity and transitivity.
+		- Lemma. If $f \simeq g$, then $f \circ h \simeq g \circ h$ #card
+			-
 	- Homotopy class
+	-
+	- ## Convexity, contractibility and cones
+		- Defs
+			- Convex #card
+				- A subset $X$ of $\mathbf{R}^m$ is convex if, for each pair of points $x, y \in X$, the line segment joining $x$ and $y$ is contained in $X$. In other words, if $x, y \in X$, then $t x+(1-t) y \in X$ for all $t \in \mathbf{I}$.
+			- Contractible #card
+			  id:: 6427a15a-5b02-4445-a1b6-1aa2219b1b94
+				- A space $X$ is contractible if $1_X$ is nullhomotopic.
+			- Identification #card
+				- A continuous surjection $f: X \rightarrow Y$ is an identification if a subset $U$ of $Y$ is open if and only if $f^{-1}(U)$ is open in $X$.
+				- Equivalently, $f$ is a quotient map. There's even a corollary for this:
+				- ((6427a61a-b555-44c4-8ba2-c37e4c6faa27)) Let $X$ and $Z$ be spaces, and let $h: X \rightarrow Z$ be an identification. Then the map $\varphi: X / \operatorname{ker} h \rightarrow Z$, defined by $[x] \mapsto h(x)$, is a homeomorphism.
+			- Fiber #card
+				- Let $f: X \rightarrow Y$ be a function and let $y \in Y$. Then $f^{-1}(y)$ is called the fiber over $y$.
+				- 'Preimage of a single point'
+			- Cone #card
+				- If $X$ is a space, define an equivalence relation on $X \times \mathbf{I}$ by $(x, t) \sim$ $\left(x^{\prime}, t^{\prime}\right)$ if $t=t^{\prime}=1$.
+					- Intuitively, identify all points at the top.
+				- Denote the equivalence class of $(x, t)$ by $[x, t]$. The **cone** over $X$, denoted by $C X$, is the quotient space $X \times \mathbf{I} / \sim$.
+		- ((6427a17b-2b44-4fbe-a61f-27a9b853464c)) Every convex set $X$ is contractible. #card
+			- Just use the common trick of construction!
+		- Theorem. Let $f: X \rightarrow Y$ be a continuous surjection. Then $f$ is an identification if and only if, for all spaces $Z$ and all functions $g: Y \rightarrow Z$, one has $g$ continuous if and only if $g f$ is continuous.
+		  collapsed:: true
+		  ((6427a564-e84e-4a24-b545-824c745dc62f)) #card
+			- An easy exercise, but it's worthwhile to ponder the meaning in categories!
+		- ((6427effd-8884-4ae1-9041-60e508559560)) For every space $X$, the cone $CX$ is contractible. #card
+		  card-last-interval:: 25.01
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-28T00:44:01.320Z
+		  card-last-reviewed:: 2023-04-03T00:44:01.320Z
+		  card-last-score:: 5
+			- Geometrically, shrink (scale) the whole cone to the top point.
+			- Exercise: Construct the map and show it is continuous.
+		- ((6427f09b-7a0d-4fff-9b5a-17c5f0084aca)) A space $X$ has the same homotopy type as a point if and only if $X$ is contractible. #card
+			- Verify the definition.
+		- ((6427f13b-04bb-41d0-b06b-f35e68b40624)) If $Y$ is contractible, then any two maps $X \rightarrow Y$ are homotopic (indeed they are nullhomotopic). #card
+			- Invoke the lemma that homotopy is preserved under composition.
+			-
 - [[Retraction]]
 	- Def
 	  collapsed:: true
@@ -86,6 +218,7 @@
 			- For $n=2$, the image forms a closed surface.
 				- On the contrary, an open disk could be contracted to a single point.
 		- Proof
+		  collapsed:: true
 			- (i) -> (ii): We can extend the map to $D^{n+1}$ by $\tilde f(tx):=F(t,x)$
 				- Well-defined since it is nullhomotopic
 				- Continuity follows from the diagram:
@@ -95,6 +228,7 @@
 				- It can be constructed explicitly as $F(x,t):=g((1-t)x+tx_0)$, which is obviously a **scaling**.
 			- (iii) -> (i): The homotopy is given in (iii).
 		- As a special case, we might see Munkres for $n=1$:
+		  collapsed:: true
 			- Let $h: S^1 \rightarrow X$ be a continuous map. Then the following conditions are **equivalent**: $h$ is nulhomotopic; $h$ extends to a continuous map $k: B^2 \rightarrow X$; $h_*$ is the trivial homomorphism of fundamental groups.
 			- Intuitions
 			  card-last-interval:: 67.2
@@ -111,6 +245,7 @@
 					- Or ((638d639f-33d9-4a25-b658-4f63d2ddb144))
 					  id:: 63c14161-6c0b-4e20-8aed-7b1ef3003b03
 				-
+		- Note that this implies $S^n$ isn't ((6427a15a-5b02-4445-a1b6-1aa2219b1b94)) since there's no retraction from $D^{n+1}$ to $S^n$, but the latter fact is nontrivial.
 	- ((6393ecbc-590b-426b-8528-d730e640b237)) The inclusion map $j : S^1 \rightarrow \mathbb{R}^2-\mathbf{0}$ is not nulhomotopic. #card
 	  card-last-score:: 5
 	  card-repeats:: 3

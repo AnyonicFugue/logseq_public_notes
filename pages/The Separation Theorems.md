@@ -7,11 +7,11 @@
   collapsed:: true
 	- ((63bd088d-0b32-447b-84ee-45bfc3959a98)) Let $X$ be a theta space that is a subspace of $S^2$; let $A, B$, and $C$ be the arcs whose union is $X$. Then $X$ separates $S^2$ into **three components**, whose boundaries are $A \cup B, B \cup C$, and $A \cup C$, respectively. #card
 	  collapsed:: true
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-28T00:22:14.410Z
-	  card-last-reviewed:: 2023-03-03T00:22:14.410Z
+	  card-last-interval:: 24
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-04-25T01:09:00.098Z
+	  card-last-reviewed:: 2023-04-01T01:09:00.099Z
 	  card-last-score:: 5
 		- Intuition is very clear. Now let's learn the construction.
 		- Point: First separate $S^2$ into two parts, then add C to create the third part.

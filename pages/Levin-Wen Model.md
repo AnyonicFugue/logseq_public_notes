@@ -63,6 +63,12 @@
 					- But here comes a question: How to define the discrete version of torus? #Learning-TODO
 						- It should actually be a [[Triangulation]], involving simplices
 		- The ground space is nondegenerate on a sphere. #card
+		  card-last-interval:: 32.51
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-06T23:28:00.474Z
+		  card-last-reviewed:: 2023-04-04T11:28:00.475Z
+		  card-last-score:: 5
 			- Prove this by investigating a minimal lattice!
 	- ## Quasiparticles
 		- General constructions of quasiparticles can be difficult, but easier for a braided input category.

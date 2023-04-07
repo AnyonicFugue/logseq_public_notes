@@ -53,8 +53,7 @@
 			- The internal vertex is fixed. No extra d.o.f.
 		- ((63c35d32-495b-46d6-b8a8-ca80a077ee6b))
 		-
-- # Solution
-  collapsed:: true
+- # Solution by Diagrams
 	- ## GSD on a torus #card
 	  card-last-interval:: 24
 	  card-repeats:: 1

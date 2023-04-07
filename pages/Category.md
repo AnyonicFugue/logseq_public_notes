@@ -137,6 +137,12 @@ alias:: [[Category Theory]]
 				- The whole diagram commutes since each small square commutes.
 		- Horizontal composition #card
 		  collapsed:: true
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-05T00:42:45.930Z
+		  card-last-reviewed:: 2023-04-05T00:42:45.931Z
+		  card-last-score:: 5
 			- We have two different paths from C to E by composing two pairs of functors.
 			  We'd like two link the two routes by composing the natural transformations at each step.
 				- ((6416bb24-d547-4c3d-b1f5-88eedd9b956c))
@@ -228,6 +234,7 @@ alias:: [[Category Theory]]
 			- A direct sum is both a product and a coproduct. #card
 				- Just verify the universal properties.
 			- If the product and coproduct of $\{x_i\}_i$ are isomorphic in a $k$-linear cat, then it is the direct sum. #card
+				- Note that this statement is nontrivial since the direct sum **might not exist** in a general $k$-linear category.
 				-
 		- [[Semisimplicity]]
 	- [[Monoidal Structure]]
@@ -308,10 +315,8 @@ alias:: [[Category Theory]]
 			- [Higher Algebra] Corollary 5.1.1.7 claims to have proved this.
 		- Defs
 			- Cat of $E_0$ algebras, $E_0\mathrm{Alg}(C,J)$ #card
-			  collapsed:: true
-				- Let $(M,J)$ be a category with a distinguished object $J$.
-				- An $E_0$-algebra in $(M,J)$ is a pair $(A,j_A)$ where $A\in M, j_A:J \to A$
-				  collapsed:: true
+				- Let $(C,J)$ be a category with a distinguished object $J$.
+				- An $E_0$-algebra in $(C,J)$ is a pair $(A,j_A)$ where $A\in C, j_A:J \to A$
 					- Actually not an algebra, because there is no multiplication.
 				- An $E_0$-algebra homomorphism from $(A,j_A)$ to $(B,j_B)$ is $\phi: A \to B$ such that the diagram commutes:
 				  $J \overset{j_A}{\to} A \overset{\phi}{\to} B$ = $J \overset{j_B}{\to} B$
@@ -490,6 +495,12 @@ alias:: [[Category Theory]]
 			- The 'best approximation' is always done by universal property, which aims to preserve exactly enough information.
 	- Def #card
 	  collapsed:: true
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-05T00:27:20.071Z
+	  card-last-reviewed:: 2023-04-05T00:27:20.071Z
+	  card-last-score:: 5
 		- Concisely, the initial object in the ((6417d04a-7bd7-4f24-8124-2ececcbcebbe)) $\tilde F/K^*$
 			- Specifically, 
 			  $$\mathrm{Fun}(\mathcal{D},\mathcal{E}) \stackrel{K^*}{\rightarrow} \mathrm{Fun}(\mathcal{C},\mathcal{E}) \stackrel{\tilde F}{\leftarrow}\{*\}  $$

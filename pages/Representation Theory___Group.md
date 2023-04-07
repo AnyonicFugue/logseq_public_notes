@@ -240,11 +240,11 @@
 				- $IT'\simeq nT^{\prime }$
 			- Corollary 4. Let $T_{1}$ and $T_{2}$ be nonisomorphic irreducible complex representations of the group $G$. 
 			  id:: 0e1d7f6e-d7fc-4bb8-bc17-e7506829c273
-			  card-last-interval:: 25.01
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-04-06T00:26:23.575Z
-			  card-last-reviewed:: 2023-03-12T00:26:23.575Z
+			  card-last-interval:: 30
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-05-07T00:50:19.237Z
+			  card-last-reviewed:: 2023-04-07T00:50:19.239Z
 			  card-last-score:: 5
 			  Then $\operatorname{Reg}_{\mathrm{M}( T_{1})}$ and $\operatorname{Reg}_{\mathrm{M}( T_{2})}$ are not isomorphic. #card
 				- 【Proof by restricting the group】

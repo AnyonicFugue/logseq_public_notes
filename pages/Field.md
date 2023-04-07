@@ -74,19 +74,19 @@
 			- Degree of the monic polynomial $q=\operatorname{Irr}(\alpha: K)$
 	- Basic facts
 		- If $K \subseteq E \subseteq F$, then $[F: K]=[F: E][E: K]$ #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-22T13:09:19.833Z
-		  card-last-reviewed:: 2023-02-26T13:09:19.833Z
-		  card-last-score:: 5
+		  card-last-interval:: 76.8
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2023-06-20T06:40:05.412Z
+		  card-last-reviewed:: 2023-04-04T11:40:05.412Z
+		  card-last-score:: 3
 			- In short, $\left(\alpha_i \beta_j\right)_{(i, j) \in I \times J}$ is a basis of $F$ over $K$. Somewhat similar to [[tensor product]].
 		- ((639ae49b-2cd4-4c51-8269-536c1758f5f9)) Let $K$ be a field and let $q \in K[X]$ be irreducible. $E=K[X] /(q)$ is a simple field extension of $K: E=K(\alpha)$, where $\alpha=X+(q)$. Moreover, $[E: K]=\operatorname{deg} q$ and $q=\operatorname{Irr}(\alpha: K)$. #card
-		  card-last-interval:: 25.01
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-01-20T06:36:14.675Z
-		  card-last-reviewed:: 2022-12-26T06:36:14.676Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-05-05T11:27:54.294Z
+		  card-last-reviewed:: 2023-04-05T11:27:54.294Z
 		  card-last-score:: 5
 			- Intuitively, we may **fully restore** $\alpha$ from $q=\operatorname{Irr}(\alpha: K)$ **and vice versa**.
 			- Proof
@@ -95,5 +95,6 @@
 					- More generally, by III.8.3, $(q)$ is a maximal ideal of $K[X]$; hence $E=K[X] /(q)$ is a field.
 				- $E=K(\alpha)$
 					- $\alpha$ generates all 'polynomials modulo q'
+					- On the other hand, this means that all roots of an irreducible polynomial are equivalent as generators of field extensions.
 				- $q=\operatorname{Irr}(\alpha: K)$ is obvious.
 -

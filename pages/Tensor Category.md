@@ -2,6 +2,12 @@
 	- Definitions
 	  collapsed:: true
 		- Trace #card
+		  card-last-interval:: 26.01
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-28T12:13:49.594Z
+		  card-last-reviewed:: 2023-04-02T12:13:49.594Z
+		  card-last-score:: 5
 			- Categorical
 				- ((636e1042-cd00-4384-bf8a-5a0e9f6e53b2))
 				-

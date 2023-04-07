@@ -28,6 +28,12 @@
 					- The sequence $\left(y_1, \ldots, y_m\right)$, where no group $G_\alpha$ contains both $y_i$ and $y_{i+1}$ and no element is the identity.
 					- In short, a sequence cannot be further simplified.
 				- Two equivalent definitions #card
+				  card-last-interval:: 30
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-05-05T00:37:18.223Z
+				  card-last-reviewed:: 2023-04-05T00:37:18.223Z
+				  card-last-score:: 5
 					- Let $G$ be a group, let $\left\{G_\alpha\right\}_{\alpha \in J}$ be a family of subgroups of $G$ that generates $G$. We say that $G$ is **the free product** of the groups $G_\alpha$ if for each $x \in G$, there **exist a unique reduced word** in the groups $G_\alpha$ that represents $x$. In this case, we write
 					  collapsed:: true
 					  $$

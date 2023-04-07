@@ -16,11 +16,11 @@
 		- ![image.png](../assets/image_1671782175469_0.png){:height 458, :width 512}
 			- Note there are no $A_v$ on the rough boundary.
 		- Ground states #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-02-21T06:58:42.862Z
-		  card-last-reviewed:: 2023-01-28T06:58:42.864Z
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-06-07T05:06:16.502Z
+		  card-last-reviewed:: 2023-04-01T01:06:16.503Z
 		  card-last-score:: 5
 			- Details in Onenote.
 			- GSD

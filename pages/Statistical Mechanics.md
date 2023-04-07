@@ -56,11 +56,11 @@ type:: [[Course]]
 			- Open strings: ![](local://C:/Users/10309/remnote/remnote-624a8cdd2a47080035c9f8d6/files/ovs200ot_qh9DqBznH9gfbhTRHo5GbSHCGnAFrFLSmzRtJAAFP4IJD4uw-VbN5ZvXXrpbXhsJFDL5DV-te7RmyrxrFKZAORLmFh9DaR4HN-YuqdXXnMJaqVGIh8MNp5P.png)
 		-
 		- Linked-cluster theorem #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-31T01:40:40.433Z
-		  card-last-reviewed:: 2023-03-07T01:40:40.433Z
+		  card-last-interval:: 84
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-06-27T03:27:08.742Z
+		  card-last-reviewed:: 2023-04-04T03:27:08.742Z
 		  card-last-score:: 5
 			- $F=-kT\ln Z\propto \{Connected\ diagrams\}$
 			- In calculating correlation functions, also only connected diagrams need to be considered.

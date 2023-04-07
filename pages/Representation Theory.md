@@ -40,12 +40,12 @@ alias:: Representation
 		- Quotient representation
 			- Quotient of $T$, denoted by $T_{V/U}$, is defined as $T_{V/U} (x+U)=T(g)x+U$.
 		- Dual representation #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-02T10:50:43.780Z
-		  card-last-reviewed:: 2023-03-09T10:50:43.782Z
-		  card-last-score:: 5
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-05-06T00:46:06.610Z
+		  card-last-reviewed:: 2023-04-06T00:46:06.610Z
+		  card-last-score:: 3
 			- The representation space is the dual vector space.
 			- $$\left( T^{\prime } (g)f\right) (x)=f\left( T(g)^{-1} x\right)$$
 			- Matrix-wise: We select the dual basis $f_i(e_j)=\delta_{ij}$, then obtain
@@ -72,15 +72,21 @@ alias:: Representation
 		  A definition by pushforward.
 		- Obviously we can generalize to higher-rank tensors, which are tensor products of the regular representation.
 	- Character #card
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-04-01T01:03:51.863Z
-	  card-last-reviewed:: 2023-03-07T01:03:51.863Z
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-05-07T11:27:27.851Z
+	  card-last-reviewed:: 2023-04-07T11:27:27.851Z
 	  card-last-score:: 5
 		- $\chi_T(g)=Tr(T(g))$ trace of the rep. operator
 		- Automatically basis independent, thus a good def.
 	- Inner product of matrix elements #card
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-26T01:01:53.015Z
+	  card-last-reviewed:: 2023-04-02T01:01:53.016Z
+	  card-last-score:: 5
 		- $$( f_{1} ,f_{2}) =\frac{1}{|G|}\sum _{g\in G} f_{1} (g)\overline{f_{2} (g)}$$
 	- Central function #card 
 	  id:: c444aad8-769e-4048-b5d7-6a01a193068c

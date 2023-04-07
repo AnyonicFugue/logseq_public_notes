@@ -114,6 +114,12 @@ type:: paper_reading
 		- Moreover, we expect it to be somewhat topological in topo phases.
 	- Example: [[TEE]] in [[Toric Code]] #card
 	  collapsed:: true
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-04-27T01:15:26.451Z
+	  card-last-reviewed:: 2023-04-02T01:15:26.451Z
+	  card-last-score:: 5
 		- ((63f9ab7a-5493-4741-8119-f9751148f6a8))
 			- The correlation, corresponding to the blue strings, are generally nonlocal and topological.
 		- Now we calculate TEE of a certain **ground state**.

@@ -14,11 +14,11 @@ type:: paper_reading
 		- Map the model to a stat-mech system
 		- Evaluate mutual info, operator entanglement, entanglement negativity, etc.
 	- Main results #card
-	  card-last-interval:: 27.15
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-19T15:00:33.136Z
-	  card-last-reviewed:: 2023-02-20T12:00:33.136Z
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-05-07T11:23:56.312Z
+	  card-last-reviewed:: 2023-04-07T11:23:56.313Z
 	  card-last-score:: 5
 		- The entanglement quantities first grow linearly, reach its peak, then drop to zero.
 			- The peaks are reached at a system-size-independent time
@@ -54,6 +54,12 @@ type:: paper_reading
 	- ## Summary of Techniques
 	  collapsed:: true
 		- Replica Trick: $\mathbb{E} \log X=\left.\frac{\partial}{\partial \alpha} \mathbb{E} X^\alpha\right|_{\alpha=0}=\left.\frac{\partial}{\partial \alpha} \log \mathbb{E} X^\alpha\right|_{\alpha=0}$ #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-05T11:16:31.750Z
+		  card-last-reviewed:: 2023-04-05T11:16:31.751Z
+		  card-last-score:: 5
 			- Write $\mathbb E(X^\alpha)=\int dV X^\alpha \rho(X)=\int dV e^{\alpha \ln(X)}\rho(X)$, then everything follows.
 		- Average the random unitary by “Weingarten calculus” transformation ((63f03c10-91cd-4750-a5a3-0e18c646964f))
 			- This transforms each unit to a different form in which two effective "spin" degrees of freedom taking values in $S_Q$, the permutation group of $Q$ elements, are summed over. Here $Q$ is the number of layers evolved.

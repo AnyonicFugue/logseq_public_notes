@@ -1,9 +1,9 @@
 - Def #card
-  card-last-interval:: 24
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-04-02T00:34:10.659Z
-  card-last-reviewed:: 2023-03-09T00:34:10.660Z
+  card-last-interval:: 30
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-05-04T11:25:42.800Z
+  card-last-reviewed:: 2023-04-04T11:25:42.800Z
   card-last-score:: 5
 	- $$
 	  I_{A B}=S_A+S_B-S_{A \cup B}

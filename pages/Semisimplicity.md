@@ -72,6 +72,12 @@
 		- Bimodules #card
 			-
 		- Semisimple object #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-04T03:25:59.742Z
+		  card-last-reviewed:: 2023-04-04T03:25:59.742Z
+		  card-last-score:: 5
 			- For $C$ multi-fusion, $A \in C$ is semisimple if $\mathrm{RMod}_A(C)$ is semisimple.
 		-
 	- Theorem. (Ostrik 03) For $C$ a multi-fusion cat, $M$ finite-semisimple $C$-module.

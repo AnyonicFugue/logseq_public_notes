@@ -74,11 +74,11 @@
 - # Basic Theory
   collapsed:: true
 	- Notable properties of an Lie algebra of an Lie group #card
-	  card-last-interval:: 10
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2022-12-24T06:00:37.205Z
-	  card-last-reviewed:: 2022-12-14T06:00:37.205Z
+	  card-last-interval:: 67.2
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-06-08T05:11:28.860Z
+	  card-last-reviewed:: 2023-04-02T01:11:28.861Z
 	  card-last-score:: 5
 		- $A X A^{-1} \in \mathfrak{g}$ for all $A \in G$
 		  collapsed:: true

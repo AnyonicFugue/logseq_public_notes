@@ -6,3 +6,18 @@ file-path:: zotero_link/Physics/General Relativity/1984_Wald_General relativity.
   ls-type:: annotation
   id:: 64267a67-8dfa-44a6-a52c-4f86ebc81214
   hl-color:: yellow
+- principles
+  ls-type:: annotation
+  hl-page:: 81
+  hl-color:: yellow
+  id:: 6428f77e-b46f-426d-b11d-1b15a9e38ab1
+- (4.3.15)
+  ls-type:: annotation
+  hl-page:: 84
+  hl-color:: yellow
+  id:: 6428f95a-63d8-4f02-8ef3-864bb4438d87
+- unctional derivative1
+  ls-type:: annotation
+  hl-page:: 464
+  hl-color:: yellow
+  id:: 64297a39-f7ff-4ff6-9670-c0ab2cfbf079

@@ -18,13 +18,13 @@ alias:: Bulk-Boundary Correspondence
 - Examples
   collapsed:: true
 	- Counter example
-		- Fuse 2 smooth boundaries of the toric code #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-27T00:21:12.157Z
-		  card-last-reviewed:: 2023-03-03T00:21:12.159Z
+		- Fuse 2 smooth boundaries ($r \otimes_{TC} r$) of the toric code #card
 		  card-last-score:: 5
+		  card-repeats:: 3
+		  card-next-schedule:: 2023-06-28T11:21:06.567Z
+		  card-last-interval:: 84
+		  card-ease-factor:: 2.8
+		  card-last-reviewed:: 2023-04-05T11:21:06.567Z
 			- ((63a6b173-06e2-42e4-831d-f3e4d44d40ca))
 			- The topological skeleton of the 1D order is $\operatorname{Rep}\left(\mathbb{Z}_2\right)$.
 			- ((63a6b1a0-629d-4182-a4d1-1b0d6c6b75cf))
@@ -57,11 +57,11 @@ alias:: Bulk-Boundary Correspondence
 		- Just take $Hom(1_C,1_C)$, the cat of all topo excitations, in the equivalence.
 -
 - ((63aa65c7-5e7e-40f4-8216-535034102848)) 3D version #card
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-03-31T00:58:24.890Z
-  card-last-reviewed:: 2023-03-07T00:58:24.891Z
+  card-last-interval:: 67.2
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-06-08T16:09:36.034Z
+  card-last-reviewed:: 2023-04-02T12:09:36.034Z
   card-last-score:: 5
 	- (a) The bulk topological defects of codimension 2 and higher form a braided fusion 2-category $\mathbf{B}$.
 		- 'Codimension >=2' includes points and strings.

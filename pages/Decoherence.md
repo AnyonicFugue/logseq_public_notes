@@ -28,12 +28,12 @@ type:: [[Course]]
 			- The map always maps a [[Density operator]] to another one. #Exercise
 		- $\sum_k E_k^{\dagger} E_k=\sum_k{ }_2\left\langle 0\left|U^{\dagger}\right| k\right\rangle_2{ }_2\langle k|U| 0\rangle_2={ }_2\left\langle 0\left|U^{\dagger} U\right| 0\right\rangle_2=I_1$
 	- Equivalence of 2 sets of Kraus operators #card
-	  card-last-interval:: -1
-	  card-repeats:: 1
-	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-02-28T16:00:00.000Z
-	  card-last-reviewed:: 2023-02-28T13:51:17.230Z
-	  card-last-score:: 1
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-04T03:32:09.182Z
+	  card-last-reviewed:: 2023-04-04T03:32:09.182Z
+	  card-last-score:: 5
 		- Two superoperators $\mathbb{S}\left(\rho_1\right)=\sum_k E_k \rho_1 E_k^{\dagger}$ and $\mathbb{S}^{\prime}\left(\rho_1\right)=\sum_k F_k \rho_1 F_k^{\dagger}$ are equivalent if and only if there exists a **unitary** matrix $W$ such that $F_i=\sum_j W_{i j} E_j$.
 			- Essentially, W is the basis transformation between two bases of the environment.
 - Unitary representation
@@ -217,11 +217,11 @@ type:: [[Course]]
 				- R means reservoir.
 			- Use interaction picture and obtain ((63830b3b-4513-4772-8e43-8f53dae0527a))
 		- Simplifications #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-03-05T11:06:45.768Z
-		  card-last-reviewed:: 2023-02-09T11:06:45.768Z
+		  card-last-interval:: 61.44
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2023-06-02T22:13:56.482Z
+		  card-last-reviewed:: 2023-04-02T12:13:56.483Z
 		  card-last-score:: 5
 			- ((63830b80-1527-4610-b040-b1121e92a009))
 			  collapsed:: true

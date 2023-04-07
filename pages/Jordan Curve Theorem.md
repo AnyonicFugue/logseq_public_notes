@@ -29,12 +29,12 @@
 			- Then prove it is covering
 - ((63bbcc50-fdce-4a0d-aa5b-94592f62dcac)) Let $D$ be an arc in $S^2$. Then $D$ does not separate $S^2$. #card
   collapsed:: true
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-03-09T16:00:00.000Z
-  card-last-reviewed:: 2023-03-09T10:55:12.926Z
-  card-last-score:: 1
+  card-last-interval:: 24
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-04-26T12:06:28.071Z
+  card-last-reviewed:: 2023-04-02T12:06:28.071Z
+  card-last-score:: 5
 	- First proof
 		- Use the ((63bbcfcf-7da8-4aa7-887c-c2b566e5ebfa))
 			- Let $a$ and $b$ be points of $S^2$. Let $A$ be a compact space, and let $f: A \rightarrow S^2-a-b$ be a continuous injective map. If $f$ is **nulhomotopic**, then $a$ and $b$ lie in the **same component** of $S^2-f(A)$.
@@ -46,6 +46,7 @@
 		- Let $X=S^2-d$, $U=S^2-D_1$, $V=S^2-D_2$.
 			- $X=U\cup V$; $U\cap V=S^2-D$.
 		- By the above theorem, if a and b can be connected both in U and V, then we can find an infinite cyclic subgroup of $\pi_1(X)$, which derives a **contradiction**.
+			- Quite interesting: Connectivity allows nontrivial construction of paths!
 		- However, if U isn't path-connected... then we may repeat the above operations to split $D_1$ into 2 parts.
 		- The process can be infinitely repeated, and we obtain a **Nested Sequence**, with the final point x.
 		- Then we derive a contradiction, since $S^2-x$ is path connected (and some other obvious things).

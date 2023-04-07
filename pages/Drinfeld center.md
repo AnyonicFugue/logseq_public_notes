@@ -10,11 +10,11 @@
 		  ((6376ef54-3370-4e8e-8b8b-31f66f878eb9))
 			- Particles carrying different braidings; Hexagon
 	- Morphisms #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-01-26T05:45:14.943Z
-	  card-last-reviewed:: 2023-01-02T05:45:14.945Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-06-28T00:34:10.200Z
+	  card-last-reviewed:: 2023-04-05T00:34:10.200Z
 	  card-last-score:: 5
 		- $f\in Hom_A(a,b)$ such that ((6376f089-48ca-44c2-8577-6aca91fcaba6))
 		-

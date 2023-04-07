@@ -42,18 +42,17 @@
 			- $A_v$, $B_p$ as the stabilizers of the code. Flips are regarded as errors.
 			- Ground space (different homotopy types) as the logical space.
 		- Logical operators #card
-		  card-last-interval:: 25.01
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-01-25T07:03:22.516Z
-		  card-last-reviewed:: 2022-12-31T07:03:22.516Z
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-04-26T01:08:51.606Z
+		  card-last-reviewed:: 2023-04-02T01:08:51.606Z
 		  card-last-score:: 5
 			- There are 4 string operators: $X_1,X_2,Z_1,Z_2$.
 			- $X_1$ commutes with $X_2$ and $Z_2$. Similar for others.
 			- We may select any 2 commuting operators as logical X. Those anti-commuting would be logical Z.
 				- Note those operators aren't universal.
-			- We obtain two qubits, but only **single-qubit** gates.
-			- Problem: The gates seem not universal.
+			- We obtain two qubits, but only **single-qubit** gates. No entanglement.
 - # Misc
 	- Theorem. Toric code is robust against local perturbations. #card
 	  card-last-interval:: 24

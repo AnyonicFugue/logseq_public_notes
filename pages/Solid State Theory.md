@@ -213,11 +213,8 @@ type:: [[Course]]
 	-
 - # Green Function, Correlation and Dissipation
 	- Definitions
-	  collapsed:: true
 		- [[Green Function]] #card
-		  collapsed:: true
 			- ((640be051-94a7-40d3-bcc0-581ee03f5cdb)) $G_\sigma\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right):=-\mathrm{i} T\left\langle\psi_\sigma(\mathbf{r}, t) \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\rangle$
-			  collapsed:: true
 				- T is the time ordering, where 
 				  $$
 				  T\left(a\left(t_1\right) b\left(t_2\right)\right)= \begin{cases}a\left(t_1\right) b\left(t_2\right), & t_1>t_2, \\ (-1)^P b\left(t_2\right) a\left(t_1\right), & t_2>t_1,\end{cases}
@@ -236,23 +233,17 @@ type:: [[Course]]
 				- Only advanced (from the later time $t'$ to the earlier time $t$) part.
 		- Correlation function
 		- Spectral function
-		  collapsed:: true
 			- ((640be0e1-63f2-426b-96be-b5b698e93cdb)) $A_\sigma(\omega, \mathbf{p})=-\frac{1}{\pi} \operatorname{Im} G_\sigma^{\mathrm{R}}(\omega, \mathbf{p})$
-			  collapsed:: true
 				- Quite analogous to the ((6401b89c-e517-4e8f-ad4e-f98d5b166921))
 			-
 	- ## Fermionic Green Function
-	  collapsed:: true
 		- Def
-		  collapsed:: true
-			- collapsed:: true
-			  $$G_{\sigma_1 \sigma_2}^R\left(r_1, t_1; r_2, t_2\right):=-\frac{i}{\hbar} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_{\sigma_1}\left(r_1, t_1\right), \psi_{\sigma_2}^{\dagger}\left(r_2, t_2\right)\right\}\right\rangle$$
+			- $$G_{\sigma_1 \sigma_2}^R\left(r_1, t_1; r_2, t_2\right):=-\frac{i}{\hbar} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_{\sigma_1}\left(r_1, t_1\right), \psi_{\sigma_2}^{\dagger}\left(r_2, t_2\right)\right\}\right\rangle$$
 				- Always use anti-commutators for fermions.
 			- $$
 			  \tilde{G}^R(\vec{k}, \omega):=\int dt e^{-i\omega t}\int d^3 \vec{r}\ e^{-i \vec{k} \cdot \vec{r}}\ G^R(\vec{r}, t) 
 			  $$
 			- $A(k, \omega):=-\frac{1}{\pi} \operatorname{Im} G^R(k, \omega)$
-			  collapsed:: true
 				- Exercise. $A(\vec{k}, \omega) {=} \frac{1}{2 \pi} \int d t \ e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle$ #card
 				  collapsed:: true
 					- $A=(G^R-\overline{G^R})/(2i)$, which completes the integral to the whole real axis.
@@ -271,7 +262,6 @@ type:: [[Course]]
 		  collapsed:: true
 			- That is, FT of the Green function is equal to the Green function of the FT representation.
 		- Example. Free fermions
-		  collapsed:: true
 			- Calculate 
 			  collapsed:: true
 			  $$
@@ -285,6 +275,74 @@ type:: [[Course]]
 				  \end{aligned}
 				  $$
 				- Quite interesting. The spectral function, defined as the full correlation function, is the imaginary part of the Green function.
+	- ## Matsubara Green Function
+		- Idea
+			- Introduce an imaginary time to make things easier.
+			- Go back to real time by analytical continuation.
+		- Def #card
+			- $$
+			  G_{A B}\left(\tau_1, \tau_2\right):=-\frac{1}{\hbar}\left\langle T\left\{A\left(\tau_1\right) B\left(\tau_2\right)\right\}\right\rangle
+			  $$
+			  where $\tau=it$
+		- Prop. $G_{AB} (\tau )=\eta C_{AB} (\tau +\beta )$ #card
+		  collapsed:: true
+			- \begin{equation*}
+			  \begin{aligned}
+			  G_{AB} (\tau ) & =-\operatorname{Tr}\left\{\frac{1}{z} e^{-\beta H} e^{H\tau } Ae^{-H\tau } B\right\}\\
+			  C_{AB} (\tau +\beta ) & =-\operatorname{Tr}\left\{\frac{1}{z} e^{-\beta H} e^{(\tau +\beta ) H} Ae^{-(\beta +\tau )H} B\right\}\\
+			   & =-\operatorname{Tr}\left\{\frac{1}{z} e^{\tau H} Ae^{-\tau H} \cdot e^{-\beta H} B\right\}\\
+			   & =-\operatorname{Tr}\left\{\frac{1}{z} e^{-\beta H} \cdot B\cdot e^{\tau H} Ae^{-\tau H}\right\}
+			  \end{aligned}
+			  \end{equation*}
+			- Exchange $B$ and $e^{\tau H} Ae^{-\tau H}$ leads to a factor of $\eta$ (1 for bosons, -1 for fermions)
+			-
+			- The function is periodical, therefore:
+				- Boson. 
+				  \begin{equation*}
+				  G_{AB}( \omega _{n}) =\int _{0}^{\beta } d\tau G_{AB} (\tau )e^{i\omega _{n} \tau } ,\omega _{n} =\frac{2\pi }{\beta } n
+				  \end{equation*}
+				- Fermion.
+				  \begin{equation*}
+				  G_{AB}( \omega _{n}) =\int _{0}^{\beta } d\tau G_{AB} (\tau )e^{i\omega _{n} \tau } ,\omega _{n} =\frac{\pi }{\beta } \cdot ( 2n+1)
+				  \end{equation*}
+		- Analytical continuation
+		  collapsed:: true
+			- Idea
+				- $$G_{AB}( \omega _{n})\rightarrow G_{AB}^{\text{Ret}} (\omega )\ \ \text{ by } i\omega _{n}\rightarrow \omega +i\varepsilon$$
+			- Proposition.
+			  \begin{equation*}
+			  G_{AB}^{\text{Ret }} (\omega )=\int d\omega ^{\prime }\frac{A_{AB}\left( \omega ^{\prime }\right)}{\omega -\omega ^{\prime } +i\varepsilon }
+			  \end{equation*} #card
+				- Summary
+					- Obtain the expectation by brute-force sum over the Boltzmann ensemble.
+				- \begin{gather*}
+				   \\
+				  \begin{aligned}
+				  G_{AB}( \omega _{n}) & =\int _{0}^{\beta } d\tau G_{AB} (\tau )e^{i\omega _{n} \tau }\\
+				   & =-\int _{0}^{\beta } d\tau \langle T\{A(\tau )B(0)\}\rangle e^{i\omega _{n} \tau }\\
+				   & =-\int _{0}^{\beta } d\tau \sum _{\alpha \beta }\frac{1}{Z} e^{-\beta E_{\alpha }}\left< \alpha \left| e^{H\tau } Ae^{-H\tau }\right| \beta \right> < \beta |B|\alpha > e^{i\omega _{n} \tau }\\
+				   & =-\frac{1}{Z}\sum{}_{\alpha \beta } e^{-\beta E_{\alpha }}< \alpha | A| \beta > < \beta |B|\alpha > \int _{0}^{\beta } d\tau e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \tau }\\
+				   & 
+				  \end{aligned}\\
+				  \end{gather*}
+				- On the other hand,
+				  \begin{equation*}
+				  \int _{0}^{\beta } d\tau e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \tau } =\frac{e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }} =\frac{\eta e^{( E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }}
+				  \end{equation*}
+				  Thus
+				  \begin{equation*}
+				  G_{AB}( \omega _{n}) =-\frac{1}{Z}\sum{}_{\alpha \beta } e^{-\beta E_{\alpha }}< \alpha | A| \beta > < \beta |B|\alpha > \frac{\eta e^{( E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }}
+				  \end{equation*}
+				- Comparing with
+				  \begin{equation*}
+				  \begin{aligned}
+				  A_{AB} (\omega ) & =\int _{R} dt\ e^{-i\omega t} \langle A(0)B(t)\rangle \\
+				   & =\frac{1}{Z}\sum _{\alpha \beta }\left( e^{-\beta E_{\alpha }} -\eta e^{-\beta E_{\beta }}\right) (\alpha |A|\beta \rangle \langle \beta |B|\alpha \rangle \delta ( \omega +E_{\alpha } -E_{\beta })
+				  \end{aligned}
+				  \end{equation*}
+				  finishes the proof.
+		- Example. Calculate the particle-number correlation
+			-
 - # Linear Response
   collapsed:: true
 	- Defs and Setup

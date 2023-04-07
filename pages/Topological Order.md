@@ -125,11 +125,11 @@
 						- ((6376e016-4480-4dcb-898f-460d62d7f0fb))
 						- Similarly, simple excitations are 1 and M.
 					- Do we lose information on the boundary, since e and 1 seems indistinguishable on the rough boundary? #card
-					  card-last-interval:: 67.2
-					  card-repeats:: 3
-					  card-ease-factor:: 2.8
-					  card-next-schedule:: 2023-03-17T17:02:15.003Z
-					  card-last-reviewed:: 2023-01-09T13:02:15.004Z
+					  card-last-interval:: 201.84
+					  card-repeats:: 4
+					  card-ease-factor:: 2.9
+					  card-next-schedule:: 2023-10-20T21:03:05.392Z
+					  card-last-reviewed:: 2023-04-02T01:03:05.392Z
 					  card-last-score:: 5
 						- NO.
 						- We can use [[Braiding]] to reveal that the type of excitation exists in the bulk.
@@ -166,11 +166,11 @@
 							- In other words, it smooths out all details!
 				- Move particle-like [[Topological excitation]] across the invertible domain wall #card
 				  collapsed:: true
-				  card-last-interval:: 24
-				  card-repeats:: 2
-				  card-ease-factor:: 2.7
-				  card-next-schedule:: 2023-03-01T00:23:32.757Z
-				  card-last-reviewed:: 2023-02-05T00:23:32.758Z
+				  card-last-interval:: 84
+				  card-repeats:: 3
+				  card-ease-factor:: 2.8
+				  card-next-schedule:: 2023-06-27T03:34:26.941Z
+				  card-last-reviewed:: 2023-04-04T03:34:26.941Z
 				  card-last-score:: 5
 					- ((6396c9bd-f680-4a7d-b1e5-d9f8de7ae7ff))
 					  collapsed:: true
@@ -198,11 +198,11 @@
 				- [[Multi-fusion modules]]
 				  collapsed:: true
 					- Def #card
-					  card-last-interval:: 24
-					  card-repeats:: 2
-					  card-ease-factor:: 2.46
-					  card-next-schedule:: 2023-02-20T12:25:20.115Z
-					  card-last-reviewed:: 2023-01-27T12:25:20.115Z
+					  card-last-interval:: 61.44
+					  card-repeats:: 3
+					  card-ease-factor:: 2.56
+					  card-next-schedule:: 2023-06-02T22:10:10.042Z
+					  card-last-reviewed:: 2023-04-02T12:10:10.042Z
 					  card-last-score:: 5
 						- ((6396c42e-78cc-49aa-9862-fb85bef0c8d0)) Let $\mathcal{C}, \mathcal{D}$ be braided fusion categories.
 						- (1) A (multi-)fusion left $\mathcal{C}$-module is a (multi-)fusion category $\mathcal{M}$ equipped with a braided functor $F: \mathcal{C} \rightarrow \mathfrak{Z}_1(\mathcal{M})$. It is called closed if $F$ is an equivalence.

@@ -25,18 +25,20 @@
 - ((63ba7047-d03a-4029-8daf-5787e7eabe4f)) Let $a$ and $b$ be points of $S^2$. Let $A$ be a compact space, and let $f: A \longrightarrow S^2-a-b$ be a continuous map. If $a$ and $b$ lie in the same component of $S^2-f(A)$, then $f$ is nulhomotopic. #card
   id:: 63ba704a-2fd3-4833-b52a-2e3ee5a134a8
   collapsed:: true
-  card-last-interval:: 26.06
-  card-repeats:: 1
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2023-03-07T12:19:49.493Z
-  card-last-reviewed:: 2023-02-09T11:19:49.494Z
-  card-last-score:: 3
+  card-last-interval:: 30
+  card-repeats:: 2
+  card-ease-factor:: 2.46
+  card-next-schedule:: 2023-05-05T00:42:18.304Z
+  card-last-reviewed:: 2023-04-05T00:42:18.305Z
+  card-last-score:: 5
 	- Intuitively, we need two 'holes' to prevent some loop on $S^2$ to be contractible.
-		- A bit more precisely, $f(A)$ is compact, thus closed. So each component of $S^2-f(A)$ is open. We may gradually expand the components to squeeze $f(A)$ into a single point.
-		- The loop itself may have multiple 'holes'.
+		-
 	- Proof
-		- Step1. Choose an equivalent formulation.. Place $a$ at 0, $b$ at $\infty$. $g: A \rightarrow \mathbb{R}^2-\mathbf{0}$
-		- Step2. Choose a large disk B and a point $p \notin B$.
+		- Step 1. Choose an equivalent formulation.. Place $a$ at 0, $b$ at $\infty$. $g: A \rightarrow \mathbb{R}^2-\mathbf{0}$
+		- Idea
+			- First somehow move $0$ far away. Then $f(A)$, which is closed and bounded, can be scaled down to a point.
+		- Step 2. Choose a large disk B and a point $p \notin B$.
+			- $B$ is how we formalize 'far away'.
 		- ### Central construction: $H(x, t)=\operatorname{tg}(x)-p$
 			- Essentially, zoom the shape $g(A)$ finally to a point.
 				- This can be generalized to lots of strange shapes as long as they're bounded.
