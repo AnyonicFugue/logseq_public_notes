@@ -13,6 +13,7 @@ alias:: Gauge Theory
 		- Structure constants
 		-
 - # Elements of Lie Algebras
+  collapsed:: true
 	- $\operatorname{tr}\left[t_r^a t_r^b\right] \equiv D^{a b}$
 	- Prop. As long as the generator matrices are Hermitian, the matrix $D^{a b}$ is positive definite. Thus it can be diagonalized and made in the form $\operatorname{tr}\left[t_r^a t_r^b\right]=C(r) \delta^{a b}$ #card
 		- Very simple exercise.
@@ -119,6 +120,7 @@ alias:: Gauge Theory
 			- The vector field can be derived from $$U_P(z, y)=P\left\{\exp \left[i g \int_0^1 d s \frac{d x^\mu}{d s} A_\mu^a(x(s)) t^a\right]\right\}$$
 			- The covariant derivative can be derived by using $U$ as the connection
 - # Examples
+  collapsed:: true
 	- Reconstruct [[QED]] from a viewpoint of gauge invariance
 	  collapsed:: true
 		- It is striking that the covariant derivative, the field $A^\mu$ and subsequently the interaction term could emerge from such a simple principle!

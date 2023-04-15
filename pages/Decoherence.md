@@ -135,11 +135,11 @@ type:: [[Course]]
 			- Controlled-X with the environment bit being $\alpha |1\rang+\beta |0\rangle$
 			- Flip z direction with probability $$|\alpha|^2$$
 		- Phase-flip #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-29T00:58:26.184Z
-		  card-last-reviewed:: 2023-03-05T00:58:26.184Z
+		  card-last-interval:: 84
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-07-03T11:11:12.726Z
+		  card-last-reviewed:: 2023-04-10T11:11:12.728Z
 		  card-last-score:: 5
 			- Controlled-Z with the environment in superposition
 			- Add a relative phase

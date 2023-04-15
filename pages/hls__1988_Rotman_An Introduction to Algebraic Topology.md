@@ -92,3 +92,37 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   hl-page:: 49
   hl-color:: yellow
   id:: 642f75cf-4934-42ad-9567-a1cb71c1b3a8
+- Theorem
+  ls-type:: annotation
+  hl-page:: 56
+  hl-color:: yellow
+  id:: 64365386-b7d7-4fea-907a-9cbb6aa97a3a
+- Lemma
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: yellow
+  id:: 643655e3-478a-4775-b749-9eaf6a46f752
+- [:span]
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: yellow
+  id:: 64365603-aaef-4a78-b05d-9008ac29663f
+  hl-type:: area
+  hl-stamp:: 1681282563502
+- Corollary
+  ls-type:: annotation
+  hl-page:: 60
+  hl-color:: yellow
+  id:: 64365ba8-1cae-4ec8-9537-2f2ad0a8e979
+- [:span]
+  ls-type:: annotation
+  hl-page:: 60
+  hl-color:: yellow
+  id:: 64365c60-8966-4922-8d7e-4ed422616db6
+  hl-type:: area
+  hl-stamp:: 1681284191941
+- Theorem
+  ls-type:: annotation
+  hl-page:: 68
+  hl-color:: yellow
+  id:: 6438b025-e90b-490e-a4a5-ce7f210be871

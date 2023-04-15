@@ -81,11 +81,11 @@
 		- Lemma. Let $f$ and $f_{0}$ be two inner products in the complex vector space $V$. Then there exists a linear operator $\sigma$ such that $f(x,y)=f_{0} (\sigma x,y)$  for all $x,y\in V$.
 		- Theorem. Let $T:G\rightarrow \operatorname{GL} (V)$ be an irreducible unitary representation. Then the $T$-invariant inner product in $V$ is unique up to a constant factor.  #card
 		  collapsed:: true
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-07T01:02:37.712Z
-		  card-last-reviewed:: 2023-03-14T01:02:37.712Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-05-10T11:13:48.688Z
+		  card-last-reviewed:: 2023-04-10T11:13:48.689Z
 		  card-last-score:: 5
 			- Lemma. Let $f$ and $f_{0}$ be two inner products in the complex vector space V. Then there exists a linear operator $\sigma$ such that $f(x,y)=f_{0} (\sigma x,y)$  for all x,y\in V.
 			- $\sigma$ is a self-intertwining map. (Exercise)
@@ -283,6 +283,12 @@
 			- Corollary. $L\simeq R\simeq \sum n_{k} T_{k}$
 			-
 			- Theorem.  The characters of the irreducible representations constitute a **basis** for the space of ((c444aad8-769e-4048-b5d7-6a01a193068c)) #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-05-14T17:40:21.589Z
+			  card-last-reviewed:: 2023-04-13T11:40:21.589Z
+			  card-last-score:: 5
 				- Central ⇔ $Reg(g,g)f=f$
 				- Since $M(T_k)$ are inv under Reg: we can find the basis vectors in the $M(T_k)$
 				-

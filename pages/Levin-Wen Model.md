@@ -95,12 +95,12 @@
 - # Topics
 	- ## Relations to Math Axioms
 		- ((63d1e7c7-5e46-4a7e-a93a-80eea0451f8c)) #card #[[Research/To Be Investigated]]
-		  card-last-interval:: 25.01
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-08T11:06:14.911Z
-		  card-last-reviewed:: 2023-02-11T11:06:14.911Z
-		  card-last-score:: 5
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-05-12T11:35:45.237Z
+		  card-last-reviewed:: 2023-04-12T11:35:45.238Z
+		  card-last-score:: 3
 			- Very interesting. Obtain categories from physical requirements!
 		- ((63d1e83a-5d36-44b8-93b5-e746f7860e6c)) #[[Research/To Be Investigated]]
 		-

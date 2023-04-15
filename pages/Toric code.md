@@ -9,11 +9,11 @@
 		- Free d.o.f. : $N=F-E-V+2=2g$
 - # [[Topological skeleton]] of toric code #card
   collapsed:: true
-  card-last-interval:: 27.15
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-02-11T04:13:23.909Z
-  card-last-reviewed:: 2023-01-15T01:13:23.910Z
+  card-last-interval:: 30
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-05-13T11:42:34.937Z
+  card-last-reviewed:: 2023-04-13T11:42:34.937Z
   card-last-score:: 5
 	- ((63aa5b5b-1bd1-47bd-941c-a5c86a2fd734)) Invitation
 	- A monoidal [[2-category]], denoted by $\mathbf{TC}$
@@ -21,7 +21,7 @@
 		- However, some objects aren't invertible? #Inbox/Problem
 	- ((63aa5b9e-3d1c-450a-9877-4bc7b61b2766))
 		- Objects -> Six simple domain walls
-		- Black arrow -> Topo skeleton of the 1D domain walls\
+		- Black arrow -> Topo skeleton of the 1D domain walls
 		- Red and bluelines -> Hom categories
 	- [[Fusion rules]] of the domain walls #Learning-TODO
 	  id:: 63b186e5-7748-4701-8357-c2cb83a51fcc

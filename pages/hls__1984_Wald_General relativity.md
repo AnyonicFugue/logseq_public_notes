@@ -21,3 +21,18 @@ file-path:: zotero_link/Physics/General Relativity/1984_Wald_General relativity.
   hl-page:: 464
   hl-color:: yellow
   id:: 64297a39-f7ff-4ff6-9670-c0ab2cfbf079
+- Proposition
+  ls-type:: annotation
+  hl-page:: 455
+  hl-color:: yellow
+  id:: 6433cd3d-fc1f-48f5-966e-e2f1fd234ef2
+- (C3.3)
+  ls-type:: annotation
+  hl-page:: 455
+  hl-color:: yellow
+  id:: 6433ce90-e3c9-4031-95f6-d7b06c8ac6fc
+- (6.2.27)
+  ls-type:: annotation
+  hl-page:: 142
+  hl-color:: yellow
+  id:: 6437aad2-3d97-4484-9f01-ccf5d4d0b667

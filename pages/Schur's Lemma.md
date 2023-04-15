@@ -1,9 +1,9 @@
 - ((63e44b9a-8e76-4cce-9663-a87a332bad1b)) 
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-04-05T00:40:01.575Z
-  card-last-reviewed:: 2023-03-12T00:40:01.576Z
+  card-last-interval:: 84
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-07-06T11:31:53.796Z
+  card-last-reviewed:: 2023-04-13T11:31:53.798Z
   card-last-score:: 5
   1. Let $V$ and $W$ be irreducible **real or complex** representations of a **group** or **Lie algebra** and let $\phi: V \rightarrow W$ be an intertwining map. Then either $\phi=0$ or $\phi$ is an isomorphism.
   2. Let $V$ be an irreducible **complex** representation of a group or Lie algebra and let $\phi: V \rightarrow V$ be an intertwining map of $V$ with itself. Then $\phi=\lambda I$, for some $\lambda \in \mathbb{C}$.

@@ -13,6 +13,7 @@
 - Text Alignment
 - Paragraph Formatting
 	- Equation numbering
+	  collapsed:: true
 		- Single equation
 			- `\begin{equation}`
 		- Multiple equations one number
@@ -30,7 +31,7 @@
 			- `\nonumber`
 	- Multi-column
 		- `\package{multicols}{n}`
-		-
+	-
 - Citation and Bib
 	- Summary
 		- First, create a `.bib` file
@@ -38,3 +39,9 @@
 			- They can be exported in arXiv
 		- Use `\bibliography{file}` to include it
 		- Use `\cite{Kitaev_2006}` to cite specific articles
+- # Warnings #card
+	- #+BEGIN_CAUTION
+	  Latex is quite old and decentralized, so there are many strange bugs. 
+	  #+END_CAUTION
+	- Don't use `$$$$` to create multi-line formulae. Use `\begin{equation}` to avoid potential problems.
+	-

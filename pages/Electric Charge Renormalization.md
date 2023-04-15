@@ -76,11 +76,11 @@
 						- $\gamma \approx .5772$
 				- ((63957417-2ab9-471b-ab4b-d7fc4cd0332e))
 					- Why do the log term pop up? #card
-					  card-last-interval:: 26.06
-					  card-repeats:: 1
-					  card-ease-factor:: 2.6
-					  card-next-schedule:: 2023-02-04T03:01:42.426Z
-					  card-last-reviewed:: 2023-01-09T02:01:42.426Z
+					  card-last-interval:: 30
+					  card-repeats:: 2
+					  card-ease-factor:: 2.7
+					  card-next-schedule:: 2023-05-13T11:37:45.131Z
+					  card-last-reviewed:: 2023-04-13T11:37:45.132Z
 					  card-last-score:: 5
 						- $$
 						  \log \left[\left(\frac{1}{\Delta}\right)^{\varepsilon / 2}\right]=\varepsilon / 2 \log \left(\frac{1}{\Delta}\right) \\ e^{\log \left(\frac{1}{\Delta}\right)^{\varepsilon / 2}}=e^{\varepsilon /2 {\log} \frac{1}{\Delta}}=1+\frac{\varepsilon}{2} \log \frac{1}{\Delta}

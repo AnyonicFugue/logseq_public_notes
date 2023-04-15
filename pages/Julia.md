@@ -31,17 +31,23 @@
 					     end
 					  ```
 			- Potential problems #card
-			  card-last-interval:: 10.42
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2022-12-23T16:28:00.325Z
-			  card-last-reviewed:: 2022-12-13T06:28:00.325Z
+			  card-last-interval:: 30
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-05-11T01:32:52.691Z
+			  card-last-reviewed:: 2023-04-11T01:32:52.692Z
 			  card-last-score:: 5
 				- Racing
-					- Avoid modifying (including +=) one piece of data from multiple threads.
+					- Trigger: 
+					  Multiple threads share a same piece of memory and at least one is writing.
+					- Solution: 
+					  Allocate a separate buffer for each thread; 
+					  for shared memory use locks or channels.
 				- Overhead at memory allocation
-					- Preallocate buffers
-					- Use static arrays for critical parts of code
+					- Trigger: Allocating memory inside threads are extremely inefficient.
+					- Solution:
+					  Preallocate buffers;
+					  use static arrays for critical parts of code
 		- Multiprocessing
 	- Plotting #card
 	  card-last-interval:: 169.81
@@ -92,11 +98,11 @@
 		- I must specify the beginning.
 		- It is comma instead of colons (Different from [[Python]])
 	- Access and slice multidimensional arrays #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-05T00:27:44.849Z
-	  card-last-reviewed:: 2023-01-12T00:27:44.849Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-07-04T01:36:56.097Z
+	  card-last-reviewed:: 2023-04-11T01:36:56.097Z
 	  card-last-score:: 5
 		- Use [i,j] instead of [i][j] (Different from [[C++]])
 		- Use [i,:] to obtain a slicing. **The dummy index must have a colon.**

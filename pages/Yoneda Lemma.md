@@ -25,9 +25,20 @@
 		- Also this means that $F:C\to \mathrm{Fun}(\mathcal C,\mathrm{Set}), x\mapsto \mathrm{Hom}_{\mathcal{C}}(x,-)$ is really an imbedding since it is fully faithful.
 		  It is called the **Yoneda imbedding**
 	- If there is a natural isomorphism between $\mathrm{Hom}_{\mathcal{C}}(-,x)$ and $\mathrm{Hom}_{\mathcal{C}}(-,y)$, then $x \simeq y$. #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-05-13T01:41:29.972Z
+	  card-last-reviewed:: 2023-04-13T01:41:29.973Z
+	  card-last-score:: 3
 		- First note that the Yoneda imbedding, $F:C\to \mathrm{Fun}(\mathcal C,\mathrm{Set}), x\mapsto \mathrm{Hom}_{\mathcal{C}}(x,-)$, is a functor.
 		- Moreover it is fully faithful.
 		- Therefore, if we have a natural isomorphism (which is an isomorphism in the cat $\mathrm{Fun}(\mathcal{C},\mathrm{Set}))$, we must be able to find an isomorphism as its preimage.
+		-
+		- Stupid way
+			- ![image.png](../assets/image_1681351831833_0.png){:height 423, :width 567}
+			- Take $a=x,b=y$ and $a=y,b=x$.
+			- Consider the maps $\alpha_a(\mathrm{id}_a)$ and $\alpha_a^{-1}(\mathrm{id}_a)$
 	- An adjoint functor $G$ of some $F$ is unique up to an unique isomorphism. #card
 	  card-last-interval:: 24
 	  card-repeats:: 1

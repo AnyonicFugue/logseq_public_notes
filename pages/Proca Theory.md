@@ -26,11 +26,11 @@
 	- $\left[A^i(t, \vec{x}), \pi^j(t, \vec{y})\right]=-i \delta^{i j} \delta^{(3)}(\vec{x}-\vec{y})$
 - # Spin Operator
 	- Spin and Lorentz symmetry #card
-	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-04-02T00:46:42.231Z
-	  card-last-reviewed:: 2023-03-09T00:46:42.231Z
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-05-15T00:55:54.912Z
+	  card-last-reviewed:: 2023-04-15T00:55:54.912Z
 	  card-last-score:: 5
 		- In principle, spins are conserved currents of the Lorentz symmetry.
 		- Moreover, the current naturally decomposes into an orbital part and an internal part, corresponding to orbital angular momentum and spin.

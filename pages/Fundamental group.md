@@ -1,28 +1,41 @@
 - Def
-	- ((6370aa46-c9f9-4a49-8912-99dad0eb621c))
-	- ((6370a8fd-64aa-4453-9384-10636e61c42e))
+	- ((64360141-2ae9-4f2c-ab49-2795b00975ed)) If $f$ is a path in $X$ from $x_0$ to $x_1$, and if $g$ is a path in $X$ from $x_1$ to $x_2$, we define the product $f * g$ of $f$ and $g$ to be the path $h$ given by the equations
+	  $$
+	  h(s)= \begin{cases}f(2 s) & \text { for } s \in\left[0, \frac{1}{2}\right] \\ g(2 s-1) & \text { for } s \in\left[\frac{1}{2}, 1\right]\end{cases}
+	  $$
+		- Intuitively, pasting the two paths together
+	- ((643600f7-e2b0-439a-9176-d82771ec332c)) Let $X$ be a space; let $x_0$ be a point of $X$. The set of path homotopy **classes** of loops based at $x_0$, with the operation $*$, is called the fundamental group of $X$ relative to the base point $x_0$. It is denoted by $\pi_1\left(X, x_0\right)$.
+		- It's interesting that equivalence classes can be so useful.
 		- Sometimes called first [[Homotopy group]]
 - Summary #card
-  card-last-interval:: 25.01
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-04-14T01:20:10.582Z
-  card-last-reviewed:: 2023-03-20T01:20:10.582Z
+  card-last-interval:: 84
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-07-07T11:39:46.354Z
+  card-last-reviewed:: 2023-04-14T11:39:46.355Z
   card-last-score:: 5
 	- **Note:** This kind of cards enable me to have better sense of what I've learned.
 	- Def
+		- Equivalence classes of loops, equipped with a product
 	- Applications
 - Hat-map
   collapsed:: true
-	- ((6370a9b6-cfdd-49ed-a37e-e977b27e99ff))
-	- ![图像.png](../assets/图像_1668328082216_0.png)
-	- ((6370aafb-bdcd-4007-a202-73f669641f53)) #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.46
-	  card-next-schedule:: 2023-03-27T00:28:03.312Z
-	  card-last-reviewed:: 2023-03-03T00:28:03.312Z
+	- ((643600b1-2ddd-4089-9501-4599bb8a9e15)) Let $\alpha$ be a path in $X$ from $x_0$ to $x_1$. We define a map
+	  $$
+	  \hat{\alpha}: \pi_1\left(X, x_0\right) \longrightarrow \pi_1\left(X, x_1\right)
+	  $$
+	  by the equation
+	  $$
+	  \hat{\alpha}([f])=[\bar{\alpha}] *[f] *[\alpha]
+	  $$
+	- ![图像.png](../assets/图像_1668328082216_0.png){:height 275, :width 382}
+	- Theorem. The map $\hat \alpha$ is a group isomorphism. #card
 	  card-last-score:: 5
+	  card-repeats:: 2
+	  card-next-schedule:: 2023-03-27T00:28:03.312Z
+	  card-last-interval:: 24
+	  card-ease-factor:: 2.46
+	  card-last-reviewed:: 2023-03-03T00:28:03.312Z
 		- This hints that the fundamental group doesn't depend on the points (on the same path component of X).
 		  Moreover, $$\pi_1(C,x_0)=\pi_1(X,x_0)$$
 		- Different path components are actually different 'objects'.
@@ -48,11 +61,11 @@
 		- Moreover, $$h_*$$ is a group homomorphism. #Exercise
 	- If h is a homeomorphism, then $$h_*$$ is a group isomorphism.
 - $\pi_1\left(X \times Y, x_0 \times y_0\right)$ is isomorphic with $\pi_1\left(X, x_0\right) \times \pi_1\left(Y, y_0\right)$ #card
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-03-29T01:06:41.577Z
-  card-last-reviewed:: 2023-03-05T01:06:41.578Z
+  card-last-interval:: 84
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-07-05T11:37:52.595Z
+  card-last-reviewed:: 2023-04-12T11:37:52.595Z
   card-last-score:: 5
   collapsed:: true
 	- This is very intuitive. Path in $X\times Y$ <-> product of path in $X$ and path in $Y$.

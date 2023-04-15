@@ -1,9 +1,9 @@
 - Def #card
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-02-26T12:24:11.932Z
-  card-last-reviewed:: 2023-02-02T12:24:11.933Z
+  card-last-interval:: 84
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-07-07T11:36:48.064Z
+  card-last-reviewed:: 2023-04-14T11:36:48.064Z
   card-last-score:: 5
 	- ((63719b2f-ac3d-49d5-9b39-f2c2dfb70861))
 		- Key point: Decompose into local spaces

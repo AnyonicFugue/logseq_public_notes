@@ -1,34 +1,6 @@
 file:: [2000_Munkres_Topology.pdf](zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf)
 file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
 
-- [:span]
-  ls-type:: annotation
-  hl-page:: 348
-  hl-color:: blue
-  hl-type:: area
-  hl-stamp:: 1668327677367
-  id:: 6370a8fd-64aa-4453-9384-10636e61c42e
-- [:span]
-  ls-type:: annotation
-  hl-page:: 348
-  hl-color:: blue
-  hl-type:: area
-  hl-stamp:: 1668327862135
-  id:: 6370a9b6-cfdd-49ed-a37e-e977b27e99ff
-- [:span]
-  ls-type:: annotation
-  hl-page:: 343
-  hl-color:: blue
-  hl-type:: area
-  hl-stamp:: 1668328006398
-  id:: 6370aa46-c9f9-4a49-8912-99dad0eb621c
-- [:span]
-  ls-type:: annotation
-  hl-page:: 349
-  hl-color:: purple
-  hl-type:: area
-  hl-stamp:: 1668328186746
-  id:: 6370aafb-bdcd-4007-a202-73f669641f53
 - there is no natural way of identifying the groups of different points. Different paths may give rise to **different isomorphisms** between these groups.
   hl-stamp:: 1668328725751
   hl-page:: 349
@@ -512,3 +484,18 @@ file-path:: zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf
   hl-page:: 489
   hl-color:: yellow
   id:: 6407fddd-bfbc-4b68-b54a-ae71c0566d35
+- Definition
+  ls-type:: annotation
+  hl-page:: 348
+  hl-color:: yellow
+  id:: 643600b1-2ddd-4089-9501-4599bb8a9e15
+- Definition
+  ls-type:: annotation
+  hl-page:: 348
+  hl-color:: yellow
+  id:: 643600f7-e2b0-439a-9176-d82771ec332c
+- Definition
+  ls-type:: annotation
+  hl-page:: 343
+  hl-color:: yellow
+  id:: 64360141-2ae9-4f2c-ab49-2795b00975ed

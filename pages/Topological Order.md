@@ -19,11 +19,11 @@
 		- S and T matrix may be linked with anyon knots on the torus
 		- ((63c2532f-fd97-4a25-86ac-27fc600589ee)) by annulus diagrams
 	- Significance of Topo order #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-03-21T04:56:29.430Z
-	  card-last-reviewed:: 2023-01-13T00:56:29.431Z
+	  card-last-interval:: 252.3
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2023-12-21T18:38:38.300Z
+	  card-last-reviewed:: 2023-04-13T11:38:38.300Z
 	  card-last-score:: 5
 		- We encounter **long-range entanglement** for the first time, which is extremely important.
 		- ((636864d8-05a7-440a-8fb4-0aa262aa340d))
@@ -469,11 +469,11 @@
 					- In principle there are also others, but may be dealt with by the folding trick and stacking?
 						- Seems some info are lost. For example, we no longer know whether a wall is invertible. #Inbox/Problem
 			- ((63a95644-d8a1-4133-ae26-4a0cff407548)) #card
-			  card-last-interval:: 24
-			  card-repeats:: 2
-			  card-ease-factor:: 2.46
-			  card-next-schedule:: 2023-02-27T01:06:05.707Z
-			  card-last-reviewed:: 2023-02-03T01:06:05.708Z
+			  card-last-interval:: 76.8
+			  card-repeats:: 3
+			  card-ease-factor:: 2.56
+			  card-next-schedule:: 2023-06-26T06:24:08.912Z
+			  card-last-reviewed:: 2023-04-10T11:24:08.912Z
 			  card-last-score:: 5
 				- Reminder. Strange argument; maybe try to understand in the future...
 				- ((63a95652-7730-40fb-b3aa-bbbbff2241be))
@@ -546,13 +546,13 @@
 			- The site seem to have 2 spins, which has 4-dim space.  The space of 4x4 hermitian matrices shall be 16-dim. Inconsistent? #Inbox/Problem
 				- What precisely are the 'local operators'?
 					- One answer: Within a fixed range when taking the thermodynamic limit.
-					- In lattice models, 'local' only means 'within a fixed range when taking the [[Thermodynamic limit]]. #card
+					- In lattice models, 'local' only means 'within a bounded range when taking the [[Thermodynamic limit]]. #card
 					  id:: 63b29124-d69c-46e4-9973-32fc95c2ecad
-					  card-last-interval:: 25.01
-					  card-repeats:: 1
-					  card-ease-factor:: 2.6
-					  card-next-schedule:: 2023-02-21T12:17:27.645Z
-					  card-last-reviewed:: 2023-01-27T12:17:27.645Z
+					  card-last-interval:: 30
+					  card-repeats:: 2
+					  card-ease-factor:: 2.7
+					  card-next-schedule:: 2023-05-10T11:15:11.272Z
+					  card-last-reviewed:: 2023-04-10T11:15:11.272Z
 					  card-last-score:: 5
 						- Reminder.
 						  id:: 63b29145-b0cb-4cd9-b852-74f02bc8226d

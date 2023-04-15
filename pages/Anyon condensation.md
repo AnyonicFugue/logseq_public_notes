@@ -77,11 +77,11 @@
 				- However they can survive on the edge theory, which has no braiding!
 				- Physically, pulling the confined particles from the edge to the condensate costs an energy proportional to the distance. #Learning-TODO
 			- Condition for allowed particles #card
-			  card-last-interval:: 24
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-03-25T00:26:09.576Z
-			  card-last-reviewed:: 2023-03-01T00:26:09.577Z
+			  card-last-interval:: 30
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-05-12T00:44:55.927Z
+			  card-last-reviewed:: 2023-04-12T00:44:55.927Z
 			  card-last-score:: 5
 				- $R_{J \times a}^{a, J} R_{J \times a}^{J, a}=\frac{\theta_{J \times a}}{\theta_a}=1$
 				- The second line uses the fact that $R_c^{b a} R_c^{a b}=\frac{\theta_c}{\theta_a \theta_b}$.
@@ -223,11 +223,11 @@
 			- ((63f4c021-3966-42c9-9ad3-50a2dc95fe3d))
 	- ### Constructing $S U(2)_2 / U(1)_2$ #card
 	  collapsed:: true
-	  card-last-interval:: 23.96
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-04-04T00:13:56.968Z
-	  card-last-reviewed:: 2023-03-11T01:13:56.968Z
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-05-11T01:33:24.740Z
+	  card-last-reviewed:: 2023-04-11T01:33:24.740Z
 	  card-last-score:: 5
 		- Setup
 			- $SU(2)_2$ is [[Ising type]], with $\theta_{\sigma}=e^{2 \pi i 3 / 16}$

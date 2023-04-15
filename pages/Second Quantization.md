@@ -22,6 +22,12 @@
 	- The generalization to n-body shall be similar: Sum the possible scatterings, then divide by $n!$.
 - # Changing representations
 	- ## Transformation Law #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-13T11:35:34.196Z
+	  card-last-reviewed:: 2023-04-13T11:35:34.196Z
+	  card-last-score:: 5
 		- We could change the basis
 		  id:: 640846c2-c0a4-42de-8fa9-8c9b4a1faed0
 		  $$\hat d_a=\sum_b \langle\psi_a|\phi_b\rangle \hat c_b$$

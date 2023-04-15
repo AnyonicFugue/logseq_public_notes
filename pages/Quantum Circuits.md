@@ -1,10 +1,10 @@
 - # [[Bloch Sphere]] and Bloch Ball
 	- Summary: Density matrix in terms of coordinates, rotation of the ball, expectation values #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-04-09T01:42:41.587Z
-	  card-last-reviewed:: 2023-03-16T01:42:41.587Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-07-05T11:37:27.858Z
+	  card-last-reviewed:: 2023-04-12T11:37:27.858Z
 	  card-last-score:: 5
 		- $Tr \rho=1$ ⇒ $a=1/2$ ⇒ $\rho=\frac{1}{2}\left(I+x \sigma_x+y \sigma_y+z \sigma_z\right)$
 			- The range of the coordinates could be obtained by nonnegativity.

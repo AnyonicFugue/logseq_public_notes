@@ -66,12 +66,12 @@
 - Lifting the fundamental group
 	- ((638c3f1f-7609-4ec8-880f-7b851dea0f63)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$. If $E$ is **path connected**, then the lifting correspondence $\phi: \pi_1\left(B, b_0\right) \rightarrow p^{-1}\left(b_0\right)$ is **surjective**. If $E$ is **simply connected**, it is **bijective**. #card
 	  card-last-score:: 5
-	  card-repeats:: 2
-	  card-next-schedule:: 2023-01-19T04:18:07.464Z
-	  card-last-interval:: 24
+	  card-repeats:: 3
+	  card-next-schedule:: 2023-07-07T00:31:01.610Z
+	  card-last-interval:: 84
 	  id:: 638c0f2d-33eb-4634-9467-e083bf50506d
-	  card-ease-factor:: 2.7
-	  card-last-reviewed:: 2022-12-26T04:18:07.464Z
+	  card-ease-factor:: 2.8
+	  card-last-reviewed:: 2023-04-14T00:31:01.611Z
 		- Intuition
 			- (1) A path from $e_0$ to $e_1$ is compressed into a loop by the covering map. It is decompressed by the lifting correspondence.
 			- (2) We just need to prove it is injective.

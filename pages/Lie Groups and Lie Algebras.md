@@ -92,11 +92,11 @@
 				-
 		- Corollary. Exp and Log are homeomorphisms on the sets.
 		- Corollary. Let $G$ be a matrix Lie group with Lie algebra $\mathfrak{g}$ and let $k$ be the dimension of $\mathfrak{g}$ as a real vector space. Then $G$ is a **smooth embedded submanifold** of $M_n(\mathbb{C})$ of dimension $k$ and hence a Lie group. #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-02-26T12:14:49.094Z
-		  card-last-reviewed:: 2023-02-02T12:14:49.094Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-05-11T01:28:53.860Z
+		  card-last-reviewed:: 2023-04-11T01:28:53.862Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- First note that we may take any point homeomorphically to the identity by the map $g^{-1}$ (continuity is granted by the def of Lie groups).
@@ -144,11 +144,11 @@
 				- 1. G closed in $X$, $G_0$ closed in G -> $G_0$ closed in X
 				- 2. For $X\in G$, $e^{tX} \in G$.
 	- ((6382c5bc-957b-4756-8adc-146cca7d1a16)) naturally induces ((6382c5bc-c2fb-4256-b0c1-e00aa69f4db0)) #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-24T13:13:33.022Z
-	  card-last-reviewed:: 2023-01-31T13:13:33.022Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-07-07T00:33:01.177Z
+	  card-last-reviewed:: 2023-04-14T00:33:01.177Z
 	  card-last-score:: 5
 	  id:: 6382ce57-6b73-4815-b142-0f889766fa01
 	  collapsed:: true

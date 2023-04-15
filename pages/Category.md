@@ -65,6 +65,12 @@ alias:: [[Category Theory]]
 		- ### Possible properties
 		  collapsed:: true
 			- Essentially surjective #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-05-16T06:57:19.632Z
+			  card-last-reviewed:: 2023-04-15T00:57:19.632Z
+			  card-last-score:: 5
 				- For every object $d \in \mathrm{D}$ there is some $c \in \mathrm{C}$ such that $d$ is isomorphic to $F c$.
 				- In other words, it is surjective in terms of isomorphism classes
 					- In categories only isomorphism classes (rather than specific objects) account.
@@ -232,6 +238,12 @@ alias:: [[Category Theory]]
 				- The $\mathbb{C}$-linear structure on a hom space $\operatorname{Hom}_{\mathcal{C} \oplus \mathcal{D}}\left((x, y),\left(x^{\prime}, y^{\prime}\right)\right)$ is given by the direct sum of vector spaces $\operatorname{Hom}_{\mathcal{C}}\left(x, x^{\prime}\right) \oplus \operatorname{Hom}_{\mathcal{D}}\left(y, y^{\prime}\right)$.
 		- ## Properties
 			- A direct sum is both a product and a coproduct. #card
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-05-15T00:53:50.607Z
+			  card-last-reviewed:: 2023-04-15T00:53:50.608Z
+			  card-last-score:: 5
 				- Just verify the universal properties.
 			- If the product and coproduct of $\{x_i\}_i$ are isomorphic in a $k$-linear cat, then it is the direct sum. #card
 				- Note that this statement is nontrivial since the direct sum **might not exist** in a general $k$-linear category.
@@ -262,7 +274,6 @@ alias:: [[Category Theory]]
 		- [[Nondegenerate]]
 - # Higher Algebras, Higher Modules and Centers
   id:: 6401b893-4fac-428b-81c2-677ffb42ac72
-  collapsed:: true
 	- Remark: As we go higher and higher, the properties are better and better (monoidal, braided, symmetric, ...)
 	- ## Intuitions
 	  collapsed:: true
@@ -279,14 +290,12 @@ alias:: [[Category Theory]]
 			- Also called semigroup.
 			- Essentially, a group minus the inverses. Still has associativity and unit.
 		- Algebra in a monoidal category $(C,\otimes,I,\alpha,\lambda,\rho)$ #card
-		  collapsed:: true
 			- A triple $(A, m: A \otimes A \to A, u: I \to A)$ where $A \in ob(C)$, $m,u \in \mathrm{Mor}(C)$
 				- $m$ is called the multiplication.
 				- $u$ carries information about the 'unit'
 			- Consistency relations
-			  collapsed:: true
 				- Two different paths of multiplication from $(A \otimes A) \otimes A$ and $A \otimes (A \otimes A)$ to $A$ are equal.
-				- $A \overset{\rho_A}{\to} A \times I \overset{\mathrm{id}_A \otimes n} {\to} A\otimes A \overset{m}{\to} A$ is equal to $\mathrm{id}_A$, and its dual version
+				- $A \overset{\rho_A}{\to} A \otimes I \overset{\mathrm{id}_A \otimes n} {\to} A\otimes A \overset{m}{\to} A$ is equal to $\mathrm{id}_A$, and its dual version
 		- Algebra homomorphism between algebras in $C$
 			- $\phi: A \to B$ with two consistency relations
 			  collapsed:: true
@@ -294,6 +303,12 @@ alias:: [[Category Theory]]
 				- $\phi \circ u_A = u_B$, which means two creators are compatible.
 		- Category of algebras in a monoidal category #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-15T17:37:58.991Z
+		  card-last-reviewed:: 2023-04-14T11:37:58.991Z
+		  card-last-score:: 5
 			- Objects are algebras
 			- Homs are homomorphisms
 			-
@@ -329,9 +344,8 @@ alias:: [[Category Theory]]
 				- An $E_2$ algebra is an algebra in $E_1\mathrm{Alg}(B) \simeq \mathrm{Alg}(B)$
 				- Condition: {{cloze C braided monoidal}}
 			- Cat of $E_3$-algebras, $E_3\mathrm{Alg}(S)$ #card
-			  collapsed:: true
 				- An $E_3$-algebra is an algebra in $E_2\mathrm{Alg}(S)$
-				- Condition: {{cloze C symmetric braided monoidal}}
+				- Condition for it to be monoidal: {{cloze C symmetric braided monoidal}}
 			- Cat of $E_n$-algebras for $n \geq 3$ #card
 			  collapsed:: true
 				- All same as $E_3\mathrm{Alg}(S) \simeq \mathrm{CAlg}(S)$!
@@ -390,6 +404,7 @@ alias:: [[Category Theory]]
 			- My task is to explicitly construct the monoidal structure.
 		-
 	- ## Higher Modules
+	  collapsed:: true
 		- Remark: Modules can be regarded as representations of the algebras #card
 		  card-last-interval:: 25.01
 		  card-repeats:: 1
@@ -477,6 +492,12 @@ alias:: [[Category Theory]]
 - # Representability and Yoneda Lemma
   collapsed:: true
 	- Representable functor #card
+	  card-last-interval:: 33.94
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-14T23:36:20.657Z
+	  card-last-reviewed:: 2023-04-11T01:36:20.658Z
+	  card-last-score:: 5
 		- Exist some x s.t. $\mathrm{Hom}_{\mathcal{C}}(X,-) \simeq F$ (naturally isomorphic)
 		- Examples
 			- The identity functor on $\mathrm{Set}$ is represented by $\{*\}$. #card
@@ -533,10 +554,16 @@ alias:: [[Category Theory]]
 	- ## Examples
 		- Take $\mathcal{C}={*}$, $\mathrm{D}$ some strange cat, $\mathcal{E}=\mathrm{Set}$, $K:=\{*\mapsto x\}$, $F:=\{*\mapsto \{\cdot\}\}$. Then $(\mathrm{Hom}_{\mathcal{D}}(x,-),\{\cdot \mapsto \mathrm{id}_x\})$ is the left Kan-extension of $F$ along $K$. #card
 		  collapsed:: true
+		  card-last-interval:: 33.94
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-17T09:49:12.651Z
+		  card-last-reviewed:: 2023-04-13T11:49:12.651Z
+		  card-last-score:: 5
 			- See Goodnotes/Misc, p11 (Copy that diagram here!)
 			- Hint: To define a natural transformation, we only need to define the set of Homs for each object.
 			- Remark: {{cloze This is precisely [[Yoneda Lemma]] }}!
-			-
+			- But how to understand the example intuitively?
 		- ### Everything is Kan extensions
 			- ((64180925-7584-4cba-83a2-b731525d514b)) ((Co)limits as Kan extensions). The left Kan extension of $F: \mathrm{C} \rightarrow \mathrm{D}$ along the unique functor $!: \mathrm{C} \rightarrow \mathbb{1}$ defines the colimit of $F$ in $\mathrm{D}$, each existing if and only if the other does.
 			  Dually, the limit is defined by the right Kan extension. 
@@ -597,6 +624,12 @@ alias:: [[Category Theory]]
 		-
 	- [[Tube Category]]
 	- Homotopy category $\mathrm{hTop}$ #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-12T11:19:54.498Z
+	  card-last-reviewed:: 2023-04-12T11:19:54.498Z
+	  card-last-score:: 5
 		- The quotient category defined by homotopies.
 		- Exercise. Homotopy is a congruence on $\mathrm{Top}$
 		-

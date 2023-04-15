@@ -2,6 +2,7 @@
   id:: 638d57a7-30e1-4243-8ec8-babe77af9cf8
 	- There seems to be something deeper inside. Galois theory -> Study field extensions by means of automorphism groups.
 - # Intro of Rotman
+  collapsed:: true
 	- Mapping cylinder #card
 	  collapsed:: true
 		- Let $f: X \rightarrow Y$ be continuous and define
@@ -30,56 +31,84 @@
 			- The power of the algebraic way!
 		- Then we may start by assuming that there's no fixed points, then construct a retract by ((64113b44-ccd4-41d8-b489-12572e41a829)).
 - # Affine Spaces
+  collapsed:: true
 	- Def
+	  collapsed:: true
 		- Affine #card
+		  collapsed:: true
 			- A subset $A$ of Euclidean space is called affine if, for every pair of distinct points $x, x^{\prime} \in A$, the **line** determined by $x, x^{\prime}$ is contained in $A$.
 			- Note that convex only requires the line segment, while affine requires the whole line.
 		- Convex (Affine) hull of some $X\sub R^n$ #card
+		  collapsed:: true
 			- The intersection of all affine/convex sets containing $X$.
 			- Theorem 2.1. If $\left\{X_j: j \in J\right\}$ is a family of convex (or affine) subsets of $\mathbf{R}^n$, then $\cap X_j$ is also convex (or affine).
 		- Affine (Convex) combination #card
+		  collapsed:: true
 			- For a finite set of points $$p_0, p_1, \ldots, p_m$$, an affine combination is a single point
+			  collapsed:: true
 			  $$x=t_0 p_0+t_1 p_1+\cdots+t_m p_m$$
 			  where $\sum_{i=0}^m t_i=1$.
 				- What does $\sum_{i=0}^m t_i=1$ mean?
+				  collapsed:: true
 					- For 2 points this is the line crossing both points.
 					- For 3 points (not on the same line) this is the plane determined by them.
 					- For general cases this is the unique 'infinite simplex' by induction.
 			- A convex combination is an affine combination for which $t_i \geq 0$ for all $i$.
 			- ((642d7f26-c4a3-4172-a3bd-398cca94309e)). If $p_0, p_1, \ldots, p_m \in \mathbf{R}^n$, then $\left[p_0, p_1, \ldots, p_m\right]$, the convex (affine) set spanned by these points is the set of all convex (affine) combinations of $p_0, p_1, \ldots, p_m$.
 		- Affine independent #card
+		  collapsed:: true
 			- An ordered set of points $\left\{p_0, p_1, \ldots, p_m\right\} \subset \mathbf{R}^n$ is affine independent if $\left\{p_1-p_0, p_2-p_0, \ldots, p_m-p_0\right\}$ is a linearly independent subset of the real vector space $\mathbf{R}^n$.
 			- Prop. The definition is independent of the 'base point' $p_0$
 			- Examples
+			  collapsed:: true
 				- A set $\left\{p_0, p_1\right\}$ is affine independent if $p_1-p_0 \neq 0$, that is, if $p_1 \neq p_0$
 				- A set $\left\{p_0, p_1, p_2\right\}$ is affine independent if it is not collinear
 				- A set $\left\{p_0, p_1, p_2, p_3\right\}$ is affine independent if it is not coplanar.
 		- In General position
+		  collapsed:: true
 			- A set of points $\left\{a_1, a_2, \ldots, a_k\right\}$ in $\mathbf{R}^n$ is in general position if every $n+1$ of its points forms an affine independent set.
 			- $n=1$: Any two points don't coincide.
 			- $n=2$: Any three points aren't colinear.
+		- Affine map #card
+			- Let $\left\{p_0, p_1, \ldots, p_m\right\} \subset \mathbf{R}^n$ be affine independent and let $A$ denote the affine set it spans. An affine map $T: A \rightarrow \mathbf{R}^k$ (for some $k \geq 1$ ) is a function satisfying
+			  $$
+			  T\left(\sum t_j p_j\right)=\sum t_j T\left(p_j\right)
+			  $$
+			  whenever $\sum t_j=1$. The restriction of $T$ to $\left[p_0, p_1, \ldots, p_m\right]$ is also called an affine map.
+			- Remarks
+				- It preserves affine combinations.
+				- The map can be determined by an affine independent subset ('basis'). As a special case, by the vertices of a simplex.
 		- ### About Simplexes
+		  collapsed:: true
 			- Barycentric coordinate #card
+			  collapsed:: true
 				- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$, and let $A$ be the affine set spanned by this subset.
 				- If $x \in A$, then the [theorem](((642d8032-73a8-473d-8bc5-9da77152a596))) gives a unique $(m+1)$-tuple $\left(t_0, t_1, \ldots, t_m\right)$ with $\sum t_i=1$ and $x=\sum_{i=0}^m t_i p_i$. 
 				  The entries of this $(m+1)$-tuple are called the **barycentric coordinates** of $x$ (relative to the ordered set $\left.\left\{p_0, p_1, \ldots, p_m\right\}\right)$.
 				- Intuitively, this means how to obtain a point in the 'affine simplex' by the vertices.
 			- Barycenter #card
+			  collapsed:: true
 				- If $\left\{p_0, \ldots, p_m\right\}$ is affine independent, the barycenter of $\left[p_0, \ldots, p_m\right]$ is $(1 / m+1)\left(p_0+p_1+\cdots+p_m\right)$.
 				- > Barycenter comes from the Greek *barys* meaning heavy; thus, barycenter is just "center of gravity"
 			- m-simplex #card
+			  collapsed:: true
 				- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$. The **convex** set spanned by this set, denoted by $\left[p_0, p_1, \ldots, p_m\right]$, is called the (affine) $\boldsymbol{m}$-simplex with vertices $p_0, p_1, \ldots, p_m$.
+				  collapsed:: true
 					- 'Convex' means $t_i \geq 0$
 				- Standard n-simplex
-					- $$
+				  collapsed:: true
+					- collapsed:: true
+					  $$
 					  \Delta^n=\left\{\left(x_1, x_2, \ldots, x_{n+1}\right) \in \mathbf{R}^{n+1}: \text { each } x_i \geq 0 \text { and } \sum x_i=1\right\}
 					  $$
 						- A (inclining) closed interval for n=1, a triangle (vertices being $(1,0,0),(0,1,0),(0,0,1)$)) for n=2, a tetrahedron (?) for n=3, ...
 						- Obviously $\Delta^n \approx D^n$
 			- $k$-face and boundary #card
+			  collapsed:: true
 				- A $\boldsymbol{k}$-face of $\left[p_0, p_1, \ldots, p_m\right]$ is a $k$-simplex spanned by $k+1$ of the vertices $\left\{p_0, p_1, \ldots, p_m\right\}$. 
 				  In this terminology, the boundary is the union of all $m$-faces.
 				- Boundary of a simplex
+				  collapsed:: true
 					- Let $\left[p_0, p_1, \ldots, p_m\right]$ be an $m$-simplex. The face opposite $p_i$ is
 					  $$
 					  \left[p_0, \ldots, \hat{p}_i, \ldots, p_m\right]=\left\{\sum t_j p_j: t_j \geq 0, \sum t_j=1 \text {, and } t_i=0\right\}
@@ -87,6 +116,7 @@
 					  (circumflex ^ means "delete").
 					- The boundary of $\left[p_0, p_1, \ldots, p_m\right]$ is the union of its $m$-faces.
 	- ## Basic Facts
+	  collapsed:: true
 		- ((642d8003-6824-4805-ba5e-7ce8cb5333e2)) The following conditions on an ordered set of points $\left\{p_0, p_1, \ldots, p_m\right\}$ in $\mathbf{R}^n$ are equivalent.
 		  id:: 642d8032-73a8-473d-8bc5-9da77152a596
 		  (i) $\left\{p_0, p_1, \ldots, p_m\right\}$ is affine independent;
@@ -108,11 +138,46 @@
 		  (ii) $\operatorname{diam} S=\sup _{i, j}\left\|p_i-p_j\right\|$.
 		  (iii) If $b$ is the barycenter of $S$, then $\left\|b-p_i\right\| \leq(n / n+1)$ diam $S$. #card
 			-
+	- ## [[Topological Group]]
+		- Defs
+			- Topological Group
+				- A topological group is a group $G$ whose underlying set is equipped with a topology such that:
+				- (i) the multiplication map $\mu: G \times G \rightarrow G$, given by $(x, y) \mapsto x y$, is continuous if $G \times G$ has the product topology;
+				- (ii) the inversion map $i: G \rightarrow G$, given by $x \mapsto x^{-1}$, is continuous.
+			- H-space #card
+				- A pointed topological space $\left(X, x_0\right)$ with a pointed map $m:\left(X \times X,\left(x_0, x_0\right)\right) \rightarrow\left(X, x_0\right)$ such that each of the (necessarily pointed) maps $m\left(x_0, -\right)$ and $m\left(-, x_0\right)$ on $\left(X, x_0\right)$ is homotopic to $1_X \operatorname{rel}\left\{x_0\right\}$. One calls $x_0$ a homotopy identity.
+				- Intuitively, $m$ is the multiplication and $x_0$ is the identity.
+				- Examples
+					- Topological group: Multiplication as $m$ and identity as $x_0$
+		- ((6438b025-e90b-490e-a4a5-ce7f210be871)) If $(X,x_0)$ is an H-space, then $\pi_1(X,x_0)$ is abelian. #card
+			- #+BEGIN_NOTE
+			  This proof is not hard, but conceptually confusing. How to understand it? Why couldn't I come up with it myself?
+			  #+END_NOTE
+			- Key idea
+				- A path $f$ in $X$ can be both $m_*(e_{x_0},f)$ and $m_*(f,e_{x_0})$ (H-space).
+				- Moreover, the induced map is a homomorphism.
+				- Therefore $f * g= m_*(e_{x_0},f) * m_*(g, e_{x_0})=m_*(g,f)=...=m_*(f,g)$ (Different components commute), which manifests the result.
+			- Remark
+				- It is a necessary condition that the fundamental group is abelian for the space to be a topological group.
+			-
+				-
+		-
 - # Homotopy
   collapsed:: true
+	- Some notations
+		- If $f: \mathbf{I} \rightarrow X$ is a path from $x_0$ to $x_1$, call $x_0$ the origin of $f$ and write $x_0=\alpha(f)$; call $x_1$ the end of $f$ and write $x_1=\omega(f)$. A path $f$ in $X$ is closed at $x_0$ if $\alpha(f)=x_0=\omega(f)$
+			- Observe that if $f$ and $g$ are paths with $f \simeq g$ rel \dot$\mathbf{I}$, then $\alpha(f)=\alpha(g)$ and $\omega(f)=\omega(g)$; therefore we may speak of the origin and end of a path class and write $\alpha[f]$ and $\omega[f]$.
+		- If $p \in X$, then the constant function $i_p: \mathbf{I} \rightarrow X$ with $i_p(t)=p$ for all $t \in I$ is called the constant path at $p$.
+		- If $f: I \rightarrow X$ is a path, its inverse path $f^{-1}: \mathbf{I} \rightarrow X$ is defined by $t \mapsto f(1-t)$.
 	- Defs
-	  collapsed:: true
-		- Homotopy of maps
+		- Relative homotopy #card
+			- For two continuous maps $f_0,f_1:X \to Y$ and $f_0|_A = f_1|_A$, if there is a continuous map $F: X \times \mathbf{I} \rightarrow Y$ with $F: f_0 \simeq f_1$ and
+			  $$
+			  F(a, t)=f_0(a)=f_1(a) \quad \text { for all } a \in A \text { and all } t \in \mathbf{I} .
+			  $$
+			  then 
+			  $$f_0 \simeq f_1 \ \text{rel} \ A$$
+		- Free Homotopy of maps
 		  collapsed:: true
 			- If $f$ and $f^{\prime}$ are continuous maps of the space $X$ into the space $Y$, we say that $f$ is homotopic to $f^{\prime}$ if there is a continuous map $F : X \times I \rightarrow Y$ such that
 			  $$F(x, 0)=f(x) \quad \text { and } \quad F(x, 1)=f^{\prime}(x)$$
@@ -151,12 +216,24 @@
 				- Let $f: X \rightarrow Y$ be a function and let $y \in Y$. Then $f^{-1}(y)$ is called the fiber over $y$.
 				- 'Preimage of a single point'
 			- Cone #card
+			  card-last-interval:: 35.37
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-05-15T19:25:00.185Z
+			  card-last-reviewed:: 2023-04-10T11:25:00.185Z
+			  card-last-score:: 5
 				- If $X$ is a space, define an equivalence relation on $X \times \mathbf{I}$ by $(x, t) \sim$ $\left(x^{\prime}, t^{\prime}\right)$ if $t=t^{\prime}=1$.
 					- Intuitively, identify all points at the top.
 				- Denote the equivalence class of $(x, t)$ by $[x, t]$. The **cone** over $X$, denoted by $C X$, is the quotient space $X \times \mathbf{I} / \sim$.
 		- ((6427a17b-2b44-4fbe-a61f-27a9b853464c)) Every convex set $X$ is contractible. #card
 			- Just use the common trick of construction!
 		- Theorem. Let $f: X \rightarrow Y$ be a continuous surjection. Then $f$ is an identification if and only if, for all spaces $Z$ and all functions $g: Y \rightarrow Z$, one has $g$ continuous if and only if $g f$ is continuous.
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-13T06:49:10.111Z
+		  card-last-reviewed:: 2023-04-12T00:49:10.112Z
+		  card-last-score:: 5
 		  collapsed:: true
 		  ((6427a564-e84e-4a24-b545-824c745dc62f)) #card
 			- An easy exercise, but it's worthwhile to ponder the meaning in categories!
@@ -174,6 +251,7 @@
 		- ((6427f13b-04bb-41d0-b06b-f35e68b40624)) If $Y$ is contractible, then any two maps $X \rightarrow Y$ are homotopic (indeed they are nullhomotopic). #card
 			- Invoke the lemma that homotopy is preserved under composition.
 			-
+- # [[Singular Homology]]
 - [[Retraction]]
 	- Def
 	  collapsed:: true
@@ -208,6 +286,12 @@
 		- Another application of ((638d57a7-30e1-4243-8ec8-babe77af9cf8)).
 		  id:: 63c14161-2eea-4c90-94d9-cb032f916f40
 	- ((6422b6cc-a25b-4228-9495-394b752cebfe)) Let $f:S^n \to Y$ continuous. The following are equivalent:
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-16T00:44:18.288Z
+	  card-last-reviewed:: 2023-04-13T11:44:18.288Z
+	  card-last-score:: 5
 	  (i) $f$ is nullhomotopic;
 	  (ii) $f$ can be extended to a continuous map $D^{n+1} \rightarrow Y$;
 	  (iii) if $x_0 \in S^n$ and $k: S^n \rightarrow Y$ is the constant map at $f\left(x_0\right)$, then there is a homotopy $F: f \simeq k$ with $F\left(x_0, t\right)=f\left(x_0\right)$ for all $t \in \mathbf{I}$. #card
@@ -258,6 +342,25 @@
 		- Hint: Nul -> Trivial hom of $\pi_1$; Retraction -> Injective
 - [[Covering space]]
 - [[Fundamental group]]
+	- # The Categorical Viewpoint
+		- ((64365386-b7d7-4fea-907a-9cbb6aa97a3a)) $\pi_1: \mathbf{Top_*}\to\mathbf{Grp}$ is a (covariant) functor. Moreover, if $h$, $k:\left(X, x_0\right) \rightarrow\left(Y, y_0\right)$ and $h \simeq k \operatorname{rel}\left\{x_0\right\}$, then $\pi_1(h)=\pi_1(k)$. #card
+			- *To be completed
+			- Notes
+				- A path is a continuous map (morphism) from $(S^1,0)$ to $(X,x_0)$
+				- $\mathbf{Top_*}$ denotes the cat of pointed topological spaces, i.e. a space with a specified base point $x_0$.
+		- Question: If $X$ and $Y$ have the same homotopy type, do they have the same fundamental group?
+			- ((643655e3-478a-4775-b749-9eaf6a46f752)) Assume that $F: \varphi_0 \simeq \varphi_1$ is a (free) homotopy, where $\varphi_i: X \rightarrow Y$ is continuous for $i=0,1$. Choose $x_0 \in X$ and let $\lambda$ denote the path $F\left(x_0, -\right)$ in $Y$ from $\varphi_0\left(x_0\right)$ to $\varphi_1\left(x_0\right)$. Then there is a commutative diagram
+			  ((64365603-aaef-4a78-b05d-9008ac29663f))
+			  where $\psi$ is the isomorphism $[g] \mapsto\left[\lambda * g * \lambda^{-1}\right]$.
+				- The extra isomorphism $\psi$ is introduced to fix the base point.
+				- We may prove the lemma by explicit construction: $\tilde F(t,s):=[\lambda(s) * F(f(t),s) * \lambda^{-1}(s)]$
+					- Intuitively, act a *path inner automorphism* for each $s$ to fix the base point.
+				- Note that $\lambda(t)$ is precisely $F(x_0,t)$. Therefore even if $\varphi_0(x_0)=\varphi_1(x_0)$, the base point can trace a nontrivial path and the induced homomorphisms are **not** equal.
+			- ((64365ba8-1cae-4ec8-9537-2f2ad0a8e979)). Assume that $\varphi_i:\left(X, x_0\right) \rightarrow\left(Y, y_0\right)$, for $i=0,1$, are freely homotopic.
+			  (i) $\varphi_{0 *}$ and $\varphi_{1 *}$ are conjugate; that is, there is $[\lambda] \in \pi_1\left(Y, y_0\right)$ with $\varphi_{0 *}[f]=$ $[\lambda] \varphi_{1 *}([f])[\lambda]^{-1}$ for every $[f] \in \pi_1\left(X, x_0\right)$.
+			  (ii) If $\pi_1\left(Y, y_0\right)$ is abelian, then $\varphi_{0 *}=\varphi_{1 *}$. #card
+				- Just using the above lemma.
+				- Corollary. Spaces having the same homotopy type have the same fundamental group.
 	- [[Simply connected]]
 	- [[Deformation Retraction]] and [[Homotopy Equivalence]]
 	- ((6393f3d8-803c-4134-af68-b91b9739c5e7)) Given a **nonvanishing** vector field on $B^2$, there exists a point of $S^1$ where the vector field points directly inward and a point of $S^1$ where it points directly outward.
@@ -343,12 +446,10 @@
 - Classification of Surfaces
   collapsed:: true
 	- Defs
+		- ((642578ff-9703-449c-b3df-41ffc344e641))
 		- Polygonal region
 		  collapsed:: true
 			- Roughly speaking, we have a set of points $\{a_n\}$equaldistant to the center $c$. $P$ is the intersection of the closed half-planes created by the lines $a_{i-1}a_i$
-		- Orientation
-		  collapsed:: true
-			- An ordering of the two end points of a line segment
 		- Positive linear map between line segments
 		  collapsed:: true
 			- Preserving the orientations, i.e. is the homeomorphism $h$ that carries the point $x=(1-s) a+s b$ of $L$ to the point $h(x)=(1-s) c+s d$
@@ -399,11 +500,11 @@
 				-
 		- n-fold torus #card
 		  id:: 63f218b7-eddb-4fe3-bd5e-daff1b591487
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-21T00:09:19.238Z
-		  card-last-reviewed:: 2023-02-25T00:09:19.239Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-05-13T11:45:04.428Z
+		  card-last-reviewed:: 2023-04-13T11:45:04.428Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- Pasting a $4n$-sided polygon by $\left(a_1 b_1 a_1^{-1} b_1^{-1}\right)\left(a_2 b_2 a_2^{-1} b_2^{-1}\right) \cdots\left(a_n b_n a_n^{-1} b_n^{-1}\right)$
@@ -475,14 +576,14 @@
 			- Consider two paths $\alpha$ and $\beta$, and the isomorphism induced by $\gamma:=\alpha \beta^{-1}$.
 			- $f \mapsto \gamma f \gamma^{-1}$.
 			- Obviously it is still $f$ in the abelianized quotient.
-		- ((63f9607e-52d2-4362-81b9-9392cd5509e1)) Theorem 75.1. Let $F$ be a group; let $N$ be a normal subgroup of $F$; let $G:=F/N$. The projection homomorphism
-		  collapsed:: true
-		  card-last-interval:: 23.96
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-22T12:05:09.640Z
-		  card-last-reviewed:: 2023-02-26T13:05:09.641Z
+		- ((63f9607e-52d2-4362-81b9-9392cd5509e1)) Let $F$ be a group; let $N$ be a normal subgroup of $F$; let $G:=F/N$. The projection homomorphism
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-05-12T11:23:29.603Z
+		  card-last-reviewed:: 2023-04-12T11:23:29.604Z
 		  card-last-score:: 5
+		  collapsed:: true
 		  $$
 		  p: F \rightarrow F /[F, F]
 		  $$

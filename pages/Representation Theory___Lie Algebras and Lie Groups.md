@@ -8,8 +8,14 @@
 	- If $\mathfrak{g}$ is a real or complex Lie algebra, then a finite-dimensional complex representation of $\mathfrak{g}$ is a Lie algebra homomorphism 
 	  $$\pi:\mathfrak{g} \to g l(V)$$
 	  , where $V$ is a finite-dimensional complex vector space.
-- ((63e44c94-f6b7-45ad-86c7-a5068ae7d4b6)) If G is a **compact** matrix Lie group, every finite-dimensional representation of G is completely reducible. #card
-	- The strategy is to construct an invariant inner product by  integral on the group. Unitary implies completely reducible.
+- ((63e44c94-f6b7-45ad-86c7-a5068ae7d4b6)) If G is a **compact** matrix Lie group, every finite-dimensional representation of G is unitary, thus completely reducible. #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-05-13T06:49:52.999Z
+  card-last-reviewed:: 2023-04-12T00:49:52.999Z
+  card-last-score:: 5
+	- The strategy is to construct an invariant inner product by integral on the group.
 - Examples
 	- Reps of $sl(2,C)$
 	  id:: 63e44faf-be39-4003-a238-c50fedbd07e4

@@ -259,6 +259,12 @@
 				- Each $x$ has a connected small neighborhood.
 	- Basic facts
 		- ((642be6d7-d592-4d6e-9bed-7e9e0d6624dc)) A space $X$ is locally path connected if and only if path components of open subsets are open. In particular, if $X$ is locally path connected, then its path components are open. #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-13T17:25:23.623Z
+		  card-last-reviewed:: 2023-04-12T11:25:23.624Z
+		  card-last-score:: 5
 			- p -> q:
 				- It's easy to see $U=\cup_x V(x)$.
 					- $V(x)$ is in a single component.
@@ -266,6 +272,12 @@
 			- q -> p:
 				- The path components of $U$ are open. Just take the one containing $x$.
 		- Corollary. For $x$ locally path-connected, the components of open subsets coincide with path components. #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-12T00:43:52.511Z
+		  card-last-reviewed:: 2023-04-12T00:43:52.511Z
+		  card-last-score:: 5
 			- Component -> Same path component:
 				- Suppose $C$ has two path components $P_1$ and $P_2$. Then by the theorem above they're both open, which contradicts that $C$ is a component.
 			- Path component -> Same component:

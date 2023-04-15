@@ -4,6 +4,7 @@
 		-
 	-
 - # QM Version
+  collapsed:: true
 	- Start by 
 	  $$K( q'' ,t'';q' ,t') :=_{H}\left< q'',t''|q^{\prime } ,t^{\prime }\right> _{H} =_{s}\left< q''( t'')\left| e^{-iH\left( t^{\prime \prime } -t^{\prime }\right)}\right| q^{\prime }\left( t^{\prime }\right)\right> _{s}$$ 
 	  and insert many interim positions $| r_i \rangle \langle r_i|$
@@ -30,41 +31,54 @@
 	  K\left(\mathbf{r}^{\prime}, t^{\prime}, \mathbf{r}, t\right)=\mathscr{C} \int \mathscr{D}[\mathbf{r}(t)] e^{\frac{i}{\hbar} S[\mathbf{r}(t)]}
 	  $$
 	-
-- # QFT Version
-	- Ref
-		- Peskin [9.2](((642bc322-b8dc-4d82-ade0-a452daad6a1d)))
-	- ## Fundamental formula #card
-		- $$
-		  \left\langle\phi_b(\mathbf{x})\left|e^{-i H T}\right| \phi_a(\mathbf{x})\right\rangle=\int \mathcal{D} \phi \exp \left[i \int_0^T d^4 x \mathcal{L}[\phi]\right]
-		  $$
-		  with constraints $\phi_a(\mathbf{x})$ at $x^0=0$ and $\phi_b(\mathbf{x})$ at $x^0=T$
-			- Note that $\mathcal L[\phi]$ is the Lagrangian of a **classical** field, while $|\phi_a(x)\rangle$ (actually $\phi_a(x)|0\rangle$) is a **quantum state**.
-			- Therefore, the constraints actually mean that there's a certain quantum-classical correspondence.
-				- Compare to QM: The quantum state $|x\rangle$ corresponds to a particle at position $x$.
-		- How is it consistent with the Hamiltonian formulation?
-		  background-color:: red
-	- ## Formula for correlation functions #card
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-07T11:19:51.760Z
-	  card-last-reviewed:: 2023-04-07T11:19:51.763Z
-	  card-last-score:: 5
-		- $$
-		  \left\langle\Omega\left|T \phi_H\left(x_1\right) \phi_H\left(x_2\right)\right| \Omega\right\rangle=\lim _{T \rightarrow \infty(1-i c)} \frac{\int \mathcal{D} [\phi] \phi\left(x_1\right) \phi\left(x_2\right) \exp \left[i \int_{-T}^T d^4 x \mathcal{L}\right]}{\int \mathcal{D} [\phi] \exp \left[i \int_{-T}^T d^4 x \mathcal{L}\right]}
-		  $$
-			- This is quite similar to Gellmann-Low, but fundamentally different since here's a functional integration.
-		- Proof
-			- Observation: The pair of constraints in integration corresponds to the initial and final states.
-			  Thus we break the integration into $\int \mathcal{D} \phi(x)=\int \mathcal{D} \phi_1(\mathbf{x}) \int \mathcal{D} \phi_2(\mathbf{x}) \int_{\substack{\phi\left(x_1^0, \mathbf{x}\right)=\phi_1(\mathbf{x}) \\ \phi\left(x_2^0, \mathbf{x}\right)=\phi_2(\mathbf{x})}} \mathcal{D} \phi(x)$
-	-
-		-
-	- ## Obtain [[Feynman rules]]
-		- Example: Calculate $\int \mathcal{D} \phi e^{i S_0}$ and $\int \mathcal{D} \phi e^{i S_0} \phi\left(x_1\right) \phi\left(x_2\right)$ for the [[Klein-Gordon Theory]]
-			- See [Peskin](((642bcdd1-ada5-4c3a-8ad9-6365a54ee3d4)))
-			- Standard Technique #card
-				- Discretize the spacetime and do Fourier transformation, then different momenta decouple.
+-
+- Ref
+  collapsed:: true
+	- Peskin [9.2](((642bc322-b8dc-4d82-ade0-a452daad6a1d)))
+- # Fundamental formula #card
+  collapsed:: true
+	- collapsed:: true
+	  $$
+	  \left\langle\phi_b(\mathbf{x})\left|e^{-i H T}\right| \phi_a(\mathbf{x})\right\rangle=\int \mathcal{D} \phi \exp \left[i \int_0^T d^4 x \mathcal{L}[\phi]\right]
+	  $$
+	  with constraints $\phi_a(\mathbf{x})$ at $x^0=0$ and $\phi_b(\mathbf{x})$ at $x^0=T$
+		- Note that $\mathcal L[\phi]$ is the Lagrangian of a **classical** field, while $|\phi_a(x)\rangle$ (actually $\phi_a(x)|0\rangle$) is a **quantum state**.
+		- Therefore, the constraints actually mean that there's a certain quantum-classical correspondence.
+		  collapsed:: true
+			- Compare to QM: The quantum state $|x\rangle$ corresponds to a particle at position $x$.
+	- How is it consistent with the Hamiltonian formulation?
+	  background-color:: red
+- # Formula for Correlation Functions #card
+  card-last-score:: 5
+  card-repeats:: 1
+  card-next-schedule:: 2023-05-07T11:19:51.760Z
+  card-last-interval:: 30
+  card-ease-factor:: 2.6
+  card-last-reviewed:: 2023-04-07T11:19:51.763Z
+  collapsed:: true
+	- collapsed:: true
+	  $$
+	  \left\langle\Omega\left|T \phi_H\left(x_1\right) \phi_H\left(x_2\right)\right| \Omega\right\rangle=\lim _{T \rightarrow \infty(1-i c)} \frac{\int \mathcal{D} [\phi] \phi\left(x_1\right) \phi\left(x_2\right) \exp \left[i \int_{-T}^T d^4 x \mathcal{L}\right]}{\int \mathcal{D} [\phi] \exp \left[i \int_{-T}^T d^4 x \mathcal{L}\right]}
+	  $$
+		- This is quite similar to Gellmann-Low, but fundamentally different since here's a functional integration.
+	- Proof
+	  collapsed:: true
+		- Observation: The pair of constraints in integration corresponds to the initial and final states.
+		  Thus we break the integration into $\int \mathcal{D} \phi(x)=\int \mathcal{D} \phi_1(\mathbf{x}) \int \mathcal{D} \phi_2(\mathbf{x}) \int_{\substack{\phi\left(x_1^0, \mathbf{x}\right)=\phi_1(\mathbf{x}) \\ \phi\left(x_2^0, \mathbf{x}\right)=\phi_2(\mathbf{x})}} \mathcal{D} \phi(x)$
+	- Note
+	  collapsed:: true
+		- This formula actually holds for arbitrary correlation functions, not just 2-point.
+- # Obtain [[Feynman rules]]
+  collapsed:: true
+	- Example: Calculate $\int \mathcal{D} \phi e^{i S_0}$ and $\int \mathcal{D} \phi e^{i S_0} \phi\left(x_1\right) \phi\left(x_2\right)$ for the [[Klein-Gordon Theory]]
+	  collapsed:: true
+		- See [Peskin](((642bcdd1-ada5-4c3a-8ad9-6365a54ee3d4)))
+		- Standard Technique #card
+		  collapsed:: true
+			- Method 1: Discretize the spacetime and do Fourier transformation, then different momenta decouple.
+			  collapsed:: true
 				- For the correlation function, we obtain things like
+				  collapsed:: true
 				  $$
 				  \begin{aligned}
 				  & \frac{1}{V^2} \sum_{m, l} e^{-i\left(k_m \cdot x_1+k_l \cdot x_2\right)}\left(\prod_{k_n^0>0} \int d \operatorname{Re} \phi_n d \operatorname{Im} \phi_n\right) \\
@@ -77,16 +91,349 @@
 					  This is momentum conservation!
 					- For higher-order correlations, the momenta pair up to obtain even terms.
 					  This is Wick's theorem!
-				- [[Generating Functional]]
-					- Idea
-						- Set $Z[J] \equiv \int \mathcal{D} \phi \exp \left[i \int d^4 x[\mathcal{L}+J(x) \phi(x)]\right]$.
-						  Each derivative $-i \frac{\delta}{\delta J\left(x_0\right)}$ multiplies $\phi(x_0)$ to the integrand.
-					- Examples
-						- $$
-						  \left\langle 0\left|T \phi\left(x_1\right) \phi\left(x_2\right)\right| 0\right\rangle=\left.\frac{1}{Z_0}\left(-i \frac{\delta}{\delta J\left(x_1\right)}\right)\left(-i \frac{\delta}{\delta J\left(x_2\right)}\right) Z[J]\right|_{J=0}
-						  $$
-					- Rules
-						- $$
-						  \frac{\delta}{\delta J(x)} J(y)=\delta^{(4)}(x-y)
-						  $$
-						-
+			- Method 2: Use the generating functional.
+- # [[Generating Functional]]
+  collapsed:: true
+	- ### Idea #card
+	  collapsed:: true
+		- Set 
+		  $$Z[J] \equiv \int \mathcal{D} \phi \exp \left[i \int d^4 x[\mathcal{L}+J(x) \phi(x)]\right]$$
+		  Each derivative $-i \frac{\delta}{\delta J\left(x_0\right)}$ multiplies $\phi(x_0)$ to the integrand.
+	- ### Basics
+	  collapsed:: true
+		- Rules for Functional Derivatives
+		  collapsed:: true
+			- $$
+			  \frac{\delta}{\delta J(x)} J(y)=\delta^{(4)}(x-y)
+			  $$
+			-
+		- Examples
+		  collapsed:: true
+			- $$
+			  \left\langle 0\left|T \phi\left(x_1\right) \phi\left(x_2\right)\right| 0\right\rangle=\left.\frac{1}{Z_0}\left(-i \frac{\delta}{\delta J\left(x_1\right)}\right)\left(-i \frac{\delta}{\delta J\left(x_2\right)}\right) Z[J]\right|_{J=0}
+			  $$
+	- ### Evaluate $Z[J]$
+	  collapsed:: true
+		- Complete the square by 
+		  $$
+		  \phi^{\prime}(x) \equiv \phi(x)-i \int d^4 y D_F(x-y) J(y)
+		  $$
+		- $$
+		  \begin{aligned}
+		  \int d^4 x\left[\mathcal{L}_0(\phi)+J \phi\right]= & \int d^4 x\left[\frac{1}{2} \phi^{\prime}\left(-\partial^2-m^2+i \epsilon\right) \phi^{\prime}\right] \\
+		  & -\int d^4 x d^4 y \frac{1}{2} J(x)\left[-i D_F(x-y)\right] J(y)
+		  \end{aligned}
+		  $$
+		- $$Z[J]=Z[0]\exp\left\{- \frac{1}{2}\int d^4 x d^4 y J(x)\left[ D_F(x-y)\right] J(y)\right\}$$
+	- ### Obtain Green Functions
+	  collapsed:: true
+		- Obviously [[Wick's Theorem]] kicks in: the derivatives $-i \frac{\delta}{\delta J\left(z\right)}$ must pair up to eliminate $J(z)$ and obtain $D_F(z_1-z_2)$.
+		- Correlations of odd numbers of points must be zero.
+	- ### Generating functional for connected Green functions, $W[J]$, and Effective action $\Gamma[\phi]$
+		- Def
+		  collapsed:: true
+			- $$
+			  Z[J]=e^{i W[J]}
+			  $$
+			  $W[J]$ is the generating functional for **connected** Green functions.
+			- collapsed:: true
+			  $$\phi_c (x):=\frac{\delta W[J]}{\delta J(x)}$$
+				- This is $\left\langle \Omega|\phi(x)|\Omega\right\rangle$.
+			- collapsed:: true
+			  $$\Gamma [\phi ]\equiv W[ J_{\phi }] -\int d^{4} xJ_{\phi } (x)\phi (x)$$
+				- The Legendre transformation of the connected generating functional.
+		- **Basic facts**
+			- $$\frac{\delta \Gamma [ \phi _{c}]}{\delta \phi _{c} (x)} =\int d^{4} y\frac{\delta W[J]}{\delta J(y)}\frac{\delta J(y)}{\delta \phi _{c} (x)} -\int d^{4} y\frac{\delta J(y)}{\delta \phi _{c} (x)} \phi _{c} (y)-J(x)=-J(x)$$
+			- Generate connected Green functions
+				- $$\frac{1}{iZ}\frac{\delta }{\delta J(x)} Z[ J]| _{J=0} =\left(\frac{1}{iZ}\frac{\delta }{\delta J(x)} iW[J]\right) e^{iW[J]}| _{J=0} =\frac{1}{i}\frac{\delta }{\delta J(x)} iW[J]| _{J=0}$$
+				- $$\begin{aligned}
+				  \frac{\delta ^{2} W[ J]}{\delta J( x) \delta J( y)} & =\frac{\delta }{\delta J( y)}\left[\frac{1}{iZ}\frac{\delta }{\delta J(x)} Z[ J]\right]\\
+				   & =\frac{1}{iZ}\frac{\delta ^{2}}{\delta J(x)\delta J( y)} Z[ J] -\frac{1}{iZ^{2}}\left(\frac{\delta Z[ J]}{\delta J(x)}\right)\left(\frac{\delta Z[ J]}{\delta J(y)}\right)\\
+				   & =i\left\langle \phi ( x) \phi ( y)\right\rangle  -i< \phi ( x)> < \phi ( y)> 
+				  \end{aligned}$$
+				- And similar for higher-order correlations.
+			- Chain rule
+			  id:: 643a0c20-abdd-4e44-ab3b-990b76db2ad2
+				- $$\begin{aligned}
+				  \frac{\delta }{\delta J(z)} & =\int d^{4} w\frac{\delta \phi _{c} (w)}{\delta J(z)}\frac{\delta }{\delta \phi _{c} (w)}\\
+				   & =i\int d^{4} w\frac{i\delta ^{2} W[J]}{i\delta J(z)i\delta J(w)}\frac{\delta }{\delta \phi _{c} (w)}
+				  \end{aligned}$$
+			- Derivative of the inverse matrix
+				- \begin{aligned}
+				  d(A^{-1} A) & =0\\
+				  d(A^{-1} )A+Ad(A^{-1} ) & =0\\
+				  d(A^{-1} ) & =-A^{-1} d( A) A^{-1}
+				  \end{aligned}
+			-
+		- Effective action and 2-point Green function
+			- $$\begin{aligned}
+			  -\frac{\delta }{\delta J(y)}\frac{\delta \Gamma [ \phi _{c}]}{\delta \phi _{c} (x)} & =\delta ^{(4)} (x-y)\\
+			  -\frac{\delta }{\delta J(y)}\frac{\delta \Gamma [ \phi _{c}]}{\delta \phi _{c} (x)} & =-\int d^{4} z\frac{\delta \phi _{c} (z)}{\delta J(y)}\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} (z)\delta \phi _{c} (x)}\\
+			   & =-\int d^{4} z\frac{\delta ^{2} W[J]}{\delta J(y)\delta J(z)}\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} (z)\delta \phi _{c} (x)}
+			  \end{aligned}$$
+			- Write in matrix forms this is
+			  $$\left[\frac{\delta ^{2} W[J]}{\delta J\delta J}\right]\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right] =-\mathbb{1}$$
+			- Note that $\frac{i\delta ^{2} W}{i\delta J( y) i\delta J( z)} =G_{con}( y,z)$, so we readily obtain that 
+			  \begin{equation*}
+			  \frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} (z)\delta \phi _{c} (x)} =i[ G_{con}]^{-1}( x,z)
+			  \end{equation*}
+			-
+		- Effective action and 4-point Green function
+			- Summary
+				- Start from the 2-point formula
+				  $$\begin{equation*}
+				  \frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} (z)\delta \phi _{c} (x)} =i[ G_{con}]^{-1}( x,z)
+				  \end{equation*}$$
+				  and apply $\frac \delta {\delta \phi_c}$ successively to both sides.
+				- Use ((643a0c20-abdd-4e44-ab3b-990b76db2ad2)) to transform derivatives against $\phi_c$ into Green functions.
+			- 4-pt Green func:
+			  \begin{equation*}
+			  \begin{aligned}
+			  G_{4} & =\frac{i\delta ^{4} W[ J]}{i\delta J_{x} i\delta J_{y} i\delta J_{z} i\delta J_{w}}\\
+			   & =i\frac{\delta ^{2}}{\delta J_{x} \delta J_{y}}\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{zw}^{-1}
+			  \end{aligned}
+			  \end{equation*}
+			- \begin{aligned}
+			  \frac{\delta }{\delta J(y)}\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{zw}^{-1} & =i\int d^{4} u\ D(y,u)\frac{\delta }{\delta \phi _{c} (u)}\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{zw}^{-1}\\
+			   & =i\int d^{4} u\ D(y,u)\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{zp}^{-1}\left[\frac{\delta ^{3} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c} \delta \phi _{c}}\right]_{pqu}\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{qw}^{-1}\\
+			   & =i\int d^{4} u\ d^{4} p\ d^{4} q\ D(y,u)D( z,p) D( q,w)\left[\frac{\delta ^{3} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c} \delta \phi _{c}}\right]_{pqu}
+			  \end{aligned}
+				- The first step uses the chain rule
+				- The second step uses derivative of the inverse matrix.
+				- ![image.png](../assets/image_1681526325092_0.png){:height 284, :width 515}
+			- \begin{aligned}
+			  \frac{\delta }{\delta J( x)}\left\{\frac{\delta }{\delta J(y)}\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{zw}^{-1}\right\} & =i\int d^{4} vD(x,v)\frac{\delta }{\delta \phi _{c} (v)}\left\{\frac{\delta }{\delta J(y)}\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{zw}^{-1}\right\}\\
+			   & =i\int d^{4} vD(x,v)\frac{\delta }{\delta \phi _{c} (v)} i\int d^{4} u\ D(y,u)\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{zp}^{-1}\left[\frac{\delta ^{3} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c} \delta \phi _{c}}\right]_{pqu}\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{qw}^{-1}\\
+			   & =-\int d^{4} vd^{4} u\ D(y,u)D(x,v)\frac{\delta }{\delta \phi _{c} (v)}\left\{\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{zp}^{-1}\left[\frac{\delta ^{3} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c} \delta \phi _{c}}\right]_{pqu}\left[\frac{\delta ^{2} \Gamma [ \phi _{c}]}{\delta \phi _{c} \delta \phi _{c}}\right]_{qw}^{-1}\right\}\\
+			   & 
+			  \end{aligned}
+				- The process is completely anologous so we omit it here.
+				-
+				-
+- # $T^*$ product
+  collapsed:: true
+	- Motivation
+	  collapsed:: true
+		- First, we want a covariant formalism. Time-ordered product is not.
+		- Furthermore, we don't know how to calculate correlation functions involving $\partial_\mu \phi$ if we start from the Hamiltonian version of path integral.
+	- Def
+	  collapsed:: true
+		- $$
+		  \left\langle\Omega\left|T^*\left\{\partial_\mu \phi(x) \cdots\right\}\right| \Omega\right\rangle \equiv \partial_\mu^x\langle\Omega|T\{\phi(x) \cdots\}| \Omega\rangle
+		  $$
+	- Usage
+	  collapsed:: true
+		- In path integrals we only evaluate $T^*$-ordered correlation functions.
+		- $$
+		  \begin{aligned}
+		  & \left\langle\Omega\left|T^*\left\{O\left(x_a\right) O\left(x_b\right) \ldots\right\}\right| \Omega\right\rangle \\
+		  & =\frac{\int[D \phi] e^{i \int d^4 x \mathcal{L}} O(x_a) O\left(x_b\right) \ldots}{\int[D \phi] e^{i S}} \\
+		  &
+		  \end{aligned}
+		  $$
+- # Path Integral and Symmetry
+	- Comment
+		- If the integral is invariant under some transformation, then we can obtain nontrivial relations.
+	- Summary #card
+		- The central formula is 
+		  \begin{equation*}
+		  \begin{aligned}
+		  \int \prod _{n} D[ \phi _{n}] \ \int d^{4} x\left[\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n}( x)} +\sum _{n} i\left(\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n}\right) F_{n}[ \phi ;x]\right] \cdot \exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\} & =0
+		  \end{aligned}
+		  \end{equation*}
+		- Take $F_{n}$ independent of $\phi$, the equation is zero for arbitrary $F$ implies that the 'coefficients' are zero.
+		  Then the formula can be interpreted as a relation between Green functions.
+		  Example.$\frac{\lambda }{4!} \phi ^{4}$ theory, $n=1$ :
+		  \begin{equation*}
+		  \left< \Omega \left| T\left\{\left[ -\left( \partial ^{2} +m^{2}\right) \phi (x)-\frac{\lambda }{3!} \phi ^{3} (x)\right] \phi (y)\right\}\right| \Omega \right> =i\delta ^{(4)} (x-y)
+		  \end{equation*}
+	- ## Deriving the Central Formula
+	  collapsed:: true
+		- Start by 
+		  \begin{equation*}
+		  Z[ J_{n}] =\int \prod _{n} D[ \phi _{n}] \ \exp\left( iS[ \phi ] +i\int d^{4} x\ \sum _{n} J_{n} \phi _{n}\right)
+		  \end{equation*}
+		- Consider some infinitesimal symmetry transformation:
+		  \begin{equation*}
+		  \phi _{n} (x)\rightarrow \phi _{n}^{\prime } (x)=\phi _{n} (x)+\varepsilon F_{n}[ \phi ;x]
+		  \end{equation*}
+		- The integral becomes
+		  collapsed:: true
+		  \begin{equation*}
+		  \begin{aligned}
+		  Z'[ J_{n}] & =\int \prod _{n} D[ \phi '_{n}] \ \exp\left( iS[ \phi '] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}^{\prime }\right)\\
+		   & =\int \prod _{n} D[ \phi _{n}] \ \left| \operatorname{det}\frac{\partial \phi _{m}^{\prime } (y)}{\partial \phi _{n} (x)}\right| \exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right. \\
+		   & \left. +\int d^{4} x\left[ i\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} \delta \phi _{n} (x)+i\sum _{n} J_{n} (x)\delta \phi _{n} (x)\right] +o\left( \varepsilon ^{2}\right)\right\}
+		  \end{aligned}
+		  \end{equation*}
+			- Note that the determinant is taken both in $x,y$ and $m,n$ since 
+			  \begin{equation*}
+			  \prod _{n} D[ \phi _{n}] =\prod _{n}\prod _{x} D[ \phi _{n}( x)]
+			  \end{equation*}
+		- Trick: $\det(\exp A) =\exp(\mathrm{tr} A)$
+			- \begin{equation*}
+			  \begin{aligned}
+			  \left| \operatorname{det}\frac{\partial \phi _{m}^{\prime } (y)}{\partial \phi _{n} (x)}\right|  & =\exp\left\{\mathrm{tr}\left[\ln\left( 1+\epsilon \frac{\delta F_{m}[ \phi ';y]}{\delta \phi _{n}( x)}\right)\right]\right\}\\
+			   & =1+\epsilon \int d^{4} x\sum _{n}\frac{\delta F_{n}[ \phi ';x]}{\delta \phi _{n}( x)}
+			  \end{aligned}
+			  \end{equation*}
+		- Collecting things above:
+		  collapsed:: true
+		  \begin{equation*}
+		  \begin{aligned}
+		  Z'[ J_{n}] & =\int \prod _{n} D[ \phi _{n}] \ \left\{1+\epsilon \int d^{4} x\sum _{n}\frac{\delta F_{n}[ \phi ';x]}{\delta \phi _{n}( x)}\right\}\exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\}\\
+		   & \left\{1+i\varepsilon \int d^{4} x\sum _{n}\left[\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n} (x)\right] F_{n}[ \phi ;x]\right\} +o\left( \varepsilon ^{2}\right)\\
+		   & =\int \prod _{n} D[ \phi _{n}] \ \left\{1+\epsilon \int d^{4} x\left[\sum _{n}\frac{\delta F_{n}[ \phi ';x]}{\delta \phi _{n}( x)} +i\sum _{n}\left(\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n} (x)\right) F_{n}[ \phi ;x]\right]\right\}\\
+		   & \exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\}
+		  \end{aligned}
+		  \end{equation*}
+			- The first step also involves expanding the exponential to first order.
+			- The second step collects two terms involving $\varepsilon$ and keep things to first order.
+		- If the transformation is a symmetry then $Z'[ J_{n}] =Z[ J_{n}]$, therefore 
+		  \begin{equation*}
+		  \begin{aligned}
+		  \int \prod _{n} D[ \phi _{n}] \ \int d^{4} x\left[\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n}( x)} +\sum _{n} i\left(\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n}\right) F_{n}[ \phi ;x]\right] \cdot \exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\} & =0
+		  \end{aligned}
+		  \end{equation*}
+	- ## EOM of Green functions
+		- Take $F_{n}$ independent of $\phi$ (note that it is a shift of integration variables, so necessarily a symmetry):
+		  \begin{equation*}
+		  \begin{aligned}
+		  \int \prod _{n} D[ \phi _{n}] \ \int d^{4} x\sum _{n}\left(\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n}\right) F_{n}( x) & \cdot \exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\}
+		  \end{aligned} =0
+		  \end{equation*}
+		- Since $F_{n}( x)$ can be arbitrary, it must be that the coefficients are zero.
+		  \begin{equation*}
+		  \begin{aligned}
+		  \int \prod _{n} D[ \phi _{n}] \ \left(\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n}\right) & \cdot \exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\}
+		  \end{aligned} =0
+		  \end{equation*}
+		- Now take $\frac{1}{i}\frac{\delta }{\delta J_{n_{1}}( x_{1})} \cdots \frac{1}{i}\frac{\delta }{\delta J_{n_{N}}( x_{N})}$ then set $J_{n_{i}} =0$. Each derivative could either act on $\left(\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n}\right)$ or $\exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\}$, thus
+		  \begin{equation*}
+		  \begin{aligned}
+		  \left< \Omega \left| T^{*}\left\{\frac{\delta S}{\delta \phi _{n} (x)} \phi _{n_{1}}( x_{1}) \cdots \phi _{n_{N}}( x_{N})\right\}\right| \Omega \right>  & \\
+		  =\sum _{i=1}^{N}( +i)\delta ^{(4)}( x-x_{i}) \delta _{nn_{i}} & < \Omega | T\{\phi _{n_{1}}( x_{1}) \cdots \hat{\phi }_{n_{i}}( x_{i}) \cdots \phi _{n_{N}}( x_{N})\}| \Omega > 
+		  \end{aligned}
+		  \end{equation*}
+			- $\hat{\phi }_{n_{i}}( x_{i})$ denotes that $\phi _{n_{i}}( x_{i})$ is excluded.
+			- This is an **exact** relation of the correlation functions!
+		- Example.$\frac{\lambda }{4!} \phi ^{4}$ theory, $n=1$ :
+		  \begin{equation*}
+		  \left< \Omega \left| T\left\{\left[ -\left( \partial ^{2} +m^{2}\right) \phi (x)-\frac{\lambda }{3!} \phi ^{3} (x)\right] \phi (y)\right\}\right| \Omega \right> =i\delta ^{(4)} (x-y)
+		  \end{equation*}
+	- ## Internal Symmetries
+		- Summary #card
+		  collapsed:: true
+			- Def. The symmetry only acts on the fields in a manner independent of the spacetime.
+			  eg. gauge symmetry
+			- We can obtain the Ward identities
+			  \begin{equation*}
+			  \sum _{k=1}^{m}\left< \Omega\left| T\left\{\phi _{n_{1}}( x_{1}) \cdots \phi _{n_{k-1}}( x_{k-1}) f_{n_{k}}^{a}[ \phi _{m}( x_{k})] \phi _{n_{k+1}}( x_{k+1}) \cdots \phi _{n_{m}}( x_{m})\right\}\right| \Omega\right> 
+			  \end{equation*}
+			  by applying derivatives to
+			  $$\begin{aligned}
+			  \int \prod _{n} D[\phi _{n} ]\ \int d^{4} x\sum _{n} J_{n} F_{n} [\phi ;x]\cdot \exp\left\{iS[\phi ]+i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\} & =0
+			  \end{aligned}$$
+				- eg. Gauge symmetry of the complex scalar field:
+				  $$\begin{aligned}
+				  \left< \Omega\left| T\left\{( i\phi ( x_{1})) \phi ( x_{2}) \phi ^{\dagger }( x_{3})\right\}\right| \Omega\right> +\left< \Omega\left| T\left\{\phi ( x_{1})( i\phi ( x_{2})) \phi ^{\dagger }( x_{3})\right\}\right| \Omega\right>  & \\
+				  +\left< \Omega\left| T\left\{\phi ( x_{1}) \phi ( x_{2})\left( -i\phi ^{\dagger }( x_{3})\right)\right\}\right| \Omega\right>  & =0
+				  \end{aligned}$$
+		- Def
+			- [[Anomalous]] symmetry #card
+				- The path integral **measure** fails to be invariant under the symmetry, i.e.
+				  $$\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n}( x)} \neq 0$$
+				- Note that the changing part of the measure is
+				  id:: 643a581c-2977-48c0-b9a9-40b92c335120
+				  \begin{equation*}
+				  \begin{aligned}
+				  \left| \operatorname{det}\frac{\partial \phi _{m}^{\prime } (y)}{\partial \phi _{n} (x)}\right|  & =\exp\left\{\mathrm{tr}\left[\ln\left( 1+\epsilon \frac{\delta F_{m}[ \phi ';y]}{\delta \phi _{n}( x)}\right)\right]\right\}\\
+				   & =1+\epsilon \int d^{4} x\sum _{n}\frac{\delta F_{n}[ \phi ';x]}{\delta \phi _{n}( x)}
+				  \end{aligned}
+				  \end{equation*}
+			-
+		- Consider
+		  \begin{equation*}
+		  \phi _{n}^{\prime } (x)=D_{nm} (\theta )\phi _{m} (x)
+		  \end{equation*}
+		  which has no dependence on the spacetime. Only a 'rotation' of the fields.
+		- We may write the transformation by the generators:
+		  \begin{equation*}
+		  \phi _{n}^{\prime } (x)=\phi _{n} (x)+\varepsilon \theta ^{a} f_{n}^{a}[ \phi _{m}]
+		  \end{equation*}
+		  *For a moment assume $\theta ^{a}$ doesn't depend on $x$.
+		- Note that a symmetry is defined as leaving the action invariant.
+		  \begin{equation*}
+		  0=\frac{\partial }{\partial \theta ^{a}} S[ \phi _{n}] =\frac{\partial }{\partial \theta ^{a}} S\left[ \phi _{n} +\varepsilon \theta ^{b} f_{n}^{b}[ \phi _{m};x]\right] =\int d^{4} x\frac{\delta S}{\delta \phi _{n} (x)} \varepsilon f_{n}^{a}[ \phi _{m};x]
+		  \end{equation*}
+		- Thus the central formula
+		  \begin{equation*}
+		  \begin{aligned}
+		  \int \prod _{n} D[\phi _{n} ]\ \int d^{4} x\left[\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n} (x)} +\sum _{n} i\left(\frac{\delta S[\phi ]}{\delta \phi _{n} (x)} +J_{n}\right) F_{n} [\phi ;x]\right] \cdot \exp\left\{iS[\phi ]+i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\} & =0
+		  \end{aligned}
+		  \end{equation*}
+		  Simplifies to
+		  \begin{equation*}
+		  \begin{aligned}
+		  \int \prod _{n} D[\phi _{n} ]\ \int d^{4} x\left[\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n} (x)} +\sum _{n} iJ_{n} F_{n} [\phi ;x]\right] \cdot \exp\left\{iS[\phi ]+i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\} & =0
+		  \end{aligned}
+		  \end{equation*}
+		  since $F_{n}$ is a linear combination of $f_{n}^{a}$.
+		- *When the symmetry isn't anomalous, we may further simplify it to
+		  $$\begin{aligned}
+		  \int \prod _{n} D[\phi _{n} ]\ \int d^{4} x\sum _{n} J_{n} F_{n} [\phi ;x]\cdot \exp\left\{iS[\phi ]+i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\} & =0
+		  \end{aligned}$$
+		- Taking $\frac{1}{i}\frac{\delta }{\delta J_{n_{1}}( x_{1})} \cdots \frac{1}{i}\frac{\delta }{\delta J_{n_{N}}( x_{N})}$ and setting $J_{n} =0$ generates the Ward Identities:
+		  \begin{equation*}
+		  \sum _{k=1}^{m}\left< \Omega\left| T\left\{\phi _{n_{1}}( x_{1}) \cdots \phi _{n_{k-1}}( x_{k-1}) f_{n_{k}}^{a}[ \phi _{m}( x_{k})] \phi _{n_{k+1}}( x_{k+1}) \cdots \phi _{n_{m}}( x_{m})\right\}\right| \Omega\right> 
+		  \end{equation*}
+			- There must be one derivative acting on $\sum _{n} J_{n} F_{n} [\phi ;x]$ to obtain a nonzero result.
+			- If the symmetry is anomalous, then we obtain an anomalous Ward identity by keeping $\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n}( x)}$
+		- Example: $U( 1)$ symmetry for a complex scalar field.
+			- Only one parameter $\theta$.
+				- \begin{gather*}
+				  \begin{aligned}
+				  \phi \rightarrow e^{i\theta } \phi  & \\
+				  \phi ^{\dagger }\rightarrow e^{-i\theta } \phi ^{\dagger } & 
+				  \end{aligned}\\
+				  \begin{aligned}
+				   & f_{1} =i\phi \\
+				   & f_{2} =-i\phi ^{\dagger }
+				  \end{aligned}
+				  \end{gather*}
+				  Obviously the symmetry isn't anomalous.
+			- $N=1$:
+			  \begin{equation*}
+			  \left< \Omega\left| T\left\{( i\phi ( x_{1})) \phi ^{\dagger }( x_{2})\right\}\right| \Omega\right> +\left< \Omega\left| T\left\{\phi ( x_{1}) \ \left( -i\phi ^{\dagger }( x_{2})\right)\right\}\right| \Omega\right> =0
+			  \end{equation*}
+			  which is trivial.
+			- $N=2$:
+			  \begin{equation*}
+			  \begin{aligned}
+			  \left< \Omega\left| T\left\{( i\phi ( x_{1})) \phi ( x_{2}) \phi ^{\dagger }( x_{3})\right\}\right| \Omega\right> +\left< \Omega\left| T\left\{\phi ( x_{1})( i\phi ( x_{2})) \phi ^{\dagger }( x_{3})\right\}\right| \Omega\right>  & \\
+			  +\left< \Omega\left| T\left\{\phi ( x_{1}) \phi ( x_{2})\left( -i\phi ^{\dagger }( x_{3})\right)\right\}\right| \Omega\right>  & =0
+			  \end{aligned}
+			  \end{equation*}
+			- Similarly, all correlations with an unequal number of $\phi $ and $\phi ^{\dagger }$ vanish, which is a direct result of the gauge invariance.
+- # Examples
+	- The [[Complex Scalar Field]]
+		- $$
+		  Z_0\left[J_1, J_2\right]= \int[D \phi(x)]\left[D \phi^*(x)\right] e^{i \int d^4 x\left(L_0+J_1 \phi+J_2 \phi^*\right)}
+		  $$
+		- Invoke
+		  $$
+		  \phi=\frac 1 {\sqrt{2}} \left(\phi_1+i \phi_2\right)
+		  $$
+		  it's easy to evaluate $Z$ as scalar fields.
+		- $$
+		  Z_0\left[J, J^*\right]=e^{-\int d^4 x d^4 y} J(x) D_F(x-y) J^*(y)
+		  $$
+		- Thus we see the Feynman rules are
+		  $$
+		  \begin{aligned}
+		  \text{Contract} \quad \phi(x) \phi(y) & =\langle 0|T\{\phi(x) \phi(y)\}| 0\rangle=0 \\
+		  \text{Contract} \quad \phi^*(x) \phi^*(y) & =0 \\
+		  \text{Contract} \quad \phi(x) \phi^*(y) &=\left\langle 0\left|T\left\{\phi(x) \phi^*(y)\right\}\right| 0\right\rangle=D_F(x-y)
+		  \end{aligned}
+		  $$
+		-

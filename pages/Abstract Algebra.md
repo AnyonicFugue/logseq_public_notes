@@ -42,7 +42,7 @@
 					  or in the finite case, $G=G_1 * \cdots * G_n$.
 						- Equivalently, $\left\{G_\alpha\right\}_{\alpha \in J}$ generate the group and linear independent (only obtain identity by multiplying identities)
 						- Note that the $G_\alpha$ *don't commute*.
-					- ![image.png](../assets/image_1678841497565_0.png){:height 371, :width 482}
+					-
 					- Why doesn't the direct sum serve?
 					  background-color:: red
 						- The key point is that $f_1(g_1)$ and $f_2(g_2)$ may not commute, which can't be seen in the direct sum.
@@ -89,7 +89,6 @@
 				  collapsed:: true
 					- ((63c14160-28c9-4f15-82dc-977a38e0993b))
 		- ((63d7642c-363d-44b6-970e-dd670e678218)). Let $G=G_1 * G_2$. Let $N_i$ be a normal subgroup of $G_i$, for $i=1,2$. If $N$ is the least normal subgroup of $G$ that contains $N_1$ and $N_2$, then $$G / N \cong\left(G_1 / N_1\right) *\left(G_2 / N_2\right)$$ #card
-		  collapsed:: true
 			- 'Least normal subgroup' means the intersection of all containing subgroups.
 			- Categorical way
 				- We still need to define the quotients categorically.
@@ -113,7 +112,7 @@
 		  card-next-schedule:: 2023-02-27T04:51:20.089Z
 		  card-last-reviewed:: 2023-02-01T03:51:20.090Z
 		  card-last-score:: 5
-			- Exercise.
+			- Just invoking the above theorem where $N_2=\{e\}$.
 		- ((63d8b994-a24d-4c55-a175-51c32f4f9bd2)) If $G$ is a free group with free generators $a_\alpha$, then $G /[G, G]$ is a free abelian group with basis $\left[a_\alpha\right]$, where $\left[a_\alpha\right]$ denotes the coset of $a_\alpha$ in $G /[G, G]$. #card
 		  card-last-interval:: 29.48
 		  card-repeats:: 1
@@ -126,11 +125,11 @@
 				- H is an abelian group.
 				- $f$ must factor through $\pi$ since H is abelian.
 		- Corollary. The rank of a free group doesn't depend on the basis chosen. #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-29T01:07:17.486Z
-		  card-last-reviewed:: 2023-03-05T01:07:17.487Z
+		  card-last-interval:: 84
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-07-05T00:44:21.840Z
+		  card-last-reviewed:: 2023-04-12T00:44:21.841Z
 		  card-last-score:: 5
 			- Exercise.
 - [[Luroth Theorem]]
