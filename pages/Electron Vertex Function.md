@@ -18,7 +18,7 @@
 	- [[Lorentz covariance]] forces $\Gamma^\mu=\gamma^\mu \cdot A+\left(p^{\prime \mu}+p^\mu\right) \cdot B+\left(p^{\prime \mu}-p^\mu\right) \cdot C$
 		- ((637c7d9c-c89f-4466-83ff-7e89c733ef8b))
 		- Moreover, the only possible nontrivial scalar is $p^\mu p'_\mu$, since $p^2=m^2$
-	- [[Ward identity]]
+	- [[Ward-Takahashi Identity]]
 		- $(p^\mu-p'^\mu)\Gamma_\mu=0$
 			- Apply for the virtual photon.
 			- $q^\mu=p^\mu-p'^\mu$
@@ -49,7 +49,6 @@
 	-
 	-
 - Evaluation of the vertex function
-  collapsed:: true
 	- Notation. ((637c8bcc-7c8a-4541-9ea3-0955c3bc1cc2))
 	- By the Feynman rules, the expression for the correction is ((637c8bd8-d9ef-481c-a08a-3ec965b618a4))
 	  collapsed:: true
@@ -75,10 +74,8 @@
 	  collapsed:: true
 		- This corresponds to ((637c7f9b-ad14-479b-abec-cbcd8300bf7f))
 	- We can evaluate the integral by [[Wick rotation]]
-	  collapsed:: true
 		- ((637cbac0-aa10-4074-9829-429c036ea575))
 		- Results
-		  collapsed:: true
 			- ((637cbae1-e476-44b1-b8fa-f17eea4c3dbb))
 			- ((637cbaec-83a0-4693-8150-80cd0de2e40a))
 			  collapsed:: true

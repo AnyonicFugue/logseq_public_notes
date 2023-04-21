@@ -5,11 +5,11 @@
 	- Italic ⇒ `*text*`
 	- Bold and italic ⇒ Three asterics
 - Quote #card
-  card-last-interval:: 26.02
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-03-05T00:40:30.351Z
-  card-last-reviewed:: 2023-02-07T00:40:30.351Z
+  card-last-interval:: 30
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-05-16T00:52:42.013Z
+  card-last-reviewed:: 2023-04-16T00:52:42.013Z
   card-last-score:: 5
 	- 在行首添加>
 		- 'Greater' is quote in Logseq; 'less' is org-mode!

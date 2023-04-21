@@ -1,6 +1,6 @@
 -
 - We want to renormalize the photon propagators.
-- Photon [[1PI]] diagrams and general analysis of them
+- # Photon [[1PI]] diagrams and general analysis of them
   collapsed:: true
 	- Summary #card
 	  card-last-interval:: 24
@@ -19,7 +19,7 @@
 	- ((63919292-0de7-4a19-b8ff-99982259edc3))
 	- Which quantities may appear in the tensor indices?
 		- Only $g^{\mu \nu}$ and $q^\mu q^\nu$
-	- Use [[Ward identity]]
+	- Use [[Ward-Takahashi Identity]]
 		- The combination can only be proportional to $\left(g^{\mu \nu}-q^\mu q^\nu / q^2\right)$.
 		- The rest of $\Pi$ must be scalar factors.
 	- $\Pi^{\mu \nu}(q)=\left(q^2 g^{\mu \nu}-q^\mu q^\nu\right) \Pi\left(q^2\right)$
@@ -45,36 +45,42 @@
 	-
 - Another effect of $\Pi(q^2)$ for larger $q^2$
   background-color:: red
+  collapsed:: true
 	- ((6391954e-762e-4b68-bcd6-2f0acdfa4f50))
 		- Is it only a technique of [[Regularization]]?
 	- $\alpha_0 \rightarrow \alpha_{\mathrm{eff}}\left(q^2\right)=\frac{e_0^2 / 4 \pi}{1-\Pi\left(q^2\right)} \underset{\mathcal{O}(\alpha)}{=} \frac{\alpha}{1-\left[\Pi_2\left(q^2\right)-\Pi_2(0)\right]}$
 		- The 'constants' actually shift with energy!
-- Compute $\Pi(q^2)$
-	- Use Feynman parameter, complete the square and Wick rotation to encounter divergence
-	  collapsed:: true
-		- ((63957182-d562-4ef6-9ec6-553f171f9c1c))
-		- ((639571b6-7dbd-407c-8f8a-2de144854375))
-		- ((639571c1-6739-49fa-814c-0f357745e477)). If we naively introduce a cutoff at $\ell = \Lambda$, Ward identity would be broken.
-		- Reason: ((6395721b-ba69-421c-b91e-9d93abdc64cd)).
-	- Solution: [[Dimensional Regularization]]
+- # Compute $\Pi(q^2)$
+	- Summary
+		- Use Feynman parameter, complete the square and Wick rotation to encounter divergence
+		  collapsed:: true
+			- ((63957182-d562-4ef6-9ec6-553f171f9c1c))
+			- ((639571b6-7dbd-407c-8f8a-2de144854375))
+			- ((639571c1-6739-49fa-814c-0f357745e477)). If we naively introduce a cutoff at $\ell = \Lambda$, Ward identity would be broken.
+			- Reason: ((6395721b-ba69-421c-b91e-9d93abdc64cd)).
+		- Use dimensional regularization to deal with the divergence.
+	- ## Solution: [[Dimensional Regularization]]
 		- (3+1)D is very special; it incurs divergences, behaviors away from mean-field theories, etc. #Thoughts
 		- ((639572cb-574a-4725-8bb3-57fdb7d64200))
 		- Idea
 			- Compute the Feynman diagram as an analytic function of the dimensionality of spacetime. Take $d \to 4$ in the end.
 		- Example
-		  collapsed:: true
 			- ((63957331-144d-4f77-adc7-7d665b460576))
 				- Solid angle part
 					- $\int d \Omega_d=\frac{2 \pi^{d / 2}}{\Gamma(d / 2)}$
 				- Radius part
 					- [[Beta Function]]
 						- $\int_0^1 d x x^{\alpha-1}(1-x)^{\beta-1}=B(\alpha, \beta)=\frac{\Gamma(\alpha) \Gamma(\beta)}{\Gamma(\alpha+\beta)}$
-				- ((6395739d-8404-45a2-a2ec-1e88ed4fecd9))
+				- $$
+				  \int \frac{d^d \ell_E}{(2 \pi)^d} \frac{1}{\left(\ell_E^2+\Delta\right)^2}=\frac{1}{(4 \pi)^{d / 2}} \frac{\Gamma\left(2-\frac{d}{2}\right)}{\Gamma(2)}\left(\frac{1}{\Delta}\right)^{2-\frac{d}{2}}
+				  $$
 					- ((639573b3-4802-47de-9e2c-5c491d2b2b78))
-				- Expand to series wrt $1/\epsilon$
-					- $\Gamma\left(2-\frac{d}{2}\right)=\Gamma(\epsilon / 2)=\frac{2}{\epsilon}-\gamma+\mathcal{O}(\epsilon)$
-						- $\gamma \approx .5772$
-				- ((63957417-2ab9-471b-ab4b-d7fc4cd0332e))
+					- Expand to series wrt $1/\epsilon$
+						- $\Gamma\left(2-\frac{d}{2}\right)=\Gamma(\epsilon / 2)=\frac{2}{\epsilon}-\gamma+\mathcal{O}(\epsilon)$
+							- $\gamma \approx .5772$
+				- $$
+				  \int \frac{d^d \ell_E}{(2 \pi)^d} \frac{1}{\left(\ell_E^2+\Delta\right)^2} \underset{d \rightarrow 4}{\longrightarrow} \frac{1}{(4 \pi)^2}\left(\frac{2}{\epsilon}-\log \Delta-\gamma+\log (4 \pi)+\mathcal{O}(\epsilon)\right)
+				  $$
 					- Why do the log term pop up? #card
 					  card-last-interval:: 30
 					  card-repeats:: 2
@@ -86,10 +92,10 @@
 						  \log \left[\left(\frac{1}{\Delta}\right)^{\varepsilon / 2}\right]=\varepsilon / 2 \log \left(\frac{1}{\Delta}\right) \\ e^{\log \left(\frac{1}{\Delta}\right)^{\varepsilon / 2}}=e^{\varepsilon /2 {\log} \frac{1}{\Delta}}=1+\frac{\varepsilon}{2} \log \frac{1}{\Delta}
 						  $$
 						- When $\frac 2 \epsilon$ is present, we must expand everything else to order $\epsilon$. #Tricky
-				- Now invoke [[Pauli-Villars Regularization]] again. Constants and divergent logs both vanish.
+					- Now invoke [[Pauli-Villars Regularization]] again. Constants and divergent logs both vanish.
 		- Note that some **properties of the gamma matrices are also  dimension-dependent**, because $g_{\mu\nu}$ depends on the dimension.
 		  We can nevertheless ignore them because such terms cancel when these diagrams are combined to compute an observable quantity.
-	- Summary of integrals in different dimensions
+	- ## Summary of integrals in different dimensions
 		- Modify some rules
 			- In $d$ dimensions, $g^{\mu \nu}$ obeys $g_{\mu \nu} g^{\mu \nu}=d$. Thus, if the numerator of a symmetric integrand contains $\ell^\mu \ell^\nu$, we should replace
 			  $$
@@ -99,7 +105,7 @@
 			-
 		- $$\int \frac{d^d \ell_E}{(2 \pi)^d} \frac{1}{\left(\ell_E^2+\Delta\right)^n}=\frac{1}{(4 \pi)^{d / 2}} \frac{\Gamma\left(n-\frac{d}{2}\right)}{\Gamma(n)}\left(\frac{1}{\Delta}\right)^{n-\frac{d}{2}}$$
 		  $$\int \frac{d^d \ell_E}{(2 \pi)^d} \frac{\ell_E^2}{\left(\ell_E^2+\Delta\right)^n}=\frac{1}{(4 \pi)^{d / 2}} \frac{d}{2} \frac{\Gamma\left(n-\frac{d}{2}-1\right)}{\Gamma(n)}\left(\frac{1}{\Delta}\right)^{n-\frac{d}{2}-1}$$
-	- Continue to compute the lowest-order correction
+	- ## Continue to compute the lowest-order correction
 		- ((63957564-2bfe-4b1f-8004-d6e3f8c78406))
 			- ((63957569-f8a9-4cf9-bfa1-4734afc52acc)) #Learning-TODO
 		- $$

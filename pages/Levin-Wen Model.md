@@ -38,11 +38,11 @@
 	  collapsed:: true
 		- Note that we may freely use diagrammatic rules and contract loops in ground states. #card
 		  collapsed:: true
-		  card-last-interval:: 24.97
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-23T12:10:31.052Z
-		  card-last-reviewed:: 2023-02-26T13:10:31.052Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-05-18T01:01:58.291Z
+		  card-last-reviewed:: 2023-04-18T01:01:58.291Z
 		  card-last-score:: 5
 			- Ground states are eigen to $B_p$. So we can first add a $\tilde \Omega$ by $B_p$, use the handle-slide property to move across the puncture, then remove the $\tilde \Omega$.
 		- Prop. The ground space is topological. #card

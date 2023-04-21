@@ -1,6 +1,7 @@
 - # Basics
 	- ## Defs
 		- Functional derivative
+		  collapsed:: true
 			- Consider a theory involving a tensor field (or collection of tensor fields) defined on a manifold $M$.
 			- Let $S[\psi]$ be a functional of $\psi$, let $\psi_\lambda$ be a smooth one parameter family of field configurations starting from $\psi_0$ which satisfy appropriate boundary conditions. We denote $d \psi_\lambda /\left.d \lambda\right|_{\lambda=0}$ by $\delta \psi$. Suppose $d S / d \lambda$ at $\lambda=0$ exists for all such one-parameter families starting from $\psi_0$.
 			  Suppose, furthermore, that there exists a smooth tensor field $\chi$ [which is dual to $\psi$, i.e., if $\psi$ is a tensor field of type $(k, l)$, then $\chi$ will be of type $(l, k)]$ such that for all such families we have
@@ -28,3 +29,10 @@
 				  \left.\frac{\delta S}{\delta \psi}\right|_{\psi}=0
 				  $$
 				-
+	- ## Examples
+		- id:: 643b4ac6-657b-468b-b31e-6c7106b9db20
+		  $$
+		  \frac{\delta}{\delta \varphi(x)}\left(\int d^4 x\mathcal{L}\right)=\frac{\partial \mathcal{L}}{\partial \varphi}-\partial_\mu\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_\mu \varphi\right)}\right)
+		  $$ #card
+			- We should start from the definition of a functional derivative: $\phi'(x)=\phi(x)+\lambda f(x)$
+			-

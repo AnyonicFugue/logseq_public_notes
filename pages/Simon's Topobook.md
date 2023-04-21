@@ -6,11 +6,11 @@ type:: paper_reading
 - # ((63c2176e-689e-4871-9dcb-d820669e68ac))
   collapsed:: true
 	- ### ((63c21788-4217-4cb3-8a20-099a3cfa23ba)) ; Diagrams and Physical Quantities #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-04-15T03:18:31.963Z
-	  card-last-reviewed:: 2023-03-22T03:18:31.964Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-07-11T00:56:27.921Z
+	  card-last-reviewed:: 2023-04-18T00:56:27.922Z
 	  card-last-score:: 5
 		- Define toric code by local dancing rules (similar to 2017_Wen)
 			- Isotopy, adding/removing contractable loops, reconnection
@@ -24,7 +24,8 @@ type:: paper_reading
 				- We use the spin-up and spin-down basis and represent them by blue lines and nothing separately.
 			- Idea
 				- First, the presence of e charge can be detected by a nontrivial string
-				- The presence of m charge can be detected by the phase difference between the trivial homotopy type on the annulus and the nontrivial loop
+				- The presence of m charge can be detected by the phase difference between the trivial homotopy type on the annulus and the nontrivial loop.
+				- In general, the anyons corresponds to **irreducible representations** of the tube algebra (composition of tubes as the multiplication).
 			- Details: Projectors
 				- The subscripts denote the particle types.
 				- ((63c24f08-74e0-47d7-8c28-bf0217916833))

@@ -5,6 +5,7 @@
 	- From top-left to down-right, proceed vertex by vertex
 	- Integrate over all internal momenta (positions).
 - [[Yukawa theory]]
+  collapsed:: true
 	- ((6379dcb3-beeb-43b4-9493-b45ef5cd5a9e)) for fermions and scalar fields
 	  Note that external vertices don't give propagators
 		- **Be careful of the minuses signs from Dirac fields!**
@@ -13,6 +14,7 @@
 - [[QED]]
 	- The rules for [[Dirac Theory]] is the same as [[Yukawa theory]]
 	- ((63690a30-2ec2-456c-8d26-36588ea1e151))
+	  collapsed:: true
 		- Note that different spins can contract at a vertice. i.e. The 4 spins can be arbitrary in ![image.png](../assets/image_1667900431714_0.png)
 			- ((636a2486-1a33-45bf-9f26-91aa8f415e4c)), but **not** in relativistic ones.
 		- Explanations

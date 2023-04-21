@@ -287,6 +287,12 @@ alias:: [[Category Theory]]
 	- ## Definitions
 		- Monoid #card
 		  collapsed:: true
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-16T00:52:27.457Z
+		  card-last-reviewed:: 2023-04-16T00:52:27.457Z
+		  card-last-score:: 5
 			- Also called semigroup.
 			- Essentially, a group minus the inverses. Still has associativity and unit.
 		- Algebra in a monoidal category $(C,\otimes,I,\alpha,\lambda,\rho)$ #card

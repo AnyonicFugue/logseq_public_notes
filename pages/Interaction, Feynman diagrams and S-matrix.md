@@ -20,6 +20,16 @@
 		- [[Haag's Theorem]] actually forbids the interaction picture for relativistic QFT.
 			- Actually this is a notoriously difficult mathematical problem to construct interacting QFT satisfying the [[Wightman Axioms]].
 			-
+- Schwinger-Dyson Equations
+  id:: 643b575b-60bc-471d-8fbb-af246b26575a
+	- \begin{equation*}
+	  \begin{aligned}
+	  \left< \Omega \left| T^{*}\left\{\frac{\delta S}{\delta \phi _{n} (x)} \phi _{n_{1}}( x_{1}) \cdots \phi _{n_{N}}( x_{N})\right\}\right| \Omega \right>  & \\
+	  =\sum _{i=1}^{N}( +i)\delta ^{(4)}( x-x_{i}) \delta _{nn_{i}} & < \Omega | T\{\phi _{n_{1}}( x_{1}) \cdots \hat{\phi }_{n_{i}}( x_{i}) \cdots \phi _{n_{N}}( x_{N})\}| \Omega > 
+	  \end{aligned}
+	  \end{equation*}
+	- This is exact for any field theory, not just free theories!
+	- Derived from an infinitesimal transformation $\phi(x) \to \phi(x)+\epsilon f(x)$ in path integral.
 - # From S-matrix to Cross Section
 - # [[Feynman rules]]
   collapsed:: true

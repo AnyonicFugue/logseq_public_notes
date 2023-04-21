@@ -4,7 +4,7 @@ alias:: Gauge Theory
 - # Motivations
 	- When we try to construct theories like $A^\mu A^\nu \partial_\mu A_\nu$ or $A^4$, we would encounter negative norms.
 		- The problem is absent in QED because ((640458fa-7092-47a3-a5db-acb4759ce58a)).
-		- This follows from [[Ward identity]], which in turn follows from **gauge invariance**. #Learning-TODO/Course
+		- This follows from [[Ward-Takahashi Identity]], which in turn follows from **gauge invariance**. #Learning-TODO/Course
 		- Thus it's natural to consider other theories with some sorts of gauge invariance.
 - # Notations
 	- $$g=\exp{\{i\alpha^kT_k\}}$$
@@ -33,7 +33,7 @@ alias:: Gauge Theory
 		- Def.
 			- $T^2:=\sum_a T^a T^a$
 			- Quadratic Casimir operator
-				- $t_r^a t_r^a=C_2(r) \cdot \mathbf{1}$, where r labels the irrep.
+				- $\sum_a T_r^a T_r^a=C_2(r) \cdot \mathbf{1}$, where r labels the irrep.
 		- Prop. It commutes with all generators, thus proportional to identity. #card
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
@@ -62,11 +62,10 @@ alias:: Gauge Theory
 		  card-next-schedule:: 2023-05-07T11:23:15.984Z
 		  card-last-reviewed:: 2023-04-07T11:23:15.985Z
 		  card-last-score:: 5
-			- Could be easily proved by taking trace of $\operatorname{tr}\left[t_r^a t_r^b\right]=C(r) \delta^{a b}$
+			- Could be easily proved by taking trace of $\operatorname{tr}\left[T_r^a T_r^b\right]=C(r) \delta^{a b}$
 		-
 		-
 - # General Construction
-  collapsed:: true
 	- See [here](((64115d22-ffe4-4ee4-8a05-79bbe0f520f2))).
 	- ## Def
 		- Curvature $F^{\mu\nu}$ #card
@@ -119,10 +118,15 @@ alias:: Gauge Theory
 			- **Note that all can find analogy in electromagnetism, so check it when feeling unsure about the defs.**
 			- The vector field can be derived from $$U_P(z, y)=P\left\{\exp \left[i g \int_0^1 d s \frac{d x^\mu}{d s} A_\mu^a(x(s)) t^a\right]\right\}$$
 			- The covariant derivative can be derived by using $U$ as the connection
+- # Quantization by Path Integral
+	- Idea
+		- For path integral of gauge theories, we'd integrate over many equivalent configurations (related by gauge transformations).
+		  We hope to fix the gauge degrees of freedom and integrate over the physical ones.
+	- ## Fadeev-Popov Procedure
+		- Consider the path integral
+		  $$$$
 - # Examples
-  collapsed:: true
 	- Reconstruct [[QED]] from a viewpoint of gauge invariance
-	  collapsed:: true
 		- It is striking that the covariant derivative, the field $A^\mu$ and subsequently the interaction term could emerge from such a simple principle!
 		-
 		- Recall that 
@@ -155,7 +159,6 @@ alias:: Gauge Theory
 	- [[Strong Interaction]]
 	- Doubled Dirac theory with $SU(2)$ gauge group
 		- # Setup
-		  collapsed:: true
 			- The field is a doublet of dirac spinors $\psi=\left(\begin{array}{l}\psi_1(x) \\ \psi_2(x)\end{array}\right)$
 			- The gauge group is $SU(2)$, with the transformation analogous to a 2-component spinor, $\psi \rightarrow \exp \left(i \alpha^i(x) \frac{\sigma^i}{2}\right) \psi \equiv V(x)\psi$
 				- Note that each 'component' here is a spinor!

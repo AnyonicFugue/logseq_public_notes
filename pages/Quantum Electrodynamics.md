@@ -178,7 +178,7 @@ alias:: QED
 					- $\sum_\epsilon\left|\epsilon_\mu^*(k) \mathcal{M}^\mu(k)\right|^2=\sum_\epsilon \epsilon_\mu^* \epsilon_\nu \mathcal{M}^\mu(k) \mathcal{M}^{\nu *}(k)$
 					- Select k in z direction for simplicity  $\epsilon_1^\mu=(0,1,0,0) ; \quad \epsilon_2^\mu=(0,0,1,0)$. 
 					  We obtain $\sum_\epsilon\left|\epsilon_\mu^*(k) \mathcal{M}^\mu(k)\right|^2=\left|\mathcal{M}^1(k)\right|^2+\left|\mathcal{M}^2(k)\right|^2$
-					- By [[Ward identity]], $\mathcal{M}^0=\mathcal{M}^3$
+					- By [[Ward-Takahashi Identity]], $\mathcal{M}^0=\mathcal{M}^3$
 					- Thus 
 					  $\begin{aligned} \sum_\epsilon \epsilon_\mu^* \epsilon_\nu \mathcal{M}^\mu(k) \mathcal{M}^{\nu *}(k) &=\left|\mathcal{M}^1\right|^2+\left|\mathcal{M}^2\right|^2 \\ &=\left|\mathcal{M}^1\right|^2+\left|\mathcal{M}^2\right|^2+\left|\mathcal{M}^3\right|^2-\left|\mathcal{M}^0\right|^2 \\ &=-g_{\mu \nu} \mathcal{M}^\mu(k) \mathcal{M}^{\nu *}(k) \end{aligned}$
 					-

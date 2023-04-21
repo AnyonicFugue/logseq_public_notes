@@ -404,18 +404,18 @@
 	-
 	- ((63953b25-8709-4182-9cb5-87d46acf1a4f))
 	- ((63953d32-29d5-4ffe-aec8-c9a40be4e936)) Let $A$ be a 3 by 3 matrix of positive real numbers. Then $A$ has a positive real eigenvalue. #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-03-24T00:44:52.397Z
-	  card-last-reviewed:: 2023-02-28T00:44:52.397Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-07-09T00:45:32.776Z
+	  card-last-reviewed:: 2023-04-16T00:45:32.777Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- Let K be the intersection of $S^2$ with the first octant $$\left\{\left(x_1, x_2, x_3\right) \mid x_1 \geq 0 \text { and } x_2 \geq 0 \text { and } x_3 \geq 0\right\}$$.
 		- Obviously $K \cong B^2$.
 		- Moreover, $f:x \mapsto T(x) /\|T(x)\|$ is a continuous map, so the fixed-point theorem applies.
 		-
-		- If the fixed-point theorem holds, we can easily generalize it to arbitrary dimensions. But the fixed-point theorem seems to need some modification.
+		- If the fixed-point theorem holds, we can easily generalize it to arbitrary dimensions.
 	- We can even prove [[The Fundamental Theorem of Algebra]]! #card
 	  card-last-interval:: 24
 	  card-repeats:: 2

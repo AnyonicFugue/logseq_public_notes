@@ -97,12 +97,12 @@
 		- Idea: [[Quantum Fourier Transformation]] is a perfect tool to interfere phases.
 		- Algorithm #card
 		  id:: f8507a4e-f0a6-4134-af3a-8d602a276de1
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2023-04-02T00:43:36.489Z
-		  card-last-reviewed:: 2023-03-09T00:43:36.491Z
-		  card-last-score:: 3
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-05-16T00:42:45.230Z
+		  card-last-reviewed:: 2023-04-16T00:42:45.230Z
+		  card-last-score:: 5
 			- Prepare input state $\frac{1}{\sqrt{2^n}} \sum_{x=0}^{2^n-1}|x\rangle|f(x)\rangle$
 			- **Measure** the second register and obtain some $x_0$. The state collapses into $\frac{1}{\sqrt{m}} \sum_{j=0}^{m-1}\left|x_0+j r\right\rangle\left|f\left(x_0\right)\right\rangle$.
 				- Project the superposed state to something pure! #Strategy

@@ -68,13 +68,14 @@ type:: [[Course]]
 - [[Gaussian theory]]
   collapsed:: true
 	- Summary #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-03-24T13:44:25.600Z
-	  card-last-reviewed:: 2023-02-28T13:44:25.601Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-07-09T00:51:23.703Z
+	  card-last-reviewed:: 2023-04-16T00:51:23.704Z
 	  card-last-score:: 5
 		- After Fourier transforming to momentum space, different momenta decouple. So the correlation functions are easy to evaluate.
+		- Wick's theorem holds for correlation functions.
 	- $$F=\int d^D r\left[\frac{1}{2}(\nabla \phi)^2+\frac{r}{2} \phi^2\right]$$
 	- [[Fourier Transformation]] to momentum space, $\phi(x)=\int \frac{d^{3 k}}{(2 a)^3} \tilde\phi(k) e^{i \vec{k} \cdot \vec{x}}$ 
 	  collapsed:: true

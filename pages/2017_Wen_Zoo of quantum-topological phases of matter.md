@@ -28,6 +28,12 @@ type:: paper_reading
 			- Def of topo orders
 				- Cannot be deformed into product states.
 			- [[invertible]] topological orders #card
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-05-16T00:36:00.873Z
+			  card-last-reviewed:: 2023-04-16T00:36:00.874Z
+			  card-last-score:: 5
 				- Some states don't have [[Topological excitation]], but with nonzero [[Chiral central charge]], thus **cannot** smoothly change to product states.
 					- In other words, they're topo orders **without** topo excitations!
 				- They're also called IQH states, Chern insulator, quantum anomalous Hall state, etc.
