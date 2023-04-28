@@ -1,1 +1,5 @@
--
+- # Idea
+	- Compute the Feynman diagram as an analytic function of the dimensionality of spacetime. Take $d \to 4$ in the end.
+		- This seems problematic. Generally physics depends sensitively on the spacetime dimension, not to mention the strangeness of non-integer dimensions.
+		- Though non-integer dimensions makes a bit sense via [[Gamma Function]] .
+	- (3+1)D is very special; it incurs divergences, behaviors away from mean-field theories, etc. #Thoughts

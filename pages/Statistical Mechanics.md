@@ -1,11 +1,6 @@
 public:: true
 type:: [[Course]]
 
-- [[References]]
-	- ![2022_Pathria_Beale_Statistical mechanics.pdf](file://zotero_link/Physics/Courses/Statistical/2022_Pathria_Beale_Statistical mechanics.pdf) Pathria
-	- ![2011_Sachdev_Quantum phase transitions.pdf](file://C:/Users/10309/Nutstore/1/sync/zotero/Physics/Courses/Statistical/2011_Sachdev_Quantum phase transitions.pdf) Sachdev, Quantum phase transitions
-	- Altland
-	-
 - Altland
   collapsed:: true
 	- 3
@@ -117,7 +112,7 @@ type:: [[Course]]
 	- Data collapsing
 		- Physical quantities obey some universal scaling relations.
 		- We may plot lots of data in one diagram. If they fall on a single curve (the universal function), then the criticality is justified.
-- [[Mean-field theory]]
+- [[Mean-Field Theory]]
   collapsed:: true
 	- Idea
 		- Let $\sigma_i-\langle\sigma_i\rangle:=\delta_i$ be a small quantity. Ignore higher order terms.
@@ -142,7 +137,7 @@ type:: [[Course]]
 		- At $T_c$, the phase transition becomes continuous.
 		- Critical equation→$\frac{d p}{d v}=0, \frac{d^2 p}{d v^2}=0$
 	- Ising
-		- [[Mean-field theory]] approach
+		- [[Mean-Field Theory]] approach
 			- Self consistency $m=\tanh [\beta(q J m+h)]$
 	- Landau's theory
 		- Use m as an order parameter.
@@ -243,13 +238,14 @@ type:: [[Course]]
 				  [g]<0 ⇒ Irrelevant
 			-
 			- Stability of the fix points #card
-			  card-last-interval:: 28
-			  card-repeats:: 3
-			  card-ease-factor:: 2.8
-			  card-next-schedule:: 2023-01-04T11:56:32.189Z
-			  card-last-reviewed:: 2022-12-07T11:56:32.190Z
+			  card-last-interval:: 252.3
+			  card-repeats:: 4
+			  card-ease-factor:: 2.9
+			  card-next-schedule:: 2024-01-03T07:23:26.002Z
+			  card-last-reviewed:: 2023-04-26T00:23:26.002Z
 			  card-last-score:: 5
 				- Essentially, when the system is a bit off the fix point, would it fall back to the fix point or drift away?
+					- Something like $\frac {\partial^2 v}{\partial x^2}$. $>0$ is unstable, $<0$ is stable.
 				-
 				- Method: Examine the eigenvalues of the RG equation.
 					- $\lambda>0$ -> Unstable
@@ -282,11 +278,11 @@ type:: [[Course]]
 				- Walk for l each step at a random direction
 				- The steps are uncorrelated
 			- Summary #card
-			  card-last-interval:: 67.2
-			  card-repeats:: 3
-			  card-ease-factor:: 2.8
-			  card-next-schedule:: 2023-04-13T04:15:31.452Z
-			  card-last-reviewed:: 2023-02-05T00:15:31.453Z
+			  card-last-interval:: 252.3
+			  card-repeats:: 4
+			  card-ease-factor:: 2.9
+			  card-next-schedule:: 2024-01-03T07:34:04.214Z
+			  card-last-reviewed:: 2023-04-26T00:34:04.215Z
 			  card-last-score:: 5
 				- The distribution of the position tends to be Gaussian after a large number of jumps.
 				- The average is zero, while the square deviation adds up at each step.
@@ -316,11 +312,11 @@ type:: [[Course]]
 	  collapsed:: true
 		- We study an ensemble of particles and study how they evolve (and reach equilibrium)
 		- Summary #card
-		  card-last-interval:: 61.44
-		  card-repeats:: 3
-		  card-ease-factor:: 2.56
-		  card-next-schedule:: 2023-03-15T10:57:47.145Z
-		  card-last-reviewed:: 2023-01-13T00:57:47.146Z
+		  card-last-interval:: 212.27
+		  card-repeats:: 4
+		  card-ease-factor:: 2.66
+		  card-next-schedule:: 2023-11-25T06:22:02.157Z
+		  card-last-reviewed:: 2023-04-27T00:22:02.157Z
 		  card-last-score:: 5
 			- Master equation
 				- $$\frac{\partial f(x, t)}{\partial t}=\int_{-\infty}^{\infty}\left\{-f(x, t) W\left(x, x^{\prime}\right)+f\left(x^{\prime}, t\right) W\left(x^{\prime}, x\right)\right\} d x^{\prime}$$
@@ -443,57 +439,7 @@ type:: [[Course]]
 					- The bump is half the residue.
 			- Physically
 				- The linear-response function often satisfy the condition.
-- [[Quantum Phase Transitions]]
-	- Basics
-		- Setting
-			- $H(g)=H_0+g H_1$, where $H_0$ and $H_1$ commute
-			- Thus there may be a level-crossing / splitting at $g=g_c$.
-		- Defs
-		  collapsed:: true
-			- Quantum phase transitions
-				- ((63940007-697b-452b-a112-4ca2a6b53d5f))
-					- This definition suits the zero temperature, where only the ground state accounts.
-					- However, we need the description of nonzero temperatures
-			- Second-order phase transition
-				- ((63940062-91a3-4846-b259-720a2df5d8c9))
-					- $\Delta \sim J\left|g-g_c\right|^{z v}$
-				- ((6394286c-f118-4cc8-b890-7e38017f4459))
-					- $\xi^{-1} \sim \Lambda\left|g-g_c\right|^v$
-		- General analysis
-		  collapsed:: true
-			- Proposition. Inhomogeneity won't affect the universality class. #card
-			  card-last-interval:: 24
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-03-25T00:30:42.964Z
-			  card-last-reviewed:: 2023-03-01T00:30:42.965Z
-			  card-last-score:: 5
-				- In short, we can always **rescale** the coordinates to eliminate the inhomogeneity.
-				- eg. Inhomogeneity between space and time
-					- $\mathcal L=K_1(\nabla \phi)^2+K_2\left(\partial_\tau \phi\right)^2+\frac{r}{2} \phi^2+\frac{y}{4} \phi^4$
-					- $x \rightarrow \sqrt{K_1} x, \quad \tau \rightarrow \sqrt{K_2} \tau$
-				- Q: Are there things, similar to [[Curvature]], that are unable to eliminate by coordinate transformations?
-			- Compare the values of $\Delta$ and $k_B T$
-				- ((63942988-c4ea-4da9-b66c-ff2bd4b2f692))
-					- This is a diagram of crossovers, not phase transitions.
-	- Quantum [[Ising model]]
-	  collapsed:: true
-		- $H_I=-J g \sum_i \hat{\sigma}_i^x-J \sum_{\langle i j\rangle} \hat{\sigma}_i^z \hat{\sigma}_j^z$
-		- Argue that criticality exists
-			- When $g<<0$: The spins shall be almost all up or all down.
-				- $$\lim _{\left|x_i-x_j\right| \rightarrow \infty}\left\langle 0\left|\hat{\sigma}_i^z 
-				   \hat{\sigma}_j^z\right| 0\right\rangle=m_0^2$$ 
-				  correlated
-			- When $g>>1$
-				- The spins are all in the eigenstate of $\sigma_x$, that is, $|0\rangle=\prod_i|\rightarrow\rangle_i$
-				- $\sigma_z$ are short-range correlated, i.e. $\left\langle 0\left|\hat{\sigma}_i^z \hat{\sigma}_j^z\right| 0\right\rangle \sim e^{-\left|x_i-x_j\right| / \xi}$
-			- The transition between them cannot be analytical. So there shall be at least one critical point.
-		- Summary
-			- FM phase for small h
-			- PM phase for large h
-			- QCP is similar to 3D Ising
-			-
-	- [[Quantum Rotors]]
+-
 - [[Sign Problem]]
 	- Primary version
 		- When doing a path integral to the thermodynamic system, 

@@ -31,9 +31,7 @@
 			- The power of the algebraic way!
 		- Then we may start by assuming that there's no fixed points, then construct a retract by ((64113b44-ccd4-41d8-b489-12572e41a829)).
 - # Affine Spaces
-  collapsed:: true
 	- Def
-	  collapsed:: true
 		- Affine #card
 		  collapsed:: true
 			- A subset $A$ of Euclidean space is called affine if, for every pair of distinct points $x, x^{\prime} \in A$, the **line** determined by $x, x^{\prime}$ is contained in $A$.
@@ -70,6 +68,7 @@
 			- $n=1$: Any two points don't coincide.
 			- $n=2$: Any three points aren't colinear.
 		- Affine map #card
+		  collapsed:: true
 			- Let $\left\{p_0, p_1, \ldots, p_m\right\} \subset \mathbf{R}^n$ be affine independent and let $A$ denote the affine set it spans. An affine map $T: A \rightarrow \mathbf{R}^k$ (for some $k \geq 1$ ) is a function satisfying
 			  $$
 			  T\left(\sum t_j p_j\right)=\sum t_j T\left(p_j\right)
@@ -79,7 +78,6 @@
 				- It preserves affine combinations.
 				- The map can be determined by an affine independent subset ('basis'). As a special case, by the vertices of a simplex.
 		- ### About Simplexes
-		  collapsed:: true
 			- Barycentric coordinate #card
 			  collapsed:: true
 				- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$, and let $A$ be the affine set spanned by this subset.
@@ -90,31 +88,40 @@
 			  collapsed:: true
 				- If $\left\{p_0, \ldots, p_m\right\}$ is affine independent, the barycenter of $\left[p_0, \ldots, p_m\right]$ is $(1 / m+1)\left(p_0+p_1+\cdots+p_m\right)$.
 				- > Barycenter comes from the Greek *barys* meaning heavy; thus, barycenter is just "center of gravity"
-			- m-simplex #card
+			- m-simplex in $\mathbb R^n$ #card
 			  collapsed:: true
 				- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$. The **convex** set spanned by this set, denoted by $\left[p_0, p_1, \ldots, p_m\right]$, is called the (affine) $\boldsymbol{m}$-simplex with vertices $p_0, p_1, \ldots, p_m$.
 				  collapsed:: true
 					- 'Convex' means $t_i \geq 0$
 				- Standard n-simplex
-				  collapsed:: true
-					- collapsed:: true
-					  $$
+					- $$
 					  \Delta^n=\left\{\left(x_1, x_2, \ldots, x_{n+1}\right) \in \mathbf{R}^{n+1}: \text { each } x_i \geq 0 \text { and } \sum x_i=1\right\}
 					  $$
 						- A (inclining) closed interval for n=1, a triangle (vertices being $(1,0,0),(0,1,0),(0,0,1)$)) for n=2, a tetrahedron (?) for n=3, ...
 						- Obviously $\Delta^n \approx D^n$
+			- (Singular) $n$-simplex in a topological space $X$ #card
+				- ((64462d18-fd06-47e4-89b0-1b26cce381ab)) A (singular) $n$-simplex in $X$ is a continuous map $\sigma: \Delta^n \rightarrow X$, where $\Delta^n$ is the standard $n$-simplex.
+				  id:: 64462cfd-824d-4ac1-a0c2-4317a0835f50
+				- Seems a natural generalization of paths (a path is a singular 1-simplex).
+					- It's an interesting question that which properties should be kept in a generalization.
+					- Here the key seems **affine**.
 			- $k$-face and boundary #card
-			  collapsed:: true
-				- A $\boldsymbol{k}$-face of $\left[p_0, p_1, \ldots, p_m\right]$ is a $k$-simplex spanned by $k+1$ of the vertices $\left\{p_0, p_1, \ldots, p_m\right\}$. 
-				  In this terminology, the boundary is the union of all $m$-faces.
+			  card-last-interval:: 32.57
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-05-28T00:52:14.479Z
+			  card-last-reviewed:: 2023-04-25T11:52:14.479Z
+			  card-last-score:: 5
+				- Note that this is the unoriented form, which lacks some important sturctures.
+				- A $\boldsymbol{k}$-face of $\left[p_0, p_1, \ldots, p_m\right]$ is a $k$-simplex spanned by $k+1$ of the vertices. 
+				  In this terminology, the boundary is the union of all $(m-1)$-faces.
 				- Boundary of a simplex
-				  collapsed:: true
 					- Let $\left[p_0, p_1, \ldots, p_m\right]$ be an $m$-simplex. The face opposite $p_i$ is
 					  $$
 					  \left[p_0, \ldots, \hat{p}_i, \ldots, p_m\right]=\left\{\sum t_j p_j: t_j \geq 0, \sum t_j=1 \text {, and } t_i=0\right\}
 					  $$
 					  (circumflex ^ means "delete").
-					- The boundary of $\left[p_0, p_1, \ldots, p_m\right]$ is the union of its $m$-faces.
+					- The boundary of $\left[p_0, p_1, \ldots, p_m\right]$ is the union of its $(m-1)$-faces.
 	- ## Basic Facts
 	  collapsed:: true
 		- ((642d8003-6824-4805-ba5e-7ce8cb5333e2)) The following conditions on an ordered set of points $\left\{p_0, p_1, \ldots, p_m\right\}$ in $\mathbf{R}^n$ are equivalent.
@@ -139,6 +146,7 @@
 		  (iii) If $b$ is the barycenter of $S$, then $\left\|b-p_i\right\| \leq(n / n+1)$ diam $S$. #card
 			-
 	- ## [[Topological Group]]
+	  collapsed:: true
 		- Defs
 			- Topological Group
 				- A topological group is a group $G$ whose underlying set is equipped with a topology such that:
@@ -363,33 +371,24 @@
 				- Corollary. Spaces having the same homotopy type have the same fundamental group.
 	- [[Simply connected]]
 	- [[Deformation Retraction]] and [[Homotopy Equivalence]]
-	- ((6393f3d8-803c-4134-af68-b91b9739c5e7)) Given a **nonvanishing** vector field on $B^2$, there exists a point of $S^1$ where the vector field points directly inward and a point of $S^1$ where it points directly outward.
+	- ((6393f3d8-803c-4134-af68-b91b9739c5e7)) Given a **nonvanishing** vector field on $B^2$, there exists a point of $S^1$ where the vector field points directly inward and a point of $S^1$ where it points directly outward. #card
 	  collapsed:: true
-		- Intuition #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-19T00:25:55.604Z
-		  card-last-reviewed:: 2023-02-23T00:25:55.605Z
+		- Intuition
 		  card-last-score:: 5
-		  collapsed:: true
-			- A vector field on $B^2$ is a continuous map of $B^2$ into $\mathbb{R}^2$. Nonvanishing -> $v$ actually maps $B^2$ into $\mathbb{R}^2-0$.
-			  collapsed:: true
-				- ((63860946-8380-45c7-b564-1c08f9e7cc70))
-				- ((6393f445-3a3c-4366-a1d1-bbc1587873a0))
-			- $\mathbb{R}^2-0$ retracts into $S^1$ (which preserves the directions). Now we have a (nulhomotopic) map $B^2\to S^1$.
-			- Restrict to $S^1$, we obtain another nul map.
-			- The existence of the fixed point (which means the vector field points outward!) can be proven by the intermediate value theorem.
-			  collapsed:: true
-				- Inward is $f(\phi)=\phi+\pi$. We may construct $h=f-\pi$ and find the fixed point of $h$.
-				- Actually we should prove it by constructing a path homotopy in the context of algebraic topology.
-		- Official
-		  collapsed:: true
+		  card-repeats:: 2
+		  card-next-schedule:: 2023-03-19T00:25:55.604Z
+		  card-last-interval:: 24
+		  card-ease-factor:: 2.7
+		  card-last-reviewed:: 2023-02-23T00:25:55.605Z
+			- The vector field can't be 'rotating'
+		- Key construction
+			- We try to define a homotopy $F(x, t)=t x+(1-t) w(x)$ between $w=v|_{S^1}$ and the inclusion map $j: S^1 \rightarrow \mathbb{R}^2-\mathbf{0}$.
+			  The traditional 'scaling construction'!
+			- Note that $v$ is the vector field $v:B^2 \to \mathbb R^2$
+			- Since $j$ isn't **null** but $w$ is, a contradiction arises.
+		- Summary of proof
 			- Prove by contradiction.
-			- $w=v|_{S^1}$ is nulhomotopic.
-			- We try to define a homotopy between w and the inclusion map $j: S^1 \rightarrow \mathbb{R}^2-\mathbf{0}$. Since the latter isn't null, a contradiction arises.
-			- The homotopy $F(x, t)=t x+(1-t) w(x)$. Obviously it's continuous.
-			- It is illegitimate only if $F(x,t) = 0$, i.e. $t x+(1-t) w(x)=0$ <-> the vector points directly outwards at x!
+			- The homotopy is illegitimate only if $F(x,t) = 0$, i.e. $t x+(1-t) w(x)=0$ <-> the vector points directly outwards at x!
 			  id:: 63c14161-a01a-4b97-876f-c426df2df736
 	- ((6393f81a-de32-4d11-b971-629c48983742)) (Brouwer fixed-point theorem for the disc). If $f: B^2 \rightarrow B^2$ is continuous, then there exists a **fixed point** $x \in B^2$ such that $f(x)=x$. #card
 	  collapsed:: true
@@ -750,11 +749,11 @@
 				- Every triangulable surface falls in the scope of the classification theorem.
 			- This is quite obvious. Only needing some work to show pathological cases can't be called surfaces.
 		- Theorem. Each connected compact surface can be classified by the [classification theorem](((6401b892-1a98-4844-89b5-e95da63050da))). #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-04T01:04:49.368Z
-		  card-last-reviewed:: 2023-03-11T01:04:49.369Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-05-25T11:49:52.642Z
+		  card-last-reviewed:: 2023-04-25T11:49:52.643Z
 		  card-last-score:: 5
 			- First, ((6407fc4c-c8f0-405e-9919-d73a637dbe87)).
 			- Second, the surface can be obtained by pasting the edges of a set of triangles **in pairs**.

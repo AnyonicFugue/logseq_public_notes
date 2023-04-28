@@ -223,8 +223,15 @@ alias:: GR
 	- ## Killing Vector
 	  id:: 6433cc8f-9fd7-4848-a229-d5b4372356d2
 		- Def #card
+		  card-last-interval:: 32.57
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-28T00:58:58.022Z
+		  card-last-reviewed:: 2023-04-25T11:58:58.022Z
+		  card-last-score:: 5
 			- A vector field $\xi^a$ which generates an 1-para family of isometries, i.e. $\mathcal L_\xi g_{ab}=0$
 			- Exercise. The above definition is equivalent to $\nabla_a \xi_b+\nabla_b \xi_a=0$.
+				- Note that $\mathcal L_v u^a = v^b \nabla_b u^a - u^b \nabla_b v^a$
 		- ((6433cd3d-fc1f-48f5-966e-e2f1fd234ef2)) Let $\xi^a$ be a Killing vector field and let $\gamma$ be a geodesic with tangent $u^a$. Then $\xi_a u^a$ is constant along $\gamma$. #card
 		  id:: 6433ccd0-93c5-4ea3-965d-4aba75f860ac
 			- A simple exercise to recall the ((64268b1f-18f1-4eb8-a851-d33728ebfa9c)) and the Killing equation.
@@ -264,6 +271,12 @@ alias:: GR
 	  G_{a b} \equiv R_{a b}-\frac{1}{2} R g_{a b}=8 \pi T_{a b}
 	  $$
 		- Exercise. There's an equivalent form $R_{a b}=8 \pi\left(T_{a b}-\frac{1}{2} g_{a b} T\right)$. #card
+		  card-last-interval:: 32.57
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-28T00:50:56.441Z
+		  card-last-reviewed:: 2023-04-25T11:50:56.442Z
+		  card-last-score:: 5
 			- The two forms can derive each other by taking trace.
 	- ## Lagrangian Formulation
 		- The total action is a sum of gravitational term and matter term, $S=S_{G}+S_M$
@@ -503,8 +516,18 @@ alias:: GR
 				  $$
 	- ## Examples
 		- Time difference between GPS satellites and receivers #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-26T03:35:26.841Z
+		  card-last-reviewed:: 2023-04-26T03:35:26.842Z
+		  card-last-score:: 5
+			- The most difficult thing here may be finding an appropriate definition of 'time', which is not easy in GR.
+				- Proper time is always well-defined, but useless for comparing different observers.
+				- Coordinate time isn't covariant.
+				- However here we have a special coordinate, namely the earth's coordinate, which corresponds to a timelike Killing vector (generating time-translation symmetry).
 			- Outline
-				- Take the same coordinate time and calculate the difference in proper times (which is measured)
+				- Take the same **coordinate time** and calculate the difference in proper times (which is measured)
 					- We don't need to go to the respective frames. Just calculate $g_{ab}dx^a dx^b$.
 				- As a weak-gravity approximation, use the Newtonian solution and calculate special- and general-relativity effects separately.
 	- ## Weak-Gravity limit

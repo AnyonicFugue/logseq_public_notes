@@ -42,7 +42,7 @@
 	  card-last-score:: 5
 		- We've faced analogues problems before, eg. why linear algebra describes quantum mechanics.
 		- But we already have the [[First Principle]] for topological orders, that is, underlying lattice models and quantum mechanics. Then we must prove, or at least argue, that the categorical way is equivalent to the old way.
-		- Moreover, we shall demonstrate that the categorical way is better. Equivalently, why [[Set theory]] doesn't serve?
+		- Moreover, we shall demonstrate that the categorical way is better. Equivalently, why [[Set Theory]] doesn't serve?
 		- Is it related to some deeper structure of quantum entanglement?
 	- Why we usually define the lattices by commuting pairs of projectors ($A_s,B_p$)?
 		- Tentative: Topo orders are robust against local perturbations. So we may deform them in some ways; the form of commuting pairs are the simplest.
@@ -401,6 +401,12 @@
 					- 1D topo order P, GSD=n
 					- $Bulk(P)$ is stable.
 				- Physical intuition: Domain walls, topo sectors #card
+				  card-last-interval:: 30
+				  card-repeats:: 1
+				  card-ease-factor:: 2.36
+				  card-next-schedule:: 2023-05-25T11:55:28.484Z
+				  card-last-reviewed:: 2023-04-25T11:55:28.485Z
+				  card-last-score:: 3
 					- Different ground states can't be smoothly connected
 						- $\mathbb{1}_i \otimes \mathbb{1}_i=\mathbb{1}_i$ and $\mathbb{1}_i \otimes \mathbb{1}_j=0$ for $i \neq j$.
 					- 0D [[Domain Wall]] between the same $P_i$ <-> 0D excitations

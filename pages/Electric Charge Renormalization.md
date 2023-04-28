@@ -60,10 +60,8 @@
 			- Reason: ((6395721b-ba69-421c-b91e-9d93abdc64cd)).
 		- Use dimensional regularization to deal with the divergence.
 	- ## Solution: [[Dimensional Regularization]]
-		- (3+1)D is very special; it incurs divergences, behaviors away from mean-field theories, etc. #Thoughts
 		- ((639572cb-574a-4725-8bb3-57fdb7d64200))
-		- Idea
-			- Compute the Feynman diagram as an analytic function of the dimensionality of spacetime. Take $d \to 4$ in the end.
+		-
 		- Example
 			- ((63957331-144d-4f77-adc7-7d665b460576))
 				- Solid angle part

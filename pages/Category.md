@@ -354,6 +354,12 @@ alias:: [[Category Theory]]
 				- Condition for it to be monoidal: {{cloze C symmetric braided monoidal}}
 			- Cat of $E_n$-algebras for $n \geq 3$ #card
 			  collapsed:: true
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-05-27T06:21:07.577Z
+			  card-last-reviewed:: 2023-04-26T00:21:07.577Z
+			  card-last-score:: 5
 				- All same as $E_3\mathrm{Alg}(S) \simeq \mathrm{CAlg}(S)$!
 				- Only requiring $S$ is symmetric braided monoidal.
 		- Theorems about $E_0$ to $E_3$

@@ -18,7 +18,13 @@
 		- $\alpha_x$ can be constructed as above. What remains is to verify that it is indeed a natural transformation.
 		- It follows by the functoriality of $F$.
 - # Corollaries
-	- $$
+	- card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-24T11:24:15.755Z
+	  card-last-reviewed:: 2023-04-24T11:24:15.757Z
+	  card-last-score:: 5
+	  $$
 	  \operatorname{Nat}(\mathrm{Hom}_\mathcal{C}(c,-), \mathrm{Hom}_{\mathcal{C}}(d,-)) \cong \mathrm{Hom}_{\mathcal{C}}(d,c)
 	  $$ #card
 		- In plain English, 'natural transformations between two representable functors' is canonically bijective to 'the hom set between the representative elements'.

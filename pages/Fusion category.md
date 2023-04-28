@@ -10,13 +10,13 @@
 	- Examples
 		- $M_n(\mathbb k)$ is separable with $\mu := E_{ij} \mapsto \frac 1 n \sum_k E_{ik} \otimes E_{kj}$ #card
 			- This map is defined componentwise. The whole map is obtained by linearity.
-	- Lemma. $C$ is a multi-fusion cat. If $A \in C$ is separable, then $\mathrm{RMod}_A(C)$ is finit-semisimple. #card
+	- Lemma. $C$ is a multi-fusion cat. If $A \in C$ is separable, then $\mathrm{RMod}_A(C)$ is finit-semisimple.
 	- Proposition. For a multi-fusion cat $C$ and $A \in C$ semisimple, $M := \mathrm{RMod}_A(C)$, the following are equivalent:
 	  (1) $A$ is separable
 	  (2) There is a separable algebra $B \in C$ s.t. $M \simeq \mathrm{RMod}_B(C)$
 	  (3) For all finite-semisimple left C-module $N$, $\mathrm{Fun}_C(M,N)$ is separable
 	  (4) $\mathrm{Fun}_C(M,M)$ is separable
-	  (5) $\mathrm{BMod}_{A|A}(C)$ is semisimple #card
+	  (5) $\mathrm{BMod}_{A|A}(C)$ is semisimple
 		-
 	-
 	-

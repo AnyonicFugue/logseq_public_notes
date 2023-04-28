@@ -74,6 +74,12 @@
 	  collapsed:: true
 		- See [Peskin](((642bcdd1-ada5-4c3a-8ad9-6365a54ee3d4)))
 		- Standard Technique #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-25T11:46:53.667Z
+		  card-last-reviewed:: 2023-04-25T11:46:53.668Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- Method 1: Discretize the spacetime and do Fourier transformation, then different momenta decouple.
 			  collapsed:: true
@@ -408,20 +414,6 @@
 			  \end{aligned}
 			  \end{equation*}
 				- The point is to construct a conserved current $j^a_\mu$, then since $\theta^a(x)$ are arbitrary the 'coefficients' must vanish.
-		- Def
-		  collapsed:: true
-			- [[Anomalous]] symmetry #card
-				- The path integral **measure** fails to be invariant under the symmetry, i.e.
-				  $$\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n}( x)} \neq 0$$
-				- Note that the changing part of the measure is
-				  id:: 643a581c-2977-48c0-b9a9-40b92c335120
-				  \begin{equation*}
-				  \begin{aligned}
-				  \left| \operatorname{det}\frac{\partial \phi _{m}^{\prime } (y)}{\partial \phi _{n} (x)}\right|  & =\exp\left\{\mathrm{tr}\left[\ln\left( 1+\epsilon \frac{\delta F_{m}[ \phi ';y]}{\delta \phi _{n}( x)}\right)\right]\right\}\\
-				   & =1+\epsilon \int d^{4} x\sum _{n}\frac{\delta F_{n}[ \phi ';x]}{\delta \phi _{n}( x)}
-				  \end{aligned}
-				  \end{equation*}
-			-
 		- ### Main Derivation
 		  collapsed:: true
 			- Consider

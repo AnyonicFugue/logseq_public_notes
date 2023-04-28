@@ -1,0 +1,3 @@
+- Statement
+	- When $X$ is a nonempty partially ordered set, and every nonempty chain of $X$ has an upper bound in $X$, then $X$ has a maximal element.
+-

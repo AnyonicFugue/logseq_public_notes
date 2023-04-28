@@ -1,3 +1,5 @@
+alias:: QM
+
 - # Different pictures
 	- In principle, we could decompose $H=H_1+H_2$ and let $H_1$ acts on the operator and $H_2$ acts on the state.
 		- Schrodinger -> $H_1=0$
@@ -29,6 +31,21 @@
 		- Remark: Equivalent to projective measurements with an auxiliary system. [TODO: prove it.]
 	-
 - # [[Second Quantization]]
+- # Perturbation Theory
+  id:: 644730bc-03b5-48b5-a75e-c31bdf1e5919
+	- ## Time-Independent
+		- See [Griffith](((64473628-1f5e-4716-ae6b-39422002886f))) for reference.
+		- For degenerate perturbation theory, we need exact diagonalization within the degenerate space.
+		- First-order
+			- $$E_n^1=\left\langle\psi_n^0\left|H^{\prime}\right| \psi_n^0\right\rangle$$
+			- $$
+			  \psi_n^1=\sum_{m \neq n} \frac{\left\langle\psi_m^0\left|H^{\prime}\right| \psi_n^0\right\rangle}{\left(E_n^0-E_m^0\right)} \psi_m^0
+			  $$
+		- Second-order
+			- $$
+			  E_n^2=\sum_{m \neq n} \frac{\left|\left\langle\psi_m^0\left|H^{\prime}\right| \psi_n^0\right\rangle\right|^2}{E_n^0-E_m^0}
+			  $$
+	- Different path: ((64239f9f-7660-4553-ab22-80685caf6f6c)) and effective Hamiltonian
 - # Misc
   collapsed:: true
 	- Schmidt decomposition of an entangled state #card

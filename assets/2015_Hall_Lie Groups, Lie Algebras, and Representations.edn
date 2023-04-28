@@ -450,5 +450,22 @@
                                    :height 1776.3999999999999}),
                           :page 124},
                :content {:text "Theorem"},
+               :properties {:color "yellow"}}
+              {:id #uuid "6449c299-4987-4d67-9e3c-388ddf7bbe7b",
+               :page 68,
+               :position {:bounding {:x1 100.55204963684082,
+                                     :y1 515.4186859130859,
+                                     :x2 170.65761756896973,
+                                     :y2 535.8560943603516,
+                                     :width 820.1386666666666,
+                                     :height 1243.4799999999998},
+                          :rects ({:x1 100.55204963684082,
+                                   :y1 515.4186859130859,
+                                   :x2 170.65761756896973,
+                                   :y2 535.8560943603516,
+                                   :width 820.1386666666666,
+                                   :height 1243.4799999999998}),
+                          :page 68},
+               :content {:text "Theorem"},
                :properties {:color "yellow"}}],
- :extra {:page 82}}
+ :extra {:page 68}}

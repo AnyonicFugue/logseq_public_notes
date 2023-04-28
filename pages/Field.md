@@ -47,11 +47,11 @@
 		- Corollary. If $\varphi: K \longrightarrow L$ is a field homomorphism, then $\operatorname{Im} \varphi$ is a subfield of $L$ and $K \cong \operatorname{Im} \varphi$.
 			- ((639ad214-1c10-4b45-93b1-a3c8ec42a3ba))
 	- The union of a nonempty directed family of fields is a field. #card
-	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-03T01:08:47.678Z
-	  card-last-reviewed:: 2023-01-10T01:08:47.679Z
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-05-25T00:43:32.559Z
+	  card-last-reviewed:: 2023-04-25T00:43:32.560Z
 	  card-last-score:: 5
 		- Another case of [[Zorn's Lemma]]
 	-

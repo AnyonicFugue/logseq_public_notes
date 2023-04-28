@@ -21,13 +21,21 @@
 				- This is not a very [[Global]] property. Each point can only be sliced [[Locally]]
 			- ((637847e2-9127-482b-b496-95136f6e6f95))
 			- ((6378484a-4de6-4e9c-9ea8-8b3c8572e378))
-			- A [[Covering map]] is a [[Local Homeomorphism]], but not vice versa. See ((63784a35-429c-434a-a01b-37cf86a8a1b4)).
+			- A [[Covering map]] is a [[Local Homeomorphism]], but not vice versa. For example, the map $p: \mathbb{R}_{+} \rightarrow S^i$ given by the equation
 			  collapsed:: true
+			  $$
+			  p(x)=(\cos 2 \pi x, \sin 2 \pi x)
+			  $$
 				- The map is 'broken' near the origin.
 	- Examples
 	  collapsed:: true
-		- ((63784918-925a-4fa9-97fb-8d3e8841d3d3))
-		  We can construct a covering of $$T^2=S^1\times S^1$$ by $$R\times R$$ in this way.
+		- The map $p: \mathbb{R} \rightarrow S^1$ given by the equation
+		  $$
+		  p(x)=(\cos 2 \pi x, \sin 2 \pi x)
+		  $$
+		  is a covering map. #card
+			- A classical example, but extremely useful -- and with some deep thoughts behind.
+			- We can construct a covering of $$T^2=S^1\times S^1$$ by $$R\times R$$ in this way.
 		- $p:S^1\to S^1$ by $$p(\theta)=2\theta$$
 		- Figure-eight space
 			- ((63784d71-542c-40ba-be3d-f1946bca1676))

@@ -143,32 +143,7 @@
 	-
 	- ## On tensor products of reps
 	  collapsed:: true
-		- Theorem. Let $T$ be an complex irreducible representation of the group $G$ in the space $V$, and let $I$ be the trivial representation of $G$ in the space $U$. Then every minimal subspace $W\subset V\otimes U$ invariant under the product representation $TI$ has the form $V\otimes u_{0}$, where $u_{0} \in U$.  #card
-		  id:: 4746422f-8ebd-4b6e-b09a-a6d71742468b
-		  card-last-interval:: 25.01
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-08T11:55:28.429Z
-		  card-last-reviewed:: 2023-03-14T11:55:28.430Z
-		  card-last-score:: 5
-			- A wrong attempt
-			  collapsed:: true
-				- Directly construction: Consider some $v_0\otimes u_{0} \in W$
-				- $TI$ will make it to  $V\otimes u_{0}$
-			- The vectors in $V\otimes U$ are $\sum{c_{ij}\ e_i\otimes f_j}$ !
-			-
-			- We can rewrite it as $\sum_j{v_j \otimes f_j}$
-			- Construct "coordinate functions" $\sigma_i:W\rightarrow V\otimes f_i$
-			-
-			- $\sigma_i$ is a Morphism between $TI\big|_W$and  $TI\big|_{V \otimes f_i}$ , while $TI\big|_{V \otimes f_i}$ can be identified with T!
-			  collapsed:: true
-				- Try to identify some reps, to make use of [[Schur's Lemma]]  #Remark
-			- By Schur's: All $\sigma_i$ are proportional, $\sigma_i=c_i\sigma_0$
-			- $w=c_1\sigma_0(w)\otimes f_1+...+c_n\sigma_0(w)\otimes f_n=\sigma_0(w)\otimes (c_1f_1+...+c_nf_n)$
-			-
-			-
 		- Theorem. The tensor product of two irreducible complex representations $T:G\rightarrow \operatorname{GL} (V)$ and $S:H\rightarrow \operatorname{GL} (U)$ of the groups $G$ and $H$ 
-		  collapsed:: true
 		  card-last-interval:: 27.15
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
@@ -176,12 +151,27 @@
 		  card-last-reviewed:: 2023-02-20T12:03:27.458Z
 		  card-last-score:: 5
 		  is an **irreducible** representation of $G\times H$.  #card
-			- Invoke ((4746422f-8ebd-4b6e-b09a-a6d71742468b)).
+			- Lemma. Let $T$ be an complex irreducible representation of the group $G$ in the space $V$, and let $I$ be the trivial representation of $G$ in the space $U$. Then every minimal subspace $W\subset V\otimes U$ invariant under the product representation $TI$ has the form $V\otimes u_{0}$, where $u_{0} \in U$.
+			  card-last-score:: 5
+			  card-repeats:: 1
+			  card-next-schedule:: 2023-04-08T11:55:28.429Z
+			  card-last-interval:: 25.01
+			  id:: 4746422f-8ebd-4b6e-b09a-a6d71742468b
+			  card-ease-factor:: 2.6
+			  card-last-reviewed:: 2023-03-14T11:55:28.430Z
+				-
+				- Construct "coordinate functions" $\sigma_i:W\rightarrow V\otimes f_i$
+				-
+				- $\sigma_i$ is a Morphism between $TI\big|_W$and  $TI\big|_{V \otimes f_i}$ , while $TI\big|_{V \otimes f_i}$ can be identified with T!
+				  collapsed:: true
+					- Try to identify some reps, to make use of [[Schur's Lemma]]  #Remark
+				- By Schur's: All $\sigma_i$ are proportional, $\sigma_i=c_i\sigma_0$
+				- $w=c_1\sigma_0(w)\otimes f_1+...+c_n\sigma_0(w)\otimes f_n=\sigma_0(w)\otimes (c_1f_1+...+c_nf_n)$
 			-
 			- Consider W inv under $T\otimes S$:
 			- W must be inv under $TI$ and $IS$.
 			-
-			- Split W into min invsp. of TI and IS separately:
+			- Split W into min invsp. of $TI4 and $IS$ separately:
 			- $W=(V\otimes u_1)\oplus...\oplus(V\otimes u_m)=(v_1\otimes U)\oplus...\oplus(v_n\otimes U)$
 			- Obviously $W=V\otimes U$
 	-

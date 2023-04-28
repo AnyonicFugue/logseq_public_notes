@@ -95,7 +95,7 @@
 		  $$
 		  D_F^{\mu \nu}(x-y)=\left(-g^{\mu \nu}-\partial^\mu \partial^\nu / m^2\right) D_F(x-y)-\frac{i}{m^2} g^{\mu 0} g^{\nu 0} \delta^{(k)}(x-y)
 		  $$
-			- The second term $-\frac{i}{m^2} g^{\mu 0} g^{\nu 0} \delta^{(k)}(x-y)$ would cancel the unphysical term $\frac{1}{2 m^2}\left(j^0\right)^2$. #card
+			- The second term $-\frac{i}{m^2} g^{\mu 0} g^{\nu 0} \delta^{(k)}(x-y)$ would cancel the unphysical term $\frac{1}{2 m^2}\left(j^0\right)^2$.
 				- Consider the vacuum diagrams $\left\langle 0\left|T\left\{\exp \left[-i \int d t V_I(t)\right]\right\}\right| 0\right\rangle$ first.
 					- Note that the interaction part is $$V_I =j^\mu A_\mu+\frac{1}{2 m^2}\left(j^0\right)^2$$ and refer to the ((6401b897-2b58-4ac2-85b6-6a8b08ac6797))
 					-

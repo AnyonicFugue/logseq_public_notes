@@ -211,20 +211,19 @@ type:: [[Course]]
 	- The textbook's way
 	  collapsed:: true
 		- Setting the stage
-		  collapsed:: true
 			- ((63830b21-378b-4e2a-b249-fb9973ae2eb0))
 			  collapsed:: true
 				- R means reservoir.
 			- Use interaction picture and obtain ((63830b3b-4513-4772-8e43-8f53dae0527a))
-		- Simplifications #card
-		  card-last-interval:: 61.44
-		  card-repeats:: 3
-		  card-ease-factor:: 2.56
-		  card-next-schedule:: 2023-06-02T22:13:56.482Z
-		  card-last-reviewed:: 2023-04-02T12:13:56.483Z
+		- Simplifications
 		  card-last-score:: 5
+		  card-repeats:: 3
+		  card-next-schedule:: 2023-06-02T22:13:56.482Z
+		  card-last-interval:: 61.44
+		  card-ease-factor:: 2.56
+		  card-last-reviewed:: 2023-04-02T12:13:56.483Z
+		  collapsed:: true
 			- ((63830b80-1527-4610-b040-b1121e92a009))
-			  collapsed:: true
 				- The initial state is unentangled.
 			- Initially ((63830ba9-d176-4634-9c4b-6e78e37a5dc6))
 			  collapsed:: true
@@ -246,8 +245,9 @@ type:: [[Course]]
 		  card-next-schedule:: 2023-04-08T17:08:43.817Z
 		  card-last-reviewed:: 2023-01-31T13:08:43.818Z
 		  card-last-score:: 5
+			- In short, write the evolution of the system plus the environment as Kraus operators.
+			  Different formalisms could provide different viewpoints!
 			- $E_0=I+\frac{1}{\hbar}(-i H+K) d t$
-			  collapsed:: true
 			  $E_k=L_k \sqrt{d t}, \quad(k=1, \ldots, M-1)$
 				- K is hermitian, denoting the 'deviation from isolated evolution'
 			- Why $E_0$ is different?

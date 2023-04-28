@@ -1,0 +1,4 @@
+- # Idea
+	- ((6447451d-a5e6-4238-b04e-d4ea94425152)) Therefore it makes sense to discard the high-energy part.
+- We can not only perform a hard cutoff (restrict the integration region to $\Lambda^2$), but also a soft one (multiply by a factor $e^{-\lambda k}$ and take $\lambda \to 0$)
+-

@@ -9,5 +9,5 @@
 - [[Quantum Group]]
 -
 -
-- [[Set theory]]
+- [[Set Theory]]
 - [[Category]]

@@ -7,6 +7,12 @@ alias:: [[QFT]]
 	-
 	- ## Assumptions about the Hilbert Space #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-26T07:00:49.798Z
+	  card-last-reviewed:: 2023-04-25T01:00:49.799Z
+	  card-last-score:: 5
 		- #+BEGIN_NOTE
 		  Not a rigorous structure, but seems natural in perturbation theories.
 		  #+END_NOTE
@@ -20,38 +26,39 @@ alias:: [[QFT]]
 			- However the spectrum is **not** strictly greater than $4m^2$, since attracting interaction lowers the energy.
 		-
 		- Other ones
-			- The theory is an irreducible representation of the operator algebra. Equivalently, we can always relate two states in the Hilbert space by some operator.
+			- A theory is an irreducible representation of the operator algebra. Equivalently, we can always relate two states in the Hilbert space by some operator.
 			  id:: 63fc4f1b-f3c8-4e99-a31f-add4fe16f8ec
 				- For a single theory, we can relates 1-particle states by boosts.
 				  id:: 63fc5025-5650-4054-ba3a-0520194bfb13
-- # [[Interaction, Feynman diagrams and S-matrix]]
-- [[Classical Field Theory]]
-  collapsed:: true
-	- Noether's theorem #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-03-26T14:12:47.860Z
-	  card-last-reviewed:: 2023-03-02T14:12:47.861Z
-	  card-last-score:: 5
-	  id:: 63e86248-d68b-4d57-bed2-c7a0d75b3be7
-		- $$\begin{aligned}
-		  \partial _{\mu } j^{\mu } (x) & =0,\ \ \text{ for } \ \ j^{\mu } (x)=\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\frac{\delta \phi }{\delta \alpha } -\mathcal{J}^{\mu }
-		  \end{aligned}$$
-		- Points: EOM, construct full derivative
-		-
-		- Proof
-			- Consider a Lagrangian with sym. $\alpha$
-			- L must be inv. under different $\alpha$, up to a 4-divergence $\partial_\mu \mathcal{J}^{\mu }$:
-			  $$\begin{aligned}
-			  \frac{\delta \mathcal{L}}{\delta \alpha } & =\frac{\partial \mathcal{L}}{\partial \phi }\frac{\delta \phi }{\delta \alpha } +\left(\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\right) \partial _{\mu } (\frac{\delta \phi }{\delta \alpha } )\\
-			   & =\partial _{\mu }\left(\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\frac{\delta \phi }{\delta \alpha }\right) +\alpha \left[\frac{\partial \mathcal{L}}{\partial \phi } -\partial _{\mu }\left(\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\right)\right]\frac{\delta \phi }{\delta \alpha }
+			- There shall be a basis of states corresponding to the classical field configurations, which would be used in [[Path Integral]].
+	- [[Classical Field Theory]]
+	  collapsed:: true
+		- Noether's theorem #card
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-03-26T14:12:47.860Z
+		  card-last-reviewed:: 2023-03-02T14:12:47.861Z
+		  card-last-score:: 5
+		  id:: 63e86248-d68b-4d57-bed2-c7a0d75b3be7
+			- $$\begin{aligned}
+			  \partial _{\mu } j^{\mu } (x) & =0,\ \ \text{ for } \ \ j^{\mu } (x)=\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\frac{\delta \phi }{\delta \alpha } -\mathcal{J}^{\mu }
 			  \end{aligned}$$
-			- Substitute EOM: We're done.
-		- Example
-			- [[Energy-momentum Tensor]] 
-			  $\mathcal{T}_{\mu \nu}=\sum_{n} \frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} \phi_{n}\right)} \partial_{\nu} \phi_{n}-g_{\mu \nu} \mathcal{L}$
-		- Ref. Peskin, ((63805db9-661f-470f-9403-3ff9ae8aa7dd))
+			- Points: EOM, construct full derivative
+			-
+			- Proof
+				- Consider a Lagrangian with sym. $\alpha$
+				- L must be inv. under different $\alpha$, up to a 4-divergence $\partial_\mu \mathcal{J}^{\mu }$:
+				  $$\begin{aligned}
+				  \frac{\delta \mathcal{L}}{\delta \alpha } & =\frac{\partial \mathcal{L}}{\partial \phi }\frac{\delta \phi }{\delta \alpha } +\left(\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\right) \partial _{\mu } (\frac{\delta \phi }{\delta \alpha } )\\
+				   & =\partial _{\mu }\left(\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\frac{\delta \phi }{\delta \alpha }\right) +\alpha \left[\frac{\partial \mathcal{L}}{\partial \phi } -\partial _{\mu }\left(\frac{\partial \mathcal{L}}{\partial (\partial _{\mu } \phi )}\right)\right]\frac{\delta \phi }{\delta \alpha }
+				  \end{aligned}$$
+				- Substitute EOM: We're done.
+			- Example
+				- [[Energy-momentum Tensor]] 
+				  $\mathcal{T}_{\mu \nu}=\sum_{n} \frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} \phi_{n}\right)} \partial_{\nu} \phi_{n}-g_{\mu \nu} \mathcal{L}$
+			- Ref. Peskin, ((63805db9-661f-470f-9403-3ff9ae8aa7dd))
+- # [[Interaction, Feynman diagrams and S-matrix]]
 - # Causality and Propagators
   collapsed:: true
 	- $\langle 0|[\phi(x), \phi(y)]| 0\rangle=0$ for spacelike separation, which preserves [[Causality]].
@@ -90,8 +97,18 @@ alias:: [[QFT]]
 			- Take care of the minus sign! (Compare ((129a2538-6668-4ae1-a5cc-a7cf58e6122b)) )
 	-
 - # Specific Theories
+  collapsed:: true
 	- [[Klein-Gordon Theory]]
 	- [[Yukawa theory]]
 	- [[Quantum Electrodynamics]]
 	- [[Proca Theory]]
 	-
+- # [[Renormalization]]
+	- ## Why it works?
+		- Mathematically there are all sorts of problems.
+			- For example, in field-strength renormalization we first group 1PI diagrams, then sum them up as a geometric series.
+				- However, changing the order of summation and integration requires **absolute convergence**. Here the sum doesn't converge absolutely -- it diverges!
+			- However, the bunch of seeming total nonsense works (partially)! There must be things deeper behind.
+	- [[Field-Strength Renormalization]]
+	- [[Electric Charge Renormalization]]
+-

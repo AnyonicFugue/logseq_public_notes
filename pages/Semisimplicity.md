@@ -1,5 +1,11 @@
 - # Definition
 	- Simple object #card
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-28T00:59:31.242Z
+	  card-last-reviewed:: 2023-04-25T11:59:31.242Z
+	  card-last-score:: 5
 		- Some nonzero $x \in C$ s.t. all ((641a6a23-ca6b-4d29-b1dc-28dab3b2fb6a)) of $x$ are 0 or isomorphisms.
 		- What's the intuition behind?
 			- 'Simple' means 'no nontrivial sub-thing'

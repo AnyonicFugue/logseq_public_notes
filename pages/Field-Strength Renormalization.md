@@ -1,4 +1,5 @@
 - Peskin
+  collapsed:: true
 	- Summary #card
 	  card-last-interval:: 67.2
 	  card-repeats:: 3

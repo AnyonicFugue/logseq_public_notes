@@ -1,5 +1,3 @@
-- [[References]]
-	- ![2015_Hall_Lie Groups, Lie Algebras, and Representations.pdf](file://zotero_link/Mathematics/Lie Algebra/2015_Hall_Lie Groups, Lie Algebras, and Representations.pdf)
 - [[Lie Group]]
 - [[Lie Algebra]]
 - Common [[Strategy]]

@@ -7,6 +7,7 @@
 			- Note that this assumption is modified when [[Bound States]] are present.
 	-
 	- Mandelstam variables
+	  id:: 64238e6c-1aa2-4233-b9ab-a0b3e391eda2
 	  collapsed:: true
 		- ((636af081-5d67-4758-887c-ba004b190b71))
 		- ((637b326c-0792-4cf0-b2e5-d861201c971c))
