@@ -36,11 +36,11 @@
   collapsed:: true
 	- $$\begin{aligned} i \mathcal{M} \cdot & (2 \pi)^4 \delta^{(4)}\left(p_{\mathcal{A}}+p_{\mathcal{B}}-\sum p_f\right) \\ & =\left(\begin{array}{c}\text { sum of all connected, amputated Feynman } \\ \text { diagrams with } p_{\mathcal{A}}, p_{\mathcal{B}} \text { incoming, } p_f \text { outgoing }\end{array}\right) .\end{aligned}$$
 		- Note that $S=\mathcal 1+i \mathcal M$, so it is customary to {{cloze write a factor of i before M}}! #card
-		  card-last-interval:: 25.01
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-04T00:40:46.736Z
-		  card-last-reviewed:: 2023-03-10T00:40:46.736Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-06-03T12:46:39.804Z
+		  card-last-reviewed:: 2023-05-04T12:46:39.805Z
 		  card-last-score:: 5
 		- See ((6407dea0-fd6b-4c8f-9e20-de12dfe7edb2))
 		-

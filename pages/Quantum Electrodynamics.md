@@ -198,13 +198,14 @@ alias:: QED
 	- Defs
 	  collapsed:: true
 		- Field-strength renormalizations #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-04-05T16:00:44.958Z
-		  card-last-reviewed:: 2023-01-28T12:00:44.958Z
+		  card-last-interval:: 252.3
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-01-07T08:01:16.275Z
+		  card-last-reviewed:: 2023-04-30T01:01:16.275Z
 		  card-last-score:: 5
 			- ![image.png](../assets/image_1670467826740_0.png)
+				- Note that $m$ is the physical mass, not bare mass.
 				- No effect on the coupling constant $e$. Correct electron mass.
 			- ![image.png](../assets/image_1670467841416_0.png)
 		- Renormalized fields and charge

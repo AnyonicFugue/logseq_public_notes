@@ -100,11 +100,11 @@
 	- Also derivable from the Feynman rules.
 - Theorem #card
   card-last-score:: 5
-  card-repeats:: 3
-  card-next-schedule:: 2023-04-13T21:07:05.045Z
-  card-last-interval:: 61.44
-  card-ease-factor:: 2.56
-  card-last-reviewed:: 2023-02-11T11:07:05.045Z
+  card-repeats:: 5
+  card-next-schedule:: 2025-01-22T04:17:21.873Z
+  card-last-interval:: 630.74
+  card-ease-factor:: 2.76
+  card-last-reviewed:: 2023-05-02T11:17:21.874Z
 	- ((637ae474-2d53-4e11-b973-cd140e269b7f)) for photons.
 		- Note that this also holds for off-shell [[Photon]]!
 		-

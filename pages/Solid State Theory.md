@@ -190,16 +190,17 @@ type:: [[Course]]
 				- Never see anything like $e^{-\beta E}$.
 			- Experimentalists often use this method to obtain the effective mass.
 		- Susceptibility #card
-		  card-last-interval:: 27.15
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-16T04:32:04.890Z
-		  card-last-reviewed:: 2023-03-20T01:32:04.890Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-05-30T01:00:12.385Z
+		  card-last-reviewed:: 2023-04-30T01:00:12.386Z
 		  card-last-score:: 5
 			- Idea
 				- First obtain the dependence of $E_0$ on $m$.
 				- Since $E=E_0-m\cdot h$, m would be obtained by minimizing the total energy.
 					- $\frac{\partial E}{\partial m}=m(h) \cdot \frac{\partial^2 E}{\partial m^2} {=} h$.
+					- Note that $\frac {\partial E}{\partial m}=0$ when $m=0$.
 				- $\chi$ could be obtained by $m=h\cdot \chi$.
 					- $\chi=\left(\frac{\partial^2 E}{\partial m^2}\right)^{-1}$
 			- With external field, $N_{\uparrow } \neq N_{\downarrow } ,\ \ N_{\uparrow } +N_{\downarrow } =N$
@@ -639,7 +640,7 @@ type:: [[Course]]
 	- ## Degenerate Second-Order Perturbation
 	  id:: 64239f9f-7660-4553-ab22-80685caf6f6c
 		- Effective Hamiltonian #card
-			- $$\left< \alpha |H_{eff}^{( 2)} |\beta \right> =\sum _{n} \langle \alpha |W|n\rangle < n|W|\beta > \frac{1}{2}\left(\frac{1}{E_{\alpha } -E_{n}} +\frac{1}{E_{\beta } -E_{n}}\right)$$
+			- $$\left< \alpha |H_{eff}^{( 2)} |\beta \right> =\sum _{n} \langle \alpha |W|n\rangle \langle n|W|\beta \rangle \frac{1}{2}\left(\frac{1}{E_{\alpha } -E_{n}} +\frac{1}{E_{\beta } -E_{n}}\right)$$
 				- $\alpha,\beta$ are (nearly) degenerate energy levels with $\langle \alpha |W|\beta\rangle =0$
 				- $n$ is some state in the excited space
 			- Intuitively, we can jump from $\alpha$ to an intermediate state $n$, then jump from $n$ to $beta$, multiplied by an energy factor.

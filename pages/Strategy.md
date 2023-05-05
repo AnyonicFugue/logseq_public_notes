@@ -12,7 +12,7 @@
   id:: 63c1416f-d51b-4487-865b-f9d3cf9b5918
 - Find a characteristic. If it is different for two objects, then they must be different. #card
   id:: 63c14160-28c9-4f15-82dc-977a38e0993b
-	- The same for trace, determinant, cardinality and the [[Fundamental group]].
+	- The same for trace, determinant, cardinality and the [[Fundamental Group]].
 	- Actually [simplifying the information](((64116664-78ea-458f-b45f-db085090d9cf))) to make things easier.
 		- eg. First homology: Abelian groups are easier than general ones.
 - Construct a differential equation. #card

@@ -12,6 +12,8 @@
 				- ((636e1042-cd00-4384-bf8a-5a0e9f6e53b2))
 				-
 		- Quantum Dimension #card
+			- Categorical:
+			  $$d_x:=\operatorname{Tr}(\mathrm{id}_x)$$
 			- Another version: Frobenius-Perron dimension
 			  ((63719d3c-6026-4c67-ab32-d7b4211a7b4b))
 				- ((63719d59-3c84-4cde-86d5-1889cdcbd6a9))

@@ -29,11 +29,11 @@
 			- Then prove it is covering
 - ((63bbcc50-fdce-4a0d-aa5b-94592f62dcac)) Let $D$ be an arc in $S^2$. Then $D$ does not separate $S^2$. #card
   collapsed:: true
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-04-26T12:06:28.071Z
-  card-last-reviewed:: 2023-04-02T12:06:28.071Z
+  card-last-interval:: 252.3
+  card-repeats:: 4
+  card-ease-factor:: 2.9
+  card-next-schedule:: 2024-01-07T07:51:46.571Z
+  card-last-reviewed:: 2023-04-30T00:51:46.571Z
   card-last-score:: 5
 	- First proof
 		- Use the ((63bbcfcf-7da8-4aa7-887c-c2b566e5ebfa))

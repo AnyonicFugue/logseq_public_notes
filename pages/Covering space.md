@@ -1,4 +1,4 @@
-- Defs
+- # Defs
 	- Evenly covered #card
 	  card-last-interval:: 67.2
 	  card-repeats:: 3
@@ -16,7 +16,6 @@
 		  card-next-schedule:: 2023-04-10T16:12:10.508Z
 		  card-last-reviewed:: 2023-02-02T12:12:10.510Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- Let $p: E \rightarrow B$ be continuous and surjective. If every point $b$ of $B$ **has a neighborhood** $U$ that is evenly covered by $p$, then $p$ is called a covering map, and $E$ is said to be a covering space of $B$
 				- This is not a very [[Global]] property. Each point can only be sliced [[Locally]]
 			- ((637847e2-9127-482b-b496-95136f6e6f95))
@@ -28,7 +27,6 @@
 			  $$
 				- The map is 'broken' near the origin.
 	- Examples
-	  collapsed:: true
 		- The map $p: \mathbb{R} \rightarrow S^1$ given by the equation
 		  $$
 		  p(x)=(\cos 2 \pi x, \sin 2 \pi x)
@@ -46,4 +44,53 @@
 			-
 		-
 - [[Lifting]]
--
+- # Calculate the [[Fundamental Group]]
+	- ((638c3f1f-7609-4ec8-880f-7b851dea0f63)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$. If $E$ is **path connected**, then the lifting correspondence $\phi: \pi_1\left(B, b_0\right) \rightarrow p^{-1}\left(b_0\right)$ is **surjective**. If $E$ is **simply connected**, it is **bijective**. #card
+	  card-last-score:: 5
+	  card-repeats:: 3
+	  card-next-schedule:: 2023-07-07T00:31:01.610Z
+	  card-last-interval:: 84
+	  id:: 638c0f2d-33eb-4634-9467-e083bf50506d
+	  card-ease-factor:: 2.8
+	  card-last-reviewed:: 2023-04-14T00:31:01.611Z
+		- Intuition
+			- (1) A path from $e_0$ to $e_1$ is compressed into a loop by the covering map. It is decompressed by the lifting correspondence.
+			- (2) We just need to prove it is injective.
+				- Simply connected -> All paths with same endpoints are homotopic -> Still homotopic after kicked down by the covering map
+		- What about the inverse?
+		  collapsed:: true
+			- Surjective -> All 'copies' can be connected by paths. Anything stronger?
+			- Injective -> Different loops get mapped to different endpoints.
+		- Examples in complex analysis
+		  collapsed:: true
+			- $\ln z$
+				- The [[Riemann surface]] is path connected. Indeed the lifting is surjective; each round adds $2\pi$.
+				- Is the [[Riemann surface]] simply connected? But it seems indeed bijective, because the fundamental group of $\mathbb C -0$ is $\mathbb Z$.
+			- $\sqrt x$
+				- Surjective but not bijective.
+			-
+		- Applications
+			- Construct a simply connected covering space to obtain the fundamental group?
+	- ((638c406f-36aa-4e14-916a-5bfa265284e8)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$.
+	  card-last-interval:: 24
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-03-24T00:40:44.713Z
+	  card-last-reviewed:: 2023-02-28T00:40:44.714Z
+	  card-last-score:: 5
+	  (a) The homomorphism $p_*: \pi_1\left(E, e_0\right) \rightarrow \pi_1\left(B, b_0\right)$ is a **monomorphism**.
+	  (b) Let $H=p_*\left(\pi_1\left(E, e_0\right)\right)$. The lifting correspondence $\phi$ induces an **injective** map
+	  $$
+	  \Phi: \pi_1\left(B, b_0\right) / H \rightarrow p^{-1}\left(b_0\right)
+	  $$
+	  of the collection of right cosets of $H$ into $p^{-1}\left(b_0\right)$, which is **bijective** if $E$ is path connected.
+	  (c) If $f$ is a loop in $B$ based at $b_0$, then $[f] \in H$ **if and only if** $f$ lifts to a loop in $E$ based at $e_0$. #card
+		- (a) Lifting preserves path homotopy.
+		- (b)(c) Intuitively, H is the 'trivial part after lifting'.
+		- (b)
+			- Independent of the representative element: If $f_2=f_1 * h$ and $\tilde h$ is a loop, then obviously $\phi(f_2)=\phi(f_1)$
+			- Injective: If $\phi(f_2)=\phi(f_1)$, then $\phi(f_2 * f_1^{-1})=e$ (go backwards)
+			- Bijective(Surjective): If E is path connected, we can always find a path from $b_1$ to $b_2$. Thus $\phi$ is surjective.
+		- (c)
+			- Directly follows from the definition of lifting. Or from (b).
+	-

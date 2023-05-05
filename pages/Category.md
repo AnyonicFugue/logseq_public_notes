@@ -138,6 +138,12 @@ alias:: [[Category Theory]]
 			- Natural isomorphism
 				- Each $\alpha$ is an isomorphism
 		- Vertical composition #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-04T00:32:07.180Z
+		  card-last-reviewed:: 2023-05-05T00:32:07.181Z
+		  card-last-score:: 5
 			- Essentially, we have $F \overset{\alpha}{\Rightarrow} G$ and $G \overset{\beta}{\Rightarrow} H$. We would like to compose the two to have $F \overset{\beta \circ \alpha}{\Rightarrow} H$
 			- ((6416ba90-2deb-428b-b6cf-fb6dedf75dd1))
 				- The whole diagram commutes since each small square commutes.
@@ -330,12 +336,25 @@ alias:: [[Category Theory]]
 				- Maybe braidings in 1-cats are too strong and restrictive. We need something more.
 				- Can we find some structure which can always be extended?
 		- 'Take the algebra' is somwhat similar to 'adding a dimension' #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-03T12:46:06.173Z
+		  card-last-reviewed:: 2023-05-04T12:46:06.175Z
+		  card-last-score:: 5
 		- Baez-Dolan conjecture. For a symmetric monoidal n-category $C$, the forgetful functor $E_{k+1}\mathrm{Alg}(C) \to E_k\mathrm{Alg}(C)$ is an equivalence for $k>n$. #card
 		  collapsed:: true
 			- Have been proven for a special case $n=2,C=\mathrm{Cat}$
 			- [Higher Algebra] Corollary 5.1.1.7 claims to have proved this.
 		- Defs
 			- Cat of $E_0$ algebras, $E_0\mathrm{Alg}(C,J)$ #card
+			  collapsed:: true
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-06-04T00:30:12.771Z
+			  card-last-reviewed:: 2023-05-05T00:30:12.772Z
+			  card-last-score:: 5
 				- Let $(C,J)$ be a category with a distinguished object $J$.
 				- An $E_0$-algebra in $(C,J)$ is a pair $(A,j_A)$ where $A\in C, j_A:J \to A$
 					- Actually not an algebra, because there is no multiplication.

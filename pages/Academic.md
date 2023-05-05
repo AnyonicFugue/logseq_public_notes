@@ -1,12 +1,12 @@
 - Solving problems
   collapsed:: true
 	- Partial solutions shall also be valued. #card [[Academic]]
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.46
-	  card-next-schedule:: 2023-03-05T11:13:36.835Z
-	  card-last-reviewed:: 2023-02-09T11:13:36.835Z
-	  card-last-score:: 3
+	  card-last-interval:: 76.8
+	  card-repeats:: 3
+	  card-ease-factor:: 2.56
+	  card-next-schedule:: 2023-07-19T19:57:40.885Z
+	  card-last-reviewed:: 2023-05-04T00:57:40.887Z
+	  card-last-score:: 5
 		- The problem may be solved by holding several 'partial solutions' together.
 			- Therefore you may study under what conditions a partial solution hold and glue multiple together.
 		- Moreover, the reason for the failure is often quite instructive.

@@ -1,0 +1,8 @@
+- # To Be Understood
+	- Single-Eigenstate limit
+- # Comments
+	- For localized systems, the properties cannot be captured by thermodynamical quantities (since they're only meaningful when the system is thermalized).
+		- The major difference is dynamical.
+- # Defs
+	- MBL
+		- Localization in highly excited states of strongly interacting many-body systems.

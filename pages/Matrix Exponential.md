@@ -3,11 +3,11 @@
 	- It it convergent and continuous on all $X\in M_n(\mathbb C)$
 - Here is a useful decomposition of ((6381c0cf-5886-4962-856d-b14589f1bdbf)).
 - Notable properties #card
-  card-last-interval:: 67.2
-  card-repeats:: 3
-  card-ease-factor:: 2.8
-  card-next-schedule:: 2023-04-07T07:24:13.096Z
-  card-last-reviewed:: 2023-01-30T03:24:13.096Z
+  card-last-interval:: 252.3
+  card-repeats:: 4
+  card-ease-factor:: 2.9
+  card-next-schedule:: 2024-01-11T07:58:21.726Z
+  card-last-reviewed:: 2023-05-04T00:58:21.727Z
   card-last-score:: 5
 	- $e^{C X C^{-1}}=C e^X C^{-1}$
 	  id:: 6381c0a3-1e80-48b1-ba45-9844cd8aabd7

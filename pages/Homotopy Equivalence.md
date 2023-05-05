@@ -1,9 +1,9 @@
 - Def #card
-  card-last-interval:: 25.01
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-02-27T12:20:24.662Z
-  card-last-reviewed:: 2023-02-02T12:20:24.662Z
+  card-last-interval:: 30
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-06-01T11:28:42.976Z
+  card-last-reviewed:: 2023-05-02T11:28:42.977Z
   card-last-score:: 5
 	- Let $f: X \rightarrow Y$ and $g: Y \rightarrow X$ be continuous maps. Suppose $g \circ f \simeq 1_X$ and $f \circ g \simeq 1_Y$. Then the **maps** $f$ and $g$ are called **homotopy equivalences**.
 	- In other words, homotopy equivalences are isomorphisms in $\mathrm{hTop}$
@@ -11,11 +11,11 @@
 		- Inclusion j and deformation retraction r
 - Let $h, k: X \rightarrow Y$ be continuous maps; let $h\left(x_0\right)=y_0$ and $k\left(x_0\right)=y_1$. If $h$ and $k$ are **homotopic**, there is a path $\alpha$ in $Y$ from $y_0$ to $y_1$ such that $k_*=\hat{\alpha} \circ h_*$. Indeed, if $H: X \times I \rightarrow Y$ is the homotopy between $h$ and $k$, then $\alpha$ is the path $\alpha(t)=H\left(x_0, t\right)$ #card
   collapsed:: true
-  card-last-interval:: 24
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-03-26T00:59:32.591Z
-  card-last-reviewed:: 2023-03-02T00:59:32.592Z
+  card-last-interval:: 30
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-06-01T11:17:42.637Z
+  card-last-reviewed:: 2023-05-02T11:17:42.637Z
   card-last-score:: 5
 	- **No need to fix any point in the homotopy; homotopic paths always give the same homomorphism between fundamental groups!**
 	- ((63a66686-57f7-43bd-8883-017b1642e7f1))

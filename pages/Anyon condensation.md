@@ -137,11 +137,11 @@
 - # Examples
 	- ## ((63da0e16-0074-496a-952b-bd3534890de6)): Double Ising to [[Toric Code]] condensation #card
 	  collapsed:: true
-	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-04-09T01:35:51.326Z
-	  card-last-reviewed:: 2023-03-16T01:35:51.327Z
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-06-01T11:22:10.035Z
+	  card-last-reviewed:: 2023-05-02T11:22:10.035Z
 	  card-last-score:: 5
 		- Note: We choose double Ising rather than Ising because $s_\psi=-1$. Pair two $\psi$ cancels the sign.
 		- Choose $\psi_1\psi_2$ as the anyon to be condensed.

@@ -30,21 +30,24 @@ alias:: GR
 		- A quick way to rederive it: Take $\tilde t=ict$, then the metric becomes Euclidean.
 		  We can first write down a rotation in the Euclidean space, then insert $i$ back.
 - # Elements of Differential Geometry
+  collapsed:: true
 	- Christoffel symbol #card
 	  collapsed:: true
 		- $$\Gamma_{a b}^c=\frac{1}{2} g^{c d}\left\{\partial_a g_{b d}+\partial_b g_{a d}-\partial_d g_{a b}\right\}$$
 		- Quick memorization: Two plus and a minus, raised by a metric, symmetric positive at the two lower indices
 	- Geodesic equation #card
 	  id:: 64268b1f-18f1-4eb8-a851-d33728ebfa9c
-	  collapsed:: true
 		- Covariant form:
-		  collapsed:: true
 		  $$
 		  u^a \nabla_a u^b=0
 		  $$
 			- The tangent vector is parallel transported!
+			- Actually the most general form is
+			  $$
+			  u^a \nabla_a u^b=\alpha u^b
+			  $$
+			  but we may show the curve can always be reparametrized to make $\alpha=0$.
 		- Written in coordinates:
-		  collapsed:: true
 		  $$
 		  \frac{d^2 x^\mu}{d t^2}+ \Gamma_{\sigma \nu}^\mu \frac{d x^\sigma}{d t} \frac{d x^\nu}{d t}=0
 		  $$
@@ -379,6 +382,7 @@ alias:: GR
 	- ## Geodesics and Motions
 		- It will be used a lot that ((6433ccd0-93c5-4ea3-965d-4aba75f860ac))
 		- ### Gravitational Redshift #card
+		  collapsed:: true
 			- Statement of the problem: Light emitted by one static observer is received by another one. How does the frequency differ?
 			- Setup
 				- The 4-velocities $u^a$ of the observers are tangent to the Killing field $\xi^a$
@@ -392,13 +396,62 @@ alias:: GR
 				- Light goes along a Schwarzschild geodesic.
 			- Solution
 				- Note that $\xi^a k_a$ remains a constant, $u^a$ is proportional to $\xi^a$ and $u^a u_a=-1$, so we only need to calculate how $\xi^a \xi_a$ changes.
-				- Prop. $$\xi^b \xi_b=g_{t t}=-(1-2 M / r)$$.
-					-
 				- Therefore
 				  $$
 				  \frac{\omega_1}{\omega_2}=\frac{\left.\left(-\xi^b \xi_b\right)^{1 / 2}\right|_{P_2}}{\left.\left(-\xi^b \xi_b\right)^{1 / 2}\right|_{P_1}}=\frac{\left(1-2 M / r_2\right)^{1 / 2}}{\left(1-2 M / r_1\right)^{1 / 2}}
 				  $$
 					- This is reasonable since light has redshift when it climbs up the gravitation.
+					- Note that in the coordinate $\partial_t g_{ab}=0$, thus $\xi^a \propto e^a_t$.
+					  $\xi^a$ is **not** uniquely fixed, but $u^a=\xi^a / \|\xi^a\|$ is.
+				- What's the microscopic mechanism? How to describe the microscopic behavior of light in gravity?
+				  background-color:: red
+					- It's expected that the redshift is an overall effect, leaving out the details.
+		- ### Deriving the Trajectory
+			- Summary #card
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-06-03T00:39:26.175Z
+			  card-last-reviewed:: 2023-05-04T00:39:26.176Z
+			  card-last-score:: 5
+				- First simplify the problem by fixing the geodesic on the equatorial plane $\theta=\pi/2$.
+				  collapsed:: true
+					- Note that the metric has a symmetry $\theta \to \pi - \theta$, thus a geodesic shouldn't break the sym.
+				- The idea is to avoid writing down the geodesic equation explicitly, but use the fact that $\xi^a u_a$ are conserved.
+					- The geodesic equation is present in the latter fact, but in a much more elegant form.
+				- That is, we write down the conserved quantities $E:=-\xi^a u_a$ and $L=\psi^a u_a$, then plug into
+				  collapsed:: true
+				  $$-\kappa=g_{ab} u^a u^b$$ 
+				  ($\kappa=0$ for null and $\kappa=1$ for timelike);
+					- $\xi^a$ is the timelike Killing field and $\psi^a$ is the rotation wrt the $\phi$ axis.
+					- Again, Killing fields are 'symmetries of motion', which give rise to conserved quantities; conserved quantities are extremely useful!
+				- After some very simple manipulations, we arrive at
+				  collapsed:: true
+				  $$
+				  \frac{1}{2} \dot{r}^2+\frac{1}{2}\left(1-\frac{2 M}{r}\right)\left(\frac{L^2}{r^2}+\kappa\right)=\frac{1}{2} E^2
+				  $$
+				  which can be regarded as a nonrelativistic effective potential
+				  $$
+				  V_{\text{eff}}=\frac{1}{2} \kappa-\kappa \frac{M}{r}+\frac{L^2}{2 r^2}-\frac{M L^2}{r^3}
+				  $$
+					- The first term is constant; the second and third terms are Newtonian; the last term is the relativistic effect.
+			- Physical Interpretations
+				- Orbits
+					- The circular orbits correspond to the extremas of the effective potential.
+						- For photons there are no minima, thus no stable orbits.
+					- The elliptical orbits correspond to an oscillation near minima of $V_{\text{eff}}$.
+					- ((6451c6c6-0c91-4f31-9c71-9833bed15002))
+					- When $L$ or $E$ is too small, there is no minimum and the particle (or photon) is doomed to crash into the planet!
+						- ((6451c710-66ce-4a83-a5d6-69f4d2fd64bc))
+				- Precession
+					- Simply put, the radial period isn't equal to the angular period, thus the orbit isn't closed.
+					- Illustration in a simple case
+						- Consider an oscillation near the stable orbits, which is similar to a harmonic oscillator.
+						- We can obtain $\omega_r$ and $\omega_\phi$, then the precession rate is $\omega_p=\omega_\phi-\omega_r$.
+				- Deflection of light
+					- Consider a photon coming from $r=\infty$ and going to $r=\infty$ again.
+					  Calculate $\Delta\phi$ in the process; the deflection angle is $\pi-\Delta\phi$.
+					-
 	- ## Interior Solution
 	  collapsed:: true
 		- Motivation: We're interested in what happens inside a massive body.
@@ -457,6 +510,12 @@ alias:: GR
 					- The boundary condition is $\rho=P=0$ at $r=R$.
 				- Thus when $R=9M/4$ the pressure needed at $r=0$ becomes **infinite**.
 					- The existence of such upper bound is quite interesting: It strongly suggests that heavy stars might undergo a gravitational collapse. #card
+					  card-last-interval:: 31.26
+					  card-repeats:: 1
+					  card-ease-factor:: 2.6
+					  card-next-schedule:: 2023-06-02T17:18:21.669Z
+					  card-last-reviewed:: 2023-05-02T11:18:21.669Z
+					  card-last-score:: 5
 						- *Reminder.
 						- Would QG prevent a total collapse?
 				- The upper bound can be derived by other ways, eg. non-singularity of the metric and $\xi^a$ being timelike.

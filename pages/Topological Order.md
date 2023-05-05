@@ -308,11 +308,11 @@
 								- Non-invertible ones are the (noninvertible) endomorphisms.
 						- [[Fusion rules]] of the domain walls #card
 						  id:: 63a69765-9737-4e07-a68e-b2b4796aa6b2
-						  card-last-interval:: 27.15
-						  card-repeats:: 1
-						  card-ease-factor:: 2.6
-						  card-next-schedule:: 2023-04-01T04:03:26.403Z
-						  card-last-reviewed:: 2023-03-05T01:03:26.403Z
+						  card-last-interval:: 30
+						  card-repeats:: 2
+						  card-ease-factor:: 2.7
+						  card-next-schedule:: 2023-06-01T11:19:57.561Z
+						  card-last-reviewed:: 2023-05-02T11:19:57.562Z
 						  card-last-score:: 5
 							- ((6397d84a-bb0f-4e71-93b8-5077ea559ddb))
 							- ((6397d8c8-261e-4b5e-8bb6-0dff22e5daec))
@@ -334,11 +334,11 @@
 								- GSD=2. We may label the ground states by the eigenvalues of the X operators.
 									- The trivial topological excitation $\mathbb{1}$ can be decomposed as the direct sum of simple ones $\mathbb{1}=\mathbb{1}_{+} \oplus \mathbb{1}_{-}$. where $X$ acts on $\mathbb{1}_{\pm}$as $\pm 1$.
 								- [[Fusion rules]] #card
-								  card-last-interval:: 25.01
-								  card-repeats:: 1
-								  card-ease-factor:: 2.6
-								  card-next-schedule:: 2023-03-25T13:39:53.086Z
-								  card-last-reviewed:: 2023-02-28T13:39:53.087Z
+								  card-last-interval:: 30
+								  card-repeats:: 2
+								  card-ease-factor:: 2.7
+								  card-next-schedule:: 2023-06-03T00:39:37.725Z
+								  card-last-reviewed:: 2023-05-04T00:39:37.726Z
 								  card-last-score:: 5
 									- $$
 									  \mathbb{1}_{\pm} \otimes \mathbb{1}_{\pm}=\mathbb{1}_{\pm} \text { 

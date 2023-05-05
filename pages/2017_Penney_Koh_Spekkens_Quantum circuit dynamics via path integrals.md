@@ -57,6 +57,12 @@ type:: paper_reading
 				- Don't say 'P depends on p via evolution'; here p and P can be arbitrarily chosen, with the trajectory determined by functional analysis.
 			- ((63e1f6f4-67aa-442d-9e66-4c1e238e7b24))
 	- ## Define action for discrete-time discrete-DOF systems #card
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-06-02T00:45:20.202Z
+	  card-last-reviewed:: 2023-05-03T00:45:20.202Z
+	  card-last-score:: 5
 		- The classical counterpart for a quantum system with discrete d.o.f. is ((63e35114-4fc2-470f-9ace-c8d3fbe19ef6)).
 			- ((63e35121-4bf6-4ae7-9809-a5fc8ceb8b28)).
 			- [[Non-Contextual]]

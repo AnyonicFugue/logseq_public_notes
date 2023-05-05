@@ -1,7 +1,9 @@
 - ((63902f14-d931-401b-a27f-5d9f95c9791c))
 	- For example, physical mass of electrons are not the bare mass.
 - # Principles and the Paradigm #card
+  collapsed:: true
 	- ## Empirical Knowledge
+	  collapsed:: true
 		- We can't probe physics at arbitrarily high $E$.
 			- Therefore, integrating to $k \to \infty$ is a huge **extrapolation**. (It's miraculous this doesn't fail completely).
 			- We can't even be sure that the theory is local or Lorentz covariant at high $E$.
@@ -25,10 +27,11 @@
 	- However, what does high $E$ mean?
 		- In QM we always have **eigen energy** and **expectation value**. Which is the $E$ here?
 - # Schemes of Regularization
+  collapsed:: true
 	- [[Dimensional Regularization]]
 	- [[Cutoff]] Regularization
 - # Renormalized Perturbation Theory
-	-
+  collapsed:: true
 	- Idea #card
 		- The 'real world of QFT' is quite messy. We must consider lots of renormalizations; what's worse, we don't know how to obtain a divergence-free result.
 		- Therefore we do two things to obtain an elegant formalism:
@@ -60,13 +63,13 @@
 		- Finally we obtain the renormalized Green function, which we expect be **divergence-free** and **regularization-independent**.
 		-
 	- ## Scheme 2: Rewrite the Lagrangian by Physical Quantities
-		- (1) Write $\phi_0=\sqrt{Z} \phi, m_0^2=m^2+\delta m^2, \lambda_0=z_\lambda \lambda \tilde{\mu}^{2 \varepsilon}$ where $z, \delta m^2, z_\lambda$ are to be determined.
+		- (1) Write $\phi_0=\sqrt{Z} \phi, m_0^2=m^2+\delta m^2, \lambda_0=Z_\lambda \lambda \tilde{\mu}^{2 \varepsilon}$ where $Z, \delta m^2, Z_\lambda$ are to be determined.
 		- (2) Rearrange the Lagrangian into a 'physical part' and a 'counter part':
 		  $$\begin{aligned}
 		  \mathcal{L} = & \frac{1}{2}\left( \partial ^{\mu } \phi _{0} \partial _{\mu } \phi _{0} -m_{0}^{2} \phi _{0}^{2}\right) -\frac{\lambda _{0}}{4!} \phi _{0}^{4}\\
 		  = & \frac{1}{2} Z\partial ^{\mu } \phi \partial _{\mu } \phi -\frac{1}{2} Z\left( m^{2} +\delta m^{2}\right) \phi ^{2} -Z_{\lambda } Z^{2}\tilde{\mu }^{2\varepsilon }\frac{\lambda }{4!} \phi ^{4}\\
 		  = & \left\{\frac{1}{2} \partial ^{\mu } \phi \partial _{\mu } \phi -\frac{1}{2} m^{2} \phi ^{2} -\frac{\lambda \tilde{\mu }^{2\varepsilon }}{4!} \phi ^{4}\right\} \ \text{(Physical)} \ +\\
-		   & \left\{\frac{1}{2} (Z-1)\partial ^{\mu } \phi \partial _{\mu } \phi -\frac{1}{2}\left[ (Z-1)m^{2} +Z\delta _{m}^{2}\right] \phi ^{2} -\left( Z_{\lambda } Z^{2} -1\right)\frac{\lambda \tilde{\mu }^{2\varepsilon }}{4!} \phi ^{4}\right\} \ \text{(Counter)}
+		   & \left\{\frac{1}{2} (Z-1)\partial ^{\mu } \phi \partial _{\mu } \phi -\frac{1}{2}\left[ (Z-1)m^{2} +Z\delta {m}^{2}\right] \phi ^{2} -\left( Z_{\lambda } Z^{2} -1\right)\frac{\lambda \tilde{\mu }^{2\varepsilon }}{4!} \phi ^{4}\right\} \ \text{(Counter)}
 		  \end{aligned}$$
 			- The counter term is to cancel all effects of renormalization and keep the formalism simple and elegant.
 		- (3) Determine the counter terms order by order from the requirement that
@@ -90,6 +93,8 @@
 				  \end{aligned}$$
 			- 2-loop order
 				- ![image.png](../assets/image_1682478818350_0.png){:height 350, :width 863}
+- # Systematic Analysis
+	-
 - # Thoughts
 	- ## Flaws of Perturbation Theory?
 		- From the viewpoint of exact diagonalization
@@ -121,12 +126,18 @@
 			- $\sqrt Z$ appears since the renormalized field $\phi =\frac 1 {\sqrt Z} \phi_0$. Here the internal fields are renormalized ones (the propagators are $\frac i {p^2-m^2+i\varepsilon}$), but the external fields are **not**.
 			- $s,t,u$ are the ((64238e6c-1aa2-4233-b9ab-a0b3e391eda2))
 		- The amplitude is **divergent** at $d=4$. But we can still make some sense out of this. #card
+		  card-last-interval:: 32.57
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-06T01:52:08.575Z
+		  card-last-reviewed:: 2023-05-04T12:52:08.576Z
+		  card-last-score:: 5
 			- Idea: We can measure $\lambda$ at some reference scattering process (e.g. at the shreshold, i.e. $s=4m^2,u=t=0$).
 			  Then we can compare different momenta to **cancel the divergence**.
 				- In other words, experimental data could also be a valuable input -- to fix a 'reference' not available from first principles! #[[Thoughts/Math and Physics]]
 				- This works since the UV divergence arises from the loop momenta and is independent of external momenta.
 			- Specifically:
-				- The effective coupling $\lambda$ satisfies
+				- The effective coupling $\lambda$ at the threshold satisfies
 				  $$
 				  \left.(\sqrt{Z})^4 \tilde{G}_{a m p}^{(4)}\right|_{s=4 m^2, u=t=0} \equiv-i \lambda \tilde{\mu}^{2 \varepsilon}
 				  $$

@@ -12,11 +12,11 @@ type:: [[Course]]
 - Kraus operator
   id:: 63840eb6-970a-4787-ad25-13a3cc29ece5
 	- Def #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-04-13T04:14:13.920Z
-	  card-last-reviewed:: 2023-02-05T00:14:13.920Z
+	  card-last-interval:: 252.3
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-01-07T07:55:26.428Z
+	  card-last-reviewed:: 2023-04-30T00:55:26.429Z
 	  card-last-score:: 5
 		- $E_k \equiv{ }_2\langle k|U| 0\rangle_2$
 			- U is some evolution of the **total** system.

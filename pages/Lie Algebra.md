@@ -30,11 +30,11 @@
 	  collapsed:: true
 		- A linear map preserving the commutator.
 	- [[Adjoint map]] #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-05-04T05:13:22.087Z
-	  card-last-reviewed:: 2023-02-26T01:13:22.089Z
+	  card-last-interval:: 252.3
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-01-11T19:49:49.052Z
+	  card-last-reviewed:: 2023-05-04T12:49:49.052Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- $\operatorname{ad}_X(Y)=[X, Y]$

@@ -3,7 +3,6 @@
 	- At $T=0$, we may change the parameter $g$ (or generally, a set of parameters $\{g_j\}$) to obtain a critical point.
 		- There may be a level-crossing / splitting at $g=g_c$.
 - # Basics
-  collapsed:: true
 	- Defs
 		- Quantum phase transition
 			- ((63940007-697b-452b-a112-4ca2a6b53d5f))
@@ -15,6 +14,7 @@
 			- ((6394286c-f118-4cc8-b890-7e38017f4459))
 				- $\xi^{-1} \sim \Lambda\left|g-g_c\right|^v$
 	- ## General analysis
+	  collapsed:: true
 		- Proposition. Inhomogeneity won't affect the universality class. #card
 		  card-last-interval:: 24
 		  card-repeats:: 2
@@ -28,7 +28,6 @@
 				- $x \rightarrow \sqrt{K_1} x, \quad \tau \rightarrow \sqrt{K_2} \tau$
 			- Q: Are there things, similar to [[Curvature]], that are unable to eliminate by coordinate transformations?
 		- Compare the values of $\Delta$ and $k_B T$
-		  collapsed:: true
 			- ((63942988-c4ea-4da9-b66c-ff2bd4b2f692))
 				- This is a diagram of crossovers, not phase transitions.
 		- We may also expand the effective action to obtain something similar to Ginzburg-Landau theory.
@@ -36,7 +35,12 @@
 				- $\phi=\phi(r,\tau)$ is now time-dependent.
 				- Time derivatives are now present in the action.
 					- Yet another hint that $Nd$ classical <-> $(N+1)d$ quantum!
-	-
+- # Dynamical Exponent
+	- In classical phase transitions, there are only **two** independent critical exponents.
+	- In the quantum case, however, there is one more...
+	- Def. Dynamical Exponent $z$
+		- $[\omega]=z \neq 1$
+		- Correspondingly, $[t]=-z$.
 - # Density Wave and [[Mean-Field Theory]]
 	- Def. Density wave
 		- In short, a density wave some order parameter which has a **periodic** spatial dependence.

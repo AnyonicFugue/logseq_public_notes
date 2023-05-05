@@ -33,6 +33,12 @@ alias:: QM
 - # [[Second Quantization]]
 - # Perturbation Theory
   id:: 644730bc-03b5-48b5-a75e-c31bdf1e5919
+	- ### Fermi's Golden Rule
+		- $$
+		  \Gamma_{i \rightarrow f}=\frac{2 \pi}{\hbar}\left|\left\langle f\left|H^{\prime}\right| i\right\rangle\right|^2 \rho\left(E_f\right)
+		  $$
+		- $\Gamma$ is the transition rate, i.e. transition probability per unit time
+		- $\rho(E_f)$ is the state density near the final state. For discrete levels this would be a Dirac delta.
 	- ## Time-Independent
 		- See [Griffith](((64473628-1f5e-4716-ae6b-39422002886f))) for reference.
 		- For degenerate perturbation theory, we need exact diagonalization within the degenerate space.

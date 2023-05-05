@@ -57,19 +57,20 @@ alias:: Representation
 			- Connecting Abstract algebra and rep. theory
 	- Regular representation #card 
 	  id:: 1e9f6e33-36ec-4362-9505-3b42540bb3a7
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-04-14T01:21:46.953Z
-	  card-last-reviewed:: 2023-03-21T01:21:46.954Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-07-26T00:48:56.296Z
+	  card-last-reviewed:: 2023-05-03T00:48:56.297Z
 	  card-last-score:: 5
 		- $$\left(\operatorname{Reg}( g_{1} ,g_{2}) f\right) (g)=f\left( g_{2}^{-1} gg_{1}\right),f\in M(T)$$
 			- The definition ensures Associativity:
 			  $(L(g_1)L(g_2)f)(g)=L(g_1)f(gg_2)=f((gg_1)g_2)=f(gg_1g_2)$
 			- $f$ usually taken to be $f_g(h)=\delta_{gh}$
 		-
-		- Maybe linked to differential geometry:
-		  A definition by pushforward.
+		- Thought behind
+			- The space of functions on $x$ could provide valuable information about the structure of $x$! #[[Thoughts/Math and Physics]]
+				- Note that automorphism (and Galois theory) is a special case.
 		- Obviously we can generalize to higher-rank tensors, which are tensor products of the regular representation.
 	- Character #card
 	  card-last-interval:: 30

@@ -101,6 +101,12 @@
 - # [[Generating Functional]]
   collapsed:: true
 	- ### Idea #card
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-06T01:54:22.106Z
+	  card-last-reviewed:: 2023-05-04T12:54:22.106Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- Set 
 		  $$Z[J] \equiv \int \mathcal{D} \phi \exp \left[i \int d^4 x[\mathcal{L}+J(x) \phi(x)]\right]$$
@@ -391,6 +397,12 @@
 	- ## Internal Symmetries
 	  collapsed:: true
 		- Summary #card
+		  card-last-interval:: 32.57
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-05T14:01:00.034Z
+		  card-last-reviewed:: 2023-05-04T01:01:00.035Z
+		  card-last-score:: 5
 			- Def. The symmetry only acts on the fields in a manner independent of the spacetime.
 			  eg. gauge symmetry
 			- We can obtain the Ward identities
@@ -406,6 +418,7 @@
 				  \left< \Omega\left| T\left\{( i\phi ( x_{1})) \phi ( x_{2}) \phi ^{\dagger }( x_{3})\right\}\right| \Omega\right> +\left< \Omega\left| T\left\{\phi ( x_{1})( i\phi ( x_{2})) \phi ^{\dagger }( x_{3})\right\}\right| \Omega\right>  & \\
 				  +\left< \Omega\left| T\left\{\phi ( x_{1}) \phi ( x_{2})\left( -i\phi ^{\dagger }( x_{3})\right)\right\}\right| \Omega\right>  & =0
 				  \end{aligned}$$
+				  In fact, any expectation of odd numbers of such fields are zero due to charge conservation.
 			- Also a stronger result of Ward identity for non-anomalous local symmetries
 			  \begin{equation*}
 			  \begin{aligned}

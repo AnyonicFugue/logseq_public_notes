@@ -33,11 +33,11 @@
 	  collapsed:: true
 		- In Lie groups, [[Connected]] is equivalent to [[Path Connected]]
 		- The ((6381bc92-5f90-4322-9a1b-0cbbf9128acc)) is a normal subgroup. #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-14T09:18:57.372Z
-		  card-last-reviewed:: 2023-02-18T09:18:57.373Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-06-03T12:49:15.148Z
+		  card-last-reviewed:: 2023-05-04T12:49:15.148Z
 		  card-last-score:: 5
 			- A simple exercise. Directly construct the path.
 		- $SU(2)$ is [[Simply connected]]. #card
@@ -57,11 +57,11 @@
 				- $\alpha$ and $\beta$ are arbitrary complex numbers satisfying $|\alpha|^2+|\beta|^2=1$
 		- ((639330f5-2eca-4f75-93cf-3fd1f6f9fe12)) There is a continuous bijection between $\mathrm{SO}(3)$ and $\mathbb{R} P^3$, thus $SO(3)$ isn't simply connected. #card
 		  card-last-score:: 5
-		  card-repeats:: 3
-		  card-next-schedule:: 2023-03-01T16:56:34.620Z
-		  card-last-interval:: 67.2
-		  card-ease-factor:: 2.8
-		  card-last-reviewed:: 2022-12-24T12:56:34.621Z
+		  card-repeats:: 4
+		  card-next-schedule:: 2024-01-11T07:47:02.251Z
+		  card-last-interval:: 252.3
+		  card-ease-factor:: 2.9
+		  card-last-reviewed:: 2023-05-04T00:47:02.251Z
 			- Note that $\mathbb{R} P^3$ is obtained by identifying points in $\mathbb R^4$.
 			- Intuition
 				- A rotation always has a principle axis. Thus the topological structure of $SO(3)$ is analogous to a 'direction' and an 'angle'.

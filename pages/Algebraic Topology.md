@@ -99,9 +99,11 @@
 					  $$
 						- A (inclining) closed interval for n=1, a triangle (vertices being $(1,0,0),(0,1,0),(0,0,1)$)) for n=2, a tetrahedron (?) for n=3, ...
 						- Obviously $\Delta^n \approx D^n$
-			- (Singular) $n$-simplex in a topological space $X$ #card
+			- Singular $n$-simplex #card
+			  id:: 64462ceb-3ede-4222-851b-57c2b29616b0
 				- ((64462d18-fd06-47e4-89b0-1b26cce381ab)) A (singular) $n$-simplex in $X$ is a continuous map $\sigma: \Delta^n \rightarrow X$, where $\Delta^n$ is the standard $n$-simplex.
 				  id:: 64462cfd-824d-4ac1-a0c2-4317a0835f50
+					- Note that two different maps which are homotopic are regarded as two **different** simplexes!
 				- Seems a natural generalization of paths (a path is a singular 1-simplex).
 					- It's an interesting question that which properties should be kept in a generalization.
 					- Here the key seems **affine**.
@@ -349,7 +351,7 @@
 		- An exercise to express the intuition via the language of retractions.
 		- Hint: Nul -> Trivial hom of $\pi_1$; Retraction -> Injective
 - [[Covering space]]
-- [[Fundamental group]]
+- [[Fundamental Group]]
 	- # The Categorical Viewpoint
 		- ((64365386-b7d7-4fea-907a-9cbb6aa97a3a)) $\pi_1: \mathbf{Top_*}\to\mathbf{Grp}$ is a (covariant) functor. Moreover, if $h$, $k:\left(X, x_0\right) \rightarrow\left(Y, y_0\right)$ and $h \simeq k \operatorname{rel}\left\{x_0\right\}$, then $\pi_1(h)=\pi_1(k)$. #card
 			- *To be completed
@@ -464,11 +466,11 @@
 				- Orientations matter!
 			- Examples (to gain intuitions) #card
 			  collapsed:: true
-			  card-last-interval:: 25.01
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-03-25T13:40:42.351Z
-			  card-last-reviewed:: 2023-02-28T13:40:42.351Z
+			  card-last-interval:: 30
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-05-30T00:54:06.396Z
+			  card-last-reviewed:: 2023-04-30T00:54:06.396Z
 			  card-last-score:: 5
 				- ((63eed83b-fcf4-4bd5-88f5-ef10ccafa501))
 				  collapsed:: true

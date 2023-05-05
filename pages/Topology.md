@@ -24,15 +24,17 @@
 - # Basics
   collapsed:: true
 	- Directed set #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-04-13T01:19:22.914Z
-	  card-last-reviewed:: 2023-03-20T01:19:22.915Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-07-27T00:41:11.827Z
+	  card-last-reviewed:: 2023-05-04T00:41:11.828Z
 	  card-last-score:: 5
 		- Def
 			- A directed set $J$ is a set with a partial order $\preceq$ such that for 
 			  each pair $\alpha, \beta$ of elements of $J$, there exists an element $\gamma$ of $J$ having the property that $\alpha \preceq \gamma$ and $\beta \preceq \gamma$
+				- Exist larger elements not for single elements, but also for **pairs**!
+				-
 			- A subset $K$ of $J$ is said to be **cofinal** in $J$ if for each $\alpha \in J$, there exists $\beta \in K$ such that $\alpha \preceq \beta$.
 			-
 		- This is a generalization of sequences: always 'later' terms.
@@ -223,6 +225,159 @@
 		- Every open covering $\mathcal{A}$ of $X$ has a locally finite open refinement $\mathscr{B}$ that covers $X$.
 		-
 		- Compare to [[Compact]]: A space $X$ is compact if every open covering $A$ of $X$ has a finite open refinement $\mathscr{B}$ that covers $X$
+- # Compactness
+	- ## Defs
+		- Compact  #card 
+		  collapsed:: true
+			- Finite subcover
+		- Isolated point  #card 
+		  collapsed:: true
+			- A point $x$ of $X$ is said to be an **isolated point** of $X$ if the one-point set $\{x\}$ is open in $X$
+		- Lebesgue number #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-04T00:33:24.723Z
+		  card-last-reviewed:: 2023-05-05T00:33:24.723Z
+		  card-last-score:: 5
+			- For a covering $\mathcal A$ and metric space X, for each subset of $X$ having diameter less than $\delta$, there exists an element of $\mathcal{A}$ containing it.
+			- Diameter
+				- For a bounded set A, $\operatorname{diam}(A):=\sup \left\{d\left(a_1, a_2\right) \mid a_1, a_2 \in A\right\}$
+		- Limit point compact #card 
+		  collapsed:: true
+			- Every infinite set of points has a limit point.
+			- [[Exercise] Show that it is equivalent to that every sequence has a convergent subsequence.
+		- Locally compact  #card 
+		  collapsed:: true
+			- Exist a [Compact]] subset $C$ containing some neighborhood of $x$
+			-
+			- Example. Q isn't locally compact
+	- ## Basic Facts
+		- Theorem. Every closed subspace of a compact space is compact.  #card
+		  collapsed:: true
+			- Easy.
+		- Theorem. The image of a compact space under a Continuous map is compact.  #card
+		  collapsed:: true
+			- Topo invariant
+		-
+	- Lemma. If $Y$ is a Compact subspace of the Hausdorff space $X$ and $x_{0}$ is not in $Y$. then  there exist disjoint open sets $U$ and $V$ of $X$ containing $x_{0}$ and $Y$, respectively. #card
+	  id:: 644efbcd-86a7-4549-95a7-6568220120f3
+	  collapsed:: true
+		- Compact ⇒ Finite ⇒ Intersect "Hausdorff open sets" $U(x_0,y)$
+		-
+		- Keywords:
+		-
+		- Pf: Intersection of the open sets of $x_0$
+	- Theorem. Every Compact subspace of a Hausdorff space is closed.  #card
+	  collapsed:: true
+		- Use the [Lemma](((644efbcd-86a7-4549-95a7-6568220120f3))).
+		- Union open sets containing "outer points" ; Intersects open sets containing "Inner points"
+		-
+		- Pf: Use Lemma 26.4 ,  union sets of points outside.
+		-
+		- Theorem.
+		  collapsed:: true
+			- Let $f:X\rightarrow Y$ be a bijective Continuous function If $X$ is Compact and $Y$ is Hausdorff, then $f$ is a homeomorphism
+			- Pf: Use to prove $f$ is a Closed map.
+	-
+	- Tube Lemma. Consider the product space $X\times Y$, where $Y$ is Compact. If $N$ is an open set of $X\times Y$ containing the slice $x_{0} \times Y$ of $X\times Y$, then $N$ contains some tube $W\times Y$ about $x_{0} \times Y$, where $W$ is a neighborhood of $x_{0}$ in $X$.   #card
+	  collapsed:: true
+		- By def. $N$ is a union of many $U\times V$
+		-
+		- For any $x_0\times y$ , we can find $U_i\times V_i$ containing it.
+		- $\cup{V_i}$ is an open covering of Y, thus we have finite subcover $\{V_j\}$
+		-
+		- Construct $W= \cap U_j$ ; it's finite intersection, thus open.
+		-
+	-
+	- Theorem. A subspace $A$ of $\mathbb{R}^{n}$ is Compact if and only if it is Closed and is bounded in the Euclidean metric $d$ or the square metric $\rho$.
+	  collapsed:: true
+		- Compact⇒ Closed : Theorem 26.3. Every Compact subspace of a Hausdorff space is closed.
+		- Compact ⇒ Bounded : If not , open balls ${D(0,n)}$ will be a cover.
+		-
+		- Closed ⇒ Compact : Theorem 27.1
+	-
+	- Theorem. Let $X$ be a nonempty Compact [[Hausdorff]] space. If $X$ has no Isolated point, then $X$ is uncountable.  #card
+	  collapsed:: true
+		- [[Message]]―The proof is errorneous, [[Correct Content]]
+		- We suppose $X$ is countable, find contradiction.
+		- Construct an open cover.
+		-
+		- Countable ⇒ Index the set with integers.
+		-
+		- First find with smallest index $a_0,b_0$ from $X$. Find $U(a_0,b_0)$ and $U(b_0,a_0)$.$O_0=U(b_0,a_0)$
+		- Add $U(a_0,b_0)$ to $\mathcal{C}$
+		-
+		- $U(b_0,a_0)$ must have more than 1 ptr.
+		- Find $a_1,b_1$ with smallest index from $O_0$
+		- Add $U(a_1,b_1)$ to $\mathcal{C}$ .
+		- $O_1=U(b_1,a_1)\cap O_0$
+		-
+		- Iterate this process, there will always be points outside.
+		- The union of the chain $\{\mathcal{C}_n\}$ is an open cover
+		-
+		- Corollary 27.8. Every closed interval in $\mathbb{R}$ is uncountable.
+	-
+	- Lemma (The Lebesgue number lemma). Let $\mathcal{A}$ be an open covering of the metric space $(X, d)$. If $X$ is Compact, there is a Lebesgue number $\delta>0$. #card
+	  collapsed:: true
+		- Intuitively, this theorem states that 'the open covering must have a nonzero **overlapping**'
+		-
+		- **Proof**:
+		- Simplify: We may only consider a finite covering A and open disks as subsets to be contained.
+		- Use contrapositive. Set $\delta_n=1/n$. We have a series of disks $D_n:=D(x_n,r_n)$, where $r_n<\delta_n$.
+		- Compact ⇒ [[Limit point compact]], so the sequence $(x_n)$ has a convergent subsequence.
+		- Denote the limit point as $y$. Some $D(y,\epsilon)$ must lie within some $A$.
+		- This A must contain some $D_n$, since $r_n$ vanishes. This leads to a contradiction.
+		-
+		- **Official proof**: Construct a distance function.
+		- Let $C_i=X-A_i$, $f(x)=\frac{1}{n} \sum_{i=1}^n d\left(x, C_i\right)$.
+		- Easy to see $f(x)>0$ for all x.
+		- Since x is continuous, it has a minimum. Denote it as $\delta$.
+		- Easy to see this is our required Lebesgue number.
+	- ## Limit Point Compactness
+		- Theorem. Compact implies limit point compactness, but not conversely.  #card
+		  collapsed:: true
+			- An easy exercise.
+		- Theorem. For a metrizable space, limit point compact is equivalent to compact.  #card
+		  collapsed:: true
+			- [[TODO] Prove by constructing a Lebesgue number.
+	-
+	- The best properties to deal with are Metrizable and [[Compact]] [[Hausdorff ]].
+	  collapsed:: true
+	  If we don't have such luck, can we embed the space under study into something with the properties? #Remark
+		- In Compact Hausdorff spaces, {{Closed ⇔ Compact}}.
+		- Sub-metrizable is still metrizable. But not for the latter.
+	- ## One-point Compactification
+		- Motivation
+			- Two of the best properties of a topological space are **compact** and **Hausdorff**.
+			  We'd like to ask the problem: Under what circumstances would a subspace inherit these properties?
+		- Def #card
+			- X is a subspace of Y
+			- $Y-X$ is a single point
+			- Y is compact Hausdorff
+			- Moreover, two compactifications are said to be homeomorphic with a homeomorphism acting as an identity on X.
+		- Theorem. $X$ is Locally compact [[Hausdorff]] if and only if $X$ has a one-point compactification.  #card
+			- q⇒p: Easier.
+			  Hausdorff is obvious. Just prove local compactness.
+			- Suppose $Y-X={z}$. Consider some point $x\in X$. Since Y is Hausdorff, we can find disjoint $U(x,z)$ and $U(z,x)$.
+			- The closure of $U(x,z)$ is closed in Y, thus compact.
+			  Moreover, since $U(x,z)$ and $U(z,x)$ are disjoint,  $\over {U(x,z)}$ and $U(z,x)$ are disjoint.
+			-
+			- p⇒q: We need to construct the topology of Y.
+			- When proving q⇒p, we noticed that In Compact Hausdorff spaces, Closed ⇔ Compact.
+			- Thus {$O(z)\in \mathscr T(Y)$} ⇔ $Y-O(z)$ closed and compact in Y ⇔ $Y-O(z)$ compact in X. 
+			  So the topology of Y shall be $\mathscr T(X) \cup \{Y-C|C\ compact\ in\ X\}$
+			- The rest is verifying it's indeed a topology, X has subspace topology, Y is compact.
+			-
+			- Remark: If X isn't compact, then z is a Limit point of X, which is quite interesting!
+		- Corollary. For [[Hausdorff ]] $X$ Locally compact ⇔ For $x$ in $X$ and a neighborhood $U(x)$, there is a neighborhood $V$(x) such that $\bar{V}$ is compact and $\bar{V} \subset U$  #card
+			- q⇒p: $\bar V$ serves as the compact subset.
+			- p⇒q: We may use the 1-point compactification.
+			- The rest is easy: Hausdorff ⇒ $Y-U(x)$ compact ⇒ We may find disjoint open sets covering $Y-U(x)$ and $U(x)$.
+			  The open set containing $U(x)$ is the desired $V(x)$. $V\cap U=\empty$ ⇒ $\bar V \cap U=\empty$
+			- Strategy: ((63c1416f-d51b-4487-865b-f9d3cf9b5918))
+		- Corollary. If X is loc. comp. Haus, A is closed or open in X, then A is Locally compact Hausdorff.
+		- Corollary $X$ is homeomorphic to an open subspace of a compact Hausdorff space if and only if $X${{ is locally compact Hausdorff.
 - # Separability
   collapsed:: true
 	- T1
@@ -246,6 +401,7 @@
 		- This property seems natural for spaces describing physical theories. #Remark
 	-
 - # Connectedness and Path Connectedness
+  collapsed:: true
 	- Defs
 		- Define $\pi_0(X)$ to be the set of path components of $X$. If $f: X \rightarrow Y$, define $\pi_0(f): \pi_0(X) \rightarrow \pi_0(Y)$ to be the function taking a path component $C$ of $X$ to the (unique) path component of $Y$ containing $f(C)$.
 			- ((6427f2e4-0f92-4d71-9056-c205ac7f7736)) $\pi_0: \mathrm{Top} \rightarrow \mathrm{Set}$ is a functor. Moreover, if $f \simeq g$, then $\pi_0(f)=$ $\pi_0(g)$ #card
@@ -257,20 +413,20 @@
 			- For each $x \in X$ and every open neighborhood $U$ of $x$, there is an open $V$ with $x \in V \subset U$ such that any two points in $V$ can be joined by a path in $U$.
 			- Intuition
 				- Each $x$ has a connected small neighborhood.
+			- ((642be6d7-d592-4d6e-9bed-7e9e0d6624dc)) A space $X$ is locally path connected if and only if path components of open subsets are open. In particular, if $X$ is locally path connected, then its path components are open.
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-05-13T17:25:23.623Z
+			  card-last-reviewed:: 2023-04-12T11:25:23.624Z
+			  card-last-score:: 5
+				- p -> q:
+					- It's easy to see $U=\cup_x V(x)$.
+						- $V(x)$ is in a single component.
+						- Openness of $U$ grants such a $V(x)$ exists.
+				- q -> p:
+					- The path components of $U$ are open. Just take the one containing $x$.
 	- Basic facts
-		- ((642be6d7-d592-4d6e-9bed-7e9e0d6624dc)) A space $X$ is locally path connected if and only if path components of open subsets are open. In particular, if $X$ is locally path connected, then its path components are open. #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-13T17:25:23.623Z
-		  card-last-reviewed:: 2023-04-12T11:25:23.624Z
-		  card-last-score:: 5
-			- p -> q:
-				- It's easy to see $U=\cup_x V(x)$.
-					- $V(x)$ is in a single component.
-					- Openness of $U$ grants such a $V(x)$ exists.
-			- q -> p:
-				- The path components of $U$ are open. Just take the one containing $x$.
 		- Corollary. For $x$ locally path-connected, the components of open subsets coincide with path components. #card
 		  card-last-interval:: 30
 		  card-repeats:: 1

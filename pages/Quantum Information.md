@@ -53,6 +53,12 @@
 	- Version2. CHSH
 	-
 	- General Description #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-05-30T00:48:43.412Z
+	  card-last-reviewed:: 2023-04-30T00:48:43.413Z
+	  card-last-score:: 5
 		- We have two observers.
 			- Alice may choose from a set of observations $\{x_i\}$, and Bob from $\{y_j\}$.
 			- They would obtain measurement results in $\{a_i\}$  and $\{b_j\}$
