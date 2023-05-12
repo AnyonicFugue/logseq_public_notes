@@ -5,6 +5,7 @@
 		- The intuition comes from $S^1$ in $\mathbb R^2-0$.
 		- However, note that a single point is a cycle but not a boundary.
 - # Defs
+  collapsed:: true
 	- ## About Orientations
 	  collapsed:: true
 		- Def. Orientation #card
@@ -38,6 +39,12 @@
 			-
 			-
 	- (Singular) $n$-chain #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-09T00:22:44.916Z
+	  card-last-reviewed:: 2023-05-10T00:22:44.916Z
+	  card-last-score:: 5
 		- Let $X$ be a topological space. For each $n \geq 0$, define $S_n(X)$ as the **free abelian group** with basis all ((64462ceb-3ede-4222-851b-57c2b29616b0)) in $X$; define $S_{-1}(X)=0$.
 		  id:: 64462e13-2a8c-4f01-b999-632c7b8b0110
 		  collapsed:: true
@@ -130,6 +137,7 @@
 		- If $\zeta=\sum m_i \sigma_i \in S_n(X)$, with all $m_i \neq 0$ and all $\sigma_i$ distinct, then the support of $\zeta$, denoted by $\mathrm{supp} \ \zeta$, is $\bigcup \sigma_i\left(\Delta^n\right)$.
 		- Note that $\mathrm{supp} \ \zeta$ is compact since it is a finite union of compact subsets.
 - # Basic Facts
+  collapsed:: true
 	- ((644638a3-9be7-46f8-8abb-f6c3ae2849af)) For all $n \geq 0$, we have $\partial_n \partial_{n+1}=0$. #card
 	  collapsed:: true
 		- First we explicitly write down 
@@ -180,6 +188,12 @@
 		- An easy exercise to recall the definitions.
 		  Discuss $n$ even and odd separately.
 	- Lemma 4.15. Let $A$ be a subspace of $X$ with inclusion $j: A \hookrightarrow X$. Then $j_{\#}: S_n(A) \rightarrow S_n(X)$ is an injection for every $n \geq 0$.
+	- ((6455b888-36b0-487b-b550-448faf23952c)). Let $X=\bigcup _{p=1}^{\infty } X^{p}$ with $X^{p} \subset X^{p+1}$ for all $p$ (call the inclusion maps $\lambda ^{p} :X^{p} \hookrightarrow X$ and $\left. \varphi ^{p} :X^{p} \hookrightarrow X^{p+1}\right)$. If every compact subspace $A$ of $X$ is contained in some $X^{p}$, then cls $\zeta \in H_{n} (X)$ is zero if and only if there exist $p$ and $\operatorname{cls} \zeta ^{\prime } \in H_{n}\left( X^{p}\right)$ with
+	  \begin{equation*}
+	  \lambda _{*}^{p}\operatorname{cls} \zeta ^{\prime } =\operatorname{cls} \zeta \quad \text{ and } \quad \varphi _{*}^{p}\operatorname{cls} \zeta ^{\prime } =0\text{. }
+	  \end{equation*}
+		- Note that
+		  ![image.png](../assets/image_1683339421269_0.png){:height 238, :width 327}
 - # Trying to Calculate the Homology Groups
 	- Theorem. If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the set of path components of $X$, then, for every $n \geq 0$,
 	  collapsed:: true
@@ -202,6 +216,7 @@
 				- Thus $Z_0(X)/B_0(X) \cong Z$, the group of 'sum of coefficients'.
 			- (ii)
 	- Theorem. If $X$ is a space with $H_n(A)=0$ for every compact subspace of $X$ and $n>0$, then $H_n(X)=0$. #card
+	  collapsed:: true
 		- *Note that this is a card combining two theorems, which has the advantage of illustrating the usage.*
 		- ((645372b1-03c6-414f-a6d5-be8fcb51e8ac)) (Compact Supports). If cls $\zeta \in H_n(X)$, then there is a compact subspace $A$ of $X$ with $\operatorname{cls} \zeta \in \operatorname{Im} j_*$, where $j: A \hookrightarrow X$ is the inclusion.
 			- This is equivalent to that the support space of $\zeta$ can be included in a compact subset $A$.
@@ -209,3 +224,8 @@
 				- $\zeta$ is a finite formal sum of some simplexes.
 			- However, $\operatorname{supp} \zeta$ itself is compact!
 		- Therefore consider $x \in H_n(X)$. $x \in j_*(H_n(A))$, but $H_n(A)=0$, so $x=0$.
+- # The Homotopy Axiom
+	- ((6455bc34-9cfb-4aff-9eda-66b2797bb373)). If $X$ is a bounded convex subspace of euclidean space, then $H_n(X)=0$ for all $n \geq 1$. In particular, $H_n\left(D^k\right)=0$ for all $n>0$ and all $k$.
+		- Remark
+			- For $n=0$ and $X \neq \empty$, we know $H_0(X) \simeq \Z$ since convex implies path-connectedness.
+		-

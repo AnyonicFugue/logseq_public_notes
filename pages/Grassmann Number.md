@@ -12,6 +12,7 @@
 		-
 	-
 - # Integration
+  collapsed:: true
 	- To define functional integrations, we only need to define the analog of $\int^\infty_{-\infty} dx$.
 	- We wish that the integration has some good properties:
 		- (1) A linear map of functions
@@ -91,9 +92,15 @@
 				- $$
 				   1=\int d \zeta \zeta=\frac{1}{a} \int d \zeta \zeta^{\prime}=\frac{1}{a} \int d \zeta^{\prime}\left\|\frac{d \zeta}{d \zeta^{\prime}}\right\| \zeta^{\prime}
 				  			$$
-			- This is due to the definition $\int d\theta \ \theta=1$ , which fixed lots of things
+			- This is due to the definition $\int d\theta \ \theta=1$ , which fixes lots of things
 		- Multiple variables
 			- Consider $\theta_i^{\prime}=U_{i j} \theta_j$, we have
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-06-09T00:31:40.661Z
+			  card-last-reviewed:: 2023-05-10T00:31:40.662Z
+			  card-last-score:: 3
 			  $$\prod _{i} \theta _{i}^{\prime } =(\operatorname{det} U)\left(\prod _{i} \theta _{i}\right)\\
 			  \prod _{i} d\theta _{i}^{\prime } =(\operatorname{det} U)^{-1}\left(\prod _{i} d\theta _{i}\right)
 			  $$ #card

@@ -23,18 +23,18 @@
 	- Note that the process of differentiation can be repeated infinitely and we may obtain the complete form of BCH.
 		- Only that we can't directly prove it in this way...
 - ((640ad204-613d-408c-9fb4-28e69ad1474d)) (BCH, Integral Version) For all $n \times n$ complex matrices $X$ and $Y$ with $\|X\|$ and $\|Y\|$ sufficiently small, we have
-  card-last-interval:: 24
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-04-24T11:49:29.579Z
-  card-last-reviewed:: 2023-03-31T11:49:29.579Z
   card-last-score:: 5
+  card-repeats:: 1
+  card-next-schedule:: 2023-04-24T11:49:29.579Z
+  card-last-interval:: 24
+  card-ease-factor:: 2.6
+  card-last-reviewed:: 2023-03-31T11:49:29.579Z
   $$
-  \log \left(e^X e^Y\right)=X+\int_0^1 g\left(e^{\mathrm{ad} X} e^{t\ \mathrm{ad} Y}\right)(Y) d t 
+  \log \left(e^X e^Y\right)=X+\int_0^1 g\left(e^{\mathrm{ad}_X} e^{t\ \mathrm{ad}_Y}\right)(Y) d t 
   $$
   where $g(z)=\frac{\log z}{1-\frac{1}{z}}$. #card
 	- Notes
-		- $e^{\operatorname{ad} x} e^{t \mathrm{ad}_Y}$ and, hence, also $g\left(e^{\operatorname{ad} X} e^{t \mathrm{ad}_Y}\right)$ are linear operators on the space $M_n(\mathbb{C})$ of all $n \times n$ complex matrices. This operator is being applied to the matrix $Y$.
+		- $e^{\operatorname{ad}_X} e^{t \mathrm{ad}_Y}$ and, hence, also $g\left(e^{\operatorname{ad} X} e^{t \mathrm{ad}_Y}\right)$ are linear operators on the space $M_n(\mathbb{C})$ of all $n \times n$ complex matrices. This operator is being applied to the matrix $Y$.
 		- The fact that $X$ and $Y$ are small guarantees that $e^{\mathrm{ad} X} e^{t \mathrm{ad} Y}$ is close to the identity operator on $M_n(\mathbb{C})$ for $0 \leq t \leq 1$, so that $g\left(e^{\mathrm{ad} X} e^{t \mathrm{ad} Y}\right)$ is well defined.
 	- Intuition
 	- Significance

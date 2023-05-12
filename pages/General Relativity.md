@@ -46,7 +46,8 @@ alias:: GR
 			  $$
 			  u^a \nabla_a u^b=\alpha u^b
 			  $$
-			  but we may show the curve can always be reparametrized to make $\alpha=0$.
+			  but we may show the curve can always be reparametrized by an affine parameter to make $\alpha=0$.
+			- Note that the affine parameter is a **canonical** choice, which also has a great physical meaning!
 		- Written in coordinates:
 		  $$
 		  \frac{d^2 x^\mu}{d t^2}+ \Gamma_{\sigma \nu}^\mu \frac{d x^\sigma}{d t} \frac{d x^\nu}{d t}=0
@@ -100,6 +101,12 @@ alias:: GR
 			  and invoke the fact that all derivative operators agree on scalar fields
 		- Covariant derivative #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-06T06:14:11.765Z
+		  card-last-reviewed:: 2023-05-06T00:14:11.765Z
+		  card-last-score:: 5
 			- We hope that $\nabla_a g_{bc}=0$. Moreover, it only differs from the partial derivative by a tensor denoted as $\Gamma$
 			- From $\nabla_a t^b=\partial_a t^b+\Gamma_{a c}^b t^c$, we can derive $$\Gamma_{a b}^c=\frac{1}{2} g^{c d}\left\{\partial_a g_{b d}+\partial_b g_{a d}-\partial_d g_{a b}\right\}$$
 			  collapsed:: true
@@ -225,6 +232,7 @@ alias:: GR
 		-
 	- ## Killing Vector
 	  id:: 6433cc8f-9fd7-4848-a229-d5b4372356d2
+	  collapsed:: true
 		- Def #card
 		  card-last-interval:: 32.57
 		  card-repeats:: 1
@@ -247,6 +255,12 @@ alias:: GR
 			  $$
 			  so $\xi^a$ is completely determined by its value and first-order derivative at some point (as boundary conditions).
 				- Immediately we see that there are at most $n+n(n-1) / 2=n(n+1) / 2$ linear independent Killing fields. #card
+				  card-last-interval:: 32.57
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-06-07T01:14:18.818Z
+				  card-last-reviewed:: 2023-05-05T12:14:18.819Z
+				  card-last-score:: 5
 					- *Reminder.
 					- $n(n-1)/2$ arises from $\nabla_a \xi_b+\nabla_b \xi_a=0$, i.e. antisymmetricity.
 - # Tricks in Calculation
@@ -307,6 +321,8 @@ alias:: GR
 				- Note that $g_{ab}\delta g^{ab}=-g^{ab} \delta g_{ab}$
 					- The indices **cannot** be raised and lowered arbitrarily in variations!
 - # The Schwarzchild Solution
+  id:: 6454f170-9fed-40e5-845e-c72df45c05ab
+  collapsed:: true
 	- $$
 	  d s^2=-\left(1-\frac{2 M}{r}\right) d t^2+\left(1-\frac{2 M}{r}\right)^{-1} d r^2+r^2 d \Omega^2
 	  $$
@@ -380,6 +396,7 @@ alias:: GR
 				- However it is somewhat unrigorous, since the form of the metric asserts something more than spherical symmetry.
 			- It can be proven in a mathematically elegant and rigorous way as [willemvanoosterhout_bscthesis_2019.pdf (wordpress.com)](https://annegretburtscher.files.wordpress.com/2019/11/willemvanoosterhout_bscthesis_2019.pdf)
 	- ## Geodesics and Motions
+	  collapsed:: true
 		- It will be used a lot that ((6433ccd0-93c5-4ea3-965d-4aba75f860ac))
 		- ### Gravitational Redshift #card
 		  collapsed:: true
@@ -437,21 +454,46 @@ alias:: GR
 					- The first term is constant; the second and third terms are Newtonian; the last term is the relativistic effect.
 			- Physical Interpretations
 				- Orbits
+				  collapsed:: true
 					- The circular orbits correspond to the extremas of the effective potential.
 						- For photons there are no minima, thus no stable orbits.
 					- The elliptical orbits correspond to an oscillation near minima of $V_{\text{eff}}$.
 					- ((6451c6c6-0c91-4f31-9c71-9833bed15002))
 					- When $L$ or $E$ is too small, there is no minimum and the particle (or photon) is doomed to crash into the planet!
 						- ((6451c710-66ce-4a83-a5d6-69f4d2fd64bc))
+				- Free falling of particles
+					- For an observer at infinity, any particle would needs infinite time (coordinate time) to fall to the event horizon ($r=r_s$)!
+					- However, the proper time of the particle is **finite**.
 				- Precession
+				  collapsed:: true
 					- Simply put, the radial period isn't equal to the angular period, thus the orbit isn't closed.
 					- Illustration in a simple case
 						- Consider an oscillation near the stable orbits, which is similar to a harmonic oscillator.
 						- We can obtain $\omega_r$ and $\omega_\phi$, then the precession rate is $\omega_p=\omega_\phi-\omega_r$.
 				- Deflection of light
+				  collapsed:: true
 					- Consider a photon coming from $r=\infty$ and going to $r=\infty$ again.
 					  Calculate $\Delta\phi$ in the process; the deflection angle is $\pi-\Delta\phi$.
 					-
+			-
+	- ## Kruskal Extension
+	  id:: 64586978-ccc6-4f29-ac28-b6b26a5aea8d
+	  collapsed:: true
+		- The strategy is classical:
+		  Examine the $r-t$ surface; find null geodesics and establish 'normal coordinates'; find affine parameters and extend.
+		- Result
+			- Metric:
+			  $$
+			  d s^2=\frac{32 M^3 e^{-r / 2 M}}{r}\left(-d T^2+d X^2\right)+r^2\left(d \theta^2+\sin ^2 \theta d \phi^2\right)
+			  $$
+			- Relations between coordinates:
+			  $$
+			  \begin{gathered}
+			  \left(\frac{r}{2 M}-1\right) e^{r / 2 M}=X^2-T^2 \\
+			  \frac{t}{2 M}=\ln \left(\frac{T+X}{X-T}\right)=2 \tanh ^{-1}(T / X)
+			  \end{gathered}
+			  $$
+		- See [Wald](((64586a3e-a531-406b-9161-8d2e5fdbf004))) for reference.
 	- ## Interior Solution
 	  collapsed:: true
 		- Motivation: We're interested in what happens inside a massive body.
@@ -520,6 +562,99 @@ alias:: GR
 						- Would QG prevent a total collapse?
 				- The upper bound can be derived by other ways, eg. non-singularity of the metric and $\xi^a$ being timelike.
 			-
+- # Dealing with Singularities
+  collapsed:: true
+	- Two possibilities
+		- Real singularity of spacetime
+			- Should be reachable by geodesics at **finite** affine parameters.
+			  background-color:: yellow
+				- This is an requirement from the physical side, but it's crucial!
+				- Can we consider the union of all points finitely reachable by geodesics?
+			- Usually with diverging curvature scalars
+		- Non-singular spacetime, just bad behaviors of coordinates
+			- This is usually shown by explicitly constructing the coordinate transformation
+	- ## Strategy #card
+		- *In general there's no known simple strategy. But this does exist in 2D.
+		- Step 1. Find two families of null geodesics (incoming and outgoing)
+			- Note that in 2D, geodesics within a family can't cross (since there's only one null tangent in 2D).
+			- What makes this work?
+			  background-color:: pink
+				- Exploiting the mathematical structure of the metric: Null space. It is a canonical choice for the construction of a preferred vector (coordinate).
+				- Also we may consider the eigensystem, but this seemed to be less useful.
+		- Step 2. Construct a coordinate, with component 1,2 **constant** along each geodesic in family 1,2 separately.
+			- A geodesic is geometrical, but the length along a geodesic is not.
+		- Step 3. Find affine parameters and re-parameterize. Coordinate singularities would disappear in the new coordinate.
+			- Affine parameters represent the 'physical length'.
+		- Step 4. Perform the extension.
+	- ## Examples
+		- $$
+		  d s^2=-\frac{1}{t^4} d t^2+d x^2
+		  $$
+			- [ref](((64586a65-4715-465e-8561-8b0c5237f695)))
+			- Seemingly singular at $t=0$.
+			- Perform $t':=1/t$, we obtain
+			  $$
+			  d s^2=-\left(d t^{\prime}\right)^2+d x^2
+			  $$
+			  which is flat.
+			- Moreover, $t \to 0$ corresponds to $t' \to \infty$, showing that it could **never** be reached by an observer (i.e. not at a finite affine parameter of the geodesic).
+		- $$
+		  d s^2=-x^2 d t^2+d x^2
+		  $$
+			- [ref](((64586b43-dd3c-4922-9763-a440d5bdbde3)))
+			- Seemingly singular at $x=0$, where the metric becomes degenerate.
+			- However, proceed by our classical strategy, we see it is actually flat!
+		- ((64586978-ccc6-4f29-ac28-b6b26a5aea8d))
+	-
+- # Spacetime Diagrams
+	- ## Penrose Diagram
+		- Idea
+		  collapsed:: true
+			- Use a conformal transformation (usually involving $\tan$) to bring the points at infinity to finite points. Then the spacetime diagram becomes intuitive.
+			- We'd better keep null geodesics going along $\pm \frac \pi 4$, so we can easily observe the behavior of geodesics.
+		- Examples
+			- Minkowski spacetime
+				- Transformation
+					- $$
+					  \begin{aligned}
+					  t & =\frac{1}{2} \tan \frac{T+R}{2}+\frac{1}{2} \tan \frac{T-R}{2} \\
+					  r & =\frac{1}{2} \tan \frac{T+R}{2}-\frac{1}{2} \tan \frac{T-R}{2}
+					  \end{aligned}
+					  $$
+					- $$
+					  \begin{aligned}
+					  d s^2= & \left(4 \cos ^2 \frac{T+R}{2} \cos ^2 \frac{T-R}{2}\right)^{-1}\left(-d T^2+d R^2\right) \\
+					  & +r^2 d \theta^2+r^2 \sin ^2 \theta d \phi^2
+					  \end{aligned}
+					  $$
+						- Null geodesics still going along 45deg!
+				- Diagram
+					- ![image.png](../assets/image_1683856873562_0.png){:height 670, :width 477}
+					- Future time-like infinity $i^{+}:$the region toward which time-like geodesics extend. It corresponds to the points at $t \rightarrow \infty$ with finite $r$.
+					- Past time-like infinity $i^{-}:$the region from which time-like geodesics come. It corresponds to the points at $t \rightarrow-\infty$ with finite $r$.
+					- Spatial infinity $i^0$ : the region toward which space-like slices extend. It corresponds to the points at $r \rightarrow \infty$ with finite $t$.
+					- Future null infinity $\mathscr{I}^{+}:$the region toward which outgoing null geodesics extend. It corresponds to the points at $t+r \rightarrow \infty$ with finite $t-r$.
+					- Past null infinity $\mathscr{I}^{-}$: the region from which ingoing null geodesics come. It corresponds to the points at $t-r \rightarrow-\infty$ with finite $t+r$.
+			- ((6454f170-9fed-40e5-845e-c72df45c05ab)) #card
+				- Transformation
+					- \begin{aligned}
+					  & \tilde{t}=\frac{1}{2} \tan \frac{T+R}{2}+\frac{1}{2} \tan \frac{T-R}{2} \\
+					  & \tilde{r}=\frac{1}{2} \tan \frac{T+R}{2}-\frac{1}{2} \tan \frac{T-R}{2}
+					  \end{aligned}
+					- $$
+					  \begin{aligned}
+					  d s^2= & \frac{32 G_{\mathrm{N}}^3 M^3}{r} e^{-r /\left(2 G_{\mathrm{N}} M\right)}\left(4 \cos ^2 \frac{T+R}{2} \cos ^2 \frac{T-R}{2}\right)^{-1}\left(-d T^2+d R^2\right) \\
+					  & +r^2 d \theta^2+r^2 \sin ^2 \theta d \phi^2
+					  \end{aligned}
+					  $$
+				- Diagram
+					- ![image.png](../assets/image_1683857005756_0.png){:height 439, :width 638}
+					- The curly lines correspond to the singularity
+					- The red lines correspond to the event horizon (Exercise: verify that $r=2M$ corresponds to $T=\pm R$)
+					- Null geodesics are going from small $T$ to large $T$, in angle $\pi /4$.
+						- If they come from region IV to region I, then they can reach the null infinity $\mathscr I^+$.
+						- If they come from $\mathscr I^-$, then they will go into region II and finally fall into the singularity.
+					- Matters in region II can never escape. Even null geodesics are bound to fall into the singularity, let alone timelike ones.
 - # Theories in Curved Spacetime
   collapsed:: true
 	- Principle of minimal substitution
@@ -600,15 +735,24 @@ alias:: GR
 					- Note that we can obtain $\gamma_{ab}$ back by taking trace.
 		- Restore Newtonian gravity
 			- Summary #card
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-06-08T00:20:44.943Z
+			  card-last-reviewed:: 2023-05-09T00:20:44.944Z
+			  card-last-score:: 5
 				- *Simplified way
 					- Derive $h_{t t}=-\frac{2 \Phi}{c^2}$ from the geodesic equation, which should recover EOM in Newtonian gravity
 					- Plug the above expression to the Einstein equation and recover the Poisson equation.
-				- Find a suitable coordinate where $T_{a b} \approx \rho t_a t_b$, where $t$ is the time direction of the coordinate (almost inertial)
-				- The equation becomes $\nabla^2 \bar{\gamma}_{00}=-16 \pi \rho$, where $\phi \equiv-\frac{1}{4} \bar{\gamma}_{00}$ satisfies Poisson's equation,
-				  $$
-				  \nabla^2 \phi=4 \pi \rho
-				  $$
-					- Just the Newtonian gravity!
+				- Metric side
+					- Same as before: $g_{a b}=\eta_{a b}+\gamma_{a b}$, fix the gauge to obtain $\partial^c \partial_c \bar{\gamma}_{a b}=-16 \pi T_{a b}$, where $\bar{\gamma}_{a b}=\gamma_{a b}-\frac{1}{2} \eta_{a b} \gamma$.
+				- Matter side
+					- Find a suitable coordinate where $T_{a b} \approx \rho t_a t_b$, where $t$ is the time direction of the coordinate (almost inertial)
+					- The equation becomes $\nabla^2 \bar{\gamma}_{00}=-16 \pi \rho$, where $\phi \equiv-\frac{1}{4} \bar{\gamma}_{00}$ satisfies Poisson's equation,
+					  $$
+					  \nabla^2 \phi=4 \pi \rho
+					  $$
+						- Just the Newtonian gravity!
 				- The final task is to verify the geodesic equation.
 					- For slow motions, we may approximate $d x^\alpha / d \tau \approx (1,0,0,0)$, thus the geodesic equation writes
 					  $$\frac{d^2 x^\mu}{d t^2}=-\Gamma^\mu{ }_{00}$$

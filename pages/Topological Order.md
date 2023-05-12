@@ -449,12 +449,12 @@
 							- ((63a812f4-ed38-4776-b113-a9efcdcf941d))
 								- $Q:=\sigma_x^1 \sigma_y^2 \sigma_z^3 \sigma_z^4 \sigma_z^5$
 							- Fusion of the 0D domain walls between 1D domain walls #card
-							  card-last-interval:: 24
-							  card-repeats:: 2
-							  card-ease-factor:: 2.22
-							  card-next-schedule:: 2023-04-08T00:31:28.325Z
-							  card-last-reviewed:: 2023-03-15T00:31:28.326Z
-							  card-last-score:: 3
+							  card-last-interval:: 69.6
+							  card-repeats:: 3
+							  card-ease-factor:: 2.32
+							  card-next-schedule:: 2023-07-18T14:21:54.666Z
+							  card-last-reviewed:: 2023-05-10T00:21:54.667Z
+							  card-last-score:: 5
 								- ((63a94538-8523-4da0-893f-7e7a7ed7aac3))
 								- $Q_1 Q_2=A_{v_1} A_{v_2} B_p, \quad\left[Q_i, B_p\right]=0, \quad\left\{Q_i, A_{v_1}\right\}=\left\{Q_i, A_{v_2}\right\}=0,(i=1,2)$
 								- $\chi_{\pm} \otimes \chi_{\pm}=\mathbb{1} \oplus f, \quad \chi_{\pm} \otimes \chi_{\mp}=e \oplus m$
@@ -500,11 +500,11 @@
 				- Can we overcome the difficulty?
 	- [[Principle of Emergence]]
 		- It is simply astounding that fermionic and anyonic, even abelian, statistics can arise from purely bosonic systems! #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-07T10:57:35.135Z
-		  card-last-reviewed:: 2023-02-11T10:57:35.135Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-06-11T00:29:31.211Z
+		  card-last-reviewed:: 2023-05-12T00:29:31.211Z
 		  card-last-score:: 5
 			- This strongly suggests that the [[Elementary Particles]] might be emergent.
 	- ## Experimental Realizations

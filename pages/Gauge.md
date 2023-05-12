@@ -1,6 +1,7 @@
 alias:: Gauge Theory
 
 - [What is a gauge? | Teherence Tao](https://terrytao.wordpress.com/2008/09/27/what-is-a-gauge/)
+- ((64565059-ba36-4bfd-8fa8-516fa601aab3))
 - # Motivations
 	- When we try to construct theories like $A^\mu A^\nu \partial_\mu A_\nu$ or $A^4$, we would encounter negative norms.
 		- The problem is absent in QED because ((640458fa-7092-47a3-a5db-acb4759ce58a)).
@@ -206,6 +207,12 @@ alias:: Gauge Theory
 					- Is $\bar \psi$ acting $\gamma_0$ on two components separately, or exchanging the two components? #Learning-TODO
 					  background-color:: red
 			- ## EOM #card
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-06-07T00:32:11.064Z
+			  card-last-reviewed:: 2023-05-08T00:32:11.064Z
+			  card-last-score:: 5
 				- Dirac fields
 					-
 				- Vector field

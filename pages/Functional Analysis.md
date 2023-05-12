@@ -1,7 +1,6 @@
 - # Basics
 	- ## Defs
 		- Functional derivative
-		  collapsed:: true
 			- Consider a theory involving a tensor field (or collection of tensor fields) defined on a manifold $M$.
 			- Let $S[\psi]$ be a functional of $\psi$, let $\psi_\lambda$ be a smooth one parameter family of field configurations starting from $\psi_0$ which satisfy appropriate boundary conditions. We denote $d \psi_\lambda /\left.d \lambda\right|_{\lambda=0}$ by $\delta \psi$. Suppose $d S / d \lambda$ at $\lambda=0$ exists for all such one-parameter families starting from $\psi_0$.
 			  Suppose, furthermore, that there exists a smooth tensor field $\chi$ [which is dual to $\psi$, i.e., if $\psi$ is a tensor field of type $(k, l)$, then $\chi$ will be of type $(l, k)]$ such that for all such families we have
@@ -18,8 +17,6 @@
 					  Naturally, the next thought is to vary the whole function in a smooth manner, which lead to a one-parameter family.
 					- Smooth one-parameter families are perfectly legitimate, but there bound to be some better ways.
 						- Maybe ask category for help?
-				- Exercise. Vary the action for KG theory. #card
-					-
 			- See [Wald](((64297a39-f7ff-4ff6-9670-c0ab2cfbf079)))
 			- Note
 				- In a Lagrangian formulation, we have the action as an integral over a local function

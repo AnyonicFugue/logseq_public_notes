@@ -105,8 +105,11 @@ type:: [[Course]]
 				- By Fourier transformation, we can diagonalize the Hamiltonian and obtain $E_{\vec{k}}=-2 t\left[\cos \left(k_x a\right)+\cos \left(k_y a\right)\right]$.
 	- ## Bloch Wavefunction
 	  collapsed:: true
-		- Bloch theorem
-			- $\psi_k(r)=e^{ikr}u_k(r)$ in a periodic potential.
+		- Bloch Theorem. $\psi_k(r)=e^{ikr}u_k(r)$ in a periodic potential.
+			- Note that the wavefunction **cannot be normalized** when the system is infinite.
+			- Proof
+				- In a periodic potential, the Hamiltonian $H$ commutes with the period-translation operator $T$. Thus we may find their common eigenvectors.
+			-
 		- Notation
 			- $$
 			  \psi_{n \vec{k}}(\vec{r})=e^{i \vec{k} \cdot \vec{r}} u_{n \vec{k}}(\vec{r})
@@ -140,6 +143,12 @@ type:: [[Course]]
 - # [[Fermi Liquid]]
   collapsed:: true
 	- Assumptions of Landau Theory of Fermi Liquids #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-06T18:01:23.668Z
+	  card-last-reviewed:: 2023-05-06T12:01:23.668Z
+	  card-last-score:: 5
 		- There is still a fermi surface of some shape
 		- There are quasiparticle excitations near the fermi surface, which might decay.
 		- Energy functional
@@ -147,7 +156,7 @@ type:: [[Course]]
 			  \delta E=\sum_{k \sigma} \varepsilon_k^0 \delta n_0(k)+\frac{1}{2 v} \sum_{k_1 k_2 \sigma_1 \sigma_2} f_{\sigma_1, \sigma_2}\left(k_1, k_2\right) \delta n_{\sigma_1}\left(\vec{k}_1\right) \delta n_{\sigma_2}\left(\vec{k}_2\right)
 			  $$
 			- The first term is 1-body energy.
-				- $\varepsilon_k^0=\frac{k_f}{m^*}\left(k-k_F\right)$, where $m*$ is the ^^effective mass^^.
+				- $\varepsilon_k^0=\frac{k_F}{m^*}\left(k-k_F\right)$, where $m*$ is the ^^effective mass^^.
 			- The second term is 2-body part.
 				- $$
 				  \begin{aligned}
@@ -169,11 +178,11 @@ type:: [[Course]]
 		- Obviously the volume of the phase space is proportional to $\epsilon^2$.
 	- Calculate physical quantities
 		- Heat capacity at low temperatures #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-21T00:59:48.624Z
-		  card-last-reviewed:: 2023-03-28T00:59:48.624Z
+		  card-last-interval:: 84
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-07-28T12:05:20.771Z
+		  card-last-reviewed:: 2023-05-05T12:05:20.772Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- First calculate the energy of a certain configuration. The heat capacity would be known once the state density is known.
@@ -223,6 +232,12 @@ type:: [[Course]]
   collapsed:: true
 	- Definitions
 		- [[Green Function]] #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-06T18:04:27.576Z
+		  card-last-reviewed:: 2023-05-06T12:04:27.577Z
+		  card-last-score:: 5
 			- ((640be051-94a7-40d3-bcc0-581ee03f5cdb)) $G_\sigma\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right):=-\mathrm{i} T\left\langle\psi_\sigma(\mathbf{r}, t) \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\rangle$
 				- T is the time ordering, where 
 				  $$
@@ -266,6 +281,7 @@ type:: [[Course]]
 			  is at the heart of the difference between $G_\sigma^{>(<)}$and the Green functions.
 			- In the Green functions, the time integrals always started or terminated at the origin. Consequently, the time integrations always yielded a function of the form, $1 /(x \pm \mathrm{i} 0)$. Such a function has non-zero real and imaginary parts. Such is not the case in either $G_\sigma^{>}$or $G_\sigma^{<}$. As a
 	- ## Fermionic Green Function
+	  collapsed:: true
 		- Def
 			- $$G_{\sigma_1 \sigma_2}^R\left(r_1, t_1; r_2, t_2\right):=-\frac{i}{\hbar} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_{\sigma_1}\left(r_1, t_1\right), \psi_{\sigma_2}^{\dagger}\left(r_2, t_2\right)\right\}\right\rangle$$
 				- Always use anti-commutators for fermions.
@@ -274,7 +290,7 @@ type:: [[Course]]
 				  \tilde{G}^R(\vec{k}, \omega):=\int dt e^{-i\omega t}\int d^3 \vec{r}\ e^{-i \vec{k} \cdot \vec{r}}\ G^R(\vec{r}, t) 
 				  $$
 			- Spectral Function
-				- $$A(k, \omega):=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle =-\frac{1}{\pi} \operatorname{Im} G^R(k, \omega)$$
+				- $$A(k, \omega):=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle$$
 				- Moreover,
 				  $$G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(k, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i \varepsilon}
 				  $$ #card
@@ -285,9 +301,13 @@ type:: [[Course]]
 					- Invoke ((6401b89c-a4af-4f0c-b59f-d44a3c164ff6)): $\chi_1(\omega)=\frac{1}{\pi} \mathcal{P} \int_{-\infty}^{\infty} \frac{\chi_2\left(\omega^{\prime}\right)}{\omega^{\prime}-\omega} d \omega^{\prime}$
 					  collapsed:: true
 						- Note that there is an extra minus in the definition of $A$, thus the denominator of the integrand is also minused.
-					- Exercise. $A(\vec{k}, \omega) {=} \frac{1}{2 \pi} \int d t \ e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle$ #card
-					  collapsed:: true
+					- Exercise. Prove
+					  $$A(\vec{k}, \omega) :=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle =-\frac{1}{\pi} \operatorname{Im} G^R(k, \omega)$$ #card
+						- Start from the definition
+						  $$G^R(k,t)=-\frac{i}{\hbar} \theta(t)\left\langle\left\{c_k(t), \hat{c}_k^{\dagger}(0)\right\}\right\rangle$$
+							- Note that there is an **anti-commutator** in the retarded Green function!
 						- $A=(G^R-\overline{G^R})/(2i)$, which completes the integral to the whole real axis.
+					-
 		- Exercise. $\tilde{G}^R(\vec{k} , t):=\int d^3 \vec{r} \ G^R(\vec{r}, t) e^{-i \vec{k} \cdot \vec{r}}$ is equal to $-\frac{i}{\hbar} \theta(t)\left\langle\left\{c_k(t), \hat{c}_k^{\dagger}(0)\right\}\right\rangle$ #card
 		  id:: 64238eab-3720-439b-89ee-0db9febede8b
 			- That is, FT of the Green function is equal to the Green function of the FT representation.
@@ -387,7 +407,7 @@ type:: [[Course]]
 			- $\langle\hat{B}\rangle(t)=y(t)$ satisfies $y(t)=\int_{-\infty}^t d t^{\prime} \chi\left(t, t^{\prime}\right) h\left(t^{\prime}\right)$
 		- Correlation
 			- $S_{B A}\left(t, t^{\prime}\right):=\left\langle\hat{B}(t) \hat{A}\left(t^{\prime}\right)\right\rangle$
-	- Introduce [[Interaction Picture]]
+	- Introduce ((645712fb-6e94-424c-a970-bb124f0c8e65))
 	  collapsed:: true
 		- Leave the background part on the observable and the perturbation part to the density matrix (state)
 		- Basics
@@ -468,10 +488,16 @@ type:: [[Course]]
 - # Local Magnetic Moment
   collapsed:: true
 	- Summary #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-06T18:07:45.793Z
+	  card-last-reviewed:: 2023-05-06T12:07:45.794Z
+	  card-last-score:: 5
 		- Single-impurity Anderson Model
 		  $$H= \sum_{k \sigma} E_k c^\dag_{k \sigma} c_{k \sigma} + \sum_\sigma E_d c^\dag_{d \sigma} c_{d \sigma} + \sum_{k \sigma}\left(V_{k d} c_{k \sigma}^{\dag} c_{d \sigma}+(c.c.)\right)+U n_{d \uparrow} n_{d \downarrow} .$$
 		- Mean-field approximation
-		  $$H=\sum _{k\sigma } E_{k} c_{k\sigma }^{\dagger } c_{k\sigma } +\sum _{\sigma } E_{d} c_{d\sigma }^{\dagger } c_{d\sigma } +\sum _{k\sigma }\left( V_{kd} c_{k\sigma }^{\dagger } c_{d\sigma } +(h.c.)\right) +Un_{d\uparrow }< n_{d\downarrow }> +U< n_{d\uparrow }> n_{d\downarrow }$$
+		  $$H=\sum _{k\sigma } E_{k} c_{k\sigma }^{\dagger } c_{k\sigma } +\sum _{\sigma } E_{d} c_{d\sigma }^{\dagger } c_{d\sigma } +\sum _{k\sigma }\left( V_{kd} c_{k\sigma }^{\dagger } c_{d\sigma } +(h.c.)\right) + \\Un_{d\uparrow }< n_{d\downarrow }> + U< n_{d\uparrow }> n_{d\downarrow }$$
 		-
 	- ## Model: Single-impurity Anderson Model
 	  collapsed:: true

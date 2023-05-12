@@ -128,11 +128,11 @@ alias:: Quantum Error Correcting Code
 				- Why no $M_5$?
 					- Because $M_5=M_1M_2M_3M_4$
 			- All stabilizers with generators ((638605de-c46e-4b9d-89ea-a69241304577)) #card
-			  card-last-interval:: 67.2
-			  card-repeats:: 3
-			  card-ease-factor:: 2.8
-			  card-next-schedule:: 2023-05-09T04:39:11.276Z
-			  card-last-reviewed:: 2023-03-03T00:39:11.277Z
+			  card-last-interval:: 252.3
+			  card-repeats:: 4
+			  card-ease-factor:: 2.9
+			  card-next-schedule:: 2024-01-17T07:24:23.733Z
+			  card-last-reviewed:: 2023-05-10T00:24:23.733Z
 			  card-last-score:: 5
 				- 4 generators, each can be 0 or 1. $|G|=4^2=16$
 				- Aside from M1 and the four operators obtained from it by cyclic permutations, the stabilizer will also contains M1M2 plus its cyclic permutations, and M1M3 plus its cyclic permutations.

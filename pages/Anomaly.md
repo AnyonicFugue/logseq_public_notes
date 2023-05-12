@@ -2,6 +2,12 @@ alias:: Anomalous
 
 - # Defs
 	- In topological phases #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-06T18:05:28.511Z
+	  card-last-reviewed:: 2023-05-06T12:05:28.512Z
+	  card-last-score:: 5
 		- ((636874d3-031a-4841-a85e-08536a4f1e1e))
 	- In field theory #card
 		- The path integral **measure** fails to be invariant under the symmetry, i.e.

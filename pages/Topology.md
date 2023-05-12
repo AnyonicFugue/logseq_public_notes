@@ -255,6 +255,12 @@
 	- ## Basic Facts
 		- Theorem. Every closed subspace of a compact space is compact.  #card
 		  collapsed:: true
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-07T00:26:39.498Z
+		  card-last-reviewed:: 2023-05-08T00:26:39.498Z
+		  card-last-score:: 5
 			- Easy.
 		- Theorem. The image of a compact space under a Continuous map is compact.  #card
 		  collapsed:: true

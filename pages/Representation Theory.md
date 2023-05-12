@@ -18,8 +18,14 @@ alias:: Representation
 	- Unitary representation
 		- Representation operators are unitary
 	- Completely reducible #card
-		- Every invariant subspace $U\subset V$ has an invariant complement $W$. (Recall that $W$ is called a COMPLEMENT of $U$ if $V=U\oplus W$.)
-		- That is, can be decomposed into a sum of invariant reps.
+	  card-last-interval:: 29.66
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-07T15:27:37.721Z
+	  card-last-reviewed:: 2023-05-09T00:27:37.722Z
+	  card-last-score:: 5
+		- Every invariant subspace $U\subset V$ has an invariant complement $W$. (Recall that $W$ is called a complement of $U$ if $V=U\oplus W$.)
+		- For finite-dimension reps, this is equivalent to 'decomposable into a sum of irreps'.
 	- ## Produce new reps from old ones
 		- With every invariant subspace $U$ we can associate two linear representations of  $G$, acting on the spaces  $U$ and  $V/U$ respectively.
 		- Tensor product

@@ -54,11 +54,11 @@ type:: paper_reading
 	- ## Summary of Techniques
 	  collapsed:: true
 		- Replica Trick: $\mathbb{E} \log X=\left.\frac{\partial}{\partial \alpha} \mathbb{E} X^\alpha\right|_{\alpha=0}=\left.\frac{\partial}{\partial \alpha} \log \mathbb{E} X^\alpha\right|_{\alpha=0}$ #card
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-05T11:16:31.750Z
-		  card-last-reviewed:: 2023-04-05T11:16:31.751Z
+		  card-last-interval:: 84
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-08-01T00:25:19.045Z
+		  card-last-reviewed:: 2023-05-09T00:25:19.045Z
 		  card-last-score:: 5
 			- Write $\mathbb E(X^\alpha)=\int dV X^\alpha \rho(X)=\int dV e^{\alpha \ln(X)}\rho(X)$, then everything follows.
 		- Average the random unitary by “Weingarten calculus” transformation ((63f03c10-91cd-4750-a5a3-0e18c646964f))

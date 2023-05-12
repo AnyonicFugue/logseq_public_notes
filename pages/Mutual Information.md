@@ -1,13 +1,13 @@
 - Def #card
-  card-last-interval:: 30
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-05-04T11:25:42.800Z
-  card-last-reviewed:: 2023-04-04T11:25:42.800Z
+  card-last-interval:: 84
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-08-04T00:34:44.300Z
+  card-last-reviewed:: 2023-05-12T00:34:44.300Z
   card-last-score:: 5
 	- $$
 	  I_{A B}=S_A+S_B-S_{A \cup B}
 	  $$
-	- Intuitively, how much one can infer about the other subsystem if one knows about one subsystem.
+	- Intuitively, how much one can infer about the other subsystem if one knows the **measurement outcome** about one subsystem.
 		- If the whole system is in a pure state but $S_A$ and $S_B$ are at the maximum, this means that each eigenstate of $\rho_A$ **1-1 corresponds** to another of $\rho_B$. Thus $I_{AB}$ reaches it maximum.
 		- If the density matrix of the whole system is a product of two sub density matrices, then $A$ and $B$ are **independent**, thus $I_{AB}=0$

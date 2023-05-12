@@ -1,15 +1,6 @@
 alias:: QM
 
-- # Different pictures
-	- In principle, we could decompose $H=H_1+H_2$ and let $H_1$ acts on the operator and $H_2$ acts on the state.
-		- Schrodinger -> $H_1=0$
-		- Heisenberg -> $H_2=0$
-		- Interaction -> $H_2$ is the perturbative part
-	- How does the superposition principle come into play in these pictures? #Learning-TODO
-	  id:: 63c1416d-2412-467c-b765-fa06441cb373
-	- [[Heisenberg Picture]]
-	  id:: 63baadc0-61ea-47ef-9e08-884c8c612e9d
-	- [[Interaction Picture]]
+- # [[Different Pictures of QM]]
 - # Density-matrix formulation
   collapsed:: true
 	- Evolution
@@ -33,12 +24,6 @@ alias:: QM
 - # [[Second Quantization]]
 - # Perturbation Theory
   id:: 644730bc-03b5-48b5-a75e-c31bdf1e5919
-	- ### Fermi's Golden Rule
-		- $$
-		  \Gamma_{i \rightarrow f}=\frac{2 \pi}{\hbar}\left|\left\langle f\left|H^{\prime}\right| i\right\rangle\right|^2 \rho\left(E_f\right)
-		  $$
-		- $\Gamma$ is the transition rate, i.e. transition probability per unit time
-		- $\rho(E_f)$ is the state density near the final state. For discrete levels this would be a Dirac delta.
 	- ## Time-Independent
 		- See [Griffith](((64473628-1f5e-4716-ae6b-39422002886f))) for reference.
 		- For degenerate perturbation theory, we need exact diagonalization within the degenerate space.
@@ -51,6 +36,14 @@ alias:: QM
 			- $$
 			  E_n^2=\sum_{m \neq n} \frac{\left|\left\langle\psi_m^0\left|H^{\prime}\right| \psi_n^0\right\rangle\right|^2}{E_n^0-E_m^0}
 			  $$
+	- ## Time-Dependent
+		-
+	- ### Fermi's Golden Rule
+		- $$
+		  \Gamma_{i \rightarrow f}=\frac{2 \pi}{\hbar}\left|\left\langle f\left|H^{\prime}\right| i\right\rangle\right|^2 \rho\left(E_f\right)
+		  $$
+		- $\Gamma$ is the transition rate, i.e. transition probability per unit time
+		- $\rho(E_f)$ is the state density near the final state. For discrete levels this would be a Dirac delta.
 	- Different path: ((64239f9f-7660-4553-ab22-80685caf6f6c)) and effective Hamiltonian
 - # Misc
   collapsed:: true

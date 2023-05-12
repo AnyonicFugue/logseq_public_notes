@@ -435,3 +435,15 @@ file-path:: zotero_link/Physics/Topological order/Intros and Reviews/Simon_Topol
   hl-page:: 487
   hl-color:: yellow
   id:: 63fec80b-8082-4e56-a5d6-2d4577d1be71
+- [:span]
+  ls-type:: annotation
+  hl-page:: 494
+  hl-color:: yellow
+  id:: 645afabc-4fea-4341-9218-7446866e3e62
+  hl-type:: area
+  hl-stamp:: 1683684027793
+- 35.5
+  ls-type:: annotation
+  hl-page:: 496
+  hl-color:: yellow
+  id:: 645afdcc-eea6-418b-a854-2b41ce795cc3

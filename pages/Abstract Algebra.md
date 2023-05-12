@@ -90,6 +90,12 @@
 				  collapsed:: true
 					- ((63c14160-28c9-4f15-82dc-977a38e0993b))
 		- Rank of an abelian group #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-06T06:13:52.541Z
+		  card-last-reviewed:: 2023-05-06T00:13:52.542Z
+		  card-last-score:: 5
 			- An abelian group $G$ has (possibly infinite) rank $r$ if there exists a **free** abelian subgroup $F$ of $G$ with
 			  (i) $\operatorname{rank} F=r$;
 			  (ii) $G / F$ is torsion.
@@ -119,11 +125,11 @@
 		  card-last-score:: 5
 			- Just invoking the above theorem where $N_2=\{e\}$.
 		- ((63d8b994-a24d-4c55-a175-51c32f4f9bd2)) If $G$ is a free group with free generators $a_\alpha$, then $G /[G, G]$ is a free abelian group with basis $\left[a_\alpha\right]$, where $\left[a_\alpha\right]$ denotes the coset of $a_\alpha$ in $G /[G, G]$. #card
-		  card-last-interval:: 29.48
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-03T22:15:11.242Z
-		  card-last-reviewed:: 2023-03-05T11:15:11.242Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-06-08T00:23:31.250Z
+		  card-last-reviewed:: 2023-05-09T00:23:31.252Z
 		  card-last-score:: 5
 			- Prove by the universal properties.
 			- ![Image(1).png](../assets/Image(1)_1675148605297_0.png)
@@ -165,4 +171,10 @@
 			- They're $\mathbb R, \mathbb C, \mathbb H$.
 			- $\mathbb H$ is the quarternion algebra.
 		- For any algebraically-closed field, there is only one finite-dimensional division algebra. #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-06-07T00:22:38.362Z
+		  card-last-reviewed:: 2023-05-08T00:22:38.363Z
+		  card-last-score:: 3
 			- Itself.

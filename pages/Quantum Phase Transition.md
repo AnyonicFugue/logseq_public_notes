@@ -3,6 +3,7 @@
 	- At $T=0$, we may change the parameter $g$ (or generally, a set of parameters $\{g_j\}$) to obtain a critical point.
 		- There may be a level-crossing / splitting at $g=g_c$.
 - # Basics
+  collapsed:: true
 	- Defs
 		- Quantum phase transition
 			- ((63940007-697b-452b-a112-4ca2a6b53d5f))
@@ -16,11 +17,11 @@
 	- ## General analysis
 	  collapsed:: true
 		- Proposition. Inhomogeneity won't affect the universality class. #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-25T00:30:42.964Z
-		  card-last-reviewed:: 2023-03-01T00:30:42.965Z
+		  card-last-interval:: 84
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-07-28T12:03:32.234Z
+		  card-last-reviewed:: 2023-05-05T12:03:32.235Z
 		  card-last-score:: 5
 			- In short, we can always **rescale** the coordinates to eliminate the inhomogeneity.
 			- eg. Inhomogeneity between space and time
@@ -28,6 +29,7 @@
 				- $x \rightarrow \sqrt{K_1} x, \quad \tau \rightarrow \sqrt{K_2} \tau$
 			- Q: Are there things, similar to [[Curvature]], that are unable to eliminate by coordinate transformations?
 		- Compare the values of $\Delta$ and $k_B T$
+		  collapsed:: true
 			- ((63942988-c4ea-4da9-b66c-ff2bd4b2f692))
 				- This is a diagram of crossovers, not phase transitions.
 		- We may also expand the effective action to obtain something similar to Ginzburg-Landau theory.

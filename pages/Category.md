@@ -128,11 +128,11 @@ alias:: [[Category Theory]]
 	  collapsed:: true
 		- Def #card
 		  card-last-score:: 5
-		  card-repeats:: 2
-		  card-next-schedule:: 2023-03-03T00:32:59.438Z
-		  card-last-interval:: 24
-		  card-ease-factor:: 2.7
-		  card-last-reviewed:: 2023-02-07T00:32:59.439Z
+		  card-repeats:: 3
+		  card-next-schedule:: 2023-08-01T00:25:56.086Z
+		  card-last-interval:: 84
+		  card-ease-factor:: 2.8
+		  card-last-reviewed:: 2023-05-09T00:25:56.086Z
 		  collapsed:: true
 			- A family $\{\alpha_x\}$ such that ((636ca3f1-0eb2-4ab9-b618-e430f99c3d90))
 			- Natural isomorphism
@@ -497,6 +497,12 @@ alias:: [[Category Theory]]
 - # Limits and Colimits
   collapsed:: true
 	- Cone #card
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-07T01:13:33.272Z
+	  card-last-reviewed:: 2023-05-05T12:13:33.272Z
+	  card-last-score:: 5
 		- A cone over a functor $F:J\to C$ with **summit** $x$, $\Delta_x$, is a natural transformation $\lambda: x \Rightarrow F$ whose domain is the constant functor at $x$.
 			- A constant functor maps every $j$ to $x$ and maps every hom to $id_x$.
 		- The components $\left(\lambda_j: c \rightarrow F j\right)_{j \in \mathrm{J}}$ of the natural transformation are called the **legs** of the cone.

@@ -37,3 +37,4 @@
 	- ## [[Entanglement]]
 	- ## Measurement
 		- Why measurement collapses states? So weird...
+	- A-B effect

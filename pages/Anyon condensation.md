@@ -113,11 +113,11 @@
 				- This is different from [Burnell2018]([[2018_Burnell_Anyon condensation and its applications]]). But also some useful references and arguments there.
 		- ((63dc6611-b249-4a6b-9d84-61424d5eb2b0))
 	- ## Relations between the theories before and after #card
-	  card-last-interval:: 27.15
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-04-16T04:27:04.577Z
-	  card-last-reviewed:: 2023-03-20T01:27:04.578Z
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-06-08T00:24:38.809Z
+	  card-last-reviewed:: 2023-05-09T00:24:38.809Z
 	  card-last-score:: 5
 		- ((63f5d1a9-34d2-488d-b5d1-805be16af7a4))
 		- The central charge (mod 8) isn't changed

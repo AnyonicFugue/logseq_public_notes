@@ -6,11 +6,11 @@
   card-ease-factor:: 2.6
   card-last-reviewed:: 2022-12-04T06:04:03.230Z
 	- Def #card
-	  card-last-interval:: 23.96
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-20T00:54:28.298Z
-	  card-last-reviewed:: 2023-02-24T01:54:28.298Z
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-06-04T12:02:38.154Z
+	  card-last-reviewed:: 2023-05-05T12:02:38.154Z
 	  card-last-score:: 5
 		- ((636875bf-597b-4b49-9d83-1c1ebaf7fa03))
 		- ((636875c8-8ed5-4968-bda6-023612f46a42))

@@ -1,6 +1,5 @@
 - # Basic Facts
-	- Theorem. If $V=U\oplus W$, then  $T_{W}$ and $T_{V/U}$ are isomorphic.
-	  collapsed:: true
+	- Theorem. If $V=U\oplus W$, then  $T_{W}$ and $T_{V/U}$ are isomorphic. #card
 		- We can select vectors of W as representatives.
 		- Can be used on "The remaining part of the sum"
 	- ## Decomposition into Minimal invariant subspaces
@@ -121,7 +120,7 @@
 			- Consider a [[Minimal invariant subspace]] W:
 			- $W\cap \overline{W}=0\ or\ W$
 	-
-	- ## Lift and factoring of representation #card
+	- ## Lift and factoring of representation
 	  card-last-interval:: 23.96
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
@@ -132,20 +131,18 @@
 			- For a rep. of quotient group $G/N$, $S:G/N\rightarrow \operatorname{GL} (V)$  and $p:G\rightarrow G/N$:
 			  $$(S\circ p)(h)=e \text{ for all } h\in N$$ is a lift of S.
 		-
-		- Conversely, every linear representation $T$ of $G$ whose kernel contains $N$ 
-		  can be **factored** through $p$, i.e., $T=S\circ p$
-		-
-		- We thus establish a one-to-one correspondence between the **Linear representations of the quotient group** and those **linear representations of** $G$ whose kernel contains $N$.
-			- Can be used to simplify some problems.
+		- Proposition. every linear representation $T$ of $G$ whose kernel contains $N$ can be **factored** through $p$, i.e., $T=S\circ p$
+			- We thus establish a one-to-one correspondence between the **linear representations of the quotient group** and those **linear representations of** $G$ whose kernel contains $N$.
+				- Can be used to simplify some problems.
 	-
 	- ## On tensor products of reps
 	  collapsed:: true
 		- Theorem. The tensor product of two irreducible complex representations $T:G\rightarrow \operatorname{GL} (V)$ and $S:H\rightarrow \operatorname{GL} (U)$ of the groups $G$ and $H$ 
-		  card-last-interval:: 27.15
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-19T15:03:27.457Z
-		  card-last-reviewed:: 2023-02-20T12:03:27.458Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-06-05T11:57:25.705Z
+		  card-last-reviewed:: 2023-05-06T11:57:25.708Z
 		  card-last-score:: 5
 		  is an **irreducible** representation of $G\times H$.  #card
 			- Lemma. Let $T$ be an complex irreducible representation of the group $G$ in the space $V$, and let $I$ be the trivial representation of $G$ in the space $U$. Then every minimal subspace $W\subset V\otimes U$ invariant under the product representation $TI$ has the form $V\otimes u_{0}$, where $u_{0} \in U$.
@@ -178,11 +175,11 @@
 			- The functions $T_{ij} \in \mathbf{C} [G]$
 			- $M(T)$ is the linear span of the matrix elements of $T$ (relative to some basis).
 		- Proposition.  $M(T)$ is basis independent and invariant under translations.  #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-12T11:37:59.951Z
-		  card-last-reviewed:: 2023-02-16T11:37:59.952Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-06-11T00:28:07.457Z
+		  card-last-reviewed:: 2023-05-12T00:28:07.458Z
 		  card-last-score:: 5
 			- Just prove: One set can be expressed by linear combinations of another, and vice versa. #Trick
 			-
@@ -241,6 +238,12 @@
 				- Corollary.  Let $T_{1}$ and $T_{2}$ be nonisomorphic irreducible complex representations of the group $G$, 
 				  then $T_1\otimes T_1'$ isn't isomorphic to $T_2\otimes T_2'$ .
 			- Corollary 5. Let $T_{1} ,\dotsc ,T_{q}$ be pairwise nonisomorphic irreducible complex representations of the group $G$. 
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-06-09T00:22:25.093Z
+			  card-last-reviewed:: 2023-05-10T00:22:25.093Z
+			  card-last-score:: 5
 			  Then the subspaces $\mathrm{M}( T_{1}) ,\dotsc ,\mathrm{M}( T_{q})$ of $\mathbf{C} [G]$ are linearly independent.  #card
 				- By [Corollary 4](((0e1d7f6e-d7fc-4bb8-bc17-e7506829c273))), $\mathrm{M}( T_{1}) ,\dotsc ,\mathrm{M}( T_{q})$ are invariant and pairwise nonisomorphic.
 				-

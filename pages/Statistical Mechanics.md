@@ -95,14 +95,15 @@ type:: [[Course]]
 			- Use randomized time-evolution to simulate ensemble average.
 	- Wolff Algorithm
 		- Idea #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-05-04T05:08:27.928Z
-		  card-last-reviewed:: 2023-02-26T01:08:27.929Z
+		  card-last-interval:: 252.3
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-01-13T07:03:40.702Z
+		  card-last-reviewed:: 2023-05-06T00:03:40.703Z
 		  card-last-score:: 5
 			- Flip a cluster of spins at a stroke to accelerate.
-				- Specifically, form a cluster by try to activate adjacent parallel spins
+				- Specifically, form a cluster by try to activate adjacent parallel spins.
+			- The observation is that the speed of the algorithm is decided by the **unit operation**, which can be parallelized in different ways.
 			- 'Reality' of the algorithm is guaranteed by [[Detailed balance]].
 				- Activation probability $p=\max \left\{1-e^{-2 k}, 0\right\}$
 	- How to find the [[Critical point]]
@@ -198,7 +199,6 @@ type:: [[Course]]
 		- Model: $F=\int d^D r\left[\frac{1}{2}(\nabla \phi)^2+\frac{r}{2} \phi^2+\frac{u}{4 !} \phi^4\right]$  Phi^4 theory.
 		-
 		- Step1. Integrate
-		  collapsed:: true
 			- For the free theory(u=0): Different momenta are decoupled.
 				- $$E[\tilde{\phi}]= \int \frac{d^3 k}{(2 \pi)^3} \tilde{\phi}(-k) \widetilde{\phi}(k)\frac 1 2 \left(k^2+r\right)=\frac{1}{2} \int \frac{d^3 k}{(2 \pi)^3}\left[\tilde{\Phi}_r^2(k)+\tilde{\Phi}_i^2(k)\right]\left(k^2+r\right)$$
 			- This motivates us to write $\phi=\phi_>+\phi_<$ , 
@@ -217,11 +217,9 @@ type:: [[Course]]
 				- Draw Feynman diagrams. Fix the coefficients manually.
 				- Integrate in momentum space; easy to make approximations.
 		- Step2. Rescale
-		  collapsed:: true
 			- $\tilde\Lambda=b\Lambda,\tilde x=x/b$ to have $\tilde\Lambda=\Lambda$
 			- All other quantities rescale according to their dimensions
 		- Step3. Write RG equation and find fix points
-		  collapsed:: true
 			- Trick: set $\epsilon=4-D$, expand wrt $\epsilon$
 			-
 			- Relevance of coupling constants #card

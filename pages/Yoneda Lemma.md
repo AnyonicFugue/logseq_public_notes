@@ -8,6 +8,12 @@
 	  Moreover, this correspondence is natural in both $c$ and $F$.
 	- It also tells us that if $F(c_1)$ is not isomorphic to $F(c_2)$, then the functors represented by $c_1$ and $c_2$ must be inequivalent.
 - Proof #card
+  card-last-interval:: 30
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-06-06T00:35:55.787Z
+  card-last-reviewed:: 2023-05-07T00:35:55.788Z
+  card-last-score:: 5
 	- We should explicitly construct the correspondence, then verify it is both injective and surjective.
 		- Denote it by $J:\operatorname{Nat}(\mathrm{Hom}_\mathrm{C}(c,-), F) \to F c$.
 	- There is only one canonical choice: Consider $\mathrm{Hom}_{\mathcal{C}}(c,c)$ and $id_c$. Define $J(\alpha)=\alpha_c(id_c)$.
