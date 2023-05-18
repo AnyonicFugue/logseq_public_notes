@@ -166,3 +166,10 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   hl-page:: 84
   hl-color:: yellow
   id:: 6455bc34-9cfb-4aff-9eda-66b2797bb373
+- [:span]
+  ls-type:: annotation
+  hl-page:: 85
+  hl-color:: yellow
+  id:: 6461a7c8-3e70-4218-8989-a2b1fa67accf
+  hl-type:: area
+  hl-stamp:: 1684121543202

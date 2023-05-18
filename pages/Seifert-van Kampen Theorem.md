@@ -114,6 +114,12 @@
 			- $\pi_1(A)=Free(2)$, while $\pi_1(M)$ is trivial.
 			- They're disjoint.
 				- Can we carefully add something (eg. Half the vertical boundary) to connect the two things, thus invoking Serfert-van Kampen? #card
+				  card-last-interval:: 30
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-06-16T01:20:28.299Z
+				  card-last-reviewed:: 2023-05-17T01:20:28.301Z
+				  card-last-score:: 5
 					- No. SK only applies to U and V **open**.
 		- Actually we should invoke this [theorem](((63db6326-2852-429b-acc7-21e25d249828))).
 			- Then it's all very easy. The image of $f$ is $aba^{-1}b^{-1}$.

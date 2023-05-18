@@ -3,7 +3,6 @@
 - # Principles and the Paradigm #card
   collapsed:: true
 	- ## Empirical Knowledge
-	  collapsed:: true
 		- We can't probe physics at arbitrarily high $E$.
 			- Therefore, integrating to $k \to \infty$ is a huge **extrapolation**. (It's miraculous this doesn't fail completely).
 			- We can't even be sure that the theory is local or Lorentz covariant at high $E$.
@@ -30,30 +29,16 @@
   collapsed:: true
 	- [[Dimensional Regularization]]
 	- [[Cutoff]] Regularization
-- # Renormalized Perturbation Theory
+- # Schemes of Renormalization
   collapsed:: true
-	- Idea #card
-		- The 'real world of QFT' is quite messy. We must consider lots of renormalizations; what's worse, we don't know how to obtain a divergence-free result.
-		- Therefore we do two things to obtain an elegant formalism:
-		  1. Redefine the field and constants to account for all renormalization
-		  2. Let the divergences cancel by comparing different kinematics (momenta)
-		- #+BEGIN_CAUTION
-		  It's like I suddenly find that the simple world in QFT1, where the propagator is a simple $\frac i {p^2-m^2+i\varepsilon}$ and we don't have to worry about loops or divergences, is supported by a dark and complicated 'real world'...
-		  #+END_CAUTION
-	- Renormalized Field
-		- Starting point:
-		  $$
-		  \int d^4 x e^{i p \cdot x}\left\langle\Omega\left|T\left\{\phi_0(x) \phi_0(0)\right\}\right| \Omega\right\rangle \stackrel{p^2 \rightarrow m^2}{\longrightarrow} \frac{i Z}{p^2-m^2+i \varepsilon}+\cdots
-		  $$
-			- We want to get rid of the awkward factor of $Z$, which is even divergent.
-		- Def. $\phi_0=\sqrt{Z} \phi$
-			- $\phi_0$ is the bare field and $\phi$ is the renormalized one
-			- Correspondingly, the **renormalized Green function** writes
-			  $$G^{(n)}( x_{1} \cdots x_{n}) =(\sqrt{Z} )^{-n} G_{0}^{(n)}( x_{1} \cdots x_{n}) \equiv (\sqrt{Z} )^{-n} \left\langle \Omega| T\{\phi _{0}( x_{1}) \cdots \phi _{0}( x_{n})\}|\Omega \right\rangle $$
-			  where all factors of $Z$ are killed.
-			-
-	- ## Scheme 1: Cancel the Divergences in the Bare Lagrangian #card
+	- ## Scheme 1: Cancel the Divergences via Physical Quantities #card
 	  collapsed:: true
+		- Idea
+			- Physical quantities like $m,\lambda$ can be determined experimentally.
+			- Thus we first express $m,\lambda$ as a function of $m_0,\lambda_0$ and vice versa.
+			  The expression must be formally divergent.
+			- When we wish to calculate some observable $A$, $A(m_0,\lambda_0)$ is formally divergent,
+			  but $A(m_0(m,\lambda),\lambda_0(m,\lambda))$ is **not**.
 		- (1) Compute $m,\lambda,Z$ as functions of $m_0,\lambda_0$ to the required order.
 			- There are bound to be divergences.
 		- (2) Determine $m$ and $\lambda$ at a reference point (e.g. the threshold), where they can be measured **experimentally**.
@@ -63,8 +48,12 @@
 			- In expressing $\lambda_0,m_0$ by $\lambda,m$ we let the divergences cancel.
 		- Finally we obtain the renormalized Green function, which we expect be **divergence-free** and **regularization-independent**.
 		-
-	- ## Scheme 2: Rewrite the Lagrangian by Physical Quantities #card
+	- ## Scheme 2: Cancel the Divergent Diagrams by Counter-terms #card
 	  collapsed:: true
+		- Idea
+			- Rewrite the Lagrangian as a physical part and a counter-term part
+			- The latter part produce diagrams which cancel the divergent diagrams of the physical part.
+			  Thus we may only consider tree-level diagrams of the physical part.
 		- (1) Write $\phi_0=\sqrt{Z} \phi, m_0^2=m^2+\delta m^2, \lambda_0=Z_\lambda \lambda \tilde{\mu}^{2 \varepsilon}$ where $Z, \delta m^2, Z_\lambda$ are to be determined.
 		- (2) Rearrange the Lagrangian into a 'physical part' and a 'counter part':
 		  $$\begin{aligned}
@@ -115,28 +104,72 @@
 			  \end{aligned}$$
 			- We see that the mass in the MS scheme is dependent on the scale factor $\mu$. This is a common feature for quantities in the scale-dependent renormalization schemes.
 			  background-color:: yellow
+	- ## Scheme 4: On-Shell Renormalization
+		- Idea
+			- We want the propagator to be in the desired form when $p^2 \to m^2$.
+		- The bare propagator:
+		  $$S_0^{(2)}(p)=\int d^4 x e^{i p \cdot x}\left\langle\Omega\left|T\left\{\psi_0(x) \bar{\psi}_0(0)\right\}\right| \Omega\right\rangle \\
+		  \overset{p^2 \to m^2}{\to} Z_2 \frac{i(\not p+m)}{p^2-m^2+i \varepsilon}+\text { non-singular. }$$
+			- Note that fields in the first line are bare fields, but mass in the second line is the **physical** mass.
+			- The physical meaning: At low energies ($p^2 - m^2$ not large), the propagator is the physical propagator.
+				- Note that the propagator is not only defined for on-shell momenta.
+		- The renormalized propagator:
+		  $$S^{(2)}(p)=\frac{i}{p-m-\Sigma(p, m)} \quad \stackrel{p^2 \rightarrow m^2}{\longrightarrow} \frac{i}{\not p-m+i \varepsilon}$$
+			-
+- # Renormalized Perturbation Theory
+  collapsed:: true
+	- Idea #card
+	  collapsed:: true
+		- The 'real world of QFT' is quite messy. We must consider lots of renormalizations; what's worse, we don't know how to obtain a divergence-free result.
+		- Therefore we do two things to obtain an elegant formalism:
+		  1. Redefine the field and constants to account for all renormalization
+		  2. Let the divergences cancel by comparing different kinematics (momenta)
+		- #+BEGIN_CAUTION
+		  It's like I suddenly find that the simple world in QFT1, where the propagator is a simple $\frac i {p^2-m^2+i\varepsilon}$ and we don't have to worry about loops or divergences, is supported by a dark and complicated 'real world'...
+		  #+END_CAUTION
+	- Renormalized Field
+	  collapsed:: true
+		- Starting point:
+		  $$
+		  \int d^4 x e^{i p \cdot x}\left\langle\Omega\left|T\left\{\phi_0(x) \phi_0(0)\right\}\right| \Omega\right\rangle \stackrel{p^2 \rightarrow m^2}{\longrightarrow} \frac{i Z}{p^2-m^2+i \varepsilon}+\cdots
+		  $$
+			- We want to get rid of the awkward factor of $Z$, which is even divergent.
+		- Def. $\phi_0=\sqrt{Z} \phi$
+			- $\phi_0$ is the bare field and $\phi$ is the renormalized one
+			- Correspondingly, the **renormalized Green function** writes
+			  $$G^{(n)}( x_{1} \cdots x_{n}) =(\sqrt{Z} )^{-n} G_{0}^{(n)}( x_{1} \cdots x_{n}) \equiv (\sqrt{Z} )^{-n} \left\langle \Omega| T\{\phi _{0}( x_{1}) \cdots \phi _{0}( x_{n})\}|\Omega \right\rangle $$
+			  where all factors of $Z$ are killed.
+			-
 - # Systematic Analysis
+  collapsed:: true
 	- Summary #card
+	  collapsed:: true
 		- Starting point: How to characterize renormalizability?
 		- Idea: Determine convergence by the power of momenta in the integrand
+		  collapsed:: true
 			- Note that the integrand is always a fraction of polynomials in $p$, whose UV convergence can be determined by the power analysis.
 		- Detailed analysis
+		  collapsed:: true
 			- Divergent subdiagrams:
 			- Multi-loop diagrams:
 		- Final theorem of renormalizability:
 		  (a) $\Delta_i \geqslant 0$ for all vertices
 		  (b) $\mathcal{L}$ contains all vertices compatible with the symmetries of the (regularized) theory. (The regularization may break a symmetry Then it is no longer a symmetry of $\mathcal{L}$)
 	- ## Starting point
+	  collapsed:: true
 		- Question: Is all theories renormalizable? If not, how to characterize renormalizability?
 		  background-color:: red
 		- Intuitively, we only have a finite number of parameters (mass, coupling constant, etc). Can we cancel divergences in **all** diagrams by the finite parameters?
 	- ## Setup
+	  collapsed:: true
 		- Notations
+		  collapsed:: true
 			- $\gamma$ : 1PI Feynmann diagram
 			- $L$ : number of loops
 			- $I_{f}$ : number of internal lines (propagators) of field of type $f$
 			- $E_{f}$: number of external lines (propagators) of field of type $f$
 			- $s_f$: The propagator of field $f$ is asymptotically $1/(k^2)^{1-s_f}$
+			  collapsed:: true
 				- e.g. $s_f=0$ for scalar fields, $s_f=1/2$ for Dirac fields.
 			- $V_{i}$ : number of vertices of type $i$
 			- $a_{i}$ : number of derivatives on fields in vertex of type $i$
@@ -144,64 +177,85 @@
 			- $d$ : Spacetime dimension
 			-
 		- Definitions
+		  collapsed:: true
 			- Degree of divergence, $D(\gamma)$
+			  collapsed:: true
 				- {Maximal power of momenta in the numerator, including the integration measure} - {maximal power of momenta in the denominator}
 				- Example. 
 				  ![image.png](../assets/image_1683335815102_0.png){:height 307, :width 957}
 	- ## Simplifications
+	  collapsed:: true
 		- Note that lines connecting 1PI diagrams cannot contain loops, so we may just analyze 1PI diagrams.
+		  collapsed:: true
 			- Analogous to 'analyze path-connected spaces'.
 	- ## Counting the divergences
+	  collapsed:: true
 		- Idea
+		  collapsed:: true
 			- Count the total powers of momenta (numerator - denominator).
 			  If the power is greater than zero, then the diagram surely diverges.
 		- Proposition. If $D(\gamma) \geq 0$, then the diagram must be divergent.
+		  collapsed:: true
 			- If $D(\gamma)=0$, the integration behaves like $\int \frac {dx}{x}$, which is **logarithmically divergent**.
 		- Proposition. $D(\gamma)=\sum_f I_f\left(2 s_f-2\right)+\sum_i V_i a_i+d L$
+		  collapsed:: true
 			- The first term is the momenta from the propagators.
 			- The second term is the momenta from the vertices.
+			  collapsed:: true
 				- Note that here we assumed there's no momenta contribution if there's no derivative.
 			- The third term counts the contribution from the integration measure.
+			  collapsed:: true
 				- Each independent loop gives rise to a free momentum to be integrated over.
 		- ### Simplify the expression by graph theory
+		  collapsed:: true
 			- Proposition. For connected diagrams, $L=\sum_f I_f-\sum_i V_i+1$.
+			  collapsed:: true
 				- This is Euler's formula, $V-E+F=2$.
 				- Note that $L=F-1$, since the face $\mathbb R^2-\gamma$ isn't a loop.
 			- Proposition. $2I_f+E_f=\sum_i V_i n_{if}$
 	- ## Divergence of Subdiagrams
 	  collapsed:: true
 		- The above counting still has a flaw:
+		  collapsed:: true
 		  A subdiagram can still be divergent even if $D(\gamma)<0$.
 			- Example.
 			  ![image.png](../assets/image_1683338439631_0.png)
 		- **Nevertheless, the problem can be fixed.**
+		  collapsed:: true
 			- In the above example:
 			  We have a counterterm $\delta_m$ for the divergent subdiagram, thus we can use the following diagram to cancel the divergence:
 			  ![image.png](../assets/image_1683338589549_0.png)
 			- More generally, we can always divide the diagram to find the divergent subdiagram with $D(\eta) \geq 0$
+			  collapsed:: true
 				- Theorem (Weinberg). A diagram is convergent iff all subdiagrams $\eta$ satisfy $D(\eta)<0$.
+				  collapsed:: true
 					- This ensures we can always find $\eta$ if there's divergence in the whole diagram.
 	- ## Divergence of multi-loop diagrams
 	  collapsed:: true
 		- Example in $\phi^4$ theory
+		  collapsed:: true
 			- ![image.png](../assets/image_1683338760672_0.png)
 			- Compute by dimensional regularization: 
 			  $$
 			  \Gamma=\lambda^2 \times\left\{\rho^2[\cdots]-m^2\left[\frac{a}{\varepsilon^2}+\frac{2 a}{\varepsilon} \ln \frac{\mu^2}{p^2}+\frac{b}{\varepsilon}+\text { finite }\right]\right\}
 			  $$
 			- **Problem**
+			  collapsed:: true
 				- It's impossible to cancel the divergence by $\delta_m$ or $\delta\lambda$, since they cannot produce the desired momentum-dependence of $\ln (p^2)$
 			- **Solution?**
+			  collapsed:: true
 				- We can also construct loop diagrams from the counterterms!
 				- This diagram would produce the desired divergence-cancelling:
 				  ![image.png](../assets/image_1683338935892_0.png)
 	- Theorem.
+	  collapsed:: true
 	  $$\begin{aligned}
 	  D(\gamma ) & = d-\sum _{f} E_{f}\left(\frac{d}{2} -1+s_{f}\right) -\sum _{i} V_{i} \Delta _{i}\\
 	   & \text{ with } \Delta _{i} \equiv d-a_{i} -\sum _{f} n_{if}\left(\frac{d}{2} -1+s_{f}\right)
 	  \end{aligned}$$
 		- This can be proven by plugging in the above propositions.
 		- But its meaning is quite deep. 
+		  collapsed:: true
 		  If $D(\gamma)$ decreases with the number of external lines and vertices, as the theorem suggests, then we only have **finite** diagrams with $D(\gamma) \geq 0$.
 			- Example. Scalar field theory:
 			- $$\begin{array}{ c c c }
@@ -222,11 +276,20 @@
 			- All higher-order diagrams have $D(\gamma)<0$!
 		- Proposition. For an interaction vertex of type $i$, $[g_i]=\Delta_i$ #card
 		  id:: 64584d97-557f-41f3-84d3-5a851bb4c2c9
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-12T01:04:17.678Z
+		  card-last-reviewed:: 2023-05-13T01:04:17.678Z
+		  card-last-score:: 5
+		  collapsed:: true
 			- Starting points
+			  collapsed:: true
 				- $S=\int d^dx \mathcal L$ is dimensionless.
 				- $$G_F(k):=\int d^dx e^{-ikx} \langle \phi_f(x) \phi_f(0) \rangle \sim \frac 1 {(k^2)^{1-s_f}}$$
 	-
 	- ## The Renormalizability Theorem
+	  collapsed:: true
 		- Definition. Renormalizable #card
 		  collapsed:: true
 			- All physical quantities can be rendered finite by a reparameterization of fields, masses and couplings.
@@ -246,6 +309,7 @@
 				  ![image.png](../assets/image_1683338322322_0.png)
 				- We must have a $\lambda_1 \phi_1^4$ term to cancel the divergence here! Thus we shall assume the term was present in the original Lagrangian and can be reparameterized.
 - # Effective QFT
+  collapsed:: true
 	- Two motivations
 	  collapsed:: true
 		- (a) Is a non-renormalizable theory (i.e. containing some $\Delta_i<0$) completely unpredictive and useless?
@@ -283,6 +347,7 @@
 			-
 			-
 			-
+- # [[Renormalization Group]]
 - # Thoughts
   collapsed:: true
 	- ## Flaws of Perturbation Theory?
@@ -305,6 +370,7 @@
 - # Example
   collapsed:: true
 	- $\phi \phi \to \phi \phi$ at 1-loop for $\phi^4$ theory
+	  collapsed:: true
 		- Draw the diagrams:
 		  ![image.png](../assets/image_1682470852307_0.png)
 		- The amplitude can be calculated by dimensional regularization:
@@ -322,6 +388,7 @@
 		  card-next-schedule:: 2023-06-06T01:52:08.575Z
 		  card-last-reviewed:: 2023-05-04T12:52:08.576Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- Idea: We can measure $\lambda$ at some reference scattering process (e.g. at the shreshold, i.e. $s=4m^2,u=t=0$).
 			  Then we can compare different momenta to **cancel the divergence**.
 				- In other words, experimental data could also be a valuable input -- to fix a 'reference' not available from first principles! #[[Thoughts/Math and Physics]]
@@ -345,4 +412,9 @@
 				  which is free from divergence and $Z$!
 				-
 		-
--
+	- Renormalization of [[QED]]
+		- Setup
+			- $$\begin{aligned}
+			  & A_0^\mu(x)=\sqrt{Z_3} A^\mu(x), \quad \psi_0(x)=\sqrt{Z_2} \psi(x) \\
+			  & e_0=Z_e e , \zeta_0=Z_\zeta \zeta , m_0=Z_m m 
+			  \end{aligned}$$

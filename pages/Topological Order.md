@@ -180,11 +180,11 @@
 					- ((6396cb2f-4bd5-4007-8a41-368b75419231))
 						- [[Research]], solving the idea about invertible walls
 				- [[Folding trick]] #card
-				  card-last-interval:: 67.2
-				  card-repeats:: 3
-				  card-ease-factor:: 2.8
-				  card-next-schedule:: 2023-03-14T10:10:05.885Z
-				  card-last-reviewed:: 2023-01-06T06:10:05.885Z
+				  card-last-interval:: 252.3
+				  card-repeats:: 4
+				  card-ease-factor:: 2.9
+				  card-next-schedule:: 2024-01-20T19:05:48.482Z
+				  card-last-reviewed:: 2023-05-13T12:05:48.482Z
 				  card-last-score:: 5
 				  collapsed:: true
 					- Exists in all dimensions.

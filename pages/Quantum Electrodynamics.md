@@ -188,7 +188,7 @@ alias:: QED
 			-
 		- Final result
 			- ((637ae60f-71b1-4bbd-bfba-96333ac6ecc9))
-- # Radiative Corrections #[[To be recorded]]
+- # Radiative Corrections
   id:: 638d5442-2da2-466c-8e73-91b7fff0a3a3
 	- [[Electron Vertex Function]]
 	- [[Bremsstrahlung]]
@@ -212,7 +212,8 @@ alias:: QED
 			- $A^\mu=Z_3^{\frac{1}{2}} A_r^\mu, \quad \psi=Z_2^{\frac{1}{2}} \psi_r, \quad Z_2 Z_3^{\frac{1}{2}} e_0=e^{\prime}=Z_1 e$
 			-
 	- [[Field-Strength Renormalization]] #[[To be recorded]]
-	- [[Electric Charge Renormalization]] #[[To be recorded]]
+	- [[Electric Charge Renormalization]]
+	-
 	-
 - Obtain macroscopic results from QED
   collapsed:: true

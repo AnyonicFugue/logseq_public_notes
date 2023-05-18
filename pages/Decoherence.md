@@ -56,11 +56,11 @@ type:: [[Course]]
 -
 - Summary things above
 	- The Kraus representation theorem #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-03-16T11:59:50.608Z
-	  card-last-reviewed:: 2023-02-20T11:59:50.609Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-08-06T00:19:01.537Z
+	  card-last-reviewed:: 2023-05-14T00:19:01.537Z
 	  card-last-score:: 5
 		- ((6371ea3c-0625-4214-81ab-33b4686111af))
 			- [[Completely Positive]] means $\mathbb{S} \otimes \mathbb{I}_E$ is positive for arbitrary E, which is stronger than positive.

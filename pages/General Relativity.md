@@ -322,7 +322,6 @@ alias:: GR
 					- The indices **cannot** be raised and lowered arbitrarily in variations!
 - # The Schwarzchild Solution
   id:: 6454f170-9fed-40e5-845e-c72df45c05ab
-  collapsed:: true
 	- $$
 	  d s^2=-\left(1-\frac{2 M}{r}\right) d t^2+\left(1-\frac{2 M}{r}\right)^{-1} d r^2+r^2 d \Omega^2
 	  $$
@@ -478,7 +477,6 @@ alias:: GR
 			-
 	- ## Kruskal Extension
 	  id:: 64586978-ccc6-4f29-ac28-b6b26a5aea8d
-	  collapsed:: true
 		- The strategy is classical:
 		  Examine the $r-t$ surface; find null geodesics and establish 'normal coordinates'; find affine parameters and extend.
 		- Result
@@ -562,6 +560,7 @@ alias:: GR
 						- Would QG prevent a total collapse?
 				- The upper bound can be derived by other ways, eg. non-singularity of the metric and $\xi^a$ being timelike.
 			-
+- # [[Cosmology]]
 - # Dealing with Singularities
   collapsed:: true
 	- Two possibilities
@@ -655,6 +654,7 @@ alias:: GR
 						- If they come from region IV to region I, then they can reach the null infinity $\mathscr I^+$.
 						- If they come from $\mathscr I^-$, then they will go into region II and finally fall into the singularity.
 					- Matters in region II can never escape. Even null geodesics are bound to fall into the singularity, let alone timelike ones.
+- # [[Blackhole]]
 - # Theories in Curved Spacetime
   collapsed:: true
 	- Principle of minimal substitution

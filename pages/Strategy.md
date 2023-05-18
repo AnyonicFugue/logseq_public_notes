@@ -26,6 +26,6 @@
 	- Prove nulhomotopy by rescale the shape (in particular, curve) with a parameter $t\in [0,1]$
 		- Especially useful for shapes embeddable into $R^n$
 - # Physics
-	- By analyzing the only possible quantities, we can obtain some nontrivial relations.
+	- By analyzing the only possible quantities and dependences, we can obtain some nontrivial relations.
 	  id:: 63e86244-9e83-4bd6-bf03-aa29c6f1ee0e
 	-

@@ -19,6 +19,12 @@
 		- (2) Integrals of total derivatives should vanish
 		- (3) Better that the integral is invariant under a shift of the integral variable
 	- Prop. $\int d\theta \cdot 1=0$ #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-12T00:59:47.702Z
+	  card-last-reviewed:: 2023-05-13T00:59:47.703Z
+	  card-last-score:: 5
 		- Consider some general function $f(\theta)=a+b\theta$, where $a,b$ might be Grassmann numbers.
 		- From (2),
 		  $$\int d\theta \frac{\partial }{\partial \theta } f( \theta ) =\int d\theta \cdot b\overset{\text{linearity}}{=}( -1)^{|b|}\int d\theta \cdot 1=0$$

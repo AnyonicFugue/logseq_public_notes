@@ -188,6 +188,12 @@ alias:: [[Category Theory]]
 	- ## New cats from old ones
 	  collapsed:: true
 		- Quotient category #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-12T12:02:41.729Z
+		  card-last-reviewed:: 2023-05-13T12:02:41.731Z
+		  card-last-score:: 5
 			- Let $\mathscr{C}$ be a category with congruence $\sim$, and let $[f]$ denote the equivalence class of a morphism $f$. 
 			  Define the quotient category $\mathscr{C}^{\prime}$ as follows:
 			  $$
@@ -431,7 +437,7 @@ alias:: [[Category Theory]]
 				- It can still be checked by beautiful braiding diagrams.
 			- Theorem 3. $E_3\mathrm{Alg}(S) \simeq \mathrm{CAlg}(S)$ #card
 		- Exercise. Verify that when $B=\mathrm{Set}$, $E_2\mathrm{Alg}(B)$ satisfies $(a \times_v b) \times_h (c \times_v d) \simeq (a \times_h c) \times_v (b \times_h d)$ #card
-		- Prop. A braided monoidal category is an $E_2$-algebra in the 2-cat $\mathrm{Cat}$ #card
+		- Prop. A braided monoidal category is an $E_2$-algebra in the 2-cat $\mathrm{Cat}$
 			- My task is to explicitly construct the monoidal structure.
 		-
 	- ## Higher Modules

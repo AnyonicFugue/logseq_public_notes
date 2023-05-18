@@ -4,6 +4,12 @@
 		- Heisenberg -> $H_1=0$
 		- Interaction -> $H_1$ is the perturbative part
 	- ## Evolution in Different Pictures #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-13T00:25:16.097Z
+	  card-last-reviewed:: 2023-05-14T00:25:16.098Z
+	  card-last-score:: 5
 		- \begin{aligned}
 		  A( t) & =U_{2}^{\dagger }( t) AU_{2}( t)\\
 		  |\psi ( t)\rangle  & =U_{1}( t) |\psi ( 0)\rangle

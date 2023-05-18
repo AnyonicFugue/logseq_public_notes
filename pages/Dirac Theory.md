@@ -8,11 +8,11 @@
 				- ((6379caaa-1758-4942-a553-19b721e4a1c2))
 		- Commutation relations (including those with $\gamma^5$)  #card
 		  card-last-score:: 5
-		  card-repeats:: 3
-		  card-next-schedule:: 2023-04-06T04:55:38.292Z
-		  card-last-interval:: 67.2
-		  card-ease-factor:: 2.8
-		  card-last-reviewed:: 2023-01-29T00:55:38.292Z
+		  card-repeats:: 4
+		  card-next-schedule:: 2024-01-20T08:00:13.197Z
+		  card-last-interval:: 252.3
+		  card-ease-factor:: 2.9
+		  card-last-reviewed:: 2023-05-13T01:00:13.197Z
 		  collapsed:: true
 			- ((6379ca88-2a1b-4068-a7f7-0cb7197d696c))
 			- ((6379ca9b-6830-497a-b6bc-0aaec1f62441))

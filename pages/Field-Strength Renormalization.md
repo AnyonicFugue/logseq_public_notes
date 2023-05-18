@@ -1,5 +1,4 @@
 - Peskin
-  collapsed:: true
 	- Summary #card
 	  card-last-interval:: 67.2
 	  card-repeats:: 3
@@ -54,11 +53,11 @@
 				- ((63996a20-7140-4eed-a808-ddbee821afb6))
 				- Note that $\Sigma(p)$ commutes with $\not p$, since $\Sigma(p)$ is a function only of pure numbers and $\not p$. In fact, we can consider $\Sigma(p)$ to be a function of $\not p$, writing $p^2=(\not p)^2$. Then we can rewrite each electron propagator as $i /\left(\not p-m_0\right)$. #card
 				  card-last-score:: 5
-				  card-repeats:: 2
-				  card-next-schedule:: 2023-03-22T13:02:24.496Z
-				  card-last-interval:: 24
-				  card-ease-factor:: 2.7
-				  card-last-reviewed:: 2023-02-26T13:02:24.496Z
+				  card-repeats:: 3
+				  card-next-schedule:: 2023-08-08T00:35:43.477Z
+				  card-last-interval:: 84
+				  card-ease-factor:: 2.8
+				  card-last-reviewed:: 2023-05-16T00:35:43.477Z
 					- ((63e86244-9e83-4bd6-bf03-aa29c6f1ee0e))
 					- Very convenient! Simplify the matrix equation into an algebraic equation.
 				- Sum up the geometric series, obtain the next line

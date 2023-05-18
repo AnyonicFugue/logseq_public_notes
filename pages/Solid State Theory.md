@@ -229,7 +229,6 @@ type:: [[Course]]
 		-
 	-
 - # Green Function, Correlation and Dissipation
-  collapsed:: true
 	- Definitions
 		- [[Green Function]] #card
 		  card-last-interval:: 31.26
@@ -245,7 +244,7 @@ type:: [[Course]]
 				  $$
 				- Don't forget the minus for fermions!
 			- Retarded
-				- $G_\sigma^{\mathrm{R}}\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right)=-\mathrm{i} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_\sigma(\mathbf{r}, t), \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\}\right\rangle$
+				- $$G_\sigma^{\mathrm{R}}\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right) :=-\mathrm{i} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_\sigma(\mathbf{r}, t), \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\}\right\rangle=-\frac{i}{\hbar} \theta(t)\left\langle\left\{c_k(t), \hat{c}_k^{\dagger}(0)\right\}\right\rangle$$
 				- $\chi_{B A}^{ret}\left(t, t^{\prime}\right)=\frac{i}{\hbar} \theta\left(t, t^{\prime}\right)\left\langle\left[\hat{B}(t), \hat{A}\left(t^{\prime}\right)\right]\right\rangle$
 				  collapsed:: true
 					- This follows ((6410762b-de4a-479c-961f-baa5532f6a5d)).
@@ -255,66 +254,70 @@ type:: [[Course]]
 				- Only advanced (from the later time $t'$ to the earlier time $t$) part.
 		- Correlation function
 		- Spectral function
-			- ((640be0e1-63f2-426b-96be-b5b698e93cdb)) $A_\sigma(\omega, \mathbf{p})=-\frac{1}{\pi} \operatorname{Im} G_\sigma^{\mathrm{R}}(\omega, \mathbf{p})$
+			- ((640be0e1-63f2-426b-96be-b5b698e93cdb)) $A(k, \omega):=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle$
 				- Quite analogous to the ((6401b89c-e517-4e8f-ad4e-f98d5b166921))
+		-
+	- ## Relations
+		- Green function and spectral function #card
+		  collapsed:: true
+			- $$A(\vec{k}, \omega) :=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle =-\frac{1}{\pi} \operatorname{Im} G^R(k, \omega)$$
+				- Start from the definition
+				  $$G^R(k,t)=-\frac{i}{\hbar} \theta(t)\left\langle\left\{c_k(t), \hat{c}_k^{\dagger}(0)\right\}\right\rangle$$
+					- Note that there is an **anti-commutator** in the retarded Green function!
+				- $A=(G^R-\overline{G^R})/(2i)$, which completes the integral to the whole real axis.
+			- $$G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(k, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i \varepsilon}
+			  $$
+				- Prop. 
+				  collapsed:: true
+				  $$\begin{aligned} & \int_{-\infty}^{\infty} d \omega^{\prime} f\left(\omega^{\prime}\right)\left\{P \frac{1}{\omega^{\prime}-\omega}+i \pi \delta\left(\omega^{\prime}-\omega\right)\right\} \\ & =\int_{-\infty}^{\infty} d \omega^{\prime} f\left(\omega^{\prime}\right) \frac{1}{\omega^{\prime}-\omega-i \epsilon}\end{aligned}$$
+					- The delta function adds back the imaginary part.
+				- Invoke ((6401b89c-a4af-4f0c-b59f-d44a3c164ff6)): $\chi_1(\omega)=\frac{1}{\pi} \mathcal{P} \int_{-\infty}^{\infty} \frac{\chi_2\left(\omega^{\prime}\right)}{\omega^{\prime}-\omega} d \omega^{\prime}$
+				  collapsed:: true
+					- Note that there is an extra minus in the definition of $A$, thus the denominator of the integrand is also minused.
+				-
+		- Green function and Matsubara Green function
+			- card-last-score:: 5
+			  card-repeats:: 1
+			  card-next-schedule:: 2023-05-20T14:11:52.084Z
+			  card-last-interval:: 32.57
+			  card-ease-factor:: 2.6
+			  card-last-reviewed:: 2023-04-18T01:11:52.084Z
+			  $$\begin{equation*}
+			  G^R(\omega)=G_{AB}(\omega_n )=\int d\omega ^{\prime }\frac{A_{AB}\left( \omega ^{\prime }\right)}{\omega -\omega ^{\prime } +i\varepsilon } \text{ by } i\omega_n \to \omega+i\varepsilon
+			  \end{equation*}$$ #card
+				- Summary
+					- Obtain the expectation by brute-force sum over the Boltzmann ensemble (spectral representation).
+				- \begin{gather*}
+				   \\
+				  \begin{aligned}
+				  G_{AB}( \omega _{n}) & =\int _{0}^{\beta } d\tau G_{AB} (\tau )e^{i\omega _{n} \tau }\\
+				   & =-\int _{0}^{\beta } d\tau \langle T\{A(\tau )B(0)\}\rangle e^{i\omega _{n} \tau }\\
+				   & =-\int _{0}^{\beta } d\tau \sum _{\alpha \beta }\frac{1}{Z} e^{-\beta E_{\alpha }}\left< \alpha \left| e^{H\tau } Ae^{-H\tau }\right| \beta \right> < \beta |B|\alpha > e^{i\omega _{n} \tau }\\
+				   & =-\frac{1}{Z}\sum_{\alpha \beta } e^{-\beta E_{\alpha }}< \alpha | A| \beta > < \beta |B|\alpha > \int _{0}^{\beta } d\tau e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \tau }\\
+				   & 
+				  \end{aligned}\\
+				  \end{gather*}
+				- On the other hand,
+				  \begin{equation*}
+				  \int _{0}^{\beta } d\tau e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \tau } =\frac{e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }} =\frac{\eta e^{( E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }}
+				  \end{equation*}
+				  Thus
+				  \begin{equation*}
+				  G_{AB}( \omega _{n}) =-\frac{1}{Z}\sum{}_{\alpha \beta } e^{-\beta E_{\alpha }}< \alpha | A| \beta > < \beta |B|\alpha > \frac{\eta e^{( E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }}
+				  \end{equation*}
+				- Comparing with
+				  \begin{equation*}
+				  \begin{aligned}
+				  A_{AB} (\omega ) & =\int _{R} dt\ e^{-i\omega t} \langle A(0)B(t)\rangle \\
+				   & =\frac{1}{Z}\sum _{\alpha \beta }\left( e^{-\beta E_{\alpha }} -\eta e^{-\beta E_{\beta }}\right) \langle\alpha |A|\beta \rangle \langle \beta |B|\alpha \rangle \delta ( \omega +E_{\alpha } -E_{\beta })
+				  \end{aligned}
+				  \end{equation*}
+				  finishes the proof.
 			-
-	- Summary #card
-		- First we define the Green function by the time-ordered product, which happens to be the kernel of the Schrodinger equation.
-		- It can be calculated explicitly by the spectral expansion, i.e. take the trace explicitly by $\sum_n \langle n| G | n \rangle$.
-		- Or basis transformation.
-			- ((64238eab-3720-439b-89ee-0db9febede8b))
-		- We often work with only $G^R$ or $G^A$ since they're related by ((6401b89c-a4af-4f0c-b59f-d44a3c164ff6)).
-		- Moreover they're related to spectral functions by
-		  $$A(k, \omega):=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle =-\frac{1}{\pi} \operatorname{Im} G^R(k, \omega)$$
-			- We can easily obtain back $G^R$ by Kramers-Kronig relations,
-			  $$G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(k, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i \varepsilon}
-			  $$
-			- It's a convenient way to calculate the Green function for [free fermions](((64238eab-5b4c-48b1-ac8a-33fe14061048))), which is used frequently.
-		- We can even define Matsubara Green functions (by making the time imaginary).
-			- It's good since it's periodical (up to $\eta$) with period $\beta$, thus easy to calculate.
-			- We can obtain the conventional Green functions by analytical continuation:
-			  $$G_{AB}( \omega _{n})\rightarrow G_{AB}^{\text{Ret}} (\omega )\ \ \text{ by } i\omega _{n}\rightarrow \omega +i\varepsilon$$
-		- Compare $G^R$ with $G^>$
-			- $$
-			  \int_{-\infty}^{\infty} \mathrm{d} t \mathrm{e}^{\mathrm{i} \omega t}=2 \pi \delta(\omega)
-			  $$
-			  is at the heart of the difference between $G_\sigma^{>(<)}$and the Green functions.
-			- In the Green functions, the time integrals always started or terminated at the origin. Consequently, the time integrations always yielded a function of the form, $1 /(x \pm \mathrm{i} 0)$. Such a function has non-zero real and imaginary parts. Such is not the case in either $G_\sigma^{>}$or $G_\sigma^{<}$. As a
-	- ## Fermionic Green Function
-	  collapsed:: true
-		- Def
-			- $$G_{\sigma_1 \sigma_2}^R\left(r_1, t_1; r_2, t_2\right):=-\frac{i}{\hbar} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_{\sigma_1}\left(r_1, t_1\right), \psi_{\sigma_2}^{\dagger}\left(r_2, t_2\right)\right\}\right\rangle$$
-				- Always use anti-commutators for fermions.
-			- Fourier Transformation
-				- $$
-				  \tilde{G}^R(\vec{k}, \omega):=\int dt e^{-i\omega t}\int d^3 \vec{r}\ e^{-i \vec{k} \cdot \vec{r}}\ G^R(\vec{r}, t) 
-				  $$
-			- Spectral Function
-				- $$A(k, \omega):=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle$$
-				- Moreover,
-				  $$G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(k, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i \varepsilon}
-				  $$ #card
-					- Prop. 
-					  collapsed:: true
-					  $$\begin{aligned} & \int_{-\infty}^{\infty} d \omega^{\prime} f\left(\omega^{\prime}\right)\left\{P \frac{1}{\omega^{\prime}-\omega}+i \pi \delta\left(\omega^{\prime}-\omega\right)\right\} \\ & =\int_{-\infty}^{\infty} d \omega^{\prime} f\left(\omega^{\prime}\right) \frac{1}{\omega^{\prime}-\omega-i \epsilon}\end{aligned}$$
-						- The delta function adds back the imaginary part.
-					- Invoke ((6401b89c-a4af-4f0c-b59f-d44a3c164ff6)): $\chi_1(\omega)=\frac{1}{\pi} \mathcal{P} \int_{-\infty}^{\infty} \frac{\chi_2\left(\omega^{\prime}\right)}{\omega^{\prime}-\omega} d \omega^{\prime}$
-					  collapsed:: true
-						- Note that there is an extra minus in the definition of $A$, thus the denominator of the integrand is also minused.
-					- Exercise. Prove
-					  $$A(\vec{k}, \omega) :=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle =-\frac{1}{\pi} \operatorname{Im} G^R(k, \omega)$$ #card
-						- Start from the definition
-						  $$G^R(k,t)=-\frac{i}{\hbar} \theta(t)\left\langle\left\{c_k(t), \hat{c}_k^{\dagger}(0)\right\}\right\rangle$$
-							- Note that there is an **anti-commutator** in the retarded Green function!
-						- $A=(G^R-\overline{G^R})/(2i)$, which completes the integral to the whole real axis.
-					-
-		- Exercise. $\tilde{G}^R(\vec{k} , t):=\int d^3 \vec{r} \ G^R(\vec{r}, t) e^{-i \vec{k} \cdot \vec{r}}$ is equal to $-\frac{i}{\hbar} \theta(t)\left\langle\left\{c_k(t), \hat{c}_k^{\dagger}(0)\right\}\right\rangle$ #card
-		  id:: 64238eab-3720-439b-89ee-0db9febede8b
-			- That is, FT of the Green function is equal to the Green function of the FT representation.
-		- Example. Free fermions
+	- ## Examples
+		- Free fermions
 		  id:: 64238eab-5b4c-48b1-ac8a-33fe14061048
-			- Calculate 
-			  $$
+			- $$
 			  G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(\vec{k}, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i\epsilon}=\frac{1}{\omega-\xi_k+i\epsilon}
 			  $$ #card
 				- id:: 64113383-8089-4db4-8a8b-ebc74bfc5ab7
@@ -324,7 +327,7 @@ type:: [[Course]]
 				  & =\frac{1}{2 \pi} \int d t e^{i \omega t} e^{-i \xi_k t} 1=\frac{1}{2 \pi} \cdot 2 \pi \delta\left(\omega-\xi_k\right)
 				  \end{aligned}
 				  $$
-				- Quite interesting. The spectral function, defined as the full correlation function, is the imaginary part of the Green function.
+				-
 	- ## Matsubara Green Function
 	  id:: 642f7907-397a-4fd1-b504-e0060ac5a8be
 		- Idea
@@ -359,44 +362,6 @@ type:: [[Course]]
 		- Analytical continuation
 			- Idea
 				- $$G_{AB}( \omega _{n})\rightarrow G_{AB}^{\text{Ret}} (\omega )\ \ \text{ by } i\omega _{n}\rightarrow \omega +i\varepsilon$$
-			- Proposition. 
-			  card-last-score:: 5
-			  card-repeats:: 1
-			  card-next-schedule:: 2023-05-20T14:11:52.084Z
-			  card-last-interval:: 32.57
-			  card-ease-factor:: 2.6
-			  card-last-reviewed:: 2023-04-18T01:11:52.084Z
-			  \begin{equation*}
-			  G^R(\omega)=G_{AB}(\omega_n )=\int d\omega ^{\prime }\frac{A_{AB}\left( \omega ^{\prime }\right)}{\omega -\omega ^{\prime } +i\varepsilon }
-			  \end{equation*} #card
-				- Summary
-					- Obtain the expectation by brute-force sum over the Boltzmann ensemble (spectral representation).
-				- \begin{gather*}
-				   \\
-				  \begin{aligned}
-				  G_{AB}( \omega _{n}) & =\int _{0}^{\beta } d\tau G_{AB} (\tau )e^{i\omega _{n} \tau }\\
-				   & =-\int _{0}^{\beta } d\tau \langle T\{A(\tau )B(0)\}\rangle e^{i\omega _{n} \tau }\\
-				   & =-\int _{0}^{\beta } d\tau \sum _{\alpha \beta }\frac{1}{Z} e^{-\beta E_{\alpha }}\left< \alpha \left| e^{H\tau } Ae^{-H\tau }\right| \beta \right> < \beta |B|\alpha > e^{i\omega _{n} \tau }\\
-				   & =-\frac{1}{Z}\sum_{\alpha \beta } e^{-\beta E_{\alpha }}< \alpha | A| \beta > < \beta |B|\alpha > \int _{0}^{\beta } d\tau e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \tau }\\
-				   & 
-				  \end{aligned}\\
-				  \end{gather*}
-				- On the other hand,
-				  \begin{equation*}
-				  \int _{0}^{\beta } d\tau e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \tau } =\frac{e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }} =\frac{\eta e^{( E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }}
-				  \end{equation*}
-				  Thus
-				  \begin{equation*}
-				  G_{AB}( \omega _{n}) =-\frac{1}{Z}\sum{}_{\alpha \beta } e^{-\beta E_{\alpha }}< \alpha | A| \beta > < \beta |B|\alpha > \frac{\eta e^{( E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }}
-				  \end{equation*}
-				- Comparing with
-				  \begin{equation*}
-				  \begin{aligned}
-				  A_{AB} (\omega ) & =\int _{R} dt\ e^{-i\omega t} \langle A(0)B(t)\rangle \\
-				   & =\frac{1}{Z}\sum _{\alpha \beta }\left( e^{-\beta E_{\alpha }} -\eta e^{-\beta E_{\beta }}\right) \langle\alpha |A|\beta \rangle \langle \beta |B|\alpha \rangle \delta ( \omega +E_{\alpha } -E_{\beta })
-				  \end{aligned}
-				  \end{equation*}
-				  finishes the proof.
 		- Example. Calculate the particle-number correlation
 			-
 - # Linear Response

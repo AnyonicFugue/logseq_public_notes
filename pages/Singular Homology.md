@@ -45,6 +45,7 @@
 	  card-next-schedule:: 2023-06-09T00:22:44.916Z
 	  card-last-reviewed:: 2023-05-10T00:22:44.916Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Let $X$ be a topological space. For each $n \geq 0$, define $S_n(X)$ as the **free abelian group** with basis all ((64462ceb-3ede-4222-851b-57c2b29616b0)) in $X$; define $S_{-1}(X)=0$.
 		  id:: 64462e13-2a8c-4f01-b999-632c7b8b0110
 		  collapsed:: true
@@ -131,11 +132,32 @@
 	- Betti number #card
 		- The $n$-th Betti number of $X$ is $\operatorname{rank}H_n(X)$.
 	- Acyclic #card
+	  collapsed:: true
 		- A space $X$ is called acyclic if $H_n(X)=0$ for all $n \geq 1$.
 		- The dimension axiom shows that every 1-point space is acyclic.
 	- Support #card
+	  collapsed:: true
 		- If $\zeta=\sum m_i \sigma_i \in S_n(X)$, with all $m_i \neq 0$ and all $\sigma_i$ distinct, then the support of $\zeta$, denoted by $\mathrm{supp} \ \zeta$, is $\bigcup \sigma_i\left(\Delta^n\right)$.
 		- Note that $\mathrm{supp} \ \zeta$ is compact since it is a finite union of compact subsets.
+	- The cone construction #card
+	  id:: 6461ca0c-d0bf-40d1-bc3f-5ce24fd244b9
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-15T00:29:37.625Z
+	  card-last-reviewed:: 2023-05-16T00:29:37.625Z
+	  card-last-score:: 5
+		- The 'cone map' $c_n:S_n (X) \to S_{n+1} (X)$ for a convex subset of $\mathbb R^n$ by its action on the generators:
+		  $$
+		  (c_n( \sigma))\left(t_0, t_1, \ldots, t_{n+1}\right)= \begin{cases}b & \text { if } t_0=1 \\ t_0 b+\left(1-t_0\right) \sigma\left(\frac{t_1}{1-t_0}, \ldots, \frac{t_{n+1}}{1-t_0}\right) & \text { if } t_0 \neq 1\end{cases}
+		  $$
+			- Intuitively, construct a cone using $b$ as the 'top' and $\sigma$ as the 'bottom'.
+			- Note that the 'scaling construction' requires a structure of $\mathbb R$ ... or something similar?
+		- Proposition. $\partial_{n+1} c_n(\sigma)=\sigma-c_{n-1} \partial_n(\sigma)$
+			- Verify by the definition of the boundary operator. A small exercise!
+			- Geometric intuition:
+			  ((6461a7c8-3e70-4218-8989-a2b1fa67accf))
+			  the 'side faces' of the cone is produced by cones over the boundary.
 - # Basic Facts
   collapsed:: true
 	- ((644638a3-9be7-46f8-8abb-f6c3ae2849af)) For all $n \geq 0$, we have $\partial_n \partial_{n+1}=0$. #card
@@ -160,6 +182,12 @@
 			- It reminds of the Poincare lemma.
 			- Also similar to the geometrical intuition that 'a boundary is boundaryless'.
 	- ((644a25af-79a6-4b3c-9ac7-e319e6a3b251)) For each $n \geq 0, H_n: \mathbf{Top}\rightarrow \mathbf{A b}$ is a functor. #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-15T00:26:27.384Z
+	  card-last-reviewed:: 2023-05-16T00:26:27.385Z
+	  card-last-score:: 5
 		- '当你学了范畴后，看什么都是范畴'。
 		- We should determine two things:
 		  1. For $f \in \mathrm{Hom}_{\mathbf{Top}}(X,Y)$, how to define $H_n(f)$?
@@ -225,7 +253,29 @@
 			- However, $\operatorname{supp} \zeta$ itself is compact!
 		- Therefore consider $x \in H_n(X)$. $x \in j_*(H_n(A))$, but $H_n(A)=0$, so $x=0$.
 - # The Homotopy Axiom
-	- ((6455bc34-9cfb-4aff-9eda-66b2797bb373)). If $X$ is a bounded convex subspace of euclidean space, then $H_n(X)=0$ for all $n \geq 1$. In particular, $H_n\left(D^k\right)=0$ for all $n>0$ and all $k$.
+	- We are concerned with the problem:
+	  When does $H_n(f)=H_n(g)$
+	  Does it hold when $f$ and $g$ are homotopic?
+	- ((6455bc34-9cfb-4aff-9eda-66b2797bb373)). If $X$ is a bounded convex subspace of euclidean space, then $H_n(X)=0$ for all $n \geq 1$. #card
 		- Remark
 			- For $n=0$ and $X \neq \empty$, we know $H_0(X) \simeq \Z$ since convex implies path-connectedness.
-		-
+		- Geometric intuition
+			- Consider an 1-cycle in $D^2$. 
+			  We want to 'fill the interior' of the cycle to obtain its bulk. But how to define the 'filling'?
+		- Proof
+			- Key idea: ((6461ca0c-d0bf-40d1-bc3f-5ce24fd244b9))
+				- It is an elegant solution for 'filling the interior'!
+				- The unwanted faces of the cones would cancel if $\sigma$ is a cycle.
+				- The insight is that dealing with each simplex **separately** would be much easier than dealing with the chain as a whole.
+			- Use the proposition $\partial_{n+1} c_n(\sigma)=\sigma-c_{n-1} \partial_n(\sigma)$, we easily see that $c_n(\sigma)$ is precisely the desired bulk!
+	- Lemma. Assume that $f, g: X \rightarrow Y$ are continuous maps and that there are homomorphisms $P_n: S_n(X) \rightarrow S_{n+1}(Y)$ with
+	  $$
+	  f_{\#}-g_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
+	  $$
+		- In cases where $X,Y$ are convex subsets of $\mathbb R^n$, $P_n=c'_n \circ (f_\#-g_\#)$ serves.
+		- Therefore, the lemma says something similar to convexity.
+	- Lemma. Let $X$ be a space and, for $i=0$, 1, let $\lambda_i^X: X \rightarrow X \times \mathbf{I}$ be defined by $x \mapsto(x, i)$. If $H_n\left(\lambda_0^X\right)=H_n\left(\lambda_1^X\right): H_n(X) \rightarrow H_n(X \times \mathbf{I})$, then $H_n(f)=H_n(g)$ whenever $f$ and $g: X \rightarrow Y$ are homotopic. #card
+		- An interesting exercise -- mainly a conceptual challenge rather than a technical one!
+		- Question: Where is the condition $f \simeq g$ used?
+			- For $F:X \times I \to Y$, $F_\#$ is a legitimate homomorphism $H_n(X \times I) \to H_n(Y)$ only when $F$ is continuous.
+	-

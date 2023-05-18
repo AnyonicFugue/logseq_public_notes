@@ -1,7 +1,6 @@
 -
 - We want to renormalize the photon propagators.
 - # Photon [[1PI]] diagrams and general analysis of them
-  collapsed:: true
 	- Summary #card
 	  card-last-interval:: 24
 	  card-repeats:: 2
@@ -51,6 +50,7 @@
 	- $\alpha_0 \rightarrow \alpha_{\mathrm{eff}}\left(q^2\right)=\frac{e_0^2 / 4 \pi}{1-\Pi\left(q^2\right)} \underset{\mathcal{O}(\alpha)}{=} \frac{\alpha}{1-\left[\Pi_2\left(q^2\right)-\Pi_2(0)\right]}$
 		- The 'constants' actually shift with energy!
 - # Compute $\Pi(q^2)$
+  collapsed:: true
 	- Summary
 		- Use Feynman parameter, complete the square and Wick rotation to encounter divergence
 		  collapsed:: true
@@ -93,16 +93,6 @@
 					- Now invoke [[Pauli-Villars Regularization]] again. Constants and divergent logs both vanish.
 		- Note that some **properties of the gamma matrices are also  dimension-dependent**, because $g_{\mu\nu}$ depends on the dimension.
 		  We can nevertheless ignore them because such terms cancel when these diagrams are combined to compute an observable quantity.
-	- ## Summary of integrals in different dimensions
-		- Modify some rules
-			- In $d$ dimensions, $g^{\mu \nu}$ obeys $g_{\mu \nu} g^{\mu \nu}=d$. Thus, if the numerator of a symmetric integrand contains $\ell^\mu \ell^\nu$, we should replace
-			  $$
-			  \ell^\mu \ell^\nu \rightarrow \frac{1}{d} \ell^2 g^{\mu \nu}
-			  $$
-			- Thus $(1-\frac 1 2)g^{\mu\nu} \to (1-\frac 2 D)g^{\mu\nu}$, which may fuse with $\Gamma(1-\frac 2 D)$
-			-
-		- $$\int \frac{d^d \ell_E}{(2 \pi)^d} \frac{1}{\left(\ell_E^2+\Delta\right)^n}=\frac{1}{(4 \pi)^{d / 2}} \frac{\Gamma\left(n-\frac{d}{2}\right)}{\Gamma(n)}\left(\frac{1}{\Delta}\right)^{n-\frac{d}{2}}$$
-		  $$\int \frac{d^d \ell_E}{(2 \pi)^d} \frac{\ell_E^2}{\left(\ell_E^2+\Delta\right)^n}=\frac{1}{(4 \pi)^{d / 2}} \frac{d}{2} \frac{\Gamma\left(n-\frac{d}{2}-1\right)}{\Gamma(n)}\left(\frac{1}{\Delta}\right)^{n-\frac{d}{2}-1}$$
 	- ## Continue to compute the lowest-order correction
 		- ((63957564-2bfe-4b1f-8004-d6e3f8c78406))
 			- ((63957569-f8a9-4cf9-bfa1-4734afc52acc)) #Learning-TODO

@@ -245,6 +245,7 @@
 		  \end{aligned}
 		  $$
 - # Quantizing [[Dirac Theory]]
+  collapsed:: true
 	- To quantize spinor fields with anti-commutation relations, we need [[Grassmann Number]].
 	- ## Defs
 		- Grassmann field
@@ -303,7 +304,6 @@
 			  $$
 - # Path Integral and Symmetry
   id:: 643a4aa5-1492-482b-a7cb-4e4bae282468
-  collapsed:: true
 	- Comment
 		- If the integral is invariant under some transformation, then we can obtain nontrivial relations.
 	- Summary #card
@@ -313,6 +313,10 @@
 		  \int \prod _{n} D[ \phi _{n}] \ \int d^{4} x\left[\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n}( x)} +\sum _{n} i\left(\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n}\right) F_{n}[ \phi ;x]\right] \cdot \exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\} & =0
 		  \end{aligned}
 		  \end{equation*}
+			- The infinitesimal transformation under consideration is
+			  $$\begin{equation*}
+			  \phi _{n} (x)\rightarrow \phi _{n}^{\prime } (x)=\phi _{n} (x)+\varepsilon F_{n}[ \phi ;x]
+			  \end{equation*}$$
 		- Take $F_{n}$ independent of $\phi$, the equation is zero for arbitrary $F$ implies that the 'coefficients' are zero.
 		  Then the formula can be interpreted as a relation between Green functions.
 		  Example.$\frac{\lambda }{4!} \phi ^{4}$ theory, $n=1$ :
@@ -321,7 +325,6 @@
 		  \end{equation*}
 		-
 	- ## Deriving the Central Formula
-	  collapsed:: true
 		- Start by 
 		  \begin{equation*}
 		  Z[ J_{n}] =\int \prod _{n} D[ \phi _{n}] \ \exp\left( iS[ \phi ] +i\int d^{4} x\ \sum _{n} J_{n} \phi _{n}\right)
@@ -369,6 +372,7 @@
 		  \end{aligned}
 		  \end{equation*}
 	- ## EOM of Green functions
+	  collapsed:: true
 		- Take $F_{n}$ independent of $\phi$ (note that it is a shift of integration variables, so necessarily a symmetry):
 		  \begin{equation*}
 		  \begin{aligned}
@@ -395,7 +399,6 @@
 		  \left< \Omega \left| T\left\{\left[ -\left( \partial ^{2} +m^{2}\right) \phi (x)-\frac{\lambda }{3!} \phi ^{3} (x)\right] \phi (y)\right\}\right| \Omega \right> =i\delta ^{(4)} (x-y)
 		  \end{equation*}
 	- ## Internal Symmetries
-	  collapsed:: true
 		- Summary #card
 		  card-last-interval:: 32.57
 		  card-repeats:: 1
@@ -407,7 +410,7 @@
 			  eg. gauge symmetry
 			- We can obtain the Ward identities
 			  \begin{equation*}
-			  \sum _{k=1}^{m}\left< \Omega\left| T\left\{\phi _{n_{1}}( x_{1}) \cdots \phi _{n_{k-1}}( x_{k-1}) f_{n_{k}}^{a}[ \phi _{m}( x_{k})] \phi _{n_{k+1}}( x_{k+1}) \cdots \phi _{n_{m}}( x_{m})\right\}\right| \Omega\right> 
+			  \sum _{k=1}^{m}\left< \Omega\left| T\left\{\phi _{n_{1}}( x_{1}) \cdots \phi _{n_{k-1}}( x_{k-1}) F_{n_{k}}^{a}[ \phi _{m}( x_{k})] \phi _{n_{k+1}}( x_{k+1}) \cdots \phi _{n_{m}}( x_{m})\right\}\right| \Omega\right> =0
 			  \end{equation*}
 			  by applying derivatives to
 			  $$\begin{aligned}

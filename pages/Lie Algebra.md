@@ -119,11 +119,11 @@
 		- The second comes from the fact that inner automorphisms can cancel.
 	-
 	- If $G$ is commutative then $\mathfrak{g}$ is commutative. #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-04-24T15:45:59.730Z
-	  card-last-reviewed:: 2023-02-16T11:45:59.730Z
+	  card-last-interval:: 252.3
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-01-20T19:12:08.625Z
+	  card-last-reviewed:: 2023-05-13T12:12:08.626Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- As an exercise.
