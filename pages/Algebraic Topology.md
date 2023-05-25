@@ -807,11 +807,11 @@
 			-
 			- Note that a polygon is **not** a surface. The boundary points don't have neighborhoods homeomorphic to an open disk.
 		- Exercise. Does the classification theorem work for ((63e86249-c48a-4740-a36d-100aeb1da16c))? #card
-		  card-last-interval:: 26.06
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-08T12:53:45.802Z
-		  card-last-reviewed:: 2023-03-13T11:53:45.803Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-06-20T00:49:32.220Z
+		  card-last-reviewed:: 2023-05-21T00:49:32.220Z
 		  card-last-score:: 5
 			- **NO**. It is not a surface for $n>2$.
 -

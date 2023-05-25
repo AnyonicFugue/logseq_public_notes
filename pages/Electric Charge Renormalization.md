@@ -1,6 +1,7 @@
 -
 - We want to renormalize the photon propagators.
 - # Photon [[1PI]] diagrams and general analysis of them
+  id:: 6454f15c-e712-4319-b778-d214749416af
 	- Summary #card
 	  card-last-interval:: 24
 	  card-repeats:: 2

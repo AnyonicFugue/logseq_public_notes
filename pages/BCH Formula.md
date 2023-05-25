@@ -23,12 +23,12 @@
 	- Note that the process of differentiation can be repeated infinitely and we may obtain the complete form of BCH.
 		- Only that we can't directly prove it in this way...
 - ((640ad204-613d-408c-9fb4-28e69ad1474d)) (BCH, Integral Version) For all $n \times n$ complex matrices $X$ and $Y$ with $\|X\|$ and $\|Y\|$ sufficiently small, we have
-  card-last-score:: 5
-  card-repeats:: 1
-  card-next-schedule:: 2023-04-24T11:49:29.579Z
-  card-last-interval:: 24
-  card-ease-factor:: 2.6
-  card-last-reviewed:: 2023-03-31T11:49:29.579Z
+  card-last-score:: 3
+  card-repeats:: 2
+  card-next-schedule:: 2023-06-18T00:40:38.080Z
+  card-last-interval:: 30
+  card-ease-factor:: 2.46
+  card-last-reviewed:: 2023-05-19T00:40:38.081Z
   $$
   \log \left(e^X e^Y\right)=X+\int_0^1 g\left(e^{\mathrm{ad}_X} e^{t\ \mathrm{ad}_Y}\right)(Y) d t 
   $$

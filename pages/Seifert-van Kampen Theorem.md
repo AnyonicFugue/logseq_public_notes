@@ -1,10 +1,10 @@
 - ((63d60a1c-0e60-45af-8c23-f8c23c08600c))
 - ((63d8c0d3-9503-4553-ae46-34d60bc7acd4)) Let $X=U \cup V$, where $U$ and $V$ are **open** in $X$; assume $U, V$, and $U \cap V$ are path connected; let $x_0 \in U \cap V$.
-  card-last-interval:: 25.01
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-03-08T11:02:20.763Z
-  card-last-reviewed:: 2023-02-11T11:02:20.764Z
+  card-last-interval:: 30
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-06-19T00:24:34.006Z
+  card-last-reviewed:: 2023-05-20T00:24:34.007Z
   card-last-score:: 5
   Let $H$ be a group, and let $$\phi_1: \pi_1\left(U, x_0\right) \longrightarrow H \quad \text { and } \quad \phi_2: \pi_1\left(V, x_0\right) \longrightarrow H$$ be homomorphisms. 
   ((63d8c1ea-a5a1-4c97-b296-2496217fccb9))

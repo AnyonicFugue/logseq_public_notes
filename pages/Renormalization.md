@@ -1,8 +1,8 @@
 - ((63902f14-d931-401b-a27f-5d9f95c9791c))
 	- For example, physical mass of electrons are not the bare mass.
 - # Principles and the Paradigm #card
-  collapsed:: true
 	- ## Empirical Knowledge
+	  collapsed:: true
 		- We can't probe physics at arbitrarily high $E$.
 			- Therefore, integrating to $k \to \infty$ is a huge **extrapolation**. (It's miraculous this doesn't fail completely).
 			- We can't even be sure that the theory is local or Lorentz covariant at high $E$.
@@ -22,7 +22,9 @@
 	- **Conjecture**. We can replace the [[Bare]] quantities by physical quantities ($m_0$ by $m$, $e_0$ by $e$, ...) in the Lagrangian and obtain testable predictions.
 		- This is highly nontrivial!
 			- In principle the form of the Lagrangian should also change.
-			-
+		- To be more specific, this is achieved by adding counterterms to cancel the divergences.
+			- Note that we can only calculate the loop diagrams by **physical** (renormalized) quantities.
+			  The bare quantities is regarded invariant but always unknown.
 	- However, what does high $E$ mean?
 		- In QM we always have **eigen energy** and **expectation value**. Which is the $E$ here?
 - # Schemes of Regularization
@@ -30,7 +32,7 @@
 	- [[Dimensional Regularization]]
 	- [[Cutoff]] Regularization
 - # Schemes of Renormalization
-  collapsed:: true
+	- Note that n-pt functions can have different
 	- ## Scheme 1: Cancel the Divergences via Physical Quantities #card
 	  collapsed:: true
 		- Idea
@@ -51,7 +53,8 @@
 	- ## Scheme 2: Cancel the Divergent Diagrams by Counter-terms #card
 	  collapsed:: true
 		- Idea
-			- Rewrite the Lagrangian as a physical part and a counter-term part
+			- Rewrite the Lagrangian as a physical part and a counter-term part.
+			  The counter terms are regarded as extra interaction vertices.
 			- The latter part produce diagrams which cancel the divergent diagrams of the physical part.
 			  Thus we may only consider tree-level diagrams of the physical part.
 		- (1) Write $\phi_0=\sqrt{Z} \phi, m_0^2=m^2+\delta m^2, \lambda_0=Z_\lambda \lambda \tilde{\mu}^{2 \varepsilon}$ where $Z, \delta m^2, Z_\lambda$ are to be determined.
@@ -63,6 +66,7 @@
 		   & \left\{\frac{1}{2} (Z-1)\partial ^{\mu } \phi \partial _{\mu } \phi -\frac{1}{2}\left[ (Z-1)m^{2} +Z\delta {m}^{2}\right] \phi ^{2} -\left( Z_{\lambda } Z^{2} -1\right)\frac{\lambda \tilde{\mu }^{2\varepsilon }}{4!} \phi ^{4}\right\} \ \text{(Counter)}
 		  \end{aligned}$$
 			- The counter term is to cancel all effects of renormalization and keep the formalism simple and elegant.
+			- Note that $\frac 1 2 (Z-1)\partial ^{\mu } \phi \partial _{\mu } \phi$ would produce a vertex of $-\frac 1 2 (Z-1) p^2$ (instead of $-\frac 1 2 \frac i {p^2-m^2}$, the form of a propagator)
 		- (3) Determine the counter terms order by order from the requirement that
 		  ![image.png](../assets/image_1682478526468_0.png)
 		  Which translates into
@@ -84,7 +88,7 @@
 				  \end{aligned}$$
 			- 2-loop order
 				- ![image.png](../assets/image_1682478818350_0.png){:height 350, :width 863}
-	- ## Scheme 3: Modified Minimal Subtraction
+	- ## Scheme 3: Modified Minimal Subtraction $\overline{MS}$
 	  collapsed:: true
 		- Idea
 			- This is similar to scheme 2. But we change the requirement here:
@@ -104,7 +108,14 @@
 			  \end{aligned}$$
 			- We see that the mass in the MS scheme is dependent on the scale factor $\mu$. This is a common feature for quantities in the scale-dependent renormalization schemes.
 			  background-color:: yellow
+		- Note
+			- **We do not need to calculate the precise values of the diagrams to obtain the leading divergence!**
+			  Only a power counting is needed.
+			- Example. $\phi^4$ theory
+				-
 	- ## Scheme 4: On-Shell Renormalization
+	  id:: 646583f6-fc6a-48ee-bd91-b8dcc742e15f
+	  collapsed:: true
 		- Idea
 			- We want the propagator to be in the desired form when $p^2 \to m^2$.
 		- The bare propagator:
@@ -143,13 +154,16 @@
 - # Systematic Analysis
   collapsed:: true
 	- Summary #card
-	  collapsed:: true
+	  card-last-interval:: 28.74
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-16T17:51:06.797Z
+	  card-last-reviewed:: 2023-05-19T00:51:06.797Z
+	  card-last-score:: 5
 		- Starting point: How to characterize renormalizability?
 		- Idea: Determine convergence by the power of momenta in the integrand
-		  collapsed:: true
 			- Note that the integrand is always a fraction of polynomials in $p$, whose UV convergence can be determined by the power analysis.
 		- Detailed analysis
-		  collapsed:: true
 			- Divergent subdiagrams:
 			- Multi-loop diagrams:
 		- Final theorem of renormalizability:
@@ -291,6 +305,12 @@
 	- ## The Renormalizability Theorem
 	  collapsed:: true
 		- Definition. Renormalizable #card
+		  card-last-interval:: 33.94
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-26T22:09:43.262Z
+		  card-last-reviewed:: 2023-05-24T00:09:43.262Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- All physical quantities can be rendered finite by a reparameterization of fields, masses and couplings.
 			- An interaction is **super-renormalizable** if $\Delta_i >0$.
@@ -367,7 +387,7 @@
 		- [[QFT]]
 			- ((63902fd3-2777-45da-a15d-df163f153399))
 			- It is a miracle that the [[Photon]] has zero mass!
-- # Example
+- # Examples
   collapsed:: true
 	- $\phi \phi \to \phi \phi$ at 1-loop for $\phi^4$ theory
 	  collapsed:: true
@@ -414,7 +434,102 @@
 		-
 	- Renormalization of [[QED]]
 		- Setup
+			- collapsed:: true
+			  $$
+			  \mathcal{L}=-\frac{1}{4} F_{\mu \nu} F^{\mu \nu}-\frac{1}{2 \xi}\left(\partial^\mu A_\mu\right)^2+\tilde{\psi}\left(i \gamma^\mu D_\mu-m\right) \psi
+			  $$
+				- The second term is the gauge-fixing term.
+				- Correspondingly, the photon propagator becomes $\frac{i}{k^2+i \varepsilon}\left[-g_{\mu \nu}+(1-\xi) \frac{k_{\mu k}}{k^2}\right]$
 			- $$\begin{aligned}
 			  & A_0^\mu(x)=\sqrt{Z_3} A^\mu(x), \quad \psi_0(x)=\sqrt{Z_2} \psi(x) \\
 			  & e_0=Z_e e , \zeta_0=Z_\zeta \zeta , m_0=Z_m m 
 			  \end{aligned}$$
+		- Overview
+		  collapsed:: true
+			- The strategy is to examine certain loop diagrams and obtain the counterterms.
+			  collapsed:: true
+				- Moreover, the diagrams to investigate have clear physical meanings.
+				  For example, the electron vertex function renormalizes $e$ (the coupling constant); electron and phonon propagators renormalize the fields and masses respectively.
+			- Note that not all interactions with $[O_i] \leq 4$ are included, since some are forbidden by the gauge symmetry.
+			  collapsed:: true
+				- e.g. $A_\mu A^\mu, \quad\left(\partial_\mu A_\nu\right) A^\mu A^\nu, \quad A^\mu A^\nu A_\mu A_\nu$
+		- Field and mass renormalization
+			- Use ((646583f6-fc6a-48ee-bd91-b8dcc742e15f))
+			- The analysis is similar to Peskin Chapter 7:
+			  First give a general analysis about 1PI diagrams (geometric series), then calculate the 1-loop diagram.
+			- For photons:
+			  collapsed:: true
+				- $\begin{aligned} G^{(2)}(k) & =\frac{i}{k^2+i \varepsilon}\left[\left(-g_{\mu \nu}+\frac{k_\mu k_\nu}{k^2}\right) \frac{1}{1-\pi\left(k^2\right)}-\zeta \frac{k_\mu k_\nu}{k^2}\right] \\ & \overset{!}{\underset{k^2 \rightarrow 0}{\longrightarrow}} \frac{i}{k^2+i \varepsilon}\left[-g_{\mu \nu}+(1-\zeta) \frac{k_\mu k_\nu}{k^2}\right]+\text { non-singular }\end{aligned}$
+				  collapsed:: true
+					- The analysis can be found [here](((6454f15c-e712-4319-b778-d214749416af))).
+					- The key point is to observe a projector and construct a geometric sequence of **scalars**.
+				- Compare to the desired form of the propagator, we find
+				  $$Z_3=[1-\pi_0(k^2=0)]^{-1}$$
+		- Electric charge renormalization
+		  collapsed:: true
+			- Overview
+			  collapsed:: true
+				- Examine the diagram
+				  ![image.png](../assets/image_1684546075278_0.png){:height 148, :width 188}
+				  and require it to be $(2\pi)^4 \delta^4(\sum p) (-i e) \bar{u}\left(\beta^{\prime}, s^{\prime}\right) \gamma^\mu u(\beta, s) \varepsilon_\mu(q, \lambda)$ in the limit $q \to 0$.
+			- Again similar to the analysis in Peskin Chap.7, we find it to be
+			  $$(2\pi )^{4} \delta ^{(4)}\left( p^{\prime } +q-p\right)\sqrt{Z_{3}} Z_{2}( -ie_{0})\overline{u}\left( p^{\prime } ,s^{\prime }\right) \Gamma _{0}^{\mu }\left( p,p^{\prime }\right) u(p,s)\varepsilon _{\mu }^{*} (q,\lambda )$$
+			- We've analyzed the vertex function before and found it to be
+			  $$
+			  \Gamma_0^\mu\left(p^{\prime}, p\right)=\gamma^\mu F_1^0\left(q^2, m\right)+\frac{i \sigma^{\mu \nu}\left(p'-p\right)_\nu}{2 m} F_2^0\left(q^2, m\right)
+			  $$
+			- The second form factor vanishes for $q \to 0$, therefore by requiring $F_1^{(physical)}(q^2=0,m^2)=1$, we find
+			  $$
+			  \frac{1}{Z_e}=\sqrt{Z_3} Z_2 F_1^0\left(q^2=0, m\right)
+			  $$
+		- An extra relation from gauge invariance
+		  collapsed:: true
+			- Recall that we can obtain 
+			  \begin{equation*}
+			  \begin{aligned}
+			   & \partial _{x}^{\mu }\left< \Omega|T\left\{j_{\mu }^{\alpha }[ \phi _{n}( x)] \phi _{n_{1}}( x_{1}) \cdots \phi _{n_{m}}( x_{m})\right\} |\Omega\right> \\
+			   & =(-i)\sum _{k=1}^{m} \delta ^{(4)}( x-x_{k})\left< \Omega\left| T\left\{\phi _{n_{1}}( x_{1}) \cdots \phi _{n_{k-1}}( x_{k-1}) F_{n_{k}}^{a}[ \phi _{m}( x_{k})] \phi _{n_{k+1}}( x_{k+1}) \dotsc \phi _{n_{m}}( x_{m})\right\}\right| \Omega\right> 
+			  \end{aligned}
+			  \end{equation*}
+			  by gauge invariance.
+			- Here we consider the 2-point function:
+			  $$\partial _{\mu }^{(x)}\left< \Omega\left| T\left\{j_{0}^{\mu } (x)\psi _{0\alpha }( z_{1})\overline{\psi }_{\circ \beta }( z_{2})\right\}\right| \Omega\right> =\delta ^{(4)}( x-z_{1})< \Omega| T\{\psi _{0\alpha }( z_{1})\overline{\psi }_{0\beta }( z_{2})\}| \Omega) -\delta ^{(x)}( x-z_{2})< \Omega| T\{\psi _{0\alpha }( z_{1})\overline{\psi }_{0\beta }( z_{2})\}| \Omega\rangle  $$
+			- After Fourier transformation:
+			  collapsed:: true
+				- collapsed:: true
+				  $$LHS=(2\pi )^{4} \delta ^{(4)}\left( q+p^{\prime } -p\right) (-iq_{\mu } )S_{0\alpha \alpha ^{\prime }}\left( p^{\prime }\right)\hat{\Gamma }_{0\alpha ^{\prime } \beta ^{\prime }}\left( p^{\prime } ,p\right) S_{0\beta ^{\prime } \beta } (p)$$
+					- ![image.png](../assets/image_1684547592664_0.png){:height 239, :width 312}
+					- Here the double line means that a momentum is multiplied.
+					- Note that the index $\mu$ is actually summed over all 4 values, which is the same as the case
+					  $$J=e\bar\psi \gamma^\mu A_\mu \psi$$
+				- $$RHS=(2\pi )^{4} \delta ^{(4)}\left( q+p^{\prime } -p\right) (-1)\left[ S_{0\alpha \beta } (p)-S_{0\alpha \beta }\left( p^{\prime }\right)\right]$$
+			- Compare LHS and RHS, we find an extra relation:
+			  $$iq_\mu S_0(p') \Gamma^\mu(p',p) S_0(p)=[S_0(p)-S_0(p')]$$
+			- Take the limit $q \to 0$ and use $S_0=Z_2 S$, this is equivalent to
+			  $$
+			  \left.\Gamma_0^\mu\left(p, p^{\prime}\right)\right|_{p^{\prime} \rightarrow p}=i \frac{\partial}{\partial p_\mu} S_0^{-1}(p)
+			  $$
+	- [[QCD]]
+		- Setup
+			- \begin{aligned}
+			   & A_{\mu 0}^{a} (x)=\sqrt{Z_{3}} A_{\mu }^{a} (x),\ \ \psi _{i0} (x)=\sqrt{Z_{2}} \psi _{i} (x),\quad c^{a} =Z_{3c} c_{0}^{a}\\
+			   & g_{0} =Z_{g} g,m_{0} =Z_{m} m\\
+			  \mathcal{L}_{\text{int }} & =g_{0}\overline{\psi }_{0} A_{0} \psi _{0}\\
+			   & =Z_{1} \cdot g\tilde{\mu }^{\varepsilon }\overline{\psi } A\psi 
+			  \end{aligned}
+		- Notes
+			- The definition of $Z_1$ isn't independent from others.
+				- We can find $Z_1=\frac{Z_g}{Z_2 \sqrt{Z_3}}$
+		- Summarize all counterterms:
+		  $$
+		  \begin{aligned}
+		  & \delta_1 \equiv Z_1-1=\frac{1}{2 \varepsilon} \frac{g^2}{16 \pi^2}\left[-2 C_F-2 C_A+2(1-\zeta) C_F+\frac{1}{2}(1-\zeta) C_A\right] \\
+		  & \delta_2 \equiv Z_2-1=\frac{1}{2 \varepsilon} \frac{g^2}{16 \pi^2}\left[-2 C_F+2(1-\zeta) C_F\right] \\
+		  & \delta_m \equiv Z_m-1=\frac{1}{2 \varepsilon} \frac{g^2}{16 \pi^2}\left[-6 C_F\right] \\
+		  & \delta_3 \equiv Z_3-1=\frac{1}{2 \varepsilon} \frac{g^2}{16 \pi^2}\left[\frac{10}{3} C_A-\frac{8}{3} T_F n_f+(1-\zeta) C_A\right] \\
+		  & \delta_{3 C} \equiv Z_{3 C}-1=\frac{1}{2 \varepsilon} \frac{9^2}{16 \pi^2}\left[C_A+\frac{1}{2}(1-\zeta) C_A\right] \\
+		  & \delta_{A^3}=Z_{A^3}-1=\frac{1}{2 \varepsilon} \frac{g^2}{16 \pi^2}\left[\frac{4}{3} C_A-\frac{8}{3} n_f T_F+\frac{3}{2}(1-\zeta) C_A\right] \\
+		  & \delta_{A^4}=Z_{A^4}-1=\frac{1}{2 \varepsilon} \frac{g^2}{16 \pi^2}\left[-\frac{2}{3} C_A-\frac{8}{3} n_f T_F+2(1-\zeta) C_A\right] \\
+		  & \delta_{1 C}=Z_{1 C}-1=\frac{1}{2 \varepsilon} \frac{g^2}{16 \pi^2}\left[-C_A+(1-\zeta) C_A\right]
+		  \end{aligned}
+		  $$

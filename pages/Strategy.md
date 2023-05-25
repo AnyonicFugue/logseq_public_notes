@@ -21,6 +21,12 @@
 	- Solving an infinitesimal local property is often way easier than tackling the global thing!
 - Use a set of elementary moves. Prove invariance under each element of the set. #card
   id:: 63fa1061-a719-42a4-8b01-2bd603e394fc
+  card-last-interval:: 30
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-06-21T00:52:25.604Z
+  card-last-reviewed:: 2023-05-22T00:52:25.604Z
+  card-last-score:: 5
 	- Quite interesting. So useful in classification and invariance (equivalence) problems.
 - # [[Algebraic Topology]]
 	- Prove nulhomotopy by rescale the shape (in particular, curve) with a parameter $t\in [0,1]$

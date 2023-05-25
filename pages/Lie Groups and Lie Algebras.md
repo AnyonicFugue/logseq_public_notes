@@ -121,11 +121,11 @@
 		- Corollary. Let $G$ and $H$ be matrix Lie groups with Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, respectively, and assume $G$ is **connected**. Suppose $\Phi_1$ and $\Phi_2$ are Lie group homomorphisms of $G$ into $H$ and that $\phi_1$ and $\phi_2$ be the associated Lie algebra homomorphisms of $\mathfrak{g}$ into $\mathfrak{h}$. Then if $\phi_1=\phi_2$, we have $\Phi_1=\Phi_2$. #card
 			- Exercise.
 		- Corollary. If $G$ is a **connected** matrix Lie group and the Lie algebra $\mathfrak{g}$ of $G$ is commutative, then $G$ is commutative. #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-04T11:20:49.447Z
-		  card-last-reviewed:: 2023-02-08T11:20:49.447Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-06-21T00:55:12.242Z
+		  card-last-reviewed:: 2023-05-22T00:55:12.243Z
 		  card-last-score:: 5
 			- Exercise.
 			- Hint: {{cloze ((6381c0a3-1e80-48b1-ba45-9844cd8aabd7))}}

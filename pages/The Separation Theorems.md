@@ -55,12 +55,12 @@
 			- By an similar operation of 'filling the previous shape' we show the last edge also separates $S^2$. Moreover, one of the components doesn't intersect $a_1$.
 				- ((63bd18fc-f313-4f33-8d66-1244667d0d3b))
 			- The following is completely analogous to that of the utility graph.
-	- Theorem(Kuratowski's Theorem). A graph $G$ is planar if and only if it does not contain a subdivision of $K_5$ or $K_{3,3}$. #card
-	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-04-21T00:51:30.570Z
-	  card-last-reviewed:: 2023-03-28T00:51:30.570Z
+	- Theorem (Kuratowski's Theorem). A graph $G$ is planar if and only if it does not contain a subdivision of $K_5$ or $K_{3,3}$. #card
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-06-23T00:04:57.198Z
+	  card-last-reviewed:: 2023-05-24T00:04:57.198Z
 	  card-last-score:: 5
 		- This wasn't proven in Munkres, but quite interesting!
 - Application on winding numbers

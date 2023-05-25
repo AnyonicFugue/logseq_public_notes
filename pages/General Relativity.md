@@ -1,5 +1,10 @@
 alias:: GR
 
+- # Points to Be Careful #card
+	- $g^{ab}$ is the **inverse** of $g_{ab}$.
+	  When writing in the form of $d s^2=-d \tau^2+a^2(\tau)\left(d x^2+d y^2+d z^2\right)$, it is $g_{ab}$, **not** $g^{ab}$!
+		- This is particularly important when calculating the Christoffel symbols, which involves lots of $g_{ab}$!
+		- I made lots of mistakes here when trying to obtain the Friedman equations...
 - # Principles
   collapsed:: true
 	- General Covariance #card
@@ -30,7 +35,6 @@ alias:: GR
 		- A quick way to rederive it: Take $\tilde t=ict$, then the metric becomes Euclidean.
 		  We can first write down a rotation in the Euclidean space, then insert $i$ back.
 - # Elements of Differential Geometry
-  collapsed:: true
 	- Christoffel symbol #card
 	  collapsed:: true
 		- $$\Gamma_{a b}^c=\frac{1}{2} g^{c d}\left\{\partial_a g_{b d}+\partial_b g_{a d}-\partial_d g_{a b}\right\}$$
@@ -125,24 +129,21 @@ alias:: GR
 	  collapsed:: true
 		- Def #card
 		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-05T00:25:43.264Z
-		  card-last-reviewed:: 2023-04-05T00:25:43.265Z
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-06-23T00:05:20.515Z
+		  card-last-reviewed:: 2023-05-24T00:05:20.515Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- collapsed:: true
 			  $$
 			  \nabla_a \nabla_b \omega_c-\nabla_b \nabla_a \omega_c:=R_{a b c}{ }^d \omega_d
 			  $$
 				- Exercise: Show that LHS could indeed be expressed by a tensor, i.e. only depending on the value of $\omega_c$ at a **single point**
 			- Ricci tensor
-			  collapsed:: true
 				- $$
 				  R_{a c}:=R_{a b c}{}^b
 				  $$
 			- Scalar curvature
-			  collapsed:: true
 				- $$R := R_a{}^a$$
 		- Properties #card
 		  card-last-interval:: 30

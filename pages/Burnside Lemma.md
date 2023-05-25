@@ -1,9 +1,9 @@
 - **Counting orbits of group actions** #card
-  card-last-interval:: 30
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-05-12T00:56:02.028Z
-  card-last-reviewed:: 2023-04-12T00:56:02.029Z
+  card-last-interval:: 84
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-08-13T00:48:33.432Z
+  card-last-reviewed:: 2023-05-21T00:48:33.432Z
   card-last-score:: 5
 	- Given a finite group $G$ acting 1 on a set $X$. The number of orbits in $X$ due to this group action is given by
 	  $$

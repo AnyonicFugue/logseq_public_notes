@@ -8,7 +8,7 @@
 	- A fusion cat $C$ is separable if {{cloze C is a separable C-C-bimodule}}. #card
 		- Remark: $\mathrm{Fun}_{C|C}(C,C) \simeq Z(C)$ is semisimple, thus the center $Z(C)$ is a braided fusion cat.
 	- Examples
-		- $M_n(\mathbb k)$ is separable with $\mu := E_{ij} \mapsto \frac 1 n \sum_k E_{ik} \otimes E_{kj}$ #card
+		- $M_n(\mathbb k)$ is separable with $\mu := E_{ij} \mapsto \frac 1 n \sum_k E_{ik} \otimes E_{kj}$
 			- This map is defined componentwise. The whole map is obtained by linearity.
 	- Lemma. $C$ is a multi-fusion cat. If $A \in C$ is separable, then $\mathrm{RMod}_A(C)$ is finit-semisimple.
 	- Proposition. For a multi-fusion cat $C$ and $A \in C$ semisimple, $M := \mathrm{RMod}_A(C)$, the following are equivalent:

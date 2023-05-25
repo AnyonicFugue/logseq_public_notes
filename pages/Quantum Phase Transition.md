@@ -78,7 +78,6 @@
 				  and diagonalize the matrix (similar to the [[Bogoliubov Transformation]])
 		-
 - # Examples
-  collapsed:: true
 	- ## General Strategy
 		- Examine different limits of the parameters (eg $g \to 0$ and $g \to \infty$) to see different phases.
 		- Assuming that the behavior (or the phase) depends continuously on the parameters, we conclude that there must be critical points.

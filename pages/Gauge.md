@@ -2,6 +2,17 @@ alias:: Gauge Theory
 
 - [What is a gauge? | Teherence Tao](https://terrytao.wordpress.com/2008/09/27/what-is-a-gauge/)
 - ((64565059-ba36-4bfd-8fa8-516fa601aab3))
+- # Tricky Points
+	- Symmetry factor $-1$ of a fermion loop
+	- $i\lambda$ or $-i\lambda$? $i(Z-1)$ or $-i(Z-1)$? $ip$ or $-ip$?
+	  collapsed:: true
+		- Origin: We have $\exp{-iHT}$, which means $H_{int}$ becomes $-iH_{int}$.
+		- However, $H_{int}=-L_{int}$, which means $L_{int}$ becomes $iL_{int}$.
+		- Examples
+			- $$-\frac \lambda {4!} \to -i\lambda$$
+			- $$(Z_2-1)\bar \psi (i\not D) \psi \to i \not p$$
+				- Note that we always draw fermion lines (rather than anti-fermion lines) in propagators, therefore $\not D$ should act on $\hat a e^{-ipx}$ rather then $\hat b^\dagger e^{ipx}$.
+	- Power counting could only work for the $p$-independent divergence! $p^2$ terms cannot be obtained in this way; we must calculate the integral step-by-step.
 - # Motivations
   collapsed:: true
 	- When we try to construct theories like $A^\mu A^\nu \partial_\mu A_\nu$ or $A^4$, we would encounter negative norms.
@@ -9,46 +20,32 @@ alias:: Gauge Theory
 		- The problem is absent in QED because ((640458fa-7092-47a3-a5db-acb4759ce58a)).
 		- This follows from [[Ward-Takahashi Identity]], which in turn follows from **gauge invariance**. #Learning-TODO/Course
 		- Thus it's natural to consider other theories with some sorts of gauge invariance.
-- # Notations
-  collapsed:: true
-	- collapsed:: true
-	  $$g=\exp{\{i\alpha^kT_k\}}$$
+- # Setup
+	- $$g=\exp{\{i\alpha^kT_k\}}$$
 		- Here the generators are taken to be Hermitian, so $i$ is added in the factor.
-	- collapsed:: true
-	  $$\left[T^a, T^b\right]=i f^{a b c} T^c$$
+	- $$\left[T^a, T^b\right]=i f^{a b c} T^c$$
 		- Structure constants
 		-
 - # Elements of Lie Algebras
-  collapsed:: true
 	- $\operatorname{tr}\left[t_r^a t_r^b\right] \equiv D^{a b}$
 	- Prop. As long as the generator matrices are Hermitian, the matrix $D^{a b}$ is positive definite. Thus it can be diagonalized and made in the form $\operatorname{tr}\left[t_r^a t_r^b\right]=C(r) \delta^{a b}$ #card
-	  collapsed:: true
 		- Very simple exercise.
 		- Abstraction leads to the underlying structure, which points to the path. #[[Thoughts/Math and Physics]]
 	- Thus we can select a basis where $D^{ab}=C(r) \delta^{a b}$, then $f^{a b c}=-\frac{i}{C(r)} \operatorname{tr}\left\{\left[t_r^a, t_r^b\right] t_r^c\right\}$
-	  collapsed:: true
 		- It is completely antisymmetric.
 	- ## Some reps
-	  collapsed:: true
 		- Fundamental representation for $SU(N)$ #card
-		  collapsed:: true
 			- The set of $N \times N$ unitary matrices with $det(U)=1$.
 			- It is complex, so there's a conjugate rep.
 			- Prop. This rep is irreducible.
 			  collapsed:: true
 				-
 		- Adjoint representation for any simple Lie Algebra
-		  collapsed:: true
 			- $\left(t_G^b\right)_{a c}=i f^{a b c}$
-			  collapsed:: true
 				- Prop. It is indeed a valid rep. #card
 	- ## The Casimir Operator
-	  collapsed:: true
-		- Def.
-		  collapsed:: true
-			- $T^2:=\sum_a T^a T^a$
+		- Def. $T^2:=\sum_a T^a T^a$
 			- Quadratic Casimir operator
-			  collapsed:: true
 				- $\sum_a T_r^a T_r^a=C_2(r) \cdot \mathbf{1}$, where r labels the irrep.
 		- Prop. It commutes with all generators, thus proportional to identity. #card
 		  card-last-interval:: 31.26
@@ -70,7 +67,6 @@ alias:: Gauge Theory
 		  card-ease-factor:: 2.36
 		  card-last-reviewed:: 2023-04-03T01:13:50.248Z
 		- Note that the definition of tensor product representations is 
-		  collapsed:: true
 		  $$\begin{aligned} \rho_1 \otimes \rho_2: \mathfrak{g} & \rightarrow \mathfrak{g l}\left(V_1 \otimes V_2\right), \\ x & \mapsto\left(v_1 \otimes v_2 \mapsto\left(\rho_1(x)\right)\left(v_1\right) \otimes v_2+v_1 \otimes\left(\rho_2(x)\right)\left(v_2\right)\right)\end{aligned}$$
 			- I can verify it by universal property of tensor products.
 		- Prop. $d(r) C_2(r)=d(G) C(r)$, where $d(r)$ is the dimension of the irrep and $d(G)$ is the dimension of the Lie group. #card
@@ -140,9 +136,7 @@ alias:: Gauge Theory
 					- That is, the total amount of holonomy is equal to the flux on the surface.
 		-
 	- ## Transformation Rules
-	  collapsed:: true
 		- Spinor field
-		  collapsed:: true
 			- $\psi \to V(x)\psi$
 		- Wilson line
 		  collapsed:: true
@@ -152,7 +146,6 @@ alias:: Gauge Theory
 			- $$A_{\mu } (x)\rightarrow V(x)\left( A_{\mu } (x)+\frac{i}{g} \partial _{\mu }\right) V^{\dagger } (x)$$
 			- This can be derived from the transformation rule of the Wilson line.
 		- Covariant derivative
-		  collapsed:: true
 			- $D_\mu=\partial_\mu-i g A_\mu$
 		- Expansion by generators
 		  collapsed:: true
@@ -170,17 +163,13 @@ alias:: Gauge Theory
 			- The vector field can be derived from $$U_P(z, y)=P\left\{\exp \left[i g \int_0^1 d s \frac{d x^\mu}{d s} A_\mu^a(x(s)) t^a\right]\right\}$$
 			- The covariant derivative can be derived by using $U$ as the connection
 - # Quantization by Path Integral
-  collapsed:: true
 	- Idea
 	  collapsed:: true
 		- For path integral of gauge theories, we'd integrate over many equivalent configurations (related by gauge transformations).
 		  We hope to fix the gauge degrees of freedom and integrate over the physical ones.
 	- ## Fadeev-Popov Procedure
-	  collapsed:: true
 		- Consider the path integral
-		  $$$$
 - # Examples
-  collapsed:: true
 	- Reconstruct [[QED]] from a viewpoint of gauge invariance
 	  collapsed:: true
 		- It is striking that the covariant derivative, the field $A^\mu$ and subsequently the interaction term could emerge from such a simple principle!
@@ -223,7 +212,6 @@ alias:: Gauge Theory
 			  id:: 64045b5c-6fea-4ab6-8155-7c5cce369a40
 	- [[Strong Interaction]]
 	- Doubled Dirac theory with $SU(2)$ gauge group
-	  collapsed:: true
 		- # Setup
 		  collapsed:: true
 			- The field is a doublet of dirac spinors $\psi=\left(\begin{array}{l}\psi_1(x) \\ \psi_2(x)\end{array}\right)$
@@ -270,16 +258,13 @@ alias:: Gauge Theory
 		- # Lagrangian
 		  collapsed:: true
 			- ## Possible terms
-			  collapsed:: true
 				- $\bar\psi \psi, \bar\psi D_\mu \psi$ are covariant.
 				- $F_{\mu \nu}$ is **not** covariant, but we can produce a covariant quantity by taking the trace: 
-				  collapsed:: true
 				  $$
 				  \mathcal{L}=-\frac{1}{2} \operatorname{tr}\left[\left(F_{\mu \nu}^i \frac{\sigma^i}{2}\right)^2\right]=-\frac{1}{4}\left(F_{\mu \nu}^i F^{\mu\nu}_i\right)
 				  $$
 					- The second equality follows from $tr(\sigma_i \sigma_j)= 2\delta_{ij}$
 			- Yang-Mills Lagrangian #card
-			  collapsed:: true
 				- collapsed:: true
 				  $$
 				  \mathcal{L}=\bar{\psi}(i \not D) \psi-\frac{1}{4}\left(F_{\mu \nu}^i\right)^2-m \bar{\psi} \psi

@@ -34,8 +34,14 @@
 		- For some simple $x$, $\mathrm{Hom}_{\mathcal{C}}(x,x)$ is a finite-dimensional division algebra, i.e. each nonzero element has an inverse.
 			- Note that when it is C-linear, the division algebra has to be $\mathbb C$.
 	- Maschke's Theorem. $\mathrm{Rep}(G)_\mathbb k$ is finite-semisimple iff $|G|$ is invertible in $\mathbb k$. #card
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-21T00:53:10.181Z
+	  card-last-reviewed:: 2023-05-22T00:53:10.181Z
+	  card-last-score:: 5
 		-
-	- Every finite semisimple category is ((636ca217-d22e-42b8-984f-f4f35d530948)). #card
+	- Every finite semisimple category is ((636ca217-d22e-42b8-984f-f4f35d530948)).
 		- The homs can be seen as block-diagonal matrices, because different copies of $$Vec$$ are disjoint.
 		- So we need to consider a matrix A with $$A^2=A$$.
 		  A familiar exercise in [[Linear Algebra]].
@@ -43,6 +49,12 @@
 	- Convention. A module category $M$ over a multi-fusion cat $C$ is assumed to be linear, and $\odot: C \otimes M \to M$ is bilinear.
 	- Defs
 		- Cat of left modules over $A$ in $C$, $\mathrm{LMod}_A(C)$  #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-22T00:35:23.928Z
+		  card-last-reviewed:: 2023-05-23T00:35:23.929Z
+		  card-last-score:: 5
 			- *To be completed: See Etingof*
 			- Objects are modules over $A$ in $C$
 			- Morphisms are module homomorphisms

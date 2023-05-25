@@ -2,10 +2,27 @@
 	- Gamma matrices
 		- Defs
 		  collapsed:: true
-			- ((6379ca4e-553b-460f-89c6-0fbde5c7f0d9))
-			- ((6379ca39-4ba2-4254-9131-88e223be6a0c))
-			  collapsed:: true
-				- ((6379caaa-1758-4942-a553-19b721e4a1c2))
+			- ((64687320-d1b2-4af7-bd0c-7242ecddab2d)) Weyl Representation
+			  $$
+			  \gamma^0=\left(\begin{array}{cc}
+			  0 & 1 \\
+			  1 & 0
+			  \end{array}\right) ; \quad \gamma^i=\left(\begin{array}{cc}
+			  0 & \sigma^i \\
+			  -\sigma^i & 0
+			  \end{array}\right)
+			  $$
+			- ((646872fb-ea96-4092-b8b8-cbd9fdb677ac))
+			  $$
+			  \gamma^5 \equiv i \gamma^0 \gamma^1 \gamma^2 \gamma^3=-\frac{i}{4 !} \epsilon^{\mu \nu \rho \sigma} \gamma_\mu \gamma_\nu \gamma_\rho \gamma_\sigma
+			  $$
+				- $$
+				  \gamma^5=\left(\begin{array}{cc}
+				  -1 & 0 \\
+				  0 & 1
+				  \end{array}\right)
+				  $$
+				- Note that the $i$ in the front is necessary to ensure $(\gamma^5)^2=1$, since $(\gamma^i)^2 \neq 1$.
 		- Commutation relations (including those with $\gamma^5$)  #card
 		  card-last-score:: 5
 		  card-repeats:: 4
@@ -14,14 +31,27 @@
 		  card-ease-factor:: 2.9
 		  card-last-reviewed:: 2023-05-13T01:00:13.197Z
 		  collapsed:: true
-			- ((6379ca88-2a1b-4068-a7f7-0cb7197d696c))
-			- ((6379ca9b-6830-497a-b6bc-0aaec1f62441))
+			- $$\begin{equation}
+			  \left\{\gamma^\mu, \gamma^\nu\right\} \equiv \gamma^\mu \gamma^\nu+\gamma^\nu \gamma^\mu=2 g^{\mu \nu} \times \mathbf{1}_{n \times n}
+			  \end{equation}$$
+			- $$
+			  \left\{\gamma^5, \gamma^\mu\right\}=0
+			  $$
 		- Trace Tricks
-			- Central trick: Compare anticommutation to cyclic permutation ((636a0bbd-c463-4b27-9bdf-29f7e78ed455))
+		  collapsed:: true
+			- Central trick: Compare anticommutation to cyclic permutation.
 			- ((636a0b9a-df35-40b3-9e91-9c2560aa064f))
-			- Conclusion: ((636a0c10-4b26-4d64-ab89-433cccab88a3))
+			- Conclusion: ((64687282-d09a-42fa-a78e-4760d81a8691))
+			  \begin{aligned}
+			  \operatorname{tr}(\mathbf{1}) & =4 \\
+			  \operatorname{tr}\left(\text { any odd \# of } \gamma^{\prime} \mathrm{s}\right) & =0 \\
+			  \operatorname{tr}\left(\gamma^\mu \gamma^\nu\right) & =4 g^{\mu \nu} \\
+			  \operatorname{tr}\left(\gamma^\mu \gamma^\nu \gamma^\rho \gamma^\sigma\right) & =4\left(g^{\mu \nu} g^{\rho \sigma}-g^{\mu \rho} g^{\nu \sigma}+g^{\mu \sigma} g^{\nu \rho}\right) \\
+			  \operatorname{tr}\left(\gamma^5\right) & =0 \\
+			  \operatorname{tr}\left(\gamma^\mu \gamma^\nu \gamma^5\right) & =0 \\
+			  \operatorname{tr}\left(\gamma^\mu \gamma^\nu \gamma^\rho \gamma^\sigma \gamma^5\right) & =-4 i \epsilon^{\mu \nu \rho \sigma}
+			  \end{aligned}
 			- More properties
-			  collapsed:: true
 				- ((636a0c8b-0a46-4264-934f-cd22e44ec60e))
 				- ((636a0c90-f02b-443d-859f-94f734dd5990))
 				  Reversing order

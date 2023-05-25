@@ -173,3 +173,25 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   id:: 6461a7c8-3e70-4218-8989-a2b1fa67accf
   hl-type:: area
   hl-stamp:: 1684121543202
+- Theorem
+  ls-type:: annotation
+  hl-page:: 87
+  hl-color:: yellow
+  id:: 64677c74-e1cc-4cb6-8792-ba9c791213f7
+- [:span]
+  ls-type:: annotation
+  hl-page:: 88
+  hl-color:: yellow
+  id:: 64677ebd-5c56-4ade-a1bc-cea658778ec7
+  hl-type:: area
+  hl-stamp:: 1684504252071
+- Lemma
+  ls-type:: annotation
+  hl-page:: 92
+  hl-color:: yellow
+  id:: 64698ef0-6ddb-4d50-b967-1b82064ffbce
+- Theorem
+  ls-type:: annotation
+  hl-page:: 94
+  hl-color:: yellow
+  id:: 646cb116-3fcc-4afe-9117-7e4157dc1689

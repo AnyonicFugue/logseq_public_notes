@@ -279,11 +279,11 @@
 								- Fusion rules
 									- $X \otimes X=Y \otimes Y=Z \otimes Z=\mathbb{1}, X \otimes Y=Y \otimes X=Z$
 								- Bulk-to-wall map #card
-								  card-last-interval:: 24
-								  card-repeats:: 1
-								  card-ease-factor:: 2.6
-								  card-next-schedule:: 2023-03-14T05:42:51.499Z
-								  card-last-reviewed:: 2023-02-18T05:42:51.499Z
+								  card-last-interval:: 30
+								  card-repeats:: 2
+								  card-ease-factor:: 2.7
+								  card-next-schedule:: 2023-06-22T00:43:10.066Z
+								  card-last-reviewed:: 2023-05-23T00:43:10.066Z
 								  card-last-score:: 5
 									- Move m to the wall as usual. Become X on the same side.
 									- Move e to the wall by $\sigma_z$. Become X **on the opposite side**.

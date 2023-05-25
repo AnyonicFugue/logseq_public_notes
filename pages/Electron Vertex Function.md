@@ -10,45 +10,50 @@
 	- A brief ((637cbf81-c429-40c1-ac36-c05a0c2b58c8)) in Peskin
 - The loops leads to [[Ultraviolet Divergence]] and [[Infrared Divergence]].
 - The vertex function
+  collapsed:: true
 	- ((637c7ca7-9ad3-4bef-91c6-02723922d5e0))
 	- Denoted as $-i e \Gamma^\mu\left(p^{\prime}, p\right)$
 - General analysis of the vertex function
-  collapsed:: true
-	- First of all, the only possible recipes are $p,p',\gamma^\mu,m,e,$ pure numbers.
-	- [[Lorentz covariance]] forces $\Gamma^\mu=\gamma^\mu \cdot A+\left(p^{\prime \mu}+p^\mu\right) \cdot B+\left(p^{\prime \mu}-p^\mu\right) \cdot C$
-		- ((637c7d9c-c89f-4466-83ff-7e89c733ef8b))
-		- Moreover, the only possible nontrivial scalar is $p^\mu p'_\mu$, since $p^2=m^2$
-	- [[Ward-Takahashi Identity]]
-		- $(p^\mu-p'^\mu)\Gamma_\mu=0$
-			- Apply for the virtual photon.
-			- $q^\mu=p^\mu-p'^\mu$
-		- Obviously this forces $C=0$
-	- $q_\mu \gamma^\mu$ vanishes when sandwiched between $\bar{u}\left(p^{\prime}\right)$ and $u(p)$ #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-05-19T16:15:48.941Z
-	  card-last-reviewed:: 2023-03-13T12:15:48.941Z
-	  card-last-score:: 5
-		- Proof
-			- $q_\mu=p_\mu-p'_\mu$
-			- The rest is invoking Dirac equation.
-		- Some terms are always zero when calculating amplitudes.
-	- ((637c7efe-edc6-41a0-8de5-02abe2f76eb1))
-	  collapsed:: true
-		- Thus we can express a linear combination of $\gamma^\mu$ and $p^\mu+p'^\mu$ by $\gamma^\mu$ and $\sigma^{\mu\nu}q_\nu$
-		-
-	- Final result of the vertex function #card
+	- Final result of the vertex function
 	  card-last-interval:: 24
 	  card-repeats:: 2
 	  card-ease-factor:: 2.7
 	  card-next-schedule:: 2023-02-03T23:47:12.223Z
 	  card-last-reviewed:: 2023-01-10T23:47:12.225Z
 	  card-last-score:: 5
-		- ((637c7f9b-ad14-479b-abec-cbcd8300bf7f))
-	-
-	-
+		- $$
+		  \Gamma^\mu\left(p^{\prime}, p\right)=\gamma^\mu F_1\left(q^2\right)+\frac{i \sigma^{\mu \nu} q_\nu}{2 m} F_2\left(q^2\right)
+		  $$
+		- ((6468866d-58b5-4de4-871c-0def87304837))
+	- Analysis
+		- First of all, the only possible recipes are $p,p',\gamma^\mu,m,e,$ pure numbers.
+		- [[Lorentz covariance]] forces $\Gamma^\mu=\gamma^\mu \cdot A+\left(p^{\prime \mu}+p^\mu\right) \cdot B+\left(p^{\prime \mu}-p^\mu\right) \cdot C$
+		  collapsed:: true
+			- ((637c7d9c-c89f-4466-83ff-7e89c733ef8b))
+			- Moreover, the only possible nontrivial scalar is $p^\mu p'_\mu$, since $p^2=m^2$
+		- [[Ward-Takahashi Identity]]
+		  collapsed:: true
+			- $(p^\mu-p'^\mu)\Gamma_\mu=0$
+				- Apply for the virtual photon.
+				- $q^\mu=p^\mu-p'^\mu$
+			- Obviously this forces $C=0$
+		- $q_\mu \gamma^\mu$ vanishes when sandwiched between $\bar{u}\left(p^{\prime}\right)$ and $u(p)$ #card
+		  card-last-interval:: 67.2
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-05-19T16:15:48.941Z
+		  card-last-reviewed:: 2023-03-13T12:15:48.941Z
+		  card-last-score:: 5
+		  collapsed:: true
+			- Proof
+				- $q_\mu=p_\mu-p'_\mu$
+				- The rest is invoking Dirac equation.
+			- Some terms are always zero when calculating amplitudes.
+		- ((637c7efe-edc6-41a0-8de5-02abe2f76eb1))
+			- Thus we can express a linear combination of $\gamma^\mu$ and $p^\mu+p'^\mu$ by $\gamma^\mu$ and $\sigma^{\mu\nu}q_\nu$
+			-
 - Evaluation of the vertex function
+  collapsed:: true
 	- Notation. ((637c8bcc-7c8a-4541-9ea3-0955c3bc1cc2))
 	- By the Feynman rules, the expression for the correction is ((637c8bd8-d9ef-481c-a08a-3ec965b618a4))
 	  collapsed:: true

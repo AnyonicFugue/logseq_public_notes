@@ -276,6 +276,7 @@ alias:: [[Category Theory]]
 - # [[Fusion category]]
 - # Monad
   id:: 641813e5-e452-4c3b-aa79-fe4b3df4596f
+  collapsed:: true
 	- Exercise. Check the left dual of $G \in \mathrm{End}(C)$ is the right adjoint. #card
 	-
 - # Higher cats
@@ -297,6 +298,7 @@ alias:: [[Category Theory]]
 			- The slices themselves are $E_2$ algebras, while there's a third fusion between the slices.
 			- This motivates the $E_3$ algebra, i.e. 3 compatible fusions.
 	- ## Definitions
+	  collapsed:: true
 		- Monoid #card
 		  collapsed:: true
 		  card-last-interval:: 30
@@ -331,6 +333,7 @@ alias:: [[Category Theory]]
 			- Homs are homomorphisms
 			-
 	- ## Higher Algebras
+	  collapsed:: true
 		- How does the requirements of $E_0,E_1,E_2,E_3$ corresponds to physical intuitions? #card
 		  collapsed:: true
 			- $E_0$: {{cloze 0D, not any special structures}}
@@ -404,7 +407,7 @@ alias:: [[Category Theory]]
 				- *Complete the proof!*
 				- Comment: This is quite interesting. Though $E_0\mathrm{Alg}(C)$ and $C$ are generally different, their cats of algebras are equivalent.
 				- Essentially we invoke all definitions of $E_0\mathrm{Alg}$ and algebras to obtain the axioms of algebras in $C$.
-			- Lemma 2. If $C$ is braided, then $E_1\mathrm{Alg}(C) \simeq \mathrm{Alg}(C)$ is a monoidal category. #card
+			- Lemma 2. If $C$ is braided, then $E_1\mathrm{Alg}(C) \simeq \mathrm{Alg}(C)$ is a monoidal category.
 			  collapsed:: true
 				- *Still we take the cat to be strict for simplicity.*
 				- Key point
@@ -425,6 +428,12 @@ alias:: [[Category Theory]]
 				-
 			- Theorem 3. There is a canonical equivalence $E_2\mathrm{Alg}(B) \simeq \mathrm{CAlg}(B)$ (the cat of commutative algebras in $B$) #card
 			  collapsed:: true
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-06-21T00:50:07.286Z
+			  card-last-reviewed:: 2023-05-22T00:50:07.288Z
+			  card-last-score:: 3
 				- Note: *commutative* means that **multiply = braid and multiply**
 				- Note that we have **two** multiplications, one of $\mathrm{Alg}(B)$ and one of $\mathrm{Alg}(\mathrm{Alg}(B) )$
 				- Check the consistency relations
@@ -441,7 +450,6 @@ alias:: [[Category Theory]]
 			- My task is to explicitly construct the monoidal structure.
 		-
 	- ## Higher Modules
-	  collapsed:: true
 		- Remark: Modules can be regarded as representations of the algebras #card
 		  card-last-interval:: 25.01
 		  card-repeats:: 1
@@ -488,7 +496,7 @@ alias:: [[Category Theory]]
 				-
 			-
 	- ## Examples
-		- Algebra in $\mathcal C = (\mathrm{Set} , \times, \{*\})$, $\mathcal{C}=(\mathrm{Abel}, \times, \{e\} )$, $\mathcal{C}=(\mathrm{Vec}_\mathbb k,\otimes, \mathbb k)$ #card
+		- Algebra in $\mathcal C = (\mathrm{Set} , \times, \{*\})$, $\mathcal{C}=(\mathrm{Abel}, \times, \{e\} )$, $\mathcal{C}=(\mathrm{Vec}_\mathbb k,\otimes, \mathbb k)$
 			- Setup
 				- The fusion is direct product and the unit is the single-point set.
 				- Exercise. The only possible associator is the trivial one.

@@ -223,6 +223,7 @@
 		- Note that
 		  ![image.png](../assets/image_1683339421269_0.png){:height 238, :width 327}
 - # Trying to Calculate the Homology Groups
+  collapsed:: true
 	- Theorem. If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the set of path components of $X$, then, for every $n \geq 0$,
 	  collapsed:: true
 	  $$
@@ -231,6 +232,12 @@
 		- This also fits our intuition.
 	- ((6451d268-21db-4ea0-979a-dc3a55766d0b))
 	  collapsed:: true
+	  card-last-interval:: 28.74
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-16T17:43:42.973Z
+	  card-last-reviewed:: 2023-05-19T00:43:42.974Z
+	  card-last-score:: 5
 	  (i) For any space $X$, the group $H_0(X)$ is free abelian of rank $=\operatorname{card} \Lambda$, where $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components.
 	  (ii) If $X$ and $Y$ are path connected spaces and $f: X \rightarrow Y$ is continuous, then $f_*: H_0(X) \rightarrow H_0(Y)$ takes a generator of $H_0(X)$ to a generator of $H_0(Y)$. #card
 		- Proof
@@ -253,10 +260,12 @@
 			- However, $\operatorname{supp} \zeta$ itself is compact!
 		- Therefore consider $x \in H_n(X)$. $x \in j_*(H_n(A))$, but $H_n(A)=0$, so $x=0$.
 - # The Homotopy Axiom
+  collapsed:: true
 	- We are concerned with the problem:
 	  When does $H_n(f)=H_n(g)$
 	  Does it hold when $f$ and $g$ are homotopic?
 	- ((6455bc34-9cfb-4aff-9eda-66b2797bb373)). If $X$ is a bounded convex subspace of euclidean space, then $H_n(X)=0$ for all $n \geq 1$. #card
+	  collapsed:: true
 		- Remark
 			- For $n=0$ and $X \neq \empty$, we know $H_0(X) \simeq \Z$ since convex implies path-connectedness.
 		- Geometric intuition
@@ -268,14 +277,126 @@
 				- The unwanted faces of the cones would cancel if $\sigma$ is a cycle.
 				- The insight is that dealing with each simplex **separately** would be much easier than dealing with the chain as a whole.
 			- Use the proposition $\partial_{n+1} c_n(\sigma)=\sigma-c_{n-1} \partial_n(\sigma)$, we easily see that $c_n(\sigma)$ is precisely the desired bulk!
-	- Lemma. Assume that $f, g: X \rightarrow Y$ are continuous maps and that there are homomorphisms $P_n: S_n(X) \rightarrow S_{n+1}(Y)$ with
+	- ((64677c74-e1cc-4cb6-8792-ba9c791213f7)) (Homotopy Axiom). If $f, g: X \rightarrow Y$ are homotopic, then $H_n(f)=H_n(g)$ for all $n \geq 0$. #card
+	  collapsed:: true
+		- Notes
+			- This is a standard construction called *the method of acyclic models*!
+		- Lemma 1. Assume that $f, g: X \rightarrow Y$ are continuous maps and that there are homomorphisms $P_n: S_n(X) \rightarrow S_{n+1}(Y)$ with
+		  $$
+		  f_{\#}-g_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
+		  $$
+		  then $H_n(f)=H_n(g)$ for all $n \geq 0$.
+			- In cases where $X,Y$ are convex subsets of $\mathbb R^n$, $P_n=c'_n \circ (f_\#-g_\#)$ serves.
+			- Therefore, the lemma says something similar to convexity.
+		- Lemma 2. Let $X$ be a space and, for $i=0,1$, let $\lambda_i^X: X \rightarrow X \times \mathbf{I}$ be defined by $x \mapsto(x, i)$. If $H_n\left(\lambda_0^X\right)=H_n\left(\lambda_1^X\right): H_n(X) \rightarrow H_n(X \times \mathbf{I})$, then $H_n(f)=H_n(g)$ whenever $f$ and $g: X \rightarrow Y$ are homotopic. #card
+		  card-last-interval:: 32.57
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-22T14:04:06.283Z
+		  card-last-reviewed:: 2023-05-21T01:04:06.284Z
+		  card-last-score:: 5
+			- An interesting exercise -- mainly a conceptual challenge rather than a technical one!
+				- This is the merit of formality: We can view path and homotopy as maps and operate on them formally!
+			- Question: Where is the condition $f \simeq g$ used?
+				- For $F:X \times I \to Y$, $F_\#$ is a legitimate homomorphism $H_n(X \times I) \to H_n(Y)$ only when $F$ is continuous.
+		- By lemma 1, we need to show $H_n\left(\lambda_0^X\right)=H_n\left(\lambda_1^X\right): H_n(X) \rightarrow H_n(X \times \mathbf{I})$.
+			- Intuitively this is obvious:
+			  ![Image(1).png](../assets/Image(1)_1684503924712_0.png){:height 232, :width 159}
+			  we just need to fill the 'body' of the upper and lower face.
+			- However, the precise filling map is hard to construct.
+			- Actually we can't directly construct one for $X \times I$, but we should construct
+			  $$\beta_{n+1}=\sum_{i=0}^n(-1)^i\left[a_0, \ldots, a_i, b_i, b_{i+1}, \ldots, b_n\right]$$
+			  as a simplex in $\Delta^n \times I$.
+			- Exercise. Compare to 
+			  $$
+			  P_n^X(\sigma)=(\sigma \times 1)_{\#}\left(\beta_{n+1}\right)
+			  $$
+			  and discuss: how is the problem 'can't directly construct' resolved?
+		- By lemma 2, we need to find a map $P_n: S_n(X) \rightarrow S_{n+1}(X \times I)$ with
+		  $$
+		  (\lambda_0^X)_{\#}-(\lambda_1^X)_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
+		  $$
+		- Our strategy would be induction.
+			- The inductive hypothesis should be strengthened by a **naturality condition**:
+			  ((64677ebd-5c56-4ade-a1bc-cea658778ec7))
+		- $n=0$:
+			- Necessarily $P_{n-1}=0$.
+			- We need to find $P_0$ such that $(\lambda_0^X)_{\#}-(\lambda_1^X)_{\#}=\partial_{n+1}^{\prime} P_0$.
+				- Note that $\Delta_0$ is a single point.
+			- Directly plug in a simplex $\sigma$, we find that $P_0(\sigma): t \mapsto (\sigma(e),t)$ serves.
+		- Now lets use induction for some $n$:
+			- We'd like to find some $P_n$ s.t.
+			  $$
+			  (\lambda_0^X)_{\#}-(\lambda_1^X)_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
+			  $$
+			- First, note that
+			  $$
+			  \begin{aligned}
+			  \partial_n\left(\lambda_{1 \#}^{X}-\lambda_{0 \#}^{X}-P_{n-1}^{X} \partial_n\right) & =\lambda_{1 \#}^{X} \partial_n-\lambda_{0 \#}^{X} \partial_n-\partial_n P_{n-1}^{X} \partial_n  \\
+			  & =\lambda_{1 \#}^{X} \partial_n-\lambda_{0 \#}^{X} \partial_n-\left(\lambda_{1 \#}^{X}-\lambda_{0 \#}^{X}-P_{n-2}^{X} \partial_{n-1}\right) \partial_n \quad \text{(by induction)}
+			  \\
+			  & =0 \quad(\text { since } \partial \partial=0)
+			  \end{aligned}
+			  $$
+			  which means it is a boundary.
+			- Here is the stroke of genius:
+			  We take the simplex to be the identity map $\delta: \Delta^n \rightarrow \Delta^n$ and the space to be $\Delta^n$.
+			- Now since $H_n(\Delta^n \times I)=0$, a cycle must also be a boundary.
+			  Thus we can find $\beta_{n+1} \in S_{n+1}\left(\Delta^n \times \mathrm{I}\right)$ with 
+			  $$
+			  \partial_{n+1} \beta_{n+1}=\left(\lambda_{1 \#}^{\Delta}-\lambda_{0 \#}^{\Delta}-P_{n-1}^{\Delta} \partial_n\right)(\delta) .
+			  $$
+			- Define $P_n^X: S_n(X) \rightarrow S_{n+1}(X \times \mathrm{I})$ by
+			  $$
+			  P_n^X(\sigma)=(\sigma \times 1)_{\#}\left(\beta_{n+1}\right)
+			  $$
+			  and we're done.
+				- Just check the two conditions to be satisfied!
+	- Corollary. If $X$ is contractible, then $H_n(X)=0$ for all $n>0$. #card
+- # The Hurewicz Theorem
+	- The Hurewicz map $\varphi$ #card
+		- Let $\eta: \Delta^1 \rightarrow \mathrm{I}$ be the homeomorphism $(1-t) e_0+t e_1 \mapsto t$. There is a well defined function
+		  $$
+		  \begin{align*}
+		  \varphi: \pi_1\left(X, x_0\right) & \rightarrow H_1(X) \\
+		  [f] & \mapsto \operatorname{cls} f \eta
+		  \end{align*}
+		  $$
+			- In plain English, view the unit interval as a standard simplex.
+			- ((64698ef0-6ddb-4d50-b967-1b82064ffbce)) $\varphi$ is well-defined.
+				- 'Well defined' means two conditions:
+				  1. $f \eta$ must be a cycle to fall into $H_1(X)$
+				  2. If two paths $f$ and $g$ are homotopic, then they're mapped into the same group element in $H_1(X)$.
+				- Condition 1 is obvious, since a path must be a cycle.
+				- Condition 2
+					- Key idea: **Composition** can be seen as a result of a **pushforward**! #Strategy
+					- To be explicit, $\operatorname{cls} f\eta= H_n(f)(\eta)$, where $\eta$ is viewed as a 1-chain in $\mathbf I$.
+	- Theorem. The Hurewicz map is a homomorphism. #card
+	  collapsed:: true
+		- The goal is to prove that $\varphi([f * g])=\varphi([f])+\varphi([g])$, i.e.
+		  $$\operatorname{cls} (f*g)\eta=\operatorname{cls} f\eta+\operatorname{cls} g\eta$$
+		- Which means I shall prove
+		  $$(f*g)\eta-f\eta-g\eta$$
+		  is a boundary.
+		- The geometric construction is follows:
+		  ![Image(1).png](../assets/Image(1)_1684844301594_0.png){:height 379, :width 433}
+			- Key idea: $\pi_\# \partial=\partial \pi_\#$, thus we can use the space $I \times I$, which has better properties.
+			- First we construct a chain $\sigma \in S_2(I \times I)$ illustrated as in the figure.
+			- Consider $\pi:(x,t) \mapsto x$.
+			  Easy to see $\pi_\# \partial_2 \sigma = (f*g)\eta-f\eta-g\eta$.
+				- The left and right sides cancel.
+				- Two blue arrows on the upper sides are just $f\eta$ and $g\eta$.
+			- Then by the key idea, RHS is a boundary!
+			-
+	- ((646cb116-3fcc-4afe-9117-7e4157dc1689))  (Hurewicz Theorem). If $X$ is path connected, then the Hurewicz map $\varphi: \pi_1\left(X, x_0\right) \rightarrow H_1(X)$ is a surjection with kernel $\pi_1\left(X, x_0\right)^{\prime}$, the commutator subgroup of $\pi_1\left(X, x_0\right)$. Hence
 	  $$
-	  f_{\#}-g_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
-	  $$
-		- In cases where $X,Y$ are convex subsets of $\mathbb R^n$, $P_n=c'_n \circ (f_\#-g_\#)$ serves.
-		- Therefore, the lemma says something similar to convexity.
-	- Lemma. Let $X$ be a space and, for $i=0$, 1, let $\lambda_i^X: X \rightarrow X \times \mathbf{I}$ be defined by $x \mapsto(x, i)$. If $H_n\left(\lambda_0^X\right)=H_n\left(\lambda_1^X\right): H_n(X) \rightarrow H_n(X \times \mathbf{I})$, then $H_n(f)=H_n(g)$ whenever $f$ and $g: X \rightarrow Y$ are homotopic. #card
-		- An interesting exercise -- mainly a conceptual challenge rather than a technical one!
-		- Question: Where is the condition $f \simeq g$ used?
-			- For $F:X \times I \to Y$, $F_\#$ is a legitimate homomorphism $H_n(X \times I) \to H_n(Y)$ only when $F$ is continuous.
-	-
+	  \pi_1\left(X\right) / \pi_1\left(X\right)^{\prime} \cong H_1(X)
+	  $$ #card
+		- Surjectivity
+			- Could be explicitly constructed by 'joining' the simplexes like line segments to form a closed path.
+		- Kernel
+			- Step 1. $\pi_1' \sub \operatorname{ker}\varphi$
+				- It's rather simple, since $H_1(X)$ is abelian and every $H=G'$ is the smallest subgroup s.t. $G/H$ is abelian.
+			- Step 2. $\operatorname{ker}\varphi \sub \pi_1'$
+				- To be understood
+				  background-color:: red

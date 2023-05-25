@@ -1,15 +1,16 @@
 - # Defs
 	- Lifting #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-02-23T03:25:30.230Z
-	  card-last-reviewed:: 2023-01-30T03:25:30.231Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-08-15T00:39:31.969Z
+	  card-last-reviewed:: 2023-05-23T00:39:31.969Z
 	  card-last-score:: 5
 		- ((63784f8e-385d-4529-9c3b-3af9cb1b9d82))
 		  $\bar f$ is a lifting of f.
 			- *Not restricted to paths.*
 			- p is a [[Covering map]]
+		- Idea: Embed into something better.
 	- Lifting correspondence #card
 		- ((638c0dc2-8ba5-49b1-a443-6a4c808f0acf)) Let $p: E \rightarrow B$ be a covering map; let $b_0 \in B$ Choose $e_0$ so that $p\left(e_0\right)=b_0$. Given an element $[f]$ of $\pi_1\left(B, b_0\right)$, let $\bar{f}$ be the lifting of $f$ to a path in $E$ that begins at $e_0$. Let $\phi([f])$ denote the end point $\tilde{f}(1)$ of $\tilde{f}$.
 			- Note that lifting preserves path homotopy, so the map is independent of the representative.

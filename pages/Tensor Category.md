@@ -28,6 +28,12 @@
 			-
 	- Basic Properties
 		- $\mathrm{Tr}(f \circ g)=\mathrm{Tr}(g \circ f)$ #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-22T00:38:18.276Z
+		  card-last-reviewed:: 2023-05-23T00:38:18.277Z
+		  card-last-score:: 5
 			- Essentially, we can use zigzag to make $f$ into its dual and move left, them use again (by the spherical structure) to move to the downside of $g$.
 			- $$\operatorname{dim}(x \oplus y)=\operatorname{dim}(x)+\operatorname{dim}(y)\\ \quad \operatorname{dim}(x \otimes y)=\operatorname{dim}(x) \cdot \operatorname{dim}(y)$$ #card
 				-

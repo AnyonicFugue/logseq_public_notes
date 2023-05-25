@@ -1,4 +1,5 @@
 - # Def
+  collapsed:: true
 	- Feynman Kernel
 		- $$K( q'' ,t'';q' ,t') :=_{H}\left< q'',t''|q^{\prime } ,t^{\prime }\right> _{H} =_{s}\left< q''( t'')\left| e^{-iH\left( t^{\prime \prime } -t^{\prime }\right)}\right| q^{\prime }\left( t^{\prime }\right)\right> _{s}$$
 		-
@@ -304,10 +305,14 @@
 			  $$
 - # Path Integral and Symmetry
   id:: 643a4aa5-1492-482b-a7cb-4e4bae282468
+  collapsed:: true
 	- Comment
+	  collapsed:: true
 		- If the integral is invariant under some transformation, then we can obtain nontrivial relations.
 	- Summary #card
+	  collapsed:: true
 		- The central formula is 
+		  collapsed:: true
 		  \begin{equation*}
 		  \begin{aligned}
 		  \int \prod _{n} D[ \phi _{n}] \ \int d^{4} x\left[\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n}( x)} +\sum _{n} i\left(\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n}\right) F_{n}[ \phi ;x]\right] \cdot \exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\} & =0
@@ -325,6 +330,7 @@
 		  \end{equation*}
 		-
 	- ## Deriving the Central Formula
+	  collapsed:: true
 		- Start by 
 		  \begin{equation*}
 		  Z[ J_{n}] =\int \prod _{n} D[ \phi _{n}] \ \exp\left( iS[ \phi ] +i\int d^{4} x\ \sum _{n} J_{n} \phi _{n}\right)
@@ -347,6 +353,7 @@
 			  \prod _{n} D[ \phi _{n}] =\prod _{n}\prod _{x} D[ \phi _{n}( x)]
 			  \end{equation*}
 		- Trick: $\det(\exp A) =\exp(\mathrm{tr} A)$
+		  collapsed:: true
 			- \begin{equation*}
 			  \begin{aligned}
 			  \left| \operatorname{det}\frac{\partial \phi _{m}^{\prime } (y)}{\partial \phi _{n} (x)}\right|  & =\exp\left\{\mathrm{tr}\left[\ln\left( 1+\epsilon \frac{\delta F_{m}[ \phi ';y]}{\delta \phi _{n}( x)}\right)\right]\right\}\\
@@ -386,6 +393,7 @@
 		  \end{aligned} =0
 		  \end{equation*}
 		- Now take $\frac{1}{i}\frac{\delta }{\delta J_{n_{1}}( x_{1})} \cdots \frac{1}{i}\frac{\delta }{\delta J_{n_{N}}( x_{N})}$ then set $J_{n_{i}} =0$. Each derivative could either act on $\left(\frac{\delta S[ \phi ]}{\delta \phi _{n} (x)} +J_{n}\right)$ or $\exp\left\{iS[ \phi ] +i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\}$, thus
+		  collapsed:: true
 		  \begin{equation*}
 		  \begin{aligned}
 		  \left< \Omega \left| T^{*}\left\{\frac{\delta S}{\delta \phi _{n} (x)} \phi _{n_{1}}( x_{1}) \cdots \phi _{n_{N}}( x_{N})\right\}\right| \Omega \right>  & \\
@@ -406,9 +414,11 @@
 		  card-next-schedule:: 2023-06-05T14:01:00.034Z
 		  card-last-reviewed:: 2023-05-04T01:01:00.035Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- Def. The symmetry only acts on the fields in a manner independent of the spacetime.
 			  eg. gauge symmetry
 			- We can obtain the Ward identities
+			  collapsed:: true
 			  \begin{equation*}
 			  \sum _{k=1}^{m}\left< \Omega\left| T\left\{\phi _{n_{1}}( x_{1}) \cdots \phi _{n_{k-1}}( x_{k-1}) F_{n_{k}}^{a}[ \phi _{m}( x_{k})] \phi _{n_{k+1}}( x_{k+1}) \cdots \phi _{n_{m}}( x_{m})\right\}\right| \Omega\right> =0
 			  \end{equation*}
@@ -423,6 +433,7 @@
 				  \end{aligned}$$
 				  In fact, any expectation of odd numbers of such fields are zero due to charge conservation.
 			- Also a stronger result of Ward identity for non-anomalous local symmetries
+			  collapsed:: true
 			  \begin{equation*}
 			  \begin{aligned}
 			   & \partial _{x}^{\mu }\left< \Omega|T\left\{j_{\mu }^a[ \phi _{n}( x)] \phi _{n_{1}}( x_{1}) \cdots \phi _{n_{m}}( x_{m})\right\} |\Omega\right> \\
@@ -464,6 +475,7 @@
 			  \int \prod _{n} D[\phi _{n} ]\ \int d^{4} x\sum _{n} J_{n} F_{n} [\phi ;x]\cdot \exp\left\{iS[\phi ]+i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\} & =0
 			  \end{aligned}$$
 			- Taking $\frac{1}{i}\frac{\delta }{\delta J_{n_{1}}( x_{1})} \cdots \frac{1}{i}\frac{\delta }{\delta J_{n_{N}}( x_{N})}$ and setting $J_{n} =0$ generates the Ward Identities:
+			  collapsed:: true
 			  \begin{equation*}
 			  \sum _{k=1}^{m}\left< \Omega\left| T\left\{\phi _{n_{1}}( x_{1}) \cdots \phi _{n_{k-1}}( x_{k-1}) f_{n_{k}}^{a}[ \phi _{m}( x_{k})] \phi _{n_{k+1}}( x_{k+1}) \cdots \phi _{n_{m}}( x_{m})\right\}\right| \Omega\right> 
 			  \end{equation*}
@@ -471,9 +483,9 @@
 				- If the symmetry is anomalous, then we obtain an anomalous Ward identity by keeping $\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n}( x)}$
 		- ### A Stronger [[Ward-Takahashi Identity]]
 		  id:: 643b4dad-f227-4b85-852e-832af5f2db1e
-		  collapsed:: true
 			- In general the action won't be invariant under the local transformation $\theta^a=\theta^a(x)$, but when it is we may extract some more useful information.
 			- Proposition.
+			  collapsed:: true
 			  \begin{equation*}
 			  \int d^{4} x\frac{\delta S}{\delta \phi _{n} (x)} F_{n}^{a}[ \phi ;x] \theta ^{a} (x)=-\int d^{4} x\left[ \partial ^{\mu } j_{\mu }^{a} (x)\right] \theta ^{a} (x)
 			  \end{equation*}
@@ -482,7 +494,9 @@
 			  j^{\mu ,a} (x)=\frac{\partial \mathcal{L}}{\partial ( \partial _{\mu } \phi _{n} (x))} f_{n}^{a}[ \phi (x)] -K^{\mu ,a} (x)
 			  \end{equation*}
 				- Proof
+				  collapsed:: true
 					- Use the proposition
+					  collapsed:: true
 					  $$
 					  \frac{\delta}{\delta \varphi(x)}\left(\int d^4 x\mathcal{L}\right)=\frac{\partial \mathcal{L}}{\partial \varphi}-\partial_\mu\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_\mu \varphi\right)}\right)
 					  $$
@@ -519,6 +533,7 @@
 			  \int \prod _{n} D[\phi _{n} ]\ \left[\sum _{n} iJ_{n} f_{n}^{a} [\phi ;x]-\partial ^{\mu } j_{\mu }^{a} (x)\right] \cdot \exp\left\{iS[\phi ]+i\int d^{4} x\sum _{n} J_{n} \phi _{n}\right\}=0
 			  \end{equation*}
 			- Applying $\frac{1}{i}\frac{\delta }{\delta J_{n_{1}}( x_{1})} \cdots \frac{1}{i}\frac{\delta }{\delta J_{n_{N}}( x_{N})}$ would generate the stronger Ward identities
+			  collapsed:: true
 			  \begin{equation*}
 			  \begin{aligned}
 			   & \partial _{x}^{\mu }\left< \Omega|T\left\{j_{\mu }^{\alpha }[ \phi _{n}( x)] \phi _{n_{1}}( x_{1}) \cdots \phi _{n_{m}}( x_{m})\right\} |\Omega\right> \\
@@ -530,6 +545,7 @@
 		- Example: $U( 1)$ symmetry for a complex scalar field.
 		  collapsed:: true
 			- Only one parameter $\theta$.
+			  collapsed:: true
 				- \begin{gather*}
 				  \begin{aligned}
 				  \phi \rightarrow e^{i\theta } \phi  & \\

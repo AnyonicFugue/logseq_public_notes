@@ -1,10 +1,10 @@
 - Def #card
-  card-last-interval:: 24
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-04-03T00:45:32.876Z
-  card-last-reviewed:: 2023-03-10T00:45:32.877Z
-  card-last-score:: 5
+  card-last-interval:: 76.8
+  card-repeats:: 3
+  card-ease-factor:: 2.56
+  card-next-schedule:: 2023-08-08T19:01:15.370Z
+  card-last-reviewed:: 2023-05-24T00:01:15.371Z
+  card-last-score:: 3
 	- ((63aa5759-9d8e-48cd-acee-b1d4c54fee31))
 	- a collection ob$(\mathbf{C})$, whose elements are called objects of $\mathbf{C}$;
 	- a category $\operatorname{Hom}_\mathrm{C}(x, y)$ for each $x, y \in \mathrm{ob}(\mathcal{C})$, called the **hom category** from $x$ to $y$;

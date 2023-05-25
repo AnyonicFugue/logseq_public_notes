@@ -40,3 +40,28 @@ file-path:: zotero_link/Physics/Courses/QFT/2018_Peskin_An Introduction To Quant
   hl-page:: 307
   hl-color:: yellow
   id:: 642bcdd1-ada5-4c3a-8ad9-6365a54ee3d4
+- (5.5)
+  ls-type:: annotation
+  hl-page:: 157
+  hl-color:: yellow
+  id:: 64687282-d09a-42fa-a78e-4760d81a8691
+- (3.22)
+  ls-type:: annotation
+  hl-page:: 63
+  hl-color:: yellow
+  id:: 646872d0-c2b3-4e6d-a108-3a6372287ccb
+- (3.68)
+  ls-type:: annotation
+  hl-page:: 73
+  hl-color:: yellow
+  id:: 646872fb-ea96-4092-b8b8-cbd9fdb677ac
+- (3.25)
+  ls-type:: annotation
+  hl-page:: 64
+  hl-color:: yellow
+  id:: 64687320-d1b2-4af7-bd0c-7242ecddab2d
+- (6.33)
+  ls-type:: annotation
+  hl-page:: 209
+  hl-color:: yellow
+  id:: 6468866d-58b5-4de4-871c-0def87304837

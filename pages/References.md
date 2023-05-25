@@ -10,6 +10,7 @@
 		- ![2018_Griffiths_Schroeter_Introduction to Quantum Mechanics.pdf](file://zotero_link/Physics/Quantum Mechanics/2018_Griffiths_Schroeter_Introduction to Quantum Mechanics.pdf)
 	- ## GR
 		- ![1984_Wald_General relativity.pdf](file://zotero_link/Physics/General Relativity/1984_Wald_General relativity.pdf)
+		- ![2018_Bambi_Introduction to General Relativity.pdf](file://zotero_link/Physics/General Relativity/2018_Bambi_Introduction to General Relativity.pdf)
 		- ![2004_Poisson_A relativist's toolkit.pdf](file://zotero_link/Physics/General Relativity/2004_Poisson_A relativist's toolkit.pdf)
 	- ## QFT
 		- ![2018_Peskin_An Introduction To Quantum Field Theory.pdf](file://zotero_link/Physics/Courses/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf) Classical book of Peskin

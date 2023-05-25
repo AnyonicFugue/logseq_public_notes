@@ -25,11 +25,11 @@ type:: paper_reading
 	- ## Similarities to boson condensation #card
 	  id:: 63d87e90-19ca-426a-93d5-77c0b39eac21
 	  collapsed:: true
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-04-03T00:45:37.002Z
-	  card-last-reviewed:: 2023-03-10T00:45:37.002Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-08-14T00:56:57.830Z
+	  card-last-reviewed:: 2023-05-22T00:56:57.831Z
 	  card-last-score:: 5
 		- Identification of different particles
 			- eg. Superconductor: Cooper pairs, which have charge $2e$, are condensed. Thus quasiparticles are labeled by charge **modulo 2e**

@@ -36,8 +36,9 @@ alias:: RG
 		- Coupling $\mu$
 			- $$\ln\frac{\mu_{2}^{2}}{\mu_{1}^{2}}=\int_{\lambda(\mu_{1})}^{\lambda(\mu_{2})}\frac{d\lambda(\mu)}{\beta(\lambda)}$$
 				- $$\beta(\lambda):=\mu^{2}\frac{d}{d(\mu^{2})}\lambda(\mu)=-\varepsilon\lambda(\mu)-\frac{1}{Z_{\lambda}^{\overline{{{MS}}}}}\left(\mu^2\frac{d}{d\mu^{2}}Z_{\lambda}^{\overline{{{MS}}}}\right)\lambda(\mu).$$
+			- Note that the dependence of $\lambda$ on $\mu$ is extracted from comparing the physical coupling to the $\overline{MS}$ coupling. See the [example](((64698524-dd3f-4c54-b477-29b5f6fe6fae))) for details.
+				-
 			- Derivation
-			  collapsed:: true
 				- Start from 
 				  $$\lambda _{0} =Z_{\lambda }^{\overline{MS}}\tilde{\mu }^{2\varepsilon } \lambda (\mu )$$
 				  where LHS is independent of $\mu$.
@@ -45,8 +46,9 @@ alias:: RG
 				  $$\begin{aligned}
 				  \mu ^{2}\frac{d}{d\mu ^{2}} \lambda (\mu ) & :=\beta ( \lambda )\\
 				   & =\mu ^{2}\frac{d}{d\mu ^{2}}\left[{\tilde{\mu }}^{-2\varepsilon }\left( Z_{\lambda }^{\overline{MS}}\right)^{-1}\right] \lambda _{0}\\
-				   & =-\varepsilon \lambda (\mu )-\frac{1}{Z_{\lambda }^{\overline{\overline{MS}}}}\left( \mu ^{2}\frac{d}{d\mu ^{2}} Z_{\lambda }^{\overline{MS}}\right) \lambda (\mu )
+				   & =-\varepsilon \lambda (\mu )-\frac{1}{Z_{\lambda }^{{\overline{MS}}}}\left( \mu ^{2}\frac{d}{d\mu ^{2}} Z_{\lambda }^{\overline{MS}}\right) \lambda (\mu )
 				  \end{aligned}$$
+				-
 		- Mass $m$
 		  collapsed:: true
 			- $$m_0=Z_m m(\mu)$$
@@ -55,6 +57,7 @@ alias:: RG
 			  \mu^2 \frac{d}{d \mu^2} m(\mu)=\mu^2 \frac{d}{d \mu^2}\left(Z_m^{-1}\right) m_0=\left(-\frac{1}{Z_m} \mu^2 \frac{d}{d \mu^2} Z_m\right) m(\mu) := \gamma(m) \cdot m(\mu)
 			  $$
 		- Green functions
+		  collapsed:: true
 			- Summary
 				- The dependence on $\mu$ would introduce an **anamolous dimension** as a correction to the scaling behavior of Green functions!
 			- Starting point:
@@ -95,6 +98,31 @@ alias:: RG
 				  \tilde{G}^{(2)}\left( p^{2} ;m(\mu ),\lambda (\mu );\mu \right) & \varpropto \frac{1}{\left( p^{2}\right)^{1-\gamma _{\phi }( \lambda _{*})}}
 				  \end{aligned}
 				- We can clearly see the correction to the mass dimension, $-\gamma_\phi(\lambda_*)$!
+		- Examples
+			- $\phi^4$ theory
+			  id:: 64698524-dd3f-4c54-b477-29b5f6fe6fae
+				- Extract the dependence on $\mu$
+					- $$
+					  \begin{aligned}
+					   Z_{\lambda }^{phys} -1 & = \delta_\lambda^{phys}=\frac{\lambda}{32 \pi^2}\left[\frac{3}{\varepsilon}-3 \ln \frac{m^2}{\mu^2}-A\left(4 m^2\right)\right] \\
+					  Z_{\lambda }^{\overline{MS}} -1 &= \delta_\lambda^{\overline{MS}} =\frac{\lambda}{32 \pi^2}\left[\frac{3}{\varepsilon}\right]
+					  \end{aligned}
+					  $$
+						- Note that Mr. Shao defined $d=4-2\varepsilon$, which differs from my convention by 2.
+						- Observation. $1/\varepsilon$ always appears with $\ln \mu^2$, since the origin is $\mu^{2\varepsilon} = 1+ \varepsilon \ln(\mu^2)+ o(\varepsilon^2)$
+					- \begin{align*}
+					  \lambda (\mu )/\lambda =Z_{\lambda }^{phys} /Z_{\lambda }^{\overline{MS}} & =\frac{1+\frac{\lambda }{32\pi ^{2}}\left[\frac{3}{\varepsilon } -3\ln\frac{m^{2}}{\mu ^{2}} -A\left( 4m^{2}\right)\right]}{1+\frac{\lambda (\mu )}{32\pi ^{2}}\frac{3}{\varepsilon }}\\
+					   & \rightarrow \left\{1+\frac{\lambda }{32\pi ^{2}}\left[\frac{3}{\varepsilon } -3\ln\frac{m^{2}}{\mu ^{2}} -A\left( 4m^{2}\right)\right]\right\}\left\{1-\frac{\lambda (\mu )}{32\pi ^{2}}\frac{3}{\varepsilon }\right\}\\
+					   & =1-\frac{\lambda }{32\pi ^{2}}\left[ 3\ln\frac{m^{2}}{\mu ^{2}} -A\left( 4m^{2}\right)\right] +o\left( \lambda ^{2}\right) \ 
+					  \end{align*}
+						- We made some crude approximations here, e.g. ignore the difference of $\lambda(\mu)$ and $\lambda$.
+				- Calculate the beta function
+					- $$\begin{aligned}
+					  \lambda (\mu ) & =\lambda -\frac{\lambda ^{2}}{32\pi ^{2}}\left[ 3\ln\frac{m^{2}}{\mu ^{2}} -A\left( 4m^{2}\right)\right] +o\left( \lambda ^{3}\right) \ \\
+					  \frac{1}{Z_{\lambda }^{\overline{MS}}}\left( \mu ^{2}\frac{d}{d\mu ^{2}} Z_{\lambda }^{\overline{MS}}\right) \lambda (\mu ) & =\frac{1}{1+\frac{3\lambda (\mu )}{32\pi ^{2}}\frac{1}{\varepsilon }} \mu ^{2}\frac{3}{32\pi ^{2}}\frac{1}{\varepsilon }\left[\frac{d\lambda (\mu )}{d\left( \mu ^{2}\right)}\right] \lambda (\mu )\\
+					   & =\frac{3\lambda (\mu )}{32\pi ^{2} \varepsilon +3\lambda (\mu )} \mu ^{2}\left[\frac{3\lambda ^{2}}{32\pi ^{2}}\frac{1}{\mu ^{2}}\right]\\
+					   & =\frac{3\lambda ^{2}}{32\pi ^{2}}
+					  \end{aligned}$$
 	- ## Fixed Points
 	  collapsed:: true
 		- Def

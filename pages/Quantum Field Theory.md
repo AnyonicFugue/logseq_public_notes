@@ -2,6 +2,7 @@ alias:: [[QFT]]
 
 -
 - # Setup and Notations
+  collapsed:: true
 	- $|\Omega\rangle$ is the interactive vacuum, while $|0\rangle$ is the free vacuum.
 	- $G\left(x_1, \cdots, x_n\right)=\left\langle\Omega\left|T\left\{\phi\left(x_1\right) \cdots \phi\left(x_n\right)\right\}\right| \Omega\right\rangle$
 	-
@@ -99,7 +100,7 @@ alias:: [[QFT]]
 - # Specific Theories
   collapsed:: true
 	- [[Klein-Gordon Theory]]
-	- [[Yukawa theory]]
+	- [[Yukawa Theory]]
 	- [[Quantum Electrodynamics]]
 	- [[Proca Theory]]
 	-

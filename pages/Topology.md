@@ -417,9 +417,16 @@
 				-
 				- Corollary. If $X$ and $Y$ have the same homotopy type, then they have the same number of path components.
 		- Locally path connected #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-06-19T00:38:31.264Z
+		  card-last-reviewed:: 2023-05-20T00:38:31.265Z
+		  card-last-score:: 3
 			- For each $x \in X$ and every open neighborhood $U$ of $x$, there is an open $V$ with $x \in V \subset U$ such that any two points in $V$ can be joined by a path in $U$.
 			- Intuition
-				- Each $x$ has a connected small neighborhood.
+				- Note that this doesn't mean each $x$ has a connected small neighborhood, because $V$ itself may not be path connected. 
+				  It's that points in $V$ can be joined by paths in $U.
 			- ((642be6d7-d592-4d6e-9bed-7e9e0d6624dc)) A space $X$ is locally path connected if and only if path components of open subsets are open. In particular, if $X$ is locally path connected, then its path components are open.
 			  card-last-interval:: 31.26
 			  card-repeats:: 1

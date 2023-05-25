@@ -260,11 +260,11 @@ alias:: Quantum Error Correcting Code
 		- Perform the necessary correction operation by the syndromes.
 	- Quantum Hamming Bound #card
 	  collapsed:: true
-	  card-last-interval:: 21.86
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-04-02T20:33:41.425Z
-	  card-last-reviewed:: 2023-03-12T00:33:41.427Z
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-06-20T00:46:02.436Z
+	  card-last-reviewed:: 2023-05-21T00:46:02.437Z
 	  card-last-score:: 5
 		- Theorem. $\sum_{j=0}^t\left(\begin{array}{l}n \\ j\end{array}\right) 3^j 2^k \leq 2^n$
 		  collapsed:: true

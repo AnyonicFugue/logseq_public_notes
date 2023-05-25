@@ -73,6 +73,12 @@
 	  \end{aligned}
 	  $$
 		- Why can we write the propagator in this form? #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-20T06:29:15.412Z
+		  card-last-reviewed:: 2023-05-20T00:29:15.413Z
+		  card-last-score:: 5
 			- $$A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 \omega_p}} \sum_{\lambda=1}^3\left[\varepsilon_\mu(p, \lambda) a_{p, \lambda} e^{-i p \cdot x}+\varepsilon_\mu^*(p, \lambda) a_{p, \lambda}^{\dag} e^{i p \cdot x}\right]$$. 
 			  The extra term is the sum over polarizations, so we just need to add $-g^{\mu \nu}-\frac{\partial^\mu \partial^\nu}{m^2}$ before every scalar-field quantities.
 	- Furthermore, we would like to express it in terms of the scalar [[Feynman Propagator]].

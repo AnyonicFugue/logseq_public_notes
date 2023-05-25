@@ -40,6 +40,6 @@ alias:: [[Fusion]], Monoidal Category
 	  collapsed:: true
 		- ((636e07c8-8de8-40a2-9ace-ad0e0248d95d))
 		- Linked to [[Group Cohomology]]!
-	- Exercise. The left dual of $G\in \mathrm{End}(\mathcal{C})$ is the left adjoint of G. #card
+	- Exercise. The left dual of $G\in \mathrm{End}(\mathcal{C})$ is the left adjoint of G.
 	-
 	-
