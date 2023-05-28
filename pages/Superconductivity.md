@@ -153,6 +153,12 @@ alias:: Superconductor
 				-
 	- # Self-Consistency and $T_c$
 		- Summary #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-26T06:24:20.011Z
+		  card-last-reviewed:: 2023-05-26T00:24:20.011Z
+		  card-last-score:: 5
 			- Change to the Bogoliubov representation (where the Hamiltonian is diagonalized).
 			- Start point:
 			  $$\Delta :=-2V\sum _{k} \langle c_{k\uparrow } c_{-k\downarrow } \rangle \overset{!}{=} \Delta $$
@@ -161,6 +167,7 @@ alias:: Superconductor
 			  1  =V\sum _{k}\frac{1}{2E_{k}}\frac{e^{\beta E_{k}} -1}{e^{\beta E_{k}} +1}
 			  $$
 			- To obtain different limits, the common strategy is to change the summation into an integration (with a weight of density of states) and approximate by $N(\omega)=N_0$.
+			- To obtain $T_c$, we consider $\lim_{\Delta \to 0^+}$.
 		- Derivation
 		  collapsed:: true
 			- First rewrite the Hamiltonian as

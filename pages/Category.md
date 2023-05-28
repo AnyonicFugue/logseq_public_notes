@@ -65,13 +65,13 @@ alias:: [[Category Theory]]
 		- ### Possible properties
 		  collapsed:: true
 			- Essentially surjective #card
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-05-16T06:57:19.632Z
-			  card-last-reviewed:: 2023-04-15T00:57:19.632Z
+			  card-last-interval:: 30
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-06-25T00:18:14.184Z
+			  card-last-reviewed:: 2023-05-26T00:18:14.184Z
 			  card-last-score:: 5
-				- For every object $d \in \mathrm{D}$ there is some $c \in \mathrm{C}$ such that $d$ is isomorphic to $F c$.
+				- For every object $d \in \mathrm{D}$ there is some $c \in \mathrm{C}$ such that $F c \simeq d$.
 				- In other words, it is surjective in terms of isomorphism classes
 					- In categories only isomorphism classes (rather than specific objects) account.
 			- Full and Faithful #card
@@ -169,6 +169,12 @@ alias:: [[Category Theory]]
 				- That is, the two different ways to link the two paths are identical.
 	- Equivalent categories #card
 	  collapsed:: true
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-26T01:08:07.217Z
+	  card-last-reviewed:: 2023-05-27T01:08:07.218Z
+	  card-last-score:: 5
 		- Let $\mathcal{C}, \mathcal{D}$ be categories. A functor $F: \mathcal{C} \rightarrow \mathcal{D}$ is called an equivalence if there exists a functor $G: \mathcal{D} \rightarrow \mathcal{C}$ such that $G \circ F$ is naturally isomorphic to id $\mathcal{C}$ and $F \circ G$ is naturally isomorphic to $\mathrm{id}_{\mathcal{D}}$. 
 		  In this case $G$ is called the **quasi-inverse** of $F$.
 		- Theorem. A functor $F: \mathcal{C} \rightarrow \mathcal{D}$ between two categories $\mathcal{C}, \mathcal{D}$ is an equivalence **if and only if** it is fully faithful and essentially surjective.
@@ -404,6 +410,12 @@ alias:: [[Category Theory]]
 				- Finally find the associators and unitors.
 			- Theorem 1. $E_1\mathrm{Alg}(C) \simeq \mathrm{Alg}(C)$ #card
 			  collapsed:: true
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-06-27T00:40:49.747Z
+			  card-last-reviewed:: 2023-05-28T00:40:49.749Z
+			  card-last-score:: 3
 				- *Complete the proof!*
 				- Comment: This is quite interesting. Though $E_0\mathrm{Alg}(C)$ and $C$ are generally different, their cats of algebras are equivalent.
 				- Essentially we invoke all definitions of $E_0\mathrm{Alg}$ and algebras to obtain the axioms of algebras in $C$.

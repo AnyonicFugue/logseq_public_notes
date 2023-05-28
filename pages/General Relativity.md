@@ -1,10 +1,20 @@
 alias:: GR
 
-- # Points to Be Careful #card
+- # Tricks and Cautions #card
+  collapsed:: true
 	- $g^{ab}$ is the **inverse** of $g_{ab}$.
 	  When writing in the form of $d s^2=-d \tau^2+a^2(\tau)\left(d x^2+d y^2+d z^2\right)$, it is $g_{ab}$, **not** $g^{ab}$!
 		- This is particularly important when calculating the Christoffel symbols, which involves lots of $g_{ab}$!
 		- I made lots of mistakes here when trying to obtain the Friedman equations...
+	- Christoffel symbols: Positive or minus?
+	- Exercise. From the covariant form of the geodesic equation, derive the coordinate form.
+	- In coordinate transformations, only quantities in the same coordinate system could contract!
+		- e.g. when $x^\mu \to x'^\mu$, how does the metric $g_{\mu\nu}$ transform? #card
+			- $$
+			  g_{\mu \nu} \rightarrow g_{\mu \nu}^{\prime}=\frac{\partial x^\alpha}{\partial x^{\prime \mu}} \frac{\partial x^\beta}{\partial x^{\prime \nu}} g_{\alpha \beta}
+			  $$
+		-
+	- The 2nd and 3rd Friedmann equations are independent of $k$, so we can obtain them by setting $k=0$.
 - # Principles
   collapsed:: true
 	- General Covariance #card
@@ -35,12 +45,14 @@ alias:: GR
 		- A quick way to rederive it: Take $\tilde t=ict$, then the metric becomes Euclidean.
 		  We can first write down a rotation in the Euclidean space, then insert $i$ back.
 - # Elements of Differential Geometry
+  collapsed:: true
 	- Christoffel symbol #card
 	  collapsed:: true
 		- $$\Gamma_{a b}^c=\frac{1}{2} g^{c d}\left\{\partial_a g_{b d}+\partial_b g_{a d}-\partial_d g_{a b}\right\}$$
 		- Quick memorization: Two plus and a minus, raised by a metric, symmetric positive at the two lower indices
 	- Geodesic equation #card
 	  id:: 64268b1f-18f1-4eb8-a851-d33728ebfa9c
+	  collapsed:: true
 		- Covariant form:
 		  $$
 		  u^a \nabla_a u^b=0
@@ -54,7 +66,7 @@ alias:: GR
 			- Note that the affine parameter is a **canonical** choice, which also has a great physical meaning!
 		- Written in coordinates:
 		  $$
-		  \frac{d^2 x^\mu}{d t^2}+ \Gamma_{\sigma \nu}^\mu \frac{d x^\sigma}{d t} \frac{d x^\nu}{d t}=0
+		  \frac{d^2 x^\mu}{d \tau^2}+ \Gamma_{\sigma \nu}^\mu \frac{d x^\sigma}{d \tau} \frac{d x^\nu}{d \tau}=0
 		  $$
 			- Note that this only holds for an affine parameter. For a different parameter $\lambda'$ we have instead $\left(\ddot{x}^\mu+\Gamma_{v \rho}^\mu \dot{x}^\nu \dot{x}^\rho\right)\left(\frac{d \lambda^{\prime}}{d \lambda}\right)^2=-\dot{x}^\mu \frac{d^2 \lambda^{\prime}}{d \lambda^2}$. (Exercise)
 		- Can be derived from minimizing $S=\frac{1}{2} m \int_{\gamma} g_{ab}(x) \dot{x}^a \dot{x}^b d t$ and writing down the EL equation
@@ -126,14 +138,14 @@ alias:: GR
 			- Note that it is curve-dependent, so we can only say that vectors on the same curve are parallel.
 			  In general we **cannot** say two vectors at different points are parallel or not.
 	- Riemann curvature tensor
-	  collapsed:: true
 		- Def #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-06-23T00:05:20.515Z
-		  card-last-reviewed:: 2023-05-24T00:05:20.515Z
 		  card-last-score:: 5
+		  card-repeats:: 2
+		  card-next-schedule:: 2023-06-23T00:05:20.515Z
+		  card-last-interval:: 30
+		  card-ease-factor:: 2.7
+		  card-last-reviewed:: 2023-05-24T00:05:20.515Z
+		  collapsed:: true
 			- collapsed:: true
 			  $$
 			  \nabla_a \nabla_b \omega_c-\nabla_b \nabla_a \omega_c:=R_{a b c}{ }^d \omega_d
@@ -145,6 +157,13 @@ alias:: GR
 				  $$
 			- Scalar curvature
 				- $$R := R_a{}^a$$
+		- In terms of Christoffel symbols
+			- $$
+			  R_{\ v \rho \sigma}^{\mu}=\frac{\partial \Gamma_{v \sigma}^\mu}{\partial x^\rho}-\frac{\partial \Gamma_{\nu \rho}^\mu}{\partial x^\sigma}+\Gamma_{v \sigma}^\lambda \Gamma_{\rho \lambda}^\mu-\Gamma_{\nu \rho}^\lambda \Gamma_{\sigma \lambda}^\mu
+			  $$
+			- $$
+			  R_{\mu \nu}=R_{\mu \lambda \nu}^\lambda=\frac{\partial \Gamma_{\mu \nu}^\lambda}{\partial x^\lambda}-\frac{\partial \Gamma_{\mu \lambda}^\lambda}{\partial x^\nu}+\Gamma_{\mu \nu}^\kappa \Gamma_{\kappa \lambda}^\lambda-\Gamma_{\mu \lambda}^\kappa \Gamma_{\nu \kappa}^\lambda
+			  $$
 		- Properties #card
 		  card-last-interval:: 30
 		  card-repeats:: 1
@@ -152,6 +171,7 @@ alias:: GR
 		  card-next-schedule:: 2023-05-12T00:41:15.410Z
 		  card-last-reviewed:: 2023-04-12T00:41:15.411Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- 1. $R_{a b c}{ }^d=-R_{b a c}{ }^d$.
 			- 2. 
 			  $$
@@ -166,6 +186,7 @@ alias:: GR
 			  collapsed:: true
 				- This is actually rather reasonable, since 'manifold' means a structure of $\mathbb R^n$ and partial derivatives commute.
 		- Corollary. $\nabla_\mu G^{\mu \nu}=0$ #card
+		  collapsed:: true
 			- Note that $G^{ab}=R^{ab}-\frac 1 2 Rg^{ab}$
 			- First invoke the (second) Bianchi identity:
 			  $$
@@ -265,8 +286,8 @@ alias:: GR
 					- *Reminder.
 					- $n(n-1)/2$ arises from $\nabla_a \xi_b+\nabla_b \xi_a=0$, i.e. antisymmetricity.
 - # Tricks in Calculation
-  collapsed:: true
 	- Local flatness
+	  collapsed:: true
 		- The goal is to find a coordinate where
 		  $$
 		  g_{\alpha^{\prime} \beta^{\prime}}(P)=\eta_{\alpha^{\prime} \beta^{\prime}}, \quad \Gamma_{\beta^{\prime} \gamma^{\prime}}^{\alpha^{\prime}}(P)=0
@@ -297,6 +318,7 @@ alias:: GR
 		  card-last-score:: 5
 			- The two forms can derive each other by taking trace.
 	- ## Lagrangian Formulation
+	  collapsed:: true
 		- The total action is a sum of gravitational term and matter term, $S=S_{G}+S_M$
 		- $$S_{G}=\frac{c^3}{16 \pi G} \int R \sqrt{-g} \ d^4 x$$
 		  $$S_{\mathrm{M}}=\frac{1}{c} \int \mathscr{L}_{\mathrm{M}} \sqrt{-g} d^4 x$$
@@ -323,6 +345,7 @@ alias:: GR
 					- The indices **cannot** be raised and lowered arbitrarily in variations!
 - # The Schwarzchild Solution
   id:: 6454f170-9fed-40e5-845e-c72df45c05ab
+  collapsed:: true
 	- $$
 	  d s^2=-\left(1-\frac{2 M}{r}\right) d t^2+\left(1-\frac{2 M}{r}\right)^{-1} d r^2+r^2 d \Omega^2
 	  $$
@@ -402,8 +425,8 @@ alias:: GR
 		  collapsed:: true
 			- Statement of the problem: Light emitted by one static observer is received by another one. How does the frequency differ?
 			- Setup
+			  collapsed:: true
 				- The 4-velocities $u^a$ of the observers are tangent to the Killing field $\xi^a$
-				  collapsed:: true
 					- Note that $u^a:=\frac{dx^a}{d\tau}$, so it is properly normalized.
 				- The frequency measured at $P_1$ is
 				  $$
@@ -482,17 +505,16 @@ alias:: GR
 		  Examine the $r-t$ surface; find null geodesics and establish 'normal coordinates'; find affine parameters and extend.
 		- Result
 			- Metric:
-			  $$
-			  d s^2=\frac{32 M^3 e^{-r / 2 M}}{r}\left(-d T^2+d X^2\right)+r^2\left(d \theta^2+\sin ^2 \theta d \phi^2\right)
-			  $$
+			  \begin{equation*}
+			  ds^{2} =\frac{32M^{3} e^{-r/2M}}{r}\left( -d\tilde{t}^{2} +d\tilde{r}^{2}\right) +r^{2}\left( d\theta ^{2} +\sin^{2} \theta d\phi ^{2}\right)
+			  \end{equation*}
 			- Relations between coordinates:
-			  $$
-			  \begin{gathered}
-			  \left(\frac{r}{2 M}-1\right) e^{r / 2 M}=X^2-T^2 \\
-			  \frac{t}{2 M}=\ln \left(\frac{T+X}{X-T}\right)=2 \tanh ^{-1}(T / X)
-			  \end{gathered}
-			  $$
+			  \begin{gather*}
+			  \left(\frac{r}{2M} -1\right) e^{r/2M} =\tilde{r}^{2} -\tilde{t}^{2}\\
+			  \frac{t}{2M} =\ln\left(\frac{\tilde{t} +\tilde{r}}{\tilde{r} -\tilde{t}}\right) =2\tanh^{-1} (\tilde{t} /\tilde{r} )
+			  \end{gather*}
 		- See [Wald](((64586a3e-a531-406b-9161-8d2e5fdbf004))) for reference.
+			- Note that I've rewritten Wald in Bambi's notation, i.e. $T \to \tilde t, R \to \tilde r$
 	- ## Interior Solution
 	  collapsed:: true
 		- Motivation: We're interested in what happens inside a massive body.
@@ -608,12 +630,14 @@ alias:: GR
 	-
 - # Spacetime Diagrams
 	- ## Penrose Diagram
+	  collapsed:: true
 		- Idea
 		  collapsed:: true
 			- Use a conformal transformation (usually involving $\tan$) to bring the points at infinity to finite points. Then the spacetime diagram becomes intuitive.
 			- We'd better keep null geodesics going along $\pm \frac \pi 4$, so we can easily observe the behavior of geodesics.
 		- Examples
 			- Minkowski spacetime
+			  collapsed:: true
 				- Transformation
 					- $$
 					  \begin{aligned}
@@ -656,6 +680,275 @@ alias:: GR
 						- If they come from $\mathscr I^-$, then they will go into region II and finally fall into the singularity.
 					- Matters in region II can never escape. Even null geodesics are bound to fall into the singularity, let alone timelike ones.
 - # [[Blackhole]]
+- # Weak-Gravity limit
+	- ## Linearized Gravity
+	  id:: 6454f170-654e-4dc5-9f18-846a64c1cefc
+		- Summary
+		  collapsed:: true
+			- ((6472aded-8d6f-454c-862a-392f170303c9))
+			- Solutions
+				- For each direction, there are two polarizations.
+			- Observational effect
+				- Gravitational waves would cause no acceleration (of point particles).
+				- However, there would be change in proper distance, thus lead to change in propagation time and interference of light.
+		- Formulation
+		  collapsed:: true
+			- Write $g_{a b}=\eta_{a b}+\gamma_{a b}$ and expand all quantities to first order of $\gamma_{ab}$, which is taken as a small perturbation.
+				- Note that $\gamma_{ab}$ is **not tensorial**. It is only covariant under Lorentz transformations (where $\eta_{ab}$ is kept invariant).
+				- Bambi writes $\gamma_{\mu\nu}$ as $h_{\mu\nu}$.
+			- Def. Trace-reversed perturbation,
+			  $$\bar{\gamma}_{a b}=\gamma_{a b}-\frac{1}{2} \eta_{a b} \gamma$$
+		- Fix the gauge
+		  collapsed:: true
+			- Def. Traceless-transverse harmonic gauge
+			  id:: 6472aded-8d6f-454c-862a-392f170303c9
+				- id:: 6472ae05-9f94-4ffa-8452-03ec73562bd0
+				  $$
+				  \partial^\mu \tilde{h}_{\mu \nu}=0
+				  $$
+				  (Harmonic)
+					- $$
+					  \square_\eta \tilde{h}_{\mu \nu}=-\frac{16 \pi G_{\mathrm{N}}}{c^4} T_{\mu \nu}
+					  $$
+				- id:: 6472ae2c-2dbb-4e90-a384-91bc341d8ab9
+				  $$
+				  h_{0 \mu}=0, \quad h=0
+				  $$
+				  (TT)
+					- Note that $\tilde h_{\mu\nu}=h_{\mu\nu}$ in this gauge.
+				- #+BEGIN_NOTE
+				  Harmonicity could be achieved with the presence of matter, but TT gauge could only be chosen in vacuum where $T_{ab}=0$.
+				  #+END_NOTE
+			- In this gauge the Einstein equation becomes
+			  $$
+			  \square_\eta \tilde{h}_{\mu \nu}=0
+			  $$
+			- Bambi's coordinate way
+				- Harmonic gauge
+				  collapsed:: true
+					- Consider a coordinate transformation
+					  $$
+					  x^\mu \rightarrow x^{\prime \mu}=x^\mu+\xi^\mu
+					  $$
+					  where $\xi$ is of the same order of $h$.
+					- $h_{\mu\nu}$ transforms as
+					  $$
+					  h_{\mu v}^{\prime}=h_{\mu \nu}-\partial_\mu \xi_v-\partial_\nu \xi_\mu
+					  $$
+					  and
+					  $$
+					  \tilde{h}_{\mu \nu}^{\prime}=h_{\mu \nu}^{\prime}-\frac{1}{2} \eta_{\mu \nu} h^{\prime}=\tilde{h}_{\mu \nu}-\partial_\mu \xi_v-\partial_\nu \xi_\mu+\eta_{\mu \nu} \partial^\sigma \xi_\sigma
+					  $$
+					- Therefore
+					  $$
+					  \partial^\mu \tilde{h}_{\mu \nu}^{\prime}=\partial^\mu \tilde{h}_{\mu \nu}-\square_\eta \xi_v
+					  $$
+					- We just need to solve the Poisson equations
+					  $$
+					  \square_\eta \xi_v=\partial^\mu \tilde{h}_{\mu v}
+					  $$
+					  to obtained the desired transformation!
+				- TT gauge
+				  collapsed:: true
+					- There are still some degrees of freedom in the gauge, namely the homogeneous solutions
+					  $$
+					  \square_\eta \xi_v=0
+					  $$
+					  could be freely added.
+					- We can make use of the freedom to set
+					  $$
+					  h_{0 \mu}=0, \quad h=0
+					  $$
+			- Wald's abstract way
+			  collapsed:: true
+				- Consider the perturbation $\gamma_{ab}$ as the derivative $\frac {dg_{ab}(\lambda)}{d\lambda}|_{\lambda=0}$ and a family of diffeomorphisms $\phi_\lambda$. Then $\gamma_{a b}=d g_{a b} /\left.d \lambda\right|_{\lambda=0}$ and $\gamma_{a b}^{\prime}=d\left(\phi_\lambda^* g_{a b}\right) /\left.d \lambda\right|_{\lambda=0}$, which shall represent the same physical spacetime.
+					- Prove that $\gamma_{a b}^{\prime}=\gamma_{a b}-\mathcal L_v g_{a b}$, where $v$ is the generating vector field of $\phi_\lambda$. This is the gauge freedom of the perturbation.
+				- The final result is $\partial^c \partial_c \bar{\gamma}_{a b}=-16 \pi T_{a b}$
+					- Note that we can obtain $\gamma_{ab}$ back by taking trace.
+				-
+			-
+		- Solve the equation
+		  collapsed:: true
+			- Let's consider plane-wave solutions,
+			  $$
+			  h_{i j}^{\mathrm{TT}}=\varepsilon_{i j} e^{i k^\mu x_\mu}
+			  $$
+				- Harmonic -> $k^\mu h_{\mu\nu}=0$
+				- TT -> Only spatial components could be nonzero and the trace must be zero.
+			- Consider a wave propagating in the $z$ direction, $k^\mu=(0,0,0,1)$:
+			  there could only be two modes, namely
+			  $$
+			  \begin{aligned}
+			  \varepsilon_{i j}^{+}=\left(\begin{array}{ccc}
+			  1 & 0 & 0 \\
+			  0 & -1 & 0 \\
+			  0 & 0 & 0
+			  \end{array}\right) & \text { (plus mode }) \\
+			  \varepsilon_{i j}^{\times}=\left(\begin{array}{ccc}
+			  0 & 1 & 0 \\
+			  1 & 0 & 0 \\
+			  0 & 0 & 0
+			  \end{array}\right) & (\text { cross mode })
+			  \end{aligned}
+			  $$
+				- $$
+				  h_{\mu \nu}^{\mathrm{TT}}=\left(\begin{array}{cccc}
+				  0 & 0 & 0 & 0 \\
+				  0 & h_{+} & h_{\times} & 0 \\
+				  0 & h_{\times} & -h_{+} & 0 \\
+				  0 & 0 & 0 & 0
+				  \end{array}\right) \cos [\omega(t-z / c)]
+				  $$
+		- Observational effects
+			- No acceleration
+				- $\Gamma_{00}^i=0$, which means that $\ddot{x}^i=0$.
+			- Change of proper distance
+				- Since $h_{xx} \neq h_{yy}$, we can observe a change in proper distances, which enables interference of light1
+	- ## Restore Newtonian gravity
+	  collapsed:: true
+		- Summary #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-08T00:20:44.943Z
+		  card-last-reviewed:: 2023-05-09T00:20:44.944Z
+		  card-last-score:: 5
+		  collapsed:: true
+			- *Simplified way
+			  collapsed:: true
+				- Derive $h_{t t}=-\frac{2 \Phi}{c^2}$ from the geodesic equation, which should recover EOM in Newtonian gravity
+				- Plug the above expression to the Einstein equation and recover the Poisson equation.
+			- Metric side
+			  collapsed:: true
+				- Same as before: $g_{a b}=\eta_{a b}+\gamma_{a b}$, fix the gauge to obtain $\partial^c \partial_c \bar{\gamma}_{a b}=-16 \pi T_{a b}$, where $\bar{\gamma}_{a b}=\gamma_{a b}-\frac{1}{2} \eta_{a b} \gamma$.
+			- Matter side
+			  collapsed:: true
+				- Find a suitable coordinate where $T_{a b} \approx \rho t_a t_b$, where $t$ is the time direction of the coordinate (almost inertial)
+				- The equation becomes $\nabla^2 \bar{\gamma}_{00}=-16 \pi \rho$, where $\phi \equiv-\frac{1}{4} \bar{\gamma}_{00}$ satisfies Poisson's equation,
+				  collapsed:: true
+				  $$
+				  \nabla^2 \phi=4 \pi \rho
+				  $$
+					- Just the Newtonian gravity!
+			- The final task is to verify the geodesic equation.
+			  collapsed:: true
+				- For slow motions, we may approximate $d x^\alpha / d \tau \approx (1,0,0,0)$, thus the geodesic equation writes
+				  $$\frac{d^2 x^\mu}{d t^2}=-\Gamma^\mu{ }_{00}$$
+				- Plug in the expression of Christoffel symbols, we obtain
+				  $$\Gamma_{00}^\mu=-\frac{1}{2} \frac{\partial \gamma_{00}}{\partial x^\mu}=\frac{\partial \phi}{\partial x^\mu}$$
+				-
+	- ## Gravitational Wave
+		- First note that much has already been done in the section of linearized gravity: Select the harmonic TT gauge to simplify the equation, obtain two polarizations.
+		- Next we attack the following question:
+		  How does a time-varying source emit gravitational waves?
+		- The formal solution to the equation in the harmonic gauge 
+		  $$
+		  \square_\eta \tilde{h}_{\mu \nu}=-{16 \pi } T_{\mu \nu}
+		  $$
+		  is
+		  $$
+		  \tilde{h}_{\mu \nu}(t, \mathbf{x})=4 \int d^3 \mathbf{x}^{\prime} \frac{T_{\mu \nu}\left(t-\left|\mathbf{x}-\mathbf{x}^{\prime}\right| / c, \mathbf{x}^{\prime}\right)}{\left|\mathbf{x}-\mathbf{x}^{\prime}\right|}
+		  $$
+			- The result could be obtained by a Fourier transformation to obtain the Green function.
+		- ### The Quadruple Formula
+			- When we are very far from the source, we can approximate it by taking the distance as a constant:
+			  id:: 6473160b-0530-4c13-a2f7-9d101039ee0c
+			  $$
+			  \tilde{h}^{\mu v}(t, \mathbf{x})=\frac{4 G_{\mathrm{N}}}{c^4 r} \int d^3 \mathbf{x}^{\prime} T^{\mu v}\left(t-r / c, \mathbf{x}^{\prime}\right)
+			  $$
+				- Note that the gravitational wave is proportional to $r^{-1}$.
+				  On the contrary, the electromagnetic wave is proportional $r^{-2}$.
+			- Def. Quadruple Moment:
+			  $$
+			  Q^{i j}(t)=\frac{1}{c^2} \int_V T^{00}(t, \mathbf{x}) x^i x^j d^3 \mathbf{x}
+			  $$
+			- The formula:
+			  $$
+			  \begin{aligned}
+			  \tilde{h}_{\mu 0} & =0 \\
+			  \tilde{h}_{i j} & =\frac{2 G_{\mathrm{N}}}{c^4 r} \ddot{Q}_{i j}(t-r / c)
+			  \end{aligned}
+			  $$
+				- In plain English: The gravitational wave only concerns the spatial part, which is only determined by the second time-derivative of the quadruple moment!
+				- Proof
+				  collapsed:: true
+					- Starting point: $\partial_\mu T^{\mu \nu}=0$
+						- Note that it should in principle be $\nabla_\mu$ rather than $\partial_\mu$, but since $T^{\mu\nu}$ is of the same order of $h_{\mu\nu}$, we could ignore the difference.
+					- Step 1. Consider 0th-order moment
+						- $$
+						  \partial_0 T^{0 v}=-\partial_k T^{k v}
+						  $$
+						- Integrate over the whole space and RHS vanishes, we obtain
+						  id:: 6473181d-1e80-4494-a113-acacb1239370
+						  $$
+						  \int_V T^{0 v} d^3 \mathbf{x}=\text { constant }
+						  $$
+						- Therefore $\tilde{h}^{0 v}$ is constant too. 
+						  id:: 6473184f-b3ae-4940-9423-87d49abdadf5
+						  Since here we are interested in gravitational waves, namely in the time-dependent part of the gravitational field, we can put $\tilde{h}^{0 v}=0$.
+					- Step 2. Consider $\nu=i$ and 1st-order moment
+						- $$
+						  \partial_0 T^{0 i}=-\partial_k T^{k i}
+						  $$
+						- id:: 64731890-b1ef-402c-9dbe-e95f7ffcee76
+						  $$
+						  \begin{aligned}
+						  \frac{1}{c} \frac{\partial}{\partial t} \int_V T^{i 0} x^j d^3 \mathbf{x} & =-\int_V \frac{\partial T^{i k}}{\partial x^k} x^j d^3 \mathbf{x} \\
+						  & =-\int_V \frac{\partial}{\partial x^k}\left(T^{i k} x^j\right) d^3 \mathbf{x}+\int_V T^{i k} \frac{\partial x^j}{\partial x^k} d^3 \mathbf{x} \\
+						  & =\int_V T^{i j} d^3 \mathbf{x} .
+						  \end{aligned}
+						  $$
+						- Symmetrize over i and j:
+						  $$
+						  \frac{1}{c} \frac{\partial}{\partial t} \int_V\left(T^{i 0} x^j+T^{j 0} x^i\right) d^3 \mathbf{x}=2 \int_V T^{i j} d^3 \mathbf{x}
+						  $$
+					- Step 3. Consider $\nu=0$ and 2nd-order moment
+						- $$
+						  \partial_0 T^{00}=-\partial_k T^{k 0}
+						  $$
+						- $$
+						  \begin{aligned}
+						  \frac{1}{c} \frac{\partial}{\partial t} \int_V T^{00} x^i x^j d^3 \mathbf{x} & =-\int_V \frac{\partial T^{k 0}}{\partial x^k} x^i x^j d^3 \mathbf{x} \\
+						  & =-\int_V \frac{\partial}{\partial x^k}\left(T^{k 0} x^i x^j\right) d^3 \mathbf{x}+\int_V\left(T^{k 0} \frac{\partial x^i}{\partial x^k} x^j+T^{k 0} x^i \frac{\partial x^j}{\partial x^k}\right) d^3 \mathbf{x} \\
+						  & =\int_V\left(T^{i 0} x^j+T^{j 0} x^i\right) d^3 \mathbf{x} .
+						  \end{aligned}
+						  $$
+						- We recognize the familiar form in the last line, so we take time derivative to both sides:
+						  $$
+						  \begin{aligned}
+						  \frac{1}{c^2} \frac{\partial^2}{\partial^2 t} \int_V T^{00} x^i x^j d^3 \mathbf{x} & =\frac{1}{c} \frac{\partial}{\partial t} \int_V\left(T^{i 0} x^j+T^{j 0} x^i\right) d^3 \mathbf{x}\\
+						  & =2 \int_V T^{i j} d^3 \mathbf{x}  \quad \text{(Step 2)} .
+						  \end{aligned}
+						  $$
+					-
+			- Switch to TT gauge
+				- We are concerned about gravitational waves in the vacuum region, so we can still switch to the TT gauge.
+				  This would be done by a traceless-transverse projector, which projects out both the transverse part and the trace part.
+				- Def
+					- $$
+					  P_{i j}=\delta_{i j}-n_i n_j
+					  $$
+						- Project to the plane orthogonal to the wavevector $n_i$.
+					- $$
+					  P_{i j k l}=P_{i k} P_{j l}-\frac{1}{2} P_{i j} P_{k l}
+					  $$
+						- The first part projects out orthogonal components.
+						- The second part projects out the trace in the plane.
+					- $$
+					  h_{i j}^{\mathrm{TT}}=P_{i j k l} \tilde{h}_{k l} \\
+					  \tilde{Q}_{i j}=Q_{i j}-\frac{1}{3} \delta_{i j} Q, \quad Q_{i j}^{\mathrm{TT}}=P_{i j k l} \tilde{Q}_{k l}=P_{i j k l} Q_{k l}
+					  $$
+				- Therefore we can rewrite the equation as
+				  $$
+				  \begin{aligned}
+				  h_{\mu 0}^{\mathrm{TT}} & =0 \\
+				  h_{i j}^{\mathrm{TT}} & =\frac{2 G_{\mathrm{N}}}{c^4 r} \ddot{Q}_{i j}^{\mathrm{TT}}(t-r / c)
+				  \end{aligned}
+				  $$
+				- Note that $Q_{ij}^{TT}$ is also traceless.
+				  This explains that spherically-symmetric collapses would not emit gravitational waves.
+		- ### Energy of Gravitational Waves
+			- ((64734e5e-dc0d-4108-84c5-427bdde9c399))
 - # Theories in Curved Spacetime
   collapsed:: true
 	- Principle of minimal substitution
@@ -682,12 +975,14 @@ alias:: GR
 		  $$
 		-
 - # Physical Interpretations
-  collapsed:: true
 	- Is gravity still a force? How to define the gravity of the earth? #card
+	  collapsed:: true
 		- First, **what is a force**?
+		  collapsed:: true
 			- If a particle accelerates with respect to an inertial observer, we claim that a force $F:=ma$ is acting on the particle.
 			- However, in GR there's no notion of inertial observers (or natural reference frames).
 		- Therefore, we can't talk about absolute gravitational force since there's no natural reference frame.
+		  collapsed:: true
 			- However, we can always talk about tidal forces (relative acceleration of two observers).
 		- The earth is a special case: We have the earth as a natural reference frame, or we have a natural notion of time-translation symmetry (standing on the surface of the earth)
 	- Calculate time measured by an observer #card
@@ -697,19 +992,26 @@ alias:: GR
 	  card-next-schedule:: 2023-05-08T17:25:33.918Z
 	  card-last-reviewed:: 2023-04-07T11:25:33.919Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- What is an observer?
+		  collapsed:: true
 			- A trajectory in the spacetime, with a locally Minkowski reference frame
 		- What is the time he measured?
+		  collapsed:: true
 			- Difference of proper time (i.e. time in the observer's frame)
 		- Special case: Static observer
+		  collapsed:: true
 			- Take $g_{ab}=\eta_{ab}$ at infinity (no gravity at infinity)
 			- $d\tau^2=-g_{tt}dt^2$
+			  collapsed:: true
 				- Generally $|g_{tt}|<1$, so time measured by the observer would be slower than the coordinate time, i.e. time felt at infinity.
 			- Example. Schwarzschild solution
+			  collapsed:: true
 				- $$
 				  d \tau=\sqrt{1-\frac{2 G_{\mathrm{N}} M}{c^2 r}} d t<d t
 				  $$
 	- ## Examples
+	  collapsed:: true
 		- Time difference between GPS satellites and receivers #card
 		  card-last-interval:: 30
 		  card-repeats:: 1
@@ -717,46 +1019,15 @@ alias:: GR
 		  card-next-schedule:: 2023-05-26T03:35:26.841Z
 		  card-last-reviewed:: 2023-04-26T03:35:26.842Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- The most difficult thing here may be finding an appropriate definition of 'time', which is not easy in GR.
+			  collapsed:: true
 				- Proper time is always well-defined, but useless for comparing different observers.
 				- Coordinate time isn't covariant.
 				- However here we have a special coordinate, namely the earth's coordinate, which corresponds to a timelike Killing vector (generating time-translation symmetry).
 			- Outline
+			  collapsed:: true
 				- Take the same **coordinate time** and calculate the difference in proper times (which is measured)
+				  collapsed:: true
 					- We don't need to go to the respective frames. Just calculate $g_{ab}dx^a dx^b$.
 				- As a weak-gravity approximation, use the Newtonian solution and calculate special- and general-relativity effects separately.
-	- ## Weak-Gravity limit
-		- Linearized gravity
-			- Summary #card
-				- Write $g_{a b}=\eta_{a b}+\gamma_{a b}$ and expand all quantities to first order of $\gamma_{ab}$.
-				- Fix the gauge to obtain a beautiful equation
-					- Consider the perturbation $\gamma_{ab}$ as the derivative $\frac {dg_{ab}(\lambda)}{d\lambda}|_{\lambda=0}$ and a family of diffeomorphisms $\phi_\lambda$. Then $\gamma_{a b}=d g_{a b} /\left.d \lambda\right|_{\lambda=0}$ and $\gamma_{a b}^{\prime}=d\left(\phi_\lambda^* g_{a b}\right) /\left.d \lambda\right|_{\lambda=0}$, which shall represent the same physical spacetime.
-					- Prove that $\gamma_{a b}^{\prime}=\gamma_{a b}-\mathcal L_v g_{a b}$, where $v$ is the generating vector field of $\phi_\lambda$. This is the gauge freedom of the perturbation.
-				- The final result is $\partial^c \partial_c \bar{\gamma}_{a b}=-16 \pi T_{a b}$, where $\bar{\gamma}_{a b}=\gamma_{a b}-\frac{1}{2} \eta_{a b} \gamma$
-					- Note that we can obtain $\gamma_{ab}$ back by taking trace.
-		- Restore Newtonian gravity
-			- Summary #card
-			  card-last-interval:: 30
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-06-08T00:20:44.943Z
-			  card-last-reviewed:: 2023-05-09T00:20:44.944Z
-			  card-last-score:: 5
-				- *Simplified way
-					- Derive $h_{t t}=-\frac{2 \Phi}{c^2}$ from the geodesic equation, which should recover EOM in Newtonian gravity
-					- Plug the above expression to the Einstein equation and recover the Poisson equation.
-				- Metric side
-					- Same as before: $g_{a b}=\eta_{a b}+\gamma_{a b}$, fix the gauge to obtain $\partial^c \partial_c \bar{\gamma}_{a b}=-16 \pi T_{a b}$, where $\bar{\gamma}_{a b}=\gamma_{a b}-\frac{1}{2} \eta_{a b} \gamma$.
-				- Matter side
-					- Find a suitable coordinate where $T_{a b} \approx \rho t_a t_b$, where $t$ is the time direction of the coordinate (almost inertial)
-					- The equation becomes $\nabla^2 \bar{\gamma}_{00}=-16 \pi \rho$, where $\phi \equiv-\frac{1}{4} \bar{\gamma}_{00}$ satisfies Poisson's equation,
-					  $$
-					  \nabla^2 \phi=4 \pi \rho
-					  $$
-						- Just the Newtonian gravity!
-				- The final task is to verify the geodesic equation.
-					- For slow motions, we may approximate $d x^\alpha / d \tau \approx (1,0,0,0)$, thus the geodesic equation writes
-					  $$\frac{d^2 x^\mu}{d t^2}=-\Gamma^\mu{ }_{00}$$
-					- Plug in the expression of Christoffel symbols, we obtain
-					  $$\Gamma_{00}^\mu=-\frac{1}{2} \frac{\partial \gamma_{00}}{\partial x^\mu}=\frac{\partial \phi}{\partial x^\mu}$$
-					-

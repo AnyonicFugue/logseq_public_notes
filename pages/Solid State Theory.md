@@ -14,7 +14,12 @@ type:: [[Course]]
 - # Slater Determinant
   collapsed:: true
 	- Summary #card
-	  collapsed:: true
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-06-26T01:03:53.757Z
+	  card-last-reviewed:: 2023-05-27T01:03:53.757Z
+	  card-last-score:: 3
 		- We want to calculate the wavefunction of a certain fermionic state, say $\prod_{\lambda_\alpha<0} c_\alpha^{\dag}|0\rangle$
 		- collapsed:: true
 		  $$
@@ -27,7 +32,6 @@ type:: [[Course]]
 			  However, since the fermionic state is itself anti-symmetrical, it makes no difference.
 			- The second line is expanding the field operators in the $\alpha$ representation.
 		- Obviously the result is a sum of different permutations with signs.
-		  collapsed:: true
 			- $$
 			  \begin{aligned}
 			  \left\langle\vec{r}_1, \cdots, \vec{r}_N \mid G S\right\rangle & =\sum_{\left\{\alpha_1 \cdots \alpha_N\right\}}\operatorname{sgn}\left(\alpha_1, \cdots \alpha_N\right) \phi_{\alpha_1}\left(\vec{r}_1\right) \cdots \phi_{\alpha_N}\left(r_N\right) \\

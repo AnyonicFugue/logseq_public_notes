@@ -96,6 +96,7 @@
 			- (iii) If $\sigma$ is a path in $X$, then $\sigma \in \operatorname{ker} \partial_1$ if and only if $\sigma$ is a closed path. Exhibit a nonzero element of $\operatorname{ker} \partial_1$ that is not a closed path.
 			  Fits our intuition of 'closed' (boundaryless)!
 	- Singular complex $S_*(X)$
+	  id:: 6454f1b7-f979-485a-aafb-fa39fd34e0af
 	  collapsed:: true
 		- A **sequence** of free abelian groups and homomorphisms
 		  $$
@@ -159,7 +160,6 @@
 			  ((6461a7c8-3e70-4218-8989-a2b1fa67accf))
 			  the 'side faces' of the cone is produced by cones over the boundary.
 - # Basic Facts
-  collapsed:: true
 	- ((644638a3-9be7-46f8-8abb-f6c3ae2849af)) For all $n \geq 0$, we have $\partial_n \partial_{n+1}=0$. #card
 	  collapsed:: true
 		- First we explicitly write down 
@@ -188,11 +188,13 @@
 	  card-next-schedule:: 2023-06-15T00:26:27.384Z
 	  card-last-reviewed:: 2023-05-16T00:26:27.385Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- '当你学了范畴后，看什么都是范畴'。
 		- We should determine two things:
 		  1. For $f \in \mathrm{Hom}_{\mathbf{Top}}(X,Y)$, how to define $H_n(f)$?
 		  2. Does $H_n(f \circ g) = H_n(f) \circ H_n(g)$?
 		- First question:
+		  collapsed:: true
 			- Obviously $f$ induces a homomorphism $f_\#: S_n(X) \to S_n(Y)$ by 
 			  collapsed:: true
 			  $$
@@ -213,15 +215,21 @@
 		- Since $f_{\#}$ can be inverted.
 		- But to put it in another way -- the homology group is a topological invariant. We've found yet another one!
 	- ((6451ce0c-d570-4606-b1f1-8982fc66eead)) (Dimension Axiom). If $X$ is a one-point space, then $H_n(X)=0$ for all $n>0$. #card
+	  collapsed:: true
 		- An easy exercise to recall the definitions.
 		  Discuss $n$ even and odd separately.
 	- Lemma 4.15. Let $A$ be a subspace of $X$ with inclusion $j: A \hookrightarrow X$. Then $j_{\#}: S_n(A) \rightarrow S_n(X)$ is an injection for every $n \geq 0$.
 	- ((6455b888-36b0-487b-b550-448faf23952c)). Let $X=\bigcup _{p=1}^{\infty } X^{p}$ with $X^{p} \subset X^{p+1}$ for all $p$ (call the inclusion maps $\lambda ^{p} :X^{p} \hookrightarrow X$ and $\left. \varphi ^{p} :X^{p} \hookrightarrow X^{p+1}\right)$. If every compact subspace $A$ of $X$ is contained in some $X^{p}$, then cls $\zeta \in H_{n} (X)$ is zero if and only if there exist $p$ and $\operatorname{cls} \zeta ^{\prime } \in H_{n}\left( X^{p}\right)$ with
+	  collapsed:: true
 	  \begin{equation*}
 	  \lambda _{*}^{p}\operatorname{cls} \zeta ^{\prime } =\operatorname{cls} \zeta \quad \text{ and } \quad \varphi _{*}^{p}\operatorname{cls} \zeta ^{\prime } =0\text{. }
 	  \end{equation*}
 		- Note that
 		  ![image.png](../assets/image_1683339421269_0.png){:height 238, :width 327}
+	- ((6471627c-36a0-4abb-ad61-cda6a9bb6eb1)). A **polygon** in a space $X$ is a 1-chain $\pi=\sum_{i=0}^k \sigma_i$, where $\sigma_i\left(e_1\right)=$ $\sigma_{i+1}\left(e_0\right)$ for all $i$. 
+	  Then a 1-chain $\gamma=\sum m_i \sigma_i \in S_1(X)$ is a cycle if and only if $\gamma$ is homologous to a linear combination of polygons. #card
+		- q -> p is obvious, since each polygon is a cycle.
+		- p -> q: By direct construction. We can start from a point and find out the next 'edge' successively.
 - # Trying to Calculate the Homology Groups
   collapsed:: true
 	- Theorem. If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the set of path components of $X$, then, for every $n \geq 0$,
@@ -354,6 +362,7 @@
 				- Just check the two conditions to be satisfied!
 	- Corollary. If $X$ is contractible, then $H_n(X)=0$ for all $n>0$. #card
 - # The Hurewicz Theorem
+  collapsed:: true
 	- The Hurewicz map $\varphi$ #card
 		- Let $\eta: \Delta^1 \rightarrow \mathrm{I}$ be the homeomorphism $(1-t) e_0+t e_1 \mapsto t$. There is a well defined function
 		  $$

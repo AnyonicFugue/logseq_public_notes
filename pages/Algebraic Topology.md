@@ -153,6 +153,12 @@
 	  collapsed:: true
 		- ((642d8003-6824-4805-ba5e-7ce8cb5333e2)) The following conditions on an ordered set of points $\left\{p_0, p_1, \ldots, p_m\right\}$ in $\mathbf{R}^n$ are equivalent.
 		  id:: 642d8032-73a8-473d-8bc5-9da77152a596
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-26T00:56:34.208Z
+		  card-last-reviewed:: 2023-05-27T00:56:34.209Z
+		  card-last-score:: 5
 		  (i) $\left\{p_0, p_1, \ldots, p_m\right\}$ is affine independent;
 		  (ii) if $\left\{s_0, s_1, \ldots, s_m\right\} \subset \mathbf{R}$ satisfies $\sum_{i=0}^m s_i p_i=0$ and $\sum_{i=0}^m s_i=0$, then $s_0=$ $s_1=\cdots=s_m=0$
 		  (iii) each $x \in A$, the affine set spanned by $\left\{p_0, p_1, \ldots, p_m\right\}$, has a unique expression as an affine combination:
@@ -185,9 +191,16 @@
 				- Examples
 					- Topological group: Multiplication as $m$ and identity as $x_0$
 		- ((6438b025-e90b-490e-a4a5-ce7f210be871)) If $(X,x_0)$ is an H-space, then $\pi_1(X,x_0)$ is abelian. #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-06-25T00:30:19.003Z
+		  card-last-reviewed:: 2023-05-26T00:30:19.004Z
+		  card-last-score:: 3
 			- #+BEGIN_NOTE
 			  This proof is not hard, but conceptually confusing. How to understand it? Why couldn't I come up with it myself?
 			  #+END_NOTE
+				- It is easier if I take a categorical viewpoint: induced maps are homs.
 			- Key idea
 				- A path $f$ in $X$ can be both $m_*(e_{x_0},f)$ and $m_*(f,e_{x_0})$ (H-space).
 				- Moreover, the induced map is a homomorphism.
@@ -195,7 +208,6 @@
 			- Remark
 				- It is a necessary condition that the fundamental group is abelian for the space to be a topological group.
 			-
-				-
 		-
 - # Homotopy
   collapsed:: true
@@ -287,7 +299,9 @@
 			- Invoke the lemma that homotopy is preserved under composition.
 			-
 - # [[Singular Homology]]
+- # [[Long Exact Sequences]]
 - [[Retraction]]
+  collapsed:: true
 	- Def
 	  collapsed:: true
 		- $A \subset X$, a **retraction** of $X$ onto $A$ is a continuous map $r: X \rightarrow A$ such that $r | _ A$ is the **identity** map of $A$. $A$ is a retract of $X$.
@@ -377,6 +391,7 @@
 		- Hint: Nul -> Trivial hom of $\pi_1$; Retraction -> Injective
 - [[Covering space]]
 - [[Fundamental Group]]
+  collapsed:: true
 	- # The Categorical Viewpoint
 		- ((64365386-b7d7-4fea-907a-9cbb6aa97a3a)) $\pi_1: \mathbf{Top_*}\to\mathbf{Grp}$ is a (covariant) functor. Moreover, if $h$, $k:\left(X, x_0\right) \rightarrow\left(Y, y_0\right)$ and $h \simeq k \operatorname{rel}\left\{x_0\right\}$, then $\pi_1(h)=\pi_1(k)$. #card
 			- *To be completed
@@ -479,9 +494,9 @@
 			- **We obtain a contradiction.**
 	- [[Lifting]]
 	-
-- [[The Separation Theorems]]
-- [[Seifert-van Kampen Theorem]]
-- Classification of Surfaces
+- # [[The Separation Theorems]]
+- # [[Seifert-van Kampen Theorem]]
+- # [[Classification of Surfaces]]
   collapsed:: true
 	- Defs
 		- ((642578ff-9703-449c-b3df-41ffc344e641))

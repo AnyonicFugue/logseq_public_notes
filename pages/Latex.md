@@ -40,8 +40,15 @@
 		- Use `\bibliography{file}` to include it
 		- Use `\cite{Kitaev_2006}` to cite specific articles
 - # Warnings #card
+  card-last-interval:: 30
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-06-26T01:00:03.251Z
+  card-last-reviewed:: 2023-05-27T01:00:03.251Z
+  card-last-score:: 3
 	- #+BEGIN_CAUTION
 	  Latex is quite old and decentralized, so there are many strange bugs. 
 	  #+END_CAUTION
 	- Don't use `$$$$` to create multi-line formulae. Use `\begin{equation}` to avoid potential problems.
+	- Avoid using `Shift+Enter` to create a new line in formulae. Use `\begin{aligned}`.
 	-

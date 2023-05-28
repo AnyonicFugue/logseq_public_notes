@@ -195,3 +195,22 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   hl-page:: 94
   hl-color:: yellow
   id:: 646cb116-3fcc-4afe-9117-7e4157dc1689
+- Theorem
+  ls-type:: annotation
+  hl-page:: 97
+  hl-color:: yellow
+  id:: 6471627c-36a0-4abb-ad61-cda6a9bb6eb1
+- [:span]
+  ls-type:: annotation
+  hl-page:: 100
+  hl-color:: yellow
+  id:: 64716a6b-8c2a-4d82-b4e8-1f9067c8679d
+  hl-type:: area
+  hl-stamp:: 1685154499643
+- [:span]
+  ls-type:: annotation
+  hl-page:: 102
+  hl-color:: yellow
+  id:: 64716fbb-80b4-4986-931b-12380bae496f
+  hl-type:: area
+  hl-stamp:: 1685155770570

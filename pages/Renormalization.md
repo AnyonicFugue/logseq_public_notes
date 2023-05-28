@@ -1,6 +1,13 @@
 - ((63902f14-d931-401b-a27f-5d9f95c9791c))
 	- For example, physical mass of electrons are not the bare mass.
 - # Principles and the Paradigm #card
+  collapsed:: true
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-06-26T06:20:56.367Z
+  card-last-reviewed:: 2023-05-26T00:20:56.368Z
+  card-last-score:: 5
 	- ## Empirical Knowledge
 	  collapsed:: true
 		- We can't probe physics at arbitrarily high $E$.
