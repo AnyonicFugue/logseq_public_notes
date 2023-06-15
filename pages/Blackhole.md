@@ -25,6 +25,7 @@
 				- It is different from ((6454f170-9fed-40e5-845e-c72df45c05ab)), where particles crossing the horizon are doomed to the singularity!
 			-
 - # Kerr Blackholes
+  collapsed:: true
 	- Stationary, rotating, uncharged blackholes
 	- Solution
 		- $$\begin{aligned}

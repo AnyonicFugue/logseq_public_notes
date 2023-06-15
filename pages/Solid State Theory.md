@@ -1,7 +1,7 @@
 type:: [[Course]]
 
 -
-- ![2012_Phillips_Advanced Solid State Physics.pdf](file://zotero_link/Physics/Courses/Solid State/2012_Phillips_Advanced Solid State Physics.pdf)
+-
 - # Problem-Solving Tricks
   collapsed:: true
 	- Diagonalizing tight-binding model
@@ -20,6 +20,7 @@ type:: [[Course]]
 	  card-next-schedule:: 2023-06-26T01:03:53.757Z
 	  card-last-reviewed:: 2023-05-27T01:03:53.757Z
 	  card-last-score:: 3
+	  collapsed:: true
 		- We want to calculate the wavefunction of a certain fermionic state, say $\prod_{\lambda_\alpha<0} c_\alpha^{\dag}|0\rangle$
 		- collapsed:: true
 		  $$
@@ -32,76 +33,13 @@ type:: [[Course]]
 			  However, since the fermionic state is itself anti-symmetrical, it makes no difference.
 			- The second line is expanding the field operators in the $\alpha$ representation.
 		- Obviously the result is a sum of different permutations with signs.
+		  collapsed:: true
 			- $$
 			  \begin{aligned}
 			  \left\langle\vec{r}_1, \cdots, \vec{r}_N \mid G S\right\rangle & =\sum_{\left\{\alpha_1 \cdots \alpha_N\right\}}\operatorname{sgn}\left(\alpha_1, \cdots \alpha_N\right) \phi_{\alpha_1}\left(\vec{r}_1\right) \cdots \phi_{\alpha_N}\left(r_N\right) \\
 			  & =\operatorname{Det}\left[\phi_{\alpha_i}\left(\vec{r}_j\right)\right]_{ij}
 			  \end{aligned}
 			  $$
-- # [[Hatree-Fock Approximation]] #card
-  collapsed:: true
-	- ## Idea
-	  collapsed:: true
-		- Use the variation principle to find out the ground state energy.
-		- However, we **fix** the levels to be occupied and **vary the states**.
-	- ## Expand the Hamiltonian as 1 and 2 body operators
-	  collapsed:: true
-		- $\hat{h}_{1} =-\frac{\hbar ^{2}}{2m} \Delta +V (\mathbf{r} )$
-		- $\hat{h}_2=\frac{e^{2}}{| \mathbf{r}_{1} -\mathbf{r}_{2}| }$
-		- Therefore $\hat H_1=\sum_{\nu \lambda}\langle\nu|\widehat{h}(1)| \lambda\rangle a_\nu^{\dagger} a_\lambda$, $\hat H_2=\frac{1}{2} \sum_{\nu \lambda \alpha \beta}\left\langle\nu \lambda\left|\frac{e^2}{\left|\mathbf{r}_1-\mathbf{r}_2\right|}\right| \alpha \beta\right\rangle a_\nu^{\dagger} a_\lambda^{\dagger} a_\beta a_\alpha$
-		-
-	- ## Generalized [[Wick's Theorem]]
-	  id:: 64085b6c-2d37-476b-92d3-3527157ccbbf
-	  collapsed:: true
-		- Examples
-		  collapsed:: true
-			- card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-05-15T17:39:08.044Z
-			  card-last-reviewed:: 2023-04-14T11:39:08.044Z
-			  card-last-score:: 5
-			  collapsed:: true
-			  $$\left< a_{\nu }^{\dagger } a_{\lambda }^{\dagger } a_{\beta } a_{\alpha }\right> :=\left< \psi _{0} |a_{\nu }^{\dagger } a_{\lambda }^{\dagger } a_{\beta } a_{\alpha } |\psi _{0}\right> =( \delta _{\nu \alpha } \delta _{\lambda \beta } -\delta _{\nu \beta } \delta _{\lambda \alpha })< \hat{n}_{\alpha }> < \hat{n}_{\beta }> .$$
-			  Where $|\psi _{0}> =\prod _{a\in A} c_{a}^{\dagger } |0\rangle$ #card
-				- The inner operators must pair up to have nonzero amplitudes.
-				- The two kronecker deltas corresponds to two contractions.
-	- ## Evaluate Energy Expectations
-	  collapsed:: true
-		- collapsed:: true
-		  $$< \hat{H}_{1}> =\sum _{kl} H_{kl}^{(1)}\left< \psi _{0}\left| \hat{a}_{k}^{\dagger }\hat{a}_{l}\right| \psi _{0}\right>=\sum _{k} H_{kk}^{(1)} n_{k}$$
-			- The second equality follows ((64085b6c-2d37-476b-92d3-3527157ccbbf))
-		- collapsed:: true
-		  $$\begin{aligned}
-		  < \hat{H}_{2}>  & =\frac{1}{2}\sum _{k_{1} l_{1} l_{2} k_{2}} H_{k_{1} l_{l} l_{2} k_{2}}^{(2)} < \hat{a}_{k_{1}}^{\dagger }\hat{a}_{l1}^{\dagger }\hat{a}_{l2}\hat{a}_{k_{2}}  >\\
-		   & =\frac{1}{2}\sum _{kl}( U_{kl} -J_{kl}) n_{k} n_{l}
-		  \end{aligned}$$
-			- The first term is **diagonal** and the second term is **exchange**.
-		- Express in the position representation,
-		  $$
-		  \begin{equation*}
-		  H_{kk}^{(1)} =\int d^{3} r\ \psi _{k}^{*} (r)\left[ -\frac{\hbar ^{2}}{2m} \Delta +V(r)\right] \psi _{k} (r)
-		  \end{equation*}
-		  \\
-		  \begin{equation*}
-		  \begin{aligned}
-		   & U_{kl} =\int d^{3} r_{1} d^{3} r_{2} \psi _{k}^{*}( r_{1}) \psi _{l}^{*}( r_{2})\frac{e^{2}}{\mid \overrightarrow{r_{1}} -\vec{r}_{2} \mid } \psi _{l}( r_{2}) \psi _{k}( r_{1})\\
-		   & J_{kl} =\int d^{3} r_{1} d^{3} r_{2} \ \ \psi _{k}^{*}( r_{1}) \psi _{l}^{*}( r_{2})\frac{e^{2}}{\mid \overrightarrow{r_{1}} -\vec{r}_{2} \mid } \psi _{l}( r_{1}) \psi _{k}( r_{2})
-		  \end{aligned}
-		  \end{equation*}$$
-		-
-	- ## Functional Derivative
-	  collapsed:: true
-		- Minimize wrt wavefunctions $\phi_k(r)$, with the constraint of normalization enforced by a Lagrangian multiplier.
-		  collapsed:: true
-			- $$\frac{\delta \left( E_{\mathrm{HF}} -\lambda \int d^{3}\mathrm{r} \ \phi _{k}^{*}( r) \phi _{k}( r)\right)}{\delta \phi _{v}^{*} (\mathbf{r} )} =0$$
-		- $$
-		  \begin{aligned}
-		  {\left[\frac{-\hbar^2}{2 m} \nabla^2+\widehat{V}(\mathbf{r})+\sum_\lambda \int \mathrm{d} \mathbf{r}^{\prime} n_\lambda\left(\mathbf{r}^{\prime}\right) \frac{e^2}{\left|\mathbf{r}-\mathbf{r}^{\prime}\right|}\right] \phi_\nu(\mathbf{r}) } \\
-		  -\sum \int d\mathbf{r}^{\prime} \phi_\lambda^*\left(\mathbf{r}^{\prime}\right) \phi_\nu\left(\mathbf{r}^{\prime}\right) \frac{e^2}{\left|\mathbf{r}-\mathbf{r}^{\prime}\right|} \phi_\lambda(\mathbf{r})=\lambda \phi_\nu(\mathbf{r})
-		  \end{aligned}
-		  $$
-		-
 - # Electron Gas
   collapsed:: true
 	- ## Tight-Binding Model
@@ -148,6 +86,12 @@ type:: [[Course]]
 		  collapsed:: true
 			- Apply Fourier transformation to the Bloch wavevector.
 		- Def #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-30T18:35:21.478Z
+		  card-last-reviewed:: 2023-05-30T12:35:21.478Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- $$
 			  W_{n i}(\vec{r}):=\frac{1}{\sqrt{N}} \cdot \frac{1}{\sqrt{N}} \sum_k \psi_{n k}(\vec{r}) e^{-i \vec{k} \cdot \vec{r}_i}
@@ -166,276 +110,17 @@ type:: [[Course]]
 			  \hat{c}_{n i}:=\frac{1}{\sqrt{V_0}} \int d^3 \vec{r} \hat{\psi}(\vec{r}) W_{n i}^*(\vec{r})
 			  $$
 			- Obviously they're the Fourier transform of the Block Fock operators.
-- # [[Fermi Liquid]]
-  collapsed:: true
-	- Assumptions of Landau Theory of Fermi Liquids #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-06T18:01:23.668Z
-	  card-last-reviewed:: 2023-05-06T12:01:23.668Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- There is still a fermi surface of some shape
-		- There are quasiparticle excitations near the fermi surface, which might decay.
-		- Energy functional
-		  collapsed:: true
-			- $$
-			  \delta E=\sum_{k \sigma} \varepsilon_k^0 \delta n_0(k)+\frac{1}{2 v} \sum_{k_1 k_2 \sigma_1 \sigma_2} f_{\sigma_1, \sigma_2}\left(k_1, k_2\right) \delta n_{\sigma_1}\left(\vec{k}_1\right) \delta n_{\sigma_2}\left(\vec{k}_2\right)
-			  $$
-			- The first term is 1-body energy.
-			  collapsed:: true
-				- $\varepsilon_k^0=\frac{k_F}{m^*}\left(k-k_F\right)$, where $m*$ is the ^^effective mass^^.
-			- The second term is 2-body part.
-			  collapsed:: true
-				- $$
-				  \begin{aligned}
-				  & f_{\uparrow \uparrow}\left(\vec{k}, \overrightarrow{k^{\prime}}\right)=f^s(\vec{k}, \vec{k'})+f^a\left(\vec{k}, \overrightarrow{k^{\prime}}\right) \\
-				  & f_{\downarrow \uparrow}\left(\vec{k}, \overrightarrow{k^{\prime}}\right)=f^s-f^a
-				  \end{aligned}
-				  $$
-				- We may expand by Legendre polynomials (which is a complete set):
-				  $$
-				  f^{a / s}\left(\vec{k}_1, \vec{k}_2\right)=\sum_{l=0}^{\infty} f_l^{\alpha / s} P_l(\cos \theta)
-				  $$
-			- Also could be comprehended as a series expansion.
-	- Square law of lifetime #card
-	  collapsed:: true
-		- Consider some electron with energy $\epsilon$ above the fermi surface. 
-		  It could decay by scattering with another electron slightly below the fermi surface.
-		- collapsed:: true
-		  $$\frac{1}{\tau } \varpropto \Gamma \varpropto |u|^{2}\int d^{3}\vec{p}_{1} d^{3}\vec{p}_{2}F(p_1,p_2) 1-f( \varepsilon _{p_{1}})] f( \varepsilon _{p_{2}})[ 1-f( \varepsilon _{p-p_{1} +p_{2}})] \delta (\Sigma\varepsilon )$$
-			- $f$ is the occupation number. $F$ is the cross section between $p_1$ and $p_2$.
-		- Obviously the volume of the phase space is proportional to $\epsilon^2$.
-	- Calculate physical quantities
-	  collapsed:: true
-		- Heat capacity at low temperatures #card
-		  card-last-interval:: 84
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-07-28T12:05:20.771Z
-		  card-last-reviewed:: 2023-05-05T12:05:20.772Z
-		  card-last-score:: 5
-		  collapsed:: true
-			- First calculate the energy of a certain configuration. The heat capacity would be known once the state density is known.
-			  collapsed:: true
-				- collapsed:: true
-				  $$\begin{aligned}
-				  \delta E^{(2)} & =\frac{1}{2V}\sum _{\theta _{1} \theta _{2} \sigma _{1} \sigma _{2}} f_{\sigma _{1} \sigma _{2}( \theta _{1} ,\theta _{2})}\sum _{| \vec{k}_{1}| | \vec{k}_{2}| } \delta n_{\sigma _{1}}(\vec{k}_{1}) \delta n_{\sigma _{2}}(\vec{k}_{2})\\
-				   & =\frac{1}{2V}\sum _{\theta _{1} \theta _{2} \sigma _{1} \sigma _{2}} f_{\sigma _{1} \sigma _{2}}( \theta _{1} ,\theta _{2})\left[\sum _{| \vec{k}_{1}| } \delta n_{\sigma _{1}}(\vec{k}_{1})\right]\left[\sum _{| \vec{k}_{2}| } \delta n_{\sigma _{2}}(\vec{k}_{2})\right]
-				  \end{aligned}$$
-					- Approx: At low temperature $k_1,k_2$ would be close to the fermi surface, thus $f$ only depends on the angles, not the norms.
-				- Therefore the 2-body part is zero, only the 1-body part remains.
-				- The heat capacity can be calculated like free fermions (by inserting the effective mass).
-				  background-color:: yellow
-			- Note that Fermi-Dirac distribution shall be used since we're dealing with fermions!
-			  background-color:: red
-			  collapsed:: true
-				- Never see anything like $e^{-\beta E}$.
-			- Experimentalists often use this method to obtain the effective mass.
-		- Susceptibility #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-05-30T01:00:12.385Z
-		  card-last-reviewed:: 2023-04-30T01:00:12.386Z
-		  card-last-score:: 5
-		  collapsed:: true
-			- Idea
-			  collapsed:: true
-				- First obtain the dependence of $E_0$ on $m$.
-				- Since $E=E_0-m\cdot h$, m would be obtained by minimizing the total energy.
-				  collapsed:: true
-					- $\frac{\partial E}{\partial m}=m(h) \cdot \frac{\partial^2 E}{\partial m^2} {=} h$.
-					- Note that $\frac {\partial E}{\partial m}=0$ when $m=0$.
-				- $\chi$ could be obtained by $m=h\cdot \chi$.
-				  collapsed:: true
-					- $\chi=\left(\frac{\partial^2 E}{\partial m^2}\right)^{-1}$
-			- With external field, $N_{\uparrow } \neq N_{\downarrow } ,\ \ N_{\uparrow } +N_{\downarrow } =N$
-			- Suppose the fermi surface shifts from the original one by $\delta_k$
-			  collapsed:: true
-				- $$M=\mu_B \cdot\left(\delta N_{\uparrow}-\delta N_\downarrow\right) \Rightarrow \delta k_F=\frac{\lambda^2 M}{\mu_B k_F^2 V}$$
-				- Take $V=1$ for simplicity.
-			- Obviously the energy shift $\delta E \sim \delta k_F^2$
-			  collapsed:: true
-				- $\delta E_1$ can be calculated like free fermions, just inserting the effective mass.
-				- $\delta E^{(2)}=\frac{1}{2 V} \Sigma f_{\sigma_1 \sigma_2}\left(k_1, k_2\right) \delta n_{k_1 \sigma_1} \delta n_{k_2 \sigma_2}$
-				  collapsed:: true
-					- Insert the expansion by Legendre polynomials, $\delta E_2=V\left(\frac{k_f^2}{2 \pi^2}\right)^2\left(\delta k_f\right)^2 \cdot 2 f_0^a=\frac{f_0^a}{\mu_B^2} \frac{M^2}{2 V}$
-					- $\mu_B$ is the Bohr magneton, the magnetic moment of a single electron.
-				-
-	- Fermi surface nesting
-	  collapsed:: true
-		- Large segments of a Fermi surface that can be connected to another large segment of another Fermi surface via the reciprocal lattice vector.
-		- ![](https://pica.zhimg.com/80/v2-3f777e9aeff5c939327564d80d4b7b4b_720w.webp?source=1940ef5c)
-		-
-	-
-- # Green Function, Correlation and Dissipation
-  collapsed:: true
-	- Definitions
-	  collapsed:: true
-		- [[Green Function]] #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-06T18:04:27.576Z
-		  card-last-reviewed:: 2023-05-06T12:04:27.577Z
-		  card-last-score:: 5
-		  collapsed:: true
-			- ((640be051-94a7-40d3-bcc0-581ee03f5cdb)) $G_\sigma\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right):=-\mathrm{i} T\left\langle\psi_\sigma(\mathbf{r}, t) \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\rangle$
-			  collapsed:: true
-				- T is the time ordering, where 
-				  $$
-				  T\left(a\left(t_1\right) b\left(t_2\right)\right)= \begin{cases}a\left(t_1\right) b\left(t_2\right), & t_1>t_2, \\ (-1)^P b\left(t_2\right) a\left(t_1\right), & t_2>t_1,\end{cases}
-				  $$
-				- Don't forget the minus for fermions!
-			- Retarded
-			  collapsed:: true
-				- $$G_\sigma^{\mathrm{R}}\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right) :=-\mathrm{i} \theta\left(t-t^{\prime}\right)\left\langle\left\{\psi_\sigma(\mathbf{r}, t), \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\}\right\rangle=-\frac{i}{\hbar} \theta(t)\left\langle\left\{c_k(t), \hat{c}_k^{\dagger}(0)\right\}\right\rangle$$
-				- $\chi_{B A}^{ret}\left(t, t^{\prime}\right)=\frac{i}{\hbar} \theta\left(t, t^{\prime}\right)\left\langle\left[\hat{B}(t), \hat{A}\left(t^{\prime}\right)\right]\right\rangle$
-				  collapsed:: true
-					- This follows ((6410762b-de4a-479c-961f-baa5532f6a5d)).
-				- Only retarded (from the earlier time $t'$ to the later time $t$) part.
-			- Advanced
-			  collapsed:: true
-				- $G_\sigma^{\mathrm{A}}\left(\mathbf{r}, t ; \mathbf{r}^{\prime}, t^{\prime}\right)=\mathrm{i} \theta\left(t^{\prime}-t\right)\left\langle\left\{\psi_\sigma(\mathbf{r}, t), \psi_\sigma^{\dagger}\left(\mathbf{r}^{\prime}, t^{\prime}\right)\right\}\right\rangle$
-				- Only advanced (from the later time $t'$ to the earlier time $t$) part.
-		- Correlation function
-		- Spectral function
-		  collapsed:: true
-			- ((640be0e1-63f2-426b-96be-b5b698e93cdb)) $A(k, \omega):=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle$
-			  collapsed:: true
-				- Quite analogous to the ((6401b89c-e517-4e8f-ad4e-f98d5b166921))
-		-
-	- ## Relations
-	  collapsed:: true
-		- Green function and spectral function #card
-		  collapsed:: true
-			- collapsed:: true
-			  $$A(\vec{k}, \omega) :=\frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle =-\frac{1}{\pi} \operatorname{Im} G^R(k, \omega)$$
-				- Start from the definition
-				  collapsed:: true
-				  $$G^R(k,t)=-\frac{i}{\hbar} \theta(t)\left\langle\left\{c_k(t), \hat{c}_k^{\dagger}(0)\right\}\right\rangle$$
-					- Note that there is an **anti-commutator** in the retarded Green function!
-				- $A=(G^R-\overline{G^R})/(2i)$, which completes the integral to the whole real axis.
-			- collapsed:: true
-			  $$G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(k, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i \varepsilon}
-			  $$
-				- Prop. 
-				  collapsed:: true
-				  $$\begin{aligned} & \int_{-\infty}^{\infty} d \omega^{\prime} f\left(\omega^{\prime}\right)\left\{P \frac{1}{\omega^{\prime}-\omega}+i \pi \delta\left(\omega^{\prime}-\omega\right)\right\} \\ & =\int_{-\infty}^{\infty} d \omega^{\prime} f\left(\omega^{\prime}\right) \frac{1}{\omega^{\prime}-\omega-i \epsilon}\end{aligned}$$
-					- The delta function adds back the imaginary part.
-				- Invoke ((6401b89c-a4af-4f0c-b59f-d44a3c164ff6)): $\chi_1(\omega)=\frac{1}{\pi} \mathcal{P} \int_{-\infty}^{\infty} \frac{\chi_2\left(\omega^{\prime}\right)}{\omega^{\prime}-\omega} d \omega^{\prime}$
-				  collapsed:: true
-					- Note that there is an extra minus in the definition of $A$, thus the denominator of the integrand is also minused.
-				-
-		- Green function and Matsubara Green function
-		  collapsed:: true
-			- card-last-score:: 5
-			  card-repeats:: 1
-			  card-next-schedule:: 2023-05-20T14:11:52.084Z
-			  card-last-interval:: 32.57
-			  card-ease-factor:: 2.6
-			  card-last-reviewed:: 2023-04-18T01:11:52.084Z
-			  collapsed:: true
-			  $$\begin{equation*}
-			  G^R(\omega)=G_{AB}(\omega_n )=\int d\omega ^{\prime }\frac{A_{AB}\left( \omega ^{\prime }\right)}{\omega -\omega ^{\prime } +i\varepsilon } \text{ by } i\omega_n \to \omega+i\varepsilon
-			  \end{equation*}$$ #card
-				- Summary
-				  collapsed:: true
-					- Obtain the expectation by brute-force sum over the Boltzmann ensemble (spectral representation).
-				- \begin{gather*}
-				   \\
-				  \begin{aligned}
-				  G_{AB}( \omega _{n}) & =\int _{0}^{\beta } d\tau G_{AB} (\tau )e^{i\omega _{n} \tau }\\
-				   & =-\int _{0}^{\beta } d\tau \langle T\{A(\tau )B(0)\}\rangle e^{i\omega _{n} \tau }\\
-				   & =-\int _{0}^{\beta } d\tau \sum _{\alpha \beta }\frac{1}{Z} e^{-\beta E_{\alpha }}\left< \alpha \left| e^{H\tau } Ae^{-H\tau }\right| \beta \right> < \beta |B|\alpha > e^{i\omega _{n} \tau }\\
-				   & =-\frac{1}{Z}\sum_{\alpha \beta } e^{-\beta E_{\alpha }}< \alpha | A| \beta > < \beta |B|\alpha > \int _{0}^{\beta } d\tau e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \tau }\\
-				   & 
-				  \end{aligned}\\
-				  \end{gather*}
-				- On the other hand,
-				  \begin{equation*}
-				  \int _{0}^{\beta } d\tau e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \tau } =\frac{e^{( i\omega _{n} +E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }} =\frac{\eta e^{( E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }}
-				  \end{equation*}
-				  Thus
-				  \begin{equation*}
-				  G_{AB}( \omega _{n}) =-\frac{1}{Z}\sum{}_{\alpha \beta } e^{-\beta E_{\alpha }}< \alpha | A| \beta > < \beta |B|\alpha > \frac{\eta e^{( E_{\alpha } -E_{\beta }) \beta } -1}{i\omega _{n} +E_{\alpha } -E_{\beta }}
-				  \end{equation*}
-				- Comparing with
-				  \begin{equation*}
-				  \begin{aligned}
-				  A_{AB} (\omega ) & =\int _{R} dt\ e^{-i\omega t} \langle A(0)B(t)\rangle \\
-				   & =\frac{1}{Z}\sum _{\alpha \beta }\left( e^{-\beta E_{\alpha }} -\eta e^{-\beta E_{\beta }}\right) \langle\alpha |A|\beta \rangle \langle \beta |B|\alpha \rangle \delta ( \omega +E_{\alpha } -E_{\beta })
-				  \end{aligned}
-				  \end{equation*}
-				  finishes the proof.
-			-
-	- ## Examples
-	  collapsed:: true
-		- Free fermions
-		  id:: 64238eab-5b4c-48b1-ac8a-33fe14061048
-		  collapsed:: true
-			- collapsed:: true
-			  $$
-			  G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(\vec{k}, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i\epsilon}=\frac{1}{\omega-\xi_k+i\epsilon}
-			  $$ #card
-				- id:: 64113383-8089-4db4-8a8b-ebc74bfc5ab7
-				  $$
-				  \begin{aligned}
-				  A(\vec{k}, \omega) & \stackrel{\text { def }}{=} \frac{1}{2 \pi} \int d t e^{i \omega t}\left\langle\left\{c_k(t) c_k^{\dag}(0)\right\}\right\rangle \\
-				  & =\frac{1}{2 \pi} \int d t e^{i \omega t} e^{-i \xi_k t} 1=\frac{1}{2 \pi} \cdot 2 \pi \delta\left(\omega-\xi_k\right)
-				  \end{aligned}
-				  $$
-				-
-	- ## Matsubara Green Function
-	  id:: 642f7907-397a-4fd1-b504-e0060ac5a8be
-	  collapsed:: true
-		- Idea
-		  collapsed:: true
-			- Introduce an imaginary time to make things easier.
-			- Go back to real time by analytical continuation.
-		- Def #card
-		  collapsed:: true
-			- $$
-			  G_{A B}\left(\tau_1, \tau_2\right):=-\frac{1}{\hbar}\left\langle T\left\{A\left(\tau_1\right) B\left(\tau_2\right)\right\}\right\rangle
-			  $$
-			  where $\tau=it$
-		- Prop. $G_{AB} (\tau )=\eta G_{AB} (\tau +\beta )$ #card
-		  collapsed:: true
-			- \begin{equation*}
-			  \begin{aligned}
-			  G_{AB} (\tau ) & =-\operatorname{Tr}\left\{\frac{1}{z} e^{-\beta H} e^{H\tau } Ae^{-H\tau } B\right\}\\
-			  G_{AB} (\tau +\beta ) & =-\operatorname{Tr}\left\{\frac{1}{z} e^{-\beta H} e^{(\tau +\beta ) H} Ae^{-(\beta +\tau )H} B\right\}\\
-			   & =-\operatorname{Tr}\left\{\frac{1}{z} e^{\tau H} Ae^{-\tau H} \cdot e^{-\beta H} B\right\}\\
-			   & =-\operatorname{Tr}\left\{\frac{1}{z} e^{-\beta H} \cdot B\cdot e^{\tau H} Ae^{-\tau H}\right\}
-			  \end{aligned}
-			  \end{equation*}
-			- Exchange $B$ and $e^{\tau H} Ae^{-\tau H}$ leads to a factor of $\eta$ (1 for bosons, -1 for fermions)
-			-
-			- The function is periodical, therefore:
-			  collapsed:: true
-				- Boson. 
-				  \begin{equation*}
-				  G_{AB}( \omega _{n}) =\int _{0}^{\beta } d\tau G_{AB} (\tau )e^{i\omega _{n} \tau } ,\omega _{n} =\frac{2\pi }{\beta } n
-				  \end{equation*}
-				- Fermion.
-				  \begin{equation*}
-				  G_{AB}( \omega _{n}) =\int _{0}^{\beta } d\tau G_{AB} (\tau )e^{i\omega _{n} \tau } ,\omega _{n} =\frac{\pi }{\beta } \cdot ( 2n+1)
-				  \end{equation*}
-		- Analytical continuation
-		  collapsed:: true
-			- Idea
-			  collapsed:: true
-				- $$G_{AB}( \omega _{n})\rightarrow G_{AB}^{\text{Ret}} (\omega )\ \ \text{ by } i\omega _{n}\rightarrow \omega +i\varepsilon$$
-		- Example. Calculate the particle-number correlation
-		  collapsed:: true
-			-
 - # Linear Response
   collapsed:: true
 	- Defs and Setup
 	  collapsed:: true
 		- Linear response function $\chi(t,t')$ #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-29T02:59:33.860Z
+		  card-last-reviewed:: 2023-05-30T02:59:33.861Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- $\hat H=\hat H_0-h(t)\hat A$
 			- $\langle\hat{B}\rangle(t)=y(t)$ satisfies $y(t)=\int_{-\infty}^t d t^{\prime} \chi\left(t, t^{\prime}\right) h\left(t^{\prime}\right)$
@@ -462,15 +147,16 @@ type:: [[Course]]
 				-
 		- Conclusion
 		  collapsed:: true
-			- The kernel is $\chi(t,t')= \frac{i}{\hbar}\left\langle\left[\hat{B}_I(t), \hat{A}_I\left(t^{\prime}\right)\right]\right\rangle_{\rho_0}$ #card
+			- The response function is 
+			  card-last-score:: 5
+			  card-repeats:: 2
+			  card-next-schedule:: 2023-06-30T18:35:26.189Z
+			  card-last-interval:: 31.26
 			  id:: 6410762b-de4a-479c-961f-baa5532f6a5d
-			  card-last-interval:: -1
-			  card-repeats:: 1
-			  card-ease-factor:: 2.5
-			  card-next-schedule:: 2023-05-21T16:00:00.000Z
-			  card-last-reviewed:: 2023-05-21T00:54:57.551Z
-			  card-last-score:: 1
+			  card-ease-factor:: 2.6
+			  card-last-reviewed:: 2023-05-30T12:35:26.189Z
 			  collapsed:: true
+			  $$\chi(t,t')= \frac{i}{\hbar}\left\langle\left[\hat{B}_I(t), \hat{A}_I\left(t^{\prime}\right)\right]\right\rangle_{\rho_0}$$ #card
 				- Interaction picture to separate $H_0$ and $A$
 				- Key idea: Slow-varying approximation
 				  collapsed:: true
@@ -491,23 +177,29 @@ type:: [[Course]]
 		  collapsed:: true
 			- For an external charge it is $\operatorname{V_{ext}}(\vec{r})=-e \frac{Q}{r}$
 		- $\delta n(\vec{r}):=n(\vec{r})-n_0(\vec{r})$
-	- RPA Approximation #card
-	  id:: 64118d95-90c5-42ef-afcf-2df672505b13
+	- Random Phase Approximation (RPA) #card
+	  card-last-score:: 5
+	  card-repeats:: 2
+	  card-next-schedule:: 2023-06-29T11:59:54.142Z
 	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-05-13T11:33:24.775Z
-	  card-last-reviewed:: 2023-04-13T11:33:24.775Z
-	  card-last-score:: 3
+	  id:: 64118d95-90c5-42ef-afcf-2df672505b13
+	  card-ease-factor:: 2.46
+	  card-last-reviewed:: 2023-05-30T11:59:54.142Z
 	  collapsed:: true
 		- 1. The behavior is similar to free fermi gas
 		  2. The effect on number density is local
 	- ## Static
 	  collapsed:: true
 		- The final result is 
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-29T11:56:22.061Z
+		  card-last-reviewed:: 2023-05-30T11:56:22.062Z
+		  card-last-score:: 5
 		  collapsed:: true
 		  $$
-		  \tilde{V}_{\text {eff }}(\vec{k})=-\frac{4 \pi Q e}{k^2+4 \pi \varepsilon^2 N_0}
+		  \tilde{V}_{\text {eff }}(\vec{k})=-\frac{4 \pi Q e}{k^2+4 \pi e^2 N_0}
 		  $$ #card
 			- Use ((64118d95-90c5-42ef-afcf-2df672505b13)),
 			  $$
@@ -517,28 +209,154 @@ type:: [[Course]]
 			  collapsed:: true
 			  $$\begin{aligned}
 			  \delta n(r ) & =\frac{\partial n}{\partial V_{\text{eff }} (r)}\operatorname{V_{eff}} (r)=-\frac{\partial n}{\partial \mu } V_{\text{eff}} (r)\\
-			   & =-N(0)\operatorname{Veff} (r)
+			   & =-N_0 V_{\text{eff}} (r)
 			  \end{aligned}$$
-				- N0 is the number density at the fermi surface
-			- Plug in $-\Delta \phi=4 \pi[Q \delta(\vec{r})-e \cdot \delta n(\vec{r})]$ and Fourier transformation we could obtain the desired result.
+				- $N_0$ is the number density at the fermi surface
+			- Plug in $-\Delta \phi=4 \pi[Q \delta(\vec{r})-e \cdot \delta n(\vec{r})]$ and perform Fourier transformation, we could obtain the desired result,
 			-
 			- Exercise. Obtain the Yukawa potential from the result.
 	- ## Dynamic
 	  collapsed:: true
 		- Setup
 		  collapsed:: true
-			- $$
-			  \hat{H}=\hat{H}_0+\hat{H}^{\prime} . \quad \hat{H}^{\prime}=\int d \vec{r} \hat{n}(\vec{r}, t) \cdot V_{\text {ext }}(\vec{r}, t)
+			- collapsed:: true
 			  $$
-			- $$\langle \delta \hat{n} (r,t)\rangle =\int _{-\infty }^{t} dt^{\prime } \chi ^{\text{ret }}\left( r-r',t-t^{\prime }\right) V_{\text{ext }} (r' ,t)$$
+			  \hat{H}=\hat{H}_0+\hat{H}^{\prime} . \quad \hat{H}^{\prime}=\int d \vec{r} \ \hat{n}(\vec{r}, t) \cdot V_{\text {ext }}(\vec{r}, t)
+			  $$
+				- $\hat n$ is the number density, not a unit vector.
+			- $$\langle \delta \hat{n} (r,t)\rangle =\int _{-\infty }^{t} dt^{\prime } \chi ^{\text{ret }}\left( r-r',t-t^{\prime }\right) V_{\text{ext }} (r' ,t')$$
 		- Prop. 
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-30T18:18:39.031Z
+		  card-last-reviewed:: 2023-05-30T12:18:39.032Z
+		  card-last-score:: 5
 		  collapsed:: true
 		  $$
 		  \langle \delta \hat{n} (\vec{k} ,\omega )\rangle =\chi_{0}^{\text{ret }} (\vec{k} ,\omega )V_{\text{ext }} (\vec{k} ,\omega )
 		  $$ #card
-			- 动量空间卷积变乘积
+			- Note that $\chi=0$ for $t<0$, thus it is exactly convolution.
+			  collapsed:: true
+				- ((6475b336-a3fd-41da-9367-98fabdf02e78))
+			- It's just routine calculation to verify this result.
+		- Solve consistency equations
+		  collapsed:: true
+			- Consistency equations:
+			  $$\begin{align*}
+			  \langle \delta \hat{n} (\vec{k} ,\omega )\rangle  & =\chi _{0}^{\text{ret }} (\vec{k} ,\omega )V_{\text{ext }} (\vec{k} ,\omega )\\
+			  -\Delta \phi  & =-4\pi e\cdot \delta n
+			  \end{align*}$$
+			- Perform Fourier transformation:
+			  $$\begin{aligned}
+			  k^{2}\left[\tilde{V}_{\text{ext }} (k)+\delta \tilde{V} (k)\right] & =4\pi e^{2} \cdot \delta \tilde{n} (k,\omega )\\
+			   & =4\pi e^{2} [\tilde{\chi } (k,\omega )]^{-1}\tilde{V}_{\text{ext }} (k,\omega )
+			  \end{aligned}$$
+			- On the other hand,
+			  $$\begin{aligned}
+			  \langle \delta _{n} (\vec{k} ,\omega )\rangle  & =\chi ^{0} (k,\omega )V_{\text{eff }} (k,\omega )
+			  \end{aligned}$$
+			- Comparing the above formulae, we obtain the final result:
+			  $$\begin{aligned}
+			  \left( \chi ^{0}\right)^{-1} & =\chi ^{-1} +\frac{4\pi e^{2}}{k^{2}}
+			  \end{aligned}$$
 		-
-		-
+	- ## Solve for the Response
+	  collapsed:: true
+		- Calculate the ((642f7907-397a-4fd1-b504-e0060ac5a8be))
+		  collapsed:: true
+			- Result:
+			  $$
+			  \chi^0_{n n}({q}, \omega)=2 \sum_k\left[\frac{f\left(\xi_k\right)-f\left(\xi_{k+q}\right)}{\omega+\xi_k-\xi_{k+q}+i \varepsilon}\right]
+			  $$
+			- $$\begin{align*}
+			  \chi ^{0}{}_{nn}( r-r',\tau -\tau ') & :=-T< \delta \hat{n}( r,\tau ) \delta \hat{n}( r',\tau ')> \\
+			  \text{Plug in} \ \delta n=n-< n>  & =-T< \hat{n}( r,\tau )\hat{n}( r',\tau ')> +T< \hat{n}( r,\tau )> < \hat{n}( r',\tau ')> \\
+			  \text{Expand by field operators} & =\sum _{\sigma _{1} \sigma _{2}} -T\left\{\left< \psi _{\sigma _{1}}^{\dagger } (r,\tau )\psi _{\sigma _{1}} (r,\tau )\psi _{\sigma _{2}}^{\dagger } (r',\tau ')\psi _{\sigma _{2}} (r',\tau ')\right> \right\}\\
+			   & +T\left\{\left< \psi _{\sigma _{1}}^{\dagger } (r,\tau )\psi _{\sigma _{1}} (r,\tau )\right> \left< \psi _{\sigma _{2}}^{\dagger } (r',\tau ')\psi _{\sigma _{2}} (r',\tau ')\right> \right\}
+			  \end{align*}$$
+			- Note that the first term has two contractions, but the first contraction cancels with the second term, thus we obtain
+			  $$\begin{aligned}
+			  \chi ^{0}{}_{nn}( r-r',\tau -\tau ') & =-\sum _{\sigma _{1} \sigma _{2}}( -1) T\left\{\left< \psi _{\sigma _{1}}^{\dagger } (r,\tau )\psi _{\sigma _{2}} (r',\tau ')\right> \left< \psi _{\sigma _{2}}^{\dagger } (r',\tau ')\psi _{\sigma _{1}} (r,\tau )\right> \right\}\\
+			   & =\sum _{\sigma } G_{\sigma }^{R}( r-r',\tau -\tau ') G_{\sigma }^{R}( r'-r,\tau '-\tau )
+			  \end{aligned}$$
+			- Perform Fourier transformation: Note that the product of two functions becomes a convolution.
+			  collapsed:: true
+				- $$\begin{aligned}
+				  \chi ^{0}{}_{nn}( q,\omega _{n}) & =\sum _{\sigma }\sum _{k}\frac{1}{\beta }\sum _{v_{n}} G_{\sigma }( q,v_{n}) G_{\sigma }( k+q,\omega _{n} +v_{n})\\
+				  \omega _{n} & =\frac{2\pi n}{\beta } ,\quad v_{n} =\frac{\pi }{\beta } (2n+1)
+				  \end{aligned}$$
+			- For free fermions,
+			  $$
+			  G^R(\vec{k}, \omega)=\int d \omega^{\prime} \frac{A\left(\vec{k}, \omega^{\prime}\right)}{\omega-\omega^{\prime}+i\epsilon}=\frac{1}{\omega-\xi_k+i\epsilon}
+			  $$
+			- Plug into the expression of $\chi^0$ and perform analytical continuation:
+			  collapsed:: true
+			  $$\begin{aligned}
+			  \chi ^{0}{}_{nn}( q,i\omega _{n}) & =2\sum _{k}\frac{1}{\beta }\sum _{v_{n}}\frac{1}{iv_{n} -\xi _{k}}\frac{1}{i\omega _{n} +iv_{n} -\xi _{k+q}}\\
+			   & =2\sum _{k} (-1)\oint _{c}\frac{dz}{2\lambda i} f(z)\frac{1}{z-\xi _{k}}\frac{1}{z+i\omega _{n} -\xi _{k+q}}
+			  \end{aligned}$$
+				- Here a traditional trick is in effect:
+				- First, express the summation by a contour integration.
+				  collapsed:: true
+					- Consider the fermionic weight function, 
+					  $$f(E)=\frac 1 {e^{\beta E}+1}$$.
+					- The poles are $z=i\frac \pi \beta (2n+1)$ and each pole has a residue $-\frac 1 \beta$.
+					- Therefore
+					  $$\frac 1 \beta \sum_{\nu_n} F(i \nu_n)=\oint f(z)F(z)$$
+				- Second, the contour can be deformed to simplify the integration to the residue over two poles.
+				  collapsed:: true
+					- ![Image(1).png](../assets/Image(1)_1685437460588_0.png)
+					- The outer contour gives zero since the integrand decays $\sim z^{-2}$.
+			- Therefore
+			  collapsed:: true
+			  $$\begin{aligned}
+			  \chi ^{0}{}_{nn}( q,i\omega _{n}) & =2\sum _{k}\left[\frac{f( \xi _{k})}{\xi _{k} +i\omega _{n} -\xi _{k+q}} +\frac{f( \xi _{k+q} -i\omega _{n})}{\xi _{k+q} -i\omega _{n} -\xi _{k}}\right]\\
+			   & =2\sum _{k}\left[\frac{f( \xi _{k})}{\xi _{k} +i\omega _{n} -\xi _{k+q}} +\frac{f( \xi _{k+q})}{\xi _{k+q} -i\omega _{n} -\xi _{k}}\right]
+			  \end{aligned}$$
+				- Note that $\omega_n=\frac {2\pi}\beta n$, therefore $i\omega_n$ could be disposed.
+			-
+			- To obtain the correct correlation function, we just replace $i\omega_n$ by $\omega+i\varepsilon$!
+		- Two Limits
+		  collapsed:: true
+			- Static limit
+			  collapsed:: true
+			  $$\omega=0, q \to 0$$
+				- Plug into
+				  collapsed:: true
+				  $$
+				  \chi^0_{n n}({q}, \omega)=2 \sum_k\left[\frac{f\left(\xi_k\right)-f\left(\xi_{k+q}\right)}{\omega+\xi_k-\xi_{k+q}+i \varepsilon}\right]
+				  $$
+					- \begin{align*}
+					  \chi _{nn}^{0} (q,\omega ) & =2\sum _{k}\left[\frac{f( \xi _{k}) -f( \xi _{k+q})}{\omega +\xi _{k} -\xi _{k+q} +i\varepsilon }\right]\\
+					   & =2\sum _{k}\frac{df( \xi )}{d\xi }\\
+					   & =-2\sum _{k}\frac{df( \xi )}{d\mu } =N_{0}
+					  \end{align*}
+				- Therefore we can obtain
+				  $$\chi _{nn}^{ret} (q\rightarrow 0,\omega \rightarrow 0)=-\frac{N_{0}}{1+\frac{4\pi e^{2}}{q^{2}} N_{0}}$$
+				- Compare $\chi^{ret}$ and $\chi^0$, we can obtain the relation between $V_{ext}$ and $V_{eff}$, i.e. the dielectric coefficient.
+			- High-frequency limit
+			  collapsed:: true
+			  $$\omega \to \infty$$
+				- Expand the expression into powers of $1/ \omega$:
+				  $$
+				  \chi_{nn}^{0, \text { ret }}(\vec{q}, \omega)=2 \sum_k \frac{f\left(\xi_k\right)-f\left(\xi_{k+q}\right)}{\omega+\xi_k-\xi_{k+q}} \Rightarrow 2 \sum_k\left[f\left(\xi_k\right)-f\left(\xi_{k+q}\right)\right]\left[\frac{1}{\omega}-\frac{\xi_k-\xi_{k+q}}{\omega^2}+o\left(\frac{1}{\omega^2}\right)\right]
+				  $$
+				- The $1/\omega$ order contribution is zero.
+				- The $(1/\omega)^2$ order contribution is
+				  collapsed:: true
+				  $$\begin{aligned}
+				   & -\frac{2}{\omega ^{2}}\sum _{k}[ f( \xi _{k}) -f( \xi _{k+q})][ \xi _{k} -\xi _{k+q}]\\
+				  = & -\frac{2}{\omega ^{2}}\sum _{k} f( \xi _{k})( 2\xi _{k} -\xi _{k+q} -\xi _{k-q})\\
+				  = & -\frac{2}{\omega ^{2}} \cdot \left( -\frac{q^{2}}{m}\right) \cdot \frac{n}{2}\\
+				  = & \frac{n_{e} q^{2}}{m\omega ^{2}}
+				  \end{aligned}$$
+					- Note that here we take $\xi_k=\frac {k^2}{2m}$.
+				- By the second-order contribution we obtain 
+				  $$\varepsilon_k \sim 1- \frac{\omega^2}{\omega_p^2}$$
+				  which is the high-freq polarzation behavior.
+				- At $\omega=\omega_p$ the Green function has a pole, which indicates the existence of some quasiparticle (plasmon)!
+	-
 - # Local Magnetic Moment
   collapsed:: true
 	- Summary #card
@@ -549,6 +367,7 @@ type:: [[Course]]
 	  card-last-reviewed:: 2023-05-06T12:07:45.794Z
 	  card-last-score:: 5
 	  collapsed:: true
+		- 'Local' means at the site of impurity, while the magnetic moment is displayed by symmetry breaking at the site.
 		- Single-impurity Anderson Model
 		  $$H= \sum_{k \sigma} E_k c^\dag_{k \sigma} c_{k \sigma} + \sum_\sigma E_d c^\dag_{d \sigma} c_{d \sigma} + \sum_{k \sigma}\left(V_{k d} c_{k \sigma}^{\dag} c_{d \sigma}+(c.c.)\right)+U n_{d \uparrow} n_{d \downarrow} .$$
 		- Mean-field approximation
@@ -560,7 +379,7 @@ type:: [[Course]]
 		- collapsed:: true
 		  $$H= \sum_{k \sigma} E_k c^\dag_{k \sigma} c_{k \sigma} + \sum_\sigma E_d c^\dag_{d \sigma} c_{d \sigma} + \sum_{k \sigma}\left(V_{k d} c_{k \sigma}^{\dag} c_{d \sigma}+(c.c.)\right)+U n_{d \uparrow} n_{d \downarrow} .$$
 			- First term: Electrons moving freely in the solid. Could occupy different momenta.
-			- Second term: Localized electrons on the $d$ orbit. No summation over space or position.
+			- Second term: Localized electrons at the impurity site.
 			- Third term: Hopping between moving electrons and localized ones. We may assume $V_{kd}$ is real.
 			  collapsed:: true
 				- '轨道杂化'
@@ -572,20 +391,30 @@ type:: [[Course]]
 				- If surface above $E_d$ but below $E_d + U$, then the orbit would be occupied by a single electron, thus producing a magnetic moment.
 			- However, the interaction term would lead to hybridization (杂化) of different states
 		- Two limits of the Single-impurity model #card
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-29T03:28:09.147Z
+		  card-last-reviewed:: 2023-05-30T03:28:09.148Z
+		  card-last-score:: 5
 		  collapsed:: true
-			- Notation: $\Delta$ is the width of the energy.
+			- Notation: $\Delta$ is the 'hybridization energy', which means that the energy of the impurity site is made into a band by the hybridization terms.
 			- collapsed:: true
 			  $$
-			  U \gg \left|\epsilon_d\right| \gg \Delta
+			  U \gg \left|E_d\right| \gg \Delta
 			  $$
-				- Weak hybridization
-				- Occupation number = 1 -> Local magnetic moment
+				- Weak hybridization.
+				- Note that when $V=0$, $n_{d\uparrow}$ and $n_{d\downarrow}$ commutes with $H$, thus there is the well-defined notion of occupation numbers (i.e. the eigenstates have definite occupation numbers).
+				- The last term (Coulumb repulsion) tends to inhibit double occupation at the site of impurity -> occupation number = 1 -> Local magnetic moment!
 			- collapsed:: true
 			  $$
-			  U \gg \Delta \gg |\epsilon_d|
+			  U \gg \Delta \gg |E_d|
 			  $$
 				- Strong hybridization. 
+				  collapsed:: true
 				  We can't talk about a well-defined local orbit; rather, the electron is mixed into the Fermi sea.
+					- In other words, the eigenstates no longer have definite occupation numbers, but strongly entangled with free electrons!
+				- Therefore the local moment tends to be washed out by hybridization.
 				-
 		-
 	- ## [[Mean-Field Approximation]]
@@ -598,7 +427,7 @@ type:: [[Course]]
 		  where $E_{d\sigma } =E_{d} +U< n_{d,-\sigma }>$.
 			- Obtained by ignoring 2nd variation
 			- The consistency relation can be obtained by solving $\langle n_{d\uparrow } \rangle$ and  $\langle n_{d\downarrow } \rangle$
-		- In principle, the bilinear form above can be diagonalized. But the brute-force calculation is quite arduous.
+		- In principle, the bilinear form above can be diagonalized by Bogoliubov transformations. But the brute-force calculation is quite arduous.
 		  collapsed:: true
 			- Note that the simplest way is $\left[ H_{\mathrm{HF}}^{\mathrm{A}} ,a_{n\sigma }^{\dagger }\right] =\epsilon _{n\sigma } a_{n\sigma }^{\dagger }$. Moreover, we don't need to calculate every single commutator; since each exchange either gives -1 or +1, we only need to examine which gives +1 and thus non-commutative. [Exercise]
 		- After diagonalization:
@@ -741,6 +570,12 @@ type:: [[Course]]
 	  id:: 64239f9f-7660-4553-ab22-80685caf6f6c
 	  collapsed:: true
 		- Effective Hamiltonian #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-30T18:35:11.391Z
+		  card-last-reviewed:: 2023-05-30T12:35:11.392Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- collapsed:: true
 			  $$\left< \alpha |H_{eff}^{( 2)} |\beta \right> =\sum _{n} \langle \alpha |W|n\rangle \langle n|W|\beta \rangle \frac{1}{2}\left(\frac{1}{E_{\alpha } -E_{n}} +\frac{1}{E_{\beta } -E_{n}}\right)$$
@@ -777,47 +612,48 @@ type:: [[Course]]
 		  P_{n} =\frac{1}{\sqrt{N}}\sum _{k} e^{ikna}\tilde{P}_{k}\\
 		  X_{n} =\frac{1}{\sqrt{N}}\sum _{k} e^{ikna}\tilde{X}_{k}
 		  \end{gather*}
-			- Comments:
-			  collapsed:: true
-				- $P_{-k} =P_{k}^{*}$ and $X_{-k} =X_{k}^{*}$
-				- $\sum _{n} P_{n}^{2} =\sum _{k} P_{k} P_{k}^{*}$
-		- Plug into the expression of the classical Hamiltonian, we obtain
-		  \begin{gather*}
-		  \begin{aligned}
-		  \sum _{n} X_{n} X_{n+1} & =\frac{1}{N}\sum _{n}\sum _{kk'} e^{ikna} X_{k} e^{ik'(n+1)a} X_{k'}\\
-		   & =\sum _{k} \ \ e^{ika} X_{-k} X_{k}\\
-		  H & =\frac{1}{2M}\sum _{k} P_{-k} P_{k} +\frac{M\omega _{0}^{2}}{2}\left( 2\sum _{n} X_{n}^{2} -2\sum _{k} X_{n} x_{n+1}\right)\\
-		   & =\frac{1}{2M}\sum _{k} P_{-k} P_{k} +\frac{M\omega _{0}^{2}}{2}\sum _{k} X_{-k} X_{k}\left[ 2-\left( e^{ika} +e^{-ika}\right)\right]\\
-		   & =\frac{1}{2M}\sum _{k} P_{-k} P_{k} +\frac{M\omega _{0}^{2}}{2}\sum _{k} \omega _{k}^{2} X_{-k} X_{k}
-		  \end{aligned}\\
-		  \omega _{k}^{2} =2\omega _{0}^{2}( 1-\cos ka)\overset{k\ll 1}{=} \omega _{0}^{2} k^{2} a^{2}
-		  \end{gather*}
+			- $P_{-k} =P_{k}^{*}$ and $X_{-k} =X_{k}^{*}$
+			- $\sum _{n} P_{n}^{2} =\sum _{k} P_{k} P_{k}^{*}$
+		- Plug into the expression of the classical Hamiltonian:
+		  collapsed:: true
+			- \begin{gather*}
+			  \begin{aligned}
+			  \sum _{n} X_{n} X_{n+1} & =\frac{1}{N}\sum _{n}\sum _{kk'} e^{ikna} X_{k} e^{ik'(n+1)a} X_{k'}\\
+			   & =\sum _{k} \ \ e^{ika} X_{-k} X_{k}\\
+			  H & =\frac{1}{2M}\sum _{k} P_{-k} P_{k} +\frac{M\omega _{0}^{2}}{2}\left( 2\sum _{n} X_{n}^{2} -2\sum _{k} X_{n} x_{n+1}\right)\\
+			   & =\frac{1}{2M}\sum _{k} P_{-k} P_{k} +\frac{M\omega _{0}^{2}}{2}\sum _{k} X_{-k} X_{k}\left[ 2-\left( e^{ika} +e^{-ika}\right)\right]\\
+			   & =\frac{1}{2M}\sum _{k} P_{-k} P_{k} +\frac{M\omega _{0}^{2}}{2}\sum _{k} \omega _{k}^{2} X_{-k} X_{k}
+			  \end{aligned}\\
+			  \omega _{k}^{2} =2\omega _{0}^{2}( 1-\cos ka)\overset{k\ll 1}{=} \omega _{0}^{2} k^{2} a^{2}
+			  \end{gather*}
 		- Obviously it is a sum of lots of oscillators, so we use second quantization.
-		  \begin{equation*}
-		  \begin{aligned}
-		  [\hat{P}_{n} ,\hat{X}_{m}] & =-i\delta _{nm} .\\
-		  [\hat{P}_{k} ,\hat{X}_{k^{\prime }}] & =\frac{1}{N}\sum _{nm}[\hat{P}_{n} ,\hat{X}_{m}] e^{-ikna} e^{-ik^{\prime } ma}\\
-		   & =\frac{1}{N} (-i)\sum _{nm} \delta _{nm} e^{-ikna} e^{-ik^{\prime } ma}\\
-		   & =-i\frac{1}{N}\sum _{n} e^{i\left( k+k^{\prime }\right) na}\\
-		   & =-i\delta _{k+k^{\prime } ,0}\\
-		  [\hat{P}_{k} ,\hat{X}_{-k^{\prime }}] & =-i\delta _{kk^{\prime }}
-		  \end{aligned}
-		  \end{equation*}
+		  collapsed:: true
+			- \begin{equation*}
+			  \begin{aligned}
+			  [\hat{P}_{n} ,\hat{X}_{m}] & =-i\delta _{nm} .\\
+			  [\hat{P}_{k} ,\hat{X}_{k^{\prime }}] & =\frac{1}{N}\sum _{nm}[\hat{P}_{n} ,\hat{X}_{m}] e^{-ikna} e^{-ik^{\prime } ma}\\
+			   & =\frac{1}{N} (-i)\sum _{nm} \delta _{nm} e^{-ikna} e^{-ik^{\prime } ma}\\
+			   & =-i\frac{1}{N}\sum _{n} e^{i\left( k+k^{\prime }\right) na}\\
+			   & =-i\delta _{k+k^{\prime } ,0}\\
+			  [\hat{P}_{k} ,\hat{X}_{-k^{\prime }}] & =-i\delta _{kk^{\prime }}
+			  \end{aligned}
+			  \end{equation*}
 		- Now we should write the creation and annihilation operators. $\tilde{Q}_{k}$ and $\tilde{X}_{k}$ are normalized operators, whose coefficient can be determined from the Hamiltonian.
-		  \begin{gather*}
-		  \tilde{P}_{k} =\frac{1}{\sqrt{2M\omega _{k}}} P_{k} ;\ \ \tilde{Q}_{k} =\sqrt{\frac{M\omega _{k}}{2}} Q_{k}\\
-		  b_{k} =\tilde{Q}_{k} +i\tilde{P}_{k}\\
-		  \begin{aligned}
-		  \hat{H} =\sum _{k}\hat{H}_{k} & =\sum _{k}\frac{1}{2} \omega _{k}\left( b_{k}^{\dagger } b_{k} +b_{-k}^{\dagger } b_{-k} +1\right)\\
-		   & =\sum _{k} \omega _{k}\left( b_{k}^{\dagger } b_{k} +\frac{1}{2}\right) .
-		  \end{aligned}
-		  \end{gather*}
+		  collapsed:: true
+			- \begin{gather*}
+			  \tilde{P}_{k} =\frac{1}{\sqrt{2M\omega _{k}}} P_{k} ;\ \ \tilde{Q}_{k} =\sqrt{\frac{M\omega _{k}}{2}} Q_{k}\\
+			  b_{k} =\tilde{Q}_{k} +i\tilde{P}_{k}\\
+			  \begin{aligned}
+			  \hat{H} =\sum _{k}\hat{H}_{k} & =\sum _{k}\frac{1}{2} \omega _{k}\left( b_{k}^{\dagger } b_{k} +b_{-k}^{\dagger } b_{-k} +1\right)\\
+			   & =\sum _{k} \omega _{k}\left( b_{k}^{\dagger } b_{k} +\frac{1}{2}\right) .
+			  \end{aligned}
+			  \end{gather*}
 		- Note that this is a bit different from conventional oscillators (eg. $[\hat{P}_{k} ,\hat{X}_{-k^{\prime }}] =-i\delta _{kk^{\prime }}$, $k$ pairs with $-k$), though the final result is similar.
 		- Also we may express $X$ and $P$ by creation and annihilation operators:
 		  \begin{equation*}
 		  \begin{aligned}
-		  \hat{X}_{n} & =\sum _{k}\sqrt{\frac{2}{MN\omega _{k}}} e^{ikna}\frac{1}{2}\left( b_{k} +b_{-k}^{+}\right)\\
-		   & =\sum _{k}\frac{1}{\sqrt{2MN\omega _{k}}}\left( b_{k} +b_{-k}^{+}\right) e^{ikna}\\
+		  \hat{X}_{n} & =\sum _{k}\sqrt{\frac{2}{MN\omega _{k}}} e^{ikna}\frac{1}{2}\left( b_{k} +b_{-k}^{\dagger}\right)\\
+		   & =\sum _{k}\frac{1}{\sqrt{2MN\omega _{k}}}\left( b_{k} +b_{-k}^{\dagger}\right) e^{ikna}\\
 		   & 
 		  \end{aligned}
 		  \end{equation*}
@@ -825,7 +661,7 @@ type:: [[Course]]
 	  collapsed:: true
 		- Summary
 		  collapsed:: true
-			- Expand the interaction to second order (the first order vanishes at equilibrium).
+			- Expand the interaction to second order (the first order vanishes at equilibrium), which leads to an expression of 3D oscillators.
 			  The bilinear form would lead to a similar result to the oscillator chain.
 		- Classical Hamiltonian:
 		  \begin{equation*}
@@ -853,15 +689,30 @@ type:: [[Course]]
 	  collapsed:: true
 		- Summary #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-30T18:31:00.290Z
+		  card-last-reviewed:: 2023-05-30T12:31:00.291Z
+		  card-last-score:: 5
 			- First write down the classical Hamiltonian
 			  \begin{equation*}
-			  H_{ei} =\sum{}_{ij} V_{ei}(\vec{r}_{j} -\vec{R}_{i}) 
+			  H_{ei} =\sum_{ij} V_{ei}(\vec{r}_{j} -\vec{R}_{i}) 
 			  \end{equation*}
 			- Expand the interaction to first order of $\vec R_i$ and perform Fourier transformation (since translation invariance is manifest).
-			- Perform quantization and obtain the scattering vertex
+			- Perform quantization and obtain the scattering vertex.
+			  collapsed:: true
+				- The quantization to phonons is expressing $\vec R_i$ by creation and annihilation operators.
+				- The quantization of electrons is in the step ((6454f1b7-7eee-4f3f-93f4-f464b79f8116)), where the (classical) exponential is expressed by fermionic operators.
+			- Result:
+			  $$\begin{equation*}
+			  \begin{aligned}
+			  H_{ei} & =V^{0} +\frac{1}{N}\sum _{k}\sum _{L}\sum _{q\lambda } M_{qL\lambda } c_{k+q+L}^{\dagger } c_{k}\left( b_{q\lambda } +b_{-q\lambda }^{\dagger }\right)
+			  \end{aligned}
+			  \end{equation*}$$
 		- collapsed:: true
 		  \begin{equation*}
-		  H_{ei} =\sum{}_{ij} V_{ei}(\vec{r}_{j} -\vec{R}_{i}) 
+		  H_{ei} =\sum_{ij} V_{ei}(\vec{r}_{j} -\vec{R}_{i}) 
 		  \end{equation*}
 			- Note that 'ei' stands for 'electron-ion'.
 		- However, we perform 2nd quantization to electrons while only 1st quantization to nuclei (since they're localized and distinguishable)
@@ -870,7 +721,7 @@ type:: [[Course]]
 			  \vec{R}_{i} =\vec{R}_{i}^{0} +\vec{Q}_{i} =\vec{R}_{i}^{0} +\sum _{k\lambda }\frac{1}{\sqrt{2MN\omega _{k\lambda }}}\left( b_{k\lambda } +b_{-k\lambda }^{+}\right)\hat{\lambda }_{k} e^{i\vec{k} \cdot \vec{R}_{i}^{0}}\\
 			  \begin{aligned}
 			  H_{ei} & =\sum _{ij} V_{ei}\left(\vec{r}_{j} -\vec{R}_{i}^{0}\right) -\sum _{ij}\frac{\partial V_{ei}}{\partial \vec{r}_{j}}\vec{Q}_{i}\\
-			   & =\sum _{is} V_{ei}\left(\vec{r}_{j} -\vec{R}_{i}^{0}\right) -\sum _{ij} \nabla _{j} V_{ei}\overrightarrow{Q_{i}}
+			   & =\sum _{ij} V_{ei}\left(\vec{r}_{j} -\vec{R}_{i}^{0}\right) -\sum _{ij} \nabla _{j} V_{ei}\overrightarrow{Q_{i}}
 			  \end{aligned}
 			  \end{gather*}
 		- Perform a Fourier transformation to the lattice:
@@ -902,6 +753,7 @@ type:: [[Course]]
 			  \end{aligned}
 			  \end{equation*}
 		- Next we shall consider the summation over $j$.
+		  id:: 6454f1b7-7eee-4f3f-93f4-f464b79f8116
 		  collapsed:: true
 			- Trick. 
 			  \begin{gather*}
@@ -979,105 +831,18 @@ type:: [[Course]]
 		   & \left(\frac{1}{\epsilon _{k} -\epsilon _{k+q} -\omega _{q}} +\frac{1}{\epsilon _{k+q} -\epsilon _{k} -\omega _{q}}\right)\\
 		   & =\frac{1}{N}\sum _{kk^{\prime } q}| M_{q}| ^{2}\frac{-\omega _{q}}{\omega _{q}^{2} -( \epsilon _{k} -\epsilon _{k+q})^{2}} c_{k'+q}^{\dagger } c_{k^{\prime } -q}^{\dagger } c_{k^{\prime }} c_{k}
 		  \end{aligned}$$
--
-- # [[Localization]]
-  collapsed:: true
-	- Summary
-	  collapsed:: true
-		- Two limits to be examined frequently: metallic and localized.
-	- ## Model and Picture
-	  collapsed:: true
-		- Model: ((64238eab-5e73-4970-9129-9cbcc7e974fb)) with impurities
-		  collapsed:: true
-			- Two limits
-		- Self-averaging Assumption
-	- ## Weak Localization
-	  collapsed:: true
-		- What's weak localization?
-		  collapsed:: true
-			- Low density of disorder
-		- Characteristic scale
-		  collapsed:: true
-			- Def
-			- $\gamma \ll 1$: The classical limits holds!
-		- To show that something uncommon is present, we calculate the first-order quantum correction to the conductance and obtain an unphysical result.
-		  collapsed:: true
-			- Compare classical and quantum transition probability
-			  collapsed:: true
-				- Classical: Sum up probabilities.
-				  $$P_{a \to b}=\sum_i P^i_{a \to b}$$
-				- Quantum: Sum up amplitudes.
-				  $$P_{a \to b}=|\sum_i A_i|^2$$
-				- #+BEGIN_NOTE
-				  Usually the cross-terms cancel and the quantum picture goes back to the classical picture.
-				  However, the cross terms sometimes play a huge role, which we're interested in here.
-				  #+END_NOTE
-			- Situation with large quantum corrections
-			  collapsed:: true
-				- The particle traces a loop in the space of states, i.e. the probability is $P_{a \to a}$
-				  collapsed:: true
-					- The point is that the path can be **reversed**, then TRS comes into play.
-				- The system has time-reversal symmetry
-				- Here the quantum probability 
-				  $$|A_i+A_{\bar i}|=4|A_i|^2=4P_i$$
-				  which is significantly different from the classical one.
-			- *Detailed calculation is omitted here. Could refer to Philip Phillips or the handwritten notes.
-			- ### Conclusion
-			  collapsed:: true
-				- The perturbative calculation of the conductance **diverges** when $T \to 0$ and $d=1,2$, which is a hint of localization.
-	- ## Thouless Number and [[RG]]
-	  collapsed:: true
-		- Thouless Number
-		  collapsed:: true
-			- Def. 
-			  collapsed:: true
-			  $$g(L):=\frac{2\hbar}{e^2} G(L) \equiv \frac{2\hbar}{e^2} \frac 1 R$$
-				- Intuitively, a dimensionless 'conductance'!
-				- Generally we want a quantity independent of the system size (like $\sigma$).
-				  But here $g(L)$, depending on the size $L$, turns out to be more convenient in RG, which concerns **how the properties change with the system size**.
-			- It can be related to a microscopic definition $\frac{\Delta E}{dE/dN}$, which can be argued from the limits of metals and localized states.
-		- RG method #card
-		  collapsed:: true
-			- *Reminder card. No need to recall the details; just appreciate the thought.*
-			- Quantity to be concerned:
-			  collapsed:: true
-			  $$\beta(\ln g):=\lim_{L \to \infty} \frac {d \ln g(L)}{d \ln L}$$
-				- This is the **relevance** of $g(L)$.
-				  If $\beta > 1$ the system would flow to a conductor (metal-like); if $\beta < 1$ it flows to an insulator (localization-like)
-			- Two limits
-			  collapsed:: true
-				- Metallic
-				  collapsed:: true
-					- $\sigma \to \sigma_0$, $g(L) \sim \sigma_0 L^{d-2}$
-					- $\beta \to d-2$
-				- Localized
-				  collapsed:: true
-					- $g \sim e^{-L / \xi}$ (corresponding to the decay of the wavefunction)
-					- $\beta \sim -L/ \xi \to -\infty$
-			- Assumption
-			  collapsed:: true
-				- $\beta(\ln g)$ is monotone in $\ln g$
-				  collapsed:: true
-					- Mr. Qi gave a diagram:
-					  ![image.png](../assets/image_1682215160056_0.png){:height 274, :width 335}
-					- This is still a bit problematic for me.
-					  background-color:: red
-					  collapsed:: true
-						- $\ln g$ is a **function** of $L$, not a scalar. So is $\beta$ a functional?
-						- Then what does 'monotone' mean? We could say 'a function is monotone in a variable', but what is 'a functional is monotone in a function'?
-						- $\ln g$ in the diagram should actually mean 'the asymptotic behavior of $\ln g$, or 'how close a system is to a metal'.
-			- Conclusion
-			  collapsed:: true
-				- When $d=3$: $\beta=1$ when $\ln g \to \infty$. So there is a critical point of localization.
-				  collapsed:: true
-					- The parameter of criticality is 'how metallic it is'.
-				- When $d=1,2$: $\beta$ always smaller than zero, thus always localized?
-				  collapsed:: true
-					- Actually this is not the case; we haven't seen localization in 1D or 2D electron systems.
-					  collapsed:: true
-						- Mr. Qi said this is due to interaction and decoherence, but I'm suspicious.
-						- I think it is more likely that the behavior of $\beta$ cannot be described by a single parameter (such as $\ln g$).
-				-
-				-
-- # [[Quantum Phase Transition]]
+	-
+- # Related Topics
+	- # [[Green Function, Correlation and Dissipation]]
+	- # [[Fermi Liquid]]
+	- # [[Hatree-Fock Approximation]]
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-06-28T13:49:34.348Z
+	  card-last-reviewed:: 2023-05-29T13:49:34.349Z
+	  card-last-score:: 3
+	- # [[Superconductivity]]
+	- # [[Localization]]
+	- # [[Quantum Phase Transition]]
 -

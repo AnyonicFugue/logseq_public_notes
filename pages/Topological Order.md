@@ -288,11 +288,11 @@
 									- Move m to the wall as usual. Become X on the same side.
 									- Move e to the wall by $\sigma_z$. Become X **on the opposite side**.
 								- Move particles across the domain wall #card
-								  card-last-interval:: 24
-								  card-repeats:: 2
-								  card-ease-factor:: 2.7
-								  card-next-schedule:: 2023-03-03T00:39:27.631Z
-								  card-last-reviewed:: 2023-02-07T00:39:27.631Z
+								  card-last-interval:: 84
+								  card-repeats:: 3
+								  card-ease-factor:: 2.8
+								  card-next-schedule:: 2023-08-29T01:35:44.703Z
+								  card-last-reviewed:: 2023-06-06T01:35:44.703Z
 								  card-last-score:: 5
 									- m is easily recovered by moving back to the same side.
 									- We notice that $X$ becomes $e$ on the other side with an action of $\sigma_z^4$.

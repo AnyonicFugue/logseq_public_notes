@@ -35,7 +35,13 @@
 		  card-last-reviewed:: 2023-05-23T00:38:18.277Z
 		  card-last-score:: 5
 			- Essentially, we can use zigzag to make $f$ into its dual and move left, them use again (by the spherical structure) to move to the downside of $g$.
-			- $$\operatorname{dim}(x \oplus y)=\operatorname{dim}(x)+\operatorname{dim}(y)\\ \quad \operatorname{dim}(x \otimes y)=\operatorname{dim}(x) \cdot \operatorname{dim}(y)$$ #card
+			- card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-07-08T07:16:21.641Z
+			  card-last-reviewed:: 2023-06-07T01:16:21.641Z
+			  card-last-score:: 5
+			  $$\operatorname{dim}(x \oplus y)=\operatorname{dim}(x)+\operatorname{dim}(y)\\ \quad \operatorname{dim}(x \otimes y)=\operatorname{dim}(x) \cdot \operatorname{dim}(y)$$ #card
 				-
 				-
 			-

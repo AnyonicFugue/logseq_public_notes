@@ -3,7 +3,6 @@
 	- At $T=0$, we may change the parameter $g$ (or generally, a set of parameters $\{g_j\}$) to obtain a critical point.
 		- There may be a level-crossing / splitting at $g=g_c$.
 - # Basics
-  collapsed:: true
 	- Defs
 		- Quantum phase transition
 			- ((63940007-697b-452b-a112-4ca2a6b53d5f))
@@ -15,7 +14,6 @@
 			- ((6394286c-f118-4cc8-b890-7e38017f4459))
 				- $\xi^{-1} \sim \Lambda\left|g-g_c\right|^v$
 	- ## General analysis
-	  collapsed:: true
 		- Proposition. Inhomogeneity won't affect the universality class. #card
 		  card-last-interval:: 84
 		  card-repeats:: 3
@@ -29,7 +27,6 @@
 				- $x \rightarrow \sqrt{K_1} x, \quad \tau \rightarrow \sqrt{K_2} \tau$
 			- Q: Are there things, similar to [[Curvature]], that are unable to eliminate by coordinate transformations?
 		- Compare the values of $\Delta$ and $k_B T$
-		  collapsed:: true
 			- ((63942988-c4ea-4da9-b66c-ff2bd4b2f692))
 				- This is a diagram of crossovers, not phase transitions.
 		- We may also expand the effective action to obtain something similar to Ginzburg-Landau theory.
@@ -57,25 +54,48 @@
 		- Setting
 			- $$H=\sum _{k\alpha }( E_{k} -\mu ) c_{k\alpha }^{\dagger } c_{k\alpha } +J\sum _{< ij> }\overrightarrow{S_{i}} \cdot \vec{S}_{j}$$
 				- $J>0$ means AFM. If $J<0$ this would be FM.
-			- The order parameter
+			- Perform a mean-field calculation to the $J\sum _{< ij> }\overrightarrow{S_{i}} \cdot \vec{S}_{j}$ term in the Hamiltonian.
+			- The order parameter is
 			  $$\vec{\phi } :=( -1)^{i}< \vec{S}_{i}> $$
 				- Quite reasonable. 'Divide the graph into two subsets by parity'.
-		- Summary
-			- Perform a mean-field calculation to the $J\sum _{< ij> }\overrightarrow{S_{i}} \cdot \vec{S}_{j}$ term in the Hamiltonian.
-			- We can diagonalize the Hamiltonian and see that the coupling terms opens a gap in the mean-field Hamiltonian.
-				- Key points in diagonalization:
-				  1. Fourier transformation
-				  2. write the Hamiltonian as 
-				  $$\sum _{k\alpha }\left(\begin{array}{ c c }
-				  c_{k\alpha }^{\dagger } & c_{k+Q,\alpha }^{\dagger }
-				  \end{array}\right)\left(\begin{array}{ c c }
-				  E_{k} -\mu  & -\alpha \Delta \\
-				  -\alpha \Delta  & E_{k+Q} -\mu 
-				  \end{array}\right)\left(\begin{array}{ l }
-				  c_{k\alpha }\\
-				  c_{k+Q,\alpha }
-				  \end{array}\right)$$
-				  and diagonalize the matrix (similar to the [[Bogoliubov Transformation]])
+		- We can diagonalize the Hamiltonian and see that the coupling terms open a gap in the mean-field Hamiltonian.
+			- Key points in diagonalization:
+			  1. Fourier transformation
+			  2. write the Hamiltonian as 
+			  $$\sum _{k\alpha }\left(\begin{array}{ c c }
+			  c_{k\alpha }^{\dagger } & c_{k+Q,\alpha }^{\dagger }
+			  \end{array}\right)\left(\begin{array}{ c c }
+			  E_{k} -\mu  & -\alpha \Delta \\
+			  -\alpha \Delta  & E_{k+Q} -\mu 
+			  \end{array}\right)\left(\begin{array}{ l }
+			  c_{k\alpha }\\
+			  c_{k+Q,\alpha }
+			  \end{array}\right)$$
+			  and diagonalize the matrix (similar to the [[Bogoliubov Transformation]])
+				- $\vec Q=(\pi,\pi)$
+			- The result is
+			  $$
+			  \xi_k=\frac{E_k+E_{k+Q}}{2}-\mu \pm \sqrt{\left(\frac{E_k-E_{k+Q}}{2}\right)^2+\Delta^2}
+			  $$
+		- Hotspot and Folding of Brillioune zone
+			- ![Image(1).png](../assets/Image(1)_1685493563397_0.png){:height 529, :width 770}
+				- The orange lines are the original BZ translated by $(\pi,\pi)$
+				- The red points (hotspots) are the intersections of the new BZ with the old BZ.
+				  They satisfy $E_k=E_{k+q}$, thus a **gap** is opened at them.
+					- Recall
+					  $$
+					  \xi_k=\frac{E_k+E_{k+Q}}{2}-\mu \pm \sqrt{\left(\frac{E_k-E_{k+Q}}{2}\right)^2+\Delta^2}
+					  $$
+			- New Fermi Surface
+				- ![image.png](../assets/image_1685493879670_0.png){:height 440, :width 413}
+				  $\vec Q=(\pi,\pi)$
+					- (a) Fermi surface without SDW order
+					- (b) The original Fermi surface along with the Fermi surface shifted by wavevector $(\pi, \pi)$. These intersect at the hot spots shown by the filled circles.
+					- (c) With the onset of a nonzero spin density wave order with $\left\langle\phi_\alpha\right\rangle \neq 0$, gaps open at the hot spots leading to electron (thin lines) and hole (thick lines) pockets.
+					- (d) With increasing $\left|\left\langle\phi_\alpha\right\rangle\right|$ the electron pockets shrink to zero for the hole-doped case, leaving only hole pockets. In the electron-doped case, the hole pockets shrink to zero, leaving only electron pockets (this is not shown). Finally, in the half-filled case, the electron and hole pockets shrink to zero simultaneously.
+				- ![image.png](../assets/image_1685494085531_0.png)
+				  $\vec Q=(\pi,0)$
+					- The last step is always restoring translation symmetry of the new BZ.
 		-
 - # Examples
 	- ## General Strategy

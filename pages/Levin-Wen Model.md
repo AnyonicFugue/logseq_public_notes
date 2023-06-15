@@ -10,6 +10,12 @@
 	- Output: a topo order corresponding to the Drinfeld center $\mathfrak Z_1(C)$
 - # Setup #card
   collapsed:: true
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-07-07T07:39:27.059Z
+  card-last-reviewed:: 2023-06-06T01:39:27.059Z
+  card-last-score:: 3
 	- ## Fat Lattice
 		- Trivalent, with a direction on each edge
 			- Why does the lattice need to be trivalent? #Learning-TODO
@@ -19,7 +25,7 @@
 				- ((63e85270-994b-4bc9-b5b0-621fe43c45f2))
 		- In the middle of each plaquette there is a $\times$, which indicates we cannot contract loops on the plaquettes.
 	- ## Hamiltonian
-		- $H=-\sum_v A_v-\sum_p B_p$
+		- $$H=-\sum_v A_v-\sum_p B_p$$
 		- Vertex operators enforce the fusion rules, i.e. $A_v=1$ iff $\left(N_{a b c}=N_{a b}^{\bar{c}}>0\right)$
 		- Plaquette operators add $\tilde \Omega$ loops on the plaquette
 			- ((63e85457-40a3-4f6a-9c79-3cdee0efc747))
@@ -30,6 +36,12 @@
 					- Sum over all possible fusion channels.
 				- ((63e85493-7abb-4406-95d9-6059dbada06e))
 		- Proposition. $A_v^2=A_v,B_p^2=B_p, [A_v,B_p]=0$ #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-08T07:08:38.954Z
+		  card-last-reviewed:: 2023-06-07T01:08:38.954Z
+		  card-last-score:: 5
 			- (1) is obvious.
 			- (2) Let's prove the handle-slide property by explicitly writing the loop and using F-move (on the vacuum): ((63f1dfaa-c3ef-4c6a-8cac-1c5a9aafbdc8))
 			- (3): Note that adding a loop keeps the fusion rule.

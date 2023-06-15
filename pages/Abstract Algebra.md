@@ -90,15 +90,16 @@
 				  collapsed:: true
 					- ((63c14160-28c9-4f15-82dc-977a38e0993b))
 		- Rank of an abelian group #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-06T06:13:52.541Z
-		  card-last-reviewed:: 2023-05-06T00:13:52.542Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-07-15T01:15:56.770Z
+		  card-last-reviewed:: 2023-06-15T01:15:56.771Z
 		  card-last-score:: 5
 			- An abelian group $G$ has (possibly infinite) rank $r$ if there exists a **free** abelian subgroup $F$ of $G$ with
 			  (i) $\operatorname{rank} F=r$;
 			  (ii) $G / F$ is torsion.
+			- In plain English, the number of **free** generators.
 		- ((63d7642c-363d-44b6-970e-dd670e678218)). Let $G=G_1 * G_2$. Let $N_i$ be a normal subgroup of $G_i$, for $i=1,2$. If $N$ is the least normal subgroup of $G$ that contains $N_1$ and $N_2$, then $$G / N \cong\left(G_1 / N_1\right) *\left(G_2 / N_2\right)$$ #card
 			- 'Least normal subgroup' means the intersection of all containing subgroups.
 			- Categorical way
@@ -168,6 +169,12 @@
 - # Rings
 	- ## Division Ring
 		- When $\mathbb k=\mathbb R$, there only three finite-dimensional division algebras. #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-07-06T06:33:21.452Z
+		  card-last-reviewed:: 2023-06-05T00:33:21.453Z
+		  card-last-score:: 3
 			- They're $\mathbb R, \mathbb C, \mathbb H$.
 			- $\mathbb H$ is the quarternion algebra.
 		- For any algebraically-closed field, there is only one finite-dimensional division algebra. #card

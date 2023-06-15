@@ -7,9 +7,13 @@ alias:: GR
 		- This is particularly important when calculating the Christoffel symbols, which involves lots of $g_{ab}$!
 		- I made lots of mistakes here when trying to obtain the Friedman equations...
 	- Christoffel symbols: Positive or minus?
+		- $\nabla_a t^b=\partial_a t^b+\Gamma_{a c}^b t^c$
+			- Quick memorization: Covariant at LHS, partial and Christoffel symbols at RHS.
+			- **PLUS** for vectors and **MINUS** for dual vectors.
 	- Exercise. From the covariant form of the geodesic equation, derive the coordinate form.
+		- The key is to use the chain rule to obtain a derivative wrt the parameter.
 	- In coordinate transformations, only quantities in the same coordinate system could contract!
-		- e.g. when $x^\mu \to x'^\mu$, how does the metric $g_{\mu\nu}$ transform? #card
+		- e.g. when $x^\mu \to x'^\mu$, how does the metric $g_{\mu\nu}$ transform?
 			- $$
 			  g_{\mu \nu} \rightarrow g_{\mu \nu}^{\prime}=\frac{\partial x^\alpha}{\partial x^{\prime \mu}} \frac{\partial x^\beta}{\partial x^{\prime \nu}} g_{\alpha \beta}
 			  $$
@@ -47,7 +51,6 @@ alias:: GR
 - # Elements of Differential Geometry
   collapsed:: true
 	- Christoffel symbol #card
-	  collapsed:: true
 		- $$\Gamma_{a b}^c=\frac{1}{2} g^{c d}\left\{\partial_a g_{b d}+\partial_b g_{a d}-\partial_d g_{a b}\right\}$$
 		- Quick memorization: Two plus and a minus, raised by a metric, symmetric positive at the two lower indices
 	- Geodesic equation #card
@@ -104,10 +107,10 @@ alias:: GR
 			  $$\nabla_a \omega_b=\tilde{\nabla}_a \omega_b-C_{a b}^c \omega_c$$
 				- Exercise. $\nabla_a t^b=\tilde{\nabla}_a t^b+C_{a c}^b t^c$ #card
 				  card-last-interval:: 30
-				  card-repeats:: 1
-				  card-ease-factor:: 2.6
-				  card-next-schedule:: 2023-05-13T01:25:55.498Z
-				  card-last-reviewed:: 2023-04-13T01:25:55.498Z
+				  card-repeats:: 2
+				  card-ease-factor:: 2.7
+				  card-next-schedule:: 2023-07-03T01:10:05.253Z
+				  card-last-reviewed:: 2023-06-03T01:10:05.254Z
 				  card-last-score:: 5
 					- Different derivative operators must agree on scalar fields.
 			- Note that we must use the trick: If $\omega_b^{\prime}-\omega_b$ vanishes at $p$ we can find smooth functions, $f_{(\alpha)}$, which vanish at $p$ and smooth dual vector fields, $\mu_b^{(\alpha)}$, such that
@@ -116,7 +119,6 @@ alias:: GR
 			  $$
 			  and invoke the fact that all derivative operators agree on scalar fields
 		- Covariant derivative #card
-		  collapsed:: true
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
@@ -131,6 +133,12 @@ alias:: GR
 				- Sum two then minus one
 		- Parallel Transport #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-08T07:16:39.867Z
+		  card-last-reviewed:: 2023-06-07T01:16:39.867Z
+		  card-last-score:: 5
 			- We say a vector field $v^b$ is parallel transported along $t^a$ if
 			  $$
 			  t^a \nabla_a v^b=0
@@ -158,6 +166,7 @@ alias:: GR
 			- Scalar curvature
 				- $$R := R_a{}^a$$
 		- In terms of Christoffel symbols
+		  collapsed:: true
 			- $$
 			  R_{\ v \rho \sigma}^{\mu}=\frac{\partial \Gamma_{v \sigma}^\mu}{\partial x^\rho}-\frac{\partial \Gamma_{\nu \rho}^\mu}{\partial x^\sigma}+\Gamma_{v \sigma}^\lambda \Gamma_{\rho \lambda}^\mu-\Gamma_{\nu \rho}^\lambda \Gamma_{\sigma \lambda}^\mu
 			  $$
@@ -226,7 +235,6 @@ alias:: GR
 					- Explicitly, 'symmetry' means 'operations which leave the field invariant'.
 					- Isometries are the gauge freedoms of general relativity.
 	- ## Lie Derivative
-	  collapsed:: true
 		- Def #card
 			- $$
 			  \mathcal L_v T^{a_1 \cdots a_{k}}_{b_1 \cdots b_l}=\lim _{t \rightarrow 0}\left\{\frac{\phi_{-t}^* T^{a_1 \cdots a_{k}}_{b_1 \cdots b_l}-T^{a_1 \cdots a_k}_{b_1 \cdots b_l}}{t}\right\}
@@ -240,6 +248,7 @@ alias:: GR
 				- Since both sides are tensorial, this tensorial equation holds.
 				-
 		- Subsequently, all behaviors are determined by the Leibniz rule!
+		  collapsed:: true
 			- For example,
 			  $$
 			  \mathcal L_v\left(\mu_a w^a\right)=w^a \mathcal L_v \mu_a+\mu_a[v, w]^a
@@ -262,11 +271,18 @@ alias:: GR
 		  card-next-schedule:: 2023-05-28T00:58:58.022Z
 		  card-last-reviewed:: 2023-04-25T11:58:58.022Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- A vector field $\xi^a$ which generates an 1-para family of isometries, i.e. $\mathcal L_\xi g_{ab}=0$
 			- Exercise. The above definition is equivalent to $\nabla_a \xi_b+\nabla_b \xi_a=0$.
 				- Note that $\mathcal L_v u^a = v^b \nabla_b u^a - u^b \nabla_b v^a$
 		- ((6433cd3d-fc1f-48f5-966e-e2f1fd234ef2)) Let $\xi^a$ be a Killing vector field and let $\gamma$ be a geodesic with tangent $u^a$. Then $\xi_a u^a$ is constant along $\gamma$. #card
 		  id:: 6433ccd0-93c5-4ea3-965d-4aba75f860ac
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-09T08:13:28.599Z
+		  card-last-reviewed:: 2023-06-08T02:13:28.599Z
+		  card-last-score:: 5
 			- A simple exercise to recall the ((64268b1f-18f1-4eb8-a851-d33728ebfa9c)) and the Killing equation.
 			- Physically, this means that every 1-para family of isometries gives rise to a conserved quantity.
 		- Degrees of freedom
@@ -300,7 +316,7 @@ alias:: GR
 		  satisfies the second condition.
 			- It is easy to remember: 
 			  $$\frac{\partial ^{2} x^{\prime \mu }}{\partial x^{\rho } \partial x^{\sigma }} =\Gamma ^{\mu }{}_{\rho \sigma }$$
-		- Problem: Try to calculate the transformation law of $\partial_c g_{ab}$ and find $$\frac{\partial ^{2} x^{\prime \mu }}{\partial x^{\rho } \partial x^{\sigma }}$$ to make $\tilde \partial_c \tilde g_{ab}=0$. #card
+		- Problem: Try to calculate the transformation law of $\partial_c g_{ab}$ and find $$\frac{\partial ^{2} x^{\prime \mu }}{\partial x^{\rho } \partial x^{\sigma }}$$ to make $\tilde \partial_c \tilde g_{ab}=0$.
 			- Are there enough d.o.f. ?
 				- Answer: $T_{(ab)c}$ isn't completely symmetric even if it is symmetric under exchanging b and c.
 			- Note: To obtain the transformation rule of $g_{ab}$, first derive the rule of $w_a$. Higher-rank tensors follow.
@@ -419,13 +435,18 @@ alias:: GR
 				- However it is somewhat unrigorous, since the form of the metric asserts something more than spherical symmetry.
 			- It can be proven in a mathematically elegant and rigorous way as [willemvanoosterhout_bscthesis_2019.pdf (wordpress.com)](https://annegretburtscher.files.wordpress.com/2019/11/willemvanoosterhout_bscthesis_2019.pdf)
 	- ## Geodesics and Motions
-	  collapsed:: true
 		- It will be used a lot that ((6433ccd0-93c5-4ea3-965d-4aba75f860ac))
 		- ### Gravitational Redshift #card
 		  collapsed:: true
-			- Statement of the problem: Light emitted by one static observer is received by another one. How does the frequency differ?
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-09T08:04:38.791Z
+		  card-last-reviewed:: 2023-06-08T02:04:38.792Z
+		  card-last-score:: 5
+			- Statement of the problem
+				- Light emitted by one static observer is received by another one. How does the frequency differ?
 			- Setup
-			  collapsed:: true
 				- The 4-velocities $u^a$ of the observers are tangent to the Killing field $\xi^a$
 					- Note that $u^a:=\frac{dx^a}{d\tau}$, so it is properly normalized.
 				- The frequency measured at $P_1$ is
@@ -455,18 +476,15 @@ alias:: GR
 			  card-last-reviewed:: 2023-05-04T00:39:26.176Z
 			  card-last-score:: 5
 				- First simplify the problem by fixing the geodesic on the equatorial plane $\theta=\pi/2$.
-				  collapsed:: true
 					- Note that the metric has a symmetry $\theta \to \pi - \theta$, thus a geodesic shouldn't break the sym.
 				- The idea is to avoid writing down the geodesic equation explicitly, but use the fact that $\xi^a u_a$ are conserved.
 					- The geodesic equation is present in the latter fact, but in a much more elegant form.
 				- That is, we write down the conserved quantities $E:=-\xi^a u_a$ and $L=\psi^a u_a$, then plug into
-				  collapsed:: true
 				  $$-\kappa=g_{ab} u^a u^b$$ 
 				  ($\kappa=0$ for null and $\kappa=1$ for timelike);
 					- $\xi^a$ is the timelike Killing field and $\psi^a$ is the rotation wrt the $\phi$ axis.
 					- Again, Killing fields are 'symmetries of motion', which give rise to conserved quantities; conserved quantities are extremely useful!
 				- After some very simple manipulations, we arrive at
-				  collapsed:: true
 				  $$
 				  \frac{1}{2} \dot{r}^2+\frac{1}{2}\left(1-\frac{2 M}{r}\right)\left(\frac{L^2}{r^2}+\kappa\right)=\frac{1}{2} E^2
 				  $$
@@ -488,19 +506,18 @@ alias:: GR
 					- For an observer at infinity, any particle would needs infinite time (coordinate time) to fall to the event horizon ($r=r_s$)!
 					- However, the proper time of the particle is **finite**.
 				- Precession
-				  collapsed:: true
 					- Simply put, the radial period isn't equal to the angular period, thus the orbit isn't closed.
 					- Illustration in a simple case
 						- Consider an oscillation near the stable orbits, which is similar to a harmonic oscillator.
 						- We can obtain $\omega_r$ and $\omega_\phi$, then the precession rate is $\omega_p=\omega_\phi-\omega_r$.
 				- Deflection of light
-				  collapsed:: true
 					- Consider a photon coming from $r=\infty$ and going to $r=\infty$ again.
 					  Calculate $\Delta\phi$ in the process; the deflection angle is $\pi-\Delta\phi$.
 					-
 			-
 	- ## Kruskal Extension
 	  id:: 64586978-ccc6-4f29-ac28-b6b26a5aea8d
+	  collapsed:: true
 		- The strategy is classical:
 		  Examine the $r-t$ surface; find null geodesics and establish 'normal coordinates'; find affine parameters and extend.
 		- Result
@@ -528,7 +545,6 @@ alias:: GR
 				  u^a=-\left(e_0\right)^a=-f^{1 / 2}(d t)^a
 				  $$
 		- Writing down the equations
-		  collapsed:: true
 			- $$
 			  d s^2=-f(r) d t^2+h(r) d r^2+r^2\left(d \theta^2+\sin ^2 \theta d \phi^2\right)
 			  $$
@@ -543,7 +559,6 @@ alias:: GR
 			  \end{aligned}
 			  $$
 		- Solutions
-		  collapsed:: true
 			- $$
 			  \begin{gathered}
 			  h(r)=\left[1-\frac{2 m(r)}{r}\right]^{-1} \\
@@ -630,14 +645,11 @@ alias:: GR
 	-
 - # Spacetime Diagrams
 	- ## Penrose Diagram
-	  collapsed:: true
 		- Idea
-		  collapsed:: true
 			- Use a conformal transformation (usually involving $\tan$) to bring the points at infinity to finite points. Then the spacetime diagram becomes intuitive.
 			- We'd better keep null geodesics going along $\pm \frac \pi 4$, so we can easily observe the behavior of geodesics.
 		- Examples
 			- Minkowski spacetime
-			  collapsed:: true
 				- Transformation
 					- $$
 					  \begin{aligned}
@@ -681,6 +693,7 @@ alias:: GR
 					- Matters in region II can never escape. Even null geodesics are bound to fall into the singularity, let alone timelike ones.
 - # [[Blackhole]]
 - # Weak-Gravity limit
+  collapsed:: true
 	- ## Linearized Gravity
 	  id:: 6454f170-654e-4dc5-9f18-846a64c1cefc
 		- Summary

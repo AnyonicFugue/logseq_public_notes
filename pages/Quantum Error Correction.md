@@ -89,15 +89,23 @@ alias:: Quantum Error Correcting Code
 				- Not $\sigma_1^x \sigma_4^x$ or $\sigma_1^x \sigma_7^x$! Intuitively, we must flip all three qubits of a group **simultaneously**.
 				- On the other hand, phase flip on a single qubit add a minus to $|111\rangle$ as a whole.
 		- Theorem. The code may correct any errors to a single qubit. #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-05-13T05:01:48.929Z
-		  card-last-reviewed:: 2023-03-07T01:01:48.929Z
+		  card-last-interval:: 252.3
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-02-12T07:42:45.112Z
+		  card-last-reviewed:: 2023-06-05T00:42:45.113Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- Essentially, a 'mixed error' would be **projected** to a 'pure error' by a measurement of the syndromes, then easily corrected by the Shor code.
-				- A general $U(2)$ operator can be expanded on the basis $\left\{I, \sigma_x, \sigma_y, \sigma_z\right\}$ as an element of $M_2(\mathbb C)$.
+				- Note that elements of $SU(2)$ can be expressed in the form
+				  $$
+				  A=\left(\begin{array}{cc}
+				  \alpha & -\bar{\beta} \\
+				  \beta & \bar{\alpha}
+				  \end{array}\right)
+				  $$
+				  with $|\alpha|^2+|\beta|^2=1$.
+				- Therefore, a general $SU(2)$ operator can be expressed as a **linear combination** of $\left\{I, \sigma_x, \sigma_y, \sigma_z\right\}$.
 			- Remark: A continuous set of errors can be corrected by a discrete code!
 		- Prop. it has distance three. #card
 		  card-last-score:: 5
@@ -191,11 +199,11 @@ alias:: Quantum Error Correcting Code
 				- ((6385c11b-a6c6-4f79-b5ab-11a31bc4a68d))
 		- $\mathcal{E}_c$ the subset of errors correctable by the code
 		- Weight of an error #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-04-23T05:57:31.967Z
-		  card-last-reviewed:: 2023-02-15T01:57:31.967Z
+		  card-last-interval:: 252.3
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-02-10T08:11:42.772Z
+		  card-last-reviewed:: 2023-06-03T01:11:42.772Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- The number of qubits on which a given operator differs from the identity

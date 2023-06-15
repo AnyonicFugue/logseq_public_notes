@@ -26,6 +26,12 @@
 			- In short, we can produce nontrivial topologies by identifying some points (like making a torus).
 			- Thus the space can be made finite by **pasting**.
 	- ## Simplest model: Perfect fluid #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-08T07:08:20.560Z
+	  card-last-reviewed:: 2023-06-07T01:08:20.561Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- Definitions
 		  collapsed:: true
@@ -55,7 +61,6 @@
 				  $$
 				  though others are also possible.
 		- ### Friedmann Equations
-		  collapsed:: true
 			- *Wald doesn't have good ways to obtain the Ricci tensor either. Seems we can only calculate the Christoffel symbols by brute force, then contract them.
 			- First:
 			  collapsed:: true
@@ -77,7 +82,6 @@
 			  But these three equations aren't independent; we can use any two equations to obtain the third.
 			-
 		- ### Solution (Half-Approximated)
-		  collapsed:: true
 			- Conclusion
 			  collapsed:: true
 				- $$\rho \propto a^{-3(1+w)}$$
@@ -85,7 +89,6 @@
 				  a \propto t^{\frac 2 {3(1+w)}} \quad \text{(approximated)}
 				  $$
 			- The simplest way is to start from (3):
-			  collapsed:: true
 			  $$\dot \rho=-3(1+w)\rho \ \frac {\dot a} a$$
 				- This equation can be immediately integrated to obtain
 				  collapsed:: true
@@ -109,8 +112,8 @@
 				  $$\alpha=\frac 2 {3(1+w)}$$
 		- ### Exact Solutions for Certain Matter Species
 		  id:: 646df946-15d9-447b-ac72-2e8efbd6f2ac
+		  collapsed:: true
 			- Einstein Universe: Dust plus Cosmological Constant
-			  collapsed:: true
 				- $$
 				  \begin{aligned}
 				  H^2 & =\frac{8 \pi G_{\mathrm{N}}}{3 c^2} \rho+\frac{\Lambda c^2}{3}-\frac{k c^2}{a^2}, \\
@@ -190,10 +193,9 @@
 		  It's surprising that we can obtain the age of our universe from abstract equations and very few observational data!
 		  #+END_NOTE
 	- ## Destiny of the Universe
-	  collapsed:: true
 		- Question: Would the universe expand forever, or finally collapse into a singularity again?
 		- The answer is dependent on the specific matter content.
-			- For example, dust and radiation doesn't alter the essential behaviors (expand infinitely for open universes, collapse for closed ones), while radiation always **pushes** the universe to expand forever.
+			- For example, dust and radiation don't alter the essential behaviors (expand infinitely for open universes, collapse for closed ones), while radiation always **pushes** the universe to expand forever.
 			- However, when different matters are present simultaneously, their contributions would compete.
 			- See ((646df946-15d9-447b-ac72-2e8efbd6f2ac)).
 -

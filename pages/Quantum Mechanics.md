@@ -37,7 +37,22 @@ alias:: QM
 			  E_n^2=\sum_{m \neq n} \frac{\left|\left\langle\psi_m^0\left|H^{\prime}\right| \psi_n^0\right\rangle\right|^2}{E_n^0-E_m^0}
 			  $$
 	- ## Time-Dependent
-		-
+		- The strategy is also to expand the coefficients in order and proceed order-by-order.
+		- First Order:
+		  $$
+		  \begin{gathered}
+		  \frac{d c_a^{(1)}}{d t}=0 \Rightarrow c_a^{(1)}(t)=1 \\
+		  \frac{d c_b^{(1)}}{d t}=-\frac{i}{\hbar} H_{b a}^{\prime} e^{i \omega_0 t} \Rightarrow c_b^{(1)}=-\frac{i}{\hbar} \int_0^t H_{b a}^{\prime}\left(t^{\prime}\right) e^{i \omega_0 t^{\prime}} d t^{\prime}
+		  \end{gathered}
+		  $$
+		- Second Order:
+		  $$
+		  \begin{aligned}
+		  \frac{d c_a^{(2)}}{d t} & =-\frac{i}{\hbar} H_{a b}^{\prime} e^{-i \omega_0 t}\left(-\frac{i}{\hbar}\right) \int_0^t H_{b a}^{\prime}\left(t^{\prime}\right) e^{i \omega_0 t^{\prime}} d t^{\prime} \Rightarrow \\
+		  c_a^{(2)}(t) & =1-\frac{1}{\hbar^2} \int_0^t H_{a b}^{\prime}\left(t^{\prime}\right) e^{-i \omega_0 t^{\prime}}\left[\int_0^{t^{\prime}} H_{b a}^{\prime}\left(t^{\prime \prime}\right) e^{i \omega_0 t^{\prime \prime}} d t^{\prime \prime}\right] d t^{\prime},
+		  \end{aligned}
+		  $$
+		  while $c_b$ is unchanged $\left(c_b^{(2)}(t)=c_b^{(1)}(t)\right)$. (Notice that $c_a^{(2)}(t)$ includes the zeroth-order term; the second-order correction would be the integral part alone.)
 	- ### Fermi's Golden Rule
 		- $$
 		  \Gamma_{i \rightarrow f}=\frac{2 \pi}{\hbar}\left|\left\langle f\left|H^{\prime}\right| i\right\rangle\right|^2 \rho\left(E_f\right)

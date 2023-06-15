@@ -4,11 +4,11 @@
 		- Can be used on "The remaining part of the sum"
 	- ## Decomposition into Minimal invariant subspaces
 		- Theorem. Let $T:G\rightarrow \mathrm{GL} (V)$ be a linear representation. Let $V=V_{1} +V_{2} +\dotsc +V_{m}$ be a decomposition of the space $V$ into a (**not necessarily direct**) sum of minimal invariant subspace. 
-		  card-last-interval:: 23.96
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-20T00:54:11.987Z
-		  card-last-reviewed:: 2023-02-24T01:54:11.987Z
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-07-06T01:42:11.463Z
+		  card-last-reviewed:: 2023-06-06T01:42:11.463Z
 		  card-last-score:: 5
 		  Then for every invariant subspace $U$ there exist indices $i_{1} ,\dotsc ,i_{p}$ such that $V=U\oplus V_{i_{1}} \oplus \dotsc \oplus V_{i_{p}}$  #card
 			- For a $U$: we use a common construction.

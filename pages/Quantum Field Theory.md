@@ -59,7 +59,6 @@ alias:: [[QFT]]
 				- [[Energy-momentum Tensor]] 
 				  $\mathcal{T}_{\mu \nu}=\sum_{n} \frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} \phi_{n}\right)} \partial_{\nu} \phi_{n}-g_{\mu \nu} \mathcal{L}$
 			- Ref. Peskin, ((63805db9-661f-470f-9403-3ff9ae8aa7dd))
-- # [[Interaction, Feynman diagrams and S-matrix]]
 - # Causality and Propagators
   collapsed:: true
 	- $\langle 0|[\phi(x), \phi(y)]| 0\rangle=0$ for spacelike separation, which preserves [[Causality]].
@@ -104,12 +103,6 @@ alias:: [[QFT]]
 	- [[Quantum Electrodynamics]]
 	- [[Proca Theory]]
 	-
+- # [[Interaction, Feynman diagrams and S-matrix]]
 - # [[Renormalization]]
-	- ## Why it works?
-		- Mathematically there are all sorts of problems.
-			- For example, in field-strength renormalization we first group 1PI diagrams, then sum them up as a geometric series.
-				- However, changing the order of summation and integration requires **absolute convergence**. Here the sum doesn't converge absolutely -- it diverges!
-			- However, the bunch of seeming total nonsense works (partially)! There must be things deeper behind.
-	- [[Field-Strength Renormalization]]
-	- [[Electric Charge Renormalization]]
--
+- # [[Path Integral]]

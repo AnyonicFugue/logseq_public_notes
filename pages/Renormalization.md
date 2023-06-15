@@ -1,7 +1,11 @@
 - ((63902f14-d931-401b-a27f-5d9f95c9791c))
 	- For example, physical mass of electrons are not the bare mass.
+- # Why it works?
+	- Mathematically it is extremely problematic.
+		- For example, in field-strength renormalization we first group 1PI diagrams, then sum them up as a geometric series.
+			- However, changing the order of summation and integration requires **absolute convergence**. Here the sum doesn't converge absolutely -- it diverges!
+		- However, the bunch of seeming total nonsense works (partially)! There must be things deeper behind.
 - # Principles and the Paradigm #card
-  collapsed:: true
   card-last-interval:: 31.26
   card-repeats:: 1
   card-ease-factor:: 2.6
@@ -9,7 +13,6 @@
   card-last-reviewed:: 2023-05-26T00:20:56.368Z
   card-last-score:: 5
 	- ## Empirical Knowledge
-	  collapsed:: true
 		- We can't probe physics at arbitrarily high $E$.
 			- Therefore, integrating to $k \to \infty$ is a huge **extrapolation**. (It's miraculous this doesn't fail completely).
 			- We can't even be sure that the theory is local or Lorentz covariant at high $E$.
@@ -35,13 +38,17 @@
 	- However, what does high $E$ mean?
 		- In QM we always have **eigen energy** and **expectation value**. Which is the $E$ here?
 - # Schemes of Regularization
-  collapsed:: true
 	- [[Dimensional Regularization]]
 	- [[Cutoff]] Regularization
 - # Schemes of Renormalization
 	- Note that n-pt functions can have different
 	- ## Scheme 1: Cancel the Divergences via Physical Quantities #card
-	  collapsed:: true
+	  card-last-interval:: 33.94
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-05T01:29:06.940Z
+	  card-last-reviewed:: 2023-06-01T03:29:06.941Z
+	  card-last-score:: 5
 		- Idea
 			- Physical quantities like $m,\lambda$ can be determined experimentally.
 			- Thus we first express $m,\lambda$ as a function of $m_0,\lambda_0$ and vice versa.
@@ -58,7 +65,6 @@
 		- Finally we obtain the renormalized Green function, which we expect be **divergence-free** and **regularization-independent**.
 		-
 	- ## Scheme 2: Cancel the Divergent Diagrams by Counter-terms #card
-	  collapsed:: true
 		- Idea
 			- Rewrite the Lagrangian as a physical part and a counter-term part.
 			  The counter terms are regarded as extra interaction vertices.
@@ -96,7 +102,6 @@
 			- 2-loop order
 				- ![image.png](../assets/image_1682478818350_0.png){:height 350, :width 863}
 	- ## Scheme 3: Modified Minimal Subtraction $\overline{MS}$
-	  collapsed:: true
 		- Idea
 			- This is similar to scheme 2. But we change the requirement here:
 			  In scheme 2 we require the counterterms make $\Pi=0$ and $\frac {d\Pi}{dp^2}=0$ at $p^2=m^2$.
@@ -122,7 +127,6 @@
 				-
 	- ## Scheme 4: On-Shell Renormalization
 	  id:: 646583f6-fc6a-48ee-bd91-b8dcc742e15f
-	  collapsed:: true
 		- Idea
 			- We want the propagator to be in the desired form when $p^2 \to m^2$.
 		- The bare propagator:
@@ -135,18 +139,23 @@
 		  $$S^{(2)}(p)=\frac{i}{p-m-\Sigma(p, m)} \quad \stackrel{p^2 \rightarrow m^2}{\longrightarrow} \frac{i}{\not p-m+i \varepsilon}$$
 			-
 - # Renormalized Perturbation Theory
-  collapsed:: true
 	- Idea #card
-	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-02T07:56:39.213Z
+	  card-last-reviewed:: 2023-06-01T01:56:39.213Z
+	  card-last-score:: 5
 		- The 'real world of QFT' is quite messy. We must consider lots of renormalizations; what's worse, we don't know how to obtain a divergence-free result.
-		- Therefore we do two things to obtain an elegant formalism:
-		  1. Redefine the field and constants to account for all renormalization
-		  2. Let the divergences cancel by comparing different kinematics (momenta)
+		- We have different schemes.
+			- Do two things to obtain an elegant formalism:
+			  1. Redefine the field and constants to account for all renormalization
+			  2. Let the divergences cancel by comparing different kinematics (momenta)
+			- Separate bare quantities into a physical term and a counter term. All divergences are cancelled by the counter terms!
 		- #+BEGIN_CAUTION
 		  It's like I suddenly find that the simple world in QFT1, where the propagator is a simple $\frac i {p^2-m^2+i\varepsilon}$ and we don't have to worry about loops or divergences, is supported by a dark and complicated 'real world'...
 		  #+END_CAUTION
 	- Renormalized Field
-	  collapsed:: true
 		- Starting point:
 		  $$
 		  \int d^4 x e^{i p \cdot x}\left\langle\Omega\left|T\left\{\phi_0(x) \phi_0(0)\right\}\right| \Omega\right\rangle \stackrel{p^2 \rightarrow m^2}{\longrightarrow} \frac{i Z}{p^2-m^2+i \varepsilon}+\cdots
@@ -159,7 +168,6 @@
 			  where all factors of $Z$ are killed.
 			-
 - # Systematic Analysis
-  collapsed:: true
 	- Summary #card
 	  card-last-interval:: 28.74
 	  card-repeats:: 1
@@ -177,20 +185,16 @@
 		  (a) $\Delta_i \geqslant 0$ for all vertices
 		  (b) $\mathcal{L}$ contains all vertices compatible with the symmetries of the (regularized) theory. (The regularization may break a symmetry Then it is no longer a symmetry of $\mathcal{L}$)
 	- ## Starting point
-	  collapsed:: true
 		- Question: Is all theories renormalizable? If not, how to characterize renormalizability?
 		  background-color:: red
 		- Intuitively, we only have a finite number of parameters (mass, coupling constant, etc). Can we cancel divergences in **all** diagrams by the finite parameters?
 	- ## Setup
-	  collapsed:: true
 		- Notations
-		  collapsed:: true
 			- $\gamma$ : 1PI Feynmann diagram
 			- $L$ : number of loops
 			- $I_{f}$ : number of internal lines (propagators) of field of type $f$
 			- $E_{f}$: number of external lines (propagators) of field of type $f$
 			- $s_f$: The propagator of field $f$ is asymptotically $1/(k^2)^{1-s_f}$
-			  collapsed:: true
 				- e.g. $s_f=0$ for scalar fields, $s_f=1/2$ for Dirac fields.
 			- $V_{i}$ : number of vertices of type $i$
 			- $a_{i}$ : number of derivatives on fields in vertex of type $i$
@@ -198,85 +202,62 @@
 			- $d$ : Spacetime dimension
 			-
 		- Definitions
-		  collapsed:: true
 			- Degree of divergence, $D(\gamma)$
-			  collapsed:: true
 				- {Maximal power of momenta in the numerator, including the integration measure} - {maximal power of momenta in the denominator}
 				- Example. 
 				  ![image.png](../assets/image_1683335815102_0.png){:height 307, :width 957}
 	- ## Simplifications
-	  collapsed:: true
 		- Note that lines connecting 1PI diagrams cannot contain loops, so we may just analyze 1PI diagrams.
-		  collapsed:: true
 			- Analogous to 'analyze path-connected spaces'.
 	- ## Counting the divergences
-	  collapsed:: true
 		- Idea
-		  collapsed:: true
 			- Count the total powers of momenta (numerator - denominator).
 			  If the power is greater than zero, then the diagram surely diverges.
 		- Proposition. If $D(\gamma) \geq 0$, then the diagram must be divergent.
-		  collapsed:: true
 			- If $D(\gamma)=0$, the integration behaves like $\int \frac {dx}{x}$, which is **logarithmically divergent**.
 		- Proposition. $D(\gamma)=\sum_f I_f\left(2 s_f-2\right)+\sum_i V_i a_i+d L$
-		  collapsed:: true
 			- The first term is the momenta from the propagators.
 			- The second term is the momenta from the vertices.
-			  collapsed:: true
 				- Note that here we assumed there's no momenta contribution if there's no derivative.
 			- The third term counts the contribution from the integration measure.
-			  collapsed:: true
 				- Each independent loop gives rise to a free momentum to be integrated over.
 		- ### Simplify the expression by graph theory
-		  collapsed:: true
 			- Proposition. For connected diagrams, $L=\sum_f I_f-\sum_i V_i+1$.
-			  collapsed:: true
 				- This is Euler's formula, $V-E+F=2$.
 				- Note that $L=F-1$, since the face $\mathbb R^2-\gamma$ isn't a loop.
 			- Proposition. $2I_f+E_f=\sum_i V_i n_{if}$
 	- ## Divergence of Subdiagrams
-	  collapsed:: true
 		- The above counting still has a flaw:
-		  collapsed:: true
 		  A subdiagram can still be divergent even if $D(\gamma)<0$.
 			- Example.
 			  ![image.png](../assets/image_1683338439631_0.png)
 		- **Nevertheless, the problem can be fixed.**
-		  collapsed:: true
 			- In the above example:
 			  We have a counterterm $\delta_m$ for the divergent subdiagram, thus we can use the following diagram to cancel the divergence:
 			  ![image.png](../assets/image_1683338589549_0.png)
 			- More generally, we can always divide the diagram to find the divergent subdiagram with $D(\eta) \geq 0$
-			  collapsed:: true
 				- Theorem (Weinberg). A diagram is convergent iff all subdiagrams $\eta$ satisfy $D(\eta)<0$.
-				  collapsed:: true
 					- This ensures we can always find $\eta$ if there's divergence in the whole diagram.
 	- ## Divergence of multi-loop diagrams
-	  collapsed:: true
 		- Example in $\phi^4$ theory
-		  collapsed:: true
 			- ![image.png](../assets/image_1683338760672_0.png)
 			- Compute by dimensional regularization: 
 			  $$
 			  \Gamma=\lambda^2 \times\left\{\rho^2[\cdots]-m^2\left[\frac{a}{\varepsilon^2}+\frac{2 a}{\varepsilon} \ln \frac{\mu^2}{p^2}+\frac{b}{\varepsilon}+\text { finite }\right]\right\}
 			  $$
 			- **Problem**
-			  collapsed:: true
 				- It's impossible to cancel the divergence by $\delta_m$ or $\delta\lambda$, since they cannot produce the desired momentum-dependence of $\ln (p^2)$
 			- **Solution?**
-			  collapsed:: true
 				- We can also construct loop diagrams from the counterterms!
 				- This diagram would produce the desired divergence-cancelling:
 				  ![image.png](../assets/image_1683338935892_0.png)
 	- Theorem.
-	  collapsed:: true
 	  $$\begin{aligned}
 	  D(\gamma ) & = d-\sum _{f} E_{f}\left(\frac{d}{2} -1+s_{f}\right) -\sum _{i} V_{i} \Delta _{i}\\
 	   & \text{ with } \Delta _{i} \equiv d-a_{i} -\sum _{f} n_{if}\left(\frac{d}{2} -1+s_{f}\right)
 	  \end{aligned}$$
 		- This can be proven by plugging in the above propositions.
 		- But its meaning is quite deep. 
-		  collapsed:: true
 		  If $D(\gamma)$ decreases with the number of external lines and vertices, as the theorem suggests, then we only have **finite** diagrams with $D(\gamma) \geq 0$.
 			- Example. Scalar field theory:
 			- $$\begin{array}{ c c c }
@@ -303,14 +284,11 @@
 		  card-next-schedule:: 2023-06-12T01:04:17.678Z
 		  card-last-reviewed:: 2023-05-13T01:04:17.678Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- Starting points
-			  collapsed:: true
 				- $S=\int d^dx \mathcal L$ is dimensionless.
 				- $$G_F(k):=\int d^dx e^{-ikx} \langle \phi_f(x) \phi_f(0) \rangle \sim \frac 1 {(k^2)^{1-s_f}}$$
 	-
 	- ## The Renormalizability Theorem
-	  collapsed:: true
 		- Definition. Renormalizable #card
 		  card-last-interval:: 33.94
 		  card-repeats:: 1
@@ -318,16 +296,13 @@
 		  card-next-schedule:: 2023-06-26T22:09:43.262Z
 		  card-last-reviewed:: 2023-05-24T00:09:43.262Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- All physical quantities can be rendered finite by a reparameterization of fields, masses and couplings.
 			- An interaction is **super-renormalizable** if $\Delta_i >0$.
 		- Theorem. Conditions for renormalizability:
-		  collapsed:: true
 		  (a) $\Delta_i \geqslant 0$ for all vertices
 		  (b) $\mathcal{L}$ contains all vertices compatible with the symmetries of the (regularized) theory. (The regularization may break a symmetry Then it is no longer a symmetry of $\mathcal{L}$)
 			- The first guarantees that we won't obtain new divergences by adding vertices (going to higher orders)
 			- The second could be motivated by the following case:
-			  collapsed:: true
 				- Consider the double-scalar theory
 				  $$
 				  \mathcal{L}=\sum_{i=1,2} \frac{1}{2}\left(\partial^\mu \phi_i \partial_\mu \phi_i-m_i^2 \phi_i^2\right)-\frac{\lambda}{4 !} \phi_1^2 \phi_2^2
@@ -336,25 +311,19 @@
 				  ![image.png](../assets/image_1683338322322_0.png)
 				- We must have a $\lambda_1 \phi_1^4$ term to cancel the divergence here! Thus we shall assume the term was present in the original Lagrangian and can be reparameterized.
 - # Effective QFT
-  collapsed:: true
 	- Two motivations
-	  collapsed:: true
 		- (a) Is a non-renormalizable theory (i.e. containing some $\Delta_i<0$) completely unpredictive and useless?
 		- (b) Can we integrate out some heavy degrees of freedom to obtain a simpler effective theory?
 	- Example 1. A non-renormalizable theory
-	  collapsed:: true
 		- $$
 		  \mathcal{L}=\frac{1}{2}\left(\partial^\mu \phi \partial_\mu \phi-m^2 \phi^2\right)-\frac{\lambda_4}{4 !} \phi^4-\frac{\lambda_6}{6 !} \phi^6
 		  $$
 		- $[\lambda_6]=-2$, which means $\Delta_6=-2$ by the [theorem](((64584d97-557f-41f3-84d3-5a851bb4c2c9))). Thus the theory is non-renormalizable, i.e. we'd need infinite counter terms to cancel the divergences.
 		- However, if we consider a scattering process with all momenta (including the internal ones!) is smaller than some energy scale $E$, then the theory may still make sense.
-		  collapsed:: true
 			- Equivalent to a cutoff!
 		- Specifically, the higher the power of the interaction, the more it is suppressed, thus we may ignore interactions higher than a certain power..
 	- Example 2. Integrate out the heavy d.o.f.
-	  collapsed:: true
-		- collapsed:: true
-		  $$
+		- $$
 		  \mathcal{L}=\partial_\mu \phi^{\dagger} \partial^\mu \phi-m^2 \phi^{\dagger} \phi+\frac{1}{2} \partial_\mu \rho \partial^\mu \rho-\frac{1}{2} M^2 \rho^2-\frac{k_3}{3 !} \rho^3-g \rho \phi^{\dagger} \phi
 		  $$
 			- Note that it is **super-renormalizable**.
@@ -376,7 +345,6 @@
 			-
 - # [[Renormalization Group]]
 - # Thoughts
-  collapsed:: true
 	- ## Flaws of Perturbation Theory?
 		- From the viewpoint of exact diagonalization
 			- The behaviors of low energy levels are completely determined by their energies and evolve according to $e^{iE_n t}$.
@@ -395,9 +363,7 @@
 			- ((63902fd3-2777-45da-a15d-df163f153399))
 			- It is a miracle that the [[Photon]] has zero mass!
 - # Examples
-  collapsed:: true
 	- $\phi \phi \to \phi \phi$ at 1-loop for $\phi^4$ theory
-	  collapsed:: true
 		- Draw the diagrams:
 		  ![image.png](../assets/image_1682470852307_0.png)
 		- The amplitude can be calculated by dimensional regularization:
@@ -415,7 +381,6 @@
 		  card-next-schedule:: 2023-06-06T01:52:08.575Z
 		  card-last-reviewed:: 2023-05-04T12:52:08.576Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- Idea: We can measure $\lambda$ at some reference scattering process (e.g. at the shreshold, i.e. $s=4m^2,u=t=0$).
 			  Then we can compare different momenta to **cancel the divergence**.
 				- In other words, experimental data could also be a valuable input -- to fix a 'reference' not available from first principles! #[[Thoughts/Math and Physics]]
@@ -441,8 +406,7 @@
 		-
 	- Renormalization of [[QED]]
 		- Setup
-			- collapsed:: true
-			  $$
+			- $$
 			  \mathcal{L}=-\frac{1}{4} F_{\mu \nu} F^{\mu \nu}-\frac{1}{2 \xi}\left(\partial^\mu A_\mu\right)^2+\tilde{\psi}\left(i \gamma^\mu D_\mu-m\right) \psi
 			  $$
 				- The second term is the gauge-fixing term.
@@ -452,30 +416,23 @@
 			  & e_0=Z_e e , \zeta_0=Z_\zeta \zeta , m_0=Z_m m 
 			  \end{aligned}$$
 		- Overview
-		  collapsed:: true
 			- The strategy is to examine certain loop diagrams and obtain the counterterms.
-			  collapsed:: true
 				- Moreover, the diagrams to investigate have clear physical meanings.
 				  For example, the electron vertex function renormalizes $e$ (the coupling constant); electron and phonon propagators renormalize the fields and masses respectively.
 			- Note that not all interactions with $[O_i] \leq 4$ are included, since some are forbidden by the gauge symmetry.
-			  collapsed:: true
 				- e.g. $A_\mu A^\mu, \quad\left(\partial_\mu A_\nu\right) A^\mu A^\nu, \quad A^\mu A^\nu A_\mu A_\nu$
 		- Field and mass renormalization
 			- Use ((646583f6-fc6a-48ee-bd91-b8dcc742e15f))
 			- The analysis is similar to Peskin Chapter 7:
 			  First give a general analysis about 1PI diagrams (geometric series), then calculate the 1-loop diagram.
 			- For photons:
-			  collapsed:: true
 				- $\begin{aligned} G^{(2)}(k) & =\frac{i}{k^2+i \varepsilon}\left[\left(-g_{\mu \nu}+\frac{k_\mu k_\nu}{k^2}\right) \frac{1}{1-\pi\left(k^2\right)}-\zeta \frac{k_\mu k_\nu}{k^2}\right] \\ & \overset{!}{\underset{k^2 \rightarrow 0}{\longrightarrow}} \frac{i}{k^2+i \varepsilon}\left[-g_{\mu \nu}+(1-\zeta) \frac{k_\mu k_\nu}{k^2}\right]+\text { non-singular }\end{aligned}$
-				  collapsed:: true
 					- The analysis can be found [here](((6454f15c-e712-4319-b778-d214749416af))).
 					- The key point is to observe a projector and construct a geometric sequence of **scalars**.
 				- Compare to the desired form of the propagator, we find
 				  $$Z_3=[1-\pi_0(k^2=0)]^{-1}$$
 		- Electric charge renormalization
-		  collapsed:: true
 			- Overview
-			  collapsed:: true
 				- Examine the diagram
 				  ![image.png](../assets/image_1684546075278_0.png){:height 148, :width 188}
 				  and require it to be $(2\pi)^4 \delta^4(\sum p) (-i e) \bar{u}\left(\beta^{\prime}, s^{\prime}\right) \gamma^\mu u(\beta, s) \varepsilon_\mu(q, \lambda)$ in the limit $q \to 0$.
@@ -490,7 +447,6 @@
 			  \frac{1}{Z_e}=\sqrt{Z_3} Z_2 F_1^0\left(q^2=0, m\right)
 			  $$
 		- An extra relation from gauge invariance
-		  collapsed:: true
 			- Recall that we can obtain 
 			  \begin{equation*}
 			  \begin{aligned}
@@ -502,9 +458,7 @@
 			- Here we consider the 2-point function:
 			  $$\partial _{\mu }^{(x)}\left< \Omega\left| T\left\{j_{0}^{\mu } (x)\psi _{0\alpha }( z_{1})\overline{\psi }_{\circ \beta }( z_{2})\right\}\right| \Omega\right> =\delta ^{(4)}( x-z_{1})< \Omega| T\{\psi _{0\alpha }( z_{1})\overline{\psi }_{0\beta }( z_{2})\}| \Omega) -\delta ^{(x)}( x-z_{2})< \Omega| T\{\psi _{0\alpha }( z_{1})\overline{\psi }_{0\beta }( z_{2})\}| \Omega\rangle  $$
 			- After Fourier transformation:
-			  collapsed:: true
-				- collapsed:: true
-				  $$LHS=(2\pi )^{4} \delta ^{(4)}\left( q+p^{\prime } -p\right) (-iq_{\mu } )S_{0\alpha \alpha ^{\prime }}\left( p^{\prime }\right)\hat{\Gamma }_{0\alpha ^{\prime } \beta ^{\prime }}\left( p^{\prime } ,p\right) S_{0\beta ^{\prime } \beta } (p)$$
+				- $$LHS=(2\pi )^{4} \delta ^{(4)}\left( q+p^{\prime } -p\right) (-iq_{\mu } )S_{0\alpha \alpha ^{\prime }}\left( p^{\prime }\right)\hat{\Gamma }_{0\alpha ^{\prime } \beta ^{\prime }}\left( p^{\prime } ,p\right) S_{0\beta ^{\prime } \beta } (p)$$
 					- ![image.png](../assets/image_1684547592664_0.png){:height 239, :width 312}
 					- Here the double line means that a momentum is multiplied.
 					- Note that the index $\mu$ is actually summed over all 4 values, which is the same as the case
@@ -516,6 +470,8 @@
 			  $$
 			  \left.\Gamma_0^\mu\left(p, p^{\prime}\right)\right|_{p^{\prime} \rightarrow p}=i \frac{\partial}{\partial p_\mu} S_0^{-1}(p)
 			  $$
+	- [[Field-Strength Renormalization]]
+	- [[Electric Charge Renormalization]]
 	- [[QCD]]
 		- Setup
 			- \begin{aligned}

@@ -89,11 +89,6 @@
 			- ((6381ca36-6077-413b-8665-7fbbb620d7db))
 		- $\left.\frac{d}{d t}\left(e^{t X} Y e^{-t X}\right)\right|_{t=0}=XY-YX$
 			- This makes use of the structure on R. R have a whole bunch of useful structures!
-			- Corollary. $X Y-Y X \in \mathfrak{g}$ #card
-				- First note that $e^{t X} Y e^{-t X}$ is in $\mathfrak{g}$ for all $t$.
-				- Furthermore, $\mathfrak{g}$ is a real subspace of $M_n(\mathbb{C})$ (from point 2 and 3), then it follows that $\mathfrak{g}$ is a **closed** subset of $M_n(\mathbb{C})$.
-					- This can be seen by taking $\mathbb C^n \simeq \mathbb R^{2n}$ and $\mathbb R^m$ is closed in $\mathbb R^2n$.
-				- Remark: In general settings, 'differentiation' is usually somehow linked with 'closed' since differentiation is defined by a limit (a sequence).
 	- Proposition. If $\mathfrak{g}$ is a Lie algebra, then
 	  card-last-interval:: 67.2
 	  card-repeats:: 3

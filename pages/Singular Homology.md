@@ -160,6 +160,7 @@
 			  ((6461a7c8-3e70-4218-8989-a2b1fa67accf))
 			  the 'side faces' of the cone is produced by cones over the boundary.
 - # Basic Facts
+  collapsed:: true
 	- ((644638a3-9be7-46f8-8abb-f6c3ae2849af)) For all $n \geq 0$, we have $\partial_n \partial_{n+1}=0$. #card
 	  collapsed:: true
 		- First we explicitly write down 
@@ -268,7 +269,6 @@
 			- However, $\operatorname{supp} \zeta$ itself is compact!
 		- Therefore consider $x \in H_n(X)$. $x \in j_*(H_n(A))$, but $H_n(A)=0$, so $x=0$.
 - # The Homotopy Axiom
-  collapsed:: true
 	- We are concerned with the problem:
 	  When does $H_n(f)=H_n(g)$
 	  Does it hold when $f$ and $g$ are homotopic?
@@ -286,10 +286,10 @@
 				- The insight is that dealing with each simplex **separately** would be much easier than dealing with the chain as a whole.
 			- Use the proposition $\partial_{n+1} c_n(\sigma)=\sigma-c_{n-1} \partial_n(\sigma)$, we easily see that $c_n(\sigma)$ is precisely the desired bulk!
 	- ((64677c74-e1cc-4cb6-8792-ba9c791213f7)) (Homotopy Axiom). If $f, g: X \rightarrow Y$ are homotopic, then $H_n(f)=H_n(g)$ for all $n \geq 0$. #card
-	  collapsed:: true
 		- Notes
 			- This is a standard construction called *the method of acyclic models*!
 		- Lemma 1. Assume that $f, g: X \rightarrow Y$ are continuous maps and that there are homomorphisms $P_n: S_n(X) \rightarrow S_{n+1}(Y)$ with
+		  id:: 64645091-3e12-430a-aeb4-5ec910663e10
 		  $$
 		  f_{\#}-g_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
 		  $$
@@ -361,25 +361,14 @@
 			  and we're done.
 				- Just check the two conditions to be satisfied!
 	- Corollary. If $X$ is contractible, then $H_n(X)=0$ for all $n>0$. #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-07T07:41:36.766Z
+	  card-last-reviewed:: 2023-06-06T01:41:36.766Z
+	  card-last-score:: 5
 - # The Hurewicz Theorem
   collapsed:: true
-	- The Hurewicz map $\varphi$ #card
-		- Let $\eta: \Delta^1 \rightarrow \mathrm{I}$ be the homeomorphism $(1-t) e_0+t e_1 \mapsto t$. There is a well defined function
-		  $$
-		  \begin{align*}
-		  \varphi: \pi_1\left(X, x_0\right) & \rightarrow H_1(X) \\
-		  [f] & \mapsto \operatorname{cls} f \eta
-		  \end{align*}
-		  $$
-			- In plain English, view the unit interval as a standard simplex.
-			- ((64698ef0-6ddb-4d50-b967-1b82064ffbce)) $\varphi$ is well-defined.
-				- 'Well defined' means two conditions:
-				  1. $f \eta$ must be a cycle to fall into $H_1(X)$
-				  2. If two paths $f$ and $g$ are homotopic, then they're mapped into the same group element in $H_1(X)$.
-				- Condition 1 is obvious, since a path must be a cycle.
-				- Condition 2
-					- Key idea: **Composition** can be seen as a result of a **pushforward**! #Strategy
-					- To be explicit, $\operatorname{cls} f\eta= H_n(f)(\eta)$, where $\eta$ is viewed as a 1-chain in $\mathbf I$.
 	- Theorem. The Hurewicz map is a homomorphism. #card
 	  collapsed:: true
 		- The goal is to prove that $\varphi([f * g])=\varphi([f])+\varphi([g])$, i.e.
@@ -398,9 +387,16 @@
 			- Then by the key idea, RHS is a boundary!
 			-
 	- ((646cb116-3fcc-4afe-9117-7e4157dc1689))  (Hurewicz Theorem). If $X$ is path connected, then the Hurewicz map $\varphi: \pi_1\left(X, x_0\right) \rightarrow H_1(X)$ is a surjection with kernel $\pi_1\left(X, x_0\right)^{\prime}$, the commutator subgroup of $\pi_1\left(X, x_0\right)$. Hence
+	  card-last-interval:: 27.32
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-12T08:15:12.784Z
+	  card-last-reviewed:: 2023-06-15T01:15:12.784Z
+	  card-last-score:: 5
 	  $$
 	  \pi_1\left(X\right) / \pi_1\left(X\right)^{\prime} \cong H_1(X)
 	  $$ #card
+		- *Could be generalized to higher homotopy and homology groups, which would lead to new insights!
 		- Surjectivity
 			- Could be explicitly constructed by 'joining' the simplexes like line segments to form a closed path.
 		- Kernel

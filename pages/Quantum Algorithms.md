@@ -1,9 +1,9 @@
 - ## Deutsch Josa #card
-  card-last-interval:: 67.2
-  card-repeats:: 3
-  card-ease-factor:: 2.8
-  card-next-schedule:: 2023-05-10T04:42:23.250Z
-  card-last-reviewed:: 2023-03-04T00:42:23.251Z
+  card-last-interval:: 252.3
+  card-repeats:: 4
+  card-ease-factor:: 2.9
+  card-next-schedule:: 2024-02-10T08:13:44.970Z
+  card-last-reviewed:: 2023-06-03T01:13:44.971Z
   card-last-score:: 5
 	- Problem
 		- We have a function $f:\{0,1\}^n \rightarrow\{0,1\}$, which is promised to be constant or balanced.

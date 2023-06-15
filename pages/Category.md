@@ -15,12 +15,12 @@ alias:: [[Category Theory]]
 		-
 	- Definitions
 		- Congruence #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2023-04-15T03:07:40.474Z
-		  card-last-reviewed:: 2023-03-22T03:07:40.476Z
-		  card-last-score:: 3
+		  card-last-interval:: 30
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-07-15T01:09:58.612Z
+		  card-last-reviewed:: 2023-06-15T01:09:58.613Z
+		  card-last-score:: 5
 			- An equivalence relation on the class of all Homs $\cup_{A,B}Hom(A,B)$ in the cat, with the following conditions:
 			- (i) $f \in \operatorname{Hom}(A, B)$ and $f \sim f^{\prime}$ implies $f^{\prime} \in \operatorname{Hom}(A, B)$
 				- Necessary but insufficient.
@@ -398,7 +398,7 @@ alias:: [[Category Theory]]
 				- Only requiring $S$ is symmetric braided monoidal.
 		- Theorems about $E_0$ to $E_3$
 		  collapsed:: true
-			- Lemma 1. Suppose $(C,\otimes,I)$ is a monoidal category. Then $E_0\mathrm{Alg}(C,I)$ is also a monoidal cat. #card
+			- Lemma 1. Suppose $(C,\otimes,I)$ is a monoidal category. Then $E_0\mathrm{Alg}(C,I)$ is also a monoidal cat.
 			  collapsed:: true
 				- For simplicity we take $C$ to be strict.
 				- First we should define the tensor (fusion) in $E_0\mathrm{Alg}(C,I)$
@@ -478,7 +478,7 @@ alias:: [[Category Theory]]
 				  A left module over $A$ in $M$ is a pair $(D\in M, \rho: A \odot D \to D)$ satisfying two consistency relations called associativity and unitality.
 					- Essentially an action functor $\odot: C \otimes M \to M$, with some consistency relations
 					- $A$ is the algebra providing actions and $D$ is the thing to be acted on.
-			- Left $E_2$-module over $A$ in $S$ #card
+			- Left $E_2$-module over $A$ in $S$
 				- A pair $(D \in E_2\mathrm{Alg}(S), \rho: A \odot D \to D)$
 				- Consistency relations
 					- Multiplication in $A$ and the action are compatible

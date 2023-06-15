@@ -67,7 +67,7 @@
 			- $$
 			  \mathcal{L}=\frac{1}{2} \partial_\mu \phi \partial^\mu \phi-j^\mu \partial_\mu \phi
 			  $$
-			- Summary #card
+			- Summary
 				- First obtain $\pi$ and $\mathcal H=\pi \dot{\phi}-\mathcal{L}$
 					- Note that we shall express $\dot\phi$ by $\pi$.
 				- Separate $H_0$ and $V$.

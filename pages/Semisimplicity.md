@@ -99,7 +99,7 @@
 			- For $C$ multi-fusion, $A \in C$ is semisimple if $\mathrm{RMod}_A(C)$ is semisimple.
 		-
 	- Theorem. (Ostrik 03) For $C$ a multi-fusion cat, $M$ finite-semisimple $C$-module.
-	  Then there exists $A \in C$ s.t. $M \simeq \mathrm{RMod}_A(C)$ as $C$-modules. #card #[[To be recorded]]
+	  Then there exists $A \in C$ s.t. $M \simeq \mathrm{RMod}_A(C)$ as $C$-modules.
 		- #+BEGIN_TIP
 		  This also gives insights in topo orders, i.e. we can consider a boundary as **an algebra in the original cat**.
 		  #+END_TIP

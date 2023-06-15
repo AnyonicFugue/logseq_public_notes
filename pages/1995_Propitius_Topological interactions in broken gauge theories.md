@@ -6,12 +6,12 @@ type:: paper_reading
 - ## Things are a bit difficult for me; but try to read as much as I could before giving up and going to Wan!
 - [[Symmetry]]
 	- ((63a69bf0-b7f4-47e1-b0b7-8a9034600f29)) #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-03-16T11:56:35.848Z
-	  card-last-reviewed:: 2023-02-20T11:56:35.849Z
-	  card-last-score:: 5
+	  card-last-interval:: 76.8
+	  card-repeats:: 3
+	  card-ease-factor:: 2.56
+	  card-next-schedule:: 2023-08-19T19:56:24.565Z
+	  card-last-reviewed:: 2023-06-04T00:56:24.565Z
+	  card-last-score:: 3
 		- *Reminder card.* May be better understood in the future.
 		- ((63a69c05-60e9-40ad-8376-c16632b5446b))
 		- ((63a69c35-100e-429e-bbba-f5de95dce77a))

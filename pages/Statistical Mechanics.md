@@ -167,11 +167,11 @@ type:: [[Course]]
   collapsed:: true
 	- Momentum shell
 		- Thought of the approach #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-04-08T17:09:13.209Z
-		  card-last-reviewed:: 2023-01-31T13:09:13.210Z
+		  card-last-interval:: 252.3
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-02-08T10:29:52.758Z
+		  card-last-reviewed:: 2023-06-01T03:29:52.758Z
 		  card-last-score:: 5
 			- We integrate a bit of high-energy degrees of freedom, then examine how the system changes.
 			  At the critical point, the system shall be **insensitive to rescaling**.
@@ -336,7 +336,6 @@ type:: [[Course]]
 			- Dissipation is the response to external perturbations.
 			- Fluctuation can also be viewed as perturbations to the system (by god).
 		- Settings and Definitions
-		  collapsed:: true
 			- $\lang x\rang =0$ when the external field is zero.
 			- Linear response function $\chi$
 				- $$
@@ -381,7 +380,7 @@ type:: [[Course]]
 		-
 		- Quantum version
 			- $$
-			  \operatorname{Im} \chi^{ret}_{BA}(\omega)=\frac{1-e^{-\beta \omega}}{2} S_{BA}(\omega)
+			  \operatorname{Im} \chi^{ret}_{BA}(\omega)=\frac{1-e^{-\beta \omega}}{2} A_{BA}(\omega)
 			  $$
 			- Proof 1
 			  collapsed:: true

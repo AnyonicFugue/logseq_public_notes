@@ -63,6 +63,12 @@
 			- For incoming particles we choose $e^{-ipx}$, so the singularity is in the third region and particles comes to the right of the matrix element.
 			- For outgoing particles we choose $e^{ipx}$, so the singularity is in the first region and particles comes to the left of the matrix element.
 - Statement #card
+  card-last-interval:: 33.94
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-07-18T23:21:12.208Z
+  card-last-reviewed:: 2023-06-15T01:21:12.208Z
+  card-last-score:: 3
 	- $$
 	  \begin{array}{r}
 	  \prod_1^n \int d^4 x_i e^{i p_i \cdot x_i} \prod_1^m \int d^4 y_j e^{-i k_j \cdot y_j}\left\langle\Omega\left|T\left\{\phi\left(x_1\right) \cdots \phi\left(x_n\right) \phi\left(y_1\right) \cdots \phi\left(y_m\right)\right\}\right| \Omega\right\rangle \\ \\

@@ -342,11 +342,11 @@ type:: [[Course]]
 		- In short, if the system has interaction with the environment, quantum superposition becomes classical probability.
 	- Example. Collapse of a 1-Dim particle under an external perturbation
 		- Summary #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-03-02T17:35:54.533Z
-		  card-last-reviewed:: 2022-12-25T13:35:54.534Z
+		  card-last-interval:: 252.3
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-02-13T08:36:22.329Z
+		  card-last-reviewed:: 2023-06-06T01:36:22.329Z
 		  card-last-score:: 5
 			- Interaction (eg scattering) -> Superposition of entangled final states (system and environment) -> Classical mix after tracing out the environment
 			- [[Entanglement]]

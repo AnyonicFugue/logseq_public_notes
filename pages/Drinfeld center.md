@@ -41,6 +41,12 @@
 			- In categories (Grp, Vec) there is no 'element of a group / vector space'. We must express everything by **Homs**. That is, elements are images of certain Homs.
 		- ((6376f23f-1e1d-44a4-ba13-da0f58abe912))
 	- Exercise. $Z(\mathrm{Vec}_G) \simeq Z(\mathrm{Rep}(G) )$ for finite $G$ #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-07-08T07:09:56.396Z
+	  card-last-reviewed:: 2023-06-07T01:09:56.396Z
+	  card-last-score:: 3
 		-
 	-
 	- ((637ad6fa-3746-4892-bba8-183120acd329))

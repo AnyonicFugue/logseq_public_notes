@@ -12,9 +12,18 @@
 			  \chi=\left.\frac{\delta S}{\delta \psi}\right|_{\psi_0}
 			  $$
 				- Why do we define it in this way? #card
+				  card-last-interval:: 31.26
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-07-05T07:04:01.005Z
+				  card-last-reviewed:: 2023-06-04T01:04:01.005Z
+				  card-last-score:: 5
+					- First of all, it's common to capture the notion of **variance** by a dual object.
 					- We must somehow find a way to define 'an infinitesimal change of the field'.
-					- We can't vary $\psi(x)$ because it would break the continuity. 
-					  Naturally, the next thought is to vary the whole function in a smooth manner, which lead to a one-parameter family.
+						- We can't vary $\psi(x)$ because it would break the continuity.
+					- Naturally, the next thought is to vary the whole function in a smooth manner, which lead to a one-parameter family.
+					- This might also be viewed as selecting a 'direction of variance' on the configuration manifold. 
+					  We obtain the tangent vector by differentiating wrt $\lambda$.
 					- Smooth one-parameter families are perfectly legitimate, but there bound to be some better ways.
 						- Maybe ask category for help?
 			- See [Wald](((64297a39-f7ff-4ff6-9670-c0ab2cfbf079)))

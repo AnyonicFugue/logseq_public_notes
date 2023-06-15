@@ -14,8 +14,7 @@ alias:: Superconductor
 			- The unusual thing is that particle modes and hole modes **mix** in the Bogoliubov transformation.
 		- Formulae
 			- $$H_{MF}=\sum _{k\alpha } (\varepsilon _{k} -\mu )c_{k\alpha }^{\dagger } c_{k\alpha }+\Delta \sum _{k} c_{-k,\downarrow }^{\dagger } c_{k,\uparrow }^{\dagger } +\Delta ^{*}\sum _{k} c_{k,\uparrow } c_{-k,\downarrow }$$
-				- collapsed:: true
-				  $$\Delta =-2V\sum _{k} \langle c_{k\uparrow } c_{-k\downarrow } \rangle $$
+				- $$\Delta =-2V\sum _{k} \langle c_{k\uparrow } c_{-k\downarrow } \rangle $$
 					- Note that due to the broken $U(1)$ symmetry, we can always take $\Delta$ to be real.
 			- $$\begin{aligned}
 			  \left(\begin{array}{ c }
@@ -36,74 +35,54 @@ alias:: Superconductor
 			  v_{k} & =\sqrt{\frac{E_{k} -\xi _{k}}{2E_{k}}}
 			  \end{aligned}$$
 	- # Effective Interaction
-	  collapsed:: true
 		- Result
-		  collapsed:: true
 			- $$H=\sum _{k\alpha }( \varepsilon _{k} -\mu ) c_{k\alpha }^{\dagger } c_{k\alpha } -V\sum _{kk'q}\sum _{\alpha \beta } c_{k+q,\alpha }^{\dagger } c_{k^{\prime } -q,\beta }^{\dagger } c_{k^{\prime } \beta } c_{k\alpha }$$
 		- Start point
-		  collapsed:: true
-			- collapsed:: true
-			  $$
+			- $$
 			  H^{(2)} =\frac{1}{N}\sum _{kk^{\prime } q}| M_{q}| ^{2}\frac{-\omega _{q}}{\omega _{q}^{2} -( \epsilon _{k} -\epsilon _{k+q})^{2}} c_{k'+q}^{\dagger } c_{k^{\prime } -q}^{\dagger } c_{k^{\prime }} c_{k}
 			  $$
 				- Note that the strength is negative, so it is an **attractive** interaction!
 				- See ((6454f1b7-ff0b-480d-8fa3-7795a4bcbc51)) for reference.
-				  collapsed:: true
 					- In short, this is the sum of two scattering processes (via a virtual phonon)
 		- Approximations
-		  collapsed:: true
 			- All electron momenta ($k,k',k+q,k'-q$) must be on the Fermi surface.
 			- $k+k'=0$
-			  collapsed:: true
 				- This is the dominant part of the scattering.
 				- ![image.png](../assets/image_1684725600513_0.png)
-				  collapsed:: true
 					- $k+k' \neq 0$ is illustrated by the first picture. The allowed region is only a narrow belt of the Fermi surface.
 					- However, when $k+k'=0$, the whole Fermi surface is allowed!
 			- Ignore the frequency dependence of the interaction strength
-			  collapsed:: true
 				- $$V(\vec{q} ,\omega )=\begin{cases}
 				  -V_{0} , & \omega < \omega _{D}\\
 				  0, & \omega  >\omega _{D}
 				  \end{cases}$$
 				- This is a crude approximation, but enough for our toy model to work!
 	- # Mean-Field Approximation
-	  collapsed:: true
 		- > The most important question: What should be the order parameter?
 		  The calculation is pure routine.
 		- ## Order parameter
-		  collapsed:: true
 			- $$\Delta(k):=\langle c_{k,\alpha} c_{-k,\beta}\rangle$$
 			- $\alpha,\beta$ are spin indices.
 			- It corresponds to Cooper pairs!
 		- ## Singlet (s-wave) and triplet (p-wave) pairing
-		  collapsed:: true
 			- Start point: The system should have spin-rotation invariance.
 			- A pair of spin 1/2 particles would be a direct sum of two representations of $SU(2)$, namely the spin-0 part (singlet) and the spin-1 part (triplet)
-			  collapsed:: true
 				- Singlet:
-				  collapsed:: true
 				  $$\langle c_{k,\alpha} c_{-k,\beta}\rangle \propto \varepsilon_{\alpha \beta}$$
 					- Proposition. $\Delta(k)=\Delta(-k)$
 				- Triplet:
-				  collapsed:: true
 				  $$\langle c_{k,\alpha} c_{-k,\beta}\rangle \propto \vec u(k) \cdot \vec \sigma_{\alpha \beta}$$
 					-
 		- We shall only examine s-wave pairing here, i.e.
 		  $$\langle c_{k\alpha } c_{k'\beta }\rangle \varpropto \delta _{k+k',0} \epsilon _{\alpha \beta }$$
 		- ## Mean-Field Hamiltonian
-		  collapsed:: true
 			- Result
-			  collapsed:: true
-				- collapsed:: true
-				  $$H_V=\Delta \sum _{k} c_{-k,\downarrow }^{\dagger } c_{k,\uparrow }^{\dagger } +\Delta ^{*}\sum _{k} c_{k,\uparrow } c_{-k,\downarrow }$$
-					- collapsed:: true
-					  $$\Delta =-2V\sum _{k} \langle c_{k\uparrow } c_{-k\downarrow } \rangle $$
+				- $$H_V=\Delta \sum _{k} c_{-k,\downarrow }^{\dagger } c_{k,\uparrow }^{\dagger } +\Delta ^{*}\sum _{k} c_{k,\uparrow } c_{-k,\downarrow }$$
+					- $$\Delta =-2V\sum _{k} \langle c_{k\uparrow } c_{-k\downarrow } \rangle $$
 						- Note that due to the broken $U(1)$ symmetry, we can always take $\Delta$ to be real.
 					- $$H_{MF} =\sum _{k\alpha } (\varepsilon _{k} -\mu )c_{k\alpha }^{\dagger } c_{k\alpha } +H_{V}$$
 					  Define $\xi_k=\varepsilon _{k} -\mu$ for convenience.
 			- Derivation
-			  collapsed:: true
 				- \begin{aligned}
 				  
 				  H_{V} & =-V\sum _{kk'q}\sum _{\alpha \beta }\left\{c_{k^{\prime } -q,\beta }^{\dagger } c_{k+q,\alpha }^{\dagger }< c_{k\alpha } c_{k^{\prime } \beta }> +\left< c_{k^{\prime } -q,\beta }^{\dagger } c_{k+q,\alpha }^{\dagger }\right> c_{k\alpha } c_{k^{\prime } \beta }\right\}\\
@@ -120,7 +99,6 @@ alias:: Superconductor
 				  \end{aligned}
 			-
 		- ## Bogoliubov Transformation and Spectrum
-		  collapsed:: true
 			- Result
 				- $$\begin{aligned}
 				  \left(\begin{array}{ c }
@@ -169,7 +147,6 @@ alias:: Superconductor
 			- To obtain different limits, the common strategy is to change the summation into an integration (with a weight of density of states) and approximate by $N(\omega)=N_0$.
 			- To obtain $T_c$, we consider $\lim_{\Delta \to 0^+}$.
 		- Derivation
-		  collapsed:: true
 			- First rewrite the Hamiltonian as
 			  $$\begin{aligned}
 			  H_{MF} & =\sum _{k} E_{k}\left( \gamma _{k\uparrow }^{\dagger } \gamma _{k\uparrow } +\gamma _{k\downarrow }^{\dagger } \gamma _{k\downarrow }\right)

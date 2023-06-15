@@ -3,15 +3,15 @@
 - # Photon [[1PI]] diagrams and general analysis of them
   id:: 6454f15c-e712-4319-b778-d214749416af
 	- Summary #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-04-14T05:38:58.013Z
-	  card-last-reviewed:: 2023-03-21T05:38:58.014Z
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-08-26T01:20:31.817Z
+	  card-last-reviewed:: 2023-06-03T01:20:31.817Z
 	  card-last-score:: 5
 		- Only possible quantities are
 			- $g^{\mu \nu}$ and $q^\mu q^\nu$
-		- Ward identity to determine the combination
+		- Ward identity to determine the combination $q^2g_{\mu\nu}-q^\mu q^\nu$
 		- Effect on the photon propagator and electron charge
 			- Geometric series
 			- Charge renormalization
