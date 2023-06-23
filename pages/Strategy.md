@@ -17,8 +17,16 @@
 		- eg. First homology: Abelian groups are easier than general ones.
 - Construct a differential equation. #card
   id:: 640ad127-cc23-464b-b796-fb5a07f8049a
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-07-18T07:19:08.977Z
+  card-last-reviewed:: 2023-06-17T01:19:08.978Z
+  card-last-score:: 5
 	- Different objects can be shown to be identical by uniqueness of solution.
-	- Solving an infinitesimal local property is often way easier than tackling the global thing!
+	- Solving an **infinitesimal local property** is often way easier than tackling the **global** thing!
+	- More generally, if we have a structure of manifold, we may view some quantity as the value of a field **at a point**.
+	  The field has some better 'global' property and might be viewed as an 'integral curve'.
 - Use a set of elementary moves. Prove invariance under each element of the set. #card
   id:: 63fa1061-a719-42a4-8b01-2bd603e394fc
   card-last-interval:: 30

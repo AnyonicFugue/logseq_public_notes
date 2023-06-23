@@ -75,6 +75,12 @@ alias:: [[Category Theory]]
 				- In other words, it is surjective in terms of isomorphism classes
 					- In categories only isomorphism classes (rather than specific objects) account.
 			- Full and Faithful #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-07-19T07:05:58.621Z
+			  card-last-reviewed:: 2023-06-18T01:05:58.621Z
+			  card-last-score:: 5
 				- Full if for each $x, y \in \mathrm{C}$, the map $\mathrm{C}(x, y) \rightarrow \mathrm{D}(F x, F y)$ is surjective
 				- Faithful if for each $x, y \in \mathrm{C}$, the map $\mathrm{C}(x, y) \rightarrow \mathrm{D}(F x, F y)$ is injective
 		- Contravariant functor #card
@@ -91,6 +97,12 @@ alias:: [[Category Theory]]
 			- (iii) $S\left(1_A\right)=1_{S A}$ for every $A \in \operatorname{obj} \mathscr{A}$.
 		- Hom functor #card
 		  collapsed:: true
+		  card-last-interval:: 31.21
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-20T06:11:57.553Z
+		  card-last-reviewed:: 2023-06-19T01:11:57.554Z
+		  card-last-score:: 5
 			- Denoted by $Hom(X,-)$ or just $C(X,-)$
 			- A functor from $\mathcal C$ to $\mathrm{Set}$ given by
 			  $$Hom_C(X,-)(Y):=Hom_C(X,Y) \\ Hom_C(X,-)(g):=g \circ -$$
@@ -182,12 +194,21 @@ alias:: [[Category Theory]]
 	- Comma category #card
 	  id:: 6417d04a-7bd7-4f24-8124-2ececcbcebbe
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-17T07:03:16.237Z
+	  card-last-reviewed:: 2023-06-16T01:03:16.238Z
+	  card-last-score:: 5
 		- $(S/T)$ (or $S\downarrow T$) is defined for two functors $\mathcal{A} \stackrel{S}{\longrightarrow} \mathcal{C} \stackrel{T}{\longleftarrow} \mathcal{B}$
 		- Objects
 			- triples $(A,B,f)$ where $A \in \mathrm{Ob}(\mathcal{A}), B \in \mathrm{Ob}(\mathcal{B}), f: S A \rightarrow T B$
 		- Morphisms
 			- The morphisms from $(A, B, h)$ to $\left(A^{\prime}, B^{\prime}, h^{\prime}\right)$ are **pairs** $(f, g)$ where $f: A \rightarrow A^{\prime}$ and $g: B \rightarrow B^{\prime}$ are morphisms in $\mathcal{A}$ and $\mathcal{B}$ respectively, such that the following diagram commutes:
-			- ((6417d364-50ec-428b-8802-491cc147e3d1))
+			  ((6417d364-50ec-428b-8802-491cc147e3d1))
+		- Remark
+			- In categories, morphisms are more important than objects, since morphisms indicate how the objects interact.
+			- Roughly speaking, the spirit of the comma category is 'the relation between two embeddings'.
 		- The composition of homs are given by compositions in $\mathcal{A}$ and $\mathcal{B}$.
 		-
 		-
@@ -555,11 +576,11 @@ alias:: [[Category Theory]]
 - # Representability and Yoneda Lemma
   collapsed:: true
 	- Representable functor #card
-	  card-last-interval:: 33.94
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-14T23:36:20.657Z
-	  card-last-reviewed:: 2023-04-11T01:36:20.658Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-08-02T01:38:17.245Z
+	  card-last-reviewed:: 2023-06-21T01:38:17.246Z
 	  card-last-score:: 5
 		- Exist some x s.t. $\mathrm{Hom}_{\mathcal{C}}(X,-) \simeq F$ (naturally isomorphic)
 		- Examples

@@ -14,6 +14,12 @@
   collapsed:: true
 	- Mapping cylinder #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-07-18T07:20:17.255Z
+	  card-last-reviewed:: 2023-06-17T01:20:17.255Z
+	  card-last-score:: 3
 		- Let $f: X \rightarrow Y$ be continuous and define
 		  $$
 		  M_f=((X \times \mathbf{I}) \sqcup Y) / \sim
@@ -106,6 +112,7 @@
 				- It preserves affine combinations.
 				- The map can be determined by an affine independent subset ('basis'). As a special case, by the vertices of a simplex.
 		- ### About Simplexes
+		  collapsed:: true
 			- Barycentric coordinate #card
 			  collapsed:: true
 			  card-last-interval:: 30
@@ -120,6 +127,12 @@
 				- Intuitively, this means how to obtain a point in the 'affine simplex' by the vertices.
 			- Barycenter #card
 			  collapsed:: true
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-07-18T07:23:24.419Z
+			  card-last-reviewed:: 2023-06-17T01:23:24.419Z
+			  card-last-score:: 5
 				- If $\left\{p_0, \ldots, p_m\right\}$ is affine independent, the barycenter of $\left[p_0, \ldots, p_m\right]$ is $(1 / m+1)\left(p_0+p_1+\cdots+p_m\right)$.
 				- > Barycenter comes from the Greek *barys* meaning heavy; thus, barycenter is just "center of gravity"
 			- m-simplex in $\mathbb R^n$ #card
@@ -245,6 +258,12 @@
 		- If $f: I \rightarrow X$ is a path, its inverse path $f^{-1}: \mathbf{I} \rightarrow X$ is defined by $t \mapsto f(1-t)$.
 	- Defs
 		- Relative homotopy #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-07-18T07:15:59.609Z
+		  card-last-reviewed:: 2023-06-17T01:15:59.609Z
+		  card-last-score:: 3
 			- For two continuous maps $f_0,f_1:X \to Y$ and $f_0|_A = f_1|_A$, if there is a continuous map $F: X \times \mathbf{I} \rightarrow Y$ with $F: f_0 \simeq f_1$ and
 			  $$
 			  F(a, t)=f_0(a)=f_1(a) \quad \text { for all } a \in A \text { and all } t \in \mathbf{I} .
@@ -272,7 +291,14 @@
 		- Lemma. The relations $\simeq$ and $\simeq p$ are equivalence relations.
 			- Easy to verify identity, reflexivity and transitivity.
 		- Lemma. If $f \simeq g$, then $f \circ h \simeq g \circ h$ #card
-			-
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-21T06:55:49.549Z
+		  card-last-reviewed:: 2023-06-20T00:55:49.549Z
+		  card-last-score:: 5
+			- The fact is simple, but the underlying idea is precious:
+			  Study the relations of maps, especially 'preserved under composition'
 	- Homotopy class
 	-
 	- ## Convexity, contractibility and cones
@@ -289,7 +315,14 @@
 			  id:: 6427a15a-5b02-4445-a1b6-1aa2219b1b94
 				- A space $X$ is contractible if $1_X$ is nullhomotopic.
 			- Identification #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-07-19T07:16:26.686Z
+			  card-last-reviewed:: 2023-06-18T01:16:26.687Z
+			  card-last-score:: 5
 				- A continuous surjection $f: X \rightarrow Y$ is an identification if a subset $U$ of $Y$ is open if and only if $f^{-1}(U)$ is open in $X$.
+					- ‘The finest topology', i.e. the maximal set of possible open subsets.
 				- Equivalently, $f$ is a quotient map. There's even a corollary for this:
 				- ((6427a61a-b555-44c4-8ba2-c37e4c6faa27)) Let $X$ and $Z$ be spaces, and let $h: X \rightarrow Z$ be an identification. Then the map $\varphi: X / \operatorname{ker} h \rightarrow Z$, defined by $[x] \mapsto h(x)$, is a homeomorphism.
 			- Fiber #card
@@ -305,8 +338,14 @@
 				- If $X$ is a space, define an equivalence relation on $X \times \mathbf{I}$ by $(x, t) \sim$ $\left(x^{\prime}, t^{\prime}\right)$ if $t=t^{\prime}=1$.
 					- Intuitively, identify all points at the top.
 				- Denote the equivalence class of $(x, t)$ by $[x, t]$. The **cone** over $X$, denoted by $C X$, is the quotient space $X \times \mathbf{I} / \sim$.
-		- ((6427a17b-2b44-4fbe-a61f-27a9b853464c)) Every convex set $X$ is contractible. #card
-			- Just use the common trick of construction!
+		- ((6427a17b-2b44-4fbe-a61f-27a9b853464c)) Every convex subset of $\mathbb R^n$ is contractible. #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-22T07:36:09.780Z
+		  card-last-reviewed:: 2023-06-21T01:36:09.781Z
+		  card-last-score:: 5
+			- Just use the trick of scaling!
 		- Theorem. Let $f: X \rightarrow Y$ be a continuous surjection. Then $f$ is an identification if and only if, for all spaces $Z$ and all functions $g: Y \rightarrow Z$, one has $g$ continuous if and only if $g f$ is continuous.
 		  card-last-interval:: 31.26
 		  card-repeats:: 1

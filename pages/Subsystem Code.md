@@ -6,8 +6,10 @@
 	- Error-correcting relies on redundance.
 	- We may add redundance in the obvious way: Consider the space $A \otimes B$. $A$ stores the logical information, while $B$ is completely free.
 		- We say that B is the **gauge subsystem**.
-		- This leads us to rethink:
+		-
 - # Problems
+	- Could there be entanglement between the logical part and the gauge part?
+		- For example, if there is a state $|0\rangle \otimes |0\rangle + |1\rangle \otimes |1\rangle$, then the gauge operators would have nontrivial effects.
 	- Can we always find a set of generators of $G$ in the form $\{X_1,...,X_l;X_{l+1},Z_{l+1},...,X_{l+g},Z_{l+g}\}$?
 		- If this holds, then $S=C(G)$ and the gauge part is $L=G/C(G)$ follows easily.
 		- To generalize: For a set of operators satisfying $P^2=\pm 1$, $P_i P_j= \pm P_j P_i$, can we always find such generators?

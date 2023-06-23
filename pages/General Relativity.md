@@ -22,8 +22,14 @@ alias:: GR
 - # Principles
   collapsed:: true
 	- General Covariance #card
-		- The metric of space is the only quantity pertaining to space that can appear in the laws of physics.
-		- Specifically, there are no preferred vector fields or preferred bases of vector fields pertaining only to the structure of space which appear in any law of physics.
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-21T06:49:09.857Z
+	  card-last-reviewed:: 2023-06-20T00:49:09.858Z
+	  card-last-score:: 5
+		- The metric (and its derivatives) is the only quantity pertaining to space that can appear in the laws of physics.
+		- Specifically, there are no preferred vector fields or preferred bases of vector fields pertaining only to the structure of spacetime which appear in any law of physics.
 			- As a consequence, the (undifferentiated) Christoffel symbol cannot appear in physical laws since it implies a preferred frame.
 		- Rephrased, laws of physics are the same in all reference frames (with only the metric dependent on the frame)
 		- See ((64267a67-8dfa-44a6-a52c-4f86ebc81214))
@@ -55,6 +61,12 @@ alias:: GR
 		- Quick memorization: Two plus and a minus, raised by a metric, symmetric positive at the two lower indices
 	- Geodesic equation #card
 	  id:: 64268b1f-18f1-4eb8-a851-d33728ebfa9c
+	  card-last-interval:: 29.9
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-18T22:13:26.345Z
+	  card-last-reviewed:: 2023-06-19T01:13:26.345Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- Covariant form:
 		  $$
@@ -420,8 +432,7 @@ alias:: GR
 		- Comparing with the Newtonian solution (in a proper gauge) we obtain $M=-C/2$, thus
 		  $$
 		  d s^2=-\left(1-\frac{2 M}{r}\right) d t^2+\left(1-\frac{2 M}{r}\right)^{-1} d r^2+r^2 d \Omega^2
-		  $$ #card
-			- *Complete the comparison!
+		  $$
 		-
 	- ## Birkhoff's Theorem
 	  collapsed:: true
@@ -611,12 +622,18 @@ alias:: GR
 		- Non-singular spacetime, just bad behaviors of coordinates
 			- This is usually shown by explicitly constructing the coordinate transformation
 	- ## Strategy #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-17T07:03:46.139Z
+	  card-last-reviewed:: 2023-06-16T01:03:46.140Z
+	  card-last-score:: 5
 		- *In general there's no known simple strategy. But this does exist in 2D.
 		- Step 1. Find two families of null geodesics (incoming and outgoing)
 			- Note that in 2D, geodesics within a family can't cross (since there's only one null tangent in 2D).
 			- What makes this work?
 			  background-color:: pink
-				- Exploiting the mathematical structure of the metric: Null space. It is a canonical choice for the construction of a preferred vector (coordinate).
+				- Exploiting the mathematical structure of the metric: Null space. It is a **canonical** choice for the construction of a preferred vector field (coordinate).
 				- Also we may consider the eigensystem, but this seemed to be less useful.
 		- Step 2. Construct a coordinate, with component 1,2 **constant** along each geodesic in family 1,2 separately.
 			- A geodesic is geometrical, but the length along a geodesic is not.

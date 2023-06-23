@@ -1,5 +1,11 @@
 - ((63e38a70-4b41-476b-b989-2419e008da6d))
 - Idea: {{cloze Introduce auxiliary parameters to simplify the expression, then change the order of integration.}} #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-07-18T07:14:20.475Z
+  card-last-reviewed:: 2023-06-17T01:14:20.475Z
+  card-last-score:: 5
 	- The trick is usually followed by changing the order of integrations and shifting integration variables (To complete the square).
 	- So there's the inherent problem: Can we really exchange the order of integration?
 	  collapsed:: true

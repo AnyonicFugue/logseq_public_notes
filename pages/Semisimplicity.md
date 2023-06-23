@@ -11,6 +11,12 @@
 			- 'Simple' means 'no nontrivial sub-thing'
 		- In a semisimple category, this is equivalent to $\mathrm{Hom}_{\mathcal{C}}(x,x) \simeq \mathbb C$
 	- Pre-semisimple category #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-07-20T07:12:48.250Z
+	  card-last-reviewed:: 2023-06-19T01:12:48.250Z
+	  card-last-score:: 3
 		- A k-linear cat C, such that 
 		  (1) Every object is a direct sum of simple objects
 		  (2) $\forall x,y,z \in C$ simple, $\forall f: x \to y, g: y \to z$, $g \circ f \neq 0$
@@ -30,6 +36,12 @@
 		- Proof
 			- Note than with a linear structure, prove two things are 'same' <-> prove 0 is mapped to 0.
 	- Corollaries of ((641a6be7-3db1-44a5-be18-92070cdb5125)) #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-07-22T07:28:29.120Z
+	  card-last-reviewed:: 2023-06-21T01:28:29.120Z
+	  card-last-score:: 3
 		- Two simple objects are either isomorphic or disjoint.
 		- For some simple $x$, $\mathrm{Hom}_{\mathcal{C}}(x,x)$ is a finite-dimensional division algebra, i.e. each nonzero element has an inverse.
 			- Note that when it is C-linear, the division algebra has to be $\mathbb C$.

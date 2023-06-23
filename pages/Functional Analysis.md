@@ -37,8 +37,23 @@
 				-
 	- ## Examples
 		- id:: 643b4ac6-657b-468b-b31e-6c7106b9db20
+		  card-last-interval:: -1
+		  card-repeats:: 1
+		  card-ease-factor:: 2.5
+		  card-next-schedule:: 2023-06-21T16:00:00.000Z
+		  card-last-reviewed:: 2023-06-21T01:44:50.489Z
+		  card-last-score:: 1
 		  $$
 		  \frac{\delta}{\delta \varphi(x)}\left(\int d^4 x\mathcal{L}\right)=\frac{\partial \mathcal{L}}{\partial \varphi}-\partial_\mu\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_\mu \varphi\right)}\right)
 		  $$ #card
-			- We should start from the definition of a functional derivative: $\phi'(x)=\phi(x)+\lambda f(x)$
+			- We should start from the definition of a functional derivative, which is defined by a parameter.
+				- $$
+				  \frac{d S}{d \lambda}=\int_M \chi \delta \psi
+				  $$
+				  We call $\chi$ the functional derivative of $S$ and denote it as
+				  $$
+				  \chi=\left.\frac{\delta S}{\delta \psi}\right|_{\psi_0}
+				  $$
+			- Then we set $\phi'(x)=\phi(x)+\lambda f(x)$ and examine $\frac{d S}{d \lambda}$.
+			- $\frac{\delta}{\delta \varphi(x)}\left(\int d^4 x\mathcal{L}\right)$ shall be **defined** as $\chi(x)$.
 			-

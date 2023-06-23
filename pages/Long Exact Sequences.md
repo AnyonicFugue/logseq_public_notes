@@ -1,5 +1,5 @@
--
 - # Definitions
+  collapsed:: true
 	- Chain complex #card
 	  card-last-interval:: 30
 	  card-repeats:: 1
@@ -187,8 +187,9 @@
 		  \end{aligned}
 		  $$
 		- ((647aa2b0-b8d2-41ee-97e4-1eaec58c3aaa))
-			- Our proof would be based on diagrams, which is quite intuitive and straightforward.
+			- Note that there is indeed one step of differentiation, thus justifying the symbol $d$.
 		- Proof of the existence
+			- Our proof would be based on diagrams, which is quite intuitive and straightforward.
 			- Essential observations
 				- {{embed ((647aa3ac-6823-4267-9c09-729db1f023d1))}}
 				- Since the complex sequence is **exact**, 'image of the previous map' and 'kernel of the next map' must be the same.
@@ -227,7 +228,28 @@
 				-
 		-
 	- Relative Homology Group #card
+	  collapsed:: true
 		- If $A$ is a subspace of $X$, the $n$th relative homology group $H_n(X, A)$ is defined to be $H_n\left(S_*(X) / S_*(A)\right)$.
+		- Equivalently:
+			- The group of relative $n$-cycles $\bmod A$ is
+			  $$
+			  Z_n(X, A)=\left\{\gamma \in S_n(X): \partial_n \gamma \in S_{n-1}(A)\right\} .
+			  $$
+				- The boundary is inside $A$.
+			- The group of relative n-boundaries $\bmod A$ is
+			  $$
+			  \begin{aligned}
+			  B_n(X, A) & =\left\{\gamma \in S_n(X): \gamma-\gamma^{\prime} \in B_n(X) \text { for some } \gamma^{\prime} \in S_n(A)\right\} \\
+			  & =B_n(X)+S_n(A) .
+			  \end{aligned}
+			  $$
+				- A boundary up to some chain in $A$.
+			- $$
+			  H_n(X, A) \cong Z_n(X, A) / B_n(X, A)
+			  $$
+			- ((648fb18e-53e6-47db-83a2-de6e1a3b8222))
+				- For example, a path $\sigma$ in $X$ is a 1-cycle if it is a closed path; it is a **relative** 1-cycle if it begins and ends in $A$.
+				- Observe, in this example, that if $A=\left\{x_0\right\}$, then "cycle" and "relative cycle" coincide. This is actually true (almost) always.
 		- Intuitively, this group carries information about those cycles in $X$ but not in $A$.
 - # In the viewpoint of [[Category]]
   collapsed:: true
@@ -261,6 +283,7 @@
 	-
 		-
 - # Exact Homology Sequences
+  collapsed:: true
 	- Theorem (Exact Triangle). If $0 \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right) \stackrel{i}{\rightarrow}\left(S_*, \partial\right) \stackrel{p}{\rightarrow}\left(S_*^{\prime \prime}, \partial^{\prime \prime}\right) \rightarrow 0$ is a short exact sequence of complexes, then there is an exact sequence
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
@@ -301,6 +324,8 @@
 				- ![20230604-103346.jpg](../assets/20230604-103346_1685846074099_0.jpg){:height 271, :width 443}
 				-
 	- Theorem (Naturality of the Connecting Homomorphism). Assume that there is a commutative diagram of complexes with exact rows:
+	  id:: 647e8f80-4fe7-4abf-9afb-b68d9132f3db
+	  collapsed:: true
 	  ((647e907a-a2f1-45b1-a0a9-6b025d01dc13))
 	  then there is a commutative diagram of abelian groups with exact rows:
 	  ((647e9334-836b-458b-8990-1b9bdc5e7538)) #card
@@ -356,3 +381,159 @@
 			- Quite straightforward, just verify that the domains are correct and the maps are well-defined.
 		- Step 3. Just apply the above theorem!
 		-
+	- Theorem (Exact Sequence of the Triple $\left(X, A, A^{\prime}\right)$). If $A^{\prime} \subset A \subset X$ are subspaces, there is an exact sequence
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-21T06:45:21.994Z
+	  card-last-reviewed:: 2023-06-20T00:45:21.995Z
+	  card-last-score:: 5
+	  collapsed:: true
+	  $$
+	  \cdots \rightarrow H_n\left(A, A^{\prime}\right) \rightarrow H_n\left(X, A^{\prime}\right) \rightarrow H_n(X, A) \stackrel{d}{\rightarrow} H_{n-1}\left(A, A^{\prime}\right) \rightarrow \cdots .
+	  $$
+	  Moreover, if there is a commutative diagram of pairs of spaces
+	  ((648eab1e-e8e5-4cdb-be20-7b57454fe9de))
+	  then there is a commutative diagram with exact rows
+	  ((648eab42-5631-43c3-832b-17e550bf9264)) #card
+		- Remark
+			- This is very similar to the third isomorphism theorem,
+			  $$(X/A)/(B/A) \simeq X/B$$
+			- However there's also another viewpoint:
+			  In the category $\mathbf{Top}^2$ where objects are pairs $(X,A)$, we have inclusions
+			  $$
+			  \left(A, A^{\prime}\right) \hookrightarrow\left(X, A^{\prime}\right) \hookrightarrow(X, A)
+			  $$
+			- When taking $A'=\empty$, $H_n(A,A')=H_n(A)$.
+			  In other words, absolute homology groups are special cases of relative homology groups.
+		- Proof
+			- Invoke the [theorem](((647e8f80-4fe7-4abf-9afb-b68d9132f3db))) once more, this time with $S'=S_*(A,A'),S=S_*(X,A'),S''=S_*(X,A)$.
+			- The verifications of commutativity and exactness are trivial.
+		-
+	- Theorem (Five Lemma). Consider the commutative diagram with exact rows:
+	  ((648eb0dc-4eda-4c2a-b8d0-3ac1d8f1bea3))
+	  (i) If $f_2$ and $f_4$ are surjective and $f_5$ is injective, then $f_3$ is surjective.
+	  (ii) If $f_2$ and $f_4$ are injective and $f_1$ is surjective, then $f_3$ is injective.
+	  (iii) If $f_1, f_2, f_4, f_5$ are isomorphisms, then $f_3$ is an isomorphism. #card
+		- We are interested in the structure of chain maps, thus we invented this lemma.
+		- (i)
+			- Comments
+				- The proof uses each commutative square exactly once.
+				- The structure of abelian groups (which gives the unique element 0) is also crucial.
+				  Not so easy for general sets.
+				- Q: Is every exactness used?
+				  background-color:: red
+					- No. e.g. Not used in the rightmost, only $q_4 \circ q_3=0$ is used.
+			- Key idea: First prove $f_3$ could cover all of $B_3/ (\operatorname{Ker} q_3)$, then prove it could also cover all of $\operatorname{Ker} q_3=\operatorname{Im} q_2$
+			- First part
+			  collapsed:: true
+				- Use the rightmost square:
+				  ![20230618-161720.jpg](../assets/20230618-161720_1687076278664_0.jpg){:height 199, :width 460}
+					- Note that $f_5$ is injective means that the last step could be shortened.
+				- By exactness, this means
+				  $$\operatorname{Im} f_4^{-1} \circ q_3 \sub \operatorname{Ker} p_4=\operatorname{Im} p_3$$
+				  which is equivalent to 
+				  $$\operatorname{Im} q_3 \sub \operatorname{Im}(f_4 \circ p_3)$$
+				- On the other hand, we have 
+				  $$\operatorname{Im} (f_4 \circ p_3) \sub \operatorname{Im} q_3$$
+				  by commutativity of the third square.
+				- Therefore
+				  $$\operatorname{Im} q_3 = \operatorname{Im}(f_4 \circ p_3)$$
+				  which means $f_3$ could cover all of $B_3/ (\operatorname{Ker} q_3)$
+			- Second part
+			  collapsed:: true
+				- Due to commutativity of the second square,
+				  $$\operatorname{Im} q_2 \circ f_2 \sub \operatorname{Im} f_3$$
+				- On the other hand,
+				  $$\operatorname{Im} q_2 \circ f_2=\operatorname{Im} q_2$$
+				  due to surjectivity and
+				  $$\operatorname{Im} q_2=\operatorname{Ker} q_3$$
+				  due to exactness.
+				- This finishesd our proof.
+				-
+		- (ii)
+			- The proof is long but straightforward.
+			  We start from some $x \in A_3$ s,t, $f_2(x)=0$, then use exactness and commutativity repeatedly.
+				- There is one possible way each step, so there are no deviations from the proof.
+			- Finally we find some $z \in A_1$ s.t. $x=p_2p_1(z)$, which finishes our proof.
+		- (iii)
+			- Just combining (i) and (ii)
+	-
+- # Relative Homology
+	- Theorem. If $X$ is path connected and $A$ is a nonempty subspace, then $H_0(X, A)=0$ #card
+		- Recall that $Z_0(X)=\operatorname{Ker} \partial_0=S_0(X)$.
+		  Similarly $Z_0(X,A)=S_0(X,A)$.
+		- What remains is to prove that $B_0(X,A)=S_0(X,A)$.
+		  The key is chains in $A$ could cancel 'remaining coefficients' and make any chain a boundary.
+	- ((648fb74f-609d-49ce-a558-45f5e4d30140)). If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$, then, for each $n \geq 0$,
+	  $$
+	  H_n(X, A) \cong \sum_\lambda H_n\left(X_\lambda, A \cap X_\lambda\right)
+	  $$ #card
+		- The key is still a simplex must be within a single path components,
+		  thus $Z_n(X,A)$ and $B_n(X,A)$ could both be decomposed by path components.
+	- Corollary. $H_0(X, A)$ is free abelian and
+	  $$
+	  \operatorname{rank} H_0(X, A)=\operatorname{card}\left\{\lambda \in \Lambda: A \cap X_\lambda=\varnothing\right\}
+	  $$
+	  (where $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$ ). #card
+		- An easy exercise to recall the above theorems.
+	- Theorem. Let $X$ be a space with basepoint $x_0$. Then
+	  $$
+	  H_n\left(X, x_0\right) \cong H_n(X)
+	  $$
+	  for all $n \geq 1$. #card
+		- Brute-force verification
+			- First, divide $X$ into path components.
+			  Then we may only consider the path components containing $x_0$, i.e. the case where $X$ is path-connected.
+			- Note that there is only one simplex $\sigma_0$ in $\{x_0\}$, so $S_0(x_0) \simeq \mathbb Z$.
+			- When $n$ is even:
+			  collapsed:: true
+				- $$\partial_n \sigma_e^{(n)}=\sigma_e^{(n-1)}$$
+					- Note that $\Delta_n$ has (n+1) vertices and (n+1) faces
+				- Proposition.
+				  $$Z_n(X,x_0)=Z_n(X)+\langle \sigma_e^{(n)}\rangle$$$$
+				  B_n(X,x_0)=B_n(X)+\langle \sigma_e^{(n)}\rangle$$
+				- It's easy to verify that their quotients is just $H_n(X)$
+					- Note that it is necessary to use
+					  $$Z_n(X) \cap \langle \sigma_e^{(n)}\rangle=0$$ 
+					  and 
+					  $$B_n(X) \cap \langle \sigma_e^{(n)}\rangle=0$$.
+			- When $n$ is odd:
+			  collapsed:: true
+				- $$\partial_n \sigma_e^{(n)}=0$$
+				- Proposition. There is no chain $\gamma \in S_n(X)$ s.t. $\partial_n \gamma \in S_{n-1}(x_0)$
+					- Algebraic way
+						- $$S_{n-1}(x_0)=\{m \sigma_e^{(n-1)}\}$$
+						  which have nonzero boundaries.
+						- **We cannot permit the boundary of any chain to have a boundary!**
+						  background-color:: pink
+						- This holds for any chains.
+					- Geometric intuition
+						- Suppose $\gamma_k \varepsilon_i=\sigma_e^{(n-1)}$.
+						  This means the opposite face is crumpled to a single point.
+						- Thus all side faces become line segments.
+						- Moreover the orientation is fixed, i.e. it must be $\sigma_e^{(n-1)}-\gamma_k \varepsilon$, where $\gamma_k \varepsilon$ is the line segment obtained by crumpling side faces.
+						- Therefore we cannot cancel the side faces and leave a nonzero multiple of $\sigma_e^{(n-1)}$.
+						-
+		- Elegant way: calculation by exact sequences
+			- First recall ((6454f1b7-5d36-4a76-b56c-aa3dc7b2515d))
+			- Then we can tackle the relative homology group by exact sequences (the standard technique!):
+			- There is an exact sequence
+			  $$
+			  \cdots \rightarrow H_n\left(\left\{x_0\right\}\right) \rightarrow H_n(X) \rightarrow H_n\left(X, x_0\right) \rightarrow H_{n-1}\left(\left\{x_0\right\}\right) \rightarrow \cdots \text {. }
+			  $$
+			- $n \geq 2$
+				- $n-1 \geq 1$, and the dimension axiom (Theorem 4.12) gives $H_n\left(\left\{x_0\right\}\right)=0=H_{n-1}\left(\left\{x_0\right\}\right)$; hence $H_n(X) \cong H_n\left(X, x_0\right)$ for all $n \geq 2$.
+			- $n=1$
+				- Look at the tail of the exact sequence:
+				  $$
+				  \cdots \rightarrow H_1\left(\left\{x_0\right\}\right) \rightarrow H_1(X) \stackrel{p}{\rightarrow} H_1\left(X, x_0\right) \stackrel{d}{\rightarrow} H_0\left(\left\{x_0\right\}\right) \stackrel{i}{\rightarrow} H_0(X){\rightarrow} H_0\left(X, x_0\right) \rightarrow 0 .
+				  $$
+				- Since $H_1\left(\left\{x_0\right\}\right)=0$, the map $p$ is injective.
+				- $p$ surjective <-> $\operatorname{Ker} d=H_1(X,x_0)$ <-> $\operatorname{Im} d=0$ <-> $\operatorname{Ker} i =0$
+				- The proof is finished.
+		- Remark
+			- It's not foolish to verify by brute force, but we should always stand a layer higher to extract the structure and obtain a **viewpoint** (or even a vision)!
+			- However, how to find the essence of the proof and obtain the viewpoint?
+				- ((648fef0f-b15f-40aa-986a-63987de4ae51))
+-

@@ -378,12 +378,20 @@ type:: [[Course]]
 				- On the other hand, $\langle x(t)\rangle$ can be related to linear response by def.
 				- The theorem follows by comparison.
 		-
-		- Quantum version
+		- Quantum version #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-22T07:33:59.878Z
+		  card-last-reviewed:: 2023-06-21T01:33:59.879Z
+		  card-last-score:: 5
+			- Physical intuition:
+			  Fluctuation is the dissipation of intrinsic randomness.
+				- Don't just be mesmerized by the theorem and the proof! Physical intuitions can be a powerful compass!
 			- $$
 			  \operatorname{Im} \chi^{ret}_{BA}(\omega)=\frac{1-e^{-\beta \omega}}{2} A_{BA}(\omega)
 			  $$
 			- Proof 1
-			  collapsed:: true
 				- Write $\hat{\rho}(t)=\hat{\rho}_{e q}+\hat{\delta \rho}(t)$
 				- Write the Heisenberg equation and discard second-order terms
 				- Directly write out the solution $\delta\hat{\rho}(t)=\frac{i}{\hbar} \int_{-\infty}^t h\left(t^{\prime}\right) e^{-\frac{i}{\hbar} H_0\left(t-t^{\prime}\right)}\left[\hat{B}, \hat{\rho}_{e q}\right] e^{\frac{i}{\hbar} H_0\left(t-t^{\prime}\right)} d t^{\prime}$
@@ -392,8 +400,6 @@ type:: [[Course]]
 				- Insert completeness relations to absorb $H_0$
 					- ![image.png](../assets/image_1669212892551_0.png)
 				- The rest is very simple.
-			- Proof 2 #card
-				- *Complete by the definitions of solid state!
 		- Summary
 		  card-last-interval:: 61.44
 		  card-repeats:: 3

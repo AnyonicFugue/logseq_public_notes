@@ -43,6 +43,12 @@
 		  \end{aligned}
 		  $$
 	- Prop. Gaussian Integration:
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-07-20T07:09:18.320Z
+	  card-last-reviewed:: 2023-06-19T01:09:18.320Z
+	  card-last-score:: 3
 	  $$\int d^{N} \zeta d^{N} \zeta ^{*} e^{\zeta ^{\dagger} A\zeta } =\operatorname{det} A$$ #card
 		- \begin{aligned}
 		  \int d^{N} \zeta d^{N} \zeta ^{*} e^{\zeta ^{\dagger } A\zeta } & \underset{\zeta ^{\prime } =A\zeta }{=}\int d^{N} \zeta ^{\prime } d^{N} \zeta ^{*}\left\Vert \frac{d\zeta }{d\zeta^{\prime }}\right\Vert e^{\zeta ^{\dagger } \zeta ^{\prime }}\\

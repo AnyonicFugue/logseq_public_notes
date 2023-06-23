@@ -84,6 +84,12 @@
 		- Introduce an integration over p to obtain the heaviside function, $\langle\Omega|\phi(x) \phi(y)| \Omega\rangle=\sum_\lambda \int \frac{d^4 p}{(2 \pi)^4} \frac{i}{p^2-m_\lambda^2+i \epsilon} e^{-i p \cdot(x-y)}\left|\left\langle\Omega|\phi(0)| \lambda_0\right\rangle\right|^2$
 			- Familiar form! A propagator multiplied by a weight (spectral density).
 	- ## Form of the representation #card
+	  card-last-interval:: 31.21
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-20T06:08:53.745Z
+	  card-last-reviewed:: 2023-06-19T01:08:53.746Z
+	  card-last-score:: 5
 		- $$\langle\Omega|T \phi(x) \phi(y)| \Omega\rangle=\int_0^{\infty} \frac{d M^2}{2 \pi} \rho\left(M^2\right) D_F\left(x-y ; M^2\right)$$
 			- $\rho\left(M^2\right)$ is called the **spectral density**.
 				- A delta function at $M^2=m^2$ (physical mass, not bare mass), a continuum for $M^2 \gtrsim 4m^2$

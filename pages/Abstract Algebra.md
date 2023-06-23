@@ -101,6 +101,12 @@
 			  (ii) $G / F$ is torsion.
 			- In plain English, the number of **free** generators.
 		- ((63d7642c-363d-44b6-970e-dd670e678218)). Let $G=G_1 * G_2$. Let $N_i$ be a normal subgroup of $G_i$, for $i=1,2$. If $N$ is the least normal subgroup of $G$ that contains $N_1$ and $N_2$, then $$G / N \cong\left(G_1 / N_1\right) *\left(G_2 / N_2\right)$$ #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-21T06:49:51.111Z
+		  card-last-reviewed:: 2023-06-20T00:49:51.112Z
+		  card-last-score:: 5
 			- 'Least normal subgroup' means the intersection of all containing subgroups.
 			- Categorical way
 				- We still need to define the quotients categorically.

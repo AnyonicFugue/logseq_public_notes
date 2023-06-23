@@ -1,3 +1,11 @@
+- [[References]]
+	- [[2020_Rudner_Lindner_The Floquet Engineer's Handbook]]
+		- Formalism and basic theory.
+	- ![2019_Oka_Kitamura_Floquet Engineering of Quantum Materials.pdf](file://zotero_link/Research/Floquet/2019_Oka_Kitamura_Floquet Engineering of Quantum Materials.pdf)
+- # Questions
+	- How is the effective Hamiltonian related to physical behaviors?
+		- [Here](((648ff108-034f-4286-b3d4-f6fd2a121c87))) they take the effective Hamiltonian for granted and claim the model to be that of a static Hamiltonian (Haldane model).
+		- [Here](((648ff30b-dd82-4f04-9d08-f983307e8d59))) they calculated the linear response (Hall conductance), which seems more physical.
 - # Basic Theory
 	- ## Setup
 	  collapsed:: true
@@ -32,14 +40,21 @@
 		- Floquet Brillione zone
 			- An energy interval $\epsilon_{min} < \epsilon < \epsilon_{min}+\hbar \omega$
 			- This is to fix the redundancy.
-	- Floquet Theorem. There is an orthonomal basis of 'Floquet states', $\left\{\left|\psi_n(t)\right\rangle\right\}$, which satisfy $\left|\psi_n(t+T)\right\rangle=e^{-i \varepsilon_n T / \hbar}\left|\psi_n(t)\right\rangle$. #card
-	  collapsed:: true
-		- The parameter $\varepsilon_n$ is the **quasi-energy** of Floquet state $\left|\psi_n(t)\right\rangle$.
-		- Proof
-			- Consider the evolution operator
-			  $$U(T)=\mathcal{T} e^{-\frac{i}{\hbar }\int _{0}^{T} dt^{\prime } H\left( t^{\prime }\right)}$$.
-			- It has an orthonormal basis of eigenvectors since it is unitary.
-			  Obviously the basis vectors are the desired Floquet states.
+	- ## Floquet Theorem and Effective Hamiltonian
+		- Floquet Theorem. There is an orthonomal basis of 'Floquet states', $\left\{\left|\psi_n(t)\right\rangle\right\}$, which satisfy $\left|\psi_n(t+T)\right\rangle=e^{-i \varepsilon_n T / \hbar}\left|\psi_n(t)\right\rangle$. #card
+		  collapsed:: true
+			- The parameter $\varepsilon_n$ is the **quasi-energy** of Floquet state $\left|\psi_n(t)\right\rangle$.
+			- Proof
+				- Consider the evolution operator
+				  $$U(T)=\mathcal{T} e^{-\frac{i}{\hbar }\int _{0}^{T} dt^{\prime } H\left( t^{\prime }\right)}$$.
+				- It has an orthonormal basis of eigenvectors since it is unitary.
+				  Obviously the basis vectors are the desired Floquet states.
+		- Proposition. If we change the starting time of a period, the effective Hamiltonian only changes by a unitary transformation (which can be viewed as a basis transformation).
+			- $$e^{-i \hat{H}_{\mathrm{F}}\left(\alpha_1\right) T}=\hat{U}^{\dagger}\left(\alpha_2, \alpha_1\right) e^{-i \hat{H}_{\mathrm{F}}\left(\alpha_2\right) T} \hat{U}\left(\alpha_2, \alpha_1\right)$$
+			- Therefore the similarity transformation could be absorbed by the exponential:
+			  $$
+			  \hat{H}_{\mathrm{F}}\left(\alpha_1\right)=\hat{U}^{\dagger}\left(\alpha_2, \alpha_1\right) \hat{H}_{\mathrm{F}}\left(\alpha_2\right) \hat{U}\left(\alpha_2, \alpha_1\right)
+			  $$
 	- ## Analysis in Fourier space
 	  collapsed:: true
 		- Theorem. We may solve the Floquet states in the form of an eigenequation

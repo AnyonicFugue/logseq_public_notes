@@ -57,29 +57,7 @@ type:: [[Course]]
 				  \hat{H}=-t \sum_{\left\langle ij \right\rangle}\left(\hat{c}_i^{\dagger} c_j+c . c .\right)
 				  $$
 				- By Fourier transformation, we can diagonalize the Hamiltonian and obtain $E_{\vec{k}}=-2 t\left[\cos \left(k_x a\right)+\cos \left(k_y a\right)\right]$.
-	- ## Bloch Wavefunction
-	  collapsed:: true
-		- Bloch Theorem. $\psi_k(r)=e^{ikr}u_k(r)$ in a periodic potential.
-		  collapsed:: true
-			- Note that the wavefunction **cannot be normalized** when the system is infinite.
-			- Proof
-			  collapsed:: true
-				- In a periodic potential, the Hamiltonian $H$ commutes with the period-translation operator $T$. Thus we may find their common eigenvectors.
-			-
-		- Notation
-		  collapsed:: true
-			- collapsed:: true
-			  $$
-			  \psi_{n \vec{k}}(\vec{r})=e^{i \vec{k} \cdot \vec{r}} u_{n \vec{k}}(\vec{r})
-			  $$
-				- The n^th level of Bloch wavevector $k$
-			- Normalization
-			  collapsed:: true
-				- $$
-				  \left\langle\psi_{n_1 k_1} \mid \psi_{n_2 k_2}\right\rangle=\frac{1}{V} \delta_{n_1 n_2} \delta^3\left(\vec{k}_1-\vec{k}_2\right)
-				  $$
-				- Note: $\frac{1}{V}$ is regarded to cancel $\delta^3(0)$.
-		-
+	- ## [[Bloch Theorem]] and Bloch Wavefunction
 	- ## Wannier Wavefunction
 	  collapsed:: true
 		- Idea

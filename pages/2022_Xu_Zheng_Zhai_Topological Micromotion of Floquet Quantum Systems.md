@@ -1,4 +1,7 @@
 - ![2022_Xu_Zheng_Zhai_Topological Micromotion of Floquet Quantum Systems.pdf](file://zotero_link/Research/Floquet/Floquet and Topology/2022_Xu_Zheng_Zhai_Topological Micromotion of Floquet Quantum Systems.pdf)
+- # Problems
+	- How did they construct the invariant? From the band structure?
+	- Selecting different start times only provides a basis transformation, so the spectrum is always the same.
 - # Setup
 	- Effective Hamiltonian
 		- $$
@@ -19,4 +22,5 @@
 			  $$
 			  and the map can be classified by $\pi_3(S^2)$.
 			- In principle we can also examine higher spheres and higher homotopy groups, but our space has only three dimensions, so such effort would not be too fruitful.
+		-
 		- To summarize, the topological invariants of the $(n+1)-d$ Hamiltonian of the $nd$ system could protect $(n-1)d$ edge states.

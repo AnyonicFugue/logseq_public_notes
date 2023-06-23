@@ -149,12 +149,12 @@
 	- Quantum double [[Category]]
 		- See ((63744ba1-f824-4527-870b-0bd482b3bacc))
 	- The quantum double is a [[Lattice Gauge Theory]] with gauge group G. #card
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-17T00:46:36.119Z
-	  card-last-reviewed:: 2023-05-18T00:46:36.119Z
-	  card-last-score:: 5
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-07-31T01:02:48.101Z
+	  card-last-reviewed:: 2023-06-19T01:02:48.102Z
+	  card-last-score:: 3
 		- Analogy to the conventional gauge theories
 			- Conventional
 				- Wilson lines are the fundamental quantities

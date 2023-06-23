@@ -60,11 +60,11 @@
 			- Never see anything like $e^{-\beta E}$.
 		- Experimentalists often use this method to obtain the effective mass.
 	- Susceptibility #card
-	  card-last-interval:: 30
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-05-30T01:00:12.385Z
-	  card-last-reviewed:: 2023-04-30T01:00:12.386Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-10-13T15:08:24.741Z
+	  card-last-reviewed:: 2023-06-18T01:08:24.742Z
 	  card-last-score:: 5
 		- Idea
 			- First obtain the dependence of $E_0$ on $m$.

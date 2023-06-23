@@ -32,6 +32,12 @@
 				- The precise definition is as follows:
 					- ((63f1dc64-debc-421e-b334-2cfc0e75207c))
 						- ((63f1ddd2-9f0d-4e7e-a23b-94ab139e161f)) #card
+						  card-last-interval:: 31.26
+						  card-repeats:: 1
+						  card-ease-factor:: 2.36
+						  card-next-schedule:: 2023-07-22T07:28:14.669Z
+						  card-last-reviewed:: 2023-06-21T01:28:14.670Z
+						  card-last-score:: 3
 							- Note that ((63f1ddff-4d6d-4e9c-8703-eeac52e3bfb5)), incoming particle as positive
 					- Sum over all possible fusion channels.
 				- ((63e85493-7abb-4406-95d9-6059dbada06e))
