@@ -2,6 +2,7 @@
   id:: 638d57a7-30e1-4243-8ec8-babe77af9cf8
 	- There seems to be something deeper inside. Galois theory -> Study field extensions by means of automorphism groups.
 - How to deal with commutative diagrams #card
+  collapsed:: true
 	- No-go
 		- In general a path might **not** go (in the language of set theories, $x \notin \operatorname{Im}f$).
 		  Therefore 'reversing arrows and add $\operatorname{Ker}f$' is nontrivial.
@@ -29,7 +30,7 @@
 			- Gluing the bottom to the target!
 	- Some cats
 		- $\mathscr{C}=\mathrm{Top}^2$
-			- Here obj $\mathscr{C}$ consists of all ordered pairs $(X, A)$, where $X$ is a topological space and $A$ is a subspace of $X$. A morphism $f:(X, A) \rightarrow$ $(Y, B)$ is an ordered pair $\left(f, f^{\prime}\right)$, where $f: X \rightarrow Y$ is continuous and $f i=j f^{\prime}$ (where $i$ and $j$ are inclusions),
+			- Here obj $\mathscr{C}$ consists of all ordered pairs $(X, A)$, where $X$ is a topological space and $A$ is a subspace of $X$. A morphism $f:(X, A) \rightarrow$ $(Y, B)$ is an ordered pair $\left(f, f^{\prime}\right)$, where $f: X \rightarrow Y$ is continuous and $f i=j f^{\prime}$ (where $i$ and $j$ are inclusions).
 		- $\mathscr{C}=\operatorname{Top}_*$
 			- Here obj $\mathscr{C}$ consists of all ordered pairs $\left(X, x_0\right)$, where $X$ is a topological space and $x_0$ is a point of $X$.
 			- $Top_*$ is a subcategory of Top ${ }^2$ (subspaces here are always one-point subspaces), and it is called the category of **pointed spaces**; $x_0$ is called the basepoint of $\left(X, x_0\right)$, and morphisms are called pointed maps (or basepoint preserving maps). The category ${Sets}_*$ of pointed sets is defined similarly.
@@ -252,11 +253,13 @@
 - # Homotopy
   collapsed:: true
 	- Some notations
+	  collapsed:: true
 		- If $f: \mathbf{I} \rightarrow X$ is a path from $x_0$ to $x_1$, call $x_0$ the origin of $f$ and write $x_0=\alpha(f)$; call $x_1$ the end of $f$ and write $x_1=\omega(f)$. A path $f$ in $X$ is closed at $x_0$ if $\alpha(f)=x_0=\omega(f)$
 			- Observe that if $f$ and $g$ are paths with $f \simeq g$ rel \dot$\mathbf{I}$, then $\alpha(f)=\alpha(g)$ and $\omega(f)=\omega(g)$; therefore we may speak of the origin and end of a path class and write $\alpha[f]$ and $\omega[f]$.
 		- If $p \in X$, then the constant function $i_p: \mathbf{I} \rightarrow X$ with $i_p(t)=p$ for all $t \in I$ is called the constant path at $p$.
 		- If $f: I \rightarrow X$ is a path, its inverse path $f^{-1}: \mathbf{I} \rightarrow X$ is defined by $t \mapsto f(1-t)$.
 	- Defs
+	  collapsed:: true
 		- Relative homotopy #card
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
@@ -302,6 +305,7 @@
 	- Homotopy class
 	-
 	- ## Convexity, contractibility and cones
+	  collapsed:: true
 		- Defs
 			- Convex #card
 			  card-last-interval:: 31.26
@@ -372,6 +376,7 @@
 			-
 - # [[Singular Homology]]
 - # [[Long Exact Sequences]]
+- # [[Excision]]
 -
 - [[Retraction]]
   collapsed:: true
@@ -488,11 +493,11 @@
 	- [[Deformation Retraction]] and [[Homotopy Equivalence]]
 	- ((6393f3d8-803c-4134-af68-b91b9739c5e7)) Given a **nonvanishing** vector field on $B^2$, there exists a point of $S^1$ where the vector field points directly inward and a point of $S^1$ where it points directly outward. #card
 	  collapsed:: true
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-12T00:56:14.850Z
-	  card-last-reviewed:: 2023-05-13T00:56:14.851Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-08-10T01:39:46.609Z
+	  card-last-reviewed:: 2023-06-29T01:39:46.609Z
 	  card-last-score:: 5
 		- Intuition
 		  card-last-score:: 5

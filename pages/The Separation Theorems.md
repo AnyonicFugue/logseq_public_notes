@@ -73,7 +73,7 @@
 		- ((63be53bc-62bf-41bf-afc3-62805726de36)) Let $G$ be a subspace of $S^2$ that is a complete graph on four vertices $a_1, \ldots, a_4$. Let $C$ be the subgraph $a_1 a_2 a_3 a_4 a_1$, which is a simple closed curve. Let $p$ and $q$ be interior points of the edges $a_1 a_3$ and $a_2 a_4$, respectively. Then:
 		  collapsed:: true
 		  (a) The points $p$ and $q$ lie in different components of $S^2-C$.
-		  (b) The inclusion $j: C \rightarrow S^2-p-q$ induces an **isomorphism** of fundamental groups. #card
+		  (b) The inclusion $j: C \rightarrow S^2-p-q$ induces an **isomorphism** of fundamental groups.
 			- ((63be53e5-0e1f-43be-8bb1-2bd7b88e5e16))
 			- (a) is very simple. We may invoke the fact that the theta diagram divides into three components.
 			- (b) might be proven by the [theorem](((63bbc3cd-2356-45f1-819c-e950c33d75aa)))

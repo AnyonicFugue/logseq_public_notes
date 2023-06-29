@@ -59,13 +59,19 @@
 			   & =\frac{1}{|N|^{2}}\int D[\phi ]\exp\left\{i\int d^{4} x\ \mathcal{L} +\frac{1}{2}\operatorname{tr} [\ln (1+U(\phi ))]\right\}
 			  \end{aligned}$$
 		- Note that $\pi ^{T} \partial _{0} \phi$ is precisely $\sum \pi_i \dot\phi_i$.
-- # Fundamental formula #card
+- # Fundamental Formula #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-07-26T06:57:56.108Z
+  card-last-reviewed:: 2023-06-25T00:57:56.108Z
+  card-last-score:: 5
 	- $$
 	  \left\langle\phi_b(\mathbf{x})\left|e^{-i H T}\right| \phi_a(\mathbf{x})\right\rangle=\int \mathcal{D} \phi \exp \left[i \int_0^T d^4 x \mathcal{L}[\phi]\right]
 	  $$
 	  with constraints $\phi_a(\mathbf{x})$ at $x^0=0$ and $\phi_b(\mathbf{x})$ at $x^0=T$
 		- Note that $\mathcal L[\phi]$ is the Lagrangian of a **classical** field, while $|\phi_a(x)\rangle$ (actually $\phi_a(x)|0\rangle$) is a **quantum state**.
-		- Therefore, the constraints actually mean that there's a certain quantum-classical correspondence.
+		- Therefore, the constraints actually mean that there's a certain **quantum-classical correspondence**.
 			- Compare to QM: The quantum state $|x\rangle$ corresponds to a particle at position $x$.
 	- How is it consistent with the Hamiltonian formulation?
 	  background-color:: red

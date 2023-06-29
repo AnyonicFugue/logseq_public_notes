@@ -1,4 +1,10 @@
 - # Model #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-07-30T07:44:02.540Z
+  card-last-reviewed:: 2023-06-29T01:44:02.541Z
+  card-last-score:: 3
 	- What makes the model work?
 	  background-color:: red
 		- The key property is $[A_v,B_p]=0, A_v^2=B_p^2=1$.
@@ -7,11 +13,13 @@
 	- There is a degree of freedom on each edge labeled by a group element.
 		- Note that we may **reverse the orientation** by substituting $g$ by $g^{-1}$
 	- ## Lattice
-		- $A_v=\frac{1}{|G|} \sum_{g \in G} A_v^g$
+		- $$A_v=\frac{1}{|G|} \sum_{g \in G} A_v^g$$
+		  'Gauge invariance'
 			- ![image.png](../assets/image_1671109047284_0.png)
 			  outgoing orientation.
 			- Note that different edges may be **entangled**.
-		- $B_p=\delta g_1 ... g_N, e$
+		- $$B_p=\delta g_1 ... g_N, e$$
+		  'No-flux'
 			- ![image.png](../assets/image_1671108991839_0.png)
 			  orientation in the most natural way.
 			- **The order of the multiplication is important. Group elements of adjacent edges must be adjacent in the expression.**

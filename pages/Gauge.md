@@ -342,6 +342,12 @@ alias:: Gauge Theory
 			  id:: 6404430c-1c1c-40a7-a9f6-977362c15589
 				- Obviously $A_\mu$ must also transform.
 				- Exercise. Prove the law of transformation of $A_\mu$. #card
+				  card-last-interval:: 31.2
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-07-29T04:54:34.205Z
+				  card-last-reviewed:: 2023-06-28T00:54:34.206Z
+				  card-last-score:: 5
 					- Hint: Examine the infinitesimal behavior.
 			- This also absorbs the interaction term into the derivative!
 		- Conclusion

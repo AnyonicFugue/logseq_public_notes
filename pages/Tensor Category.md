@@ -18,11 +18,11 @@
 			  ((63719d3c-6026-4c67-ab32-d7b4211a7b4b))
 				- ((63719d59-3c84-4cde-86d5-1889cdcbd6a9))
 				- How to prove the uniqueness? #card
-				  card-last-interval:: 24
-				  card-repeats:: 2
-				  card-ease-factor:: 2.22
-				  card-next-schedule:: 2023-04-01T03:56:02.404Z
-				  card-last-reviewed:: 2023-03-08T03:56:02.405Z
+				  card-last-interval:: 87.36
+				  card-repeats:: 3
+				  card-ease-factor:: 2.08
+				  card-next-schedule:: 2023-09-23T08:51:09.711Z
+				  card-last-reviewed:: 2023-06-28T00:51:09.712Z
 				  card-last-score:: 3
 			- ((636e0f8f-03e1-4e5b-a210-2ab74274c700))
 			-

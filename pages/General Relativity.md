@@ -241,6 +241,12 @@ alias:: GR
 			  However, if $\phi$ is a diffeomorphism, we can use $\phi^{-1}$ to define pushforward and pullback for mixed tensors (exercise).
 		- ### Link with Symmetry
 			- Isometry #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-07-28T06:44:00.215Z
+			  card-last-reviewed:: 2023-06-27T00:44:00.216Z
+			  card-last-score:: 5
 				- If $\phi: M \rightarrow M$ is a diffeomorphism, $T$ is a tensor field on $M$ and $\phi^* T=T$, $\phi$ is a symmetry transformation for the tensor field $T$.
 				- In the case of the metric $g_{a b}$, a symmetry transformation, or a diffeomorphism $\phi$ such that $\left(\phi^* g\right)_{a b}=g_{a b}$, is called an isometry.
 				- Notes
@@ -689,6 +695,12 @@ alias:: GR
 					- Future null infinity $\mathscr{I}^{+}:$the region toward which outgoing null geodesics extend. It corresponds to the points at $t+r \rightarrow \infty$ with finite $t-r$.
 					- Past null infinity $\mathscr{I}^{-}$: the region from which ingoing null geodesics come. It corresponds to the points at $t-r \rightarrow-\infty$ with finite $t+r$.
 			- ((6454f170-9fed-40e5-845e-c72df45c05ab)) #card
+			  card-last-interval:: 32.57
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-07-27T14:04:38.960Z
+			  card-last-reviewed:: 2023-06-25T01:04:38.960Z
+			  card-last-score:: 5
 				- Transformation
 					- \begin{aligned}
 					  & \tilde{t}=\frac{1}{2} \tan \frac{T+R}{2}+\frac{1}{2} \tan \frac{T-R}{2} \\
@@ -1016,18 +1028,16 @@ alias:: GR
 			- However, we can always talk about tidal forces (relative acceleration of two observers).
 		- The earth is a special case: We have the earth as a natural reference frame, or we have a natural notion of time-translation symmetry (standing on the surface of the earth)
 	- Calculate time measured by an observer #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-08T17:25:33.918Z
-	  card-last-reviewed:: 2023-04-07T11:25:33.919Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-08-09T00:50:42.494Z
+	  card-last-reviewed:: 2023-06-28T00:50:42.495Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- What is an observer?
-		  collapsed:: true
 			- A trajectory in the spacetime, with a locally Minkowski reference frame
 		- What is the time he measured?
-		  collapsed:: true
 			- Difference of proper time (i.e. time in the observer's frame)
 		- Special case: Static observer
 		  collapsed:: true

@@ -287,3 +287,45 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   hl-page:: 113
   hl-color:: yellow
   id:: 648fb74f-609d-49ce-a558-45f5e4d30140
+- Theorem 
+  ls-type:: annotation
+  hl-page:: 114
+  hl-color:: yellow
+  id:: 6498fa19-1bd6-4422-adea-7450bcbca1fe
+- Theorem
+  ls-type:: annotation
+  hl-page:: 116
+  hl-color:: yellow
+  id:: 64993bd2-30a9-4b3e-85ac-34328b6085e2
+- Theorem 
+  ls-type:: annotation
+  hl-page:: 119
+  hl-color:: yellow
+  id:: 649940c8-ab08-4e88-ba1d-4dd7ac323e7f
+- Lemma
+  ls-type:: annotation
+  hl-page:: 119
+  hl-color:: yellow
+  id:: 649955ab-be2a-45ae-ae5f-743dfa29ed7b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 119
+  hl-color:: yellow
+  id:: 649955c6-e5a3-4cad-9648-224497609a54
+  hl-type:: area
+  hl-stamp:: 1687770565197
+- Theorem
+  ls-type:: annotation
+  hl-page:: 119
+  hl-color:: yellow
+  id:: 649b9b72-174d-40b4-bcff-9f48f3b1e56b
+- Corollary
+  ls-type:: annotation
+  hl-page:: 120
+  hl-color:: yellow
+  id:: 649cef7f-3587-45f0-af4b-ec8471ef0d5d
+- Theorem
+  ls-type:: annotation
+  hl-page:: 121
+  hl-color:: yellow
+  id:: 649cf085-8b8d-44f2-b4ef-e754b39ba39e

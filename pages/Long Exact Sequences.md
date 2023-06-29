@@ -1,5 +1,8 @@
+- #+BEGIN_NOTE
+  Exact sequences put very strong constraints on the maps, thus we usually need not know the details of how the maps act, but only need the groups at each point.
+  See ((649b9cbd-4a34-42d6-bcc4-97f1a0f91445)) for example.
+  #+END_NOTE #card
 - # Definitions
-  collapsed:: true
 	- Chain complex #card
 	  card-last-interval:: 30
 	  card-repeats:: 1
@@ -251,6 +254,26 @@
 				- For example, a path $\sigma$ in $X$ is a 1-cycle if it is a closed path; it is a **relative** 1-cycle if it begins and ends in $A$.
 				- Observe, in this example, that if $A=\left\{x_0\right\}$, then "cycle" and "relative cycle" coincide. This is actually true (almost) always.
 		- Intuitively, this group carries information about those cycles in $X$ but not in $A$.
+	- Reduced Homology Group #card
+		- Augmented Singular Complex $\tilde S(X)$
+			- Let $\left(S_*(X), \partial\right)$ be the singular complex of a space $X$. Define $\tilde{S}_{-1}(X)$ to be the infinite cyclic group with generator a, and define $\tilde{\partial}_0: S_0(X) \rightarrow \widetilde{S}_{-1}(X)$ by $\sum m_x x \mapsto\left(\sum m_x\right)a$.
+			- The augmented singular complex of $X$ is
+			  $$
+			  \tilde{S}_*(X): \quad \cdots \rightarrow S_2(X) \stackrel{\partial_2}{\rightarrow} S_1(X) \stackrel{\partial_1}{\rightarrow} S_0(X) \stackrel{\tilde{\partial}_0}{\rightarrow} \widetilde{S}_{-1}(X) \rightarrow 0
+			  $$
+			- What's the idea behind the extension?
+			  background-color:: red
+				- To give a reasonable definition of $S_{-1}$ so that every space can be viewed as pointed.
+		- Proposition. $\tilde \partial_0 \partial_1=0$.
+			- The key is that 1-simplexes (and any odd-simplex) have even numbers of faces
+		- The reduced homology group is defined as 
+		  $$
+		  \tilde{H}_n(X)=H_n\left(\widetilde{S}_*(X), \partial\right)
+		  $$
+			- 'Reduced' can be comprehended in the sense that $Z_0(X)$ becomes smaller.
+	- Homotopy in $\mathbf{Top}^2$ #card
+		- If $f, g:(X, A) \rightarrow(Y, B)$, then $f \simeq g \bmod A$ if there is a continuous $F:(X \times \mathbf{I}, A \times \mathbf{I}) \rightarrow(Y, B)$ with $F_0=f$ and $F_1=g$.
+		- Rephrased, $X$ and $A$ are simultaneously 'continuously deformed'.
 - # In the viewpoint of [[Category]]
   collapsed:: true
 	- The Category Comp #card
@@ -278,6 +301,12 @@
 - # Basic Facts
   collapsed:: true
 	- Theorem. A complex $\left(S_*, \partial\right)$ is an exact sequence if and only if $H_n\left(S_*, \partial\right)=0$ for every $n$. #card
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-30T13:51:49.082Z
+	  card-last-reviewed:: 2023-06-28T00:51:49.082Z
+	  card-last-score:: 5
 		- Therefore, the homology groups measure 'how does a complex deviates from being exact'.
 		- Thus an exact sequence is called an 'acyclic complex'.
 	-
@@ -325,6 +354,12 @@
 				-
 	- Theorem (Naturality of the Connecting Homomorphism). Assume that there is a commutative diagram of complexes with exact rows:
 	  id:: 647e8f80-4fe7-4abf-9afb-b68d9132f3db
+	  card-last-interval:: 31.2
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-29T05:28:01.184Z
+	  card-last-reviewed:: 2023-06-28T01:28:01.185Z
+	  card-last-score:: 5
 	  collapsed:: true
 	  ((647e907a-a2f1-45b1-a0a9-6b025d01dc13))
 	  then there is a commutative diagram of abelian groups with exact rows:
@@ -460,12 +495,15 @@
 			- Just combining (i) and (ii)
 	-
 - # Relative Homology
+  id:: 6498e0fe-d925-45b8-8532-f90ed5c95f32
+  collapsed:: true
 	- Theorem. If $X$ is path connected and $A$ is a nonempty subspace, then $H_0(X, A)=0$ #card
 		- Recall that $Z_0(X)=\operatorname{Ker} \partial_0=S_0(X)$.
 		  Similarly $Z_0(X,A)=S_0(X,A)$.
 		- What remains is to prove that $B_0(X,A)=S_0(X,A)$.
 		  The key is chains in $A$ could cancel 'remaining coefficients' and make any chain a boundary.
 	- ((648fb74f-609d-49ce-a558-45f5e4d30140)). If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$, then, for each $n \geq 0$,
+	  collapsed:: true
 	  $$
 	  H_n(X, A) \cong \sum_\lambda H_n\left(X_\lambda, A \cap X_\lambda\right)
 	  $$ #card
@@ -478,6 +516,13 @@
 	  (where $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$ ). #card
 		- An easy exercise to recall the above theorems.
 	- Theorem. Let $X$ be a space with basepoint $x_0$. Then
+	  card-last-interval:: 31.2
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-29T05:28:25.862Z
+	  card-last-reviewed:: 2023-06-28T01:28:25.862Z
+	  card-last-score:: 5
+	  collapsed:: true
 	  $$
 	  H_n\left(X, x_0\right) \cong H_n(X)
 	  $$
@@ -536,4 +581,27 @@
 			- It's not foolish to verify by brute force, but we should always stand a layer higher to extract the structure and obtain a **viewpoint** (or even a vision)!
 			- However, how to find the essence of the proof and obtain the viewpoint?
 				- ((648fef0f-b15f-40aa-986a-63987de4ae51))
--
+	- ((64993bd2-30a9-4b3e-85ac-34328b6085e2)) (Homotopy Axiom for Pairs). If $f, g:(X, A) \rightarrow(Y, B)$ and $f \simeq g \bmod A$, then for all $n \geq 0$,
+	  $$
+	  H_n(f)=H_n(g): H_n(X, A) \rightarrow H_n(Y, B)
+	  $$ #card
+		- It proceeds exactly as [here](((6498e102-758e-44db-bbcb-a7c679b43a90))), but the details need more verification.
+- # Reduced Homology
+  collapsed:: true
+	- ((6498fa19-1bd6-4422-adea-7450bcbca1fe)) For all $n \geq 0$,
+	  $$
+	  \widetilde{H}_n(X) \cong H_n\left(X, x_0\right)
+	  $$ #card
+		- Cases where $n>1$ are already proved (review it if you want!).
+		- $n=0$
+			- Dirty way: Explicitly calculate the homology groups
+				- Remark: *This is always a good step to get familiar, but we shall always stand higher!*
+			- Elegant way: Construct an exact sequence
+				- $$0 \rightarrow \tilde S_*(x_0) \stackrel{i}{\rightarrow} \tilde S_*(X) \stackrel{p}{\rightarrow} S_*(X,x_0) \rightarrow 0$$
+					- Commutativity and exactness can be easily verified.
+				- We have the exact sequence
+				  $$
+				  \cdots \rightarrow \tilde H_1(X,x_0) \stackrel{d}{\rightarrow} \tilde H_0(x_0) \stackrel{i}{\rightarrow}  \tilde H_0(X) \stackrel{p}{\rightarrow}  H_{0}(X,x_0) \rightarrow 0 .
+				  $$
+				- The remaining task is to show $\operatorname{Im} i=0$.
+				  This is easy, since $\tilde Z_0(x_0)=0$, we have $\tilde H_0(x_0)=0$.

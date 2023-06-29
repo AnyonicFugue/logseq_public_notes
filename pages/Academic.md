@@ -1,6 +1,5 @@
 - Solving problems
-  collapsed:: true
-	- Partial solutions shall also be valued. #card [[Academic]]
+	- Partial solutions shall also be valued. #card
 	  card-last-interval:: 76.8
 	  card-repeats:: 3
 	  card-ease-factor:: 2.56
@@ -21,7 +20,6 @@
 	- Inspiration isn't a lucky or random event. It comes out of long-term accumulation.
 		- Luck is for those who are prepared. Erdös liked to say, "My brain is open".
 - Reading
-  collapsed:: true
 	- On 'compilation errors'
 	  id:: 638beaa5-f53f-470c-9b44-41bdb29de996
 		- Sometimes I'm stuck by a single typo or an unexpected term when reading papers.

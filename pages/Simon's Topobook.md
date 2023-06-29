@@ -160,6 +160,12 @@ type:: paper_reading
 	- ## Robustness
 		- Would TEE still be topological with some perturbations to the Hamiltonian, or in different models?
 		- A possible argument: Divide the surface into four regions to cancel the boundary terms. #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-07-29T06:52:29.377Z
+		  card-last-reviewed:: 2023-06-28T00:52:29.377Z
+		  card-last-score:: 3
 			- *To be completed.*
 			- ((63fec57c-f224-4f78-9201-a8d052e816e5))
 			- $\begin{aligned} \mathcal{S}_{\text {top }}:= & \left(\mathcal{S}_{A, B C D}+\mathcal{S}_{B, A C D}+\mathcal{S}_{C, A B D}+\mathcal{S}_{D, A B C}\right) \\ & -\left(\mathcal{S}_{A B, C D}+\mathcal{S}_{A C, B D}+\mathcal{S}_{A D . B C}\right)\end{aligned}$

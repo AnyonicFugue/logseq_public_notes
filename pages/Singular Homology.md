@@ -1,10 +1,17 @@
 - Idea #card
+  card-last-interval:: 32.57
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-07-27T14:02:55.685Z
+  card-last-reviewed:: 2023-06-25T01:02:55.685Z
+  card-last-score:: 5
 	- [[Green's Theorem]] tells us that we can determine the behavior of the bulk by its boundary.
 	  We'd like to generalize this into topology.
 	- Furthermore, a 'hole' in a space is implied by the existence of some **cycle** which is not a **boundary**.
 		- The intuition comes from $S^1$ in $\mathbb R^2-0$.
 		- However, note that a single point is a cycle but not a boundary.
 - # Defs
+  collapsed:: true
 	- ## About Orientations
 	  collapsed:: true
 		- Def. Orientation #card
@@ -169,9 +176,14 @@
 			  ((6461a7c8-3e70-4218-8989-a2b1fa67accf))
 			  the 'side faces' of the cone is produced by cones over the boundary.
 - # Basic Facts
-  collapsed:: true
 	- ((644638a3-9be7-46f8-8abb-f6c3ae2849af)) For all $n \geq 0$, we have $\partial_n \partial_{n+1}=0$. #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-28T06:42:49.588Z
+	  card-last-reviewed:: 2023-06-27T00:42:49.589Z
+	  card-last-score:: 5
 		- First we explicitly write down 
 		  $$\partial_n \partial_{n+1} \sigma=\sum_{j, k}(-1)^{j+k} \sigma \varepsilon_j^{n+1} \varepsilon_k^n$$
 		- Lemma 4.5. If $k<j$, the face maps satisfy
@@ -242,6 +254,7 @@
 		- q -> p is obvious, since each polygon is a cycle.
 		- p -> q: By direct construction. We can start from a point and find out the next 'edge' successively.
 - # Trying to Calculate the Homology Groups
+  collapsed:: true
 	- Theorem. If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the set of path components of $X$, then, for every $n \geq 0$,
 	  $$
 	  H_n(X) \cong \sum_\lambda H_n\left(X_\lambda\right) .
@@ -250,11 +263,11 @@
 		- The key is that $\Delta^n$ is path-connected, thus a simplex is also path-connected, i.e. within a single path component.
 	- ((6451d268-21db-4ea0-979a-dc3a55766d0b))
 	  collapsed:: true
-	  card-last-interval:: 28.74
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-16T17:43:42.973Z
-	  card-last-reviewed:: 2023-05-19T00:43:42.974Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-08-06T01:01:48.009Z
+	  card-last-reviewed:: 2023-06-25T01:01:48.009Z
 	  card-last-score:: 5
 	  (i) For any space $X$, the group $H_0(X)$ is free abelian of rank $=\operatorname{card} \Lambda$, where $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components.
 	  (ii) If $X$ and $Y$ are path connected spaces and $f: X \rightarrow Y$ is continuous, then $f_*: H_0(X) \rightarrow H_0(Y)$ takes a generator of $H_0(X)$ to a generator of $H_0(Y)$. #card
@@ -270,12 +283,19 @@
 			- (ii)
 	- Theorem. If $X$ is a space with $H_n(A)=0$ for every compact subspace of $X$ and $n>0$, then $H_n(X)=0$. #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-07-28T06:58:53.436Z
+	  card-last-reviewed:: 2023-06-27T00:58:53.437Z
+	  card-last-score:: 5
 		- *Note that this is a card combining two theorems, which has the advantage of illustrating the usage.*
 		- ((645372b1-03c6-414f-a6d5-be8fcb51e8ac)) (Compact Supports). If cls $\zeta \in H_n(X)$, then there is a compact subspace $A$ of $X$ with $\operatorname{cls} \zeta \in \operatorname{Im} j_*$, where $j: A \hookrightarrow X$ is the inclusion.
+			- The idea is to use the topological properties of $\Delta^n$. Here we use compactness.
 			- This is equivalent to that the support space of $\zeta$ can be included in a compact subset $A$.
 				- $j_*$ is the induced map of homology groups. Note that $j_*(B_n(A)) \sub B_n(X)$.
 				- $\zeta$ is a finite formal sum of some simplexes.
-			- However, $\operatorname{supp} \zeta$ itself is compact!
+			- However, $\operatorname{supp} \zeta$ itself is compact since *a finite union of compact subsets is compact*.
 		- Therefore consider $x \in H_n(X)$. $x \in j_*(H_n(A))$, but $H_n(A)=0$, so $x=0$.
 - # The Homotopy Axiom
 	- We are concerned with the problem:
@@ -295,6 +315,7 @@
 				- The insight is that dealing with each simplex **separately** would be much easier than dealing with the chain as a whole.
 			- Use the proposition $\partial_{n+1} c_n(\sigma)=\sigma-c_{n-1} \partial_n(\sigma)$, we easily see that $c_n(\sigma)$ is precisely the desired bulk!
 	- ((64677c74-e1cc-4cb6-8792-ba9c791213f7)) (Homotopy Axiom). If $f, g: X \rightarrow Y$ are homotopic, then $H_n(f)=H_n(g)$ for all $n \geq 0$. #card
+	  id:: 6498e102-758e-44db-bbcb-a7c679b43a90
 		- Notes
 			- This is a standard construction called *the method of acyclic models*!
 		- Lemma 1. Assume that $f, g: X \rightarrow Y$ are continuous maps and that there are homomorphisms $P_n: S_n(X) \rightarrow S_{n+1}(Y)$ with

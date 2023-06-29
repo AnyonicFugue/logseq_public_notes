@@ -1,4 +1,4 @@
-- [[Papers and Books to Read]]
+- [[Papers to Read]]
 - # Math
 	- ## Algebraic Topology
 		- ![2000_Munkres_Topology](file://zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf) Topology, Munkres

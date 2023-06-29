@@ -53,11 +53,11 @@
 	- Version2. CHSH
 	-
 	- General Description #card
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-30T00:48:43.412Z
-	  card-last-reviewed:: 2023-04-30T00:48:43.413Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-08-10T01:33:36.789Z
+	  card-last-reviewed:: 2023-06-29T01:33:36.790Z
 	  card-last-score:: 5
 		- We have two observers.
 			- Alice may choose from a set of observations $\{x_i\}$, and Bob from $\{y_j\}$.

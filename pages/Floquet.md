@@ -58,6 +58,12 @@
 	- ## Analysis in Fourier space
 	  collapsed:: true
 		- Theorem. We may solve the Floquet states in the form of an eigenequation
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-28T06:50:30.667Z
+		  card-last-reviewed:: 2023-06-27T00:50:30.667Z
+		  card-last-score:: 5
 		  $$\mathcal{H}\boldsymbol{\varphi }_{n} =\varepsilon _{n}\boldsymbol{\varphi }_{n}$$
 		  where
 		  $$\begin{aligned}
@@ -102,11 +108,11 @@
 				- It's easy to observe it has the structure of an eigenequation, with $\tilde H_{mn}=H^{(m-n)}$.
 		- From this equation we can (in principle) solve for all quasi-energies and Floquet states.
 			- It avoids the pain of time-integration by Fourier transformation! #card
-			  card-last-interval:: 30
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-06-09T00:25:35.580Z
-			  card-last-reviewed:: 2023-05-10T00:25:35.581Z
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-08-10T01:35:41.776Z
+			  card-last-reviewed:: 2023-06-29T01:35:41.777Z
 			  card-last-score:: 5
 				- Fourier transformation: Calculus of time -> Algebra of momenta
 		- Proposition (Normalization of eigenstates). 

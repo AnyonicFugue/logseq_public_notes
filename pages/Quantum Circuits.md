@@ -1,4 +1,5 @@
 - # [[Bloch Sphere]] and Bloch Ball
+  collapsed:: true
 	- Summary: Density matrix in terms of coordinates, rotation of the ball, expectation values #card
 	  card-last-interval:: 84
 	  card-repeats:: 3
@@ -89,6 +90,7 @@
 -
 - # Common gates
 	- 1-qubit
+	  collapsed:: true
 		- Hadamard
 			- $$H=\frac{1}{\sqrt{ } 2}\left[\begin{array}{rr}
 			  1 & 1 \\
@@ -127,7 +129,20 @@
 			- C^2-NOT
 -
 - # Universality
+	- Main Theorem. 1-qubit gates plus CNOT is universal.
+	  id:: 6498e0ff-12c0-44c2-b606-becf13965ce4
+		- Scheme for proof #card
+		  card-last-interval:: 24
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-04-07T11:57:43.217Z
+		  card-last-reviewed:: 2023-03-14T11:57:43.217Z
+		  card-last-score:: 5
+			- Obtain arbitrary 2-qubit gates by CNOT
+			- Gray code (Which only requires generalized C^k-NOT) to move any 2 qubits adjacent
+			- Invoke (without proof) decomposition into 2-qubit gates
 	- Theorem. Controlled-U can be constructed by CNOT and 1-qubit gates
+	  collapsed:: true
 		- Point: construct A,B,C  s.t.  $A B C=I \quad \text { and } \quad e^{i\delta} A \sigma_x B \sigma_x C=U$ 
 		  CNOT is just controlled-$\sigma_x$
 		-
@@ -139,25 +154,16 @@
 			- Detail: The inner rotation need to be cancelled first. Then the first and the last can compose.
 	-
 	- Theorem. $C^2-U$ can be constructed by CNOT and 1-qubit gates.
+	  collapsed:: true
 		- ![QPJ1B0bD3c9t7v_rNg3onpNqrDqCMgfuuH8S0M7dRui-XrtoSBUoAhISaSFsSdML30kXUt5yslZ9g6n0oG9lcUZCofekMeYApRztHnPuxnoDKD-dNUUf2_nHDzWO1SuD.png](../assets/QPJ1B0bD3c9t7v_rNg3onpNqrDqCMgfuuH8S0M7dRui-XrtoSBUoAhISaSFsSdML30kXUt5yslZ9g6n0oG9lcUZCofekMeYApRztHnPuxnoDKD-dNUUf2_nHDzWO1SuD_1673179091819_0.png) ![](local://C:/Users/10309/remnote/remnote-624a8cdd2a47080035c9f8d6/files/QPJ1B0bD3c9t7v_rNg3onpNqrDqCMgfuuH8S0M7dRui-XrtoSBUoAhISaSFsSdML30kXUt5yslZ9g6n0oG9lcUZCofekMeYApRztHnPuxnoDKD-dNUUf2_nHDzWO1SuD.png)
 		  Where $V^2=U$
 		- Specifically, Toffoli can be achieved.
 	-
 	- $C^k-U$ can  be constructed by Toffoli and U, with ancillary qubits.
+	  collapsed:: true
 		- ![efEDCutdVeUyLtrKTcIn8lxjBv9JKh2-N29U3CvBZ3TZjn7-Xq6mUWyLVHIu0_M95x_g4TmXrRQWmQBJGZDcihDRvgYqmz75KxzrN3S4jMebCnCrXV1J_OYh60atgX3z.png](../assets/efEDCutdVeUyLtrKTcIn8lxjBv9JKh2-N29U3CvBZ3TZjn7-Xq6mUWyLVHIu0_M95x_g4TmXrRQWmQBJGZDcihDRvgYqmz75KxzrN3S4jMebCnCrXV1J_OYh60atgX3z_1673179110624_0.png)
 		- Thought: Only when all the control qubits are 1 can we flip the ancillary qubits one-by-one.
 	-
-	- Theorem. 1-qubit gates plus CNOT is universal
-		- Scheme for proof #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-04-07T11:57:43.217Z
-		  card-last-reviewed:: 2023-03-14T11:57:43.217Z
-		  card-last-score:: 5
-			- Obtain arbitrary 2-qubit gates by CNOT
-			- Gray code (Which only requires generalized C^k-NOT) to move any 2 qubits adjacent
-			- Invoke (without proof) decomposition into 2-qubit gates
 	- ## Approximation of Gates
 		- Theorem. General gates $U\in U(2^n)$ needs $O(n^2\ 4^n)$ 1-qubit gates and CNOT to construct.
 			- We can see from the number of real parameters that the scale must be exponential.

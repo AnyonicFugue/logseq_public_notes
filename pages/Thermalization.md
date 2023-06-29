@@ -1,4 +1,10 @@
 - ## Paradox of [[Thermalization]] #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-07-26T07:00:51.774Z
+  card-last-reviewed:: 2023-06-25T01:00:51.775Z
+  card-last-score:: 5
 	- Key idea
 		- A thermalized system can be described by a few parameters (temperature, chemical potential, etc). Note that each parameter corresponds to a conserved quantity.
 		- In other words, all information other than the few parameters are **erased**.

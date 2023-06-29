@@ -150,11 +150,11 @@ alias:: [[Category Theory]]
 			- Natural isomorphism
 				- Each $\alpha$ is an isomorphism
 		- Vertical composition #card
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-04T00:32:07.180Z
-		  card-last-reviewed:: 2023-05-05T00:32:07.181Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-08-06T01:05:30.580Z
+		  card-last-reviewed:: 2023-06-25T01:05:30.581Z
 		  card-last-score:: 5
 			- Essentially, we have $F \overset{\alpha}{\Rightarrow} G$ and $G \overset{\beta}{\Rightarrow} H$. We would like to compose the two to have $F \overset{\beta \circ \alpha}{\Rightarrow} H$
 			- ((6416ba90-2deb-428b-b6cf-fb6dedf75dd1))
@@ -650,6 +650,12 @@ alias:: [[Category Theory]]
 			- But how to understand the example intuitively?
 		- ### Everything is Kan extensions
 			- ((64180925-7584-4cba-83a2-b731525d514b)) ((Co)limits as Kan extensions). The left Kan extension of $F: \mathrm{C} \rightarrow \mathrm{D}$ along the unique functor $!: \mathrm{C} \rightarrow \mathbb{1}$ defines the colimit of $F$ in $\mathrm{D}$, each existing if and only if the other does.
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-07-26T06:55:10.549Z
+			  card-last-reviewed:: 2023-06-25T00:55:10.551Z
+			  card-last-score:: 3
 			  Dually, the limit is defined by the right Kan extension. 
 			  ![image.png](../assets/image_1679298278739_0.png){:height 153, :width 912} #card
 				-

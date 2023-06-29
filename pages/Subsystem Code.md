@@ -8,18 +8,28 @@
 		- We say that B is the **gauge subsystem**.
 		-
 - # Problems
-	- Could there be entanglement between the logical part and the gauge part?
-		- For example, if there is a state $|0\rangle \otimes |0\rangle + |1\rangle \otimes |1\rangle$, then the gauge operators would have nontrivial effects.
 	- Can we always find a set of generators of $G$ in the form $\{X_1,...,X_l;X_{l+1},Z_{l+1},...,X_{l+g},Z_{l+g}\}$?
 		- If this holds, then $S=C(G)$ and the gauge part is $L=G/C(G)$ follows easily.
 		- To generalize: For a set of operators satisfying $P^2=\pm 1$, $P_i P_j= \pm P_j P_i$, can we always find such generators?
-- # Formulation
+- # Restrictions
+	- The state must always be separable.
+		- For example, if there is a state $|0\rangle \otimes |0\rangle + |1\rangle \otimes |1\rangle$, then the gauge operators would have nontrivial effects.
+		- In other words, there could never be entanglement.
+		-
 	-
-- # Facts
-	- An abelian gauge group corresponds to the conventional stabilizer code.
-		- i.e. The gauge group can be regarded as part of the stabilizer group.
-	- Necessary and sufficient error-correction conditions are, for all errors $E_a, E_b$ in the error set $\mathcal{E}$,
-	  $$
-	  P E_a^{\dagger} E_b P=I_{\mathrm{A}} \otimes g_{a b}^{\mathrm{B}}
-	  $$
-	  where $P$ is a projector onto the codespace $\mathrm{C}\equiv A \otimes B$, and $g_{a b}^{\mathrm{B}}$ is an arbitrary operator on the gauge subsystem.
+- # Tensor Product in a Matrix Viewpoint
+	- $$V:=A \otimes B$$
+		- $A$ is the logical part while $B$ is the gauge part.
+	- ## Labelling of Basis
+		- First, select a basis $\{e_i\}$ for $A$ and a basis $\{f_j\}$ for $B$.
+		- A basis for $V$ is $\{v_{ij}:=e_i \otimes f_j\}$
+		-
+	- ## Gauge Operators
+		- $$\begin{align*}
+		  ( I\otimes T) v_{ij} & =( I\otimes T)( e_{i} \otimes f_{j})\\
+		   & =( Ie_{i}) \otimes ( Tf_{j})\\
+		   & =e_{i} \otimes \left(\sum _{k} T_{kj} f_{k}\right)\\
+		   & =\sum _{k} T_{kj} v_{ik}
+		  \end{align*}$$
+		- We can say the decomposition is kept the same (line 3),
+		  or the gauge operators acts in a manner independent of index i (position inside a block), only depending on the index k (the number of the block).
