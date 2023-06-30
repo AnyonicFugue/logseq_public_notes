@@ -3,16 +3,27 @@ type:: paper_reading
 -
 - ![2021_Hastings_Haah_Dynamically Generated Logical Qubits.pdf](file://zotero_link/Research/2023 Summer Intern/2021_Hastings_Haah_Dynamically Generated Logical Qubits.pdf)
 -
-- # Questions
+- # Questions and Ideas
+  collapsed:: true
+	- Would the action of a check operator add different phase factors to $|0_L\rangle$ and $|1_L\rangle$?
+	  background-color:: red
+		- First, note that check operators commute with the nontrivial loops.
+		  This means $|0_L\rangle$ and $|1_L\rangle$ are eigen to the checks.
+		- The problem is whether the eigenvalues of checks would be different for different logical values.
+		- The answer is there **must be** some checks which are different.
+			- Logical loops are products of checks.
+			  Therefore if all checks have the same eigenvalues for the logical states, the eigenvalues of logical loops must also be the same, which leads to a contradiction.
+		-
 	- What is the role of measurement, or 'dynamical'?
 		- This allows us to measure the system by products only two Pauli operators, while the stabilizers are products of six Pauli operators.
 		- The key is to use rounds of **noncommuting measurements**.
 		- Could we generalize the idea to toric code, quantum double or even Levin Wen?
 			- Attempt. Generalize to toric code
 			- Attempt. Generalize to Levin-Wen
+	- Why is the dynamic measurement possible? What specific properties are used in the process? Would it be possible on lattices of different details?
 	- What is the logical space?
-	  collapsed:: true
 		- The logical spaces correspond to the eigenspaces of **logical operators**, i.e. those commuting with all checks.
+		  collapsed:: true
 			- This is equivalent to asking 'how can we store information in a system'.
 			- For a static system, we can divide the configuration space into many subsets and use 'in a certain subset' to store information.
 			  collapsed:: true
@@ -27,9 +38,37 @@ type:: paper_reading
 					- In toric code, the logical operators (nontrivial string) record 'which homotopy class is the system in'.
 						- To be more precise, the eigenvectors of the Z-string are $|nontrivial\rangle + |trivial\rangle$ and $|nontrivial\rangle - |trivial\rangle$
 				- Let's examine the case in the ladder code.
-	- Why is the dynamic measurement possible? What specific properties are used in the process? Would it be possible on lattices of different details?
+	- ((6481474d-1298-457a-93a9-d4f1d002e7c8))
+	- ((647c2943-7da7-47d3-ae4b-71f305ed51b4))
+	  collapsed:: true
+		- Examine some simple cases.
+			- Anomalous
+				- It seems that in order to have nontrivial topologies, we are forced to identify lots of vertices (due to their edges) such that the resulting lattice is quite strange.
+				- ![Image(1).png](../assets/Image(1)_1685861854793_0.png){:height 254, :width 272}
+					- Counting of quantities
+						- $$V=2,F=2,E=6$$
+							- Don't forget the internal edge.
+						- Other quantities and relations are quite messy, since the constraints are very different from a 'well-behaved' torus.
+					- This is a double torus,
+					  $$g=2$$
+					  but since vertices are shared by only 2 faces (rather than 3), # d.o.f. is different from our previous counting.
+					- In other words, the lattice is too small.
+			- Normal
+				- Def. All vertices are shared by three distinct plaquettes.
+				- It seems that all normal lattices must have the topology of a torus. Very interesting.
+				- ![Image(1).png](../assets/Image(1)_1685868490406_0.png){:height 301, :width 287}
+				- ![Image(1).png](../assets/Image(1)_1685866789730_0.png){:height 301, :width 261}
+					- This is a torus, so our previous discussion was valid.
+			-
+	- ((647bfedc-d043-4fde-8200-ccb85c080be8))
+	  collapsed:: true
+		- Would the property play an important role? I guess it
+			- If so, then the code isn't topological. 
+			  Can we consider more colors?
+			- If not, how can we extract the essential ingredient?
 -
 - # Summary
+  collapsed:: true
 	- ## Setup
 		- The underlying lattice is Kitaev's honeycomb.
 			- The XX, YY and ZZ operators on the edges are called **check operators**.
@@ -75,36 +114,8 @@ type:: paper_reading
 	-
 	-
 -
-- # Problems and Ideas
-	- ((6481474d-1298-457a-93a9-d4f1d002e7c8))
-	- ((647c2943-7da7-47d3-ae4b-71f305ed51b4))
-	  collapsed:: true
-		- Examine some simple cases.
-			- Anomalous
-				- It seems that in order to have nontrivial topologies, we are forced to identify lots of vertices (due to their edges) such that the resulting lattice is quite strange.
-				- ![Image(1).png](../assets/Image(1)_1685861854793_0.png){:height 254, :width 272}
-					- Counting of quantities
-						- $$V=2,F=2,E=6$$
-							- Don't forget the internal edge.
-						- Other quantities and relations are quite messy, since the constraints are very different from a 'well-behaved' torus.
-					- This is a double torus,
-					  $$g=2$$
-					  but since vertices are shared by only 2 faces (rather than 3), # d.o.f. is different from our previous counting.
-					- In other words, the lattice is too small.
-			- Normal
-				- Def. All vertices are shared by three distinct plaquettes.
-				- It seems that all normal lattices must have the topology of a torus. Very interesting.
-				- ![Image(1).png](../assets/Image(1)_1685868490406_0.png){:height 301, :width 287}
-				- ![Image(1).png](../assets/Image(1)_1685866789730_0.png){:height 301, :width 261}
-					- This is a torus, so our previous discussion was valid.
-			-
-	- ((647bfedc-d043-4fde-8200-ccb85c080be8))
-	  collapsed:: true
-		- Would the property play an important role? I guess it
-			- If so, then the code isn't topological. 
-			  Can we consider more colors?
-			- If not, how can we extract the essential ingredient?
 - # ((647bff63-18ce-4de4-8a00-160567c88608))
+  collapsed:: true
 	- ## Setup
 		- ### Lattice
 		  collapsed:: true
@@ -187,7 +198,6 @@ type:: paper_reading
 				  collapsed:: true
 					- If we ignore the two incontractible loops (i.e. delete 2 stabilizers), then there'll be 2 logical qubits?
 					- What if $g>1$? We cannot have a negative number of physical qubit. Something must be wrong.
-					  background-color:: red
 					  id:: 647c2943-7da7-47d3-ae4b-71f305ed51b4
 					  collapsed:: true
 						- The good news is that we only need to consider n-torus and n-projective planes (though we can in principle consider lattices that are not surfaces, which is more complicated but more unexplored)

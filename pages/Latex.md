@@ -9,6 +9,8 @@
 	  card-last-reviewed:: 2023-05-02T11:20:23.030Z
 	  card-last-score:: 5
 		- `\sub` and `\subseteq`
+	- $\hookrightarrow$
+	-
 - Lists and Tables
 - Text Alignment
 - Paragraph Formatting

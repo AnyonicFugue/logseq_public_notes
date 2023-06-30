@@ -3,6 +3,7 @@
   See ((649b9cbd-4a34-42d6-bcc4-97f1a0f91445)) for example.
   #+END_NOTE #card
 - # Definitions
+  collapsed:: true
 	- Chain complex #card
 	  card-last-interval:: 30
 	  card-repeats:: 1
@@ -299,8 +300,9 @@
 	  Then 'taking $H_n(X)$' is the composition of functors $H_n \circ S_*$.
 	-
 - # Basic Facts
-  collapsed:: true
-	- Theorem. A complex $\left(S_*, \partial\right)$ is an exact sequence if and only if $H_n\left(S_*, \partial\right)=0$ for every $n$. #card
+	- id:: 649e49f0-6cef-4631-bb01-027b94b5422c
+	  $$S_*(X_1) \cap S_*(X_2) = S_*(X_1 \cap X_2)$$
+	- Theorem. A complex $\left(S_*, \partial\right)$ is an exact sequence if and only if $H_n\left(S_*, \partial\right)=0$ for every $n$.
 	  card-last-interval:: 32.57
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6

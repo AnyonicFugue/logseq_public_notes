@@ -43,7 +43,43 @@
 			- Note that $(X-U)^\circ = X-\bar U$.
 		-
 	-
+- # Proof
+	- Lemma 6.11. Let $X_1$ and $X_2$ be subspaces of $X$. If the inclusion $S_*\left(X_1\right)+$ $S_*\left(X_2\right) \hookrightarrow S_*(X)$ induces isomorphisms in homology, then excision holds for the subspaces $X_1$ and $X_2$ of $X$.
+		- How was the proof motivated?
+		  background-color:: red
+			- Seems the proof is directly motivated by the ((649e4af5-3e8a-4202-831b-2ad858b4b337)) and manipulating compositions of isomorphisms...
+				- To be more specific, we notice we could invoke the second isomorphism theorem to deal with the quotient.
+			- In other words, is the observation very important?
+			  We couldn't proceed without the observation?
+				- Indeed observations, especially very stupid ones, are very important. #[[Thoughts/Math and Physics]]
+				  background-color:: yellow
+				- In this case the observation is ((649e49f0-6cef-4631-bb01-027b94b5422c)), which is quite stupid.
+		- *Remark: When dealing with groups, isomorphism theorems could be extremely useful.*
+		- First construct an exact sequence:
+		  collapsed:: true
+		  $$
+		  0 \rightarrow S_*\left(X_1\right)+S_*\left(X_2\right) \stackrel{i}{\rightarrow} S_*(X) \rightarrow S_*(X) /\left(S_*\left(X_1\right)+S_*\left(X_2\right)\right) \rightarrow 0
+		  $$
+			- Since $i$ is an isomorphism, the corresponding long exact sequence has every third term zero, i.e.
+			  $$
+			  H_n\left(S_*(X) /\left(S_*\left(X_1\right)+S_*\left(X_2\right)\right)\right)=0
+			  $$
+		- Then construct the second exact sequence, motivated by the third isomorphism theorem:
+		  collapsed:: true
+		  $$
+		  0 \rightarrow \frac{S_*\left(X_1\right)+S_*\left(X_2\right)}{S_*\left(X_2\right)} \stackrel{j}{\rightarrow} \frac{S_*(X)}{S_*\left(X_2\right)} \rightarrow \frac{S_*(X)}{S_*\left(X_1\right)+S_*\left(X_2\right)} \rightarrow 0
+		  $$
+			- Consider the corresponding long exact sequence.
+			- We know every third term is zero, thus $j$ induces isomorphisms.
+		- Finally we make a beautiful construction:
+		  collapsed:: true
+		  ((649e4a3e-67e0-4327-9819-262437a3b1c8))
+			- It's easy to verify $\mathcal l$ is an isomorphism since ((649e49f0-6cef-4631-bb01-027b94b5422c))
+			- Since both $l$ and $j$ are isomorphisms, it follows that $k$ is an isomorphism.
+			  The proof finishes.
+		-
 - # Important Facts
+  collapsed:: true
 	- Lemma. Consider the commutative diagram
 	  id:: 649955ae-5920-4aa5-8d1d-f5a3171d430c
 	  collapsed:: true
@@ -135,6 +171,7 @@
 			-
 		- i.e. **Reduced homology doesn't affect relative homology.**
 - # Applications
+  collapsed:: true
 	- ((649cf085-8b8d-44f2-b4ef-e754b39ba39e)). (Homology of Spheres) Let $S^n$ be the $n$-sphere, where $n \geq 0$. Then
 	  $$
 	  \widetilde{H}_p\left(S^n\right)= \begin{cases}\mathbf{Z} & \text { if } p=n \\ 0 & \text { if } p \neq n\end{cases}

@@ -888,5 +888,17 @@
                                    :height 1065.6}),
                           :page 121},
                :content {:text "Theorem"},
+               :properties {:color "yellow"}}
+              {:id #uuid "649e4a3e-67e0-4327-9819-262437a3b1c8",
+               :page 124,
+               :position {:bounding {:x1 209,
+                                     :y1 99.1484375,
+                                     :x2 411,
+                                     :y2 248.1484375,
+                                     :width 643.8666666666667,
+                                     :height 976.8000000000001},
+                          :rects (),
+                          :page 124},
+               :content {:text "[:span]", :image 1688095293889},
                :properties {:color "yellow"}}],
- :extra {:page 121}}
+ :extra {:page 124}}
