@@ -17,6 +17,12 @@
 		- Def. Orientation #card
 		  id:: 642578ff-9703-449c-b3df-41ffc344e641
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-10T18:58:16.463Z
+		  card-last-reviewed:: 2023-07-10T12:58:16.463Z
+		  card-last-score:: 5
 			- An orientation of $\Delta^n=\left[e_0, e_1, \ldots, e_n\right]$ is a linear ordering of its **vertices**.
 			  collapsed:: true
 				- For a line segment, it is an ordering of the two endpoints.
@@ -250,7 +256,7 @@
 		- Note that
 		  ![image.png](../assets/image_1683339421269_0.png){:height 238, :width 327}
 	- ((6471627c-36a0-4abb-ad61-cda6a9bb6eb1)). A **polygon** in a space $X$ is a 1-chain $\pi=\sum_{i=0}^k \sigma_i$, where $\sigma_i\left(e_1\right)=$ $\sigma_{i+1}\left(e_0\right)$ for all $i$. 
-	  Then a 1-chain $\gamma=\sum m_i \sigma_i \in S_1(X)$ is a cycle if and only if $\gamma$ is homologous to a linear combination of polygons. #card
+	  Then a 1-chain $\gamma=\sum m_i \sigma_i \in S_1(X)$ is a cycle if and only if $\gamma$ is homologous to a linear combination of polygons.
 		- q -> p is obvious, since each polygon is a cycle.
 		- p -> q: By direct construction. We can start from a point and find out the next 'edge' successively.
 - # Trying to Calculate the Homology Groups

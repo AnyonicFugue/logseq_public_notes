@@ -164,11 +164,11 @@ alias:: Quantum Error Correcting Code
 - ## [[Stabilizer Code]]
   id:: 6385c5c5-1c56-413f-ae9d-93d1ca14caf4
 	- Example of ((63842469-5dc0-4676-9daa-b5ee2000e5a4)) #card
-	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-01-21T06:44:11.858Z
-	  card-last-reviewed:: 2022-12-28T06:44:11.859Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-08-21T13:01:44.813Z
+	  card-last-reviewed:: 2023-07-10T13:01:44.813Z
 	  card-last-score:: 5
 		- We measure eight operators to correct the errors.
 		  collapsed:: true

@@ -84,11 +84,11 @@ alias:: Gauge Theory
 		  $$\begin{aligned} \rho_1 \otimes \rho_2: \mathfrak{g} & \rightarrow \mathfrak{g l}\left(V_1 \otimes V_2\right), \\ x & \mapsto\left(v_1 \otimes v_2 \mapsto\left(\rho_1(x)\right)\left(v_1\right) \otimes v_2+v_1 \otimes\left(\rho_2(x)\right)\left(v_2\right)\right)\end{aligned}$$
 			- I can verify it by universal property of tensor products.
 		- Prop. $d(r) C_2(r)=d(G) C(r)$, where $d(r)$ is the dimension of the irrep and $d(G)$ is the dimension of the Lie group. #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-07-01T01:59:31.598Z
-		  card-last-reviewed:: 2023-06-01T01:59:31.598Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-11-05T02:56:08.916Z
+		  card-last-reviewed:: 2023-07-10T12:56:08.917Z
 		  card-last-score:: 5
 			- Could be easily proved by taking trace of $\operatorname{tr}\left[T_r^a T_r^b\right]=C(r) \delta^{a b}$
 		-

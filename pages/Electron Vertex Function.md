@@ -38,11 +38,11 @@
 				- $q^\mu=p^\mu-p'^\mu$
 			- Obviously this forces $C=0$
 		- $q_\mu \gamma^\mu$ vanishes when sandwiched between $\bar{u}\left(p^{\prime}\right)$ and $u(p)$ #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-05-19T16:15:48.941Z
-		  card-last-reviewed:: 2023-03-13T12:15:48.941Z
+		  card-last-interval:: 353.22
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-06-27T17:53:51.474Z
+		  card-last-reviewed:: 2023-07-10T12:53:51.475Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- Proof

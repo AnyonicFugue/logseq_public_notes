@@ -12,11 +12,11 @@
 		- ((6381ccf3-b7c4-466d-b7f5-9b966f36817f))
 		-
 	- The Lie algebra of a matrix [[Lie Group]] #card
-	  card-last-interval:: 24
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-03-16T12:03:52.904Z
-	  card-last-reviewed:: 2023-02-20T12:03:52.904Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-11-05T02:56:35.049Z
+	  card-last-reviewed:: 2023-07-10T12:56:35.049Z
 	  card-last-score:: 5
 		- The set of all matrices $X$ such that $e^{t X}$ is in $G$ for all **real** numbers $t$.
 		  The bracket is given by the commutator.

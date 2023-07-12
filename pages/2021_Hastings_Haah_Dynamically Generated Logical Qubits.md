@@ -115,7 +115,6 @@ type:: paper_reading
 	-
 -
 - # ((647bff63-18ce-4de4-8a00-160567c88608))
-  collapsed:: true
 	- ## Setup
 		- ### Lattice
 		  collapsed:: true
@@ -265,7 +264,6 @@ type:: paper_reading
 				-
 		- Outer operators
 			- They're the incontractible e-string and m-string operators in the embedded toric code.
-			  collapsed:: true
 			  ![20230607-094256.jpg](../assets/20230607-094256_1686102282734_0.jpg){:height 326, :width 274}
 				- e-string: $\prod \sigma_z$ in toric code, **half the check** on the edges in the original honeycomb.
 				  collapsed:: true

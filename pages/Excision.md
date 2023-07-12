@@ -1,50 +1,61 @@
 - # Notations
 	- If $A$ is a subspace of $X$, then $\bar{A}$ denotes its closure and $A^{\circ}$ denotes its interior.
 -
-- # Definition of Excision #card
+- # Definitions
   card-last-interval:: 31.26
   card-repeats:: 1
   card-ease-factor:: 2.6
   card-next-schedule:: 2023-07-28T06:43:35.570Z
   card-last-reviewed:: 2023-06-27T00:43:35.570Z
   card-last-score:: 5
-	- Geometric intuition
-		- ((6498e0fe-d925-45b8-8532-f90ed5c95f32)) means 'identifying a subspace as a single point'.
-		- Therefore we expect that we could **remove some part of the subspace** without affecting the space after identification!
-	- Version I
-		- Assume that $U \subset A \subset X$ are subspaces with $\bar{U} \subset A^{\circ}$.
-		- The inclusion $i:(X-U, A-U) \hookrightarrow(X, A)$ induces **isomorphisms**
-		  $$
-		  i_*: H_n(X-U, A-U) \stackrel{\sim}{\rightarrow} H_n(X, A)
-		  $$
-		  for all $n$.
-	- Version II
-		- Let $X_1$ and $X_2$ be subspaces of $X$ with $X=X_1^{\circ} \cup X_2^{\circ}$.
-		- The inclusion $j:\left(X_1, X_1 \cap X_2\right) \hookrightarrow\left(X_1 \cup X_2, X_2\right)=\left(X, X_2\right)$ induces isomorphisms
-		  $$
-		  j_*: H_n\left(X_1, X_1 \cap X_2\right) \stackrel{\sim}{\rightarrow} {H_n}\left(X, X_2\right)
-		  $$
-		  for all $n$.
-	- ((649940c8-ab08-4e88-ba1d-4dd7ac323e7f)) Version I of excision is equivalent to version II.
-	  collapsed:: true
-		- I -> II
+	- Excision #card
+		- Geometric intuition
+			- ((6498e0fe-d925-45b8-8532-f90ed5c95f32)) means 'identifying a subspace as a single point'.
+			- Therefore we expect that we could **remove some part of the subspace** without affecting the space after identification!
+		- Version I
+			- Assume that $U \subset A \subset X$ are subspaces with $\bar{U} \subset A^{\circ}$.
+			- The inclusion $i:(X-U, A-U) \hookrightarrow(X, A)$ induces **isomorphisms**
+			  $$
+			  i_*: H_n(X-U, A-U) \stackrel{\sim}{\rightarrow} H_n(X, A)
+			  $$
+			  for all $n$.
+		- Version II
+			- Let $X_1$ and $X_2$ be subspaces of $X$ with $X=X_1^{\circ} \cup X_2^{\circ}$.
+			- The inclusion $j:\left(X_1, X_1 \cap X_2\right) \hookrightarrow\left(X_1 \cup X_2, X_2\right)=\left(X, X_2\right)$ induces isomorphisms
+			  $$
+			  j_*: H_n\left(X_1, X_1 \cap X_2\right) \stackrel{\sim}{\rightarrow} {H_n}\left(X, X_2\right)
+			  $$
+			  for all $n$.
+		- ((649940c8-ab08-4e88-ba1d-4dd7ac323e7f)) Version I of excision is equivalent to version II.
 		  collapsed:: true
-			- Obviously we should take $U=X_2-X_1$, which is the part to be removed.
-			  We should prove $\overline{(X_2 - X_1)} \sub X_2 ^ \circ$.
-			- Proposition. $X-X_1^\circ$ contains $\overline{(X_2 - X_1)}$.
-				- $\overline{(X_2 - X_1)}$ is the intersection of all closed sets containing $X_2-X_1$.
-				- $X-X_1^\circ$ is a closed set containing $X_2-X_1$.
-				- *When feeling stuck at simple topology, convert everything to basic set theory, e.g. 'intersection' ->* $x \in A, x \in B$
-			- Proposition. $X-X_1^\circ \sub X_2^\circ$.
-				- Directly follows $X=X_1^\circ \cup X_2^\circ$.
-		- II -> I
-			- Take $X_2=A,X_1=X-U$.
-			  We should prove $X=X_1^{\circ} \cup X_2^{\circ}$.
-			- Note that $(X-U)^\circ = X-\bar U$.
-		-
-	-
+			- I -> II
+			  collapsed:: true
+				- Obviously we should take $U=X_2-X_1$, which is the part to be removed.
+				  We should prove $\overline{(X_2 - X_1)} \sub X_2 ^ \circ$.
+				- Proposition. $X-X_1^\circ$ contains $\overline{(X_2 - X_1)}$.
+					- $\overline{(X_2 - X_1)}$ is the intersection of all closed sets containing $X_2-X_1$.
+					- $X-X_1^\circ$ is a closed set containing $X_2-X_1$.
+					- *When feeling stuck at simple topology, convert everything to basic set theory, e.g. 'intersection' ->* $x \in A, x \in B$
+				- Proposition. $X-X_1^\circ \sub X_2^\circ$.
+					- Directly follows $X=X_1^\circ \cup X_2^\circ$.
+			- II -> I
+				- Take $X_2=A,X_1=X-U$.
+				  We should prove $X=X_1^{\circ} \cup X_2^{\circ}$.
+				- Note that $(X-U)^\circ = X-\bar U$.
+			-
+	- Barycentric division #card
+		- Idea
+			- We wish to divide a simplex repeatedly to 'arbitrarily small'.
+			- Then we could apply [[The Lebesgue number lemma]].
+			- Note that it is not the only way, but the **inductive construction** is always the simplest! #Strategy
+		- ((64ab1a09-5b3b-4278-9f5e-6b364634c78c)) The barycentric subdivision of an affine $n$-simplex $\Sigma^n$, denoted by $\operatorname{Sd} \Sigma^n$, is a family of affine $n$-simplexes defined inductively for $n \geq 0$ :
+		  (i) $\operatorname{Sd} \Sigma^0=\Sigma^0$;
+		  (ii) if $\varphi_0, \varphi_1, \ldots, \varphi_{n+1}$ are the $n$-faces of $\Sigma^{n+1}$ and if $b$ is the barycenter of $\Sigma^{n+1}$, then Sd $\Sigma^{n+1}$ consists of all the $(n+1)$-simplexes spanned by $b$ and $n$-simplexes in $\operatorname{Sd} \varphi_i, i=0, \ldots, n+1$.
+		- ((64ab1a5b-d15c-449d-89ff-ae0c8100a239))
+			-
 - # Proof
-	- Lemma 6.11. Let $X_1$ and $X_2$ be subspaces of $X$. If the inclusion $S_*\left(X_1\right)+$ $S_*\left(X_2\right) \hookrightarrow S_*(X)$ induces isomorphisms in homology, then excision holds for the subspaces $X_1$ and $X_2$ of $X$.
+	- Lemma 6.11. Let $X_1$ and $X_2$ be subspaces of $X$. If the inclusion $S_*\left(X_1\right)+$ $S_*\left(X_2\right) \hookrightarrow S_*(X)$ induces isomorphisms in homology, then excision holds for the subspaces $X_1$ and $X_2$ of $X$. #card
+	  collapsed:: true
 		- How was the proof motivated?
 		  background-color:: red
 			- Seems the proof is directly motivated by the ((649e4af5-3e8a-4202-831b-2ad858b4b337)) and manipulating compositions of isomorphisms...
@@ -78,6 +89,10 @@
 			- Since both $l$ and $j$ are isomorphisms, it follows that $k$ is an isomorphism.
 			  The proof finishes.
 		-
+	- The whole proof is quite lengthy, but the key ideas are quite simple (I could even come up with them myself!).
+		- First, $\Delta^n$ is compact, therefore [[The Lebesgue number lemma]] says the 'minimum containing property' of the inverse images of $X_1^\circ \cap \sigma(\Delta^n)$ and $X_2^\circ \cap \sigma(\Delta^n)$.
+		- Next we could use Barycentric division to divide the simplexes repeatedly, until each is smaller than the Lebesgue number and could be contained in a single piece.
+		- Since the Barycentric division doesn't change the properties of boundaries (as the extra faces cancel each other), we're done.
 - # Important Facts
   collapsed:: true
 	- Lemma. Consider the commutative diagram

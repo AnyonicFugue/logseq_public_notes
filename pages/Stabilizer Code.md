@@ -29,7 +29,6 @@
 		-
 - # Basic Facts
 	- Theorem. $\left\langle\psi\left|E_a^{\dagger} E_b\right| \psi\right\rangle=C_{a b}$ iff either one of the following holds:
-	  collapsed:: true
 	  (1) $E_a^{\dagger} E_b \in \mathcal{S}$;
 	  (2) There is an $M \in \mathcal{S}$ that anti-commutes with $E_a^{\dagger} E_b$.
 		- (1) is 'non-distinguishability'. Prove orthogonality of different states as an exercise! #Learning-TODO

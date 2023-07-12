@@ -336,3 +336,15 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   id:: 649e4a3e-67e0-4327-9819-262437a3b1c8
   hl-type:: area
   hl-stamp:: 1688095293889
+- Definition
+  ls-type:: annotation
+  hl-page:: 125
+  hl-color:: yellow
+  id:: 64ab1a09-5b3b-4278-9f5e-6b364634c78c
+- [:span]
+  ls-type:: annotation
+  hl-page:: 124
+  hl-color:: yellow
+  id:: 64ab1a5b-d15c-449d-89ff-ae0c8100a239
+  hl-type:: area
+  hl-stamp:: 1688935002182

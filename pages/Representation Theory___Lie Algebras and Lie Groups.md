@@ -53,12 +53,12 @@
 						- LHS holds only when $A=\lambda X$. Let's take $A=X$.
 						- From $[H, X]=2 X$, we conclude $HX|v_0\rangle=(\lambda_0+2)|v_0\rangle$, which gives $X|v_0\rangle=0$ since $\lambda_0$ is the **largest**!
 		- ((63e5e77e-a5dc-4ac8-a4a3-d9ff04d5f522)) If $(\pi, V)$ is a finite-dimensional representation of $\operatorname{sl}(2 ; \mathbb{C})$, not necessarily irreducible, the following results hold.
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2023-04-02T00:44:43.129Z
-		  card-last-reviewed:: 2023-03-09T00:44:43.129Z
-		  card-last-score:: 3
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-08-21T12:52:34.822Z
+		  card-last-reviewed:: 2023-07-10T12:52:34.823Z
+		  card-last-score:: 5
 		  1. Every eigenvalue of $\pi(H)$ is an **integer**. Furthermore, if $v$ is an eigenvector for $\pi(H)$ with eigenvalue $\lambda$ and $\pi(X) v=0$, then $\lambda$ is a non-negative integer.
 		  2. The operators $\pi(X)$ and $\pi(Y)$ are **nilpotent**.
 		  3. If we define $S: V \rightarrow V$ by
@@ -81,4 +81,6 @@
 					- [[Strategy]]
 						- Fix all freedoms in the most convenient way. Here it is the normalization of the eigenvectors.
 						- The vectors should not only be 'proportional to the eigenvector', but also self-consistent as a vector space, i.e. the coefficients contain extra information.
-			- *Easy path: Since $S U(2)$ is simply connected, Theorem $5.6$ will tell us that the representations of $\operatorname{sl}(2 ; \mathbb{C}) \cong \operatorname{su}(2)_{\mathbb{C}}$ are in one-to-one correspondence with the representations of $\mathrm{SU}(2)$. Since $\mathrm{SU}(2)$ is compact, Theorem $4.28$ then tells us that every representation of $\operatorname{sl}(2 ; \mathbb{C})$ is completely reducible.
+			- *Easy path
+				- Since $S U(2)$ is simply connected, Theorem $5.6$ will tell us that the representations of $\operatorname{sl}(2 ; \mathbb{C}) \cong \operatorname{su}(2)_{\mathbb{C}}$ are in one-to-one correspondence with the representations of $\mathrm{SU}(2)$.
+				- Since $\mathrm{SU}(2)$ is compact, Theorem $4.28$ then tells us that every representation of $\operatorname{sl}(2 ; \mathbb{C})$ is completely reducible.

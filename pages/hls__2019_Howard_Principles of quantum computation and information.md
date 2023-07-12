@@ -1,5 +1,5 @@
-file:: [2019_Howard_Principles of quantum computation and information.pdf](zotero_link/Physics/Courses/Quantum computation/2019_Howard_Principles of quantum computation and information.pdf)
-file-path:: zotero_link/Physics/Courses/Quantum computation/2019_Howard_Principles of quantum computation and information.pdf
+file:: [2019_Howard_Principles of quantum computation and information.pdf](file://zotero_link/Research/Quantum Information/2019_Howard_Principles of quantum computation and information.pdf)
+file-path:: zotero_link/Research/Quantum Information/2019_Howard_Principles of quantum computation and information.pdf
 
 - [:span]
   ls-type:: annotation

@@ -2,7 +2,7 @@ type:: [[Course]]
 alias:: QC
 
 - [[References]]
-	- ![Principles of quantum computation and information](file://zotero_link/Physics/Courses/Quantum computation/2019_Howard_Principles of quantum computation and information.pdf)
+	- ![2019_Howard_Principles of quantum computation and information.pdf](file://zotero_link/Research/Quantum Information/2019_Howard_Principles of quantum computation and information.pdf)
 - [[Classical Computation]]
 - [[Quantum Circuits]]
 - [[Quantum Algorithms]]
