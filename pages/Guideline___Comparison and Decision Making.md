@@ -1,0 +1,14 @@
+- # Steps
+	- 在Notion中创建多维表格，每种选项有一行；在Ticktick创建Task，第二天再做出决定
+	- 列出每个产品/选择的各种特点、优劣势
+		- Cross-platform? Stability? Import & Export functionalities?
+		- Uncertain factors? Change of policy?
+	- 搜索网上对该产品的评价
+		- bing，知乎，b站
+	- 比较不同平台（tb, jd, pdd）的价格
+	- **写下做出最终决策的原因，以供日后查看、反思。**
+- # Tips
+	- 思考：哪些是我的核心需求
+		- 避免“探索陷阱”：花大量成本探索、迁移，实际收益却不高
+	- 加一些钱选择大品牌和稳定性！
+-

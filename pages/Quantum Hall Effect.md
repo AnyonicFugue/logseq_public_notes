@@ -105,11 +105,18 @@ alias:: QHE
 		- Motivating problem: The real systems are quite messy. The shape of the sample isn't well defined; we have leads in the sample; there's temperature; ...
 		  **Why is the Hall conductance so precisely quantized?**
 		- Theorem. (Byers-Yang)
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-14T19:09:09.781Z
+		  card-last-reviewed:: 2023-07-14T13:09:09.782Z
+		  card-last-score:: 5
 		  The spectrum of the system remains unchanged when an integer multiple of the flux quantum is added to a hole in the system. #card
 			- ![image.png](../assets/image_1683795919010_0.png){:height 238, :width 164}
 			- It seems the presence of the **hole** (not single connected) is important.
 			  How to understand this?
 			  Moreover, can we consider a loop in the configuration space, with the parameter being the flux?
+				- The structure is a Riemann surface.
 			- Proof. Make use of multi-valued gauge transformations (A stroke of genius! And potential deep structures...)
 				- Note the gauge transformation acts as 
 				  $$

@@ -57,6 +57,12 @@ alias:: GR
 - # Elements of Differential Geometry
   collapsed:: true
 	- Christoffel symbol #card
+	  card-last-interval:: 29.95
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-11T11:51:24.773Z
+	  card-last-reviewed:: 2023-07-12T13:51:24.773Z
+	  card-last-score:: 5
 		- $$\Gamma_{a b}^c=\frac{1}{2} g^{c d}\left\{\partial_a g_{b d}+\partial_b g_{a d}-\partial_d g_{a b}\right\}$$
 		- Quick memorization: Two plus and a minus, raised by a metric, symmetric positive at the two lower indices
 	- Geodesic equation #card
@@ -389,6 +395,12 @@ alias:: GR
 	- ## Def
 	  collapsed:: true
 		- Stationary #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-14T19:12:45.606Z
+		  card-last-reviewed:: 2023-07-14T13:12:45.607Z
+		  card-last-score:: 5
 			- There exists a timelike ((6433cc8f-9fd7-4848-a229-d5b4372356d2)) field.
 			- Intuitively, this means that the spacetime has some sort of time-translation symmetry.
 		- Static #card

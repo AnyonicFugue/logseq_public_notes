@@ -113,43 +113,9 @@ type:: paper_reading
 	- Idea of [[Topological Entanglement Entropy]]
 		- We would like to relate entanglement quantities to the boundary of two subsystems, which is kind of similar to [[Bulk-Boundary Relation]].
 		- Moreover, we expect it to be somewhat topological in topo phases.
-	- Example: [[TEE]] in [[Toric Code]] #card
-	  collapsed:: true
-	  card-last-interval:: 25.01
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-04-27T01:15:26.451Z
-	  card-last-reviewed:: 2023-04-02T01:15:26.451Z
-	  card-last-score:: 5
-		- ((63f9ab7a-5493-4741-8119-f9751148f6a8))
-			- The correlation, corresponding to the blue strings, are generally nonlocal and topological.
-		- Now we calculate TEE of a certain **ground state**.
-			- That is, we can fix a homotopy class.
-			- Do so for excited states. [[Research/To Be Investigated]]
-		- We need to decompose the ground state into $|\psi\rangle:=\sum c_i \cdot\left|\psi_{A i}\right\rangle \cdot|\alpha\rangle \cdot\left|\psi_{B i}\right\rangle$
-			- The three terms corresponds to A, boundary and B.
-			- In principle all configs in B have independent contributions to the reduced density matrix of A. But we may take $\psi_B$ to be a superposition state.
-		- **Observations**
-			- Allowed configurations inside a region is only dependent on the boundary config, not on the config of the other region.
-			- Inside a region, each action of $B_p$ would create a new valid config (from the reference config). Moreover, they're all independent.
-				- Therefore the weights of all boundary configs are equal!
-			- Different boundary configs always generate independent configs in A and B.
-		- Therefore, we only need to count the allowed boundary configs. They're all of equal weight.
-			- We must have an even number of blue strings crossing the boundary.
-			- $N=\sum_{k}C_{L}^{2k}$, where L is the length of the boundary.
-			- By some combinatoric, we obtain $N=2^{L-1}$.
-		- Thus,
-		  $$S=(L-1)\ln 2$$
-			- The constant term $-\ln2$ is related to the quantum dimension of TC.
-			- It is worth noting that if region $A$ has two boundaries as in Fig. $33.4$ we will get instead
-			  $$
-			  \mathcal{S}_{A, B}=(M-2) \log 2
-			  $$
-				- In other words, each piece of boundary adds a constraint.
-				- Could we investigate other topologically nontrivial boundaries? #Possibility
-					- Moreover, we may investigate higher dimensional topo orders with higher dimensional boundaries.
-					- Reminiscent of [[Homology]] :)
+	- Example: ((6498e102-7d82-4736-8535-b3d2e3043a31))
 	- General case
+	  collapsed:: true
 		- The technique is still counting boundary states (see [topobook](((63fec44a-15d9-4e69-a1cd-e966b65798a7))) for reference)
 		- The entropy would be 
 		  $$
@@ -158,6 +124,7 @@ type:: paper_reading
 			- $\alpha$ is a constant.
 			- $\gamma=\log \mathcal{D}$ is the so-called topo contribution.
 	- ## Robustness
+	  collapsed:: true
 		- Would TEE still be topological with some perturbations to the Hamiltonian, or in different models?
 		- A possible argument: Divide the surface into four regions to cancel the boundary terms. #card
 		  card-last-interval:: 31.26

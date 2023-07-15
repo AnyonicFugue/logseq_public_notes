@@ -28,11 +28,18 @@
 				- The map is 'broken' near the origin.
 	- Examples
 		- The map $p: \mathbb{R} \rightarrow S^1$ given by the equation
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-14T19:11:23.223Z
+		  card-last-reviewed:: 2023-07-14T13:11:23.223Z
+		  card-last-score:: 5
 		  $$
 		  p(x)=(\cos 2 \pi x, \sin 2 \pi x)
 		  $$
 		  is a covering map. #card
 			- A classical example, but extremely useful -- and with some deep thoughts behind.
+				- Intuitively, 'expand the space globally while retaining the local structure'.
 			- We can construct a covering of $$T^2=S^1\times S^1$$ by $$R\times R$$ in this way.
 		- $p:S^1\to S^1$ by $$p(\theta)=2\theta$$
 		- Figure-eight space

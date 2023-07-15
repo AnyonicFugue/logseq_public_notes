@@ -354,10 +354,16 @@
 			- Two of the best properties of a topological space are **compact** and **Hausdorff**.
 			  We'd like to ask the problem: Under what circumstances would a subspace inherit these properties?
 		- Def #card
-			- X is a subspace of Y
-			- $Y-X$ is a single point
-			- Y is compact Hausdorff
-			- Moreover, two compactifications are said to be homeomorphic with a homeomorphism acting as an identity on X.
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-14T19:02:55.803Z
+		  card-last-reviewed:: 2023-07-14T13:02:55.804Z
+		  card-last-score:: 5
+			- $X \sub Y$ and $Y-X$ is a single point, while $Y$ is compact Hausdorff.
+			- Moreover, two compactifications are said to be homeomorphic with a homeomorphism acting as an identity on $X$.
+			- Explicitly: The topology of Y is $\mathscr T_Y = \mathscr T_X \cup \{Y-C|C\ compact\ in\ X\}$
+				- For $\mathbb R^n$, the second part is '$\infty$ plus complement of closed bounded set'
 		- Theorem. $X$ is Locally compact [[Hausdorff]] if and only if $X$ has a one-point compactification.  #card
 			- q⇒p: Easier.
 			  Hausdorff is obvious. Just prove local compactness.
@@ -367,7 +373,7 @@
 			-
 			- p⇒q: We need to construct the topology of Y.
 			- When proving q⇒p, we noticed that In Compact Hausdorff spaces, Closed ⇔ Compact.
-			- Thus {$O(z)\in \mathscr T(Y)$} ⇔ $Y-O(z)$ closed and compact in Y ⇔ $Y-O(z)$ compact in X. 
+			- Thus $O(z)\in \mathscr T(Y)$ ⇔ $Y-O(z)$ closed and compact in Y ⇔ $Y-O(z)$ compact in X. 
 			  So the topology of Y shall be $\mathscr T(X) \cup \{Y-C|C\ compact\ in\ X\}$
 			- The rest is verifying it's indeed a topology, X has subspace topology, Y is compact.
 			-

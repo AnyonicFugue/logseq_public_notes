@@ -1,0 +1,38 @@
+alias:: PKM
+
+-
+- # Different Apps
+	- Logseq
+		- Pro
+			- 编辑极其方便，链接功能强大。
+		- Con
+			- 依赖于电脑，无法跨平台编辑。
+		- Usage
+			- 储存专业知识。
+			- 储存无需跨平台的内容，例如Guideline, Toolchain。通常需要频繁编辑和良好的查找能力。
+			- 储存需要SRS的内容。
+		- [[PKM/How to Organize Logseq Notes]]
+	- Notion
+		- Pro
+			- 跨平台。
+			- 表格好用。
+		- Con
+			- 略显笨重，编辑不太顺畅。
+		- Usage
+			- 储存需要频繁在不同设备查看的内容，如购物清单、做菜指南、练琴表。
+	- Simplenote
+		- Pro
+			- 跨平台，轻巧。
+		- Con
+			- 功能极简，无层级结构、富文本。
+		- Usage
+			- 作为快速记录信息的中转站。
+	- Joplin
+		- Pro
+			- 跨平台，自建同步，数据放心。
+			- 基本功能齐全，如层级结构、链接、Tag。
+		- Con
+			- 作为正儿八经的知识管理软件还是差Logseq太多。
+		- Usage
+			- 用来写日记。
+	-

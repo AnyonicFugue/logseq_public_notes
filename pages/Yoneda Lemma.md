@@ -1,11 +1,11 @@
 - ((6416cac5-4bfa-43d5-bedc-223b9ff5e0da))
 - Statement #card
-  card-last-interval:: 31.26
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-06-26T06:30:40.251Z
-  card-last-reviewed:: 2023-05-26T00:30:40.252Z
-  card-last-score:: 5
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.46
+  card-next-schedule:: 2023-08-23T13:45:14.571Z
+  card-last-reviewed:: 2023-07-12T13:45:14.571Z
+  card-last-score:: 3
 	- For any functor $F: \mathrm{C} \rightarrow$ Set, whose domain $\mathrm{C}$ is locally small and any object $c \in \mathrm{C}$, there is a canonical bijection
 	  $$
 	  \operatorname{Nat}(\mathrm{Hom}_\mathrm{C}(c,-), F) \cong F (c)

@@ -1,0 +1,3 @@
+- When writing on OneNote
+	- Don't let your writings exceed the width of A4 pages. Otherwise it'll be hard to export.
+	- 可以添加页面基准线，根据左侧红线的位置确定页面宽度

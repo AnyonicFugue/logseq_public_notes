@@ -1,13 +1,15 @@
-- [[Abstract Algebra]]
-- [[Topology]]
-- [[Algebraic Topology]]
-- [[Lie Groups and Lie Algebras]]
-- [[Differential Geometry]]
-- [[Functional Analysis]]
+- Basics
+	- [[Abstract Algebra]]
+	- [[Topology]]
+	- [[Complex Analysis]]
+	- [[Set Theory]]
+- Intermediate
+	- [[Algebraic Topology]]
+	- [[Lie Groups and Lie Algebras]]
+	- [[Differential Geometry]]
+- Future
+	- [[Functional Analysis]]
+	- [[Quantum Group]]
+	- [[Category Theory]]
+	- [[The Langlands Program]]
 -
--
-- [[Quantum Group]]
--
--
-- [[Set Theory]]
-- [[Category]]

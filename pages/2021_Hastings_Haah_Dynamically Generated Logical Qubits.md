@@ -78,7 +78,6 @@ type:: paper_reading
 			- ![Image(1).png](../assets/Image(1)_1686812529964_0.png){:height 256, :width 267}
 			  As shown in the picture.
 	- ## Method of Performing Measurement
-	  collapsed:: true
 		- We measure the checks in distinct rounds, measuring first all checks labeled by 0, then by 1, then by 2, repeating, so that in the $r$-th round we measure checks labeled by $r \bmod 3$.
 		- Labelling of the egdes
 		  id:: 648ab807-b794-46e6-a926-9ba8a6e1c7c8
@@ -87,14 +86,12 @@ type:: paper_reading
 				- ![20230605-092310.jpg](../assets/20230605-092310_1685928302341_0.jpg){:height 424, :width 404}
 				- Orange edges are 0, blue edges are 1, purple edges are 2/
 	- ## Important facts
-	  collapsed:: true
 		- Product of checks on a loop commute with any single check.
 			- Therefore, both plaquette operators and logical operators commute with checks, which means the eigenvalues don't change during measurements or under the action of check operators.
 		- Each single-site Pauli error flips the eigenvalues of two adjacent plaquette operators, depending on the type of the error.
 			- For example, an Pauli-X error on the cite with a red circle flips the plaquettes marked with 1 and 2, i.e. the plaquettes sharing the X-edge.
 			  ![Image(1).png](../assets/Image(1)_1686813149586_0.png){:height 342, :width 326}
 	- ## Error Detection and Correction
-	  collapsed:: true
 		- First, map the lattice to the triangular dual lattice.
 		  Each error could be represented by a red edge, which flips the two adjacent vertices (corresponding to plaquettes in the original lattice)
 		- ![Image2.png](../assets/Image(1)_1686813331528_0.png){:height 269, :width 209}
@@ -104,7 +101,6 @@ type:: paper_reading
 				- Check operators commute with the logical operator.
 		- Therefore, any error could be determined by the plaquette stabilizers (up to products of checks) and corrected.
 	- ## Comments
-	  collapsed:: true
 		- Advantage
 			- The scheme does **not** measure stabilizer operators (which are products of six Pauli operators, thus experimentally unfeasible) directly, but measure smaller operators (checks) and use information from **different** rounds of measurement to obtain the values of the stabilizers.
 		- Differences from toric code
@@ -403,7 +399,6 @@ type:: paper_reading
 			- Any single-qubit Pauli operator would flip the values of two checks, thus flipping at least one plaquette.
 				- Moreover we can correct the error (up to checks) from which plaquettes are flipped.
 - # ((6481776c-90d5-4700-b5c9-7577475df226))
-  collapsed:: true
 	- ## Setup
 		- Syndrome bits: Plaquette operators
 		- After round $r$ with $r \geq 3$, we obtain values of type-(r+1) plaquettes from datas in round $r-1$ and round $r$.

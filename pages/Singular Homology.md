@@ -152,7 +152,18 @@
 			  At first sight freely generated groups seem structureless, but the kernels and images of $\partial$ is not.
 				- Actually it is the complex which is rich in structure!
 	- Betti number #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-14T19:17:08.059Z
+	  card-last-reviewed:: 2023-07-14T13:17:08.059Z
+	  card-last-score:: 5
 		- The $n$-th Betti number of $X$ is $\operatorname{rank}H_n(X)$.
+			- Note that here the rank is the *rank of abelian groups*, i.e. rank of the **torsion-free** part.
+			- There's another rank:
+			  $$
+			  \operatorname{rank}(G)=\min \{|X|: X \subseteq G,\langle X\rangle=G\}
+			  $$
 	- Acyclic #card
 	  collapsed:: true
 		- A space $X$ is called acyclic if $H_n(X)=0$ for all $n \geq 1$.
@@ -182,6 +193,7 @@
 			  ((6461a7c8-3e70-4218-8989-a2b1fa67accf))
 			  the 'side faces' of the cone is produced by cones over the boundary.
 - # Basic Facts
+  collapsed:: true
 	- ((644638a3-9be7-46f8-8abb-f6c3ae2849af)) For all $n \geq 0$, we have $\partial_n \partial_{n+1}=0$. #card
 	  collapsed:: true
 	  card-last-interval:: 31.26
@@ -262,6 +274,12 @@
 - # Trying to Calculate the Homology Groups
   collapsed:: true
 	- Theorem. If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the set of path components of $X$, then, for every $n \geq 0$,
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-14T19:04:11.616Z
+	  card-last-reviewed:: 2023-07-14T13:04:11.616Z
+	  card-last-score:: 5
 	  $$
 	  H_n(X) \cong \sum_\lambda H_n\left(X_\lambda\right) .
 	  $$ #card
@@ -304,6 +322,7 @@
 			- However, $\operatorname{supp} \zeta$ itself is compact since *a finite union of compact subsets is compact*.
 		- Therefore consider $x \in H_n(X)$. $x \in j_*(H_n(A))$, but $H_n(A)=0$, so $x=0$.
 - # The Homotopy Axiom
+  collapsed:: true
 	- We are concerned with the problem:
 	  When does $H_n(f)=H_n(g)$
 	  Does it hold when $f$ and $g$ are homotopic?

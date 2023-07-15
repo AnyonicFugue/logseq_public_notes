@@ -85,6 +85,12 @@ alias:: [[Category Theory]]
 				- Faithful if for each $x, y \in \mathrm{C}$, the map $\mathrm{C}(x, y) \rightarrow \mathrm{D}(F x, F y)$ is injective
 		- Contravariant functor #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-14T19:15:44.853Z
+		  card-last-reviewed:: 2023-07-14T13:15:44.853Z
+		  card-last-score:: 5
 			- Definition. If $\mathscr{A}$ and $\mathscr{C}$ are categories, a contravariant functor $S: \mathscr{A} \rightarrow \mathscr{C}$ is a function, that is,
 			- (i) if $f: A \rightarrow A^{\prime}$ is a morphism in $\mathscr{A}$, then $S f: S A^{\prime} \rightarrow S A$ is a morphism in $\mathscr{C}$, such that:
 			- (ii) if $f, g$ are morphisms in $\mathscr{A}$ for which $g \circ f$ is defined, then
@@ -636,14 +642,14 @@ alias:: [[Category Theory]]
 			- Step 3. Verify the universality.
 			-
 	- ## Examples
-		- Take $\mathcal{C}={*}$, $\mathrm{D}$ some strange cat, $\mathcal{E}=\mathrm{Set}$, $K:=\{*\mapsto x\}$, $F:=\{*\mapsto \{\cdot\}\}$. Then $(\mathrm{Hom}_{\mathcal{D}}(x,-),\{\cdot \mapsto \mathrm{id}_x\})$ is the left Kan-extension of $F$ along $K$. #card
-		  collapsed:: true
+		- Take $\mathcal{C}={*}$, $\mathrm{D}$ some strange cat, $\mathcal{E}=\mathrm{Set}$, $K:=\{*\mapsto x\}$, $F:=\{*\mapsto \{\cdot\}\}$. Then $(\mathrm{Hom}_{\mathcal{D}}(x,-),\{\cdot \mapsto \mathrm{id}_x\})$ is the left Kan-extension of $F$ along $K$.
 		  card-last-interval:: 33.94
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
 		  card-next-schedule:: 2023-05-17T09:49:12.651Z
 		  card-last-reviewed:: 2023-04-13T11:49:12.651Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- See Goodnotes/Misc, p11 (Copy that diagram here!)
 			- Hint: To define a natural transformation, we only need to define the set of Homs for each object.
 			- Remark: {{cloze This is precisely [[Yoneda Lemma]] }}!
@@ -657,10 +663,10 @@ alias:: [[Category Theory]]
 			  card-last-reviewed:: 2023-06-25T00:55:10.551Z
 			  card-last-score:: 3
 			  Dually, the limit is defined by the right Kan extension. 
-			  ![image.png](../assets/image_1679298278739_0.png){:height 153, :width 912} #card
+			  ![image.png](../assets/image_1679298278739_0.png){:height 153, :width 912}
 				-
 			- ((64180e96-5979-463b-ade9-fc2e4c2edd44)) (Adjunctions are Kan extensions) If $F \dashv G$ is an adjunction with unit $\eta: 1 \Rightarrow G F$ and counit $\epsilon: F G \Rightarrow 1$, then $(G, \eta)$ is a left Kan extension of the identity functor along $F$ and $(F, \epsilon)$ is a right Kan extension of the identity functor along $G$. Moreover, the extension is absolute and pointwise.
-			  ![image.png](../assets/image_1679298432169_0.png) #card
+			  ![image.png](../assets/image_1679298432169_0.png)
 				-
 				-
 				-

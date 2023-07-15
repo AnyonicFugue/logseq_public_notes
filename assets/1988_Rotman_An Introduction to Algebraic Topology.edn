@@ -929,5 +929,22 @@
                           :rects (),
                           :page 124},
                :content {:text "[:span]", :image 1688935002182},
+               :properties {:color "yellow"}}
+              {:id #uuid "64aebc8f-0c64-4254-8e23-9ab108975547",
+               :page 133,
+               :position {:bounding {:x1 100.01028442382812,
+                                     :y1 402.9056625366211,
+                                     :x2 164.0647735595703,
+                                     :y2 420.63497161865234,
+                                     :width 760.9333333333334,
+                                     :height 1154.4},
+                          :rects ({:x1 100.01028442382812,
+                                   :y1 402.9056625366211,
+                                   :x2 164.0647735595703,
+                                   :y2 420.63497161865234,
+                                   :width 760.9333333333334,
+                                   :height 1154.4}),
+                          :page 133},
+               :content {:text "Theorem"},
                :properties {:color "yellow"}}],
- :extra {:page 124}}
+ :extra {:page 119}}

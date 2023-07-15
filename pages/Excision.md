@@ -8,7 +8,9 @@
   card-next-schedule:: 2023-07-28T06:43:35.570Z
   card-last-reviewed:: 2023-06-27T00:43:35.570Z
   card-last-score:: 5
+  collapsed:: true
 	- Excision #card
+	  collapsed:: true
 		- Geometric intuition
 			- ((6498e0fe-d925-45b8-8532-f90ed5c95f32)) means 'identifying a subspace as a single point'.
 			- Therefore we expect that we could **remove some part of the subspace** without affecting the space after identification!
@@ -44,6 +46,7 @@
 				- Note that $(X-U)^\circ = X-\bar U$.
 			-
 	- Barycentric division #card
+	  collapsed:: true
 		- Idea
 			- We wish to divide a simplex repeatedly to 'arbitrarily small'.
 			- Then we could apply [[The Lebesgue number lemma]].
@@ -53,9 +56,17 @@
 		  (ii) if $\varphi_0, \varphi_1, \ldots, \varphi_{n+1}$ are the $n$-faces of $\Sigma^{n+1}$ and if $b$ is the barycenter of $\Sigma^{n+1}$, then Sd $\Sigma^{n+1}$ consists of all the $(n+1)$-simplexes spanned by $b$ and $n$-simplexes in $\operatorname{Sd} \varphi_i, i=0, \ldots, n+1$.
 		- ((64ab1a5b-d15c-449d-89ff-ae0c8100a239))
 			-
+	- Degree of a continuous map $f$ : $S^n \rightarrow S^n$ #card
+		- Definition. A continuous map $f$ : $S^n \rightarrow S^n$ (where $n>0$ ) has degree $m$, denoted by $d(f)=m$, if $f_*: H_n\left(S^n\right) \rightarrow H_n\left(S^n\right)$ is multiplication by $m$.
 - # Proof
+  collapsed:: true
 	- Lemma 6.11. Let $X_1$ and $X_2$ be subspaces of $X$. If the inclusion $S_*\left(X_1\right)+$ $S_*\left(X_2\right) \hookrightarrow S_*(X)$ induces isomorphisms in homology, then excision holds for the subspaces $X_1$ and $X_2$ of $X$. #card
-	  collapsed:: true
+	  card-last-interval:: 31.21
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-13T18:38:22.677Z
+	  card-last-reviewed:: 2023-07-13T13:38:22.678Z
+	  card-last-score:: 5
 		- How was the proof motivated?
 		  background-color:: red
 			- Seems the proof is directly motivated by the ((649e4af5-3e8a-4202-831b-2ad858b4b337)) and manipulating compositions of isomorphisms...
@@ -83,20 +94,26 @@
 			- Consider the corresponding long exact sequence.
 			- We know every third term is zero, thus $j$ induces isomorphisms.
 		- Finally we make a beautiful construction:
-		  collapsed:: true
 		  ((649e4a3e-67e0-4327-9819-262437a3b1c8))
 			- It's easy to verify $\mathcal l$ is an isomorphism since ((649e49f0-6cef-4631-bb01-027b94b5422c))
-			- Since both $l$ and $j$ are isomorphisms, it follows that $k$ is an isomorphism.
+			- Since both $l$ is itself an isomorphism and $j$ induces isomorphisms between homology groups, it follows that $k$ induces isomorphisms between homology groups.
 			  The proof finishes.
 		-
 	- The whole proof is quite lengthy, but the key ideas are quite simple (I could even come up with them myself!).
+	  collapsed:: true
 		- First, $\Delta^n$ is compact, therefore [[The Lebesgue number lemma]] says the 'minimum containing property' of the inverse images of $X_1^\circ \cap \sigma(\Delta^n)$ and $X_2^\circ \cap \sigma(\Delta^n)$.
 		- Next we could use Barycentric division to divide the simplexes repeatedly, until each is smaller than the Lebesgue number and could be contained in a single piece.
 		- Since the Barycentric division doesn't change the properties of boundaries (as the extra faces cancel each other), we're done.
 - # Important Facts
   collapsed:: true
-	- Lemma. Consider the commutative diagram
+	- Lemma (Barratt-Whitehead). Consider the commutative diagram
 	  id:: 649955ae-5920-4aa5-8d1d-f5a3171d430c
+	  card-last-interval:: 31.21
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-13T18:42:15.696Z
+	  card-last-reviewed:: 2023-07-13T13:42:15.697Z
+	  card-last-score:: 5
 	  collapsed:: true
 	  ((649955c6-e5a3-4cad-9648-224497609a54))
 	  in which every third vertical map $h_n$ is an **isomorphism**. Then there is an exact sequence
@@ -136,6 +153,12 @@
 				  $f_{n-1}d_n(x)=0$ <-> $\Delta_n h_n(x)=0$ <-> $h_n(x) \in \operatorname{Im}q_n$.
 	- ((649b9b72-174d-40b4-bcff-9f48f3b1e56b)) (Mayer-Vietoris). If $X_1, X_2$ are subspaces of $X$ with $X=$ $X_1^{\circ} \cup X_2^{\circ}$, then there is an exact sequence
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-14T19:15:29.781Z
+	  card-last-reviewed:: 2023-07-14T13:15:29.782Z
+	  card-last-score:: 5
 	  $$
 	  \cdots \longrightarrow H_n\left(X_1 \cap X_2\right) \stackrel{\left(i_{1 *}, i_{2 *}\right)}{\longrightarrow} H_n\left(X_1\right) \oplus H_n\left(X_2\right) \stackrel{g_*-j_*}{\longrightarrow} H_n(X) \stackrel{D}{\longrightarrow} H_{n-1}\left(X_1 \cap X_2\right) \longrightarrow \cdots,
 	  $$
@@ -173,6 +196,12 @@
 				- Obviously $H_1(S^1)=\operatorname{Im}D=Z$.
 			-
 	- ((649cef7f-3587-45f0-af4b-ec8471ef0d5d)) (Mayer-Vietoris Theorem for Reduced Homology). If $X_1, X_2$ are subspaces of $X$ with $X=X_1^{\circ} \cup X_2^{\circ}$ and $X_1 \cap X_2 \neq \varnothing$, then there is an exact sequence
+	  card-last-interval:: 29.95
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-11T11:51:17.923Z
+	  card-last-reviewed:: 2023-07-12T13:51:17.923Z
+	  card-last-score:: 5
 	  $$
 	  \cdots \rightarrow \widetilde{H}_n\left(X_1 \cap X_2\right) \rightarrow \widetilde{H}_n\left(X_1\right) \oplus \widetilde{H}_n\left(X_2\right) \rightarrow \widetilde{H}_n(X) \rightarrow \widetilde{H}_{n-1}\left(X_1 \cap X_2\right) \rightarrow \cdots
 	  $$
@@ -186,15 +215,17 @@
 			-
 		- i.e. **Reduced homology doesn't affect relative homology.**
 - # Applications
-  collapsed:: true
 	- ((649cf085-8b8d-44f2-b4ef-e754b39ba39e)). (Homology of Spheres) Let $S^n$ be the $n$-sphere, where $n \geq 0$. Then
+	  collapsed:: true
 	  $$
 	  \widetilde{H}_p\left(S^n\right)= \begin{cases}\mathbf{Z} & \text { if } p=n \\ 0 & \text { if } p \neq n\end{cases}
 	  $$ #card
 		- $n=0$ is trivial.
 		- $n \geq 1$:
+		  collapsed:: true
 			- Separate $S^n$ into two charts (as if giving it the simplest smooth structure).
 			- $X_1$, $X_2$ are both contractible, while $X_1 \cap X_2 \simeq S^{n-1}$.
+			  collapsed:: true
 				- Note that for contractible spaces, $\tilde H_n(X)=0$.
 			- Therefore we can rewrite the exact sequence
 			  $$
@@ -210,4 +241,15 @@
 		  #+END_NOTE
 		- Corollary. $S^n$ isn't contractible.
 		- Corollary. $\mathbb R^m$ isn't homeomorphic to $\mathbb R^n$ when $m \neq n$.
+		-
+	- Lemma 6.21. Let $f, g: S^n \rightarrow S^n$ be continuous maps.
+	  (i) $d(g \circ f)=d(g) d(f)$.
+	  (ii) $d\left(1_{S^n}\right)=1$.
+	  (iii) If $f$ is constant, then $d(f)=0$.
+	  (iv) If $f \simeq g$, then $d(f)=d(g) \cdot{ }^1$
+	  (v) If $f$ is a homotopy equivalence, then $d(f)= \pm 1$. #card
+		- (i) and (ii) roughly states that 'd is a homomorphism'.
+	- ((64aebc8f-0c64-4254-8e23-9ab108975547)). If $n \geq 1$, then the antipodal map $a^n: S^n \rightarrow S^n$ has degree $(-1)^{n+1}$. #card
+	  id:: 64aebc70-fcef-45e1-b9d1-2f81749bb8c4
+		- Definition. If $x=\left(x_1, \ldots, x_{n+1}\right) \in S^n$, its antipode is $-x=\left(-x_1, \ldots,-x_{n+1}\right)$. The antipodal map $a=a^n: S^n \rightarrow S^n$ is defined by $x \mapsto-x$.
 		-

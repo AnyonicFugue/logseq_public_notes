@@ -6,11 +6,11 @@
 			- However, changing the order of summation and integration requires **absolute convergence**. Here the sum doesn't converge absolutely -- it diverges!
 		- However, the bunch of seeming total nonsense works (partially)! There must be things deeper behind.
 - # Principles and the Paradigm #card
-  card-last-interval:: 31.26
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-06-26T06:20:56.367Z
-  card-last-reviewed:: 2023-05-26T00:20:56.368Z
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-08-24T13:36:30.509Z
+  card-last-reviewed:: 2023-07-13T13:36:30.509Z
   card-last-score:: 5
 	- ## Empirical Knowledge
 		- We can't probe physics at arbitrarily high $E$.
@@ -29,7 +29,7 @@
 			- Intuitively plausible.
 				- Mr. Shao argued it from the uncertainty principle (we can't determine arbitrarily small details with finite energy), which seems not so convincing.
 			- **Corollary**. Physical quantities should be independent of regularization.
-	- **Conjecture**. We can replace the [[Bare]] quantities by physical quantities ($m_0$ by $m$, $e_0$ by $e$, ...) in the Lagrangian and obtain testable predictions.
+	- **Conjecture**. We can **replace** the [[Bare]] quantities by **physical** quantities ($m_0$ by $m$, $e_0$ by $e$, ...) in the Lagrangian and obtain testable predictions.
 		- This is highly nontrivial!
 			- In principle the form of the Lagrangian should also change.
 		- To be more specific, this is achieved by adding counterterms to cancel the divergences.

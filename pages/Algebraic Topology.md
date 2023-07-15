@@ -51,8 +51,14 @@
 	- Def
 		- Affine #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-14T19:06:02.075Z
+		  card-last-reviewed:: 2023-07-14T13:06:02.075Z
+		  card-last-score:: 5
 			- A subset $A$ of Euclidean space is called affine if, for every pair of distinct points $x, x^{\prime} \in A$, the **line** determined by $x, x^{\prime}$ is contained in $A$.
-			- Note that convex only requires the line segment, while affine requires the whole line.
+			- Note that convex only requires the line **segment**, while affine requires the whole line.
 		- Convex (Affine) hull of some $X\sub R^n$ #card
 		  collapsed:: true
 		  card-last-interval:: 31.26
@@ -318,6 +324,12 @@
 				- A subset $X$ of $\mathbf{R}^m$ is convex if, for each pair of points $x, y \in X$, the line segment joining $x$ and $y$ is contained in $X$. In other words, if $x, y \in X$, then $t x+(1-t) y \in X$ for all $t \in [0,1]$.
 			- Contractible #card
 			  id:: 6427a15a-5b02-4445-a1b6-1aa2219b1b94
+			  card-last-interval:: 31.21
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-08-13T18:36:50.726Z
+			  card-last-reviewed:: 2023-07-13T13:36:50.727Z
+			  card-last-score:: 5
 				- A space $X$ is contractible if $1_X$ is nullhomotopic.
 			- Identification #card
 			  card-last-interval:: 31.26
@@ -331,6 +343,12 @@
 				- Equivalently, $f$ is a quotient map. There's even a corollary for this:
 				- ((6427a61a-b555-44c4-8ba2-c37e4c6faa27)) Let $X$ and $Z$ be spaces, and let $h: X \rightarrow Z$ be an identification. Then the map $\varphi: X / \operatorname{ker} h \rightarrow Z$, defined by $[x] \mapsto h(x)$, is a homeomorphism.
 			- Fiber #card
+			  card-last-interval:: 31.21
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-08-13T18:42:48.880Z
+			  card-last-reviewed:: 2023-07-13T13:42:48.880Z
+			  card-last-score:: 5
 				- Let $f: X \rightarrow Y$ be a function and let $y \in Y$. Then $f^{-1}(y)$ is called the fiber over $y$.
 				- 'Preimage of a single point'
 			- Cone #card

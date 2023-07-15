@@ -8,7 +8,14 @@
 		- [Entropy of entanglement - Wikipedia](https://en.loveeleven.ml/wiki/Entropy_of_entanglement)
 -
 	- [[Relative Entropy]] #card
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-07-15T04:00:00.000Z
+	  card-last-reviewed:: 2023-07-14T13:16:51.554Z
+	  card-last-score:: 1
 		- Motivation: a measurement of how close two distributions are.
+			- An alternative of fidelity.
 		- $S(\rho \| \sigma)=-Tr(\rho \log \sigma)-(-Tr(\rho \log \rho))=\operatorname{Tr} \rho(\log \rho-\log \sigma)$ 
 		  The sign is positive.
 		- Property: positive-definite.

@@ -1,0 +1,42 @@
+- # Principles
+	- Motivation is very important.
+		- I should not only take the efficiency into account, but also my motivation.
+	- Balance understanding and long-term memory.
+	  id:: 6451f87d-1304-416b-a4b4-7365e5c3ac9b
+- # Problems
+	- ## Note Taking
+		- Handwriting or typing?
+			-
+-
+- # Textbook Reading
+	- ## Observations
+		- I used to hope that I could reorganize the page three days later (as a method to incorporate recalling), but I find that repellent.
+	- ## Workflow
+		- Texts without explicit structures:
+			- Read with Zotero or Sumatra
+			- 在iPad上打草稿，写写画画。
+				- Pro
+					- This hugely boosts my understanding.
+				- Todo
+					- 不需要写得非常详细，因为我未来不会再看它了。
+			- Record essential conclusions and understandings to Logseq.
+				- Pro
+					- Provide an overview
+					- Easy reference
+					- Note-taking itself is a pleasure as well as a process of review
+				- Todo
+					- First write down the main points and thoughts independently and leave things I cannot recall blank, then fill the formulae. Do **not** snip line by line. #card
+						- It is natural that I can't remember certain things.
+						- But I shouldn't record things in the textbook to Logseq page by page, which harms my active thinking.
+						- The correct way should be setting down the outline and try to write by myself.
+		-
+		- Texts with explicit structures (Definition, theorem, etc. Mainly math books):
+			- Record the definitions and theorems to Logseq by mathpix, but prove and ponder on iPad. 手写可以提供更多试验、发散思考的空间。
+				- ((6451f87d-1304-416b-a4b4-7365e5c3ac9b)) Logseq helps long-term memory and iPad helps understanding.
+- # Spaced Repetition
+	- ## Observations
+		- 超过10min后专注力就会显著下降，而且会感到厌恶。这对动机和兴趣是极大的磨损。
+	- ## Workflow
+		- 单次10min，在学习开始前来一次，学习结束后来一次。
+		- The anki upper bound is modified to 60cards/day, but in one session it shall not exceed 30 cards.
+-

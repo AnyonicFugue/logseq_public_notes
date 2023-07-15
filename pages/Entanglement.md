@@ -2,22 +2,10 @@
 	- [[Entanglement]] is deeply related with [[Thermalization]].
 		- Intuition: Local thermalization -> Long-range entanglement
 	- Quantum info provide proxies for certain kinds of classical hardness, thus helping to understand ((63e86248-136d-4d42-9012-f111fcc231cc))
-	-
-- # What structures can describe it?
-	- Do we need to describe a distribution, a correlation, or some higher structure?
-		- Distribution (at single point) seems not satisfactory. We only know how mixed the state is, but don't know whom it mixes with.
-		- Note that distribution is 1-point correlation.
-		-
-	- Blind guess: Sheaf
-	- Should we describe a particular state, or try to describe the ground state of a Hamiltonian?
-		- The latter seems not so practical. What if it is degenerate?
+-
+-
 - # Thoughts
 	- 'If you work too hard you get nothing'. Equal-weight superposition of all configurations doesn't work, but partial sum does.
-	- The emerging structure of [[UMTC]] implies something deeper behind the stage.
-	- ## Must be related to the fundamental properties of QM
-		- ### What happens when we superpose states?
-		- ### 'Redundancy' of phase
-			- TODO Link with wonders of the universe, then delete the line
 	- Low-entanglement states can be approximated by states with a small Schmidt number (nonzero eigenvalues of reduced density matrices)
 - # Quantifications
 	- [[von-Neumann Entropy]]

@@ -1,5 +1,5 @@
 file:: [Simon_Topological Quantum.pdf](C:/Users/10309/Nutstore/1/sync/zotero/Physics/Topological order/Intros and Reviews/Simon_Topological Quantum.pdf)
-file-path:: zotero_link/Physics/Topological order/Intros and Reviews/Simon_Topological Quantum.pdf
+file-path:: zotero_link/Research/Quantum Matters/Topological order/Intros and Reviews/Simon_Topological Quantum.pdf
 
 - Shor’s Code is a Toric Code
   ls-type:: annotation

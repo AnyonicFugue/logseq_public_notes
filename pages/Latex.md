@@ -1,4 +1,5 @@
 - Basic signs
+  collapsed:: true
 	- 'Big' things are obtained by {{cloze capitalizing the first letter}}.
 		- $\Rightarrow$ = `\Rightarrow`
 	- $\subset$ and $\subseteq$ #card
@@ -12,8 +13,20 @@
 	- $\hookrightarrow$
 	-
 - Lists and Tables
+- # Matrix and Array
+	- $$\rho =\left [\begin{array}{ c c|c c }
+	  1 & 0 & 0 & 1\\
+	  0 & 0 & 0 & 0\\
+	  \hline
+	  0 & 0 & 0 & 0\\
+	  1 & 0 & 0 & 1
+	  \end{array} \right ]$$
+		- `c c | c c` for the vertical line, `hline` for the horizontal line
+		- The brackets encircles the whole array by `\left` and `\right`
+			- In Mathcha, just input them at the left and right of the array.
 - Text Alignment
 - Paragraph Formatting
+  collapsed:: true
 	- Equation numbering
 	  collapsed:: true
 		- Single equation
@@ -35,6 +48,7 @@
 		- `\package{multicols}{n}`
 	-
 - Citation and Bib
+  collapsed:: true
 	- Summary
 		- First, create a `.bib` file
 		- Add items to the file

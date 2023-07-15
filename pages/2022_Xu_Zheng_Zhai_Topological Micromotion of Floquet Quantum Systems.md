@@ -15,6 +15,12 @@
 		- Physically, the difference between effective Hamiltonians if we select different start times.
 - # General Theory
 	- Key idea #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-14T19:06:31.440Z
+	  card-last-reviewed:: 2023-07-14T13:06:31.440Z
+	  card-last-score:: 5
 		- The idea is to take the parameter $\alpha$ as yet another momentum (adding a dimension!) and calculate the topological invariants of the Brillouin zone.
 			- For example, we can construct a map $BZ \to S^2$ by 
 			  $$

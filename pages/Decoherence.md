@@ -151,11 +151,11 @@ type:: [[Course]]
 			  -i & 0
 			  \end{array}\right)$$
 		- Depolarization #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-01-26T05:54:01.234Z
-		  card-last-reviewed:: 2023-01-02T05:54:01.234Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-11-07T03:40:42.888Z
+		  card-last-reviewed:: 2023-07-12T13:40:42.889Z
 		  card-last-score:: 5
 			- ((6371f38f-c95e-4d59-a4d8-237a069a12e7))
 				- Note that this channel needs two control bits to flip 3 directions **independently**.

@@ -12,11 +12,18 @@
 			- p is a [[Covering map]]
 		- Idea: Embed into something better.
 	- Lifting correspondence #card
-		- ((638c0dc2-8ba5-49b1-a443-6a4c808f0acf)) Let $p: E \rightarrow B$ be a covering map; let $b_0 \in B$ Choose $e_0$ so that $p\left(e_0\right)=b_0$. Given an element $[f]$ of $\pi_1\left(B, b_0\right)$, let $\bar{f}$ be the lifting of $f$ to a path in $E$ that begins at $e_0$. Let $\phi([f])$ denote the end point $\tilde{f}(1)$ of $\tilde{f}$.
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-08-14T19:15:19.268Z
+	  card-last-reviewed:: 2023-07-14T13:15:19.268Z
+	  card-last-score:: 3
+		- ((638c0dc2-8ba5-49b1-a443-6a4c808f0acf)) Let $p: E \rightarrow B$ be a covering map; let $b_0 \in B$ Choose $e_0$ so that $p\left(e_0\right)=b_0$. Given an element $[f]$ of $\pi_1\left(B, b_0\right)$, let $\bar{f}$ be the lifting of $f$ to a path in $E$ that begins at $e_0$.
 			- Note that lifting preserves path homotopy, so the map is independent of the representative.
 		- Then the **lifting correspondence** $\phi$ is a well-defined set map
 		  $$
-		  \phi: \pi_1\left(B, b_0\right) \rightarrow p^{-1}\left(b_0\right) .
+		  \phi: \pi_1\left(B, b_0\right) \rightarrow p^{-1}\left(b_0\right) \\
+		  f \mapsto \tilde f(1)
 		  $$
 			- Interestingly, a loop may not be mapped to a loop. eg $\ln z$
 			- Something similar to [[Berry Phase]]?
