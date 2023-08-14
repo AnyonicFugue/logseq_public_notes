@@ -25,18 +25,19 @@
 - ((63ba7047-d03a-4029-8daf-5787e7eabe4f)) Let $a$ and $b$ be points of $S^2$. Let $A$ be a compact space, and let $f: A \longrightarrow S^2-a-b$ be a continuous map. If $a$ and $b$ lie in the same component of $S^2-f(A)$, then $f$ is nulhomotopic. #card
   id:: 63ba704a-2fd3-4833-b52a-2e3ee5a134a8
   collapsed:: true
-  card-last-interval:: 30
-  card-repeats:: 2
-  card-ease-factor:: 2.46
-  card-next-schedule:: 2023-05-05T00:42:18.304Z
-  card-last-reviewed:: 2023-04-05T00:42:18.305Z
+  card-last-interval:: 107.52
+  card-repeats:: 3
+  card-ease-factor:: 2.56
+  card-next-schedule:: 2023-11-20T00:58:53.816Z
+  card-last-reviewed:: 2023-08-04T12:58:53.817Z
   card-last-score:: 5
 	- Intuitively, we need two 'holes' to prevent some loop on $S^2$ to be contractible.
 		-
 	- Proof
 		- Step 1. Choose an equivalent formulation.. Place $a$ at 0, $b$ at $\infty$. $g: A \rightarrow \mathbb{R}^2-\mathbf{0}$
 		- Idea
-			- First somehow move $0$ far away. Then $f(A)$, which is closed and bounded, can be scaled down to a point.
+			- First somehow move $0$ far away to make the set convex. 
+			  Then $f(A)$, which is closed and bounded, can be scaled down to a point.
 		- Step 2. Choose a large disk B and a point $p \notin B$.
 			- $B$ is how we formalize 'far away'.
 		- ### Central construction: $H(x, t)=\operatorname{tg}(x)-p$

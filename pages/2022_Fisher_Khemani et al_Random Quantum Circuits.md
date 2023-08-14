@@ -12,7 +12,7 @@ type:: paper_reading
 		- ((63ec4421-118a-4f69-9497-2083815547a1))
 			- ((63ec4464-1934-4619-9987-ebf33d2bd23f))
 				- Can we start from the principles and deduce the possible physical quantities? #Possibility
-			- Quantum mechanics is linear, of course; but this illustrates that **not all nonlinear functions are useless.** #[[Thoughts/Math and Physics]]
+			- Quantum mechanics is linear, of course; but this illustrates that **not all nonlinear functions are useless.** #[[Observations/Math and Physics]]
 			-
 	- Role of randomness
 		- ((63ec4a4e-1f16-46b5-9195-fa5ab3d8c15f))

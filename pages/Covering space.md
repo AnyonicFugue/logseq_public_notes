@@ -1,4 +1,4 @@
-- # Defs
+# Defs
 	- Evenly covered #card
 	  card-last-interval:: 67.2
 	  card-repeats:: 3
@@ -10,11 +10,11 @@
 			- In other words, E contains several disjoint copies of U, which are 'squashed into one' by p.
 	- [[Covering map]]
 		- Def #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-04-10T16:12:10.508Z
-		  card-last-reviewed:: 2023-02-02T12:12:10.510Z
+		  card-last-interval:: 353.22
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-07-12T07:17:22.908Z
+		  card-last-reviewed:: 2023-07-25T02:17:22.909Z
 		  card-last-score:: 5
 			- Let $p: E \rightarrow B$ be continuous and surjective. If every point $b$ of $B$ **has a neighborhood** $U$ that is evenly covered by $p$, then $p$ is called a covering map, and $E$ is said to be a covering space of $B$
 				- This is not a very [[Global]] property. Each point can only be sliced [[Locally]]
@@ -54,12 +54,12 @@
 - # Calculate the [[Fundamental Group]]
 	- ((638c3f1f-7609-4ec8-880f-7b851dea0f63)) Let $p: E \rightarrow B$ be a covering map; let $p\left(e_0\right)=b_0$. If $E$ is **path connected**, then the lifting correspondence $\phi: \pi_1\left(B, b_0\right) \rightarrow p^{-1}\left(b_0\right)$ is **surjective**. If $E$ is **simply connected**, it is **bijective**. #card
 	  card-last-score:: 5
-	  card-repeats:: 3
-	  card-next-schedule:: 2023-07-07T00:31:01.610Z
-	  card-last-interval:: 84
+	  card-repeats:: 4
+	  card-next-schedule:: 2024-07-27T17:54:27.902Z
+	  card-last-interval:: 353.22
 	  id:: 638c0f2d-33eb-4634-9467-e083bf50506d
-	  card-ease-factor:: 2.8
-	  card-last-reviewed:: 2023-04-14T00:31:01.611Z
+	  card-ease-factor:: 2.9
+	  card-last-reviewed:: 2023-08-09T12:54:27.902Z
 		- Intuition
 			- (1) A path from $e_0$ to $e_1$ is compressed into a loop by the covering map. It is decompressed by the lifting correspondence.
 			- (2) We just need to prove it is injective.

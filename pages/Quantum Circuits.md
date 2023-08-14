@@ -1,5 +1,5 @@
-- # [[Bloch Sphere]] and Bloch Ball
-  collapsed:: true
+# [[Bloch Sphere]] and Bloch Ball
+collapsed:: true
 	- Summary: Density matrix in terms of coordinates, rotation of the ball, expectation values #card
 	  card-last-interval:: 84
 	  card-repeats:: 3
@@ -175,11 +175,11 @@
 				- This measure is phase-invariant
 		-
 		- Theorem. (Kitaev-Solovay) #card
-		  card-last-interval:: 30.72
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-05T04:18:54.648Z
-		  card-last-reviewed:: 2023-03-05T11:18:54.649Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-18T12:52:55.617Z
+		  card-last-reviewed:: 2023-08-07T12:52:55.617Z
 		  card-last-score:: 5
 			- (1) Let $\mathcal{G}$ be a finite set in $\mathrm{SU}(2)$ containing its own inverses (so $g \in \mathcal{G}$ implies $g^{-1} \in \mathcal{G}$ ) and such that the group $\langle\mathcal{G}\rangle$ they generate is **dense** in $\mathrm{SU}(2)$
 			  Then there is a **constant** $c$ such that for any $U \in \mathrm{SU}(2)$, the length of gates from $\mathcal{G}$ needed to approximate $U$ within error of $\varepsilon$ is $$O\left(\log ^c(1 / \varepsilon)\right)$$

@@ -2,6 +2,12 @@ alias:: GR
 
 - # Tricks and Cautions #card
   collapsed:: true
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-08-28T18:51:23.399Z
+  card-last-reviewed:: 2023-07-28T12:51:23.399Z
+  card-last-score:: 5
 	- $g^{ab}$ is the **inverse** of $g_{ab}$.
 	  When writing in the form of $d s^2=-d \tau^2+a^2(\tau)\left(d x^2+d y^2+d z^2\right)$, it is $g_{ab}$, **not** $g^{ab}$!
 		- This is particularly important when calculating the Christoffel symbols, which involves lots of $g_{ab}$!
@@ -10,8 +16,6 @@ alias:: GR
 		- $\nabla_a t^b=\partial_a t^b+\Gamma_{a c}^b t^c$
 			- Quick memorization: Covariant at LHS, partial and Christoffel symbols at RHS.
 			- **PLUS** for vectors and **MINUS** for dual vectors.
-	- Exercise. From the covariant form of the geodesic equation, derive the coordinate form.
-		- The key is to use the chain rule to obtain a derivative wrt the parameter.
 	- In coordinate transformations, only quantities in the same coordinate system could contract!
 		- e.g. when $x^\mu \to x'^\mu$, how does the metric $g_{\mu\nu}$ transform?
 			- $$
@@ -151,11 +155,11 @@ alias:: GR
 				- Sum two then minus one
 		- Parallel Transport #card
 		  collapsed:: true
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-07-08T07:16:39.867Z
-		  card-last-reviewed:: 2023-06-07T01:16:39.867Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-13T12:57:00.126Z
+		  card-last-reviewed:: 2023-08-02T12:57:00.126Z
 		  card-last-score:: 5
 			- We say a vector field $v^b$ is parallel transported along $t^a$ if
 			  $$
@@ -166,11 +170,11 @@ alias:: GR
 	- Riemann curvature tensor
 		- Def #card
 		  card-last-score:: 5
-		  card-repeats:: 2
-		  card-next-schedule:: 2023-06-23T00:05:20.515Z
-		  card-last-interval:: 30
-		  card-ease-factor:: 2.7
-		  card-last-reviewed:: 2023-05-24T00:05:20.515Z
+		  card-repeats:: 3
+		  card-next-schedule:: 2023-11-28T02:50:35.466Z
+		  card-last-interval:: 117.6
+		  card-ease-factor:: 2.8
+		  card-last-reviewed:: 2023-08-02T12:50:35.467Z
 		  collapsed:: true
 			- collapsed:: true
 			  $$
@@ -192,12 +196,12 @@ alias:: GR
 			  R_{\mu \nu}=R_{\mu \lambda \nu}^\lambda=\frac{\partial \Gamma_{\mu \nu}^\lambda}{\partial x^\lambda}-\frac{\partial \Gamma_{\mu \lambda}^\lambda}{\partial x^\nu}+\Gamma_{\mu \nu}^\kappa \Gamma_{\kappa \lambda}^\lambda-\Gamma_{\mu \lambda}^\kappa \Gamma_{\nu \kappa}^\lambda
 			  $$
 		- Properties #card
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-12T00:41:15.410Z
-		  card-last-reviewed:: 2023-04-12T00:41:15.411Z
-		  card-last-score:: 5
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-09-11T12:17:25.474Z
+		  card-last-reviewed:: 2023-07-31T12:17:25.475Z
+		  card-last-score:: 3
 		  collapsed:: true
 			- 1. $R_{a b c}{ }^d=-R_{b a c}{ }^d$.
 			- 2. 
@@ -260,6 +264,12 @@ alias:: GR
 					- Isometries are the gauge freedoms of general relativity.
 	- ## Lie Derivative
 		- Def #card
+		  card-last-interval:: 33.94
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-12T10:55:14.745Z
+		  card-last-reviewed:: 2023-08-09T12:55:14.745Z
+		  card-last-score:: 5
 			- $$
 			  \mathcal L_v T^{a_1 \cdots a_{k}}_{b_1 \cdots b_l}=\lim _{t \rightarrow 0}\left\{\frac{\phi_{-t}^* T^{a_1 \cdots a_{k}}_{b_1 \cdots b_l}-T^{a_1 \cdots a_k}_{b_1 \cdots b_l}}{t}\right\}
 			  $$
@@ -267,6 +277,12 @@ alias:: GR
 			- Exercise. It indeed satisfies linearity, the Leibniz law and $\mathcal L_v f=v(f)$
 		- Now we try to determine its behavior in coordinate systems.
 			- Proposition. $$\mathcal L_v w^a=[v, w]^a$$ #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-08-29T18:44:45.720Z
+			  card-last-reviewed:: 2023-07-29T12:44:45.720Z
+			  card-last-score:: 5
 				- Note that $[v,w](f):=v(w(f))-w(v(f))$
 				- In the coordinate where $v^a=e_1^a$, $\mathcal L_v T^{a_1 \cdots a_{k}}_{b_1 \cdots b_l}=\frac {\partial} {\partial x_1} T^{a_1 \cdots a_{k}}_{b_1 \cdots b_l}$. It's easy to verify the equality in this coordinate.
 				- Since both sides are tensorial, this tensorial equation holds.
@@ -289,11 +305,11 @@ alias:: GR
 	  id:: 6433cc8f-9fd7-4848-a229-d5b4372356d2
 	  collapsed:: true
 		- Def #card
-		  card-last-interval:: 32.57
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-28T00:58:58.022Z
-		  card-last-reviewed:: 2023-04-25T11:58:58.022Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-07T13:27:16.193Z
+		  card-last-reviewed:: 2023-07-27T13:27:16.194Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- A vector field $\xi^a$ which generates an 1-para family of isometries, i.e. $\mathcal L_\xi g_{ab}=0$
@@ -317,11 +333,11 @@ alias:: GR
 			  $$
 			  so $\xi^a$ is completely determined by its value and first-order derivative at some point (as boundary conditions).
 				- Immediately we see that there are at most $n+n(n-1) / 2=n(n+1) / 2$ linear independent Killing fields. #card
-				  card-last-interval:: 32.57
-				  card-repeats:: 1
-				  card-ease-factor:: 2.6
-				  card-next-schedule:: 2023-06-07T01:14:18.818Z
-				  card-last-reviewed:: 2023-05-05T12:14:18.819Z
+				  card-last-interval:: 42
+				  card-repeats:: 2
+				  card-ease-factor:: 2.7
+				  card-next-schedule:: 2023-09-21T12:24:39.403Z
+				  card-last-reviewed:: 2023-08-10T12:24:39.403Z
 				  card-last-score:: 5
 					- *Reminder.
 					- $n(n-1)/2$ arises from $\nabla_a \xi_b+\nabla_b \xi_a=0$, i.e. antisymmetricity.
@@ -363,6 +379,12 @@ alias:: GR
 		- $$S_{G}=\frac{c^3}{16 \pi G} \int R \sqrt{-g} \ d^4 x$$
 		  $$S_{\mathrm{M}}=\frac{1}{c} \int \mathscr{L}_{\mathrm{M}} \sqrt{-g} d^4 x$$
 			- Exercise. The variation indeed gives the correct EOM. #card
+			  card-last-interval:: 32.57
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-09-13T01:52:50.511Z
+			  card-last-reviewed:: 2023-08-11T12:52:50.511Z
+			  card-last-score:: 5
 				- Useful relations
 					- Palatini identity
 					  $$
@@ -1031,12 +1053,18 @@ alias:: GR
 - # Physical Interpretations
 	- Is gravity still a force? How to define the gravity of the earth? #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-25T19:03:10.100Z
+	  card-last-reviewed:: 2023-07-25T13:03:10.100Z
+	  card-last-score:: 5
 		- First, **what is a force**?
-		  collapsed:: true
 			- If a particle accelerates with respect to an inertial observer, we claim that a force $F:=ma$ is acting on the particle.
 			- However, in GR there's no notion of inertial observers (or natural reference frames).
-		- Therefore, we can't talk about absolute gravitational force since there's no natural reference frame.
+		- In GR we only have geodesics; 'force' relies on the reference frame.
 		  collapsed:: true
+		  Thus we can't talk about absolute gravitational force since there's no natural reference frame.
 			- However, we can always talk about tidal forces (relative acceleration of two observers).
 		- The earth is a special case: We have the earth as a natural reference frame, or we have a natural notion of time-translation symmetry (standing on the surface of the earth)
 	- Calculate time measured by an observer #card

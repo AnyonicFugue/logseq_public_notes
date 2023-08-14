@@ -1,4 +1,4 @@
-- # Mathematical Description
+# Mathematical Description
 	- ## Condensable bosons
 	  id:: 63d873f9-1041-49a2-8b5a-1908f8fa53a8
 	  collapsed:: true
@@ -143,12 +143,12 @@
 - # Examples
 	- ## ((63da0e16-0074-496a-952b-bd3534890de6)): Double Ising to [[Toric Code]] condensation #card
 	  collapsed:: true
-	  card-last-interval:: 30
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-06-01T11:22:10.035Z
-	  card-last-reviewed:: 2023-05-02T11:22:10.035Z
-	  card-last-score:: 5
+	  card-last-interval:: 107.52
+	  card-repeats:: 3
+	  card-ease-factor:: 2.56
+	  card-next-schedule:: 2023-11-15T00:31:30.005Z
+	  card-last-reviewed:: 2023-07-30T12:31:30.005Z
+	  card-last-score:: 3
 		- Note: We choose double Ising rather than Ising because $s_\psi=-1$. Pair two $\psi$ cancels the sign.
 		- Choose $\psi_1\psi_2$ as the anyon to be condensed.
 			- Confined anyons
@@ -180,11 +180,11 @@
 			- No need to split here.
 	- ### Condensing $SU(2)_4$ #card
 	  collapsed:: true
-	  card-last-interval:: 32.51
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-06T23:35:01.940Z
-	  card-last-reviewed:: 2023-04-04T11:35:01.941Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-22T12:57:18.386Z
+	  card-last-reviewed:: 2023-08-11T12:57:18.386Z
 	  card-last-score:: 5
 		- Setup
 			- $$
@@ -260,7 +260,7 @@
 - # Comments
   collapsed:: true
 	- ((63d87e90-19ca-426a-93d5-77c0b39eac21))
-	- Why does the mathematical structure (not being first principles) fit so well with physics? #[[Thoughts/Math and Physics]]
+	- Why does the mathematical structure (not being first principles) fit so well with physics? #[[Observations/Math and Physics]]
 		- Deeper structures behind?
 	- ((63d8728e-64bc-4c90-aaf2-63efb1e11fac))
 	- ((63d872bb-9d03-495a-8030-e76fb77eb849))

@@ -33,6 +33,12 @@ alias:: RG
 	- Solution to the above problem:
 	  Select a scale-dependent RN scheme. First expand the solution at $\mu \sim m$, then evolve $\lambda$ to $\mu \sim \sqrt{s}$!
 	- ## RG equations #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-08-31T18:32:30.892Z
+	  card-last-reviewed:: 2023-07-31T12:32:30.892Z
+	  card-last-score:: 3
 		- Coupling $\mu$
 			- $$\ln\frac{\mu_{2}^{2}}{\mu_{1}^{2}}=\int_{\lambda(\mu_{1})}^{\lambda(\mu_{2})}\frac{d\lambda(\mu)}{\beta(\lambda)}$$
 				- $$\beta(\lambda):=\mu^{2}\frac{d}{d(\mu^{2})}\lambda(\mu)=-\varepsilon\lambda(\mu)-\frac{1}{Z_{\lambda}^{\overline{{{MS}}}}}\left(\mu^2\frac{d}{d\mu^{2}}Z_{\lambda}^{\overline{{{MS}}}}\right)\lambda(\mu).$$

@@ -15,3 +15,59 @@ file-path:: zotero_link/Music/2016_Burstein_Straus_Concise introduction to tonal
   id:: 64a17b22-43f8-4b3b-a7fc-9bf80e1ce7d7
   hl-type:: area
   hl-stamp:: 1688304416681
+- [:span]
+  ls-type:: annotation
+  hl-page:: 412
+  hl-color:: yellow
+  id:: 64bd28de-7287-4552-b23e-67631b23f109
+  hl-type:: area
+  hl-stamp:: 1690118365361
+- [:span]
+  ls-type:: annotation
+  hl-page:: 412
+  hl-color:: yellow
+  id:: 64bd28ef-b6de-4635-be16-4a03d8dbf8a8
+  hl-type:: area
+  hl-stamp:: 1690118382401
+- [:span]
+  ls-type:: annotation
+  hl-page:: 412
+  hl-color:: yellow
+  id:: 64bd28fa-1324-424a-b745-444b77e57122
+  hl-type:: area
+  hl-stamp:: 1690118393188
+- [:span]
+  ls-type:: annotation
+  hl-page:: 412
+  hl-color:: yellow
+  id:: 64bd2903-b5b4-4f57-9253-3ab08ba6da3d
+  hl-type:: area
+  hl-stamp:: 1690118401521
+- [:span]
+  ls-type:: annotation
+  hl-page:: 402
+  hl-color:: yellow
+  id:: 64bd2bce-b307-4e0f-a117-fbc5e02a040e
+  hl-type:: area
+  hl-stamp:: 1690119117156
+- [:span]
+  ls-type:: annotation
+  hl-page:: 402
+  hl-color:: yellow
+  id:: 64bd2bde-5a74-4a34-9e84-a6747a670d0d
+  hl-type:: area
+  hl-stamp:: 1690119131869
+- [:span]
+  ls-type:: annotation
+  hl-page:: 472
+  hl-color:: yellow
+  id:: 64bd3006-d6a8-448c-a7db-63dd08cc42a4
+  hl-type:: area
+  hl-stamp:: 1690120196576
+- [:span]
+  ls-type:: annotation
+  hl-page:: 517
+  hl-color:: yellow
+  id:: 64c45f1b-30e9-4dbb-a3d2-a82b003b8761
+  hl-type:: area
+  hl-stamp:: 1690591002533

@@ -169,11 +169,11 @@ type:: [[Course]]
 	- ## Static
 	  collapsed:: true
 		- The final result is 
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-29T11:56:22.061Z
-		  card-last-reviewed:: 2023-05-30T11:56:22.062Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-20T12:54:49.377Z
+		  card-last-reviewed:: 2023-08-09T12:54:49.378Z
 		  card-last-score:: 5
 		  collapsed:: true
 		  $$

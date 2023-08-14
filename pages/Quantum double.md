@@ -1,3 +1,5 @@
+- Refs
+	- Original paper: [[2003_Kitaev_Fault-tolerant quantum computation by anyons]]
 - # Model #card
   card-last-interval:: 31.26
   card-repeats:: 1
@@ -5,6 +7,7 @@
   card-next-schedule:: 2023-07-30T07:44:02.540Z
   card-last-reviewed:: 2023-06-29T01:44:02.541Z
   card-last-score:: 3
+  collapsed:: true
 	- What makes the model work?
 	  background-color:: red
 		- The key property is $[A_v,B_p]=0, A_v^2=B_p^2=1$.
@@ -28,6 +31,7 @@
 			- 'Flux free' condition
 		- $H=-\sum_{v } A_v-\sum_{p } B_p$
 	- ## Continuum
+	  collapsed:: true
 		- The edges are dual to themselves, so no need to worry.
 		- Dancing rules
 			- Isotopy
@@ -51,17 +55,20 @@
 				- Therefore, ((63c366db-187f-4c87-b7ff-e47dc4bde837))
 					- ((63c366e4-dfa4-4466-a587-8b6f8d1e7512))
 - # Properties
+  collapsed:: true
 	- $A_v^2=A_v, \quad B_p^2=B_p$
 		- **Projectors**. The eigenvalues can only be 0 or 1.
 	- $\left[A_v, A_v'\right]=\left[B_p, B_{p^{\prime}}\right]=\left[A_v, B_p\right]=0$
 		- Simultaneously diagonalizable.
 	- The ground state is topological, i.e. independent of the details of the lattice.
+	  collapsed:: true
 		- Proof strategy: Find a set of **generating moves** and prove the model is invariant under them.
 		- ((63c35d0a-d99c-40d3-9a33-0e1ab6b67f35))
 			- The internal vertex is fixed. No extra d.o.f.
 		- ((63c35d32-495b-46d6-b8a8-ca80a077ee6b))
 		-
 - # Solution by Diagrams
+  collapsed:: true
 	- ## GSD on a torus #card
 	  card-last-interval:: 24
 	  card-repeats:: 1
@@ -69,6 +76,7 @@
 	  card-next-schedule:: 2023-03-01T00:20:56.187Z
 	  card-last-reviewed:: 2023-02-05T00:20:56.187Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Idea: Since it is topological (independent of the details), we may examine a minimal lattice.
 			- Note that the analysis is given on the dual lattice.
 			- **It seems more complicated on the original lattice. Or did I make mistakes?**
@@ -103,6 +111,7 @@
 	  card-last-interval:: 24
 	  card-ease-factor:: 2.7
 	  card-last-reviewed:: 2023-01-10T01:15:20.611Z
+	  collapsed:: true
 		- Generally, $\text{\# anyon types} = GSD_{torus}$
 		- Abelian
 			- $|G|$ G-charges, $|G|$-fluxes.
@@ -120,6 +129,7 @@
 	  card-next-schedule:: 2023-03-27T00:39:19.680Z
 	  card-last-reviewed:: 2023-03-03T00:39:19.680Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- ((63d722e4-a906-4ca8-9314-c4ea20559097))
 			- Recall that we detected anyons in toric code on a disk
 			- Exercise: The two basis indeed have the same dimensions.
@@ -153,6 +163,32 @@
 		- ### From a gauge theory perspective.
 			- Flux <-> [[Holonomy]]. **Invariant** under gauge transformations where $h \rightarrow g h g^{-1}$, thus the notion of conjugacy classes.
 			- Charges shall be invariant under the actions of fluxes. 'Invariant' is expressed by centralizers.
+- # String Operators
+  collapsed:: true
+	- Vertex Strings
+		- $$
+		  \hat{F}_v^g(\text { path })=\delta_{g, x_1 x_2 x_3 \ldots x_N}
+		  $$
+			- Or $$\hat{F}_v^g(\text { path })=2\delta_{g, x_1 x_2 x_3 \ldots x_N}-1$$ if we don't want a zero.
+	- Plaquette Strings
+		- Map ((64be9410-59ab-41e5-9ffd-0ea716398260)) to ((64be9423-984e-4e7c-8716-3126dd441055))
+		- For abelian groups, this just maps $y_1 \mapsto y_1+h, y_2 \mapsto y_2+h$, etc.
+		-
+	- Properties
+		- Note that the composition of strings is more complicated then toric code.
+		  background-color:: red
+		- Vertex strings commute with all plaquette operators.
+		  collapsed:: true
+			- They just select some configurations.
+		- Vertex strings only do not commute with vertex operators at the endpoints.
+		  collapsed:: true
+			- Amid the string, the configurations they selected preserve gauge invariance.
+		- Plaquette strings commute with all vertex operators.
+		  collapsed:: true
+			- Rearrangement lemma.
+		- Plaquette strings only do not commute with plaquette operators at the endpoints.
+		  collapsed:: true
+			- Amid the string, the conjugations just cancel each other!
 - # Comments
 	- Quantum double [[Category]]
 		- See ((63744ba1-f824-4527-870b-0bd482b3bacc))
@@ -163,6 +199,7 @@
 	  card-next-schedule:: 2023-07-31T01:02:48.101Z
 	  card-last-reviewed:: 2023-06-19T01:02:48.102Z
 	  card-last-score:: 3
+	  collapsed:: true
 		- Analogy to the conventional gauge theories
 			- Conventional
 				- Wilson lines are the fundamental quantities
@@ -180,6 +217,8 @@
 			- Favor gauge invariance
 				- Explicitly sum the gauge transformations to obtain invariance, $A_v=\sum_h A_v(h)$
 				-
+	- The need for an orientation is very interesting.
+		- In generalizing it to the 3D dual model, things would be rather interesting. We need an orientation for the plaquettes!
 - Explore the example of $Z_n$ quantum double. #Learning-TODO [#A]
 	- Ground states, excitations, fusion rules, braidings, S and T matrices.
 	- Is the presentation on Topobook (Z_n toric code) equivalent to Z_n quantum double?

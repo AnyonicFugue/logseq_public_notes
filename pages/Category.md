@@ -15,11 +15,11 @@ alias:: [[Category Theory]]
 		-
 	- Definitions
 		- Congruence #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-07-15T01:09:58.612Z
-		  card-last-reviewed:: 2023-06-15T01:09:58.613Z
+		  card-last-interval:: 107.52
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2023-11-04T00:22:01.078Z
+		  card-last-reviewed:: 2023-07-19T12:22:01.078Z
 		  card-last-score:: 5
 			- An equivalence relation on the class of all Homs $\cup_{A,B}Hom(A,B)$ in the cat, with the following conditions:
 			- (i) $f \in \operatorname{Hom}(A, B)$ and $f \sim f^{\prime}$ implies $f^{\prime} \in \operatorname{Hom}(A, B)$
@@ -55,10 +55,19 @@ alias:: [[Category Theory]]
 				- A category $\mathcal{C}$ where every idempotent in $\mathcal{C}$ splits.
 		- Subobject #card
 		  id:: 641a6a23-ca6b-4d29-b1dc-28dab3b2fb6a
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-08-31T18:33:52.687Z
+		  card-last-reviewed:: 2023-07-31T12:33:52.687Z
+		  card-last-score:: 3
 			- A subobject is an isomorphism class of monomorphisms.
 				- Note that $f: a \to x$ and $g: b \to x$ are called equivalent if there is an isomorphism $h: a \to b$ s.t. $f=g \circ h$
-			- The motivation is to define the category version of subset.
-			  However, we can't talk about 'elements of object' in a category, so we talk by embedding (monomorphism) instead.
+			-
+			- Idea
+				- We want a categorical version of 'subset'.
+				- However, we can't talk about 'elements of object' in a category, so we talk by embedding (monomorphism) instead.
+				- Again the philosophy of cats: Rephrase everything in terms of maps!
 				-
 	- ## [[Functor]]s
 	  collapsed:: true
@@ -103,11 +112,11 @@ alias:: [[Category Theory]]
 			- (iii) $S\left(1_A\right)=1_{S A}$ for every $A \in \operatorname{obj} \mathscr{A}$.
 		- Hom functor #card
 		  collapsed:: true
-		  card-last-interval:: 31.21
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-07-20T06:11:57.553Z
-		  card-last-reviewed:: 2023-06-19T01:11:57.554Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-23T13:20:37.579Z
+		  card-last-reviewed:: 2023-08-12T13:20:37.580Z
 		  card-last-score:: 5
 			- Denoted by $Hom(X,-)$ or just $C(X,-)$
 			- A functor from $\mathcal C$ to $\mathrm{Set}$ given by
@@ -139,6 +148,12 @@ alias:: [[Category Theory]]
 				- Theorem. The free functor is the left adjoint of the forgetful functor. （自由是遗忘的左伴随） #card
 					-
 				- Theorem. (Frobenius Reciprocity) Consider $\mathrm{Rep}(G)$ and $\mathrm{Rep}(Z(x))$ for some $x \in G$. We have two functors: a forgetful functor $F$ and a functor $\mathrm{Ind}$ of induced representations. Then $F$ is both the left and right adjoint of $G$. #card
+				  card-last-interval:: 31.26
+				  card-repeats:: 1
+				  card-ease-factor:: 2.36
+				  card-next-schedule:: 2023-08-29T18:43:21.446Z
+				  card-last-reviewed:: 2023-07-29T12:43:21.447Z
+				  card-last-score:: 3
 					- The induced representation is natural on the vector space graded by $G / Z(x)$, which is a set of cosets rather than a quotient group.
 					-
 					-
@@ -166,13 +181,14 @@ alias:: [[Category Theory]]
 			- ((6416ba90-2deb-428b-b6cf-fb6dedf75dd1))
 				- The whole diagram commutes since each small square commutes.
 		- Horizontal composition #card
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-09-11T12:22:27.187Z
+		  card-last-reviewed:: 2023-07-31T12:22:27.187Z
+		  card-last-score:: 3
 		  collapsed:: true
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-05T00:42:45.930Z
-		  card-last-reviewed:: 2023-04-05T00:42:45.931Z
-		  card-last-score:: 5
+			- *Horizontal means left-right direction.
 			- We have two different paths from C to E by composing two pairs of functors.
 			  We'd like two link the two routes by composing the natural transformations at each step.
 				- ((6416bb24-d547-4c3d-b1f5-88eedd9b956c))
@@ -343,6 +359,12 @@ alias:: [[Category Theory]]
 			- Also called semigroup.
 			- Essentially, a group minus the inverses. Still has associativity and unit.
 		- Algebra in a monoidal category $(C,\otimes,I,\alpha,\lambda,\rho)$ #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-08-29T18:43:09.951Z
+		  card-last-reviewed:: 2023-07-29T12:43:09.952Z
+		  card-last-score:: 3
 			- A triple $(A, m: A \otimes A \to A, u: I \to A)$ where $A \in ob(C)$, $m,u \in \mathrm{Mor}(C)$
 				- $m$ is called the multiplication.
 				- $u$ carries information about the 'unit'
@@ -369,6 +391,12 @@ alias:: [[Category Theory]]
 	  collapsed:: true
 		- How does the requirements of $E_0,E_1,E_2,E_3$ corresponds to physical intuitions? #card
 		  collapsed:: true
+		  card-last-interval:: 29.95
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-30T10:18:07.436Z
+		  card-last-reviewed:: 2023-07-31T12:18:07.436Z
+		  card-last-score:: 5
 			- $E_0$: {{cloze 0D, not any special structures}}
 			- $E_1$: {{cloze anyons can fuse}}
 			- $E_2$: {{cloze things have an extra dimension to braid}}
@@ -378,12 +406,12 @@ alias:: [[Category Theory]]
 				- Maybe braidings in 1-cats are too strong and restrictive. We need something more.
 				- Can we find some structure which can always be extended?
 		- 'Take the algebra' is somwhat similar to 'adding a dimension' #card
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-03T12:46:06.173Z
-		  card-last-reviewed:: 2023-05-04T12:46:06.175Z
-		  card-last-score:: 5
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-09-17T12:37:59.289Z
+		  card-last-reviewed:: 2023-08-06T12:37:59.290Z
+		  card-last-score:: 3
 		- Baez-Dolan conjecture. For a symmetric monoidal n-category $C$, the forgetful functor $E_{k+1}\mathrm{Alg}(C) \to E_k\mathrm{Alg}(C)$ is an equivalence for $k>n$. #card
 		  collapsed:: true
 			- Have been proven for a special case $n=2,C=\mathrm{Cat}$
@@ -484,6 +512,12 @@ alias:: [[Category Theory]]
 				- Recall that 'symmetrical' means that all double braidings are trivial.
 				- It can still be checked by beautiful braiding diagrams.
 			- Theorem 3. $E_3\mathrm{Alg}(S) \simeq \mathrm{CAlg}(S)$ #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-08-26T18:28:28.339Z
+			  card-last-reviewed:: 2023-07-26T12:28:28.339Z
+			  card-last-score:: 3
 		- Exercise. Verify that when $B=\mathrm{Set}$, $E_2\mathrm{Alg}(B)$ satisfies $(a \times_v b) \times_h (c \times_v d) \simeq (a \times_h c) \times_v (b \times_h d)$ #card
 		- Prop. A braided monoidal category is an $E_2$-algebra in the 2-cat $\mathrm{Cat}$
 			- My task is to explicitly construct the monoidal structure.
@@ -512,6 +546,12 @@ alias:: [[Category Theory]]
 				-
 				- Note $A \in E_3\mathrm{Alg}(S)$
 			- Left $E_1$-module over braided monoidal cat #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-08-27T19:17:08.175Z
+			  card-last-reviewed:: 2023-07-27T13:17:08.176Z
+			  card-last-score:: 3
 				- Physically corresponds to {{cloze 1D boundary of 2D TO}}
 				- A tuple $(M, \odot: B \times M \to M, \alpha^M, \lambda^M)$
 					- $M$ itself is a monoidal category (degrade one step from braided monoidal)
@@ -522,10 +562,16 @@ alias:: [[Category Theory]]
 					- Pentagon
 					- Triangle
 			- Left $E_2$ module over a symmetric braided monoidal cat #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-09-06T18:28:56.983Z
+			  card-last-reviewed:: 2023-08-06T12:28:56.984Z
+			  card-last-score:: 3
 				- Physically corresponds to {{cloze 2D boundary of 3D TO}}
 				- A tuple $(M, \odot: S \times M \to M, \alpha^M, \lambda^M)$
 					- $M$ itself is a braided monoidal category (degrade one step from symmetric braided monoidal)
-					- $B$ a symmetric braided monoidal cat
+					- $S$ a symmetric braided monoidal cat
 					- $\odot$ is a monoidal functor
 					- $\alpha^M,\lambda^M$ are monoidal natural isomorphisms
 				- Consistency relations
@@ -565,6 +611,12 @@ alias:: [[Category Theory]]
 		- Reverse directions of all legs.
 	- Limit #card
 	  id:: 6417c847-2819-4ff7-998a-32cc39c403e2
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-08-12T04:00:00.000Z
+	  card-last-reviewed:: 2023-08-11T12:43:20.663Z
+	  card-last-score:: 1
 	  collapsed:: true
 		- *Wenwei Li presents another definition by ((6417d04a-7bd7-4f24-8124-2ececcbcebbe)). Check it.
 		- The terminal cone with the **summit** called $\lim_F$.
@@ -625,6 +677,12 @@ alias:: [[Category Theory]]
 	- Construction by ((6417c84a-35a1-4f83-ae94-e03a7f2c4fc4))
 	  collapsed:: true
 		- ((64180626-c15e-44ef-b728-b8fddc2263d2)) Given functors $F: \mathrm{C} \rightarrow \mathrm{E}$ and $K: \mathrm{C} \rightarrow \mathrm{D}$, if for every $d \in \mathrm{D}$ the colimit
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-08-28T19:11:02.352Z
+		  card-last-reviewed:: 2023-07-28T13:11:02.352Z
+		  card-last-score:: 3
 		  $$
 		  \operatorname{Lan}_K F(d):=\operatorname{colim}\left(K \downarrow d \stackrel{\Pi^d}{\longrightarrow} \mathrm{C} \stackrel{F}{\rightarrow} \mathrm{E}\right)
 		  $$
@@ -720,11 +778,11 @@ alias:: [[Category Theory]]
 		-
 	- [[Tube Category]]
 	- Homotopy category $\mathrm{hTop}$ #card
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-12T11:19:54.498Z
-	  card-last-reviewed:: 2023-04-12T11:19:54.498Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-09T22:36:49.423Z
+	  card-last-reviewed:: 2023-07-29T22:36:49.424Z
 	  card-last-score:: 5
 		- The quotient category defined by homotopies.
 		- Exercise. Homotopy is a congruence on $\mathrm{Top}$

@@ -1,0 +1,4 @@
+- There are many tools that are illegitimate for mathematicians. Indeed they are not so rigorous, but they often provide insights so powerful that one cannot refuse to take seriously.
+-
+- Perturbation Theory
+	- ((64c2c2a2-6905-4877-870f-dcaf68bb8bf0))

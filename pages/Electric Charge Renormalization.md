@@ -25,7 +25,7 @@
 	- $\Pi^{\mu \nu}(q)=\left(q^2 g^{\mu \nu}-q^\mu q^\nu\right) \Pi\left(q^2\right)$
 	- Proposition. $\Delta_\nu^\rho \equiv \delta_\nu^\rho-q^\rho q_\nu / q^2$ is a projector.
 	  collapsed:: true
-		- Use the fact that P is a projector to simplify. More generally, use the eigenstructures of operators. #Trick
+		- Use the fact that P is a projector to simplify. More generally, use the eigenstructures of operators. #Techniques
 		- Thus we may rearrange $\Pi^{\mu \nu}(q)=\Delta_\nu^\rho\ q^2\ \Pi\left(q^2\right)$
 	- Thus
 	   $$\text{Renormalized propagator}=\frac{-i g_{\mu \nu}}{q^2}+\frac{-i g_{\mu \rho}}{q^2}\left(\delta_\nu^\rho-\frac{q^\rho q_\nu}{q^2}\right)\left(\Pi\left(q^2\right)+\Pi^2\left(q^2\right)+\cdots\right)\\=\frac{-i g_{\mu \nu}}{q^2\left(1-\Pi\left(q^2\right)\right)}+\text{Terms proportional to }q^\mu q^\nu$$

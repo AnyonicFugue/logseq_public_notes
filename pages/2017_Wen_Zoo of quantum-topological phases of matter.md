@@ -130,7 +130,7 @@ type:: paper_reading
 					- The spin chain is gapped if the spin is integer and gapless if half-integer.
 						- Actually, ((63be16fc-5cb3-4e2f-a1cf-8b9871b3c3e4))]
 							- So wild!
-						- This is purely quantum effect displayed at a macroscopic scale! Why this could happen? #[[Thoughts/Math and Physics]]
+						- This is purely quantum effect displayed at a macroscopic scale! Why this could happen? #[[Observations/Math and Physics]]
 				- Solution of the problem
 					- TEFR approach ((63be14c2-b215-4684-b9b2-7761f006c987)) for XXZ chain $H=\sum_i J \boldsymbol{S}_i \cdot \boldsymbol{S}_{i+1}+U\left(S_i^z\right)^2$ #[[Research/To Be Investigated]]
 						- A trivial tensor for $U>>J$, with ground state a product state
@@ -142,8 +142,8 @@ type:: paper_reading
 					- ((63be15ec-7e9a-4187-a1c8-7e845f7aca5c))
 					- However, the structure is broken if the **symmetry** is broken.
 				- Thus it is named a [[SPT]] state.
-					- ((63be1664-75ab-4e78-99c1-240943a7ff8c)) #ToRead
-					- ((63be166c-81fd-4635-bf4e-38aacc6a6176)) #ToRead
+					- ((63be1664-75ab-4e78-99c1-240943a7ff8c)) #[[Research/To Be Investigated]]
+					- ((63be166c-81fd-4635-bf4e-38aacc6a6176)) #[[Research/To Be Investigated]]
 						- What's entanglement spectrum?
 				-
 			-

@@ -2,9 +2,9 @@ alias:: Bulk-Boundary Correspondence
 
 -
 - This not only emerges in topological orders, but also in RCFTs.
-	- If we view the same phenomena occur in different theories as a robust phenomena, it must have a simple reason. #Thoughts
+	- If we view the same phenomena occur in different theories as a robust phenomena, it must have a simple reason. #Observations
 	- ((63ba2d3f-81a8-4acb-b1c4-cc82f9d7ae2d))
-		- Interesting! Investigate it later! #[[ToRead]]
+		- Interesting! Investigate it later! #[[Research/To Be Investigated]]
 		- Mathematically: ((63ba2dc0-b1ee-48e6-8d59-201de7f43a7c)) #card
 		  card-last-interval:: 84
 		  card-repeats:: 3
@@ -57,11 +57,11 @@ alias:: Bulk-Boundary Correspondence
 		- Just take $Hom(1_C,1_C)$, the cat of all topo excitations, in the equivalence.
 -
 - ((63aa65c7-5e7e-40f4-8216-535034102848)) 3D version #card
-  card-last-interval:: 67.2
-  card-repeats:: 3
-  card-ease-factor:: 2.8
-  card-next-schedule:: 2023-06-08T16:09:36.034Z
-  card-last-reviewed:: 2023-04-02T12:09:36.034Z
+  card-last-interval:: 353.22
+  card-repeats:: 4
+  card-ease-factor:: 2.9
+  card-next-schedule:: 2024-07-22T18:08:53.515Z
+  card-last-reviewed:: 2023-08-04T13:08:53.515Z
   card-last-score:: 5
 	- (a) The bulk topological defects of codimension 2 and higher form a braided fusion 2-category $\mathbf{B}$.
 		- 'Codimension >=2' includes points and strings.

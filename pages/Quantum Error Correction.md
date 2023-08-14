@@ -1,7 +1,7 @@
 alias:: Quantum Error Correcting Code
 
 - # Comments
-	- The key to protect information against errors is redundancy. #Thoughts
+	- The key to protect information against errors is redundancy. #Observations
 	- In any case, we must have assumptions about the possible errors.
 	- However, classical strategies encounter difficulties for quantum information.
 		- [[No-cloning theorem]] prohibits making copies.
@@ -109,11 +109,11 @@ alias:: Quantum Error Correcting Code
 			- Remark: A continuous set of errors can be corrected by a discrete code!
 		- Prop. it has distance three. #card
 		  card-last-score:: 5
-		  card-repeats:: 2
-		  card-next-schedule:: 2023-02-22T12:04:25.924Z
-		  card-last-interval:: 24
-		  card-ease-factor:: 2.7
-		  card-last-reviewed:: 2023-01-29T12:04:25.925Z
+		  card-repeats:: 3
+		  card-next-schedule:: 2023-11-24T12:34:02.557Z
+		  card-last-interval:: 117.6
+		  card-ease-factor:: 2.8
+		  card-last-reviewed:: 2023-07-29T22:34:02.557Z
 		  collapsed:: true
 			- Codes to correct 1-qubit errors must have distance at least 3.
 			- $\sigma_z^1\sigma_z^2\sigma_z^3$ flips $|0_L\rangle$ to $|1_L\rangle$.
@@ -124,11 +124,11 @@ alias:: Quantum Error Correcting Code
 		- Stabilizer
 		  collapsed:: true
 			- Generators  (Hint: Cyc. permute) #card
-			  card-last-interval:: 67.2
-			  card-repeats:: 3
-			  card-ease-factor:: 2.8
-			  card-next-schedule:: 2023-06-01T11:50:48.486Z
-			  card-last-reviewed:: 2023-03-26T07:50:48.486Z
+			  card-last-interval:: 353.22
+			  card-repeats:: 4
+			  card-ease-factor:: 2.9
+			  card-next-schedule:: 2024-07-12T07:19:36.580Z
+			  card-last-reviewed:: 2023-07-25T02:19:36.580Z
 			  card-last-score:: 5
 				- ((638605de-c46e-4b9d-89ea-a69241304577))
 					- Here is a typo: 4th of $M_4$ shall be $\sigma_4^x$
@@ -242,22 +242,21 @@ alias:: Quantum Error Correcting Code
 		- Put the above two together, we arrive at $\left\langle i_L\left|E_a^{\dagger} E_b\right| j_L\right\rangle=C_{a b} \delta_{i j}$
 		  collapsed:: true
 			- Actually this is sufficient and necessary.
-		- Def. Nondegenerate #card
+		- Def. Nondegenerate
 		  card-last-interval:: 10
 		  card-repeats:: 2
 		  card-ease-factor:: 2.46
 		  card-next-schedule:: 2022-12-22T05:51:21.031Z
 		  card-last-reviewed:: 2022-12-12T05:51:21.031Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- $C_{a b}=\delta_{a b}$
 			- This means that different errors are **orthogonal**.
 	- Scheme for ECC in nondegenerate case #card
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-07-27T12:55:49.923Z
-	  card-last-reviewed:: 2023-05-04T12:55:49.924Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-07-28T17:35:51.670Z
+	  card-last-reviewed:: 2023-08-10T12:35:51.670Z
 	  card-last-score:: 5
 		- Input: $|\psi\rang$
 		- After error: $\sum_{E_k \in \mathcal{E}_c} E_k|\psi\rangle\left|e_k\right\rangle_E$

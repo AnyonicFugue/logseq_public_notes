@@ -1,6 +1,6 @@
 type:: paper_reading
 
-- ![Simon_Topological Quantum.pdf](file://zotero_link/Physics/Topological order/Intros and Reviews/Simon_Topological Quantum.pdf)
+-
 -
 -
 - # ((63c2176e-689e-4871-9dcb-d820669e68ac))

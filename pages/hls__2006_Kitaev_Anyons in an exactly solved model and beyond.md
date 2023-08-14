@@ -1,0 +1,77 @@
+file:: [2006_Kitaev_Anyons in an exactly solved model and beyond.pdf](zotero_link/Research/Quantum Matters/Topological order/2006_Kitaev_Anyons in an exactly solved model and beyond.pdf)
+file-path:: zotero_link/Physics/Kitaev/2006_Kitaev_Anyons in an exactly solved model and beyond.pdf
+
+- The notion of anyons assumes that the underlying state has an energy gap (at least for topologically nontrivial quasiparticles). Otherwise excitations are not localizable and braiding may not be defined.
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: red
+  id:: 64b2e6c8-662e-4125-a933-94f6530c5492
+- Here
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 64b2f056-5e56-4869-b5a3-71deffe4e403
+- can
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 64b2f114-c11e-4775-8755-7d6c6b967ffb
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 64b2f4f6-a87c-4d76-93a6-e29234589b11
+  hl-type:: area
+  hl-stamp:: 1689449717398
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 64b2f58e-6dcc-4ad7-ad98-5226751aebbb
+  hl-type:: area
+  hl-stamp:: 1689449868943
+- [:span]
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 64b44b79-886b-4eb4-ad32-9158770a65fa
+  hl-type:: area
+  hl-stamp:: 1689537399539
+- [:span]
+  ls-type:: annotation
+  hl-page:: 12
+  hl-color:: yellow
+  id:: 64b44b9c-9c41-4142-a64e-968b5e4dbe19
+  hl-type:: area
+  hl-stamp:: 1689537434912
+- (17)
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 64b5a006-d313-41a7-a875-e5bec6e3b0cd
+- [:span]
+  ls-type:: annotation
+  hl-page:: 17
+  hl-color:: yellow
+  id:: 64c2c028-bfa3-41b9-bc70-d5f70b943a13
+  hl-type:: area
+  hl-stamp:: 1690484774962
+- [:span]
+  ls-type:: annotation
+  hl-page:: 18
+  hl-color:: yellow
+  id:: 64c2c17e-d382-461c-8c36-d7caf82af369
+  hl-type:: area
+  hl-stamp:: 1690485117716
+- [:span]
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: yellow
+  id:: 64c2c9ae-6344-4ceb-8942-4072166bf782
+  hl-type:: area
+  hl-stamp:: 1690487213239
+- Braiding rules for Majorana half-vortices in a spin-triplet superconductor have been derived by D. Ivanov
+  ls-type:: annotation
+  hl-page:: 32
+  hl-color:: yellow
+  id:: 64cdaf2b-8ee3-468a-b16e-f7c2f1bb30f3

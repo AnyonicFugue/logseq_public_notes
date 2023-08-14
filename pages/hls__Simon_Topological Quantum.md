@@ -447,3 +447,8 @@ file-path:: zotero_link/Research/Quantum Matters/Topological order/Intros and Re
   hl-page:: 496
   hl-color:: yellow
   id:: 645afdcc-eea6-418b-a854-2b41ce795cc3
+- Exercise 3.3
+  ls-type:: annotation
+  hl-page:: 55
+  hl-color:: yellow
+  id:: 64c2810d-1950-4c85-9460-2bf755f46683

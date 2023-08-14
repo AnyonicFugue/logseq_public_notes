@@ -6,6 +6,12 @@
 			- $\mu \circ \delta =\mathrm{id}_A$
 			- Frobenius conditions
 	- A fusion cat $C$ is separable if {{cloze C is a separable C-C-bimodule}}. #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-08-29T18:43:07.315Z
+	  card-last-reviewed:: 2023-07-29T12:43:07.315Z
+	  card-last-score:: 3
 		- Remark: $\mathrm{Fun}_{C|C}(C,C) \simeq Z(C)$ is semisimple, thus the center $Z(C)$ is a braided fusion cat.
 	- Examples
 		- $M_n(\mathbb k)$ is separable with $\mu := E_{ij} \mapsto \frac 1 n \sum_k E_{ik} \otimes E_{kj}$
@@ -38,6 +44,12 @@
 - # [[Invertible]]
   collapsed:: true
 	- Def #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-17T18:57:05.329Z
+	  card-last-reviewed:: 2023-07-17T12:57:05.329Z
+	  card-last-score:: 5
 		- An object is invertible if it satisfies the conditions
 			- ((63745ee5-d4fe-4d02-a3b8-3582f373a546)) #card
 			  card-last-interval:: 140.55
@@ -47,9 +59,8 @@
 			  card-last-reviewed:: 2023-01-13T01:01:31.767Z
 			  card-last-score:: 5
 				- The proof invokes interesting properties of [[Fusion rules]] and [[Quantum dimension]].
-				- [[Thoughts]]
-				  id:: 63c14165-542f-4aff-bb7f-063784718de9
-					- The 'algebraic characters can provide lots of info! No need to know all information of the object under investigation!
+				- id:: 63c14165-542f-4aff-bb7f-063784718de9
+				- The 'algebraic characters' can provide lots of info! No need to know all information of the object under investigation!
 				-
 			- Especially, each fusion channel is **simple**.
 - [[Pointed]]

@@ -126,11 +126,11 @@ type:: [[Course]]
 		- Rule:
 		  **Entanglement with the environment ->** {{cloze Classical probability within the system}}
 		- Bit-flip #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-05-17T05:05:27.590Z
-		  card-last-reviewed:: 2023-03-11T01:05:27.591Z
+		  card-last-interval:: 353.22
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-07-29T17:43:48.356Z
+		  card-last-reviewed:: 2023-08-11T12:43:48.357Z
 		  card-last-score:: 5
 			- Controlled-X with the environment bit being $\alpha |1\rang+\beta |0\rangle$
 			- Flip z direction with probability $$|\alpha|^2$$
@@ -183,12 +183,12 @@ type:: [[Course]]
 			- Thus p represents the probability that $$|1\rangle \text { decays to }|0\rangle$$
 			-
 		- Phase damping #card
-		  card-last-interval:: -1
-		  card-repeats:: 1
-		  card-ease-factor:: 2.5
-		  card-next-schedule:: 2022-12-01T16:00:00.000Z
-		  card-last-reviewed:: 2022-12-01T11:57:56.205Z
-		  card-last-score:: 1
+		  card-last-interval:: 32.57
+		  card-repeats:: 2
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-03T02:06:43.751Z
+		  card-last-reviewed:: 2023-08-01T13:06:43.751Z
+		  card-last-score:: 5
 			- Simple version: The same as phase-flip, which causes the **diagonal** terms to vanish.
 			- Complicated version: Add a Gaussian-distributed relative phase.
 				- $p(\theta)=\frac{1}{\sqrt{4 \pi \lambda}} e^{-\frac{\theta^2}{4 \lambda}}$

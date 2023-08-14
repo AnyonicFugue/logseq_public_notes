@@ -3,6 +3,12 @@
 - # Groups
 	- Isomorphism Theorems #card
 	  id:: 649e4af5-3e8a-4202-831b-2ad858b4b337
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-08-29T18:38:06.023Z
+	  card-last-reviewed:: 2023-07-29T12:38:06.023Z
+	  card-last-score:: 3
 		- First:
 		  $$
 		  \widehat{f}: G / \operatorname{Ker} f \rightarrow \operatorname{Im} f

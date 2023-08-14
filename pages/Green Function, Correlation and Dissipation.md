@@ -1,4 +1,4 @@
-- # Definitions
+# Definitions
 	- [[Green Function]] #card
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
@@ -54,11 +54,11 @@
 			-
 	- Green function and Matsubara Green function
 		- card-last-score:: 5
-		  card-repeats:: 2
-		  card-next-schedule:: 2023-06-29T12:12:44.470Z
-		  card-last-interval:: 30
-		  card-ease-factor:: 2.7
-		  card-last-reviewed:: 2023-05-30T12:12:44.471Z
+		  card-repeats:: 3
+		  card-next-schedule:: 2023-12-03T02:56:28.732Z
+		  card-last-interval:: 117.6
+		  card-ease-factor:: 2.8
+		  card-last-reviewed:: 2023-08-07T12:56:28.732Z
 		  $$
 		  \mathcal{G}_\sigma\left(\omega_n, \mathbf{p}\right)=G_\sigma^{\mathrm{R}}\left(\mathrm{i} \omega_n, \mathbf{p}\right), \quad \omega_n>0
 		  $$
@@ -120,12 +120,12 @@
 		- Introduce an imaginary time to make things easier.
 		- Go back to real time by analytical continuation.
 	- Def #card
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-06-29T02:26:33.458Z
-	  card-last-reviewed:: 2023-05-30T02:26:33.459Z
-	  card-last-score:: 3
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-09-10T12:20:20.616Z
+	  card-last-reviewed:: 2023-07-30T12:20:20.616Z
+	  card-last-score:: 5
 		- $$
 		  G_{A B}\left(\tau_1, \tau_2\right):=-\frac{1}{\hbar}T\left\langle A\left(\tau_1\right) B\left(\tau_2\right)\right\rangle
 		  $$

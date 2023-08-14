@@ -18,11 +18,11 @@ alias:: Representation
 	- Unitary representation
 		- Representation operators are unitary
 	- Completely reducible #card
-	  card-last-interval:: 29.66
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-07T15:27:37.721Z
-	  card-last-reviewed:: 2023-05-09T00:27:37.722Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-24T12:20:35.265Z
+	  card-last-reviewed:: 2023-08-13T12:20:35.266Z
 	  card-last-score:: 5
 		- Every invariant subspace $U\subset V$ has an invariant complement $W$. (Recall that $W$ is called a complement of $U$ if $V=U\oplus W$.)
 		- For finite-dimension reps, this is equivalent to 'decomposable into a sum of irreps'.
@@ -63,19 +63,21 @@ alias:: Representation
 			- Connecting Abstract algebra and rep. theory
 	- Regular representation #card 
 	  id:: 1e9f6e33-36ec-4362-9505-3b42540bb3a7
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-07-26T00:48:56.296Z
-	  card-last-reviewed:: 2023-05-03T00:48:56.297Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-07-28T17:35:40.472Z
+	  card-last-reviewed:: 2023-08-10T12:35:40.472Z
 	  card-last-score:: 5
 		- $$\left(\operatorname{Reg}( g_{1} ,g_{2}) f\right) (g)=f\left( g_{2}^{-1} gg_{1}\right),f\in M(T)$$
 			- The definition ensures Associativity:
 			  $(L(g_1)L(g_2)f)(g)=L(g_1)f(gg_2)=f((gg_1)g_2)=f(gg_1g_2)$
 			- $f$ usually taken to be $f_g(h)=\delta_{gh}$
 		-
+		- Again and again this construction strikes me. So mysterious, so unreasonably powerful.
+		-
 		- Thought behind
-			- The space of functions on $x$ could provide valuable information about the structure of $x$! #[[Thoughts/Math and Physics]]
+			- The space of functions on $x$ could provide valuable information about the structure of $x$! #[[Observations/Math and Physics]]
 				- Note that automorphism (and Galois theory) is a special case.
 		- Obviously we can generalize to higher-rank tensors, which are tensor products of the regular representation.
 	- Character #card
@@ -95,7 +97,7 @@ alias:: Representation
 	  card-last-reviewed:: 2023-05-22T01:00:34.059Z
 	  card-last-score:: 5
 		- $$( f_{1} ,f_{2}) =\frac{1}{|G|}\sum _{g\in G} f_{1} (g)\overline{f_{2} (g)}$$
-		- The strategy is to put additional structures on the object being studied (inner product, topology, representation, etc.) #[[Thoughts/Math and Physics]]
+		- The strategy is to put additional structures on the object being studied (inner product, topology, representation, etc.) #[[Observations/Math and Physics]]
 			- In this way we extract the core information and invoke the established truths.
 			- Also, the existence and uniqueness of the structure can reveal lots of information!
 	- Central function #card 

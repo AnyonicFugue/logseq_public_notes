@@ -2,7 +2,7 @@
   collapsed:: true
 	- Scheme
 		- Write down the current $j^\mu(x)=e \int d \tau \frac{d y^\mu(\tau)}{d \tau} \delta^{(4)}(x-y(\tau))$
-		- Solve Maxwell's equation $\tilde{A}^\mu(k)=-\frac{1}{k^2} \tilde{j}^\mu(k)$ in Fourier space, than go back to position space. #Trick
+		- Solve Maxwell's equation $\tilde{A}^\mu(k)=-\frac{1}{k^2} \tilde{j}^\mu(k)$ in Fourier space, than go back to position space. #Techniques
 		- Calculate the energy radiated.
 	- Result
 		- Number of photons $=\frac{\alpha}{\pi} \int_0^{k_{\max }} d k \frac{1}{k} \mathcal{I}\left(\mathbf{v}, \mathbf{v}^{\prime}\right)$

@@ -62,7 +62,7 @@ alias:: [[QFT]]
 - # Causality and Propagators
   collapsed:: true
 	- $\langle 0|[\phi(x), \phi(y)]| 0\rangle=0$ for spacelike separation, which preserves [[Causality]].
-		- Use some invariance/symmetry to simplify the problem. ([[Lorentz invariance]] in this case) #Trick
+		- Use some invariance/symmetry to simplify the problem. ([[Lorentz invariance]] in this case) #Techniques
 	-
 	- [[Propagator]], or time-ordered product
 		- $$\langle 0|\phi(x) \phi(y)| 0\rangle=\int \frac{d^3 p}{(2\pi)^3} \cdot \frac{1}{2 E_p} \cdot e^{-i p(x-y)}:=D(x-y)$$

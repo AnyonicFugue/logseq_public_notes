@@ -1,11 +1,11 @@
 alias:: [[Topological defect]]
 
 - Def #card
-  card-last-interval:: 67.2
-  card-repeats:: 3
-  card-ease-factor:: 2.8
-  card-next-schedule:: 2023-04-24T15:38:35.907Z
-  card-last-reviewed:: 2023-02-16T11:38:35.908Z
+  card-last-interval:: 353.22
+  card-repeats:: 4
+  card-ease-factor:: 2.9
+  card-next-schedule:: 2024-07-31T17:22:36.662Z
+  card-last-reviewed:: 2023-08-13T12:22:36.662Z
   card-last-score:: 5
 	- ((63687a48-cc4d-4088-9060-9918b21e857e))
 	  collapsed:: true

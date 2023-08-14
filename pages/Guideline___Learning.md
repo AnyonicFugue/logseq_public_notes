@@ -1,4 +1,4 @@
-- # Principles
+# Principles
 	- Motivation is very important.
 		- I should not only take the efficiency into account, but also my motivation.
 	- Balance understanding and long-term memory.
@@ -26,9 +26,14 @@
 					- Note-taking itself is a pleasure as well as a process of review
 				- Todo
 					- First write down the main points and thoughts independently and leave things I cannot recall blank, then fill the formulae. Do **not** snip line by line. #card
-						- It is natural that I can't remember certain things.
-						- But I shouldn't record things in the textbook to Logseq page by page, which harms my active thinking.
-						- The correct way should be setting down the outline and try to write by myself.
+					  card-last-interval:: 31.26
+					  card-repeats:: 1
+					  card-ease-factor:: 2.6
+					  card-next-schedule:: 2023-09-09T18:49:55.559Z
+					  card-last-reviewed:: 2023-08-09T12:49:55.560Z
+					  card-last-score:: 5
+						- This fits those subjects that I want to command soundly. Not for those exam subjects.
+						- If I know how to derive it, I should be able to reproduce (or even improve) the result.
 		-
 		- Texts with explicit structures (Definition, theorem, etc. Mainly math books):
 			- Record the definitions and theorems to Logseq by mathpix, but prove and ponder on iPad. 手写可以提供更多试验、发散思考的空间。

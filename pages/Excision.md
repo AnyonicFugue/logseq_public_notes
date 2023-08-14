@@ -1,4 +1,4 @@
-- # Notations
+# Notations
 	- If $A$ is a subspace of $X$, then $\bar{A}$ denotes its closure and $A^{\circ}$ denotes its interior.
 -
 - # Definitions
@@ -47,6 +47,12 @@
 			-
 	- Barycentric division #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-27T19:25:43.034Z
+	  card-last-reviewed:: 2023-07-27T13:25:43.034Z
+	  card-last-score:: 5
 		- Idea
 			- We wish to divide a simplex repeatedly to 'arbitrarily small'.
 			- Then we could apply [[The Lebesgue number lemma]].
@@ -57,6 +63,12 @@
 		- ((64ab1a5b-d15c-449d-89ff-ae0c8100a239))
 			-
 	- Degree of a continuous map $f$ : $S^n \rightarrow S^n$ #card
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-12T01:25:10.313Z
+	  card-last-reviewed:: 2023-08-10T12:25:10.313Z
+	  card-last-score:: 5
 		- Definition. A continuous map $f$ : $S^n \rightarrow S^n$ (where $n>0$ ) has degree $m$, denoted by $d(f)=m$, if $f_*: H_n\left(S^n\right) \rightarrow H_n\left(S^n\right)$ is multiplication by $m$.
 - # Proof
   collapsed:: true
@@ -73,7 +85,7 @@
 				- To be more specific, we notice we could invoke the second isomorphism theorem to deal with the quotient.
 			- In other words, is the observation very important?
 			  We couldn't proceed without the observation?
-				- Indeed observations, especially very stupid ones, are very important. #[[Thoughts/Math and Physics]]
+				- Indeed observations, especially very stupid ones, are very important. #[[Observations/Math and Physics]]
 				  background-color:: yellow
 				- In this case the observation is ((649e49f0-6cef-4631-bb01-027b94b5422c)), which is quite stupid.
 		- *Remark: When dealing with groups, isomorphism theorems could be extremely useful.*
@@ -105,7 +117,6 @@
 		- Next we could use Barycentric division to divide the simplexes repeatedly, until each is smaller than the Lebesgue number and could be contained in a single piece.
 		- Since the Barycentric division doesn't change the properties of boundaries (as the extra faces cancel each other), we're done.
 - # Important Facts
-  collapsed:: true
 	- Lemma (Barratt-Whitehead). Consider the commutative diagram
 	  id:: 649955ae-5920-4aa5-8d1d-f5a3171d430c
 	  card-last-interval:: 31.21
@@ -215,11 +226,20 @@
 			-
 		- i.e. **Reduced homology doesn't affect relative homology.**
 - # Applications
+  collapsed:: true
 	- ((649cf085-8b8d-44f2-b4ef-e754b39ba39e)). (Homology of Spheres) Let $S^n$ be the $n$-sphere, where $n \geq 0$. Then
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-28T18:48:31.221Z
+	  card-last-reviewed:: 2023-07-28T12:48:31.222Z
+	  card-last-score:: 5
 	  $$
 	  \widetilde{H}_p\left(S^n\right)= \begin{cases}\mathbf{Z} & \text { if } p=n \\ 0 & \text { if } p \neq n\end{cases}
 	  $$ #card
+		- Intuition
+			- On $S^n$ there is only one 'whole', i.e. the interior of the sphere.
 		- $n=0$ is trivial.
 		- $n \geq 1$:
 		  collapsed:: true
@@ -243,10 +263,16 @@
 		- Corollary. $\mathbb R^m$ isn't homeomorphic to $\mathbb R^n$ when $m \neq n$.
 		-
 	- Lemma 6.21. Let $f, g: S^n \rightarrow S^n$ be continuous maps.
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-26T18:39:57.936Z
+	  card-last-reviewed:: 2023-07-26T12:39:57.936Z
+	  card-last-score:: 5
 	  (i) $d(g \circ f)=d(g) d(f)$.
 	  (ii) $d\left(1_{S^n}\right)=1$.
 	  (iii) If $f$ is constant, then $d(f)=0$.
-	  (iv) If $f \simeq g$, then $d(f)=d(g) \cdot{ }^1$
+	  (iv) If $f \simeq g$, then $d(f)=d(g)$.
 	  (v) If $f$ is a homotopy equivalence, then $d(f)= \pm 1$. #card
 		- (i) and (ii) roughly states that 'd is a homomorphism'.
 	- ((64aebc8f-0c64-4254-8e23-9ab108975547)). If $n \geq 1$, then the antipodal map $a^n: S^n \rightarrow S^n$ has degree $(-1)^{n+1}$. #card

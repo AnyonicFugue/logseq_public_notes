@@ -1,4 +1,4 @@
-- # Trace and Quantum Dimension
+# Trace and Quantum Dimension
 	- Definitions
 	  collapsed:: true
 		- Trace #card
@@ -12,6 +12,12 @@
 				- ((636e1042-cd00-4384-bf8a-5a0e9f6e53b2))
 				-
 		- Quantum Dimension #card
+		  card-last-interval:: 35.3
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-10T19:39:52.073Z
+		  card-last-reviewed:: 2023-08-06T12:39:52.073Z
+		  card-last-score:: 5
 			- Categorical:
 			  $$d_x:=\operatorname{Tr}(\mathrm{id}_x)$$
 			- Another version: Frobenius-Perron dimension
@@ -28,11 +34,11 @@
 			-
 	- Basic Properties
 		- $\mathrm{Tr}(f \circ g)=\mathrm{Tr}(g \circ f)$ #card
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-22T00:38:18.276Z
-		  card-last-reviewed:: 2023-05-23T00:38:18.277Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-12-02T02:38:01.965Z
+		  card-last-reviewed:: 2023-08-06T12:38:01.966Z
 		  card-last-score:: 5
 			- Essentially, we can use zigzag to make $f$ into its dual and move left, them use again (by the spherical structure) to move to the downside of $g$.
 			- card-last-interval:: 31.26

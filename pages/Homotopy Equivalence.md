@@ -11,11 +11,11 @@
 		- Inclusion j and deformation retraction r
 - Let $h, k: X \rightarrow Y$ be continuous maps; let $h\left(x_0\right)=y_0$ and $k\left(x_0\right)=y_1$. If $h$ and $k$ are **homotopic**, there is a path $\alpha$ in $Y$ from $y_0$ to $y_1$ such that $k_*=\hat{\alpha} \circ h_*$. Indeed, if $H: X \times I \rightarrow Y$ is the homotopy between $h$ and $k$, then $\alpha$ is the path $\alpha(t)=H\left(x_0, t\right)$ #card
   collapsed:: true
-  card-last-interval:: 30
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-06-01T11:17:42.637Z
-  card-last-reviewed:: 2023-05-02T11:17:42.637Z
+  card-last-interval:: 117.6
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-12-04T02:49:36.923Z
+  card-last-reviewed:: 2023-08-08T12:49:36.924Z
   card-last-score:: 5
 	- **No need to fix any point in the homotopy; homotopic paths always give the same homomorphism between fundamental groups!**
 	- ((63a66686-57f7-43bd-8883-017b1642e7f1))

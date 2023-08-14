@@ -1,4 +1,4 @@
-- # Defs
+# Defs
 	- Lifting #card
 	  card-last-interval:: 84
 	  card-repeats:: 3
@@ -39,6 +39,7 @@
 		  card-last-score:: 5
 			- Intuition
 				- The path f have several 'copies' in the covering space, with different starting points.
+				- Each copy could be obtained by gluing the segments fixed by the local homeomorphic map'.
 			- Proof
 				- Idea
 					- Each segment (small enough to be contained in some $U_i$) has several disjoint copies in E.

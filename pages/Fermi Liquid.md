@@ -1,12 +1,12 @@
 - Assumptions of Landau Theory of Fermi Liquids #card
-  card-last-interval:: 31.26
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-06-06T18:01:23.668Z
-  card-last-reviewed:: 2023-05-06T12:01:23.668Z
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-09-11T12:22:56.405Z
+  card-last-reviewed:: 2023-07-31T12:22:56.405Z
   card-last-score:: 5
-	- There is still a fermi surface of some shape
-	- There are quasiparticle excitations near the fermi surface, which might decay.
+	- There is still a **fermi surface** of some shape
+	- There are **quasiparticle excitations** near the fermi surface, which might decay.
 	- Energy functional
 		- $$
 		  \delta E=\sum_{k \sigma} \varepsilon_k^0 \delta n_0(k)+\frac{1}{2 v} \sum_{k_1 k_2 \sigma_1 \sigma_2} f_{\sigma_1, \sigma_2}\left(k_1, k_2\right) \delta n_{\sigma_1}\left(\vec{k}_1\right) \delta n_{\sigma_2}\left(\vec{k}_2\right)
@@ -40,11 +40,11 @@
 	- Obviously the volume of the phase space is proportional to $\epsilon^2$.
 - Calculate physical quantities
 	- Heat capacity at low temperatures #card
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-07-28T12:05:20.771Z
-	  card-last-reviewed:: 2023-05-05T12:05:20.772Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-07-22T18:04:03.998Z
+	  card-last-reviewed:: 2023-08-04T13:04:03.999Z
 	  card-last-score:: 5
 		- First calculate the energy of a certain configuration. The heat capacity would be known once the state density is known.
 			- $$\begin{aligned}

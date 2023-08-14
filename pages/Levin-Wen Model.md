@@ -42,12 +42,12 @@
 					- Sum over all possible fusion channels.
 				- ((63e85493-7abb-4406-95d9-6059dbada06e))
 		- Proposition. $A_v^2=A_v,B_p^2=B_p, [A_v,B_p]=0$ #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-07-08T07:08:38.954Z
-		  card-last-reviewed:: 2023-06-07T01:08:38.954Z
-		  card-last-score:: 5
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-09-13T12:51:20.461Z
+		  card-last-reviewed:: 2023-08-02T12:51:20.461Z
+		  card-last-score:: 3
 			- (1) is obvious.
 			- (2) Let's prove the handle-slide property by explicitly writing the loop and using F-move (on the vacuum): ((63f1dfaa-c3ef-4c6a-8cac-1c5a9aafbdc8))
 			- (3): Note that adding a loop keeps the fusion rule.
@@ -64,12 +64,12 @@
 		  card-last-score:: 5
 			- Ground states are eigen to $B_p$. So we can first add a $\tilde \Omega$ by $B_p$, use the handle-slide property to move across the puncture, then remove the $\tilde \Omega$.
 		- Prop. The ground space is topological. #card
-		  card-last-interval:: 22.99
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-14T02:06:26.618Z
-		  card-last-reviewed:: 2023-03-22T03:06:26.618Z
-		  card-last-score:: 5
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-09-22T12:55:36.000Z
+		  card-last-reviewed:: 2023-08-11T12:55:36.001Z
+		  card-last-score:: 3
 			- ((63fa1061-a719-42a4-8b01-2bd603e394fc))
 			- ((63f1e575-e066-4e22-9614-a8f2a6fd2ab6))
 				- Note that not only the quantum numbers are changed, but also the underlying lattice structure.
@@ -81,12 +81,12 @@
 					- But here comes a question: How to define the discrete version of torus? #Learning-TODO
 						- It should actually be a [[Triangulation]], involving simplices
 		- The ground space is nondegenerate on a sphere. #card
-		  card-last-interval:: 32.51
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-06T23:28:00.474Z
-		  card-last-reviewed:: 2023-04-04T11:28:00.475Z
-		  card-last-score:: 5
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-09-13T12:45:56.777Z
+		  card-last-reviewed:: 2023-08-02T12:45:56.777Z
+		  card-last-score:: 3
 			- Prove this by investigating a minimal lattice!
 	- ## Quasiparticles
 		- General constructions of quasiparticles can be difficult, but easier for a braided input category.
@@ -97,6 +97,12 @@
 		- Diagrammatic rules
 			- ((63f2cc10-b805-49a9-8d6d-370366dd60ad))
 				- As an exercise, determine the GSD on a torus. #card
+				  card-last-interval:: 32.57
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-09-13T01:51:34.040Z
+				  card-last-reviewed:: 2023-08-11T12:51:34.041Z
+				  card-last-score:: 5
 					- The answer is four. The theory is indeed doubled.
 				- As another exercise, find out the S-matrix. #card
 					- $$

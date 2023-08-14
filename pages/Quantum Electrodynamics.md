@@ -124,12 +124,12 @@ alias:: QED
 	- Note: The 'phase-space dependence' originates from ((636a108d-1c99-463c-bd06-6105cdf58bbd)), where we don't care about the momenta of the particles coming out, only direction.
 	- ## [[Compton scattering]]
 		- Key points #card
-		  card-last-score:: 5
-		  card-repeats:: 3
-		  card-next-schedule:: 2023-04-06T04:54:13.715Z
-		  card-last-interval:: 67.2
-		  card-ease-factor:: 2.8
-		  card-last-reviewed:: 2023-01-29T00:54:13.717Z
+		  card-last-score:: 3
+		  card-repeats:: 4
+		  card-next-schedule:: 2024-05-31T16:52:44.735Z
+		  card-last-interval:: 297.18
+		  card-ease-factor:: 2.66
+		  card-last-reviewed:: 2023-08-08T12:52:44.736Z
 		  collapsed:: true
 			- Draw **two** diagrams
 				- Reminder: The lines can cross!

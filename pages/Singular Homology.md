@@ -1,9 +1,9 @@
 - Idea #card
-  card-last-interval:: 32.57
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-07-27T14:02:55.685Z
-  card-last-reviewed:: 2023-06-25T01:02:55.685Z
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-09-11T12:32:16.599Z
+  card-last-reviewed:: 2023-07-31T12:32:16.600Z
   card-last-score:: 5
 	- [[Green's Theorem]] tells us that we can determine the behavior of the bulk by its boundary.
 	  We'd like to generalize this into topology.
@@ -65,6 +65,12 @@
 			- all singular $n$-simplexes in
 		- The elements of $S_n(X)$ are called (singular) $n$-chains in $X$.
 	- Boundary of a simplex #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-05T19:07:36.003Z
+	  card-last-reviewed:: 2023-08-05T13:07:36.003Z
+	  card-last-score:: 5
 		- If $\sigma: \Delta^n \rightarrow X$ is continuous and $n>0$, then its boundary is
 		  $$
 		  \partial_n \sigma=\sum_{i=0}^n(-1)^i \sigma \varepsilon_i^n \in S_{n-1}(X)
@@ -166,10 +172,22 @@
 			  $$
 	- Acyclic #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-06T18:32:14.492Z
+	  card-last-reviewed:: 2023-08-06T12:32:14.493Z
+	  card-last-score:: 5
 		- A space $X$ is called acyclic if $H_n(X)=0$ for all $n \geq 1$.
 		- The dimension axiom shows that every 1-point space is acyclic.
 	- Support #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-06T18:32:10.061Z
+	  card-last-reviewed:: 2023-08-06T12:32:10.061Z
+	  card-last-score:: 5
 		- If $\zeta=\sum m_i \sigma_i \in S_n(X)$, with all $m_i \neq 0$ and all $\sigma_i$ distinct, then the support of $\zeta$, denoted by $\mathrm{supp} \ \zeta$, is $\bigcup \sigma_i\left(\Delta^n\right)$.
 		- Note that $\mathrm{supp} \ \zeta$ is compact since it is a finite union of compact subsets.
 	- The cone construction #card
@@ -328,8 +346,14 @@
 	  Does it hold when $f$ and $g$ are homotopic?
 	- ((6455bc34-9cfb-4aff-9eda-66b2797bb373)). If $X$ is a bounded convex subspace of euclidean space, then $H_n(X)=0$ for all $n \geq 1$. #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-29T18:30:54.440Z
+	  card-last-reviewed:: 2023-07-29T12:30:54.441Z
+	  card-last-score:: 5
 		- Remark
-			- For $n=0$ and $X \neq \empty$, we know $H_0(X) \simeq \Z$ since convex implies path-connectedness.
+			- Actually $X$ is contractible. But the method of cone construction is also worth learning.
 		- Geometric intuition
 			- Consider an 1-cycle in $D^2$. 
 			  We want to 'fill the interior' of the cycle to obtain its bulk. But how to define the 'filling'?
@@ -423,9 +447,14 @@
 	  card-last-reviewed:: 2023-06-06T01:41:36.766Z
 	  card-last-score:: 5
 - # The Hurewicz Theorem
-  collapsed:: true
 	- Theorem. The Hurewicz map is a homomorphism. #card
-	  collapsed:: true
+		- Definition. Hurewicz map
+			- For any path-connected space $X$ and positive integer $n$ there exists a group homomorphism
+			  $$
+			  h_*: \pi_n(X) \rightarrow H_n(X),
+			  $$
+			  called the Hurewicz homomorphism, defined in the following way: choose a canonical generator $u_n \in H_n\left(S^n\right)$, then a homotopy class of maps $f \in \pi_n(X)$ is taken to $f_*\left(u_n\right) \in H_n(X)$.
+			- For $n=1$, it is just 'taking the homology class of the path'.
 		- The goal is to prove that $\varphi([f * g])=\varphi([f])+\varphi([g])$, i.e.
 		  $$\operatorname{cls} (f*g)\eta=\operatorname{cls} f\eta+\operatorname{cls} g\eta$$
 		- Which means I shall prove

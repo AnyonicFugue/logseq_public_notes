@@ -10,6 +10,12 @@ alias:: Anomalous
 	  card-last-score:: 5
 		- ((636874d3-031a-4841-a85e-08536a4f1e1e))
 	- In field theory #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-26T18:39:21.614Z
+	  card-last-reviewed:: 2023-07-26T12:39:21.614Z
+	  card-last-score:: 5
 		- The path integral **measure** fails to be invariant under the symmetry, i.e.
 		  $$\sum _{n}\frac{\delta F_{n}}{\delta \phi _{n}( x)} \neq 0$$
 		- Note that the changing part of the measure is

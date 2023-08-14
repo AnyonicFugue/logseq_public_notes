@@ -1,0 +1,2 @@
+- ![2008_Knapp_Advanced Algebra.pdf](../assets/2008_Knapp_Advanced_Algebra_1691016891544_0.pdf)
+-

@@ -1,5 +1,5 @@
-- # Data
-  id:: 63da100c-a77b-4c42-8e86-5bc90cce4cbd
+# Data
+id:: 63da100c-a77b-4c42-8e86-5bc90cce4cbd
 	- Fusion rules
 		- $\psi \otimes \psi=\mathbb{1}, \psi \otimes \sigma=\sigma, \sigma \otimes \sigma=\mathbb{1} \oplus \psi$
 	- Braidings and topo spins
@@ -39,3 +39,7 @@
 			  $$
 			  where $\epsilon$ tells the spherical structures.
 	- See ((63744c99-ad88-49b3-961c-f37d7b3aca41)).
+- # Relation to Majorana Anyons
+	- Interprete $\sigma \leftrightarrow \gamma$.
+	- $\psi$ corresponds to $i\gamma_{2j-1}\gamma_{2j}=1$, i.e. occupation number = 1 for the j^{th} fermion.
+	- $1$ corresponds to $i\gamma_{2j-1}\gamma_{2j}=-1$, i.e. occupation number = 0 for the j^{th} fermion.

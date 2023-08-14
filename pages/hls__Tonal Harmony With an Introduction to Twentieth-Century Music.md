@@ -1,5 +1,5 @@
 file:: [Tonal Harmony With an Introduction to Twentieth-Century Music.pdf](nutstore_link/books/Miscellaneous/Tonal Harmony With an Introduction to Twentieth-Century Music.pdf)
-file-path:: nutstore_link/books/Miscellaneous/Tonal Harmony With an Introduction to Twentieth-Century Music.pdf
+file-path:: zotero_link/Music/2004_Kostka_Tonal harmony with an introduction to 20th-century music.pdf
 
 - We use the term cadence to mean a harmonic goal, specifically the chords used at the goal
   ls-type:: annotation

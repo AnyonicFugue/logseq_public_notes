@@ -1,0 +1,158 @@
+file:: [2018_Zeng_Chen et al_Quantum Information Meets Quantum Matter.pdf](zotero_link/Research/Quantum Information/2018_Zeng_Chen et al_Quantum Information Meets Quantum Matter.pdf)
+file-path:: zotero_link/Research/Quantum Information/2018_Zeng_Chen et al_Quantum Information Meets Quantum Matter.pdf
+
+- Local Transformations and Long-Range Entanglement
+  ls-type:: annotation
+  hl-page:: 201
+  hl-color:: yellow
+  id:: 64c4125f-c029-4e98-8b13-26433ae5fd86
+- equivalent
+  ls-type:: annotation
+  hl-page:: 202
+  hl-color:: yellow
+  id:: 64c41279-b345-4420-bcad-b90a726f1d4a
+- a phase is a collection of condensed matter systems with qualitatively the same but possibly quantitatively different properties
+  ls-type:: annotation
+  hl-page:: 202
+  hl-color:: yellow
+  id:: 64c4132b-2b6a-4038-8849-7b3b89f52a44
+	- e.g. Ising model: Phases at different temperatures could be *qualitatively* different, while *spontaneous symmetry breaking* is a quantitative difference.
+- [:span]
+  ls-type:: annotation
+  hl-page:: 210
+  hl-color:: yellow
+  id:: 64c41935-c220-4764-9b0d-c54ebd4b420b
+  hl-type:: area
+  hl-stamp:: 1690573105228
+- [:span]
+  ls-type:: annotation
+  hl-page:: 212
+  hl-color:: yellow
+  id:: 64c42091-4178-4faf-922b-599aeb0aaa8c
+  hl-type:: area
+  hl-stamp:: 1690574991214
+- In general, in the presence of strong randomness, the thermodynamic limit is not well defined (without impurity average). We show that for gapped quantum liquids, the thermodynamic limit is well defined even without impurity average
+  ls-type:: annotation
+  hl-page:: 213
+  hl-color:: purple
+  id:: 64c54dd3-d506-4a34-b212-94fed888531b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 215
+  hl-color:: yellow
+  id:: 64c54f5f-229e-4bc9-a068-01bbcb24978c
+  hl-type:: area
+  hl-stamp:: 1690652510153
+- [:span]
+  ls-type:: annotation
+  hl-page:: 216
+  hl-color:: yellow
+  id:: 64c55051-36de-42d6-8795-5f37ef347db3
+  hl-type:: area
+  hl-stamp:: 1690652750499
+- [:span]
+  ls-type:: annotation
+  hl-page:: 218
+  hl-color:: yellow
+  id:: 64c55a1f-1ec2-4ccf-bb00-96691c4113b1
+  hl-type:: area
+  hl-stamp:: 1690655261121
+- Matrix Product State and 1D Gapped Phases
+  ls-type:: annotation
+  hl-page:: 243
+  hl-color:: yellow
+  id:: 64c59d5c-9022-455b-9a87-188654f2cc66
+- [:span]
+  ls-type:: annotation
+  hl-page:: 246
+  hl-color:: yellow
+  id:: 64c5a290-b014-45d4-9fc7-833ca91aa487
+  hl-type:: area
+  hl-stamp:: 1690673807077
+- [:span]
+  ls-type:: annotation
+  hl-page:: 247
+  hl-color:: yellow
+  id:: 64c66350-a47a-4539-8121-83612d4564f3
+  hl-type:: area
+  hl-stamp:: 1690723151364
+- [:span]
+  ls-type:: annotation
+  hl-page:: 247
+  hl-color:: yellow
+  id:: 64c6719d-c663-4af8-9ba7-ad5ae575886e
+  hl-type:: area
+  hl-stamp:: 1690726812184
+- [:span]
+  ls-type:: annotation
+  hl-page:: 247
+  hl-color:: yellow
+  id:: 64c671a5-c090-4c8e-978a-74d7b28a32e7
+  hl-type:: area
+  hl-stamp:: 1690726820663
+- [:span]
+  ls-type:: annotation
+  hl-page:: 252
+  hl-color:: yellow
+  id:: 64c68156-c82e-4925-994b-08a60283cd79
+  hl-type:: area
+  hl-stamp:: 1690730836837
+- [:span]
+  ls-type:: annotation
+  hl-page:: 257
+  hl-color:: yellow
+  id:: 64c6a836-1ad4-44cd-9bd4-ae0ed8e5cbd7
+  hl-type:: area
+  hl-stamp:: 1690740789434
+- [:span]
+  ls-type:: annotation
+  hl-page:: 260
+  hl-color:: yellow
+  id:: 64c7b982-ecf8-47d4-919b-c3ceaf0b8610
+  hl-type:: area
+  hl-stamp:: 1690810753155
+- [:span]
+  ls-type:: annotation
+  hl-page:: 260
+  hl-color:: yellow
+  id:: 64c7c826-5f2d-441d-9dd8-053d55a0192b
+  hl-type:: area
+  hl-stamp:: 1690814501429
+- [:span]
+  ls-type:: annotation
+  hl-page:: 261
+  hl-color:: yellow
+  id:: 64c7ccd9-9767-4ed6-9704-5f4fe3fe7d0e
+  hl-type:: area
+  hl-stamp:: 1690815704207
+- Tensor Product States and 2D Gapped Phases
+  ls-type:: annotation
+  hl-page:: 265
+  hl-color:: yellow
+  id:: 64c7eaf2-c7ef-4958-8031-f56be1ebcdf5
+- [:span]
+  ls-type:: annotation
+  hl-page:: 278
+  hl-color:: yellow
+  id:: 64c7f62b-6d6a-426f-b022-07220a9f00e5
+  hl-type:: area
+  hl-stamp:: 1690826282660
+- [:span]
+  ls-type:: annotation
+  hl-page:: 278
+  hl-color:: yellow
+  id:: 64c7f701-9cf6-458b-9e95-98079b6c4aff
+  hl-type:: area
+  hl-stamp:: 1690826496720
+- 5.3.2
+  ls-type:: annotation
+  hl-page:: 135
+  hl-color:: yellow
+  id:: 64c7f96e-ae1a-4947-addd-5c6e272b298b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 208
+  hl-color:: yellow
+  id:: 64c910db-c231-4d2e-8ff2-fb84e6555588
+  hl-type:: area
+  hl-stamp:: 1690898649674

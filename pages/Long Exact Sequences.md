@@ -71,7 +71,13 @@
 			-
 	- Subcomplex #card
 	  collapsed:: true
-		- $\left(S_*^{\prime}, \partial^{\prime}\right)$ is a subcomplex of $\left(S_*, \partial\right)$ if each $S_n^{\prime}$ is a subgroup of $S_n$ and if each $\partial_n^{\prime}=\partial_n \mid S_n^{\prime}$.
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-12T01:37:27.078Z
+	  card-last-reviewed:: 2023-08-10T12:37:27.078Z
+	  card-last-score:: 5
+		- $\left(S_*^{\prime}, \partial^{\prime}\right)$ is a subcomplex of $\left(S_*, \partial\right)$ if each $S_n^{\prime}$ is a subgroup of $S_n$ and if each $\partial_n^{\prime}=\partial_n |_{S_n^{\prime}}$.
 		- Equivalently, a subcomplex is defined by a complex homomorphism where each $f_n$ is an inclusion (to the parent complex).
 		- An important example
 			- Consider a subspace $A$ of a space $X$.
@@ -82,6 +88,12 @@
 			  that will be very useful.
 	- Quotient Complex #card
 	  collapsed:: true
+	  card-last-interval:: 31.15
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-31T15:30:15.572Z
+	  card-last-reviewed:: 2023-07-31T12:30:15.572Z
+	  card-last-score:: 5
 		- If $\left(S_*^{\prime}, \partial^{\prime}\right)$ is a subcomplex of $\left(S_*, \partial\right)$, then the quotient complex is the complex
 		  $$
 		  \cdots \longrightarrow S_n / S_n^{\prime} \stackrel{\bar{\partial}_n}{\longrightarrow} S_{n-1} / S_{n-1}^{\prime} \longrightarrow \cdots,
@@ -102,6 +114,12 @@
 		- Exercise. Verify that these two maps are both well-defined.
 	- Exactness of a sequence of complexes #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-29T18:28:35.217Z
+	  card-last-reviewed:: 2023-07-29T12:28:35.217Z
+	  card-last-score:: 5
 		- A sequence of complexes and chain maps
 		  $$
 		  \cdots \longrightarrow A_*^{q+1} \stackrel{f^{q+1}}{\longrightarrow} A_*^q \stackrel{f^q}{\longrightarrow} A_*^{q-1} \longrightarrow \cdots
@@ -141,13 +159,12 @@
 			- Consider the decomposition of a space $X$ into the disjoint union of its path components: $X=\bigcup X_\lambda$.
 			  $$S_*(X)=\sum_\lambda S_*\left(X_\lambda\right)$$
 	- Chain Homotopy and Chain Equivalence #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-08T07:19:26.811Z
-	  card-last-reviewed:: 2023-06-07T01:19:26.811Z
-	  card-last-score:: 5
-	  collapsed:: true
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-09-15T13:03:54.663Z
+	  card-last-reviewed:: 2023-08-04T13:03:54.663Z
+	  card-last-score:: 3
 		- If $f, g:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ are chain maps, then $f$ and $g$ are **(chain) homotopic**, denoted by $f \simeq g$, if there is a sequence of homomorphisms $\left\{P_n: S_n^{\prime} \rightarrow S_{n+1}\right\}$ such that, for all $n \in \mathbf{Z}$,
 		  $$
 		  \partial_{n+1} P_n+P_{n-1} \partial_n^{\prime}=f_n-g_n .
@@ -159,20 +176,27 @@
 			  f_{\#}-g_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
 			  $$
 			  then $H_n(f)=H_n(g)$ for all $n \geq 0$.
+			- Proposition. If $f \simeq g$ then $H_n(f)=H_n(g)$, if $f$ is a chain equivalence then $H_n(f)$ is a homomorphism.
+			-
 			- But it's curious that this property is chosen as the defining character...
 			  background-color:: pink
+				-
 		- A chain map $f:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ is called a **chain equivalence** if there exists a chain map $g:\left(S_*, \partial\right) \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right)$ such that 
 		  $$g \circ f \simeq 1_{S_*^{\prime}}, \quad f \circ g \simeq 1_{S_*}$$
 		  Two chain complexes are called **chain equivalent** if there exists a chain equivalence between them.
 		-
-		- Proposition. If $f \simeq g$ then $H_n(f)=H_n(g)$, if $f$ is a chain equivalence then $H_n(f)$ is a homomorphism.
 	- Contracting Homotopy #card
-	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-28T18:57:13.144Z
+	  card-last-reviewed:: 2023-07-28T12:57:13.145Z
+	  card-last-score:: 5
 		- A contracting homotopy of a complex $\left(S_*, \partial\right)$ is a sequence of homomorphisms $c=\left\{c_n: S_n \rightarrow S_{n+1}\right\}$ such that for all $n \in \mathbf{Z}$,
 		  $$
 		  \partial_{n+1} c_n+c_{n-1} \partial_n=1_{s_n} .
 		  $$
-		- Plainly, a contracting homotopy is a chain homotopy between the identity map of $S_*$ (namely, $\left\{1_{S_n}\right\}$) and the zero map on $S_*$.
+		- Plainly, a contracting homotopy is a chain homotopy (homotopy of chain maps) between the identity map of $S_*$ (namely, $\left\{1_{S_n}\right\}$) and the zero map on $S_*$.
 		-
 		- Proposition. If a complex $S_*$ has a contracting homotopy, then $S_*$ is acyclic (i.e., $H_n\left(S_*\right)=0$ for all $n$, i.e., $S_*$ is an exact sequence).
 	- Connecting Homomorphism #card
@@ -233,6 +257,12 @@
 		-
 	- Relative Homology Group #card
 	  collapsed:: true
+	  card-last-interval:: 31.21
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-08T17:59:49.244Z
+	  card-last-reviewed:: 2023-08-08T12:59:49.244Z
+	  card-last-score:: 5
 		- If $A$ is a subspace of $X$, the $n$th relative homology group $H_n(X, A)$ is defined to be $H_n\left(S_*(X) / S_*(A)\right)$.
 		- Equivalently:
 			- The group of relative $n$-cycles $\bmod A$ is
@@ -256,6 +286,13 @@
 				- Observe, in this example, that if $A=\left\{x_0\right\}$, then "cycle" and "relative cycle" coincide. This is actually true (almost) always.
 		- Intuitively, this group carries information about those cycles in $X$ but not in $A$.
 	- Reduced Homology Group #card
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-29T02:26:39.389Z
+	  card-last-reviewed:: 2023-07-27T13:26:39.390Z
+	  card-last-score:: 5
+	  collapsed:: true
 		- Augmented Singular Complex $\tilde S(X)$
 			- Let $\left(S_*(X), \partial\right)$ be the singular complex of a space $X$. Define $\tilde{S}_{-1}(X)$ to be the infinite cyclic group with generator a, and define $\tilde{\partial}_0: S_0(X) \rightarrow \widetilde{S}_{-1}(X)$ by $\sum m_x x \mapsto\left(\sum m_x\right)a$.
 			- The augmented singular complex of $X$ is
@@ -293,6 +330,12 @@
 	  collapsed:: true
 	  $$H_n: \mathrm{Comp} \to \mathrm{Ab}$$
 		- Theorem. For each $n \in \mathbf{Z}$, the functor $H_n: \mathbf{Comp} \rightarrow \mathbf{A b}$ is **additive**; that is, if $f, g \in \operatorname{Hom}\left(S_*^{\prime}, S_*\right)$, then $H_n(f+g)=H_n(f)+H_n(g)$. #card
+		  card-last-interval:: 31.15
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-31T15:26:10.101Z
+		  card-last-reviewed:: 2023-07-31T12:26:10.101Z
+		  card-last-score:: 5
 			- An exercise to review the concepts.
 	- We have a functor
 	  $$S_*: \mathrm{Top} \to \mathrm{Comp}$$
@@ -316,18 +359,23 @@
 - # Exact Homology Sequences
   collapsed:: true
 	- Theorem (Exact Triangle). If $0 \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right) \stackrel{i}{\rightarrow}\left(S_*, \partial\right) \stackrel{p}{\rightarrow}\left(S_*^{\prime \prime}, \partial^{\prime \prime}\right) \rightarrow 0$ is a short exact sequence of complexes, then there is an exact sequence
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-07-08T07:05:29.499Z
-	  card-last-reviewed:: 2023-06-07T01:05:29.501Z
-	  card-last-score:: 3
-	  collapsed:: true
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-09-15T13:02:41.182Z
+	  card-last-reviewed:: 2023-08-04T13:02:41.183Z
+	  card-last-score:: 5
 	  $$
 	  \cdots \rightarrow H_n\left(S_*^{\prime}\right) \stackrel{i_*}{\rightarrow} H_n\left(S_*\right) \stackrel{p_*}{\rightarrow} H_n\left(S_*^{\prime \prime}\right) \stackrel{d}{\rightarrow} H_{n-1}\left(S_*^{\prime}\right) \stackrel{i_*}{\rightarrow} H_{n-1}\left(S_*\right) \stackrel{p_*}{\rightarrow} H_{n-1}\left(S_*^{\prime \prime}\right) \rightarrow \cdots
 	  $$ #card
 		- ((647bf65b-5d5f-41c0-82d4-84c67942125b))
+		- #+BEGIN_CAUTION
+		  The verifications are trivial. But what's the intuition and insight behind?
+		  #+END_CAUTION
 		- First note that all homomorphisms are well-defined. The remaining task is to verify exactness one-by-one.
+		- Note that though $i_*$ is induced by inclusions, it is **not injective** in general.
+		  background-color:: pink
+			- For example, if we consider $S^1 \sub B^2$, $S^1$ is not a boundary in itself but a boundary in $B^2$!
 		- $p_*$ and $i_*$
 		  collapsed:: true
 			- ![20230604-093524.jpg](../assets/20230604-093524_1685842580837_0.jpg){:height 359, :width 509}
@@ -498,12 +546,18 @@
 	-
 - # Relative Homology
   id:: 6498e0fe-d925-45b8-8532-f90ed5c95f32
-  collapsed:: true
 	- Theorem. If $X$ is path connected and $A$ is a nonempty subspace, then $H_0(X, A)=0$ #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-28T18:55:09.890Z
+	  card-last-reviewed:: 2023-07-28T12:55:09.891Z
+	  card-last-score:: 5
+	  collapsed:: true
 		- Recall that $Z_0(X)=\operatorname{Ker} \partial_0=S_0(X)$.
-		  Similarly $Z_0(X,A)=S_0(X,A)$.
-		- What remains is to prove that $B_0(X,A)=S_0(X,A)$.
-		  The key is chains in $A$ could cancel 'remaining coefficients' and make any chain a boundary.
+		  Similarly $Z_0(X,A)=S_0(X)$.
+		- What remains is to prove that $B_0(X,A)=S_0(X)$.
+		  The key is chains in $A$ could **cancel remaining coefficients** and make any chain a boundary.
 	- ((648fb74f-609d-49ce-a558-45f5e4d30140)). If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$, then, for each $n \geq 0$,
 	  collapsed:: true
 	  $$
@@ -512,6 +566,12 @@
 		- The key is still a simplex must be within a single path components,
 		  thus $Z_n(X,A)$ and $B_n(X,A)$ could both be decomposed by path components.
 	- Corollary. $H_0(X, A)$ is free abelian and
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-17T19:00:23.945Z
+	  card-last-reviewed:: 2023-07-17T13:00:23.945Z
+	  card-last-score:: 5
 	  $$
 	  \operatorname{rank} H_0(X, A)=\operatorname{card}\left\{\lambda \in \Lambda: A \cap X_\lambda=\varnothing\right\}
 	  $$
@@ -584,17 +644,28 @@
 			- However, how to find the essence of the proof and obtain the viewpoint?
 				- ((648fef0f-b15f-40aa-986a-63987de4ae51))
 	- ((64993bd2-30a9-4b3e-85ac-34328b6085e2)) (Homotopy Axiom for Pairs). If $f, g:(X, A) \rightarrow(Y, B)$ and $f \simeq g \bmod A$, then for all $n \geq 0$,
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-26T18:27:44.426Z
+	  card-last-reviewed:: 2023-07-26T12:27:44.426Z
+	  card-last-score:: 5
 	  $$
 	  H_n(f)=H_n(g): H_n(X, A) \rightarrow H_n(Y, B)
 	  $$ #card
 		- It proceeds exactly as [here](((6498e102-758e-44db-bbcb-a7c679b43a90))), but the details need more verification.
 - # Reduced Homology
-  collapsed:: true
 	- ((6498fa19-1bd6-4422-adea-7450bcbca1fe)) For all $n \geq 0$,
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-08-25T19:12:47.537Z
+	  card-last-reviewed:: 2023-07-25T13:12:47.538Z
+	  card-last-score:: 3
 	  $$
 	  \widetilde{H}_n(X) \cong H_n\left(X, x_0\right)
 	  $$ #card
-		- Cases where $n>1$ are already proved (review it if you want!).
+		- Cases where $n \geq 1$ are already proved (review it if you want!).
 		- $n=0$
 			- Dirty way: Explicitly calculate the homology groups
 				- Remark: *This is always a good step to get familiar, but we shall always stand higher!*

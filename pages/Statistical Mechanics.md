@@ -63,11 +63,11 @@ type:: [[Course]]
 - [[Gaussian theory]]
   collapsed:: true
 	- Summary #card
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-07-09T00:51:23.703Z
-	  card-last-reviewed:: 2023-04-16T00:51:23.704Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-07-31T17:20:43.613Z
+	  card-last-reviewed:: 2023-08-13T12:20:43.614Z
 	  card-last-score:: 5
 		- After Fourier transforming to momentum space, different momenta decouple. So the correlation functions are easy to evaluate.
 		- Wick's theorem holds for correlation functions.
@@ -223,11 +223,11 @@ type:: [[Course]]
 			- Trick: set $\epsilon=4-D$, expand wrt $\epsilon$
 			-
 			- Relevance of coupling constants #card
-			  card-last-interval:: 67.2
-			  card-repeats:: 3
-			  card-ease-factor:: 2.8
-			  card-next-schedule:: 2023-05-07T04:29:32.559Z
-			  card-last-reviewed:: 2023-03-01T00:29:32.560Z
+			  card-last-interval:: 353.22
+			  card-repeats:: 4
+			  card-ease-factor:: 2.9
+			  card-next-schedule:: 2024-07-14T18:27:31.505Z
+			  card-last-reviewed:: 2023-07-27T13:27:31.505Z
 			  card-last-score:: 5
 				- Thought: The irrelevant ones vanish in the rescaling process
 				- Criteria: Scaling dimension
@@ -430,11 +430,11 @@ type:: [[Course]]
 				  $$
 					- $\chi(\omega)=\chi_1(\omega)+i \chi_2(\omega)$
 				- Proof #card
-				  card-last-interval:: 24
-				  card-repeats:: 2
-				  card-ease-factor:: 2.7
-				  card-next-schedule:: 2023-03-04T11:23:55.567Z
-				  card-last-reviewed:: 2023-02-08T11:23:55.567Z
+				  card-last-interval:: 117.6
+				  card-repeats:: 3
+				  card-ease-factor:: 2.8
+				  card-next-schedule:: 2023-11-27T03:05:58.139Z
+				  card-last-reviewed:: 2023-08-01T13:05:58.140Z
 				  card-last-score:: 5
 					- ![image.png](../assets/image_1670505431236_0.png)
 					- The total is zero.

@@ -1,4 +1,10 @@
 - Definition #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-08-29T18:27:40.614Z
+  card-last-reviewed:: 2023-07-29T12:27:40.614Z
+  card-last-score:: 5
 	- A black hole in an asymptotically flat spacetime $M$ is the set of events that do not belong to the causal past of the future null infinity $J^{-}\left(\mathscr I^{+}\right)$, namely
 	  $$
 	  B=M-J^{-}\left(\mathscr I^{+}\right)\neq\varnothing.

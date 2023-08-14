@@ -167,11 +167,11 @@
 				- (e) (**Restricting or expanding the rang**e) Let $f\cdot X\rightarrow Y$ be continuous. If $Z$ is a subspace of $Y$ containing the image set $f(X)$, then the function $g:X\rightarrow Z$ obtained by restricting the range of $f$ is contunuous. If $Z$ is a space having $Y$ as a subspace, then the function $h:X\rightarrow Z$ obtained by expanding the range of $f$ is continuous.
 				- (f) (**Local formulation of continuity**) The map $f:X\rightarrow Y$ is continuous if $X$ can be written as the union of open sets $U_{\alpha }$ such that $f\mid U_{\alpha }$ is continuous for each $\alpha$.
 		- Homeomorphism #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-05-04T03:34:38.725Z
-		  card-last-reviewed:: 2023-04-04T03:34:38.726Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-11-24T12:39:08.863Z
+		  card-last-reviewed:: 2023-07-29T22:39:08.863Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- Let $X$ and $Y$ be topological spaces; let $f.X\rightarrow Y$ be a bijection. If both the function $f$ and **the inverse function** $f^{-1} :Y\rightarrow X$ are continuous, then $f$ is called a homeomorphism.
@@ -204,14 +204,14 @@
 		- Compare to [[Compact]]: A space $X$ is compact if every open covering $A$ of $X$ has a finite open refinement $\mathscr{B}$ that covers $X$
 - # Compactness
 	- ## Defs
-		- Compact  #card 
-		  collapsed:: true
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-07-09T08:11:00.162Z
-		  card-last-reviewed:: 2023-06-08T02:11:00.162Z
+		- Compact
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-24T12:31:30.891Z
+		  card-last-reviewed:: 2023-08-13T12:31:30.892Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- Finite subcover
 		- Isolated point  #card 
 		  collapsed:: true
@@ -252,16 +252,22 @@
 			- Easy.
 		- Theorem. The image of a compact space under a Continuous map is compact.  #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-26T18:37:22.244Z
+		  card-last-reviewed:: 2023-07-26T12:37:22.244Z
+		  card-last-score:: 5
 			- Topo invariant
 		-
 	- Lemma. If $Y$ is a Compact subspace of the Hausdorff space $X$ and $x_{0}$ is not in $Y$. then  there exist disjoint open sets $U$ and $V$ of $X$ containing $x_{0}$ and $Y$, respectively. #card
 	  id:: 644efbcd-86a7-4549-95a7-6568220120f3
 	  collapsed:: true
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-16T01:18:00.755Z
-	  card-last-reviewed:: 2023-05-17T01:18:00.756Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-16T13:08:07.176Z
+	  card-last-reviewed:: 2023-08-05T13:08:07.176Z
 	  card-last-score:: 5
 		- Key point: $U= \cup O(y_i,x_0)$, $V= \cap O(x_0,y_i)$
 	- Theorem. Every Compact subspace of a Hausdorff space is closed.  #card
@@ -284,6 +290,12 @@
 	-
 	- Tube Lemma. Consider the product space $X\times Y$, where $Y$ is Compact. If $N$ is an open set of $X\times Y$ containing the slice $x_{0} \times Y$ of $X\times Y$, then $N$ contains some tube $W\times Y$ about $x_{0} \times Y$, where $W$ is a neighborhood of $x_{0}$ in $X$.   #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-26T18:36:43.698Z
+	  card-last-reviewed:: 2023-07-26T12:36:43.699Z
+	  card-last-score:: 5
 		- By def. $N$ is a union of many $U\times V$
 		-
 		- For any $x_0\times y$ , we can find $U_i\times V_i$ containing it.
@@ -322,27 +334,55 @@
 	-
 	- Lemma (The Lebesgue number lemma). Let $\mathcal{A}$ be an open covering of the metric space $(X, d)$. If $X$ is Compact, there is a Lebesgue number $\delta>0$. #card
 	  collapsed:: true
-		- Intuitively, this theorem states that 'the open covering must have a nonzero **overlapping**'
+	  card-last-interval:: 35.3
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-10T19:41:32.626Z
+	  card-last-reviewed:: 2023-08-06T12:41:32.626Z
+	  card-last-score:: 5
+		- Intuition
+			- Open sets must have a finite overlap.
+			- Moreover the covering is finite, thus their intersection cannot be infinitely 'thin'.
 		-
 		- **Proof**:
-		- Simplify: We may only consider a finite covering A and open disks as subsets to be contained.
-		- Use contrapositive. Set $\delta_n=1/n$. We have a series of disks $D_n:=D(x_n,r_n)$, where $r_n<\delta_n$.
-		- Compact ⇒ [[Limit point compact]], so the sequence $(x_n)$ has a convergent subsequence.
-		- Denote the limit point as $y$. Some $D(y,\epsilon)$ must lie within some $A$.
-		- This A must contain some $D_n$, since $r_n$ vanishes. This leads to a contradiction.
+			- Simplify: We may only consider a finite covering A and open disks as subsets to be contained.
+			- Use contrapositive. Set $\delta_n=1/n$. We have a series of disks $D_n:=D(x_n,r_n)$, where $r_n<\delta_n$.
+			- Compact ⇒ [[Limit point compact]], so the sequence $(x_n)$ has a convergent subsequence.
+			- Denote the limit point as $y$. Some $D(y,\epsilon)$ must lie within some $A$.
+			- This A must contain some $D_n$, since $r_n$ vanishes. This leads to a contradiction.
 		-
 		- **Official proof**: Construct a distance function.
-		- Let $C_i=X-A_i$, $f(x)=\frac{1}{n} \sum_{i=1}^n d\left(x, C_i\right)$.
-		- Easy to see $f(x)>0$ for all x.
-		- Since x is continuous, it has a minimum. Denote it as $\delta$.
-		- Easy to see this is our required Lebesgue number.
+			- Let $C_i=X-A_i$, $f(x)=\frac{1}{n} \sum_{i=1}^n d\left(x, C_i\right)$.
+			- Easy to see $f(x)>0$ for all x.
+			- Since x is continuous, it has a minimum. Denote it as $\delta$.
+			- Easy to see this is our required Lebesgue number.
 	- ## Limit Point Compactness
 		- Theorem. Compact implies limit point compactness, but not conversely.  #card
 		  collapsed:: true
 			- An easy exercise.
 		- Theorem. For a metrizable space, limit point compact is equivalent to compact.  #card
 		  collapsed:: true
-			- [[TODO] Prove by constructing a Lebesgue number.
+			- Intuition
+				- The metric space is bounded, i.e. we cannot construct a sequence extending to infinity.
+			- Proof of the hard part, i.e. LPC -> Compact
+				- First, we show that if $X$ is sequentially compact, then the Lebesgue number lemma holds for $X$.
+				  collapsed:: true
+					- Let $\mathcal{A}$ be an open covering of $X$. We assume that there is **no** $\delta>0$ such that each set of diameter less than $\delta$ has an element of $\mathcal{A}$ containing it, and derive a contradiction.
+					- Our assumption implies in particular that for each positive integer $n$, there exists a set of diameter less than $1 / n$ that is not contained in any element of let $C_n$ be such a set.
+					- Choose a point $x_n \in C_n$, for each $n$.
+					- By hypothesis, some subsequence $\left(x_{n_i}\right)$ of the sequence $\left(x_n\right)$ converges, say to the point $a$. Now $a$ belongs to some element $A$ of the collection $\mathcal{A}$; because $A$ is open, we may choose an $\epsilon>0$ such that $B(a, \epsilon) \subset A$. If $i$ is large enough that $1 / n_i<\epsilon / 2$, then the set $C_{n_1}$ lies in the $\epsilon / 2$-neighborhood of $x_{n_1}$; if $i$ is also chosen large enough that $d\left(x_{n_1}, a\right)<\epsilon / 2$, then $C_{n_1}$ lies in the $\epsilon$-neighborhood of $a$.
+					- But this means that $C_{n_1} \subset A$, contrary to hypothesis.
+				- Second, we show that if $X$ is sequentially compact, then given $\epsilon>0$, there exists a finite covering of $X$ by open $\epsilon$-balls.
+				  collapsed:: true
+					- Once again, we proceed by contradiction. Assume that there exists an $\epsilon>0$ such that $X$ cannot be covered by finitely many $\epsilon$-balls.
+					- Construct a sequence of points $x_n$ of $X$ as follows: First, choose $x_1$ to be any point of $X$. Noting that the ball $B\left(x_1, \epsilon\right)$ is not all of $X$ (otherwise $X$ could be covered by a single $\epsilon$-ball), choose $x_2$ to be a point of $X$ not in $B\left(x_1, \epsilon\right)$. In general, given $x_1, \ldots, x_n$, choose $x_{n+1}$ to be a point not in the union
+					  $$
+					  B\left(x_1, \epsilon\right) \cup \cdots \cup B\left(x_n, \epsilon\right),
+					  $$
+					  using the fact that these balls do not cover $X$.
+					- Note that by construction $d\left(x_{n+1}, x_i\right) \geq$ $\epsilon$ for $i=1, \ldots, n$. Therefore, the sequence $\left(x_n\right)$ can have no convergent subsequence, which is a contraction.
+				- Finally we use the above two together: First obtain a Lebesgue number $\delta$, then choose a finite covering by $\delta/3$-balls.
+				  Then each ball is contained by some $A \in \mathcal A$, which gives a finite subcover of $\mathcal A$.
 	-
 	- The best properties to deal with are Metrizable and [[Compact]] [[Hausdorff ]].
 	  collapsed:: true
@@ -365,20 +405,27 @@
 			- Explicitly: The topology of Y is $\mathscr T_Y = \mathscr T_X \cup \{Y-C|C\ compact\ in\ X\}$
 				- For $\mathbb R^n$, the second part is '$\infty$ plus complement of closed bounded set'
 		- Theorem. $X$ is Locally compact [[Hausdorff]] if and only if $X$ has a one-point compactification.  #card
+		  card-last-interval:: 35.37
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-03T06:41:33.322Z
+		  card-last-reviewed:: 2023-07-29T22:41:33.323Z
+		  card-last-score:: 5
 			- q⇒p: Easier.
-			  Hausdorff is obvious. Just prove local compactness.
-			- Suppose $Y-X={z}$. Consider some point $x\in X$. Since Y is Hausdorff, we can find disjoint $U(x,z)$ and $U(z,x)$.
-			- The closure of $U(x,z)$ is closed in Y, thus compact.
-			  Moreover, since $U(x,z)$ and $U(z,x)$ are disjoint,  $\over {U(x,z)}$ and $U(z,x)$ are disjoint.
+				- Hausdorff is obvious, since any subspace of a Hausdorff space is Hausdorff.
+					- Suppose $Y-X={z}$. Consider some point $x\in X$. Since Y is Hausdorff, we can find disjoint $U(x,z)$ and $U(z,x)$.
+				- Local compactness
+					- The closure of $U(x,z)$ is closed in Y, thus compact.
+					  Moreover, since $U(x,z)$ and $U(z,x)$ are disjoint,  $\over {U(x,z)}$ and $U(z,x)$ are disjoint.
 			-
 			- p⇒q: We need to construct the topology of Y.
-			- When proving q⇒p, we noticed that In Compact Hausdorff spaces, Closed ⇔ Compact.
-			- Thus $O(z)\in \mathscr T(Y)$ ⇔ $Y-O(z)$ closed and compact in Y ⇔ $Y-O(z)$ compact in X. 
-			  So the topology of Y shall be $\mathscr T(X) \cup \{Y-C|C\ compact\ in\ X\}$
-			- The rest is verifying it's indeed a topology, X has subspace topology, Y is compact.
+				- When proving q⇒p, we noticed that In Compact Hausdorff spaces, Closed ⇔ Compact.
+				- Thus $O(z)\in \mathscr T(Y)$ ⇔ $Y-O(z)$ closed and compact in Y ⇔ $Y-O(z)$ compact in X. 
+				  So the topology of Y shall be $\mathscr T(X) \cup \{Y-C|C\ compact\ in\ X\}$
+				- The rest is verifying it's indeed a topology, X has subspace topology, Y is compact.
 			-
 			- Remark: If X isn't compact, then z is a Limit point of X, which is quite interesting!
-		- Corollary. For [[Hausdorff ]] $X$ Locally compact ⇔ For $x$ in $X$ and a neighborhood $U(x)$, there is a neighborhood $V$(x) such that $\bar{V}$ is compact and $\bar{V} \subset U$  #card
+		- Corollary. For Hausdorff $X$, Locally compact ⇔ For $x$ in $X$ and a neighborhood $U(x)$, there is a neighborhood $V$(x) such that $\bar{V}$ is compact and $\bar{V} \subset U$  #card
 			- q⇒p: $\bar V$ serves as the compact subset.
 			- p⇒q: We may use the 1-point compactification.
 			- The rest is easy: Hausdorff ⇒ $Y-U(x)$ compact ⇒ We may find disjoint open sets covering $Y-U(x)$ and $U(x)$.
@@ -413,6 +460,12 @@
 	- Defs
 		- Define $\pi_0(X)$ to be the set of path components of $X$. If $f: X \rightarrow Y$, define $\pi_0(f): \pi_0(X) \rightarrow \pi_0(Y)$ to be the function taking a path component $C$ of $X$ to the (unique) path component of $Y$ containing $f(C)$.
 			- ((6427f2e4-0f92-4d71-9056-c205ac7f7736)) $\pi_0: \mathrm{Top} \rightarrow \mathrm{Set}$ is a functor. Moreover, if $f \simeq g$, then $\pi_0(f)=$ $\pi_0(g)$ #card
+			  card-last-interval:: 33.94
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-09-12T10:56:45.620Z
+			  card-last-reviewed:: 2023-08-09T12:56:45.620Z
+			  card-last-score:: 5
 				- It maps a continuous map to a map between path components (Exercise: Verify the map between path components is well-defined).
 				  It suffices to verify that the morphisms compose properly to show it is a functor.
 				-

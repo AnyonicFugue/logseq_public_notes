@@ -49,6 +49,12 @@
 			  But here $g(L)$, depending on the size $L$, turns out to be more convenient in RG, which concerns **how the properties change with the system size**.
 		- It can be related to a microscopic definition $\frac{\Delta E}{dE/dN}$, which can be argued from the limits of metals and localized states.
 	- RG method #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-25T08:16:14.374Z
+	  card-last-reviewed:: 2023-07-25T02:16:14.375Z
+	  card-last-score:: 5
 		- *Reminder card. No need to recall the details; just appreciate the thought.*
 		- Quantity to be concerned:
 		  $$\beta(\ln g):=\lim_{L \to \infty} \frac {d \ln g(L)}{d \ln L}$$

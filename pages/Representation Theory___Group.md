@@ -1,23 +1,30 @@
-- # Basic Facts
+# Basic Facts
 	- Theorem. If $V=U\oplus W$, then  $T_{W}$ and $T_{V/U}$ are isomorphic. #card
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-31T11:34:37.911Z
+	  card-last-reviewed:: 2023-07-29T22:34:37.911Z
+	  card-last-score:: 5
 		- We can select vectors of W as representatives.
 		- Can be used on "The remaining part of the sum"
 	- ## Decomposition into Minimal invariant subspaces
 		- Theorem. Let $T:G\rightarrow \mathrm{GL} (V)$ be a linear representation. Let $V=V_{1} +V_{2} +\dotsc +V_{m}$ be a decomposition of the space $V$ into a (**not necessarily direct**) sum of minimal invariant subspace. 
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-07-06T01:42:11.463Z
-		  card-last-reviewed:: 2023-06-06T01:42:11.463Z
-		  card-last-score:: 5
+		  card-last-interval:: 107.52
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2023-11-14T10:39:04.667Z
+		  card-last-reviewed:: 2023-07-29T22:39:04.667Z
+		  card-last-score:: 3
 		  Then for every invariant subspace $U$ there exist indices $i_{1} ,\dotsc ,i_{p}$ such that $V=U\oplus V_{i_{1}} \oplus \dotsc \oplus V_{i_{p}}$  #card
-			- For a $U$: we use a common construction.
-			- "Maximal LI list $\{U,V_{i1},...V_{ip}\}$"  #Trick
-			- We show this must span V.
+			- Note
+				- Plainly, 'Minimal invariant subspaces' -> Completely reducible.
+				- This doesn't need the group to be finite.
+			- Classical trick: Maximal linear independent list $\{U,V_{i1},...V_{ip}\}$
+				- We show this must span V by intersecting with any "Min invsp outside":
+				  collapsed:: true
+					- Min ⇒ the intersection must be 0 or full space.
 			-
-			- Intersect with any "Min invsp outside":
-			  collapsed:: true
-				- Min ⇒ the intersection must be 0 or full space.
 		- Theorem. Suppose the representation $T:G\rightarrow \mathrm{GL} (V)$ is isomorphic to a sum of irreducible representations $T_{i} :G\rightarrow \operatorname{GL}( V_{i}) ,i=1,\dotsc ,m$. 
 		  collapsed:: true
 		  card-last-interval:: 24
@@ -27,7 +34,7 @@
 		  card-last-reviewed:: 2023-03-15T00:35:31.397Z
 		  card-last-score:: 5
 		  Then every subrepresentation of $T$ ,as well as every quotient representation of $T$ is isomorphic to a sum of some of the representations $T_{i}$ #card
-			- Trick of *select a maximal linear independent set*
+			- ((64c66f21-d71f-4cf2-a4d8-44d974454f65))
 			- Consider a subrep $T_U$: $$T_U\simeq T_{V/({V_{i_{1}} \oplus \dotsc \oplus V_{i_{p}}})}\simeq T_{sum\ of\ the\ remaining\ V_j }$$
 			- Isomorphism is the best we can obtain, without more conditions.
 				- i.e. Decomposition isn't unique.
@@ -63,17 +70,17 @@
 		  card-next-schedule:: 2023-03-29T00:57:10.930Z
 		  card-last-reviewed:: 2023-03-05T00:57:10.931Z
 		  card-last-score:: 5
-			- Construct an invariant inner product by summing:  #Trick
+			- Construct an invariant inner product by summing:  #Techniques
 			- Given any inner product $f_0(\cdot,\cdot)$, define $f(u,v)=\sum_{g}f_0(T(g)u,T(g)v)$
 		- Theorem. Every real (complex) linear representation of a compact topological group is orthogonal (respectively, unitary). #card
-		  card-last-interval:: 24
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-16T11:53:25.978Z
-		  card-last-reviewed:: 2023-02-20T11:53:25.980Z
-		  card-last-score:: 5
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-09-23T13:20:48.031Z
+		  card-last-reviewed:: 2023-08-12T13:20:48.031Z
+		  card-last-score:: 3
 			- The point is an invariant integration on the group manifold.
-			- From the point of view of the theory of (continuous) linear representations, compact topological groups are similar to discrete ones. #[[Thoughts/Math and Physics]]
+			- From the point of view of the theory of (continuous) linear representations, compact topological groups are similar to discrete ones. #[[Observations/Math and Physics]]
 		- Lemma. Let $f$ and $f_{0}$ be two inner products in the complex vector space $V$. Then there exists a linear operator $\sigma$ such that $f(x,y)=f_{0} (\sigma x,y)$  for all $x,y\in V$.
 		- Theorem. Let $T:G\rightarrow \operatorname{GL} (V)$ be an irreducible unitary representation. Then the $T$-invariant inner product in $V$ is unique up to a constant factor.  #card
 		  collapsed:: true
@@ -181,7 +188,7 @@
 		  card-next-schedule:: 2023-06-11T00:28:07.457Z
 		  card-last-reviewed:: 2023-05-12T00:28:07.458Z
 		  card-last-score:: 5
-			- Just prove: One set can be expressed by linear combinations of another, and vice versa. #Trick
+			- Just prove: One set can be expressed by linear combinations of another, and vice versa. #Techniques
 			-
 			- Basis independent: $T_{ij}$ under any basis can be expressed as linear combinations of another basis.
 			- Invariance: Similar.
@@ -193,7 +200,7 @@
 		  \mu :\mathrm{L} (V)&\rightarrow \mathbf{C} [G]\\
 		  \mu(\xi )(g)&=\operatorname{tr} \xi T(g)\ \ (\xi \in \mathrm{L} (V))
 		  \end{aligned}$$
-			- Prop. $\mu$ is an **isomorphism** of $T\otimes T^{\prime }$ and the ((1e9f6e33-36ec-4362-9505-3b42540bb3a7)) $Reg_{M(T)}$ #card
+			- Prop. $\mu$ is an **isomorphism** of $T\otimes T^{\prime }$ and the ((1e9f6e33-36ec-4362-9505-3b42540bb3a7)) $\operatorname{Reg}_{M(T)}$ #card
 			  collapsed:: true
 				- Prop1. $\mu$ is a morphism
 					- Use matrix: $f\left( g_{2}^{-1} gg_{1}\right) =\operatorname{tr} \xi T\left( g_{2}^{-1} gg_{1}\right) =\operatorname{tr} \xi T( g_{2})^{-1} T(g)T( g_{1})$ $=\operatorname{tr}\left( T( g_{1}) \xi T( g_{2})^{-1}\right) T(g)=\operatorname{tr} \eta T(q)$
@@ -209,7 +216,7 @@
 				- Therefore, $Ker\ \mu \subset L(V)$ is either 0 or $L(V)$
 				- $Im\ \mu=M(T)$ , therefore $Ker\ \mu=0$
 				-
-				- The same man in different mirrors by isomorphisms. #[[Thoughts/Math and Physics]]
+				- The same man in different mirrors by isomorphisms. #[[Observations/Math and Physics]]
 			-
 			- Corollary 1. $\operatorname{dim}\mathrm{M} (T)=n^{2}$, where  $n=\operatorname{dim} V$. #card
 			  card-last-interval:: 24
@@ -224,14 +231,14 @@
 				- $IT'\simeq nT^{\prime }$
 			- Corollary 4. Let $T_{1}$ and $T_{2}$ be nonisomorphic irreducible complex representations of the group $G$. 
 			  id:: 0e1d7f6e-d7fc-4bb8-bc17-e7506829c273
-			  card-last-interval:: 30
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-05-07T00:50:19.237Z
-			  card-last-reviewed:: 2023-04-07T00:50:19.239Z
+			  card-last-interval:: 117.6
+			  card-repeats:: 3
+			  card-ease-factor:: 2.8
+			  card-next-schedule:: 2023-11-28T02:56:46.741Z
+			  card-last-reviewed:: 2023-08-02T12:56:46.741Z
 			  card-last-score:: 5
 			  Then $\operatorname{Reg}_{\mathrm{M}( T_{1})}$ and $\operatorname{Reg}_{\mathrm{M}( T_{2})}$ are not isomorphic. #card
-				- 【Proof by restricting the group】
+				- Proof by restricting the action.
 				- If $\operatorname{Reg}_{\mathrm{M}( T_{2})}\simeq \operatorname{Reg}_{\mathrm{M}( T_{1})}$ , then $\operatorname{L}_{\mathrm{M}( T_{1})}\simeq \operatorname{L}_{\mathrm{M}( T_{2})}$
 				- By [Corollary 3](((caeeba62-511c-4014-abcc-0317e98b10e8))) , which is a contradiction.
 				-

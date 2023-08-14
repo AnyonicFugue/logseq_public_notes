@@ -1,16 +1,21 @@
-- Study obscure topological properties in an algebraic manner! #Thoughts
+- Study obscure topological properties in an algebraic manner! #Observations
   id:: 638d57a7-30e1-4243-8ec8-babe77af9cf8
 	- There seems to be something deeper inside. Galois theory -> Study field extensions by means of automorphism groups.
 - How to deal with commutative diagrams #card
   collapsed:: true
-	- No-go
-		- In general a path might **not** go (in the language of set theories, $x \notin \operatorname{Im}f$).
-		  Therefore 'reversing arrows and add $\operatorname{Ker}f$' is nontrivial.
-		-
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-09-08T18:55:07.128Z
+  card-last-reviewed:: 2023-08-08T12:55:07.129Z
+  card-last-score:: 5
+	- Reversing the arrow
+		- In general a path might **not** go, thus is should be verified $x \in \operatorname{Im}f$.
+			- For exact sequences, the latter step gives zero -> the former step could go.
+		- Add $\operatorname{Ker}f$.
 	- Paths can be freely deformed as long as they don't go backwards.
-	- If a path goes backwards somewhere (i.e. an arrow is reversed), then we must add 'up to $\operatorname{Ker} f$'.
+	-
 	- For complexes, going along the same direction for two steps would give zero (since composition of two maps along the same direction would give zero).
-	- For exact sequences, the latter step gives zero -> the former step could go.
 - # Intro of Rotman
   collapsed:: true
 	- Mapping cylinder #card
@@ -35,11 +40,11 @@
 			- Here obj $\mathscr{C}$ consists of all ordered pairs $\left(X, x_0\right)$, where $X$ is a topological space and $x_0$ is a point of $X$.
 			- $Top_*$ is a subcategory of Top ${ }^2$ (subspaces here are always one-point subspaces), and it is called the category of **pointed spaces**; $x_0$ is called the basepoint of $\left(X, x_0\right)$, and morphisms are called pointed maps (or basepoint preserving maps). The category ${Sets}_*$ of pointed sets is defined similarly.
 	- ((64113a62-8e58-494b-bade-e5ec6dff42e1)) (Brouwer fixed-point theorem) If $f: D^n \rightarrow D^n$ is continuous, then $f$ has a fixed point. #card
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-07T00:43:56.884Z
-	  card-last-reviewed:: 2023-04-07T00:43:56.885Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-09T22:33:52.808Z
+	  card-last-reviewed:: 2023-07-29T22:33:52.809Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- First we shall prove that there's no retract from $D^{n+1}$ to $S_n$.
@@ -71,6 +76,12 @@
 			- Theorem 2.1. If $\left\{X_j: j \in J\right\}$ is a family of convex (or affine) subsets of $\mathbf{R}^n$, then $\cap X_j$ is also convex (or affine).
 		- Affine (Convex) combination #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-27T19:24:41.966Z
+		  card-last-reviewed:: 2023-07-27T13:24:41.966Z
+		  card-last-score:: 5
 			- For a finite set of points $$p_0, p_1, \ldots, p_m$$, an affine combination is a single point
 			  collapsed:: true
 			  $$x=t_0 p_0+t_1 p_1+\cdots+t_m p_m$$
@@ -135,11 +146,11 @@
 				- Intuitively, this means how to obtain a point in the 'affine simplex' by the vertices.
 			- Barycenter #card
 			  collapsed:: true
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-07-18T07:23:24.419Z
-			  card-last-reviewed:: 2023-06-17T01:23:24.419Z
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-09-07T13:26:08.936Z
+			  card-last-reviewed:: 2023-07-27T13:26:08.936Z
 			  card-last-score:: 5
 				- If $\left\{p_0, \ldots, p_m\right\}$ is affine independent, the barycenter of $\left[p_0, \ldots, p_m\right]$ is $(1 / m+1)\left(p_0+p_1+\cdots+p_m\right)$.
 				- > Barycenter comes from the Greek *barys* meaning heavy; thus, barycenter is just "center of gravity"
@@ -189,11 +200,11 @@
 	  collapsed:: true
 		- ((642d8003-6824-4805-ba5e-7ce8cb5333e2)) The following conditions on an ordered set of points $\left\{p_0, p_1, \ldots, p_m\right\}$ in $\mathbf{R}^n$ are equivalent.
 		  id:: 642d8032-73a8-473d-8bc5-9da77152a596
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-26T00:56:34.208Z
-		  card-last-reviewed:: 2023-05-27T00:56:34.209Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-11T12:25:17.642Z
+		  card-last-reviewed:: 2023-07-31T12:25:17.642Z
 		  card-last-score:: 5
 		  (i) $\left\{p_0, p_1, \ldots, p_m\right\}$ is affine independent;
 		  (ii) if $\left\{s_0, s_1, \ldots, s_m\right\} \subset \mathbf{R}$ satisfies $\sum_{i=0}^m s_i p_i=0$ and $\sum_{i=0}^m s_i=0$, then $s_0=$ $s_1=\cdots=s_m=0$
@@ -218,8 +229,8 @@
 		- ((642f75cf-4934-42ad-9567-a1cb71c1b3a8))  Let $S$ denote the $n$-simplex $\left[p_0, \ldots, p_n\right]$.
 		  (i) If $u, v \in S$, then $\|u-v\| \leq \sup _i\left\|u-p_i\right\|$.
 		  (ii) $\operatorname{diam} S=\sup _{i, j}\left\|p_i-p_j\right\|$.
-		  (iii) If $b$ is the barycenter of $S$, then $\left\|b-p_i\right\| \leq(n / n+1)$ diam $S$. #card
-			-
+		  (iii) If $b$ is the barycenter of $S$, then $\left\|b-p_i\right\| \leq(n / n+1)$ diam $S$.
+			- Too obvious.
 	- ## [[Topological Group]]
 	  collapsed:: true
 		- Defs
@@ -228,14 +239,16 @@
 				- (i) the multiplication map $\mu: G \times G \rightarrow G$, given by $(x, y) \mapsto x y$, is continuous if $G \times G$ has the product topology;
 				- (ii) the inversion map $i: G \rightarrow G$, given by $x \mapsto x^{-1}$, is continuous.
 			- H-space #card
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-07-07T07:34:28.278Z
-			  card-last-reviewed:: 2023-06-06T01:34:28.278Z
-			  card-last-score:: 5
-				- A pointed topological space $\left(X, x_0\right)$ with a pointed map $m:\left(X \times X,\left(x_0, x_0\right)\right) \rightarrow\left(X, x_0\right)$ such that each of the (necessarily pointed) maps $m\left(x_0, -\right)$ and $m\left(-, x_0\right)$ on $\left(X, x_0\right)$ is homotopic to $1_X \operatorname{rel}\left\{x_0\right\}$. One calls $x_0$ a homotopy identity.
-				- Intuitively, $m$ is the multiplication and $x_0$ is the identity.
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.46
+			  card-next-schedule:: 2023-09-13T12:44:21.672Z
+			  card-last-reviewed:: 2023-08-02T12:44:21.673Z
+			  card-last-score:: 3
+				- A pointed topological space $\left(X, x_0\right)$ with a pointed map $m:\left(X \times X,\left(x_0, x_0\right)\right) \rightarrow\left(X, x_0\right)$ such that each of the (necessarily pointed) maps $m\left(x_0, -\right)$ and $m\left(-, x_0\right)$ on $\left(X, x_0\right)$ is homotopic to $1_X \operatorname{rel}\left\{x_0\right\}$. One calls $x_0$ a **homotopy identity**.
+				- Intuition
+					- $m$ is the multiplication and $x_0$ is the identity.
+					- The homotopy condition is stranger. It seems to say that multiplying by identity changes the shape in a continuous way.
 				- Examples
 					- Topological group: Multiplication as $m$ and identity as $x_0$
 		- ((6438b025-e90b-490e-a4a5-ce7f210be871)) If $(X,x_0)$ is an H-space, then $\pi_1(X,x_0)$ is abelian. #card
@@ -332,11 +345,11 @@
 			  card-last-score:: 5
 				- A space $X$ is contractible if $1_X$ is nullhomotopic.
 			- Identification #card
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-07-19T07:16:26.686Z
-			  card-last-reviewed:: 2023-06-18T01:16:26.687Z
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-09-24T12:31:18.466Z
+			  card-last-reviewed:: 2023-08-13T12:31:18.466Z
 			  card-last-score:: 5
 				- A continuous surjection $f: X \rightarrow Y$ is an identification if a subset $U$ of $Y$ is open if and only if $f^{-1}(U)$ is open in $X$.
 					- ‘The finest topology', i.e. the maximal set of possible open subsets.
@@ -380,17 +393,23 @@
 		  ((6427a564-e84e-4a24-b545-824c745dc62f)) #card
 			- An easy exercise, but it's worthwhile to ponder the meaning in categories!
 		- ((6427effd-8884-4ae1-9041-60e508559560)) For every space $X$, the cone $CX$ is contractible. #card
-		  card-last-interval:: 25.01
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-28T00:44:01.320Z
-		  card-last-reviewed:: 2023-04-03T00:44:01.320Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-13T12:45:50.014Z
+		  card-last-reviewed:: 2023-08-02T12:45:50.014Z
 		  card-last-score:: 5
 			- Geometrically, shrink (scale) the whole cone to the top point.
 			- Exercise: Construct the map and show it is continuous.
 		- ((6427f09b-7a0d-4fff-9b5a-17c5f0084aca)) A space $X$ has the same homotopy type as a point if and only if $X$ is contractible. #card
 			- Verify the definition.
 		- ((6427f13b-04bb-41d0-b06b-f35e68b40624)) If $Y$ is contractible, then any two maps $X \rightarrow Y$ are homotopic (indeed they are nullhomotopic). #card
+		  card-last-interval:: 29.9
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-01T09:51:12.443Z
+		  card-last-reviewed:: 2023-08-02T12:51:12.444Z
+		  card-last-score:: 5
 			- Invoke the lemma that homotopy is preserved under composition.
 			-
 - # [[Singular Homology]]
@@ -408,11 +427,11 @@
 	- ((638d5522-85b2-4c12-bca3-62846d934042)) If $A$ is a retract of $X$, then the homomorphism of fundamental groups induced by inclusion $j: A \rightarrow X$ is injective.
 	  collapsed:: true
 		- Intuition #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-01-30T06:04:06.831Z
-		  card-last-reviewed:: 2023-01-06T06:04:06.832Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-12-03T02:52:20.346Z
+		  card-last-reviewed:: 2023-08-07T12:52:20.347Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- X and A are 'homeomorphic in A'. Thus, homotopic in X <-> homotopic in A.
@@ -545,9 +564,9 @@
 	  card-last-score:: 5
 		- A very interesting trick: Construct a vector field $v(x)=f(x)-x$ by embedding $B^2$ into $R^2$.
 		- There should be something deeper inside this trick.
-		- Embed the object (A topological object in this case) into something with better structures. #[[Thoughts/Math and Physics]]
+		- Embed the object (A topological object in this case) into something with better structures. #[[Observations/Math and Physics]]
 		  id:: 63c14161-9b19-4985-b2d6-1b13391e194a
-		- Extra structures may provide extra insights. The  properties of the object itself restricts the possible structures. #[[Thoughts/Math and Physics]]
+		- Extra structures may provide extra insights. The  properties of the object itself restricts the possible structures. #[[Observations/Math and Physics]]
 		  collapsed:: true
 			- Recall inner product in linear algebra.
 		-
@@ -576,7 +595,7 @@
 	  collapsed:: true
 		- *Review the thought in this card. No need to memorize all details.
 		  collapsed:: true
-			- Deformation provides much information. #[[Thoughts/Math and Physics]]
+			- Deformation provides much information. #[[Observations/Math and Physics]]
 			  id:: 63c14161-1549-4b29-b6b3-84321340d574
 		- We first deal with the special case that $x^n+a_{n-1} x^{n-1}+\cdots+a_1 x+a_0=0$ where $\left|a_{n-1}\right|+\cdots+\left|a_1\right|+\left|a_0\right|<1$. The general case can be obtained by 'rescaling' the variable.
 		  collapsed:: true

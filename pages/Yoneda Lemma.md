@@ -13,11 +13,11 @@
 	  Moreover, this correspondence is natural in both $c$ and $F$.
 	- It also tells us that if $F(c_1)$ is not isomorphic to $F(c_2)$, then the functors represented by $c_1$ and $c_2$ must be inequivalent.
 - Proof #card
-  card-last-interval:: 30
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-06-06T00:35:55.787Z
-  card-last-reviewed:: 2023-05-07T00:35:55.788Z
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-09-12T13:05:51.090Z
+  card-last-reviewed:: 2023-08-01T13:05:51.091Z
   card-last-score:: 5
 	- We should explicitly construct the correspondence, then verify it is both injective and surjective.
 		- Denote it by $J:\operatorname{Nat}(\mathrm{Hom}_\mathrm{C}(c,-), F) \to F c$.
@@ -29,11 +29,11 @@
 		- $\alpha_x$ can be constructed as above. What remains is to verify that it is indeed a natural transformation.
 		- It follows by the functoriality of $F$.
 - # Corollaries
-	- card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-24T11:24:15.755Z
-	  card-last-reviewed:: 2023-04-24T11:24:15.757Z
+	- card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-18T13:02:56.872Z
+	  card-last-reviewed:: 2023-08-07T13:02:56.872Z
 	  card-last-score:: 5
 	  $$
 	  \operatorname{Nat}(\mathrm{Hom}_\mathcal{C}(c,-), \mathrm{Hom}_{\mathcal{C}}(d,-)) \cong \mathrm{Hom}_{\mathcal{C}}(d,c)

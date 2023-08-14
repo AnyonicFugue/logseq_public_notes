@@ -21,7 +21,7 @@ alias:: QM
 		-
 		- Remark: Equivalent to projective measurements with an auxiliary system. [TODO: prove it.]
 	-
-- # [[Second Quantization]]
+- # [[Identical Particles]]
 - # Perturbation Theory
   id:: 644730bc-03b5-48b5-a75e-c31bdf1e5919
 	- ## Time-Independent

@@ -18,7 +18,7 @@
 		  $$
 		  \left|\psi_n(t)\right\rangle=e^{-i \varepsilon_n t / \hbar}\left|\Phi_n(t)\right\rangle, \quad\left|\Phi_n(t+T)\right\rangle=\left|\Phi_n(t)\right\rangle
 		  $$
-			- Separate the time-dependence. #Trick
+			- Separate the time-dependence. #Techniques
 		- Fourier transformations
 			- $$
 			  \left|\Phi_n(t)\right\rangle=\sum_m e^{-i m \omega t}\left|\phi_n^{(m)}\right\rangle
@@ -43,6 +43,12 @@
 	- ## Floquet Theorem and Effective Hamiltonian
 		- Floquet Theorem. There is an orthonomal basis of 'Floquet states', $\left\{\left|\psi_n(t)\right\rangle\right\}$, which satisfy $\left|\psi_n(t+T)\right\rangle=e^{-i \varepsilon_n T / \hbar}\left|\psi_n(t)\right\rangle$. #card
 		  collapsed:: true
+		  card-last-interval:: 33.94
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-12T11:00:31.627Z
+		  card-last-reviewed:: 2023-08-09T13:00:31.628Z
+		  card-last-score:: 5
 			- The parameter $\varepsilon_n$ is the **quasi-energy** of Floquet state $\left|\psi_n(t)\right\rangle$.
 			- Proof
 				- Consider the evolution operator
@@ -154,6 +160,12 @@
 			- Remarks
 				- Thus in the extended space, each physical solution is encoded infinite times.
 				- The redundancy is **expected** from the definition $$\left|\psi_n(t+T)\right\rangle=e^{-i \varepsilon_n T / \hbar}\left|\psi_n(t)\right\rangle$$. #card
+				  card-last-interval:: 31.26
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-09-06T18:30:50.546Z
+				  card-last-reviewed:: 2023-08-06T12:30:50.547Z
+				  card-last-score:: 5
 					- First, be sensitive to the redundancy in $e^{i\theta}$! 
 					  We are expected to find a correspondence to the redundancy later. If not, we should ask why in turn.
 					- Generally, ((64565059-ba36-4bfd-8fa8-516fa601aab3))

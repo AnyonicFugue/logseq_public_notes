@@ -33,7 +33,7 @@ alias:: Gauge Theory
 	  card-last-reviewed:: 2023-06-01T01:41:00.087Z
 	  card-last-score:: 5
 		- Very simple exercise.
-		- Abstraction leads to the underlying structure, which points to the path. #[[Thoughts/Math and Physics]]
+		- Abstraction leads to the underlying structure, which points to the path. #[[Observations/Math and Physics]]
 	- Thus we can select a basis where $D^{ab}=C(r) \delta^{a b}$, then $f^{a b c}=-\frac{i}{C(r)} \operatorname{tr}\left\{\left[t_r^a, t_r^b\right] t_r^c\right\}$
 		- It is completely antisymmetric.
 	- ## Some reps
@@ -97,49 +97,29 @@ alias:: Gauge Theory
 	- See [here](((64115d22-ffe4-4ee4-8a05-79bbe0f520f2))).
 	- ## Def
 		- Curvature $F^{\mu\nu}$ #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-29T18:27:55.295Z
+		  card-last-reviewed:: 2023-07-29T12:27:55.295Z
+		  card-last-score:: 5
 			- $$[D_\mu,D_\nu]=(- ig) F_{\mu\nu}=(- i g)\left\{\partial_\mu A_\nu-\partial_\nu A_\mu -( i g )[A_\mu, A_\nu]\right\}$$
 			- The last term arises from the fact that the theory is non-abelian.
 		- Covariant derivative
 			- $D_\mu=\partial_\mu-i g A_\mu$
-	- ## Wilson Line
-		- $$
-		  U_P(z, y)=P\left\{\exp \left[i g \int_0^1 d s \frac{d x^\mu}{d s} A_\mu^a(x(s)) t^a\right]\right\}
-		  $$
-			- Exercise. Show that it indeed transforms as $U_P\left(z, y, A^V\right)=V(z) U_P(z, y, A) V^{\dagger}(y)$, where $A^V$ is the field after gauge transformation. #card
-			  card-last-interval:: 30
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-06-16T01:16:14.128Z
-			  card-last-reviewed:: 2023-05-17T01:16:14.131Z
-			  card-last-score:: 5
-				- Hint: ((640ad127-cc23-464b-b796-fb5a07f8049a))
-				-
-		- Wilson loop #card
-		  card-last-interval:: 27.15
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-16T04:28:29.777Z
-		  card-last-reviewed:: 2023-03-20T01:28:29.778Z
-		  card-last-score:: 5
-			- In the nonabelian case, $U(x,x)$ is not gauge-invariant.
-			  So we define $\operatorname{tr} U_P(x, x)$ as the **Wilson loop**.
-				-
-		- Notes
-			- $P$ is the path-ordering operator. It is introduced since different generators might be non-commutative.
-				- Later matrices (greater values of the parameter) is on the left side.
-			- The quantity is path-dependent (due to the prescence of curvature)
-			- If $x=y$ it is called a Wilson loop in the abelian case.
-				- Use [[Stokes Theorem]], 
-				  $$
-				  U_P(y, y):=\exp \left[-i e \oint_P d x^\mu A_\mu(x)\right]=\exp \left[-i \frac{e}{2} \int_{\Sigma} d \sigma^{\mu \nu} F_{\mu \nu}\right]
-				  $$
-					- That is, the total amount of holonomy is equal to the flux on the surface.
-		-
 	- ## Transformation Rules #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-25T19:00:50.658Z
+	  card-last-reviewed:: 2023-07-25T13:00:50.658Z
+	  card-last-score:: 5
 		- Spinor field
 			- $$\psi \to V(x)\psi$$
 		- Wilson line
-			- $$U(y,x)\to V(y)U(y,x)V^\dag(x)$$
+			- id:: 64b4848f-9d1a-44f4-a9c4-9187e12d1c27
+			  $$U(y,x)\to V(y)U(y,x)V^\dag(x)$$
+			- The parallel transport changes in a manner consistent with fields.
 		- Vector field (Connection)
 			- $$A_{\mu } (x)\rightarrow V(x)\left( A_{\mu } (x)+\frac{i}{g} \partial _{\mu }\right) V^{\dagger } (x)$$
 				- This can be derived from the transformation rule of the Wilson line.
@@ -152,11 +132,11 @@ alias:: Gauge Theory
 		- Expansion by generators
 			- $A_\mu := A^a_\mu T_a$
 		- Derive transformation rules from the Wilson line $U(y,x)\to V(y)U(y,x)V^\dag(x)$ #card
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-15T00:33:59.283Z
-		  card-last-reviewed:: 2023-05-16T00:33:59.283Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-09T22:36:19.104Z
+		  card-last-reviewed:: 2023-07-29T22:36:19.105Z
 		  card-last-score:: 5
 			- **Note that all can find analogy in electromagnetism, so check it when feeling unsure about the defs.**
 			- The vector field can be derived from $$U_P(z, y)=P\left\{\exp \left[i g \int_0^1 d s \frac{d x^\mu}{d s} A_\mu^a(x(s)) t^a\right]\right\}$$
@@ -166,11 +146,11 @@ alias:: Gauge Theory
 		- For path integral of gauge theories, we need to integrate over many equivalent configurations (related by gauge transformations).
 		- We hope to fix the gauge degrees of freedom and integrate over the physical ones.
 	- Result #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-02T07:54:49.326Z
-	  card-last-reviewed:: 2023-06-01T01:54:49.327Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-16T13:07:54.127Z
+	  card-last-reviewed:: 2023-08-05T13:07:54.127Z
 	  card-last-score:: 5
 		- $$
 		  Z=\int[D A]\left[D C_a\right]\left[D \bar{C}_a\right] e^{i S_{e f f}[A, C, \bar{C}]}

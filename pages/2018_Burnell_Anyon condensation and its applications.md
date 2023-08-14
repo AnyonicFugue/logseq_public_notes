@@ -72,11 +72,11 @@ type:: paper_reading
 					- Very interesting. Individually gappable?
 				- It is believed that 'legitimate CFT' -> partition functions invariant under modular transformations
 		- Conclusion #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-05-04T11:36:20.027Z
-		  card-last-reviewed:: 2023-04-04T11:36:20.027Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-12-07T02:57:41.758Z
+		  card-last-reviewed:: 2023-08-11T12:57:41.758Z
 		  card-last-score:: 5
 			- ((63dc62f4-12d5-4fcf-8046-9e5aed8894fa)), then the Hamiltonian models with gapped boundaries can be explicitly constructed. Thus gappable.
 			  id:: 63dc6611-b249-4a6b-9d84-61424d5eb2b0

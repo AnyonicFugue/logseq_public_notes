@@ -13,7 +13,7 @@
 		- It suffices to consider connected X.
 		- The open sets must intersect to cover X. Moreover, the intersection can't be infinitely small.
 	- Proof
-		- Construct a function $f(x)=\frac{1}{n} \sum_{i=1}^n d\left(x, C_i\right)$, where $C_i=X-O_i$. #Trick
+		- Construct a function $f(x)=\frac{1}{n} \sum_{i=1}^n d\left(x, C_i\right)$, where $C_i=X-O_i$. #Techniques
 			- i.e. The distance to the boundary.
 			- The trick of constructing a function is remarkable
 		- Since $x$ is in some $O_i$, the distance must be greater than zero.

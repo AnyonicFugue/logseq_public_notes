@@ -7,17 +7,37 @@
   :LOGBOOK:
   CLOCK: [2022-12-23 Fri 16:47:12]
   :END:
-- Sources of refs
+- # Questions #card
   collapsed:: true
-	- ((63686777-c7eb-4f87-b83e-703f76ae06da))
-	-
-	- ((63686919-d1c8-41a8-b510-6f8b7290eb66)) Lots of refs about 3D toric code
-	- This block is to be dissembled. #TODO
-- # Thoughts and Problems
-	- Topo orders are necessarily ^^emergent^^, while symmetries are usually **manifest** in the Hamiltonian for the symmetry breaking orders.
-	- Why can we obtain lots of properties from topological excitations? Any **geometrical** reason?
-		- S and T matrix may be linked with anyon knots on the torus
-		- ((63c2532f-fd97-4a25-86ac-27fc600589ee)) by annulus diagrams
+	- What is a direct sum?
+	  collapsed:: true
+		- Kitaev gives an argument ((64b2f056-5e56-4869-b5a3-71deffe4e403)): They are locally identical but globally distinguishable by transporting a quasiparticle.
+		- What's the difference of non-abelian fusion outcomes and different GS of toric code?
+		  collapsed:: true
+			- Kitaev says [here](((64b2f114-c11e-4775-8755-7d6c6b967ffb))) that states belonging to the same supersector (i.e. overall fusion outcome) **can** form superposition, while different supersectors **cannot**.
+		-
+	- Why tensor categories (even UMTC) give a classification?
+	  collapsed:: true
+		- Compare to the situation in QM
+		  collapsed:: true
+			- We don't know why linear algebra describes QM, but itself is the first principle.
+			- Here we already have the first principles!
+		- Conjecture. It must emerge from some underlying structure describing entanglement.
+	- What's the role of gap?
+	  collapsed:: true
+		- Refs
+			- The role in gappability to construct 1D MPS.
+		- Gappability seems to be essential.
+	- What is a domain wall?
+	  id:: 63d5c149-999b-4801-a5b5-c1a336013042
+	  collapsed:: true
+		- For a neat model (eg. Toric code, Levin-Wen), we may easily tell whether there is a domain wall somewhere in the model.
+		- But how can we do so for a messy model, which might be obtained by a local deformation of the neat one?
+		- This traces back to the fundamental question: ^^What is a domain wall? How to tell it from a messy system?^^
+			- Clues
+				- [[Anyon Condensation]]: Domain walls and confined anyons
+			- It is legitimate to say 'a trivial domain wall'. But we can't say any line IS a domain wall, eg. trivial+exchange
+				-
 	- Significance of Topo order #card
 	  card-last-interval:: 252.3
 	  card-repeats:: 4
@@ -25,29 +45,17 @@
 	  card-next-schedule:: 2023-12-21T18:38:38.300Z
 	  card-last-reviewed:: 2023-04-13T11:38:38.300Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- We encounter **long-range entanglement** for the first time, which is extremely important.
 		- ((636864d8-05a7-440a-8fb4-0aa262aa340d))
 		- ((63686518-f1bb-44e9-9fe3-a36d3e68b9c8))
 		- ((63686663-a0be-4c76-a689-e4cf37982a71))
+		  collapsed:: true
 			- ((636866b4-a674-47ef-bc02-ec464e6209d0))
 		-
-	- What's the difference between the description by [[UMTC]] and [[2-category]]? #[[Open Problem]]
-		- ((63aa62d4-a830-4de1-9845-879ed6ed65a1))
-	- How to classify? Why [[Category]] gives a complete classification? #card
-	  card-last-interval:: 55.68
-	  card-repeats:: 3
-	  card-ease-factor:: 2.32
-	  card-next-schedule:: 2023-04-03T16:42:27.207Z
-	  card-last-reviewed:: 2023-02-07T00:42:27.207Z
-	  card-last-score:: 5
-		- We've faced analogues problems before, eg. why linear algebra describes quantum mechanics.
-		- But we already have the [[First Principle]] for topological orders, that is, underlying lattice models and quantum mechanics. Then we must prove, or at least argue, that the categorical way is equivalent to the old way.
-		- Moreover, we shall demonstrate that the categorical way is better. Equivalently, why [[Set Theory]] doesn't serve?
-		- Is it related to some deeper structure of quantum entanglement?
+- # Problems
 	- Why we usually define the lattices by commuting pairs of projectors ($A_s,B_p$)?
 		- Tentative: Topo orders are robust against local perturbations. So we may deform them in some ways; the form of commuting pairs are the simplest.
-	- FQH states only have gapless boundaries; string-net models can only give rise to models with gappable boundaries.
-		- What's the role of gap? #[[Open problem]]
 - # Definitions
 	- [[Topological skeleton]]
 	- [[Stacking]]
@@ -77,14 +85,22 @@
 	- [[Topological excitation]]
 	  id:: 636879d9-dfe3-4bdd-a078-587cc9c25350
 	- [[Chiral central charge]]
+	- Phase Transitions #card
+		- Spatial
+			- 'Domain walls'
+			- Not well-defined yet!
+		- Parameterized
+			- At the critical point, there would be a gapless phase / unstable / change of GSD / non-liquid, etc.
 - # Topics
-	- Definition of topological order
+	- Definition of topological order #card
+	  collapsed:: true
 		- From long-range entanglement
 			- Topo orders are equivalent classes defined by local transformations (which don't close the energy gap).
 			- The trivial topo order is the class of product states.
 		- From topological robustness
-			- ((63c20bfd-1509-47fb-814a-aa10e153f50c))
-				- Where O is any local operator.
+			- Topological orders are stable gapped quantum liquid phases.
+			- Defects of the definition
+				- Hard to treat anyons and domain walls.
 		-
 	- Counting ground state degeneracy
 	  collapsed:: true
@@ -95,11 +111,42 @@
 					- Dim $V\left(T^2\right)=$ Number of particle types
 				- ![image.png](../assets/image_1672196573635_0.png)
 					- Dim V{Two handled torus}=$\sum_{a b c} N_{a b c} N_{\bar{a} \bar{b} \bar{c}}$
-	- [[Unique bulk principle]]
+	- The Local Operator Algebra
+	  collapsed:: true
+		- ((636ca9a0-3d78-4d74-bf19-0504b917f271))
+		  collapsed:: true
+			- ((636caaa6-7f7c-4d23-ae6d-9315b924fe8c))
+				- ((636df841-1a73-490b-b95f-0a4071066f96))
+			- Note: 'Generate' means generate the whole algebra by multiplication, scalar product and addition. Equivalent to 4 basis elements of a vector space.
+			- ((636df84e-113e-4681-8261-8c549b217a8d)) #Learning-TODO
+				- ((636df97b-42a9-44c3-91b2-e22aa340f793))
+			- The site seem to have 2 spins, which has 4-dim space.  The space of 4x4 hermitian matrices shall be 16-dim. Inconsistent? #Inbox/Problem
+				- What precisely are the 'local operators'?
+					- One answer: Within a fixed range when taking the thermodynamic limit.
+					- In lattice models, 'local' only means 'within a bounded range when taking the [[Thermodynamic limit]]. #card
+					  id:: 63b29124-d69c-46e4-9973-32fc95c2ecad
+					  card-last-interval:: 30
+					  card-repeats:: 2
+					  card-ease-factor:: 2.7
+					  card-next-schedule:: 2023-05-10T11:15:11.272Z
+					  card-last-reviewed:: 2023-04-10T11:15:11.272Z
+					  card-last-score:: 5
+						- Reminder.
+						  id:: 63b29145-b0cb-4cd9-b852-74f02bc8226d
+			-
+		-
+	- Bulk-Boundary Relations
+	  collapsed:: true
+		- [[Unique bulk principle]]
+		- [[Anomaly]]
 	- Classification in 2D
 	  collapsed:: true
 		- ((63bcd3f2-5cd3-4ab9-bfec-f909808c2e7e))
 		- ((63bcd458-8a1e-4707-a470-7228541bc2bb))
+	- ## Field-Theory Topological Order: Discrete or Continuous?
+		- TPS is a very strong tool, hugely successful in lattice systems.
+			- A hint that lattice models at least have some points.
+			- Do we have a counterpart of TPS in field-theory topological order? #card
 	- ## Topo orders in low dimensions & Boundary and Domain Wall
 	  collapsed:: true
 		- ### 0D and 1D
@@ -475,12 +522,12 @@
 					- In principle there are also others, but may be dealt with by the folding trick and stacking?
 						- Seems some info are lost. For example, we no longer know whether a wall is invertible. #Inbox/Problem
 			- ((63a95644-d8a1-4133-ae26-4a0cff407548)) #card
-			  card-last-interval:: 76.8
-			  card-repeats:: 3
-			  card-ease-factor:: 2.56
-			  card-next-schedule:: 2023-06-26T06:24:08.912Z
-			  card-last-reviewed:: 2023-04-10T11:24:08.912Z
-			  card-last-score:: 5
+			  card-last-interval:: 245.97
+			  card-repeats:: 4
+			  card-ease-factor:: 2.42
+			  card-next-schedule:: 2024-04-04T11:55:01.852Z
+			  card-last-reviewed:: 2023-08-02T12:55:01.852Z
+			  card-last-score:: 3
 				- Reminder. Strange argument; maybe try to understand in the future...
 				- ((63a95652-7730-40fb-b3aa-bbbbff2241be))
 			-
@@ -489,16 +536,14 @@
 			  collapsed:: true
 				- ((63a80208-ad1f-4c9f-b9a4-f414b8d59157))
 		-
-		- [[Topological order in 3D]]
+		- [[3D Topological Order]]
 		-
-	- ## Towards higher dimensions
+	- ## SET and SPT
 	  collapsed:: true
-		- The theory in (3+1)D, even the mathematics needed, are yet to be developed.
-			- It is well known that 3D is the most difficult case (Poincare conjecture, tiling problem, quantum gravity, eg). Can we start from higher dimensions first? #[[Thoughts/Math and Physics]]
-			  id:: 63c14170-dfdd-46ca-9d12-60ac7cc181f2
-			- But (3+1)D would be a subproblem of higher dimensions. For example, boundaries of (4+1)D are (3+1)D.
-				- Can we overcome the difficulty?
-	- [[Principle of Emergence]]
+		- [[Symmetry Protected Topological Order]]
+		- [[Symmetry Enriched Topological Order]]
+	- ## [[Principle of Emergence]]
+	  collapsed:: true
 		- It is simply astounding that fermionic and anyonic, even abelian, statistics can arise from purely bosonic systems! #card
 		  card-last-interval:: 30
 		  card-repeats:: 2
@@ -507,13 +552,52 @@
 		  card-last-reviewed:: 2023-05-12T00:29:31.211Z
 		  card-last-score:: 5
 			- This strongly suggests that the [[Elementary Particles]] might be emergent.
-	- ## Experimental Realizations
-		- It is a big problem.
-		- The good thing is that it doesn't seem to require a large accelerator.
-	- ### SET and SPT
-		- [[Symmetry Protected Topological Order]]
-		- [[Symmetry Enriched Topological Order]]
+	- ## Towards higher dimensions
+	  collapsed:: true
+		- The theory in (3+1)D, even the mathematics needed, are yet to be developed.
+			- It is well known that 3D is the most difficult case (Poincare conjecture, tiling problem, quantum gravity, eg). Can we start from higher dimensions first? #[[Observations/Math and Physics]]
+			  id:: 63c14170-dfdd-46ca-9d12-60ac7cc181f2
+			- But (3+1)D would be a subproblem of higher dimensions. For example, boundaries of (4+1)D are (3+1)D.
+				- Can we overcome the difficulty?
+		- ((63ba3043-2dc8-461c-bef1-dab20f2474c5))
+	-
+	- ## Numerical Methods
+		- [[Wavefunction Renormalization]]
+	- ## Experimental Realizations and Preparations
+	  collapsed:: true
+		- Prepare via [[Measurement]]
+			- Idea
+				- If we just use unitary gates, the spreading of information (entanglement) is limited by the [[Lieb-Robinson Bound]].
+					- Therefore if we apply unitaries to an SRE to prepare an LRE, the preparation needs exponential time.
+				- However, if we introduce measurements and feedback (which are not unitary), we can achieve it much faster.
+			- Example. Prepare the ground state of toric code #card
+			  card-last-interval:: 32.57
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-09-12T01:27:06.014Z
+			  card-last-reviewed:: 2023-08-10T12:27:06.014Z
+			  card-last-score:: 5
+				- Tensor network viewpoint
+					- Lattice
+						- Two qubits on each edge
+					- First prepare 4-qubit GHZ states on each lattice.
+					- Then measure all $ZZ$ on adjacent vertices.
+						- If the outcome is +1, then the edge becomes one effective spin.
+						- If the outcome is -1 we need to apply $XXXX$ to flip spins on one vertex (and those having the same spin with it)
+				- Topological viewpoint
+					- DOF both on edges and vertices
+					- Prepare a superposition of all string configurations
+					  logseq.order-list-type:: number
+					- Make vertices equal boundary of strings by LU
+					  logseq.order-list-type:: number
+					- Measure all vertices
+					  logseq.order-list-type:: number
+					- Correct the boundaries
+					  logseq.order-list-type:: number
+					- logseq.order-list-type:: number
+			- See ![2022_Lu_Lessa et al_Measurement as a shortcut to long-range entangled.pdf](file://zotero_link/Research/Quantum Matters/2022_Lu_Lessa et al_Measurement as a shortcut to long-range entangled.pdf).
 - # Models
+  collapsed:: true
 	- [[Toric Code]]
 	  id:: 63687824-ea47-4b9b-89b5-c959a050e0dd
 	- [[Quantum Double]]
@@ -522,47 +606,9 @@
 	- ((439b4d01-7181-4a96-a2ff-3f02ac2fd59d))
 		- $Z_2$ and semion, spin and statistics
 	-
-- # Topological Orders in Higher Dimensions
-	- ((63ba3043-2dc8-461c-bef1-dab20f2474c5))
+-
 - # Misc
 	- ((63bcd07b-ca0f-4a0f-b3bd-5670de622748)) of topo orders
-	- Integrate local [[Observable]] to obtain global ones, [[Factorization Homology]]
-		- ((63ba270d-1704-41a3-bf9f-8acc7184b7ab))
-	- ((63687640-14d2-4c02-9c1f-9105886be788))
-	- ((63687736-6cdf-4c0d-8207-b7f65aeacdac))
-	- ((636ca87c-afe8-4cef-ad11-81c8a217dea7))
-	  card-last-interval:: 61.44
-	  card-repeats:: 3
-	  card-ease-factor:: 2.56
-	  card-next-schedule:: 2023-03-08T16:03:17.490Z
-	  card-last-reviewed:: 2023-01-06T06:03:17.491Z
-	  card-last-score:: 5
-	  collapsed:: true
-	   #card
-		- In plain English, an excitation is an invariant subspace of the local operators, thus also an [[Representation Theory]] of the algebra.
-		- Here local operators shall be **Hermitian measurement operators**, not unitary evolution operators.
-			- 'Topological' means 'invariant under deformations', i.e. invariant under observations at low-T limit.
-		-
-		- ((636ca9a0-3d78-4d74-bf19-0504b917f271))
-			- ((636caaa6-7f7c-4d23-ae6d-9315b924fe8c))
-				- ((636df841-1a73-490b-b95f-0a4071066f96))
-			- Note: 'Generate' means generate the whole algebra by multiplication, scalar product and addition. Equivalent to 4 basis elements of a vector space.
-			- ((636df84e-113e-4681-8261-8c549b217a8d)) #Learning-TODO
-				- ((636df97b-42a9-44c3-91b2-e22aa340f793))
-			- The site seem to have 2 spins, which has 4-dim space.  The space of 4x4 hermitian matrices shall be 16-dim. Inconsistent? #Inbox/Problem
-				- What precisely are the 'local operators'?
-					- One answer: Within a fixed range when taking the thermodynamic limit.
-					- In lattice models, 'local' only means 'within a bounded range when taking the [[Thermodynamic limit]]. #card
-					  id:: 63b29124-d69c-46e4-9973-32fc95c2ecad
-					  card-last-interval:: 30
-					  card-repeats:: 2
-					  card-ease-factor:: 2.7
-					  card-next-schedule:: 2023-05-10T11:15:11.272Z
-					  card-last-reviewed:: 2023-04-10T11:15:11.272Z
-					  card-last-score:: 5
-						- Reminder.
-						  id:: 63b29145-b0cb-4cd9-b852-74f02bc8226d
-		-
 	- ((6371bad0-7623-4962-ab25-284cd68ea2e2))
 	-
 	- ((6371bb70-cf32-459d-a497-3a6ea2a07887))
@@ -598,38 +644,14 @@
 	  collapsed:: true
 		- The spectrum of the Hamiltonian only concerns thermodynamics.
 		  id:: 63c14170-af8d-4b8f-a93a-f4062f8d89e3
-		  A lot more is hidden in the eigenstates. #Thoughts
+		  A lot more is hidden in the eigenstates. #Observations
 		-
 		- Theorem. Local excitation ⇒ Trivial braidings
+		  collapsed:: true
 			- Braiding is nonlocal, i.e. Homotopy invariant.
 			- x can be created by some local $\hat O$, which commutes with the braiding(because of locality).
 			- Thus: Braid x with y ⇔ Create x, then braid with y ⇔ Braid y with vacuum, then create x(commutativity)
 		-
-		- 3D [[Toric Code]]
-			- $H=-\sum_v A_v-\Sigma_p B_p$ 
-			  $$\begin{array}{ll}
-			  A_\nu:=\prod_{\partial v} \sigma_i^x & (4 个) \\
-			  B_p:=\prod_{\partial p} \sigma_j^z & \text { (2个) }
-			  \end{array}$$
-			- Counting ground states
-				- Traditional way: Counting constraints
-					- Number of equations: $3L^3\ A_v=1$, $L^3 \ B_p=1$
-					- ![](local://C:/Users/10309/remnote/remnote-624a8cdd2a47080035c9f8d6/files/CEn7zJX5XfJA27CnSJ2AkCdIo9MmPdAOAzig5Xkl79VQP6pIHFhNvSEc3bP1-2CtjGEZsRiwTg4-Nn2a35evZHqV7tMV5UH0He-SxmrociMGsdPPIAi8lUCwICv-4T1A.png)
-					- $GSD=2^{3L^3-(3L^3+L^3)-1-(L^3-1)-3}=8$
-				- Topological way
-					- The fundamental group of our $T^3$ seems to be $Z_2\times Z_2 \times Z_2$. So the degeneracy is 8.
-			- Excitations
-				- $A_v=-1$. The familiar 'excitations at the end of a string'. 0D.
-				- $B_p=-1$. **Very interesting!**
-					- Since we have the constraint ![](local://C:/Users/10309/remnote/remnote-624a8cdd2a47080035c9f8d6/files/F0MvG3ZiZNhF_ns7FphtzcekdkJRwXPUG6vIbm6ttOxaerbNkeMkpfPnYZ6lfYL1lZREMaR5D3yscn7e_b6yGLNjHKWj634PnaXTK60bllte1_GZpbMikfQ7fvmDzh5O.png) 
-					  each unit cell must have an even number of flips.
-					- **String-like excitation! 1-dimensional!**
-					-
-					- *The structure is much more complicated then 2D TC, since {{strings may be }}{{**knotted**}}**.**
-						- In other words, the excitations can have nontrivial **topology. **** **is topology in the spacetime, while 3D TC can have nontrivial **spatial** topology.
-			- Braiding
-				- Familiar: Particle-Loop, Loop-Loop
-				- Exercise. The braiding is homotopy invariant.
 	-
 	- Gu
 		- Two basic classes of intrinsic topological phases
@@ -646,9 +668,9 @@
 			- Physicists developed all sorts of dirty tricks: EFT, Duality, Tensor network, DMRG, ...
 			  But they only provide some unrigorous approximations.
 		- It seems evident that [[Quantum Gravity]] is a many body problem, perhaps even strongly-interacting. But with current scarce understanding we aren't likely to do much.
-		- **Fundamental problem:** Is there a 'new calculus' for (strongly-interacting) quantum many body systems? #Thoughts
+		- **Fundamental problem:** Is there a 'new calculus' for (strongly-interacting) quantum many body systems? #Observations
 		- Topological orders are the **simplest** quantum phases. So we expect to learn something from studying them.
-		- Absence of geometry #Thoughts
+		- Absence of geometry #Observations
 		  id:: 63c14170-6f75-4a38-a5e5-c30183939276
 			- To Einstein, gravity is geometry.
 			- We may expect [[Quantum Gravity]] to be geometrical in some ways.
@@ -659,7 +681,7 @@
 			- But first of all, **what is geometry?**
 				- Kong: providing some sort of visualization or intuition. (Like ?)
 		-
-		- More is different. Infinite more is more different! #Thoughts
+		- More is different. Infinite more is more different! #Observations
 		  id:: 63c14170-fd32-4ff9-b269-7565d18c16f1
 			- Some structures only exist in infinite-size limit.
 			- Others don't exist even under the limit. We must have **true infinity**.

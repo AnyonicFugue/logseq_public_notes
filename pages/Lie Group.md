@@ -14,11 +14,11 @@
 		  id:: 6381bc92-5f90-4322-9a1b-0cbbf9128acc
 			- The path component with the identity
 		- Lie group homomorphism #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-05-17T05:18:50.520Z
-		  card-last-reviewed:: 2023-03-11T01:18:50.521Z
+		  card-last-interval:: 353.22
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-07-17T03:31:32.767Z
+		  card-last-reviewed:: 2023-07-29T22:31:32.768Z
 		  card-last-score:: 5
 		  id:: 6382c5bc-957b-4756-8adc-146cca7d1a16
 			- ((6381bdc6-e0b4-4d4d-91e3-aeb15dce7e60))
@@ -41,11 +41,11 @@
 		  card-last-score:: 5
 			- A simple exercise. Directly construct the path.
 		- $SU(2)$ is [[Simply connected]]. #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-05T11:20:00.269Z
-		  card-last-reviewed:: 2023-02-09T11:20:00.269Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-12-07T02:44:10.009Z
+		  card-last-reviewed:: 2023-08-11T12:44:10.009Z
 		  card-last-score:: 5
 			- We may construct a homeomorphism to $S^3$ by 
 			  $$

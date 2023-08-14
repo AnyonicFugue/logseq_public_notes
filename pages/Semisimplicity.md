@@ -1,11 +1,11 @@
-- # Definition
+# Definition
 	- Simple object #card
-	  card-last-interval:: 32.57
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-28T00:59:31.242Z
-	  card-last-reviewed:: 2023-04-25T11:59:31.242Z
-	  card-last-score:: 5
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-09-07T13:27:23.410Z
+	  card-last-reviewed:: 2023-07-27T13:27:23.411Z
+	  card-last-score:: 3
 		- Some nonzero $x \in C$ s.t. all ((641a6a23-ca6b-4d29-b1dc-28dab3b2fb6a)) of $x$ are 0 or isomorphisms.
 		- What's the intuition behind?
 			- 'Simple' means 'no nontrivial sub-thing'
@@ -32,6 +32,12 @@
   collapsed:: true
 	- [[Schur's Lemma]] for pre-semisimple categories #card
 	  id:: 641a6be7-3db1-44a5-be18-92070cdb5125
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-09-06T18:30:59.812Z
+	  card-last-reviewed:: 2023-08-06T12:30:59.812Z
+	  card-last-score:: 3
 		- $\forall x,y$ simple, any nonzero Hom $f:x \to y$ is an isomorphism.
 		- Proof
 			- Note than with a linear structure, prove two things are 'same' <-> prove 0 is mapped to 0.
@@ -77,6 +83,12 @@
 				- Special case: $A$ is a division algebra, while $\mathrm{Vec}$ is a vector space over $A$
 				  collapsed:: true
 					- Theorem. Any finite semisimple $A$-linear category $C$ is equivalent to $\sum_{j=1}^n \mathrm{LMod}_{D_j}(\mathrm{Vec})$, where $D_j$ is the division algebra of $\mathrm{Hom}_{\mathcal{C}}(x_j,x_j)$ #card
+					  card-last-interval:: 31.26
+					  card-repeats:: 1
+					  card-ease-factor:: 2.36
+					  card-next-schedule:: 2023-08-25T08:03:39.589Z
+					  card-last-reviewed:: 2023-07-25T02:03:39.590Z
+					  card-last-score:: 3
 						- We know clearly what $C$ is: there are $n$ simple objects. Any object are direct sums of the simple objects and the homs are block-diagonalized (only nonzero between the same $x_j$)
 					- What is $\mathrm{LMod}_{D_j}(\mathrm{Vec})$? #card
 					  card-last-interval:: 24
@@ -102,12 +114,12 @@
 		- Bimodules #card
 			-
 		- Semisimple object #card
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-04T03:25:59.742Z
-		  card-last-reviewed:: 2023-04-04T03:25:59.742Z
-		  card-last-score:: 5
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-09-12T13:08:31.465Z
+		  card-last-reviewed:: 2023-08-01T13:08:31.465Z
+		  card-last-score:: 3
 			- For $C$ multi-fusion, $A \in C$ is semisimple if $\mathrm{RMod}_A(C)$ is semisimple.
 		-
 	- Theorem. (Ostrik 03) For $C$ a multi-fusion cat, $M$ finite-semisimple $C$-module.

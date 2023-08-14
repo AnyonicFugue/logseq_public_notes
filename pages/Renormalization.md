@@ -22,7 +22,7 @@
 			  #+END_IMPORTANT
 			- But can't we?
 				- We can't know the full details, but is it possible to test a few **principles** (e.g. Lorentz covariance)?
-				- Also, divergence is the prescence of high-energy physics. #[[Thoughts/Math and Physics]]
+				- Also, divergence is the prescence of high-energy physics. #[[Observations/Math and Physics]]
 					- To be more accurate, theoretically there are divergences, but experimentally nothing is divergent. Therefore some mechanism must protect the observables from diverging.
 		- Observations at $E \lesssim E_{\max }$ shouldn't depend esssentially on high energies.
 		  id:: 6447451d-a5e6-4238-b04e-d4ea94425152
@@ -65,6 +65,12 @@
 		- Finally we obtain the renormalized Green function, which we expect be **divergence-free** and **regularization-independent**.
 		-
 	- ## Scheme 2: Cancel the Divergent Diagrams by Counter-terms #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-25T08:18:09.318Z
+	  card-last-reviewed:: 2023-07-25T02:18:09.318Z
+	  card-last-score:: 5
 		- Idea
 			- Rewrite the Lagrangian as a physical part and a counter-term part.
 			  The counter terms are regarded as extra interaction vertices.
@@ -140,11 +146,11 @@
 			-
 - # Renormalized Perturbation Theory
 	- Idea #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-02T07:56:39.213Z
-	  card-last-reviewed:: 2023-06-01T01:56:39.213Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-19T12:58:57.528Z
+	  card-last-reviewed:: 2023-08-08T12:58:57.528Z
 	  card-last-score:: 5
 		- The 'real world of QFT' is quite messy. We must consider lots of renormalizations; what's worse, we don't know how to obtain a divergence-free result.
 		- We have different schemes.
@@ -375,15 +381,15 @@
 			- $\sqrt Z$ appears since the renormalized field $\phi =\frac 1 {\sqrt Z} \phi_0$. Here the internal fields are renormalized ones (the propagators are $\frac i {p^2-m^2+i\varepsilon}$), but the external fields are **not**.
 			- $s,t,u$ are the ((64238e6c-1aa2-4233-b9ab-a0b3e391eda2))
 		- The amplitude is **divergent** at $d=4$. But we can still make some sense out of this. #card
-		  card-last-interval:: 32.57
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-06T01:52:08.575Z
-		  card-last-reviewed:: 2023-05-04T12:52:08.576Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-18T12:55:39.708Z
+		  card-last-reviewed:: 2023-08-07T12:55:39.708Z
 		  card-last-score:: 5
 			- Idea: We can measure $\lambda$ at some reference scattering process (e.g. at the shreshold, i.e. $s=4m^2,u=t=0$).
 			  Then we can compare different momenta to **cancel the divergence**.
-				- In other words, experimental data could also be a valuable input -- to fix a 'reference' not available from first principles! #[[Thoughts/Math and Physics]]
+				- In other words, experimental data could also be a valuable input -- to fix a 'reference' not available from first principles! #[[Observations/Math and Physics]]
 				- This works since the UV divergence arises from the loop momenta and is independent of external momenta.
 			- Specifically:
 				- The effective coupling $\lambda$ at the threshold satisfies

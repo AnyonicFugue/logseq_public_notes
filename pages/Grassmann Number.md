@@ -35,6 +35,12 @@
 			- Note that $d^N \zeta := d\zeta_1 ... d\zeta_N$. Each integration variable must appear exactly once, so only $f_N$ survives.
 			- $(-1)^n$ arises from moving $f_N$ to the rightmost.
 	- Prop. Translation invariance: $\int d^N \zeta f\left(\zeta+\eta_{\xi}\right) = \int d^N \zeta f(\zeta)$ #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-08-17T18:55:32.002Z
+	  card-last-reviewed:: 2023-07-17T12:55:32.003Z
+	  card-last-score:: 5
 		- $$
 		  \begin{aligned}
 		  \int d^N \zeta f\left(\zeta+\eta_{\xi}\right) & =\int d^N \zeta f_N\left(\zeta_N+\eta_N\right) \cdots\left(\zeta_1+z_1\right) \\
@@ -67,7 +73,13 @@
 			  \int d \theta^* d \theta e^{-\theta^* b \theta}=\int d \theta^* d \theta\left(1-\theta^* b \theta\right)=\int d \theta^* d \theta\left(1+\theta \theta^* b\right)=b
 			  $$
 			- Note that in ordinary integrations we would obtain something like $1/b$. This is a difference!
-		- $$
+		- card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-25T19:03:45.289Z
+		  card-last-reviewed:: 2023-07-25T13:03:45.289Z
+		  card-last-score:: 5
+		  $$
 		  \int d \theta^* d \theta \ \theta \theta^* e^{-\theta^* b \theta}=1
 		  $$ #card
 			- $$e^{-\theta ^{*} b\theta } =1-\theta ^{*} b\theta $$
