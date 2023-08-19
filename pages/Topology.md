@@ -3,11 +3,11 @@
 - # Basics
   collapsed:: true
 	- Directed set #card
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-07-27T00:41:11.827Z
-	  card-last-reviewed:: 2023-05-04T00:41:11.828Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-08-02T17:47:44.256Z
+	  card-last-reviewed:: 2023-08-15T12:47:44.257Z
 	  card-last-score:: 5
 		- Def
 			- A directed set $J$ is a set with a partial order $\preceq$ such that for 
@@ -147,11 +147,11 @@
 				- A function $f:X\rightarrow Y$ is said to be continuous if for each open subset $V$ of $Y$, the set $f^{-1} (V)$ is an [[Open]subset of $X$.
 			-
 			- Then the following are equivalent #card
-			  card-last-interval:: 25.01
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-02-21T12:24:58.235Z
-			  card-last-reviewed:: 2023-01-27T12:24:58.236Z
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-09-25T13:00:10.396Z
+			  card-last-reviewed:: 2023-08-14T13:00:10.396Z
 			  card-last-score:: 5
 				- (1) $f$ is continuous.
 				- (2) For every closed set $B$ of $Y$, the set $f^{-1} (B)$ is closed in $X$
@@ -227,7 +227,6 @@
 			- Diameter
 				- For a bounded set A, $\operatorname{diam}(A):=\sup \left\{d\left(a_1, a_2\right) \mid a_1, a_2 \in A\right\}$
 		- Limit point compact #card 
-		  collapsed:: true
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
@@ -243,11 +242,11 @@
 	- ## Basic Facts
 		- Theorem. Every closed subspace of a compact space is compact.  #card
 		  collapsed:: true
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-07T00:26:39.498Z
-		  card-last-reviewed:: 2023-05-08T00:26:39.498Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-25T12:57:14.529Z
+		  card-last-reviewed:: 2023-08-14T12:57:14.530Z
 		  card-last-score:: 5
 			- Easy.
 		- Theorem. The image of a compact space under a Continuous map is compact.  #card
@@ -333,7 +332,6 @@
 		- Corollary 27.8. Every closed interval in $\mathbb{R}$ is uncountable.
 	-
 	- Lemma (The Lebesgue number lemma). Let $\mathcal{A}$ be an open covering of the metric space $(X, d)$. If $X$ is Compact, there is a Lebesgue number $\delta>0$. #card
-	  collapsed:: true
 	  card-last-interval:: 35.3
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
@@ -361,11 +359,16 @@
 		  collapsed:: true
 			- An easy exercise.
 		- Theorem. For a metrizable space, limit point compact is equivalent to compact.  #card
-		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-09-16T18:43:30.801Z
+		  card-last-reviewed:: 2023-08-16T12:43:30.802Z
+		  card-last-score:: 3
 			- Intuition
 				- The metric space is bounded, i.e. we cannot construct a sequence extending to infinity.
 			- Proof of the hard part, i.e. LPC -> Compact
-				- First, we show that if $X$ is sequentially compact, then the Lebesgue number lemma holds for $X$.
+				- First, we show that if $X$ is sequentially compact, then the **Lebesgue number lemma** holds for $X$.
 				  collapsed:: true
 					- Let $\mathcal{A}$ be an open covering of $X$. We assume that there is **no** $\delta>0$ such that each set of diameter less than $\delta$ has an element of $\mathcal{A}$ containing it, and derive a contradiction.
 					- Our assumption implies in particular that for each positive integer $n$, there exists a set of diameter less than $1 / n$ that is not contained in any element of let $C_n$ be such a set.
@@ -383,10 +386,21 @@
 					- Note that by construction $d\left(x_{n+1}, x_i\right) \geq$ $\epsilon$ for $i=1, \ldots, n$. Therefore, the sequence $\left(x_n\right)$ can have no convergent subsequence, which is a contraction.
 				- Finally we use the above two together: First obtain a Lebesgue number $\delta$, then choose a finite covering by $\delta/3$-balls.
 				  Then each ball is contained by some $A \in \mathcal A$, which gives a finite subcover of $\mathcal A$.
+			- What makes the proof work?
+				- The lebesgue number provides a quantification of the open sets.
+				  Therefore it's easier to construct a sequence of open sets (and corresponding points) that could never converge.
+				- What is the Lebesgue number? What properties does it use?
+				  background-color:: red
+					- It uses a mapping from the open sets to $\mathbb R$ by taking the radius.
+					  logseq.order-list-type:: number
+					- It provides a partial order quantified by the 'lower bound of radius'.
+					  logseq.order-list-type:: number
+					- Moreover, convergence is (almost) defined by the same map.
+					  logseq.order-list-type:: number
 	-
 	- The best properties to deal with are Metrizable and [[Compact]] [[Hausdorff ]].
 	  collapsed:: true
-	  If we don't have such luck, can we embed the space under study into something with the properties? #Remark
+	  If we don't have such luck, can we embed the space under study into something with the properties?
 		- In Compact Hausdorff spaces, {{Closed ⇔ Compact}}.
 		- Sub-metrizable is still metrizable. But not for the latter.
 	- ## One-point Compactification

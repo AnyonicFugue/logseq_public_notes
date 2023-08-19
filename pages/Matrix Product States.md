@@ -255,6 +255,13 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 	  card-last-reviewed:: 2023-08-04T13:08:18.329Z
 	  card-last-score:: 5
 		- Theorem (Injective Case). A parent Hamiltonian can be constructed for a finite dimensional matrix product state with finite correlation length, such that the matrix product state is the **unique gapped** ground state of the parent Hamiltonian. #card
+		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-14T18:57:07.611Z
+		  card-last-reviewed:: 2023-08-14T12:57:07.612Z
+		  card-last-score:: 5
 			- The procedure for constructing the parent Hamiltonian is as follows:
 			  1. take a large enough but finite segment of length $l$ of the chain
 			  2. calculate the reduced density matrix $\rho_l$ of this segment

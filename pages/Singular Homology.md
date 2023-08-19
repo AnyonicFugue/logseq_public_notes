@@ -214,11 +214,11 @@
   collapsed:: true
 	- ((644638a3-9be7-46f8-8abb-f6c3ae2849af)) For all $n \geq 0$, we have $\partial_n \partial_{n+1}=0$. #card
 	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-28T06:42:49.588Z
-	  card-last-reviewed:: 2023-06-27T00:42:49.589Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-25T12:58:06.908Z
+	  card-last-reviewed:: 2023-08-14T12:58:06.908Z
 	  card-last-score:: 5
 		- First we explicitly write down 
 		  $$\partial_n \partial_{n+1} \sigma=\sum_{j, k}(-1)^{j+k} \sigma \varepsilon_j^{n+1} \varepsilon_k^n$$

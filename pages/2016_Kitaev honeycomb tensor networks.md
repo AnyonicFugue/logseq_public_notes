@@ -8,7 +8,6 @@
 		- ((64cbf6c7-040f-44f7-9b00-950565b151bf))
 		- ((64cbf93e-77a8-4e2d-84a4-9fd96ee3cf4e))
 - # Setup
-  collapsed:: true
 	- ((64cbbe59-bfff-4709-b692-c82b8d99b52a))
 	- JW transformation
 	  collapsed:: true
@@ -99,6 +98,7 @@
 		  $$
 	- The phase is gapless when we can find some $k$ such that $\varepsilon_{\vec{k}}=\Delta_{\vec{k}}=0$, which leads to our familiar phase diagram.
 - # Construct the TN
+  collapsed:: true
 	- The TN is taken to be **fermionic** until the JW transformation to map fermionic operators to Paulis.
 	  collapsed:: true
 		- It is claimed there are some extra requirements:

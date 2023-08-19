@@ -77,6 +77,8 @@ alias:: von-Neumann Entropy
 			- The key is that we can find a **clever basis** for states in region B, 
 			  i.e. the basis corresponding to boundary configurations.
 				- Another sort of [[Bulk-Boundary Correspondence]].
+				- Note that the picture is precise when the state is written as a Schmidt decomposition, which requires each 'component' in both subsystem to be orthonormal.
+				-
 			- Good properties of the basis
 				- A state uniquely corresponds to a boundary configuration
 				- All boundary configurations have the same weight

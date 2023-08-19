@@ -489,16 +489,17 @@ alias:: GR
 		- It will be used a lot that ((6433ccd0-93c5-4ea3-965d-4aba75f860ac))
 		- ### Gravitational Redshift #card
 		  collapsed:: true
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-07-09T08:04:38.791Z
-		  card-last-reviewed:: 2023-06-08T02:04:38.792Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-25T13:05:33.304Z
+		  card-last-reviewed:: 2023-08-14T13:05:33.305Z
 		  card-last-score:: 5
 			- Statement of the problem
 				- Light emitted by one static observer is received by another one. How does the frequency differ?
 			- Setup
 				- The 4-velocities $u^a$ of the observers are tangent to the Killing field $\xi^a$
+					- The Killing field (time-translation symmetry) provides a canonical choice of observers.
 					- Note that $u^a:=\frac{dx^a}{d\tau}$, so it is properly normalized.
 				- The frequency measured at $P_1$ is
 				  $$
@@ -883,11 +884,11 @@ alias:: GR
 	- ## Restore Newtonian gravity
 	  collapsed:: true
 		- Summary #card
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-08T00:20:44.943Z
-		  card-last-reviewed:: 2023-05-09T00:20:44.944Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-09-25T13:07:40.214Z
+		  card-last-reviewed:: 2023-08-14T13:07:40.214Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- *Simplified way
@@ -895,10 +896,8 @@ alias:: GR
 				- Derive $h_{t t}=-\frac{2 \Phi}{c^2}$ from the geodesic equation, which should recover EOM in Newtonian gravity
 				- Plug the above expression to the Einstein equation and recover the Poisson equation.
 			- Metric side
-			  collapsed:: true
 				- Same as before: $g_{a b}=\eta_{a b}+\gamma_{a b}$, fix the gauge to obtain $\partial^c \partial_c \bar{\gamma}_{a b}=-16 \pi T_{a b}$, where $\bar{\gamma}_{a b}=\gamma_{a b}-\frac{1}{2} \eta_{a b} \gamma$.
 			- Matter side
-			  collapsed:: true
 				- Find a suitable coordinate where $T_{a b} \approx \rho t_a t_b$, where $t$ is the time direction of the coordinate (almost inertial)
 				- The equation becomes $\nabla^2 \bar{\gamma}_{00}=-16 \pi \rho$, where $\phi \equiv-\frac{1}{4} \bar{\gamma}_{00}$ satisfies Poisson's equation,
 				  collapsed:: true
@@ -913,6 +912,8 @@ alias:: GR
 				- Plug in the expression of Christoffel symbols, we obtain
 				  $$\Gamma_{00}^\mu=-\frac{1}{2} \frac{\partial \gamma_{00}}{\partial x^\mu}=\frac{\partial \phi}{\partial x^\mu}$$
 				-
+			-
+			- Again, the great tool of physicists -- perturbation theory!
 	- ## Gravitational Wave
 		- First note that much has already been done in the section of linearized gravity: Select the harmonic TT gauge to simplify the equation, obtain two polarizations.
 		- Next we attack the following question:

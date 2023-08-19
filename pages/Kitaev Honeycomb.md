@@ -7,14 +7,10 @@
   card-next-schedule:: 2023-08-29T18:28:51.208Z
   card-last-reviewed:: 2023-07-29T12:28:51.208Z
   card-last-score:: 3
-  collapsed:: true
 	- The honeycomb seems the only known frustrated model to exhibit topological order. Could we extend it?
 		- Would anyonic operators be the key?
 		- Or some comparison to Levin-Wen, which is frustration-free?
 	- ## Unsolved
-		- What does 'gauge' mean in the model?
-		  collapsed:: true
-			- What is the ((64b59d7c-e86b-44d0-8f85-1c3052d9b4e2))?
 		- The local Hilbert space is 2D and can well be encapsulated by a single fermionic mode. Why bother embedding it into a 4D space?
 		  id:: 64c27e7e-e01d-45b9-accc-c06dfd136c42
 		  collapsed:: true
@@ -42,6 +38,10 @@
 				  collapsed:: true
 					- Hint: It is the **unitary operators** that form a braiding group. Not commutation relations of the anyon operators themselves.
 	- ## Solved
+		- What does 'gauge' mean in the model?
+			- It means that different configurations are related by $D_j$, the gauge transformatiom operators.
+			  Thus the related configurations are equivalent in a sense.
+			- What is the ((64b59d7c-e86b-44d0-8f85-1c3052d9b4e2))?
 		- Is the system bosonic or fermionic? -- Fermionic.
 			- This determines what is considered **local**.
 			- We introduced a set of operators satisfying CCR (or CAR) in the Hilbert space.
@@ -67,10 +67,8 @@
 		- The dimension is 4 since each mode (spin-up and spin-down) can be occupied or unoccupied.
 		- The physical space is 2D since the occupation number must be 1.
 	- Majorana operators $b^x, b^y, b^z$, $c$
-	  collapsed:: true
 		- Note that two majorana operators corresponds to a fermionic mode.
 	- Physical space $M$
-	  collapsed:: true
 		- Defined by $|\xi\rangle \in \mathcal{M}$ if and only if $D|\xi\rangle=|\xi\rangle$ where $D=b^x b^y b^z c$
 	- Extended Pauli Operators
 		- $$
@@ -102,19 +100,16 @@
 			- ((64b2f58e-6dcc-4ad7-ad98-5226751aebbb))
 			- Note that it commutes with any check.
 - # Solution
-  collapsed:: true
 	- Strategy
-	  collapsed:: true
 		- ((64b2f633-ff39-4862-92e9-a8827906ea71))
 		- ((64b4a3a2-5a8e-4828-8059-2d5fdb0ec212))
 		- ((64b442f1-bf2d-40cd-926a-9629bc86763d))
 	- Summary #card
-	  collapsed:: true
 		- First, transform to the majorana representation and the extended space.
 			- The lattice system is not essentially fermionic.
 			  ((64b48b82-84da-4b28-83de-30ce1ef5338a))
 			- Therefore we **introduced** a set of convenient operators (satisfying some rather strong CAR) to simplify the solution!
-		- After recasting the Hamiltonian in the extended form, we can find lots of conserved quantities $u_{jk}$.
+		- After recasting the Hamiltonian in the extended form, we can find lots of **conserved quantities** $u_{jk}$.
 		- Thus we can use their eigenvalues to simplify the solution. Moreover, any combination of eigenvalues exist.
 	-
 	- ## Basic Properties
@@ -159,7 +154,6 @@
 		  ((64b44b79-886b-4eb4-ad32-9158770a65fa))
 			- ((64b44b9c-9c41-4142-a64e-968b5e4dbe19))
 	- ## Construct Solutions
-	  collapsed:: true
 		- Observation. (i) $u_{jk}$ commute with each other (ii) $u_{jk}$ commute with the Hamiltonian!
 		  id:: 64b44bb7-1b1b-4fda-9690-8018ad7cb6c1
 		  collapsed:: true
@@ -178,19 +172,28 @@
 			- The restriction of Hamiltonian to the subspace $\widetilde{\mathcal{L}}_u$ is by 'removing hats'
 		-
 		- Notes
+		  collapsed:: true
 			- $c_i c_j$ and $c_j c_k$ **do not commute**, thus it is improper to write down a 'majorana representation' yet.
 			- The subspace $\tilde {\mathcal L}_u$ isn't gauge invariant (eigen to $D_j$).
 		- Therefore we perform the **symmetrization** again:
+		  collapsed:: true
 		  $$
 		  \left|\Psi_w\right\rangle=\prod_j\left(\frac{1+D_j}{2}\right)\left|\widetilde{\Psi}_u\right\rangle
 		  $$
 			- $w$ denotes the equivalence class of $u$.
 		- What are the equivalence classes?
+		  collapsed:: true
 			- $D_j$ flips the three adjacent $u_{jk}$, i.e. add a loop of plaquettes.
 				- Rephrased, it preserves the plaquette eigenvalues
 			- Therefore we can use the eigenvalues of the plaquette operators $w_p= \pm 1$ and the homotopy class to denote the equivalence class.
 		-
 	- ## Solve the Spectrum of the Quadratic Hamiltonian
+		- Observations
+			- A gauge transformation $D_j$ flip all three adjacent $u$ while keeping $w_p$ and $H$ invariant.
+				- Therefore we need only solve in a specific gauge configuration and use $D_j$ to superpose all equivalent configurations.
+			- When the system is put on the torus, there can be inequivalent configurations corresponding to the same $\{w_p\}$.
+			- The ground state is vortex-free, i.e. all $w_p=1$.
+			-
 		- Step 1. Analyze the quadratic Hamiltonian
 		  collapsed:: true
 			- collapsed:: true
@@ -237,8 +240,8 @@
 				- The function $|\cdot|$ acts on the **eigenvalues**, the eigenvectors being fixed. (In fact, any function of a real variable can be applied to Hermitian matrices.)
 				- The factor is $1/2$ rather than $1/4$ since each mode is counted twice by the anti-symmetric matrix.
 		- Step 2. Perform Fourier transformation to make use of translation invariance
-			- collapsed:: true
-			  $$
+			- We study the configuration where all $u=1$.
+			- $$
 			  \begin{gathered}
 			  H=\frac{1}{2} \sum_{\mathbf{q}, \lambda, \mu} i \widetilde{A}_{\lambda \mu}(\mathbf{q}) a_{-\mathbf{q}, \lambda} a_{\mathbf{q}, \mu}, \quad \widetilde{A}_{\lambda \mu}(\mathbf{q})=\sum_t e^{i\left(\mathbf{q}, \mathbf{r}_t\right)} A_{0 \lambda, t \mu} \\
 			  a_{\mathbf{q}, \lambda}=\frac{1}{\sqrt{2 N}} \sum_s e^{-i\left(\mathbf{q}, \mathbf{r}_s\right)} c_{s \lambda}

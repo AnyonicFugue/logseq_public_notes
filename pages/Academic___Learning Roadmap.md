@@ -31,6 +31,8 @@ collapsed:: true
 			- **Examples**
 				- Algebraic Geometry
 				- Number Theory
+- # Others' Roadmas
+	- [Riinn 书单 知乎](https://www.zhihu.com/question/21451715/answer/429838579)
 - # Mathematics
   id:: 64b4848d-0b6a-4bc0-af8e-6f4d53c52b9d
 	- WWLi's notes as a roadmap for algebra
@@ -68,6 +70,7 @@ collapsed:: true
 	- ## Interesting things to explore
 		- [Cornerstones | Book series home (springer.com)](https://www.springer.com/series/7161)
 			- Including several interesting introductions, e.g. Riemann surface, geometric function, etc.
+		- [Lurie, Lie Algebra and Homotopy](https://www.youtube.com/watch?v=LeaiPHAh0X0)
 		- [[Functional Analysis]]
 		- [[Quantum Group]]
 - # Physics

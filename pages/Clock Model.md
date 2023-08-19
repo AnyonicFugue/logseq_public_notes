@@ -1,0 +1,5 @@
+- The definition of the clock model is another precious example of 'generalize the special case and fix problems due to speciality'. #card
+	- Another case is the quantum double, where the speciality of toric code is fixed by an orientation.
+	- The special case is often a degenerate case of the additional structure.
+		- Toric code -> Reversing orientation is trivial ($-x=x$)
+		- Majorana -> Happen to be Hermitian and self-inverse.

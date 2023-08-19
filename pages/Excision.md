@@ -277,5 +277,11 @@
 		- (i) and (ii) roughly states that 'd is a homomorphism'.
 	- ((64aebc8f-0c64-4254-8e23-9ab108975547)). If $n \geq 1$, then the antipodal map $a^n: S^n \rightarrow S^n$ has degree $(-1)^{n+1}$. #card
 	  id:: 64aebc70-fcef-45e1-b9d1-2f81749bb8c4
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-09-16T18:28:23.887Z
+	  card-last-reviewed:: 2023-08-16T12:28:23.887Z
+	  card-last-score:: 3
 		- Definition. If $x=\left(x_1, \ldots, x_{n+1}\right) \in S^n$, its antipode is $-x=\left(-x_1, \ldots,-x_{n+1}\right)$. The antipodal map $a=a^n: S^n \rightarrow S^n$ is defined by $x \mapsto-x$.
 		-

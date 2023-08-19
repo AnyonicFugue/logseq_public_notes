@@ -67,7 +67,7 @@ alias:: QED
 		  &A_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3} \frac{1}{\sqrt{2 E_p}} \sum_{\lambda=1}^2 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}+a_p^{\lambda \dagger} e^{i p \cdot x}\right) \\
 		  &\pi_\mu(x)=\int \frac{d^3 p}{(2 \pi)^3}(+i) \sqrt{\frac{E_p}{2}} \sum_{\lambda=1}^2 \epsilon_\mu^\lambda(p)\left(a_p^\lambda e^{-i p \cdot x}-a_p^{\lambda \dagger} e^{i p \cdot x}\right)
 		  \end{aligned}$$
-- From [[Yukawa Theory]] to QED #card
+- From [[Yukawa Theory]] to QED
   card-last-interval:: 10
   card-repeats:: 2
   card-ease-factor:: 2.7

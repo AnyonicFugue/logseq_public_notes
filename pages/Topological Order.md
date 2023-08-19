@@ -94,6 +94,12 @@
 - # Topics
 	- Definition of topological order #card
 	  collapsed:: true
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-17T02:05:39.316Z
+	  card-last-reviewed:: 2023-08-15T13:05:39.316Z
+	  card-last-score:: 5
 		- From long-range entanglement
 			- Topo orders are equivalent classes defined by local transformations (which don't close the energy gap).
 			- The trivial topo order is the class of product states.
