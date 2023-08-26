@@ -1,10 +1,10 @@
 - Peskin
 	- Summary #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-06-08T05:07:42.144Z
-	  card-last-reviewed:: 2023-04-02T01:07:42.144Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-08-07T17:49:57.719Z
+	  card-last-reviewed:: 2023-08-20T12:49:57.719Z
 	  card-last-score:: 5
 		- Goal: calculate the corrections to the electron propagator.
 			- This renormalizes mass, not charge.

@@ -119,12 +119,12 @@
 				- This is different from [Burnell2018]([[2018_Burnell_Anyon condensation and its applications]]). But also some useful references and arguments there.
 		- ((63dc6611-b249-4a6b-9d84-61424d5eb2b0))
 	- ## Relations between the theories before and after #card
-	  card-last-interval:: 30
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-06-08T00:24:38.809Z
-	  card-last-reviewed:: 2023-05-09T00:24:38.809Z
-	  card-last-score:: 5
+	  card-last-interval:: 107.52
+	  card-repeats:: 3
+	  card-ease-factor:: 2.56
+	  card-next-schedule:: 2023-12-10T01:06:52.962Z
+	  card-last-reviewed:: 2023-08-24T13:06:52.962Z
+	  card-last-score:: 3
 		- ((63f5d1a9-34d2-488d-b5d1-805be16af7a4))
 		- The central charge (mod 8) isn't changed
 		- The quantum dimensions are linked by 

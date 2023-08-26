@@ -63,15 +63,16 @@
 		  card-last-score:: 5
 			- U inv ⇒ Complement of U inv.
 		- Theorem. Every real (complex) linear representation of a finite group is isomorphic to an orthogonal (unitary) representation. #card
-		  collapsed:: true
 		  card-last-interval:: 24
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
 		  card-next-schedule:: 2023-03-29T00:57:10.930Z
 		  card-last-reviewed:: 2023-03-05T00:57:10.931Z
 		  card-last-score:: 5
-			- Construct an invariant inner product by summing:  #Techniques
+			- ((64b53e14-4877-4132-8efd-8eda1934a887))
+			-
 			- Given any inner product $f_0(\cdot,\cdot)$, define $f(u,v)=\sum_{g}f_0(T(g)u,T(g)v)$
+				- This is quite natural. We just rephrased 'unitary' into an 'invariant inner product'.
 		- Theorem. Every real (complex) linear representation of a compact topological group is orthogonal (respectively, unitary). #card
 		  card-last-interval:: 42
 		  card-repeats:: 2
@@ -84,11 +85,11 @@
 		- Lemma. Let $f$ and $f_{0}$ be two inner products in the complex vector space $V$. Then there exists a linear operator $\sigma$ such that $f(x,y)=f_{0} (\sigma x,y)$  for all $x,y\in V$.
 		- Theorem. Let $T:G\rightarrow \operatorname{GL} (V)$ be an irreducible unitary representation. Then the $T$-invariant inner product in $V$ is unique up to a constant factor.  #card
 		  collapsed:: true
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-05-10T11:13:48.688Z
-		  card-last-reviewed:: 2023-04-10T11:13:48.689Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-12-17T03:10:25.507Z
+		  card-last-reviewed:: 2023-08-21T13:10:25.508Z
 		  card-last-score:: 5
 			- Lemma. Let $f$ and $f_{0}$ be two inner products in the complex vector space V. Then there exists a linear operator $\sigma$ such that $f(x,y)=f_{0} (\sigma x,y)$  for all x,y\in V.
 			- $\sigma$ is a self-intertwining map. (Exercise)
@@ -259,12 +260,15 @@
 				-
 				- ((4b39adbd-96d1-4605-8870-8ce25437e6f7))
 			- Theorem. $\mathbf{C} [G]=\mathrm{M}( T_{1}) \oplus \dotsc \oplus \mathrm{M}( T_{q})$ #card
-			  card-last-interval:: 30
-			  card-repeats:: 2
-			  card-ease-factor:: 2.46
-			  card-next-schedule:: 2023-06-03T12:57:39.037Z
-			  card-last-reviewed:: 2023-05-04T12:57:39.037Z
+			  card-last-interval:: 107.52
+			  card-repeats:: 3
+			  card-ease-factor:: 2.56
+			  card-next-schedule:: 2023-12-10T01:06:40.101Z
+			  card-last-reviewed:: 2023-08-24T13:06:40.101Z
 			  card-last-score:: 5
+				- Key points in this proof
+					- A higher view point: Study matrix elements as the function space
+					-
 				- Linear independence
 					- They're pairwise nonisomorphic.
 				- Spanning

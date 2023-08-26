@@ -81,14 +81,14 @@
 		- $m=3$ example
 			- ![Image(1).png](../assets/Image(1)_1676812325317_0.png){:height 688, :width 847}
 			- Each component is a projective plane minus a circle.
-	- First [[Homology Group]] #card
-	  collapsed:: true
-	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-04-01T03:55:56.759Z
-	  card-last-reviewed:: 2023-03-08T03:55:56.760Z
+	- First Homology Group
 	  card-last-score:: 5
+	  card-repeats:: 1
+	  card-next-schedule:: 2023-04-01T03:55:56.759Z
+	  card-last-interval:: 24
+	  card-ease-factor:: 2.6
+	  card-last-reviewed:: 2023-03-08T03:55:56.760Z
+	  collapsed:: true
 		- ((63f95d84-10e7-484d-8591-9e785fbbf5bb)) $H_1(X):=\pi_1\left(X, x_0\right) /\left[\pi_1\left(X, x_0\right), \pi_1\left(X, x_0\right)\right]$
 	- Proper labelling scheme
 	  collapsed:: true
@@ -190,11 +190,11 @@
 - # The Classification Theorem
 	- ((64b4848e-7e80-4fe8-a1f1-319b6f009d6f))
 	- Theorem. If $w$ is a scheme of **projective type**, then $w$ is equivalent to a scheme of the same length having the form
-	  card-last-interval:: 21.86
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-31T07:01:53.427Z
-	  card-last-reviewed:: 2023-03-09T11:01:53.427Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-10-02T13:10:34.994Z
+	  card-last-reviewed:: 2023-08-21T13:10:34.995Z
 	  card-last-score:: 5
 	  collapsed:: true
 	  $$

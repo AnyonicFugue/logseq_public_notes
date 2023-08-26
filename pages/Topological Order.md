@@ -7,8 +7,10 @@
   :LOGBOOK:
   CLOCK: [2022-12-23 Fri 16:47:12]
   :END:
-- # Questions #card
-  collapsed:: true
+- # Problems and Questions #card
+	- Why we usually define the lattices by commuting pairs of projectors ($A_s,B_p$)? Frustrated topological orders?
+		- Tentative: Topo orders are robust against local perturbations. So we may deform them in some ways; the form of commuting pairs are the simplest.
+	- ((64e6b193-a04a-49af-b902-a612fa3b1c09))
 	- What is a direct sum?
 	  collapsed:: true
 		- Kitaev gives an argument ((64b2f056-5e56-4869-b5a3-71deffe4e403)): They are locally identical but globally distinguishable by transporting a quasiparticle.
@@ -53,9 +55,6 @@
 		  collapsed:: true
 			- ((636866b4-a674-47ef-bc02-ec464e6209d0))
 		-
-- # Problems
-	- Why we usually define the lattices by commuting pairs of projectors ($A_s,B_p$)?
-		- Tentative: Topo orders are robust against local perturbations. So we may deform them in some ways; the form of commuting pairs are the simplest.
 - # Definitions
 	- [[Topological skeleton]]
 	- [[Stacking]]
@@ -117,39 +116,16 @@
 					- Dim $V\left(T^2\right)=$ Number of particle types
 				- ![image.png](../assets/image_1672196573635_0.png)
 					- Dim V{Two handled torus}=$\sum_{a b c} N_{a b c} N_{\bar{a} \bar{b} \bar{c}}$
-	- The Local Operator Algebra
-	  collapsed:: true
-		- ((636ca9a0-3d78-4d74-bf19-0504b917f271))
-		  collapsed:: true
-			- ((636caaa6-7f7c-4d23-ae6d-9315b924fe8c))
-				- ((636df841-1a73-490b-b95f-0a4071066f96))
-			- Note: 'Generate' means generate the whole algebra by multiplication, scalar product and addition. Equivalent to 4 basis elements of a vector space.
-			- ((636df84e-113e-4681-8261-8c549b217a8d)) #Learning-TODO
-				- ((636df97b-42a9-44c3-91b2-e22aa340f793))
-			- The site seem to have 2 spins, which has 4-dim space.  The space of 4x4 hermitian matrices shall be 16-dim. Inconsistent? #Inbox/Problem
-				- What precisely are the 'local operators'?
-					- One answer: Within a fixed range when taking the thermodynamic limit.
-					- In lattice models, 'local' only means 'within a bounded range when taking the [[Thermodynamic limit]]. #card
-					  id:: 63b29124-d69c-46e4-9973-32fc95c2ecad
-					  card-last-interval:: 30
-					  card-repeats:: 2
-					  card-ease-factor:: 2.7
-					  card-next-schedule:: 2023-05-10T11:15:11.272Z
-					  card-last-reviewed:: 2023-04-10T11:15:11.272Z
-					  card-last-score:: 5
-						- Reminder.
-						  id:: 63b29145-b0cb-4cd9-b852-74f02bc8226d
-			-
-		-
-	- Bulk-Boundary Relations
-	  collapsed:: true
-		- [[Unique bulk principle]]
-		- [[Anomaly]]
 	- Classification in 2D
 	  collapsed:: true
 		- ((63bcd3f2-5cd3-4ab9-bfec-f909808c2e7e))
 		- ((63bcd458-8a1e-4707-a470-7228541bc2bb))
+	- ## Bulk-Boundary Relations
+	  collapsed:: true
+		- [[Unique bulk principle]]
+		- [[Anomaly]]
 	- ## Field-Theory Topological Order: Discrete or Continuous?
+	  collapsed:: true
 		- TPS is a very strong tool, hugely successful in lattice systems.
 			- A hint that lattice models at least have some points.
 			- Do we have a counterpart of TPS in field-theory topological order? #card
@@ -332,11 +308,11 @@
 								- Fusion rules
 									- $X \otimes X=Y \otimes Y=Z \otimes Z=\mathbb{1}, X \otimes Y=Y \otimes X=Z$
 								- Bulk-to-wall map #card
-								  card-last-interval:: 30
-								  card-repeats:: 2
-								  card-ease-factor:: 2.7
-								  card-next-schedule:: 2023-06-22T00:43:10.066Z
-								  card-last-reviewed:: 2023-05-23T00:43:10.066Z
+								  card-last-interval:: 117.6
+								  card-repeats:: 3
+								  card-ease-factor:: 2.8
+								  card-next-schedule:: 2023-12-16T02:54:22.584Z
+								  card-last-reviewed:: 2023-08-20T12:54:22.585Z
 								  card-last-score:: 5
 									- Move m to the wall as usual. Become X on the same side.
 									- Move e to the wall by $\sigma_z$. Become X **on the opposite side**.
@@ -566,8 +542,14 @@
 			- But (3+1)D would be a subproblem of higher dimensions. For example, boundaries of (4+1)D are (3+1)D.
 				- Can we overcome the difficulty?
 		- ((63ba3043-2dc8-461c-bef1-dab20f2474c5))
-	-
+	- ## Chirality
+	  collapsed:: true
+		- What's the role of chirality in topological orders?
+		  id:: 64e6b193-a04a-49af-b902-a612fa3b1c09
+		- Models for chiral topological orders?
+		- [[Quantum Hall Effect]]
 	- ## Numerical Methods
+	  collapsed:: true
 		- [[Wavefunction Renormalization]]
 	- ## Experimental Realizations and Preparations
 	  collapsed:: true
@@ -602,6 +584,8 @@
 					  logseq.order-list-type:: number
 					- logseq.order-list-type:: number
 			- See ![2022_Lu_Lessa et al_Measurement as a shortcut to long-range entangled.pdf](file://zotero_link/Research/Quantum Matters/2022_Lu_Lessa et al_Measurement as a shortcut to long-range entangled.pdf).
+	- ## Consistency of Microscopic and Macroscopic Descriptions
+		- Macroscopic: RG and only long-wavelength observables survive
 - # Models
   collapsed:: true
 	- [[Toric Code]]

@@ -10,7 +10,6 @@
 - # Setup
 	- ((64cbbe59-bfff-4709-b692-c82b8d99b52a))
 	- JW transformation
-	  collapsed:: true
 		- $$
 		  \begin{aligned}
 		  & \hat{\sigma}_{i, j}^{+}=2\left(\prod_{j^{\prime}<j} \prod_{i^{\prime}} \hat{\sigma}_{i^{\prime}, j^{\prime}}^z\right)\left(\prod_{i^{\prime}<i} \hat{\sigma}_{i^{\prime}, j}^z\right) \hat{a}_{i, j}^{\dagger} \\

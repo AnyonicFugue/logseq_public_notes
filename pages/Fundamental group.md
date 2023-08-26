@@ -20,15 +20,6 @@
 	- Applications
 - Hat-map
   collapsed:: true
-	- ((643600b1-2ddd-4089-9501-4599bb8a9e15)) Let $\alpha$ be a path in $X$ from $x_0$ to $x_1$. We define a map
-	  $$
-	  \hat{\alpha}: \pi_1\left(X, x_0\right) \longrightarrow \pi_1\left(X, x_1\right)
-	  $$
-	  by the equation
-	  $$
-	  \hat{\alpha}([f])=[\bar{\alpha}] *[f] *[\alpha]
-	  $$
-	- ![图像.png](../assets/图像_1668328082216_0.png){:height 275, :width 382}
 	- Theorem. The map $\hat \alpha$ is a group isomorphism. #card
 	  card-last-score:: 5
 	  card-repeats:: 2
@@ -36,6 +27,17 @@
 	  card-last-interval:: 24
 	  card-ease-factor:: 2.46
 	  card-last-reviewed:: 2023-03-03T00:28:03.312Z
+		- ((643600b1-2ddd-4089-9501-4599bb8a9e15))
+			- Let $\alpha$ be a path in $X$ from $x_0$ to $x_1$. We define a map
+			  $$
+			  \hat{\alpha}: \pi_1\left(X, x_0\right) \longrightarrow \pi_1\left(X, x_1\right)
+			  $$
+			  by the equation
+			  $$
+			  \hat{\alpha}([f])=[\bar{\alpha}] *[f] *[\alpha]
+			  $$
+			-
+		- ![图像.png](../assets/图像_1668328082216_0.png){:height 275, :width 382}
 		- This hints that the fundamental group doesn't depend on the points (on the same path component of X).
 		  Moreover, $$\pi_1(C,x_0)=\pi_1(X,x_0)$$
 		- Different path components are actually different 'objects'.

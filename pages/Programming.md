@@ -78,7 +78,13 @@
 		  
 		  ```
 - # Tips against Bugs #card
-	- Use your strong geometric intuition.
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-09-21T19:14:56.177Z
+  card-last-reviewed:: 2023-08-21T13:14:56.178Z
+  card-last-score:: 3
+	- Use your strong geometric intuition to remember definitions of variables.
 		- Visualize data conventions as diagrams.
 	- When modifying handling of certain variables, modify all related points.
-	-
+		- Use 'search all references' of the IDE.

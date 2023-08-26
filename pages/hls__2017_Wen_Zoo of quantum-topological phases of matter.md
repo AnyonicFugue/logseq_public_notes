@@ -1,5 +1,5 @@
-file:: [2017_Wen_Zoo of quantum-topological phases of matter.pdf](C:/Users/10309/Nutstore/1/sync/zotero/Physics/Topological order/Intros and Reviews/2017_Wen_Zoo of quantum-topological phases of matter.pdf)
-file-path:: C:/Users/10309/Nutstore/1/sync/zotero/Physics/Topological order/Intros and Reviews/2017_Wen_Zoo of quantum-topological phases of matter.pdf
+file:: [2017_Wen_Zoo of quantum-topological phases of matter.pdf](zotero_link/Research/Quantum Matters/Topological order/Intros and Reviews/2017_Wen_Zoo of quantum-topological phases of matter.pdf)
+file-path:: zotero_link/Research/Quantum Matters/Topological order/Intros and Reviews/2017_Wen_Zoo of quantum-topological phases of matter.pdf
 
 - 3+1D textbook s-wave superconductors have no topological order, while 3+1D real-life s-wave superconductors have a Z2-topological order.
   ls-type:: annotation

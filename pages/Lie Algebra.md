@@ -1,4 +1,5 @@
 - Def
+  collapsed:: true
 	- A finite-dimensional real or complex vector space $\mathfrak{g}$, together with a map $[\cdot, \cdot]$ from $\mathfrak{g} \times \mathfrak{g}$ into $\mathfrak{g}$, with the following properties:
 	  collapsed:: true
 	  1. $[\cdot, \cdot]$ is bilinear.
@@ -22,6 +23,7 @@
 		  The bracket is given by the commutator.
 		- Note that it only generates the whole identity component.
 - # Some Defs
+  collapsed:: true
 	- Center
 	  collapsed:: true
 		- Those commuting with everything else.
@@ -177,10 +179,12 @@
 		- ((63e44faf-be39-4003-a238-c50fedbd07e4))
 		  id:: 63c14167-777b-4ede-ab9b-08f6586376df
 - # Classification of Simple Compact Lie Algebras
+  collapsed:: true
 	- 'Simple' means we cannot have two mutually commutative subalgebras.
 	- 'Compact' is more tricky.
 		- Actually we have two definitions. One is that the Lie group is compact; the other uses so called Killing form.
 	- ## Three Classical Groups
+	  collapsed:: true
 		- $U(N)$
 		- $SO(N)$
 		- [[Symplectic Groups]] $Sp(N)$

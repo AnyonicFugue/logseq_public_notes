@@ -28,11 +28,11 @@ type:: [[Course]]
 			- The map always maps a [[Density operator]] to another one. #Exercise
 		- $\sum_k E_k^{\dagger} E_k=\sum_k{ }_2\left\langle 0\left|U^{\dagger}\right| k\right\rangle_2{ }_2\langle k|U| 0\rangle_2={ }_2\left\langle 0\left|U^{\dagger} U\right| 0\right\rangle_2=I_1$
 	- Equivalence of 2 sets of Kraus operators #card
-	  card-last-interval:: 81
-	  card-repeats:: 3
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-08-08T00:45:33.804Z
-	  card-last-reviewed:: 2023-05-19T00:45:33.804Z
+	  card-last-interval:: 329.28
+	  card-repeats:: 4
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2024-07-16T19:00:42.729Z
+	  card-last-reviewed:: 2023-08-22T13:00:42.730Z
 	  card-last-score:: 5
 		- Two superoperators $\mathbb{S}\left(\rho_1\right)=\sum_k E_k \rho_1 E_k^{\dagger}$ and $\mathbb{S}^{\prime}\left(\rho_1\right)=\sum_k F_k \rho_1 F_k^{\dagger}$ are equivalent if and only if there exists a **unitary** matrix $W$ such that $F_i=\sum_j W_{i j} E_j$.
 			- Essentially, W is the basis transformation between two bases of the environment.

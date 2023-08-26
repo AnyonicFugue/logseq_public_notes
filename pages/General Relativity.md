@@ -141,11 +141,11 @@ alias:: GR
 			  $$
 			  and invoke the fact that all derivative operators agree on scalar fields
 		- Covariant derivative #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-06T06:14:11.765Z
-		  card-last-reviewed:: 2023-05-06T00:14:11.765Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-10-01T12:55:30.904Z
+		  card-last-reviewed:: 2023-08-20T12:55:30.905Z
 		  card-last-score:: 5
 			- We hope that $\nabla_a g_{bc}=0$. Moreover, it only differs from the partial derivative by a tensor denoted as $\Gamma$
 			- From $\nabla_a t^b=\partial_a t^b+\Gamma_{a c}^b t^c$, we can derive $$\Gamma_{a b}^c=\frac{1}{2} g^{c d}\left\{\partial_a g_{b d}+\partial_b g_{a d}-\partial_d g_{a b}\right\}$$

@@ -275,6 +275,12 @@
 	- ((6451ce0c-d570-4606-b1f1-8982fc66eead)) (Dimension Axiom). If $X$ is a one-point space, then $H_n(X)=0$ for all $n>0$. #card
 	  id:: 6454f1b7-5d36-4a76-b56c-aa3dc7b2515d
 	  collapsed:: true
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-25T01:37:33.014Z
+	  card-last-reviewed:: 2023-08-23T12:37:33.015Z
+	  card-last-score:: 5
 		- An easy exercise to recall the definitions.
 		  Discuss $n$ even and odd separately.
 	- Lemma 4.15. Let $A$ be a subspace of $X$ with inclusion $j: A \hookrightarrow X$. Then $j_{\#}: S_n(A) \rightarrow S_n(X)$ is an injection for every $n \geq 0$.
@@ -448,7 +454,14 @@
 	  card-last-score:: 5
 - # The Hurewicz Theorem
 	- Theorem. The Hurewicz map is a homomorphism. #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-22T19:16:39.273Z
+	  card-last-reviewed:: 2023-08-22T13:16:39.273Z
+	  card-last-score:: 5
 		- Definition. Hurewicz map
+		  collapsed:: true
 			- For any path-connected space $X$ and positive integer $n$ there exists a group homomorphism
 			  $$
 			  h_*: \pi_n(X) \rightarrow H_n(X),
@@ -456,15 +469,25 @@
 			  called the Hurewicz homomorphism, defined in the following way: choose a canonical generator $u_n \in H_n\left(S^n\right)$, then a homotopy class of maps $f \in \pi_n(X)$ is taken to $f_*\left(u_n\right) \in H_n(X)$.
 			- For $n=1$, it is just 'taking the homology class of the path'.
 		- The goal is to prove that $\varphi([f * g])=\varphi([f])+\varphi([g])$, i.e.
+		  collapsed:: true
 		  $$\operatorname{cls} (f*g)\eta=\operatorname{cls} f\eta+\operatorname{cls} g\eta$$
+			- $\eta$ is the homeomorphism identifying $\Delta^1$ and $I$
 		- Which means I shall prove
 		  $$(f*g)\eta-f\eta-g\eta$$
 		  is a boundary.
 		- The geometric construction is follows:
 		  ![Image(1).png](../assets/Image(1)_1684844301594_0.png){:height 379, :width 433}
-			- Key idea: $\pi_\# \partial=\partial \pi_\#$, thus we can use the space $I \times I$, which has better properties.
+			- Key idea: $f_\# \partial=\partial f_\#$, thus we can use the space $I \times I$, which has better properties.
+				- To be more specific, we want to show the boundary of a certain simplex is $f+g-f*g$.
+				- Therefore we could view it as being pushed forward from a simplex in another space ($X \times I$) and consider the boundary operator in that space.
+				- Moreover, $I \times I$ could be easily mapped into $X \times I$.
+					- Direct product with $I$ is the simplest way to 'add a dimension'.
+					- Finding an interior is hard (only easy for convex sets). $X \times I$ is a childish way to find an interior, i.e. collapse a dimension.
+					-
+				-
 			- First we construct a chain $\sigma \in S_2(I \times I)$ illustrated as in the figure.
 			- Consider $\pi:(x,t) \mapsto x$.
+			  collapsed:: true
 			  Easy to see $\pi_\# \partial_2 \sigma = (f*g)\eta-f\eta-g\eta$.
 				- The left and right sides cancel.
 				- Two blue arrows on the upper sides are just $f\eta$ and $g\eta$.
@@ -477,6 +500,7 @@
 	  card-next-schedule:: 2023-07-12T08:15:12.784Z
 	  card-last-reviewed:: 2023-06-15T01:15:12.784Z
 	  card-last-score:: 5
+	  collapsed:: true
 	  $$
 	  \pi_1\left(X\right) / \pi_1\left(X\right)^{\prime} \cong H_1(X)
 	  $$ #card

@@ -307,6 +307,12 @@ alias:: [[Category Theory]]
 			  card-last-score:: 5
 				- Just verify the universal properties.
 			- If the product and coproduct of $\{x_i\}_i$ are isomorphic in a $k$-linear cat, then it is the direct sum. #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-09-21T19:13:35.287Z
+			  card-last-reviewed:: 2023-08-21T13:13:35.287Z
+			  card-last-score:: 3
 				- Note that this statement is nontrivial since the direct sum **might not exist** in a general $k$-linear category.
 				-
 		- [[Semisimplicity]]
@@ -439,6 +445,12 @@ alias:: [[Category Theory]]
 				- An $E_2$ algebra is an algebra in $E_1\mathrm{Alg}(B) \simeq \mathrm{Alg}(B)$
 				- Condition: {{cloze C braided monoidal}}
 			- Cat of $E_3$-algebras, $E_3\mathrm{Alg}(S)$ #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-09-24T18:57:54.302Z
+			  card-last-reviewed:: 2023-08-24T12:57:54.303Z
+			  card-last-score:: 3
 				- An $E_3$-algebra is an algebra in $E_2\mathrm{Alg}(S)$
 				- Condition for it to be monoidal: {{cloze C symmetric braided monoidal}}
 			- Cat of $E_n$-algebras for $n \geq 3$ #card
@@ -519,6 +531,12 @@ alias:: [[Category Theory]]
 			  card-last-reviewed:: 2023-07-26T12:28:28.339Z
 			  card-last-score:: 3
 		- Exercise. Verify that when $B=\mathrm{Set}$, $E_2\mathrm{Alg}(B)$ satisfies $(a \times_v b) \times_h (c \times_v d) \simeq (a \times_h c) \times_v (b \times_h d)$ #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-09-21T19:13:30.921Z
+		  card-last-reviewed:: 2023-08-21T13:13:30.921Z
+		  card-last-score:: 3
 		- Prop. A braided monoidal category is an $E_2$-algebra in the 2-cat $\mathrm{Cat}$
 			- My task is to explicitly construct the monoidal structure.
 		-

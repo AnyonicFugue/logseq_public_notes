@@ -1,9 +1,9 @@
 - Def #card
-  card-last-interval:: 30
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-06-01T11:28:42.976Z
-  card-last-reviewed:: 2023-05-02T11:28:42.977Z
+  card-last-interval:: 117.6
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2023-12-16T02:55:05.917Z
+  card-last-reviewed:: 2023-08-20T12:55:05.917Z
   card-last-score:: 5
 	- Let $f: X \rightarrow Y$ and $g: Y \rightarrow X$ be continuous maps. Suppose $g \circ f \simeq 1_X$ and $f \circ g \simeq 1_Y$. Then the **maps** $f$ and $g$ are called **homotopy equivalences**.
 	- In other words, homotopy equivalences are isomorphisms in $\mathrm{hTop}$

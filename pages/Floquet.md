@@ -64,11 +64,11 @@
 	- ## Analysis in Fourier space
 	  collapsed:: true
 		- Theorem. We may solve the Floquet states in the form of an eigenequation
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-07-28T06:50:30.667Z
-		  card-last-reviewed:: 2023-06-27T00:50:30.667Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-10-02T13:07:48.915Z
+		  card-last-reviewed:: 2023-08-21T13:07:48.915Z
 		  card-last-score:: 5
 		  $$\mathcal{H}\boldsymbol{\varphi }_{n} =\varepsilon _{n}\boldsymbol{\varphi }_{n}$$
 		  where

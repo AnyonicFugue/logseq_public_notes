@@ -14,7 +14,7 @@ alias:: [[SPT]]
 	  card-last-score:: 5
 		- With a tensor product decomposition $\mathcal{H}^{\text {tot }}=\bigotimes_i \mathcal{H}_i$ of the Hilbert space, $U=\prod_i U_i$
 			- Note that the decomposition need not be 'smallest', i.e. we may pack some spins into a block.
-		- ((63be2333-c244-431c-bd27-9d5ff7438283))
+		-
 	- ((63fec80b-8082-4e56-a5d6-2d4577d1be71)) of equivalence
 		- Two (zero temperature) gapped states of matter are in the same symmetry protected topological phase of matter if and only if you can continuously deform the Hamiltonian to get from one state to the other without closing the excitation **gap** or breaking the given **symmetry**.
 - # Properties
@@ -37,6 +37,7 @@ alias:: [[SPT]]
 		- {{embed ((63bd25c7-010b-44dd-a55b-58021693fc3c))}}
 		-
 - # Examples
+	- [[AKLT Model]]
 	- $Z_2$ symmetry #Learning-TODO
 		- Claim. There are exactly 2 possible SPT phases obeying this symmetry.
 		- ((63bd25c7-512f-435c-9ce2-0852f5c02a07))

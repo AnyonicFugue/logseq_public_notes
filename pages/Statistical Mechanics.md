@@ -7,18 +7,6 @@ type:: [[Course]]
 		- Essentially, Integrations over fields are just discrete versions of [[Gaussian integral]].
 		- Inverse matrix is replaced by kernel([[Green Function]])
 	- 5.1
-		- Turn [[Ising model]] into $\phi^4$ theory
-			- $$\begin{aligned}
-			  &H\left(\left\{\sigma_{i}\right\}_{i}\right)=-\left[\sum_{i j} \sigma_{i} J_{i j} \sigma_{j}+h \sum_{j} \sigma_{j}\right] \\
-			  &Z=\Sigma e^{-\beta H}=\Sigma e^{\sigma^{T} K \sigma+\sigma^T h1} \quad K=\beta J \\
-			  &\int d^{N} \psi e^{-\psi^{T} k^{-1} \psi}=x^{N / 2}(\operatorname{det} K)^{1 / 2} \\
-			  &\text{Substitute }\tilde{\psi}=\psi-K \sigma \\
-			  &I=\int d^{N} \tilde{\psi} e^{-(\widetilde{\psi}+k \sigma)^{T} k^{-1}(\tilde{\psi}+k \sigma)} \\
-			  &=\int d^{N} \tilde{\psi} e^{-\tilde{\psi}^{T} k^{-1} \tilde{\psi}} e^{-2 \sigma^{T} \psi} e^{-\sigma^{T} k \sigma}
-			  \end{aligned}$$
-			- $e^{\sigma^TK\sigma+\sigma^T h1}=I\int d^{N} \tilde{\psi} e^{-\tilde{\psi}^{T} K^{-1} \tilde{\psi}} e^{-\sigma^{T} (2\psi+h1)}$
-			- Sum over $\sigma$, we can obtain the partition function in an integral form.
-			- $h1$ stands for a vector with all components being $h$
 -
 - [[Saddle point integration]]
   collapsed:: true
@@ -51,11 +39,11 @@ type:: [[Course]]
 			- Open strings: ![](local://C:/Users/10309/remnote/remnote-624a8cdd2a47080035c9f8d6/files/ovs200ot_qh9DqBznH9gfbhTRHo5GbSHCGnAFrFLSmzRtJAAFP4IJD4uw-VbN5ZvXXrpbXhsJFDL5DV-te7RmyrxrFKZAORLmFh9DaR4HN-YuqdXXnMJaqVGIh8MNp5P.png)
 		-
 		- Linked-cluster theorem #card
-		  card-last-interval:: 84
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-06-27T03:27:08.742Z
-		  card-last-reviewed:: 2023-04-04T03:27:08.742Z
+		  card-last-interval:: 353.22
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-08-07T17:54:31.831Z
+		  card-last-reviewed:: 2023-08-20T12:54:31.831Z
 		  card-last-score:: 5
 			- $F=-kT\ln Z\propto \{Connected\ diagrams\}$
 			- In calculating correlation functions, also only connected diagrams need to be considered.

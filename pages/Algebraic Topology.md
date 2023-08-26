@@ -156,6 +156,12 @@
 				- > Barycenter comes from the Greek *barys* meaning heavy; thus, barycenter is just "center of gravity"
 			- m-simplex in $\mathbb R^n$ #card
 			  collapsed:: true
+			  card-last-interval:: 35.37
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-09-25T21:15:31.656Z
+			  card-last-reviewed:: 2023-08-21T13:15:31.657Z
+			  card-last-score:: 5
 				- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$. The **convex** set spanned by this set, denoted by $\left[p_0, p_1, \ldots, p_m\right]$, is called the (affine) $\boldsymbol{m}$-simplex with vertices $p_0, p_1, \ldots, p_m$.
 				  collapsed:: true
 					- 'Convex' means $t_i \geq 0$
@@ -328,11 +334,11 @@
 	  collapsed:: true
 		- Defs
 			- Convex #card
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-07-09T08:05:35.225Z
-			  card-last-reviewed:: 2023-06-08T02:05:35.226Z
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-10-06T13:07:57.939Z
+			  card-last-reviewed:: 2023-08-25T13:07:57.939Z
 			  card-last-score:: 5
 				- A subset $X$ of $\mathbf{R}^m$ is convex if, for each pair of points $x, y \in X$, the line segment joining $x$ and $y$ is contained in $X$. In other words, if $x, y \in X$, then $t x+(1-t) y \in X$ for all $t \in [0,1]$.
 			- Contractible #card

@@ -1,4 +1,4 @@
-- # Basics
+# Basics
 	- ## Defs
 		- Functional derivative
 			- Consider a theory involving a tensor field (or collection of tensor fields) defined on a manifold $M$.
@@ -37,12 +37,12 @@
 				-
 	- ## Examples
 		- id:: 643b4ac6-657b-468b-b31e-6c7106b9db20
-		  card-last-interval:: -1
-		  card-repeats:: 1
-		  card-ease-factor:: 2.5
-		  card-next-schedule:: 2023-06-21T16:00:00.000Z
-		  card-last-reviewed:: 2023-06-21T01:44:50.489Z
-		  card-last-score:: 1
+		  card-last-interval:: 33.94
+		  card-repeats:: 2
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-23T10:58:26.923Z
+		  card-last-reviewed:: 2023-08-20T12:58:26.923Z
+		  card-last-score:: 5
 		  $$
 		  \frac{\delta}{\delta \varphi(x)}\left(\int d^4 x\mathcal{L}\right)=\frac{\partial \mathcal{L}}{\partial \varphi}-\partial_\mu\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_\mu \varphi\right)}\right)
 		  $$ #card

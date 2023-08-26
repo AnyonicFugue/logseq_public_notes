@@ -1,4 +1,5 @@
 - Def
+  collapsed:: true
 	- A group that is also a finite-dimensional smooth [[Manifold]], such that the multiplication and inversion are both smooth.
 	- We may further require that the manifold is **closed**, which gives many good properties.
 	- Matrix Lie group
@@ -10,6 +11,7 @@
 - Basic Theory
 	- Mainly Chapter 2 of Hall.
 	- Defs
+	  collapsed:: true
 		- Identity component
 		  id:: 6381bc92-5f90-4322-9a1b-0cbbf9128acc
 			- The path component with the identity
@@ -80,16 +82,17 @@
 		  However, a bit knowledge in [[Complex Analysis]] would show that it is impossible to have a global one.
 	-
 - Exapmles
-  collapsed:: true
 	- General Linear Group, $GL(n,\mathbb C)$
 	- Special Unitary Group
 		- ((6381bed0-deb1-4cab-94d7-e1e4837c83e8))
 		-
 	- Heisenberg group
 	  id:: 63e884c8-ec49-498f-8b3c-1decb6106562
+	  collapsed:: true
 		- Matrices of the form $\left(\begin{array}{lll}1 & a & b \\ 0 & 1 & c \\ 0 & 0 & 1\end{array}\right)$
 	- A nonmatrix Lie group
 	  id:: 63e8847a-9140-4cd5-a6e3-a3baa7222645
+	  collapsed:: true
 		- Def
 			- $G=\mathbb{R} \times \mathbb{R} \times S^1$
 			- $\left(x_1, y_1, u_1\right) \cdot\left(x_2, y_2, u_2\right)=\left(x_1+x_2, y_1+y_2, e^{2\pi i x_1 y_2} u_1 u_2\right)$

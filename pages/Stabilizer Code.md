@@ -36,7 +36,7 @@
 	  (2) There is an $M \in \mathcal{S}$ that anti-commutes with $E_a^{\dagger} E_b$.
 		- (1) is 'non-distinguishability'. Prove orthogonality of different states as an exercise! #Learning-TODO
 		- (2) means that $E_a^{\dagger} E_b$ flips the eigenvalue of $M$, thus detectable.
-	- Theorem. If the stabilizers has only one common +1 eigenstate, the density matrix of the stabilizer is
+	- Theorem. The density matrix
 	  card-last-score:: 5
 	  card-repeats:: 1
 	  card-next-schedule:: 2023-08-17T19:03:43.949Z
@@ -44,23 +44,29 @@
 	  id:: 64b2d7a5-5f96-414a-8dd5-5649cdf05cd9
 	  card-ease-factor:: 2.6
 	  card-last-reviewed:: 2023-07-17T13:03:43.950Z
+	  collapsed:: true
 	  $$
 	  \rho=\frac{1}{|G|} \sum_{g \in S} g
-	  $$ #card
+	  $$
+	  is the unnormalized equal superposition of all +1 eigenstates and each eigenstate has weight 1. #card
 		- **Idea**
 			- The key insight is $\mathcal L(V) \simeq V \otimes V^* \simeq V \otimes V$.
 			  Therefore we can **lift** a state into a linear operator, which is vaguely analogous to lifting to the [[Covering space]].
 				- In principle we can also select other liftings...
 			- Then the eigenvalue problem is converted into an invariance problem, which can be solved by the strategy of ((64b53e14-4877-4132-8efd-8eda1934a887)).
 		- Due to rearrangement lemma, this expression does satisfy $g\rho=\rho$ and $\rho^2=\rho$.
-		- We only need to prove $\operatorname{Tr}\rho=1$.
+			- It is a mix of eigenstates.
+			  logseq.order-list-type:: number
+			- The weights are either $0$ or $1$.
+			  logseq.order-list-type:: number
+		- We only need to prove $\operatorname{Tr}\rho=d$, with d being the dimension of the +1 eigenspace. 
 		  Surprisingly, this is best proved by representation theory.
 			- We should view the stabilizers as a **representation** $T: G \to GL(V)$.
 				- Note that all irreducible subreps of $T$ are 1D representations (commutativity) and only one of them is trivial (requirement of unique stabilizer state)
 			- $$\operatorname{Tr}\rho=\frac{1}{|G|} \sum_{g \in S} \operatorname{Tr}(T(g)) 
 			  \\=\sum_{j \in irreps}\frac{1}{|G|} \sum_{g \in S}\chi_j(g)$$
 			- Note that the characters are orthogonal, so we may view the sum of characters as inner products with the trivial character. Only the trivial rep survives.
-			- $$\operatorname{Tr}\rho=\frac{1}{|G|} \sum_{g \in S}\chi_e(g)=1$$
-		- Obviously the proof does **not** work if the stabilizer space is degenerate.
+			- $$\operatorname{Tr}\rho=\frac{1}{|G|} \sum_{g \in S}\chi_e(g)=d$$
+		-
 		-
 	-

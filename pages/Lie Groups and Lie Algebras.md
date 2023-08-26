@@ -119,7 +119,14 @@
 				- Connected -> Exist a path to $A$
 				- Within the step exp is a homeomorphism
 		- Corollary. Let $G$ and $H$ be matrix Lie groups with Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, respectively, and assume $G$ is **connected**. Suppose $\Phi_1$ and $\Phi_2$ are Lie group homomorphisms of $G$ into $H$ and that $\phi_1$ and $\phi_2$ be the associated Lie algebra homomorphisms of $\mathfrak{g}$ into $\mathfrak{h}$. Then if $\phi_1=\phi_2$, we have $\Phi_1=\Phi_2$. #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-20T18:53:19.685Z
+		  card-last-reviewed:: 2023-08-20T12:53:19.686Z
+		  card-last-score:: 5
 			- Exercise.
+			- The key point is that connectedness allows a finite decomposition.
 		- Corollary. If $G$ is a **connected** matrix Lie group and the Lie algebra $\mathfrak{g}$ of $G$ is commutative, then $G$ is commutative. #card
 		  card-last-interval:: 30
 		  card-repeats:: 2
@@ -142,11 +149,11 @@
 				- 1. G closed in $X$, $G_0$ closed in G -> $G_0$ closed in X
 				- 2. For $X\in G$, $e^{tX} \in G$.
 	- ((6382c5bc-957b-4756-8adc-146cca7d1a16)) naturally induces ((6382c5bc-c2fb-4256-b0c1-e00aa69f4db0)) #card
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-07-07T00:33:01.177Z
-	  card-last-reviewed:: 2023-04-14T00:33:01.177Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-08-10T17:46:07.808Z
+	  card-last-reviewed:: 2023-08-23T12:46:07.809Z
 	  card-last-score:: 5
 	  id:: 6382ce57-6b73-4815-b142-0f889766fa01
 	  collapsed:: true

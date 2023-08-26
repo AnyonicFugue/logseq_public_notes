@@ -7,10 +7,11 @@
   card-next-schedule:: 2023-08-29T18:28:51.208Z
   card-last-reviewed:: 2023-07-29T12:28:51.208Z
   card-last-score:: 3
-	- The honeycomb seems the only known frustrated model to exhibit topological order. Could we extend it?
-		- Would anyonic operators be the key?
-		- Or some comparison to Levin-Wen, which is frustration-free?
+  collapsed:: true
 	- ## Unsolved
+		- The honeycomb seems the only known frustrated model to exhibit topological order. Could we extend it?
+			- Would anyonic operators be the key?
+			- Or some comparison to Levin-Wen, which is frustration-free?
 		- The local Hilbert space is 2D and can well be encapsulated by a single fermionic mode. Why bother embedding it into a 4D space?
 		  id:: 64c27e7e-e01d-45b9-accc-c06dfd136c42
 		  collapsed:: true
@@ -27,6 +28,7 @@
 		  collapsed:: true
 			- It is claimed that ((64cdaf2b-8ee3-468a-b16e-f7c2f1bb30f3)) and the proof is beautiful. Read it.
 			  collapsed:: true
+			- Another viewpoint is the boundary CFT and chiral edge modes, which implies nontrivial bulk CFT.
 			- Topobook ((64c2810d-1950-4c85-9460-2bf755f46683)).
 			  collapsed:: true
 				- #+BEGIN_TIP
@@ -67,8 +69,10 @@
 		- The dimension is 4 since each mode (spin-up and spin-down) can be occupied or unoccupied.
 		- The physical space is 2D since the occupation number must be 1.
 	- Majorana operators $b^x, b^y, b^z$, $c$
+	  collapsed:: true
 		- Note that two majorana operators corresponds to a fermionic mode.
 	- Physical space $M$
+	  collapsed:: true
 		- Defined by $|\xi\rangle \in \mathcal{M}$ if and only if $D|\xi\rangle=|\xi\rangle$ where $D=b^x b^y b^z c$
 	- Extended Pauli Operators
 		- $$
@@ -105,6 +109,7 @@
 		- ((64b4a3a2-5a8e-4828-8059-2d5fdb0ec212))
 		- ((64b442f1-bf2d-40cd-926a-9629bc86763d))
 	- Summary #card
+	  collapsed:: true
 		- First, transform to the majorana representation and the extended space.
 			- The lattice system is not essentially fermionic.
 			  ((64b48b82-84da-4b28-83de-30ce1ef5338a))
@@ -154,6 +159,7 @@
 		  ((64b44b79-886b-4eb4-ad32-9158770a65fa))
 			- ((64b44b9c-9c41-4142-a64e-968b5e4dbe19))
 	- ## Construct Solutions
+	  collapsed:: true
 		- Observation. (i) $u_{jk}$ commute with each other (ii) $u_{jk}$ commute with the Hamiltonian!
 		  id:: 64b44bb7-1b1b-4fda-9690-8018ad7cb6c1
 		  collapsed:: true
@@ -241,6 +247,7 @@
 				- The factor is $1/2$ rather than $1/4$ since each mode is counted twice by the anti-symmetric matrix.
 		- Step 2. Perform Fourier transformation to make use of translation invariance
 			- We study the configuration where all $u=1$.
+			  collapsed:: true
 			- $$
 			  \begin{gathered}
 			  H=\frac{1}{2} \sum_{\mathbf{q}, \lambda, \mu} i \widetilde{A}_{\lambda \mu}(\mathbf{q}) a_{-\mathbf{q}, \lambda} a_{\mathbf{q}, \mu}, \quad \widetilde{A}_{\lambda \mu}(\mathbf{q})=\sum_t e^{i\left(\mathbf{q}, \mathbf{r}_t\right)} A_{0 \lambda, t \mu} \\
@@ -260,6 +267,43 @@
 		  f(\mathbf{q})=2\left(J_x e^{i\left(\mathbf{q}, \mathbf{n}_1\right)}+J_y e^{i\left(\mathbf{q}, \mathbf{n}_2\right)}+J_z\right),
 		  \end{gathered}
 		  $$
+			- Diagonalization
+			  id:: 64e4c247-88fb-4f65-a2dc-612c882c026d
+				- Consider
+				  collapsed:: true
+				  $$\begin{aligned}
+				  M & =\begin{bmatrix}
+				  0 & x\\
+				  x^{*} & 0
+				  \end{bmatrix} ,u=\left(\begin{array}{ c }
+				  1\\
+				  a
+				  \end{array}\right)\\
+				  Mu & =\left(\begin{array}{ c }
+				  xa\\
+				  x^{*}
+				  \end{array}\right)\\
+				  \end{aligned}$$
+					- Note that we **cannot** directly write $a_{\pm}=\pm \sqrt{\frac {x^*} x}$.
+				- Sign problem of the square root
+				  collapsed:: true
+					- In short, when taking $f(p) \to -f(p)$, the eigenvectors shall not change but the eigenvalues should obtain a minus.
+					  This is not reflected if we write $\lambda_{\pm} = \pm \sqrt{x^* x}$.
+				- Take a concrete route: Write $x=re^{i\theta}$.
+					- $$\begin{align*}
+					  x & =re^{i\theta }\\
+					  a^{2} & =\frac{x^{*}}{x} =e^{-2i\theta }\\
+					  a_{+} & =e^{-i\theta } =\frac{x^{*}}{|x|} ,\lambda _{+} =r=|x|\\
+					  a_{-} & =-e^{-i\theta } =-\frac{x^{*}}{|x|} ,\lambda _{-} =-r
+					  \end{align*}$$
+					-
+				-
+			- Pluggin in $x=if(p)$,
+			  $$\begin{align*}
+			  b_{p,\pm }^{\dagger } & =\frac{1}{\sqrt{2}}\left( a_{p,1}^{\dagger } \pm {\frac{-if^{*}( p)}{|f( p)|}} a_{p,2}^{\dagger }\right)
+			  \end{align*}$$
+		- Note that we don't need a chemical potential to decides which states are occupied here, since the eigenenergies are **absolute**.
+			- i.e. The modes with $\varepsilon < 0$ are occupied and those with $\varepsilon > 0$ are not.
 		- Is the phase gapless?
 		  collapsed:: true
 			- 'Gapless' means we can find a $\mathbf{q}$ such that $f(\mathbf{q})=0$
@@ -272,7 +316,7 @@
 			-
 		- ((64c2c17e-d382-461c-8c36-d7caf82af369))
 - # Alternative Solution: [[Jordan-Wigner Transformation]]
-	- See ((64cbc95f-3878-4633-9f23-c3ae9a407a7e)).
+	- See [[2016_Kitaev honeycomb tensor networks]]
 	-
 - # Properties of the Gapped Phase
 	- Kitaev uses perturbation theory -- and he doesn't see this as something problematic!

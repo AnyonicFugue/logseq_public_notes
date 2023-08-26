@@ -35,6 +35,7 @@ collapsed:: true
 	- [Riinn 书单 知乎](https://www.zhihu.com/question/21451715/answer/429838579)
 - # Mathematics
   id:: 64b4848d-0b6a-4bc0-af8e-6f4d53c52b9d
+  collapsed:: true
 	- WWLi's notes as a roadmap for algebra
 		- 代数学方法1,2
 		- [YAlg1.pdf (wwli.asia)](https://www.wwli.asia/downloads/YAlg1.pdf)
@@ -76,6 +77,8 @@ collapsed:: true
 - # Physics
   id:: 64b4848d-61f3-49c7-afa7-073d867798c2
 	- CFT
+	- QHE, FQHE
+		- Good examples for CFT, chiral topological order, etc.
 	- TQFT
 		- Start from Witten's paper on quantum Chern-Simons fields.
 	- Weinberg QFT

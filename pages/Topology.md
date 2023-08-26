@@ -108,11 +108,11 @@
 			-
 			- the closure of $A$ in $Y$ equals $\overline{A} \cap Y$.
 		- Limit point #card
-		  card-last-interval:: 25.01
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-02-21T12:16:56.950Z
-		  card-last-reviewed:: 2023-01-27T12:16:56.950Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-10-02T13:09:18.413Z
+		  card-last-reviewed:: 2023-08-21T13:09:18.413Z
 		  card-last-score:: 5
 			- Every neighborhood of $x$ intersects $A$ in some point **other than** $x$ itself. 
 			  Said differently, $x$ is a limit point of $A$ if it belongs to the closure of $A-\{x\}$ .
@@ -217,11 +217,11 @@
 		  collapsed:: true
 			- A point $x$ of $X$ is said to be an **isolated point** of $X$ if the one-point set $\{x\}$ is open in $X$
 		- Lebesgue number #card
-		  card-last-interval:: 30
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-04T00:33:24.723Z
-		  card-last-reviewed:: 2023-05-05T00:33:24.723Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-10-01T12:54:41.172Z
+		  card-last-reviewed:: 2023-08-20T12:54:41.173Z
 		  card-last-score:: 5
 			- For a covering $\mathcal A$ and metric space X, for each subset of $X$ having diameter less than $\delta$, there exists an element of $\mathcal{A}$ containing it.
 			- Diameter

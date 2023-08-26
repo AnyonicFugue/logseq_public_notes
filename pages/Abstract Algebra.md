@@ -153,11 +153,11 @@
 		  card-last-score:: 5
 			- Just invoking the above theorem where $N_2=\{e\}$.
 		- ((63d8b994-a24d-4c55-a175-51c32f4f9bd2)) If $G$ is a free group with free generators $a_\alpha$, then $G /[G, G]$ is a free abelian group with basis $\left[a_\alpha\right]$, where $\left[a_\alpha\right]$ denotes the coset of $a_\alpha$ in $G /[G, G]$. #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-06-08T00:23:31.250Z
-		  card-last-reviewed:: 2023-05-09T00:23:31.252Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-12-20T02:56:40.342Z
+		  card-last-reviewed:: 2023-08-24T12:56:40.342Z
 		  card-last-score:: 5
 			- Prove by the universal properties.
 			- ![Image(1).png](../assets/Image(1)_1675148605297_0.png)

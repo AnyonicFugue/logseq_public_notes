@@ -1,10 +1,10 @@
 - Def #card
-  card-last-score:: 5
-  card-repeats:: 3
-  card-next-schedule:: 2023-05-22T13:07:09.090Z
-  card-last-interval:: 61.44
-  card-ease-factor:: 2.56
-  card-last-reviewed:: 2023-03-22T03:07:09.091Z
+  card-last-score:: 3
+  card-repeats:: 4
+  card-next-schedule:: 2024-04-26T12:07:42.766Z
+  card-last-interval:: 245.97
+  card-ease-factor:: 2.42
+  card-last-reviewed:: 2023-08-24T13:07:42.767Z
 	- Def 1
 		- Two algebras $A,B \in C$ are Morita-equivalent if $\mathrm{RMod}_A(C)\simeq \mathrm{RMod}_B(C)$
 		- Physically, $A,B$ correspond to different sets of anyons to be condensed. Morita equivalence means that we can obtain equivalent boundary phases by condensing different sets of anyons.

@@ -1,10 +1,10 @@
 - The Lemma. #card
   card-last-score:: 5
-  card-repeats:: 3
-  card-next-schedule:: 2023-05-21T04:37:57.993Z
-  card-last-interval:: 67.2
-  card-ease-factor:: 2.8
-  card-last-reviewed:: 2023-03-15T00:37:57.993Z
+  card-repeats:: 4
+  card-next-schedule:: 2024-08-11T17:56:32.795Z
+  card-last-interval:: 353.22
+  card-ease-factor:: 2.9
+  card-last-reviewed:: 2023-08-24T12:56:32.796Z
 	- ((638de986-e9a0-45a2-bba8-d698da5b3ed1)) Let $\mathcal{A}$ be an open covering of the metric space $(X, d)$. If $X$ is compact, there is a $\delta>0$ such that for each subset of $X$ having diameter less than $\delta$, there exists an element of $\mathcal{A}$ **containing** it.
 	  The number $\delta$ is called a Lebesgue number for the covering $\mathcal{A}$.
 		- This grants some convenient constructions. Essentially, we have a lower bound for the 'lengths'.

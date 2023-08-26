@@ -42,21 +42,7 @@ type:: [[Course]]
 			  $$
 - # Electron Gas
   collapsed:: true
-	- ## Tight-Binding Model
-	  id:: 64238eab-5e73-4970-9129-9cbcc7e974fb
-	  collapsed:: true
-		- Generally $\hat{H}=\sum_{n i, m j}\left\langle n i\left|\hat{h}_1\right| m j\right\rangle \hat{c}_{n i}^{\dagger} \hat{c}_{m j}$
-		  collapsed:: true
-			- Sum of hoppings from $mj$ to $ni$.
-		- Tight-binding model: Only adjacent hoppings (electrons are localized).
-		- Example
-		  collapsed:: true
-			- Tight-binding on square lattice
-			  collapsed:: true
-				- $$
-				  \hat{H}=-t \sum_{\left\langle ij \right\rangle}\left(\hat{c}_i^{\dagger} c_j+c . c .\right)
-				  $$
-				- By Fourier transformation, we can diagonalize the Hamiltonian and obtain $E_{\vec{k}}=-2 t\left[\cos \left(k_x a\right)+\cos \left(k_y a\right)\right]$.
+	- id:: 64238eab-5e73-4970-9129-9cbcc7e974fb
 	- ## [[Bloch Theorem]] and Bloch Wavefunction
 	- ## Wannier Wavefunction
 	  collapsed:: true
