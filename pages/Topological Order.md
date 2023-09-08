@@ -8,6 +8,7 @@
   CLOCK: [2022-12-23 Fri 16:47:12]
   :END:
 - # Problems and Questions #card
+  collapsed:: true
 	- Why we usually define the lattices by commuting pairs of projectors ($A_s,B_p$)? Frustrated topological orders?
 		- Tentative: Topo orders are robust against local perturbations. So we may deform them in some ways; the form of commuting pairs are the simplest.
 	- ((64e6b193-a04a-49af-b902-a612fa3b1c09))
@@ -56,6 +57,7 @@
 			- ((636866b4-a674-47ef-bc02-ec464e6209d0))
 		-
 - # Definitions
+  collapsed:: true
 	- [[Topological skeleton]]
 	- [[Stacking]]
 	- [[Condensable algebra]]
@@ -85,6 +87,12 @@
 	  id:: 636879d9-dfe3-4bdd-a078-587cc9c25350
 	- [[Chiral central charge]]
 	- Phase Transitions #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-09-28T19:25:08.489Z
+	  card-last-reviewed:: 2023-08-28T13:25:08.490Z
+	  card-last-score:: 3
 		- Spatial
 			- 'Domain walls'
 			- Not well-defined yet!
@@ -337,11 +345,11 @@
 								- Non-invertible ones are the (noninvertible) endomorphisms.
 						- [[Fusion rules]] of the domain walls #card
 						  id:: 63a69765-9737-4e07-a68e-b2b4796aa6b2
-						  card-last-interval:: 30
-						  card-repeats:: 2
-						  card-ease-factor:: 2.7
-						  card-next-schedule:: 2023-06-01T11:19:57.561Z
-						  card-last-reviewed:: 2023-05-02T11:19:57.562Z
+						  card-last-interval:: 117.6
+						  card-repeats:: 3
+						  card-ease-factor:: 2.8
+						  card-next-schedule:: 2023-12-22T02:44:58.655Z
+						  card-last-reviewed:: 2023-08-26T12:44:58.655Z
 						  card-last-score:: 5
 							- ((6397d84a-bb0f-4e71-93b8-5077ea559ddb))
 							- ((6397d8c8-261e-4b5e-8bb6-0dff22e5daec))
@@ -537,7 +545,7 @@
 	- ## Towards higher dimensions
 	  collapsed:: true
 		- The theory in (3+1)D, even the mathematics needed, are yet to be developed.
-			- It is well known that 3D is the most difficult case (Poincare conjecture, tiling problem, quantum gravity, eg). Can we start from higher dimensions first? #[[Observations/Math and Physics]]
+			- It is well known that 3D is the most difficult case (Poincare conjecture, tiling problem, quantum gravity, eg). Can we start from higher dimensions first? #[[System/Math and Physics]]
 			  id:: 63c14170-dfdd-46ca-9d12-60ac7cc181f2
 			- But (3+1)D would be a subproblem of higher dimensions. For example, boundaries of (4+1)D are (3+1)D.
 				- Can we overcome the difficulty?
@@ -596,7 +604,8 @@
 	- ((439b4d01-7181-4a96-a2ff-3f02ac2fd59d))
 		- $Z_2$ and semion, spin and statistics
 	-
--
+- # Notes
+	-
 - # Misc
 	- ((63bcd07b-ca0f-4a0f-b3bd-5670de622748)) of topo orders
 	- ((6371bad0-7623-4962-ab25-284cd68ea2e2))
@@ -634,7 +643,7 @@
 	  collapsed:: true
 		- The spectrum of the Hamiltonian only concerns thermodynamics.
 		  id:: 63c14170-af8d-4b8f-a93a-f4062f8d89e3
-		  A lot more is hidden in the eigenstates. #Observations
+		  A lot more is hidden in the eigenstates. #System
 		-
 		- Theorem. Local excitation ⇒ Trivial braidings
 		  collapsed:: true
@@ -658,9 +667,9 @@
 			- Physicists developed all sorts of dirty tricks: EFT, Duality, Tensor network, DMRG, ...
 			  But they only provide some unrigorous approximations.
 		- It seems evident that [[Quantum Gravity]] is a many body problem, perhaps even strongly-interacting. But with current scarce understanding we aren't likely to do much.
-		- **Fundamental problem:** Is there a 'new calculus' for (strongly-interacting) quantum many body systems? #Observations
+		- **Fundamental problem:** Is there a 'new calculus' for (strongly-interacting) quantum many body systems? #System
 		- Topological orders are the **simplest** quantum phases. So we expect to learn something from studying them.
-		- Absence of geometry #Observations
+		- Absence of geometry #System
 		  id:: 63c14170-6f75-4a38-a5e5-c30183939276
 			- To Einstein, gravity is geometry.
 			- We may expect [[Quantum Gravity]] to be geometrical in some ways.
@@ -671,7 +680,7 @@
 			- But first of all, **what is geometry?**
 				- Kong: providing some sort of visualization or intuition. (Like ?)
 		-
-		- More is different. Infinite more is more different! #Observations
+		- More is different. Infinite more is more different! #System
 		  id:: 63c14170-fd32-4ff9-b269-7565d18c16f1
 			- Some structures only exist in infinite-size limit.
 			- Others don't exist even under the limit. We must have **true infinity**.

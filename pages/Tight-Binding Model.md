@@ -10,7 +10,7 @@
 	- ## Hexagonal Lattice
 	  id:: 64e25c74-5efe-4b19-888d-d81eabc1c273
 		- $$
-		  \hat{H}=- \sum_{\left\langle ij \right\rangle}t_\alpha \left(\hat{c}_i^{\dagger} c_j+c . c .\right)
+		  \hat{H}=- \sum_{\left\langle ij \right\rangle}t_\alpha \left(\hat{c}_i^{\dagger} c_j + h . c .\right)
 		  $$
 			- $t_x,t_y,t_z$ are the couplings on x,y,z edges respectively.
 		- Solution

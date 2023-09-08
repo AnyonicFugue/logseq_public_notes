@@ -13,6 +13,12 @@ alias:: [[Ising]]
 		- Remove the interaction at the cost of introducing a new field (i.e. a Gaussian integration)
 	- Derivation
 		- Proposition. Fat unity:
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-10-07T07:40:48.951Z
+		  card-last-reviewed:: 2023-09-06T01:40:48.951Z
+		  card-last-score:: 5
 		  $$
 		  1=\mathcal{N} \int D \psi e^{-\frac{1}{4} \sum_{i j} \psi_i\left(K^{-1}\right)_{i j} \psi_j}
 		  $$ #card

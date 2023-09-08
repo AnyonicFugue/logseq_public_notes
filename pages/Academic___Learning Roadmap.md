@@ -31,7 +31,7 @@ collapsed:: true
 			- **Examples**
 				- Algebraic Geometry
 				- Number Theory
-- # Others' Roadmas
+- # Others' Roadmaps
 	- [Riinn 书单 知乎](https://www.zhihu.com/question/21451715/answer/429838579)
 - # Mathematics
   id:: 64b4848d-0b6a-4bc0-af8e-6f4d53c52b9d
@@ -77,6 +77,9 @@ collapsed:: true
 - # Physics
   id:: 64b4848d-61f3-49c7-afa7-073d867798c2
 	- CFT
+		- VOA
+			- https://www.zhihu.com/question/38253477/answer/2484509893
+				- 不一定用他的笔记，但他的comment很有意思。
 	- QHE, FQHE
 		- Good examples for CFT, chiral topological order, etc.
 	- TQFT
@@ -84,6 +87,7 @@ collapsed:: true
 	- Weinberg QFT
 	- Chern numbers and gapless edge modes
 	-
+- # [[Research/To Be Investigated]]
 - # Thoughts of Maestros
   collapsed:: true
 	- ## EGA, SGA
@@ -119,8 +123,10 @@ collapsed:: true
 		- Atiyah's work on ((64b730c5-1383-44f1-b696-017ae4193dec))
 		-
 	- ## Mathematics
+	  collapsed:: true
 		- Graph theory
 			- We encounter coloring and partition of graphs repeatedly in lattice models...
+			- https://yufeizhao.com/gtacbook/ A good lecturenote
 		- Low-dimensional topology
 			- https://www.zhihu.com/question/487268891/answer/3096446295
 				- 为什么四维是个临界维数？
@@ -139,6 +145,9 @@ collapsed:: true
 		- QFT in curved spacetime
 			- Would a compact space lead to countable degrees of freedom and remove the divergences?
 				- I guess not (since we don't know theories at high energy scales), but this also helps to understand the role of the spacetime manifold.
+		- Phase transitions
+			- KT phase transition
+			- (Deconfined) quantum criticality
 		- Mott insulators
 			- How topological (LRE) it is?
 		- QC

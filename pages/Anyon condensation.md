@@ -260,7 +260,7 @@
 - # Comments
   collapsed:: true
 	- ((63d87e90-19ca-426a-93d5-77c0b39eac21))
-	- Why does the mathematical structure (not being first principles) fit so well with physics? #[[Observations/Math and Physics]]
+	- Why does the mathematical structure (not being first principles) fit so well with physics? #[[System/Math and Physics]]
 		- Deeper structures behind?
 	- ((63d8728e-64bc-4c90-aaf2-63efb1e11fac))
 	- ((63d872bb-9d03-495a-8030-e76fb77eb849))

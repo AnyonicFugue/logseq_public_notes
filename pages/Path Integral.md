@@ -20,7 +20,7 @@
 	  & =\left(\frac{m}{2 \pi \hbar i \epsilon}\right)^{\frac{3}{2}} e^{\frac{i}{\hbar} S\left(t_{i+1}, t_i\right)}
 	  \end{aligned}
 	  $$
-		- Exercise. Calculate the free-particle propagator. #card
+		- Exercise. Calculate the free-particle propagator.
 		  card-last-interval:: 32.51
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6

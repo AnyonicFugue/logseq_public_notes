@@ -128,6 +128,12 @@ alias:: [[Category Theory]]
 			- Equivalent definitions #card
 			  id:: 6416c1f0-2caa-46a8-85c7-b247488d0785
 			  collapsed:: true
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-09-28T19:24:27.806Z
+			  card-last-reviewed:: 2023-08-28T13:24:27.807Z
+			  card-last-score:: 3
 				- Version 1. A pair of functors $F:C \to D$ and $G:D \to C$ s.t. $\mathrm{Hom}_{\mathcal{C}}((-),G(-))$ and $\mathrm{Hom}_{\mathcal{D}}(F(-),(-))$ are naturally isomorphic.
 					-
 					- $\mathrm{Hom}_{\mathcal{C}}((-),G(-))$ is a functor $\bar C \times D \to \mathrm{Set}$.
@@ -477,11 +483,11 @@ alias:: [[Category Theory]]
 				- Finally find the associators and unitors.
 			- Theorem 1. $E_1\mathrm{Alg}(C) \simeq \mathrm{Alg}(C)$ #card
 			  collapsed:: true
-			  card-last-interval:: 30
-			  card-repeats:: 1
-			  card-ease-factor:: 2.36
-			  card-next-schedule:: 2023-06-27T00:40:49.747Z
-			  card-last-reviewed:: 2023-05-28T00:40:49.749Z
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.22
+			  card-next-schedule:: 2023-10-07T12:51:32.025Z
+			  card-last-reviewed:: 2023-08-26T12:51:32.026Z
 			  card-last-score:: 3
 				- *Complete the proof!*
 				- Comment: This is quite interesting. Though $E_0\mathrm{Alg}(C)$ and $C$ are generally different, their cats of algebras are equivalent.
@@ -614,11 +620,11 @@ alias:: [[Category Theory]]
 - # Limits and Colimits
   collapsed:: true
 	- Cone #card
-	  card-last-interval:: 32.57
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-07T01:13:33.272Z
-	  card-last-reviewed:: 2023-05-05T12:13:33.272Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-10-07T12:56:36.918Z
+	  card-last-reviewed:: 2023-08-26T12:56:36.918Z
 	  card-last-score:: 5
 		- A cone over a functor $F:J\to C$ with **summit** $x$, $\Delta_x$, is a natural transformation $\lambda: x \Rightarrow F$ whose domain is the constant functor at $x$.
 			- A constant functor maps every $j$ to $x$ and maps every hom to $id_x$.

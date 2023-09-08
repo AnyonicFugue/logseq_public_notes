@@ -94,3 +94,4 @@ alias:: Second Quantization
 		  id:: 64b48b82-84da-4b28-83de-30ce1ef5338a
 - [[Projects/Anyonic Operator]]
   id:: 64b547b0-8027-43a3-a8a9-25f9fcdd65b6
+  collapsed:: true

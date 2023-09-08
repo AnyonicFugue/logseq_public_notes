@@ -22,7 +22,7 @@
 			  #+END_IMPORTANT
 			- But can't we?
 				- We can't know the full details, but is it possible to test a few **principles** (e.g. Lorentz covariance)?
-				- Also, divergence is the prescence of high-energy physics. #[[Observations/Math and Physics]]
+				- Also, divergence is the prescence of high-energy physics. #[[System/Math and Physics]]
 					- To be more accurate, theoretically there are divergences, but experimentally nothing is divergent. Therefore some mechanism must protect the observables from diverging.
 		- Observations at $E \lesssim E_{\max }$ shouldn't depend esssentially on high energies.
 		  id:: 6447451d-a5e6-4238-b04e-d4ea94425152
@@ -389,7 +389,7 @@
 		  card-last-score:: 5
 			- Idea: We can measure $\lambda$ at some reference scattering process (e.g. at the shreshold, i.e. $s=4m^2,u=t=0$).
 			  Then we can compare different momenta to **cancel the divergence**.
-				- In other words, experimental data could also be a valuable input -- to fix a 'reference' not available from first principles! #[[Observations/Math and Physics]]
+				- In other words, experimental data could also be a valuable input -- to fix a 'reference' not available from first principles! #[[System/Math and Physics]]
 				- This works since the UV divergence arises from the loop momenta and is independent of external momenta.
 			- Specifically:
 				- The effective coupling $\lambda$ at the threshold satisfies

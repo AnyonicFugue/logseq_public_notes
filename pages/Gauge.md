@@ -33,7 +33,7 @@ alias:: Gauge Theory
 	  card-last-reviewed:: 2023-06-01T01:41:00.087Z
 	  card-last-score:: 5
 		- Very simple exercise.
-		- Abstraction leads to the underlying structure, which points to the path. #[[Observations/Math and Physics]]
+		- Abstraction leads to the underlying structure, which points to the path. #[[System/Math and Physics]]
 	- Thus we can select a basis where $D^{ab}=C(r) \delta^{a b}$, then $f^{a b c}=-\frac{i}{C(r)} \operatorname{tr}\left\{\left[t_r^a, t_r^b\right] t_r^c\right\}$
 		- It is completely antisymmetric.
 	- ## Some reps

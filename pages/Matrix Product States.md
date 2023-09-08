@@ -360,7 +360,8 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 			- ((64c7b982-ecf8-47d4-919b-c3ceaf0b8610))
 		- Step 1
 		  collapsed:: true
-			- A very interesting topic. We shall better understand the role of gap here. #[[Research/To Be Investigated]]
+			- A very interesting topic. We shall better understand the role of gap here.
+			  id:: 64c84429-d174-419e-a027-ac09c02254c0
 		- Step 2
 		  collapsed:: true
 			- See ((64c69deb-c2c4-4b90-9848-ec3506076588)), property 3.

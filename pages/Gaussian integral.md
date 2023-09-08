@@ -22,6 +22,6 @@
 	- $\left\langle v_{i_{1}} v_{i_{2}} \ldots v_{i_{2 n}}\right\rangle=\sum\limits_{\substack{\text { pairings of } \\\left\{i_{1}, \ldots, i_{2 n}\right\}}} A_{i_{k_{1}} i_{k_{2}}}^{-1} \ldots A_{i_{k_{2 n-1}}^{-1} i_{k_{2 n}}}$
 	-
 	- Proof: Apply derivatives to $j_m$.
-	- This is a common but extremely interesting trick: Apply derivative to some "parameter" #Observations
+	- This is a common but extremely interesting trick: Apply derivative to some "parameter" #System
 	  id:: 63c14166-98ea-48ae-a115-b91b991489e8
 -

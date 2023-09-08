@@ -9,7 +9,7 @@
 		- Two algebras $A,B \in C$ are Morita-equivalent if $\mathrm{RMod}_A(C)\simeq \mathrm{RMod}_B(C)$
 		- Physically, $A,B$ correspond to different sets of anyons to be condensed. Morita equivalence means that we can obtain equivalent boundary phases by condensing different sets of anyons.
 	- Def2
-		- If there exists an [[invertible]] $(\mathcal{P}, \mathcal{Q})$-bimodule, we say $\mathcal{P}$ and $\mathcal{Q}$ are Morita equivalent.
+		- If there exists an [[Invertible]] $(\mathcal{P}, \mathcal{Q})$-bimodule, we say $\mathcal{P}$ and $\mathcal{Q}$ are Morita equivalent.
 			- In plain English, the category of [[Domain Wall]] between P and Q can be inverted.
 				- Note that $\mathcal{X}$ isn't a single domain wall, but the **category** of domain walls.
 			- ((63a956c5-693d-4988-9138-0801ee7ab259))

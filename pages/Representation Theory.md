@@ -77,15 +77,15 @@ alias:: Representation
 		- Again and again this construction strikes me. So mysterious, so unreasonably powerful.
 		-
 		- Thought behind
-			- The space of functions on $x$ could provide valuable information about the structure of $x$! #[[Observations/Math and Physics]]
+			- The space of functions on $x$ could provide valuable information about the structure of $x$! #[[System/Math and Physics]]
 				- Note that automorphism (and Galois theory) is a special case.
 		- Obviously we can generalize to higher-rank tensors, which are tensor products of the regular representation.
 	- Character #card
-	  card-last-interval:: 30
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-05-07T11:27:27.851Z
-	  card-last-reviewed:: 2023-04-07T11:27:27.851Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-12-22T02:51:42.686Z
+	  card-last-reviewed:: 2023-08-26T12:51:42.686Z
 	  card-last-score:: 5
 		- $\chi_T(g)=Tr(T(g))$ trace of the rep. operator
 		- Automatically basis independent, thus a good def.
@@ -97,7 +97,7 @@ alias:: Representation
 	  card-last-reviewed:: 2023-05-22T01:00:34.059Z
 	  card-last-score:: 5
 		- $$( f_{1} ,f_{2}) =\frac{1}{|G|}\sum _{g\in G} f_{1} (g)\overline{f_{2} (g)}$$
-		- The strategy is to put additional structures on the object being studied (inner product, topology, representation, etc.) #[[Observations/Math and Physics]]
+		- The strategy is to put additional structures on the object being studied (inner product, topology, representation, etc.) #[[System/Math and Physics]]
 			- In this way we extract the core information and invoke the established truths.
 			- Also, the existence and uniqueness of the structure can reveal lots of information!
 	- Central function #card 

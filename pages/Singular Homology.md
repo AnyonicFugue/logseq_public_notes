@@ -371,16 +371,27 @@
 			- Use the proposition $\partial_{n+1} c_n(\sigma)=\sigma-c_{n-1} \partial_n(\sigma)$, we easily see that $c_n(\sigma)$ is precisely the desired bulk!
 	- ((64677c74-e1cc-4cb6-8792-ba9c791213f7)) (Homotopy Axiom). If $f, g: X \rightarrow Y$ are homotopic, then $H_n(f)=H_n(g)$ for all $n \geq 0$. #card
 	  id:: 6498e102-758e-44db-bbcb-a7c679b43a90
-		- Notes
-			- This is a standard construction called *the method of acyclic models*!
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-09-28T19:56:12.020Z
+	  card-last-reviewed:: 2023-08-28T13:56:12.021Z
+	  card-last-score:: 3
+		- Intuition
+			- Obviously we need to start from the homotopy map $F$.
+			- In short, if we view $F_\#(\sigma \times I)$ as a map from $\Delta^n \times I$ to $X \times I$, then $\partial F_\#(\sigma \times I)$ consists of the 'top' $f_\# (\sigma)$, the 'bottom' $-g_\# (\sigma$) and 'sides' $F_\# (\partial \sigma)$.
+		-
+		- This is a standard construction called *the method of acyclic models*!
+			- The problem is, why does the author proves a simple intuition in such a cumbersome way? Is there any deeper reason?
+			-
 		- Lemma 1. Assume that $f, g: X \rightarrow Y$ are continuous maps and that there are homomorphisms $P_n: S_n(X) \rightarrow S_{n+1}(Y)$ with
 		  id:: 64645091-3e12-430a-aeb4-5ec910663e10
 		  $$
 		  f_{\#}-g_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
 		  $$
 		  then $H_n(f)=H_n(g)$ for all $n \geq 0$.
-			- In cases where $X,Y$ are convex subsets of $\mathbb R^n$, $P_n=c'_n \circ (f_\#-g_\#)$ serves.
-			- Therefore, the lemma says something similar to convexity.
+			- The lemma formalizes the intuition of 'find a bulk for any $f_\#(\sigma)-g_\#(\sigma)$'
+			- The second term is zero for cycles, i.e. a 'freedom of choice'.
 		- Lemma 2. Let $X$ be a space and, for $i=0,1$, let $\lambda_i^X: X \rightarrow X \times \mathbf{I}$ be defined by $x \mapsto(x, i)$. If $H_n\left(\lambda_0^X\right)=H_n\left(\lambda_1^X\right): H_n(X) \rightarrow H_n(X \times \mathbf{I})$, then $H_n(f)=H_n(g)$ whenever $f$ and $g: X \rightarrow Y$ are homotopic. #card
 		  card-last-interval:: 32.57
 		  card-repeats:: 1
@@ -390,8 +401,6 @@
 		  card-last-score:: 5
 			- An interesting exercise -- mainly a conceptual challenge rather than a technical one!
 				- This is the merit of formality: We can view path and homotopy as maps and operate on them formally!
-			- Question: Where is the condition $f \simeq g$ used?
-				- For $F:X \times I \to Y$, $F_\#$ is a legitimate homomorphism $H_n(X \times I) \to H_n(Y)$ only when $F$ is continuous.
 		- By lemma 1, we need to show $H_n\left(\lambda_0^X\right)=H_n\left(\lambda_1^X\right): H_n(X) \rightarrow H_n(X \times \mathbf{I})$.
 			- Intuitively this is obvious:
 			  ![Image(1).png](../assets/Image(1)_1684503924712_0.png){:height 232, :width 159}

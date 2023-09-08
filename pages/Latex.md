@@ -3,12 +3,12 @@
 	- 'Big' things are obtained by {{cloze capitalizing the first letter}}.
 		- $\Rightarrow$ = `\Rightarrow`
 	- $\subset$ and $\subseteq$ #card
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-07-25T11:20:23.029Z
-	  card-last-reviewed:: 2023-05-02T11:20:23.030Z
-	  card-last-score:: 5
+	  card-last-interval:: 297.18
+	  card-repeats:: 4
+	  card-ease-factor:: 2.66
+	  card-next-schedule:: 2024-06-19T17:49:56.308Z
+	  card-last-reviewed:: 2023-08-27T13:49:56.309Z
+	  card-last-score:: 3
 		- `\sub` and `\subseteq`
 	- $\hookrightarrow$
 	-

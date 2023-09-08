@@ -11,11 +11,11 @@
 			- 'Simple' means 'no nontrivial sub-thing'
 		- In a semisimple category, this is equivalent to $\mathrm{Hom}_{\mathcal{C}}(x,x) \simeq \mathbb C$
 	- Pre-semisimple category #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-07-20T07:12:48.250Z
-	  card-last-reviewed:: 2023-06-19T01:12:48.250Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.22
+	  card-next-schedule:: 2023-10-07T12:55:55.602Z
+	  card-last-reviewed:: 2023-08-26T12:55:55.602Z
 	  card-last-score:: 3
 		- A k-linear cat C, such that 
 		  (1) Every object is a direct sum of simple objects

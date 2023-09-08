@@ -1,0 +1,2 @@
+- ![2020_Kawagoe_Levin_Microscopic definitions of anyon data.pdf](file://zotero_link/Research/Anyon Data from Microscopic Data/2020_Kawagoe_Levin_Microscopic definitions of anyon data.pdf)
+- Key problem: We need to precisely define the anyon operators (and anyon states), which might not be easily found for an arbitrary Hamiltonian.

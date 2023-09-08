@@ -191,3 +191,6 @@
 			- Preserving the metric $E_{a b}=\left(\begin{array}{cc}0 & 1 \\ -1 & 0\end{array}\right)$, where the elements are $N/2 \times N/2$ blocks
 	- ## Five Exceptions
 		- $G_2, F_4, E_6, E_7$, and $E_8$
+- # [[Lie Theorem]]
+- # [[Jordan Decomposition]]
+-

@@ -94,6 +94,12 @@
 					- If the famuly $\left\{a_\alpha\right\}$ is finite, then $G$ is finitely generated, of course. If both the families $\left\{a_\alpha\right\}$ and $\left\{r_\beta\right\}$ are finite, then $G$ is said to be **finitely presented**, and these families form what is called a finite presentation for $G$.
 		- ((63d6160a-a7f7-427c-b3bf-a89cda400f12)) If $G$ is a free abelian group with basis $\left\{a_1, \ldots, a_n\right\}$, then $n$ is uniquely determined by $G$. #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-09-26T18:43:56.410Z
+		  card-last-reviewed:: 2023-08-26T12:43:56.410Z
+		  card-last-score:: 5
 			- The rank of the free abelian group doesn't depend on the basis chosen.
 			- Strange proof
 			  collapsed:: true

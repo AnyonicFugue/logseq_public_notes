@@ -1,7 +1,7 @@
 alias:: Quantum Error Correcting Code
 
 - # Comments
-	- The key to protect information against errors is redundancy. #Observations
+	- The key to protect information against errors is redundancy. #System
 	- In any case, we must have assumptions about the possible errors.
 	- However, classical strategies encounter difficulties for quantum information.
 		- [[No-cloning theorem]] prohibits making copies.

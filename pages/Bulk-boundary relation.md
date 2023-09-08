@@ -2,7 +2,7 @@ alias:: Bulk-Boundary Correspondence
 
 -
 - This not only emerges in topological orders, but also in RCFTs.
-	- If we view the same phenomena occur in different theories as a robust phenomena, it must have a simple reason. #Observations
+	- If we view the same phenomena occur in different theories as a robust phenomena, it must have a simple reason. #System
 	- ((63ba2d3f-81a8-4acb-b1c4-cc82f9d7ae2d))
 		- Interesting! Investigate it later! #[[Research/To Be Investigated]]
 		- Mathematically: ((63ba2dc0-b1ee-48e6-8d59-201de7f43a7c)) #card

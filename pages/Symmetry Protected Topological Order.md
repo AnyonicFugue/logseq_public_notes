@@ -4,6 +4,7 @@ alias:: [[SPT]]
 	- [topological phase of matter in nLab (ncatlab.org)](https://ncatlab.org/nlab/show/topological+phase+of+matter)
 - ((63759a44-dc2d-4f73-a13d-6dbc94049537))
 - # Defs
+  collapsed:: true
 	- On-site symmetry #card
 	  id:: 63be2322-53b6-4a37-b68a-4aa8ff9da271
 	  card-last-interval:: 84
@@ -17,8 +18,6 @@ alias:: [[SPT]]
 		-
 	- ((63fec80b-8082-4e56-a5d6-2d4577d1be71)) of equivalence
 		- Two (zero temperature) gapped states of matter are in the same symmetry protected topological phase of matter if and only if you can continuously deform the Hamiltonian to get from one state to the other without closing the excitation **gap** or breaking the given **symmetry**.
-- # Properties
-	- ((63bf6669-e406-4dc7-9c25-c2142dd7607a))
 - # Different Approaches
 	- ((63ba2bd5-8405-4144-96cc-bdcb79d07633))
 		- ((63be16c4-00b6-4e2a-84b4-9a09a2d7b77c)) and ((63be16df-1c42-4111-bba8-2de1c89b4598))
@@ -30,19 +29,21 @@ alias:: [[SPT]]
 		- Gauging the symmetry by introducing non-transparent particles ([[Minimal Modular Extension]])
 	- ((63ba2c7f-9371-40ea-aa48-1cce95df86b1)) #[[Open problem]]
 	  id:: 63c1416f-826a-4156-a42d-2d795eaa0b16
-- # Topics
+- # Examples
   collapsed:: true
+	- ## 1D
+		- [[AKLT Model]]
+		- [[Haldane Model]]
+	- ## 2D
+		- [[Levin-Gu Model]]
+		- [[CZX Model]]
+- # Topics
+	- ## Boundary
+		- ((63bf6669-e406-4dc7-9c25-c2142dd7607a))
+		-
 	- ## How do we probe them (theoretically and experimentally)?
+	  collapsed:: true
 		- Only short-range correlations, no topo excitations.
 		- {{embed ((63bd25c7-010b-44dd-a55b-58021693fc3c))}}
 		-
-- # Examples
-	- [[AKLT Model]]
-	- $Z_2$ symmetry #Learning-TODO
-		- Claim. There are exactly 2 possible SPT phases obeying this symmetry.
-		- ((63bd25c7-512f-435c-9ce2-0852f5c02a07))
-		-
-	- [[Haldane Phase]]
-	- ## Counterexamples
-		- ((63bf663d-aaa1-4784-82da-d1bd207afdb3))
 -

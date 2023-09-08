@@ -271,11 +271,11 @@
 		- Key point: $U= \cup O(y_i,x_0)$, $V= \cap O(x_0,y_i)$
 	- Theorem. Every Compact subspace of a Hausdorff space is closed.  #card
 	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-19T07:04:56.431Z
-	  card-last-reviewed:: 2023-06-18T01:04:56.431Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-10-07T12:45:17.411Z
+	  card-last-reviewed:: 2023-08-26T12:45:17.411Z
 	  card-last-score:: 5
 		- Use the [Lemma](((644efbcd-86a7-4549-95a7-6568220120f3))).
 		- Union open sets containing "outer points" ; Intersects open sets containing "Inner points"

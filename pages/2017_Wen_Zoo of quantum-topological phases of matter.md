@@ -7,7 +7,7 @@ type:: paper_reading
 		- [[Principle of Emergence]]
 			- Same components, different organization
 		- Clear some misnomers
-			- [[Haldane Phase]]
+			- [[Haldane Model]]
 			- [[Topological Insulators]] and [[Topological Superconductors]]
 				- No topo order.
 			- ((63bb85c6-0c63-4d5c-8d13-d49dac6ffcbc))
@@ -27,7 +27,7 @@ type:: paper_reading
 						- ((63c14160-28c9-4f15-82dc-977a38e0993b))
 			- Def of topo orders
 				- Cannot be deformed into product states.
-			- [[invertible]] topological orders #card
+			- [[Invertible]] topological orders #card
 			  card-last-interval:: 30
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6
@@ -109,7 +109,7 @@ type:: paper_reading
 				-
 		- G.Table of some topological orders
 	- IV. Nontrivial product states
-		- A. [[Haldane Phase]] #card
+		- A. [[Haldane Model]] #card
 		  card-last-interval:: 24
 		  card-repeats:: 2
 		  card-ease-factor:: 2.7
@@ -130,7 +130,7 @@ type:: paper_reading
 					- The spin chain is gapped if the spin is integer and gapless if half-integer.
 						- Actually, ((63be16fc-5cb3-4e2f-a1cf-8b9871b3c3e4))]
 							- So wild!
-						- This is purely quantum effect displayed at a macroscopic scale! Why this could happen? #[[Observations/Math and Physics]]
+						- This is purely quantum effect displayed at a macroscopic scale! Why this could happen? #[[System/Math and Physics]]
 				- Solution of the problem
 					- TEFR approach ((63be14c2-b215-4684-b9b2-7761f006c987)) for XXZ chain $H=\sum_i J \boldsymbol{S}_i \cdot \boldsymbol{S}_{i+1}+U\left(S_i^z\right)^2$ #[[Research/To Be Investigated]]
 						- A trivial tensor for $U>>J$, with ground state a product state

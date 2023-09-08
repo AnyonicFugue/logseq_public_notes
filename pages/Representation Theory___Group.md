@@ -69,6 +69,7 @@
 		  card-next-schedule:: 2023-03-29T00:57:10.930Z
 		  card-last-reviewed:: 2023-03-05T00:57:10.931Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- ((64b53e14-4877-4132-8efd-8eda1934a887))
 			-
 			- Given any inner product $f_0(\cdot,\cdot)$, define $f(u,v)=\sum_{g}f_0(T(g)u,T(g)v)$
@@ -81,7 +82,7 @@
 		  card-last-reviewed:: 2023-08-12T13:20:48.031Z
 		  card-last-score:: 3
 			- The point is an invariant integration on the group manifold.
-			- From the point of view of the theory of (continuous) linear representations, compact topological groups are similar to discrete ones. #[[Observations/Math and Physics]]
+			- From the point of view of the theory of (continuous) linear representations, compact topological groups are similar to discrete ones. #[[System/Math and Physics]]
 		- Lemma. Let $f$ and $f_{0}$ be two inner products in the complex vector space $V$. Then there exists a linear operator $\sigma$ such that $f(x,y)=f_{0} (\sigma x,y)$  for all $x,y\in V$.
 		- Theorem. Let $T:G\rightarrow \operatorname{GL} (V)$ be an irreducible unitary representation. Then the $T$-invariant inner product in $V$ is unique up to a constant factor.  #card
 		  collapsed:: true
@@ -217,7 +218,7 @@
 				- Therefore, $Ker\ \mu \subset L(V)$ is either 0 or $L(V)$
 				- $Im\ \mu=M(T)$ , therefore $Ker\ \mu=0$
 				-
-				- The same man in different mirrors by isomorphisms. #[[Observations/Math and Physics]]
+				- The same man in different mirrors by isomorphisms. #[[System/Math and Physics]]
 			-
 			- Corollary 1. $\operatorname{dim}\mathrm{M} (T)=n^{2}$, where  $n=\operatorname{dim} V$. #card
 			  card-last-interval:: 24

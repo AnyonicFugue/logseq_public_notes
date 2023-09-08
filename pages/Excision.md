@@ -85,7 +85,7 @@
 				- To be more specific, we notice we could invoke the second isomorphism theorem to deal with the quotient.
 			- In other words, is the observation very important?
 			  We couldn't proceed without the observation?
-				- Indeed observations, especially very stupid ones, are very important. #[[Observations/Math and Physics]]
+				- Indeed observations, especially very stupid ones, are very important. #[[System/Math and Physics]]
 				  background-color:: yellow
 				- In this case the observation is ((649e49f0-6cef-4631-bb01-027b94b5422c)), which is quite stupid.
 		- *Remark: When dealing with groups, isomorphism theorems could be extremely useful.*

@@ -130,6 +130,12 @@ type:: paper_reading
 		-
 - The derivation of the TEE is indeed dazzling. I should make some sense out of it. #card
   background-color:: yellow
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-10-08T07:11:18.056Z
+  card-last-reviewed:: 2023-09-07T01:11:18.057Z
+  card-last-score:: 3
 	- Which are the key points?
 		- Transform the gauge field
 	- Which properties are used?

@@ -24,6 +24,7 @@ alias:: Majorana Representation
 	  c_{2 k-1}=a_k+a_k^{\dagger}, \quad c_{2 k}=\frac{a_k-a_k^{\dagger}}{i}
 	  $$
 		- For each fermion there are two majorana modes.
+	-
 	- Commutation Relations
 		- $$
 		  c_j^2=1, \quad c_j c_l=-c_l c_j \text { if } j \neq l

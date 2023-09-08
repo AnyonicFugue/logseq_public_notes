@@ -17,13 +17,14 @@
 	-
 - [[Gapped Quantum System]]
 - ((636873cb-ee64-4bbd-a441-232fbe3ba901)) #card
-  card-last-interval:: 76.8
-  card-repeats:: 3
-  card-ease-factor:: 2.46
-  card-next-schedule:: 2023-08-12T19:56:45.843Z
-  card-last-reviewed:: 2023-05-28T00:56:45.843Z
-  card-last-score:: 3
+  card-last-interval:: 275.25
+  card-repeats:: 4
+  card-ease-factor:: 2.56
+  card-next-schedule:: 2024-05-28T19:49:33.457Z
+  card-last-reviewed:: 2023-08-27T13:49:33.458Z
+  card-last-score:: 5
   id:: 6454f1b3-0cda-4ab5-b2f0-e76cf903bd1d
+	- A macroscopic viewpoint.
 	- ((6368744a-46de-49db-9fbf-1a8c5e022dab)) ((6368745a-1538-49d1-9416-c6c6a7f6a17b))
 		- This is fairly interesting. The manifold is different, but the {{cloze 'local properties'}} are the same.
 			- Example. Toric code on different surfaces

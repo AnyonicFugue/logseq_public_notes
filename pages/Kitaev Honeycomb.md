@@ -240,6 +240,7 @@
 				- Why should $Q$ be orthogonal?
 					- We can use $\{c_m,c_n\}=2\delta_{mn}$.
 			- The ground state has every occupation number zero, thus the energy is
+			  collapsed:: true
 			  $$
 			  E=-\frac{1}{2} \sum_{k=1}^m \varepsilon_k=-\frac{1}{4} \operatorname{Tr}|i A|
 			  $$
@@ -247,7 +248,6 @@
 				- The factor is $1/2$ rather than $1/4$ since each mode is counted twice by the anti-symmetric matrix.
 		- Step 2. Perform Fourier transformation to make use of translation invariance
 			- We study the configuration where all $u=1$.
-			  collapsed:: true
 			- $$
 			  \begin{gathered}
 			  H=\frac{1}{2} \sum_{\mathbf{q}, \lambda, \mu} i \widetilde{A}_{\lambda \mu}(\mathbf{q}) a_{-\mathbf{q}, \lambda} a_{\mathbf{q}, \mu}, \quad \widetilde{A}_{\lambda \mu}(\mathbf{q})=\sum_t e^{i\left(\mathbf{q}, \mathbf{r}_t\right)} A_{0 \lambda, t \mu} \\
@@ -256,6 +256,8 @@
 			  $$
 				- $(s,\lambda)$ denotes the sites, where $s$ is the unit cell and $\lambda$ is the position inside the cell.
 				- The basis of the translation group is selected as ((64c2c028-bfa3-41b9-bc70-d5f70b943a13))
+				- Note that $a_{\mathbf{q}, \lambda}^{\dagger}=a_{-\mathbf{q}, \lambda}$ and $\{a_{\mathbf{p}, \mu}, a_{\mathbf{q}, \lambda}^{\dagger}\}=\delta_{\mathbf{p q}} \delta_{\mu \lambda}$, thus the definition of creation and annihilation operators makes sense.
+					- However, note that $p$ and $-p$ are intertwined.
 				-
 		- Result:
 		  $$
@@ -316,6 +318,7 @@
 			-
 		- ((64c2c17e-d382-461c-8c36-d7caf82af369))
 - # Alternative Solution: [[Jordan-Wigner Transformation]]
+  collapsed:: true
 	- See [[2016_Kitaev honeycomb tensor networks]]
 	-
 - # Properties of the Gapped Phase

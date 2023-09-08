@@ -1,7 +1,7 @@
 # What this page is used for
 	- Make them into flashcards. Thus I'll have an arsenal when facing new problems.
 		- Understanding the strategies of the previous masters is quite delightful.
-	- Extract [[Observations/Math and Physics]].
+	- Extract [[System/Math and Physics]].
 - # General Strategies
 	- Divide a big problem into subproblems. #card
 	  collapsed:: true
@@ -60,6 +60,7 @@
 			- Quite interesting. So useful in classification and invariance (equivalence) problems.
 		- Study a weaker equivalence relation.
 		  id:: 64d8228a-d665-487e-a919-bd1fd00e7825
+		  collapsed:: true
 			- Homeomorphism is too strong.
 			- Homotopy is much easier to deal with.
 - # [[Algebraic Topology]]
