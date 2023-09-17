@@ -25,6 +25,12 @@
 			- The coefficients grants $P^2=P$.
 		- Use $S_i^2=2$ (since it is a spin-1 chain), we obtain the desired result.
 	- The ground state has a structure of adjacent entangled singlet pairs. #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-10-10T06:54:50.743Z
+	  card-last-reviewed:: 2023-09-09T00:54:50.743Z
+	  card-last-score:: 5
 		- ((64e51741-d1fa-4a9f-8d9e-c99c745683ec))
 	- The Hamiltonian has the spin-rotation invariance.
 	-

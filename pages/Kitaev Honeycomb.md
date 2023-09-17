@@ -194,6 +194,7 @@
 			- Therefore we can use the eigenvalues of the plaquette operators $w_p= \pm 1$ and the homotopy class to denote the equivalence class.
 		-
 	- ## Solve the Spectrum of the Quadratic Hamiltonian
+	  collapsed:: true
 		- Observations
 			- A gauge transformation $D_j$ flip all three adjacent $u$ while keeping $w_p$ and $H$ invariant.
 				- Therefore we need only solve in a specific gauge configuration and use $D_j$ to superpose all equivalent configurations.
@@ -318,7 +319,6 @@
 			-
 		- ((64c2c17e-d382-461c-8c36-d7caf82af369))
 - # Alternative Solution: [[Jordan-Wigner Transformation]]
-  collapsed:: true
 	- See [[2016_Kitaev honeycomb tensor networks]]
 	-
 - # Properties of the Gapped Phase

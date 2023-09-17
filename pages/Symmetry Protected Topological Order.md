@@ -18,7 +18,10 @@ alias:: [[SPT]]
 		-
 	- ((63fec80b-8082-4e56-a5d6-2d4577d1be71)) of equivalence
 		- Two (zero temperature) gapped states of matter are in the same symmetry protected topological phase of matter if and only if you can continuously deform the Hamiltonian to get from one state to the other without closing the excitation **gap** or breaking the given **symmetry**.
+- # Questions and Problems
+	- How do bSPT and fSPT differ fundamentally?
 - # Different Approaches
+  collapsed:: true
 	- ((63ba2bd5-8405-4144-96cc-bdcb79d07633))
 		- ((63be16c4-00b6-4e2a-84b4-9a09a2d7b77c)) and ((63be16df-1c42-4111-bba8-2de1c89b4598))
 		- [[K-Theory]]

@@ -25,7 +25,6 @@
 		- Note that the transformation is **highly nonlocal**.
 		  i.e. *Bosonic* and *fermionic* differs by a highly nonlocal transformation!
 	- Inverse transformation
-	  collapsed:: true
 		- $$\begin{aligned}
 		  & \sigma_j^{+}=e^{\left(-i \pi \sum_{k=1}^{j-1} a_k^{\dagger} a_k\right)} \cdot a_j^{\dagger} \\
 		  & \sigma_j^{-}=e^{\left(+i \pi \sum_{k=1}^{j-1} a_k^{\dagger} a_k\right)} \cdot a_j \\

@@ -1,4 +1,4 @@
-- ![Kitaev honeycomb tensor networks.pdf](file://zotero_link/Kitaev honeycomb tensor networks.pdf)
+- ![Kitaev honeycomb tensor networks.pdf](file://zotero_link/Research/Entanglement/2017_Schmoll_Orus_Kitaev honeycomb tensor networks.pdf)
   id:: 64cbbde2-2685-4e08-96b6-b18c7f6e7874
 - # Questions and Problems
   collapsed:: true
@@ -9,7 +9,9 @@
 		- ((64cbf93e-77a8-4e2d-84a4-9fd96ee3cf4e))
 - # Setup
 	- ((64cbbe59-bfff-4709-b692-c82b8d99b52a))
+	  id:: 64f3d976-e784-4432-bdf6-561919bda8f9
 	- JW transformation
+	  collapsed:: true
 		- $$
 		  \begin{aligned}
 		  & \hat{\sigma}_{i, j}^{+}=2\left(\prod_{j^{\prime}<j} \prod_{i^{\prime}} \hat{\sigma}_{i^{\prime}, j^{\prime}}^z\right)\left(\prod_{i^{\prime}<i} \hat{\sigma}_{i^{\prime}, j}^z\right) \hat{a}_{i, j}^{\dagger} \\
@@ -69,7 +71,6 @@
 			-
 - # Solution
   id:: 64cbc95f-3878-4633-9f23-c3ae9a407a7e
-  collapsed:: true
 	- Here $$\hat{\alpha}_{\vec{r}}=\left(i \hat{d}_{\bullet, \vec{r}} \hat{d}_{\circ, \vec{r}}\right)$$ commute with the Hamiltonian and are good quantum numbers, thus we could decompose the Hilbert space.
 		- The eigenvalues of it could be regarded as the **Z2 gauge field**.
 	- The following procedure is completely analogous to the original paper: Quasi-diagonalize the Hamiltonian by performing Fourier transformations.
