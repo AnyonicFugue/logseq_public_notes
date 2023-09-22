@@ -1,4 +1,10 @@
 - Definition #card
+  card-last-interval:: 29.95
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-10-18T22:50:43.245Z
+  card-last-reviewed:: 2023-09-19T00:50:43.245Z
+  card-last-score:: 5
 	- Idea
 	  collapsed:: true
 		- A spin has two levels, which could be regarded as a fermionic mode (i.e. $|\uparrow \rangle \mapsto |1\rangle$, $|\downarrow \rangle \mapsto |0\rangle$)

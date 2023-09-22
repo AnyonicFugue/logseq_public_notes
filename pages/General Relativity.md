@@ -232,6 +232,12 @@ alias:: GR
 			- From the categorical view, it's natural to examine the induced maps.
 			- From the geometrical view, $(\phi_*)_x$ is the **best linear approximation** (i.e. Jacobian) of $\phi$ at $x$.
 		- Def #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-10-23T06:53:53.584Z
+		  card-last-reviewed:: 2023-09-22T00:53:53.585Z
+		  card-last-score:: 3
 			- Let $M$ and $N$ be manifolds (not necessarily of the same dimension) and let $\phi: M \rightarrow N$ be a $C^{\infty}$ map.
 			- First, $(\phi^*f)(x):=f(\phi(x))$, which is the case for $(0,0)$ tensors.
 			- For $(1,0)$ tensors (vectors) we have $\phi_*(v)(f):=v(\phi^*f)==v(f\circ \phi)$
@@ -896,8 +902,10 @@ alias:: GR
 				- Derive $h_{t t}=-\frac{2 \Phi}{c^2}$ from the geodesic equation, which should recover EOM in Newtonian gravity
 				- Plug the above expression to the Einstein equation and recover the Poisson equation.
 			- Metric side
+			  collapsed:: true
 				- Same as before: $g_{a b}=\eta_{a b}+\gamma_{a b}$, fix the gauge to obtain $\partial^c \partial_c \bar{\gamma}_{a b}=-16 \pi T_{a b}$, where $\bar{\gamma}_{a b}=\gamma_{a b}-\frac{1}{2} \eta_{a b} \gamma$.
 			- Matter side
+			  collapsed:: true
 				- Find a suitable coordinate where $T_{a b} \approx \rho t_a t_b$, where $t$ is the time direction of the coordinate (almost inertial)
 				- The equation becomes $\nabla^2 \bar{\gamma}_{00}=-16 \pi \rho$, where $\phi \equiv-\frac{1}{4} \bar{\gamma}_{00}$ satisfies Poisson's equation,
 				  collapsed:: true

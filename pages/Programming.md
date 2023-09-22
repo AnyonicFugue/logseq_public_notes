@@ -6,6 +6,12 @@
 - ((64b9da3c-0d34-4e01-bf64-5082a3b1336e))
 -
 - # Common Mistakes #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-10-23T06:57:43.936Z
+  card-last-reviewed:: 2023-09-22T00:57:43.936Z
+  card-last-score:: 3
 	- Boundary Conditions #card
 		- Example. Compute the upper vertex of a given vertex
 			- Be very careful about the **range** of the variables (coordinates in this case).
@@ -40,8 +46,7 @@
 		  ```
 		- We often use a *cursor variable* to control the position where we are working on.
 		  Thus when we add or subtract 1, we must take care in the code follows.
-	- Swapping identical variables
-	  collapsed:: true
+	- Apply 'Swapping variables' to the same variable
 		- Wrong example.
 		  
 		  ```julia

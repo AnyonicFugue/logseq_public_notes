@@ -215,6 +215,12 @@
 			- Finite subcover
 		- Isolated point  #card 
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-10-20T06:46:42.773Z
+		  card-last-reviewed:: 2023-09-19T00:46:42.773Z
+		  card-last-score:: 5
 			- A point $x$ of $X$ is said to be an **isolated point** of $X$ if the one-point set $\{x\}$ is open in $X$
 		- Lebesgue number #card
 		  card-last-interval:: 42
@@ -233,6 +239,7 @@
 		  card-next-schedule:: 2023-07-08T07:09:06.082Z
 		  card-last-reviewed:: 2023-06-07T01:09:06.083Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- Every infinite set of points has a limit point.
 			- Exercise. Show that it is equivalent to that every sequence has a convergent subsequence.
 		- Locally compact  #card
@@ -365,6 +372,7 @@
 		  card-next-schedule:: 2023-09-16T18:43:30.801Z
 		  card-last-reviewed:: 2023-08-16T12:43:30.802Z
 		  card-last-score:: 3
+		  collapsed:: true
 			- Intuition
 				- The metric space is bounded, i.e. we cannot construct a sequence extending to infinity.
 			- Proof of the hard part, i.e. LPC -> Compact
@@ -418,13 +426,13 @@
 			- Moreover, two compactifications are said to be homeomorphic with a homeomorphism acting as an identity on $X$.
 			- Explicitly: The topology of Y is $\mathscr T_Y = \mathscr T_X \cup \{Y-C|C\ compact\ in\ X\}$
 				- For $\mathbb R^n$, the second part is '$\infty$ plus complement of closed bounded set'
-		- Theorem. $X$ is Locally compact [[Hausdorff]] if and only if $X$ has a one-point compactification.  #card
-		  card-last-interval:: 35.37
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-09-03T06:41:33.322Z
-		  card-last-reviewed:: 2023-07-29T22:41:33.323Z
+		- Theorem. $X$ is Locally compact Hausdorff if and only if $X$ has a one-point compactification.  #card
 		  card-last-score:: 5
+		  card-repeats:: 1
+		  card-next-schedule:: 2023-09-03T06:41:33.322Z
+		  card-last-interval:: 35.37
+		  card-ease-factor:: 2.6
+		  card-last-reviewed:: 2023-07-29T22:41:33.323Z
 			- q⇒p: Easier.
 				- Hausdorff is obvious, since any subspace of a Hausdorff space is Hausdorff.
 					- Suppose $Y-X={z}$. Consider some point $x\in X$. Since Y is Hausdorff, we can find disjoint $U(x,z)$ and $U(z,x)$.

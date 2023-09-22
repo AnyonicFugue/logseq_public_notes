@@ -159,11 +159,11 @@
 			- Consider the decomposition of a space $X$ into the disjoint union of its path components: $X=\bigcup X_\lambda$.
 			  $$S_*(X)=\sum_\lambda S_*\left(X_\lambda\right)$$
 	- Chain Homotopy and Chain Equivalence #card
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.46
-	  card-next-schedule:: 2023-09-15T13:03:54.663Z
-	  card-last-reviewed:: 2023-08-04T13:03:54.663Z
+	  card-last-interval:: 97.44
+	  card-repeats:: 3
+	  card-ease-factor:: 2.32
+	  card-next-schedule:: 2023-12-25T10:47:58.158Z
+	  card-last-reviewed:: 2023-09-19T00:47:58.159Z
 	  card-last-score:: 3
 		- If $f, g:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ are chain maps, then $f$ and $g$ are **(chain) homotopic**, denoted by $f \simeq g$, if there is a sequence of homomorphisms $\left\{P_n: S_n^{\prime} \rightarrow S_{n+1}\right\}$ such that, for all $n \in \mathbf{Z}$,
 		  $$

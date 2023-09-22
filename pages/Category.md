@@ -339,6 +339,12 @@ alias:: [[Category Theory]]
   id:: 641813e5-e452-4c3b-aa79-fe4b3df4596f
   collapsed:: true
 	- Exercise. Check the left dual of $G \in \mathrm{End}(C)$ is the right adjoint. #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-10-23T06:48:10.297Z
+	  card-last-reviewed:: 2023-09-22T00:48:10.297Z
+	  card-last-score:: 3
 	-
 - # Higher cats
   collapsed:: true
@@ -667,6 +673,12 @@ alias:: [[Category Theory]]
 		- Exist some x s.t. $\mathrm{Hom}_{\mathcal{C}}(X,-) \simeq F$ (naturally isomorphic)
 		- Examples
 			- The identity functor on $\mathrm{Set}$ is represented by $\{*\}$. #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-10-23T06:50:41.922Z
+			  card-last-reviewed:: 2023-09-22T00:50:41.923Z
+			  card-last-score:: 5
 				- Intuitively, 'the set of maps from a single-point set to $S$' is equivalent to $S$ itself.
 				- Exercise. Explicitly construct the natural isomorphism.
 	- [[Yoneda Lemma]]

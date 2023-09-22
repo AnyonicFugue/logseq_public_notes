@@ -12,6 +12,7 @@
   card-next-schedule:: 2023-08-24T13:36:30.509Z
   card-last-reviewed:: 2023-07-13T13:36:30.509Z
   card-last-score:: 5
+  collapsed:: true
 	- ## Empirical Knowledge
 		- We can't probe physics at arbitrarily high $E$.
 			- Therefore, integrating to $k \to \infty$ is a huge **extrapolation**. (It's miraculous this doesn't fail completely).
@@ -41,6 +42,7 @@
 	- [[Dimensional Regularization]]
 	- [[Cutoff]] Regularization
 - # Schemes of Renormalization
+  collapsed:: true
 	- Note that n-pt functions can have different
 	- ## Scheme 1: Cancel the Divergences via Physical Quantities #card
 	  card-last-interval:: 33.94
@@ -152,6 +154,7 @@
 	  card-next-schedule:: 2023-09-19T12:58:57.528Z
 	  card-last-reviewed:: 2023-08-08T12:58:57.528Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- The 'real world of QFT' is quite messy. We must consider lots of renormalizations; what's worse, we don't know how to obtain a divergence-free result.
 		- We have different schemes.
 			- Do two things to obtain an elegant formalism:
@@ -162,6 +165,7 @@
 		  It's like I suddenly find that the simple world in QFT1, where the propagator is a simple $\frac i {p^2-m^2+i\varepsilon}$ and we don't have to worry about loops or divergences, is supported by a dark and complicated 'real world'...
 		  #+END_CAUTION
 	- Renormalized Field
+	  collapsed:: true
 		- Starting point:
 		  $$
 		  \int d^4 x e^{i p \cdot x}\left\langle\Omega\left|T\left\{\phi_0(x) \phi_0(0)\right\}\right| \Omega\right\rangle \stackrel{p^2 \rightarrow m^2}{\longrightarrow} \frac{i Z}{p^2-m^2+i \varepsilon}+\cdots
@@ -181,26 +185,32 @@
 	  card-next-schedule:: 2023-06-16T17:51:06.797Z
 	  card-last-reviewed:: 2023-05-19T00:51:06.797Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Starting point: How to characterize renormalizability?
 		- Idea: Determine convergence by the power of momenta in the integrand
+		  collapsed:: true
 			- Note that the integrand is always a fraction of polynomials in $p$, whose UV convergence can be determined by the power analysis.
 		- Detailed analysis
+		  collapsed:: true
 			- Divergent subdiagrams:
 			- Multi-loop diagrams:
 		- Final theorem of renormalizability:
 		  (a) $\Delta_i \geqslant 0$ for all vertices
 		  (b) $\mathcal{L}$ contains all vertices compatible with the symmetries of the (regularized) theory. (The regularization may break a symmetry Then it is no longer a symmetry of $\mathcal{L}$)
 	- ## Starting point
+	  collapsed:: true
 		- Question: Is all theories renormalizable? If not, how to characterize renormalizability?
 		  background-color:: red
 		- Intuitively, we only have a finite number of parameters (mass, coupling constant, etc). Can we cancel divergences in **all** diagrams by the finite parameters?
 	- ## Setup
 		- Notations
+		  collapsed:: true
 			- $\gamma$ : 1PI Feynmann diagram
 			- $L$ : number of loops
 			- $I_{f}$ : number of internal lines (propagators) of field of type $f$
 			- $E_{f}$: number of external lines (propagators) of field of type $f$
 			- $s_f$: The propagator of field $f$ is asymptotically $1/(k^2)^{1-s_f}$
+			  collapsed:: true
 				- e.g. $s_f=0$ for scalar fields, $s_f=1/2$ for Dirac fields.
 			- $V_{i}$ : number of vertices of type $i$
 			- $a_{i}$ : number of derivatives on fields in vertex of type $i$
@@ -213,57 +223,76 @@
 				- Example. 
 				  ![image.png](../assets/image_1683335815102_0.png){:height 307, :width 957}
 	- ## Simplifications
+	  collapsed:: true
 		- Note that lines connecting 1PI diagrams cannot contain loops, so we may just analyze 1PI diagrams.
+		  collapsed:: true
 			- Analogous to 'analyze path-connected spaces'.
 	- ## Counting the divergences
 		- Idea
 			- Count the total powers of momenta (numerator - denominator).
 			  If the power is greater than zero, then the diagram surely diverges.
 		- Proposition. If $D(\gamma) \geq 0$, then the diagram must be divergent.
+		  collapsed:: true
 			- If $D(\gamma)=0$, the integration behaves like $\int \frac {dx}{x}$, which is **logarithmically divergent**.
 		- Proposition. $D(\gamma)=\sum_f I_f\left(2 s_f-2\right)+\sum_i V_i a_i+d L$
+		  collapsed:: true
 			- The first term is the momenta from the propagators.
 			- The second term is the momenta from the vertices.
+			  collapsed:: true
 				- Note that here we assumed there's no momenta contribution if there's no derivative.
 			- The third term counts the contribution from the integration measure.
+			  collapsed:: true
 				- Each independent loop gives rise to a free momentum to be integrated over.
 		- ### Simplify the expression by graph theory
+		  collapsed:: true
 			- Proposition. For connected diagrams, $L=\sum_f I_f-\sum_i V_i+1$.
+			  collapsed:: true
 				- This is Euler's formula, $V-E+F=2$.
 				- Note that $L=F-1$, since the face $\mathbb R^2-\gamma$ isn't a loop.
 			- Proposition. $2I_f+E_f=\sum_i V_i n_{if}$
 	- ## Divergence of Subdiagrams
+	  collapsed:: true
 		- The above counting still has a flaw:
+		  collapsed:: true
 		  A subdiagram can still be divergent even if $D(\gamma)<0$.
 			- Example.
 			  ![image.png](../assets/image_1683338439631_0.png)
 		- **Nevertheless, the problem can be fixed.**
+		  collapsed:: true
 			- In the above example:
 			  We have a counterterm $\delta_m$ for the divergent subdiagram, thus we can use the following diagram to cancel the divergence:
 			  ![image.png](../assets/image_1683338589549_0.png)
 			- More generally, we can always divide the diagram to find the divergent subdiagram with $D(\eta) \geq 0$
+			  collapsed:: true
 				- Theorem (Weinberg). A diagram is convergent iff all subdiagrams $\eta$ satisfy $D(\eta)<0$.
+				  collapsed:: true
 					- This ensures we can always find $\eta$ if there's divergence in the whole diagram.
 	- ## Divergence of multi-loop diagrams
+	  collapsed:: true
 		- Example in $\phi^4$ theory
+		  collapsed:: true
 			- ![image.png](../assets/image_1683338760672_0.png)
 			- Compute by dimensional regularization: 
 			  $$
 			  \Gamma=\lambda^2 \times\left\{\rho^2[\cdots]-m^2\left[\frac{a}{\varepsilon^2}+\frac{2 a}{\varepsilon} \ln \frac{\mu^2}{p^2}+\frac{b}{\varepsilon}+\text { finite }\right]\right\}
 			  $$
 			- **Problem**
+			  collapsed:: true
 				- It's impossible to cancel the divergence by $\delta_m$ or $\delta\lambda$, since they cannot produce the desired momentum-dependence of $\ln (p^2)$
 			- **Solution?**
+			  collapsed:: true
 				- We can also construct loop diagrams from the counterterms!
 				- This diagram would produce the desired divergence-cancelling:
 				  ![image.png](../assets/image_1683338935892_0.png)
 	- Theorem.
+	  collapsed:: true
 	  $$\begin{aligned}
 	  D(\gamma ) & = d-\sum _{f} E_{f}\left(\frac{d}{2} -1+s_{f}\right) -\sum _{i} V_{i} \Delta _{i}\\
 	   & \text{ with } \Delta _{i} \equiv d-a_{i} -\sum _{f} n_{if}\left(\frac{d}{2} -1+s_{f}\right)
 	  \end{aligned}$$
 		- This can be proven by plugging in the above propositions.
 		- But its meaning is quite deep. 
+		  collapsed:: true
 		  If $D(\gamma)$ decreases with the number of external lines and vertices, as the theorem suggests, then we only have **finite** diagrams with $D(\gamma) \geq 0$.
 			- Example. Scalar field theory:
 			- $$\begin{array}{ c c c }
@@ -290,11 +319,14 @@
 		  card-next-schedule:: 2023-06-12T01:04:17.678Z
 		  card-last-reviewed:: 2023-05-13T01:04:17.678Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- Starting points
+			  collapsed:: true
 				- $S=\int d^dx \mathcal L$ is dimensionless.
 				- $$G_F(k):=\int d^dx e^{-ikx} \langle \phi_f(x) \phi_f(0) \rangle \sim \frac 1 {(k^2)^{1-s_f}}$$
 	-
 	- ## The Renormalizability Theorem
+	  collapsed:: true
 		- Definition. Renormalizable #card
 		  card-last-interval:: 33.94
 		  card-repeats:: 1
@@ -302,13 +334,16 @@
 		  card-next-schedule:: 2023-06-26T22:09:43.262Z
 		  card-last-reviewed:: 2023-05-24T00:09:43.262Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- All physical quantities can be rendered finite by a reparameterization of fields, masses and couplings.
 			- An interaction is **super-renormalizable** if $\Delta_i >0$.
 		- Theorem. Conditions for renormalizability:
+		  collapsed:: true
 		  (a) $\Delta_i \geqslant 0$ for all vertices
 		  (b) $\mathcal{L}$ contains all vertices compatible with the symmetries of the (regularized) theory. (The regularization may break a symmetry Then it is no longer a symmetry of $\mathcal{L}$)
 			- The first guarantees that we won't obtain new divergences by adding vertices (going to higher orders)
 			- The second could be motivated by the following case:
+			  collapsed:: true
 				- Consider the double-scalar theory
 				  $$
 				  \mathcal{L}=\sum_{i=1,2} \frac{1}{2}\left(\partial^\mu \phi_i \partial_\mu \phi_i-m_i^2 \phi_i^2\right)-\frac{\lambda}{4 !} \phi_1^2 \phi_2^2

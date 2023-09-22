@@ -1581,5 +1581,17 @@
                                    :height 700.4873949579833}),
                           :page 55},
                :content {:text "Exercise 3.3"},
+               :properties {:color "yellow"}}
+              {:id #uuid "65098ad4-86c3-4469-89c7-464267316046",
+               :page 398,
+               :position {:bounding {:x1 38.41322311758995,
+                                     :y1 290.65625,
+                                     :x2 323.41322311758995,
+                                     :y2 370.65625,
+                                     :width 495.0000000000001,
+                                     :height 700.4873949579833},
+                          :rects (),
+                          :page 398},
+               :content {:text "[:span]", :image 1695124180099},
                :properties {:color "yellow"}}],
- :extra {:page 55}}
+ :extra {:page 398}}

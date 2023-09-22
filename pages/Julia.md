@@ -1,6 +1,11 @@
 # Basic Syntax
-collapsed:: true
+	- Functions
+		- keyword argument: Place after a semicolon
+		- e.g. `function test(a,b;c,d)`
+			- a,b are positional
+			- c,d are keywords
 	- `function func()` and `for` need an `end`
+	-
 	- ## Logical operators #card
 	  card-last-score:: 5
 	  card-repeats:: 3
@@ -12,8 +17,10 @@ collapsed:: true
 		- C-style `&&, !, ||`
 		- All doubled except `!`
 	- ## Multiple File
+	  collapsed:: true
 		- Use `include("utils.jl")` to include other files.
 	- ## Arrays
+	  collapsed:: true
 		- `zeros(T, dims...)` an `Array` of all zeros
 		- `ones(T, dims...)` an `Array` of all ones
 		- `A*B` for matrix multiplication.
@@ -26,12 +33,20 @@ collapsed:: true
 	  card-last-interval:: 61.44
 	  card-ease-factor:: 2.56
 	  card-last-reviewed:: 2023-03-10T00:40:26.971Z
+	  collapsed:: true
 		- `function Wolff_iterate(StateArr::Array{Int8})`
 			- Type **after** the argument
 		- `x::Int32=100`
+	- ## File Operations
+		- ```julia
+		  io = open("runoob-file.txt", "a+")
+		  
+		  # 写入文件内容
+		  write(io, "Hello world!\nRunoob Julia Test")
+		  close(io)
+		  ```
 - # Features
 	- Parallel computation
-	  collapsed:: true
 		- Multithreading
 		  card-last-interval:: 10
 		  card-repeats:: 1
@@ -113,6 +128,7 @@ collapsed:: true
 		- Note that only arithmetic operations, polynomials, norm, etc. (i.e. mainly abstract algebra) are supported.
 		- Matrix multiplication is supported, but general linear algebra operations (rank, det, etc.) are **not**. Better implement by myself
 - # Common mistakes
+  collapsed:: true
 	- ## Error Texts
 		- > no method matching setindex!(::Bool, ::Bool, ::Int64)
 			- Usually it is because I wrote a Python-style indexing of arrays.
@@ -128,11 +144,11 @@ collapsed:: true
 		- I must specify the beginning.
 		- It is comma instead of colons (Different from [[Python]])
 	- Access and slice multidimensional arrays #card
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-07-04T01:36:56.097Z
-	  card-last-reviewed:: 2023-04-11T01:36:56.097Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-09-06T05:39:46.583Z
+	  card-last-reviewed:: 2023-09-19T00:39:46.583Z
 	  card-last-score:: 5
 		- Use [i,j], not [i][j] (Different from [[C++]])
 		- Use [i,:] to obtain a slicing. **The dummy index must have a colon.**
@@ -150,6 +166,13 @@ collapsed:: true
 		- The dot is necessary. Otherwise only a single element is modified.
 			- But no dot before the equality.
 - # Performance Tips
+  collapsed:: true
+	- ## Profiling
+		- ```julia
+		  Profile.@profile sample_EE(18,12,40,false,true)
+		  Profile.print(mincount=800)
+		  ```
+			- `mincount` excludes many irrelevant function calls.
 	- ## Reduce allocation of memory.
 		- Allocate a large buffer beforehand, in one line
 		- Avoid `push!()`, which is costly.

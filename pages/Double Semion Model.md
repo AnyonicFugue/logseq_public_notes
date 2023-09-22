@@ -1,10 +1,10 @@
-- # Model
+# Model
 	- We want a model such that ((63e8469b-9c89-4ae2-a224-ed6b71d1b33d))
 		- $|\psi\rangle=\quad \sum(-1)^{\text {\#loops }} \mid$ loop config $\rangle$
 		  all loop configs that
 		  can be obtained from
 		  a reference loop config
-	- Construct the Hamiltonian
+	- ## Hamiltonian
 	  collapsed:: true
 		- #+BEGIN_TIP
 		  They're not pulled out of a hat; instead, they're constructed out of the graphical rules!
@@ -14,8 +14,10 @@
 			- ![image.png](../assets/image_1676167515777_0.png)
 				- $N=3$ here
 			-
+	- ## String Operators
 -
 - # Comments
+  collapsed:: true
 	- If we take the diagrammatical algebra naively, there is a certain complication that ((63e84a0a-17de-487e-9fe6-56d1a4166559)).
 		- The solution is to break the symmetry of the plane and choose a special direction; only caps in the direction are given signs of $-1$.
 		- This is actually a gauge change.
