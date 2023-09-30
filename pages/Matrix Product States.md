@@ -421,6 +421,12 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 	- ## Examples
 		- D=2, GHZ state #card
 		  collapsed:: true
+		  card-last-interval:: 32.57
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-10-25T14:02:12.672Z
+		  card-last-reviewed:: 2023-09-23T01:02:12.673Z
+		  card-last-score:: 5
 			- $$
 			  A_0=\left(\begin{array}{ll}
 			  1 & 0 \\

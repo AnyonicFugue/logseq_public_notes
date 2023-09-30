@@ -90,11 +90,11 @@ alias:: Representation
 		- $\chi_T(g)=Tr(T(g))$ trace of the rep. operator
 		- Automatically basis independent, thus a good def.
 	- Inner product of matrix elements #card
-	  card-last-interval:: 30
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-06-21T01:00:34.058Z
-	  card-last-reviewed:: 2023-05-22T01:00:34.059Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2024-01-18T15:03:07.711Z
+	  card-last-reviewed:: 2023-09-23T01:03:07.711Z
 	  card-last-score:: 5
 		- $$( f_{1} ,f_{2}) =\frac{1}{|G|}\sum _{g\in G} f_{1} (g)\overline{f_{2} (g)}$$
 		- The strategy is to put additional structures on the object being studied (inner product, topology, representation, etc.) #[[System/Math and Physics]]

@@ -243,6 +243,12 @@
 			- Every infinite set of points has a limit point.
 			- Exercise. Show that it is equivalent to that every sequence has a convergent subsequence.
 		- Locally compact  #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-10-25T06:43:37.894Z
+		  card-last-reviewed:: 2023-09-24T00:43:37.894Z
+		  card-last-score:: 3
 			- For any $x$, exist a compact subset $C$ containing some neighborhood of $x$
 			-
 			- Example. Q isn't locally compact
@@ -269,11 +275,11 @@
 	- Lemma. If $Y$ is a Compact subspace of the Hausdorff space $X$ and $x_{0}$ is not in $Y$. then  there exist disjoint open sets $U$ and $V$ of $X$ containing $x_{0}$ and $Y$, respectively. #card
 	  id:: 644efbcd-86a7-4549-95a7-6568220120f3
 	  collapsed:: true
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-09-16T13:08:07.176Z
-	  card-last-reviewed:: 2023-08-05T13:08:07.176Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2024-01-23T14:47:27.407Z
+	  card-last-reviewed:: 2023-09-28T00:47:27.407Z
 	  card-last-score:: 5
 		- Key point: $U= \cup O(y_i,x_0)$, $V= \cap O(x_0,y_i)$
 	- Theorem. Every Compact subspace of a Hausdorff space is closed.  #card

@@ -8,26 +8,19 @@
 	- Idea
 	  collapsed:: true
 		- A spin has two levels, which could be regarded as a fermionic mode (i.e. $|\uparrow \rangle \mapsto |1\rangle$, $|\downarrow \rangle \mapsto |0\rangle$)
-	- collapsed:: true
-	  $$
+	- $$
 	  \begin{aligned}
 	  \sigma_j^+=\left(\sigma_j^x+i \sigma_j^y\right) / 2 \equiv f_j^{\dagger} \\
 	  \sigma_j^-=\left(\sigma_j^x-i \sigma_j^y\right) / 2 \equiv f_j
 	  \end{aligned}
 	  $$
-		- However, $f$ between different sites commute rather than anti-commute. We should fix this by adding the phase manually/
+		- However, $f$ between different sites commute rather than anti-commute. We should fix this by adding the phase manually.
 	- $$
 	  \begin{aligned}
-	  & a_j^{\dagger}=e^{\left(i \pi \sum_{k=1}^{j-1} f_k^{\dagger} f_k\right)} \cdot f_j^{\dagger} \\
-	  & a_j=e^{\left(i \pi \sum_{k=1}^{j-1} f_k^{\dagger} f_k\right)} \cdot f_j
+	  & a_j^{\dagger}=e^{\left(i \pi \sum_{k=1}^{j-1} f_k^{\dagger} f_k\right)} \cdot f_j^{\dagger} =f_j^{\dagger} \prod_{k=1}^{j-1}\sigma_k^z\\
+	  & a_j=e^{\left(i \pi \sum_{k=1}^{j-1} f_k^{\dagger} f_k\right)} \cdot f_j=f_j \prod_{k=1}^{j-1}\sigma_k^z
 	  \end{aligned}
 	  $$
-		- The phase could also be represented as 
-		  collapsed:: true
-		  $$
-		  e^{\left( \pm i \pi \sum_{k=1}^{j-1} f_k^{\dagger} f_k\right)}=\prod_{k=1}^{j-1} e^{ \pm i \pi f_k^{\dagger} f_k}=\prod_{k=1}^{j-1} e^{ \pm i \pi \frac{\sigma_k^z+I}{2}}=\prod_{k=1}^{j-1}\left(-\sigma_k^z\right)
-		  $$
-			- The minus means spin-up is regarded as occupied.
 		- Note that the transformation is **highly nonlocal**.
 		  i.e. *Bosonic* and *fermionic* differs by a highly nonlocal transformation!
 	- Inverse transformation

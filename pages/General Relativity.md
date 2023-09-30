@@ -47,7 +47,7 @@ alias:: GR
 		- All physical measurements are equally possible in different inertial frames and all physical laws are the same.
 - # Special Relativity
   collapsed:: true
-	- Lorentz transformation #card
+	- [[Lorentz Transformation]]
 		- $$
 		  \left\|\Lambda_x{ }^\mu{ }_\nu\right\|=\left(\begin{array}{cccc}
 		  \gamma & -\gamma & 0 & 0 \\

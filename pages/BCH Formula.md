@@ -1,4 +1,4 @@
-- # Motivating Problems
+# Motivating Problems
 	- Suppose $G$ and $H$ are matrix Lie groups with Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, respectively, and suppose $\phi$ : $\mathfrak{g} \rightarrow \mathfrak{h}$ is a Lie algebra homomorphism. Can we construct a Lie group homomorphism $\Phi: G \rightarrow H$ such that 
 	  $$\Phi\left(e^X\right)=e^{\phi(X)}$$
 	   for all $X$ in $\mathfrak{g}$?
@@ -14,7 +14,7 @@
   e^X e^Y=e^{X+Y+\frac{1}{2}[X, Y]} .
   $$
 	- As an first example.
-	- ((640ad127-cc23-464b-b796-fb5a07f8049a))
+	-
 	- Proof
 		- Consider $L(t)=e^{tX}e^{tY}$.
 		  $\frac {dL}{dt}=e^{tX}(X+Y)e^{tY}$.

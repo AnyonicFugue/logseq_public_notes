@@ -204,6 +204,12 @@
 		  \end{aligned}$$
 			- Prop. $\mu$ is an **isomorphism** of $T\otimes T^{\prime }$ and the ((1e9f6e33-36ec-4362-9505-3b42540bb3a7)) $\operatorname{Reg}_{M(T)}$ #card
 			  collapsed:: true
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-10-25T06:44:28.137Z
+			  card-last-reviewed:: 2023-09-24T00:44:28.138Z
+			  card-last-score:: 5
 				- Prop1. $\mu$ is a morphism
 					- Use matrix: $f\left( g_{2}^{-1} gg_{1}\right) =\operatorname{tr} \xi T\left( g_{2}^{-1} gg_{1}\right) =\operatorname{tr} \xi T( g_{2})^{-1} T(g)T( g_{1})$ $=\operatorname{tr}\left( T( g_{1}) \xi T( g_{2})^{-1}\right) T(g)=\operatorname{tr} \eta T(q)$
 					- $$\eta =T( g_{1}) \xi T( g_{2})^{-1} =\left( T\otimes T^{\prime }\right)( g_{1} ,g_{2}) \xi$$

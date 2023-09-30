@@ -2,6 +2,12 @@ alias:: Superconductor
 
 - # BCS Theory
 	- Summary #card
+	  card-last-interval:: 33.88
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-10-31T21:52:39.241Z
+	  card-last-reviewed:: 2023-09-28T00:52:39.242Z
+	  card-last-score:: 5
 		- Phonons intermediate an **attractive** interaction between electron.
 		- Pairs of electrons with opposite momenta near the Fermi surface form cooper pairs.
 		- Use $\langle c_{k,\sigma_1}c_{-k,\sigma_2} \rangle$ as the order parameter to perform the mean-field approximation.

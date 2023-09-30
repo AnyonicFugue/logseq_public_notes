@@ -1,31 +1,51 @@
 type:: [[Course]]
 
-- # Maxwell Equations #card
+- # Maxwell Equations
   card-last-interval:: 31.26
   card-repeats:: 1
   card-ease-factor:: 2.36
   card-next-schedule:: 2023-10-21T06:30:14.301Z
   card-last-reviewed:: 2023-09-20T00:30:14.302Z
   card-last-score:: 3
-	- $$
-	  \begin{aligned}
-	  & \nabla \cdot \boldsymbol{D}=\rho_0 \\
-	  & \nabla \times \boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{\partial t} \\
-	  & \nabla \cdot \boldsymbol{B}=0 \\
-	  & \nabla \times \boldsymbol{H}=\boldsymbol{j}_0+\frac{\partial \boldsymbol{D}}{\partial t}
-	  \end{aligned}
-	  $$
+  collapsed:: true
+	- Equations in media #card
+	  collapsed:: true
 		- $$
-		  \boldsymbol{D}=\varepsilon \boldsymbol{E}, \boldsymbol{B}=\mu \boldsymbol{H}
+		  \begin{aligned}
+		  & \nabla \cdot \boldsymbol{D}=\rho_0 \\
+		  & \nabla \times \boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{\partial t} \\
+		  & \nabla \cdot \boldsymbol{B}=0 \\
+		  & \nabla \times \boldsymbol{H}=\boldsymbol{j}_0+\frac{\partial \boldsymbol{D}}{\partial t}
+		  \end{aligned}
 		  $$
-	- Key memorization points
-		- A minus in the second equation
-		- The combination $\mu_0 \varepsilon_0$ should appear when we rewrite the last equation in terms of $E$ and $B$.
-	- Special cases:
-		- $$\nabla \cdot \vec{E}=\rho / \varepsilon_0$$
-		- $$
-		  \nabla \times \vec{B}=\mu_0 \vec{j}+\frac {1}{c^2} \frac {\partial E}{\partial t}
-		  $$
+			- $$
+			  \vec{D}=\varepsilon_0 \vec{E}+\vec{P} \quad \vec{H}=\frac{\vec{B}}{\mu_0}-\vec{M}
+			  $$
+			- In linear media $$ \boldsymbol{D}=\varepsilon \boldsymbol{E}, \boldsymbol{B}=\mu \boldsymbol{H} $$.
+			-
+		- Key memorization points
+			- A minus in the second equation
+			- The combination $\mu_0 \varepsilon_0$ should appear when we rewrite the last equation in terms of $E$ and $B$.
+		- Derivation from vacuum equations
+			- $$\nabla \cdot \vec{E}=\rho / \varepsilon_0$$
+				- $$\rho=\rho_f + \rho_p= \rho_f - \nabla \cdot \vec P$$
+			- $$
+			  \nabla \times \vec{B}=\mu_0 \vec{j}+\frac {1}{c^2} \frac {\partial E}{\partial t}
+			  $$
+				- $$\vec j=\vec j_0+ \vec j_m +\vec j_p$$
+				- Note that $\vec j_m = \nabla \times \vec M$, $\vec j_p = \frac {d \vec P} {dt}$
+					- The second equation could be obtained by comparing $\frac {d \rho_p}{dt}=-\nabla \cdot \vec j_p = - \frac{d}{dt} \nabla \cdot \vec P$
+					-
+				-
+	- Boundary Conditions #card
+		- $$\begin{align*}
+		  \vec{n}_{1} \cdot (\vec{D}_{1} -\vec{D}_{2}) & =\sigma _{f}\\
+		  \vec{n}_{1} \cdot (\vec{B}_{1} -\vec{B}_{2}) & =0\\
+		  \vec{n} \times (\vec{H}_{1} -\vec{H}_{2}) & =\vec{\alpha }_{f}\\
+		  \vec{n} \times (\vec{E}_{1} -\vec{E}_{2}) & =0
+		  \end{align*}$$
+		- This could be proved by taking the infinitesimal limit of Maxwell equations in media.
+		  In the limit, volume density becomes area density.
 	-
 	-
 - # Vector Analysis
@@ -67,6 +87,7 @@ type:: [[Course]]
 			  $$
 			-
 - # Polarization in Medias
+  collapsed:: true
 	- Definition of polarization fields #card
 		- $$
 		  \vec{P}(\vec{r}, t)=\varepsilon_0 \chi_e \vec{E}(\vec{r}, t), \quad \vec{M}(\vec{r}, t)=\frac{1}{\mu_0} \frac{\chi_m}{1+\chi_m} \vec{B}(\vec{r}, t)
@@ -84,3 +105,40 @@ type:: [[Course]]
 		  \vec{j}_m=\nabla \times \vec{M}, \nabla \cdot \vec{j}_m=0
 		  $$
 	-
+- # Energy, Momentum and Angular Momentum
+	- Rule for modifications in media:
+	  Change $\varepsilon_0 E$ to $D$ and $B/ \mu_0$ to $H$.
+	- Energy density and flow #card
+		- $$
+		  \vec{S}_P(\vec{r}, t)=\frac{1}{\mu_0} \vec{E} \times \vec{B}=\vec{E} \times \vec{H}
+		  $$
+		- $$
+		  u(\vec{r}, t)=\frac{1}{2}\left(\varepsilon_0 E^2+\frac{1}{\mu_0} B^2\right)
+		  $$
+			- It could be (unrigorously) proved by analyzing capacitors and inductors.
+		- Proof of conservation law
+			- We want to prove
+			  $$\frac{du}{dt}=-\nabla \cdot \vec S_P$$
+			- Just plug in Maxwell equations in vacuum and perform some vector analysis.
+		- Modification in media
+			- The above formula is still correct, but we want to separate the polarization part from the free part.
+			- $$
+			  \vec{S}_P=(\vec{E} \times \vec{H}), \quad u=\frac{1}{2}(\vec{E} \cdot \vec{D}+\vec{B} \cdot \vec{H})=\frac{1}{2}\left(\varepsilon E^2+\mu H^2\right)
+			  $$
+	- Momentum Density and Flow #card
+		- $$
+		  \vec{g}=\varepsilon_0(\vec{E} \times \vec{B})=\frac{1}{c^2} \vec{S}_P
+		  $$
+		- $$
+		  \overset{\rightarrow\rightarrow}{T}=\frac{1}{2}\left(\varepsilon_0 E^2+\frac{1}{\mu_0} B^2\right) \overset{\rightarrow\rightarrow}{I}-\varepsilon_0 \vec{E} \vec{E}-\frac{1}{\mu_0} \vec{B} \vec{B}
+		  $$
+			- $I$ is the identity tensor
+		- Obviously this could be deduced from Noether theorem and energy-momentum tensor.
+		- Modification in media
+			- $$
+			  \begin{aligned}
+			  & \overset{\rightarrow\rightarrow}{T'}=\left[\frac{1}{2}(\vec{E} \cdot \vec{D}+\vec{B} \cdot \vec{H}) \overset{\rightarrow\rightarrow}{I}-\vec{D} \vec{E}-\vec{B} \vec{H}\right] \\
+			  & \vec{g}^{\prime}=\vec{D} \times \vec{B}
+			  \end{aligned}
+			  $$
+			-

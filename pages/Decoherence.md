@@ -266,11 +266,11 @@ type:: [[Course]]
 		  The time dependence is ignored by ((63830bb8-bc07-4352-a0d9-97a69af9dafd)).
 		-
 	- GKLS master equation #card
-	  card-last-interval:: 61.44
-	  card-repeats:: 3
-	  card-ease-factor:: 2.56
-	  card-next-schedule:: 2023-03-13T11:00:04.679Z
-	  card-last-reviewed:: 2023-01-11T01:00:04.679Z
+	  card-last-interval:: 297.18
+	  card-repeats:: 4
+	  card-ease-factor:: 2.66
+	  card-next-schedule:: 2024-07-21T04:52:51.114Z
+	  card-last-reviewed:: 2023-09-28T00:52:51.115Z
 	  card-last-score:: 5
 	  id:: 63840eb6-312d-4a41-a9d9-a1c754156965
 		- $\dot{\rho}=-\frac{i}{\hbar}[H, \rho]+\sum_{k=1}^{M-1}\left(L_k \rho L_k^{\dagger}-\frac{1}{2} L_k^{\dagger} L_k \rho-\frac{1}{2} \rho L_k^{\dagger} L_k\right)$

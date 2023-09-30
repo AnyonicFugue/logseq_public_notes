@@ -1,4 +1,4 @@
-- # Peskin Version
+# Peskin Version
 	- Thought
 	  collapsed:: true
 		- For 2->n Green functions, we have poles at $p^2=m^2$.
@@ -63,11 +63,11 @@
 			- For incoming particles we choose $e^{-ipx}$, so the singularity is in the third region and particles comes to the right of the matrix element.
 			- For outgoing particles we choose $e^{ipx}$, so the singularity is in the first region and particles comes to the left of the matrix element.
 - Statement #card
-  card-last-interval:: 33.94
-  card-repeats:: 1
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2023-07-18T23:21:12.208Z
-  card-last-reviewed:: 2023-06-15T01:21:12.208Z
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.22
+  card-next-schedule:: 2023-11-09T00:51:41.116Z
+  card-last-reviewed:: 2023-09-28T00:51:41.116Z
   card-last-score:: 3
 	- $$
 	  \begin{array}{r}

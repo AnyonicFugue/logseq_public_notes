@@ -1,0 +1,15 @@
+- ![2020_Chulliparambil_Tu_Microscopic models for Kitaev's sixteenfold way.pdf](file://zotero_link/Research/Anyon Data from Microscopic Data/2020_Chulliparambil_Tu_Microscopic models for Kitaev's sixteenfold way.pdf)
+- # The Models
+- # Characterization of Topo Orders
+	- Two features: GSD and topological spin
+	- Topo spin
+		- Still using boundary CFT
+		- Key formula: For two different sectors on a finite boundary,
+		  $$E_a-E_0=\frac{2\pi v}{L_1}(h_a+h_{\bar a})$$
+			- Citing big yellow book
+			- $a$ labels a primary field ( $\bar{a}$ being its conjugate)
+			- $h_a$ is the conformal weight of this field (with $h_a=h_{\bar{a}}$ )
+			- $v$ is velocity of the CFT.
+		- The topological spin of the anyon is related to $h_a$ via $\theta=2 \pi h_a$.
+		- $v$ is extracted from the linear dispersion of the edge spectrum.
+	-

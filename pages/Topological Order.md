@@ -9,23 +9,30 @@
   :END:
 - # Problems and Questions #card
   collapsed:: true
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-10-29T06:44:51.280Z
+  card-last-reviewed:: 2023-09-28T00:44:51.281Z
+  card-last-score:: 3
 	- Why we usually define the lattices by commuting pairs of projectors ($A_s,B_p$)? Frustrated topological orders?
 		- Tentative: Topo orders are robust against local perturbations. So we may deform them in some ways; the form of commuting pairs are the simplest.
-	- ((64e6b193-a04a-49af-b902-a612fa3b1c09))
-	- What is a direct sum?
-	  collapsed:: true
-		- Kitaev gives an argument ((64b2f056-5e56-4869-b5a3-71deffe4e403)): They are locally identical but globally distinguishable by transporting a quasiparticle.
-		- What's the difference of non-abelian fusion outcomes and different GS of toric code?
-		  collapsed:: true
-			- Kitaev says [here](((64b2f114-c11e-4775-8755-7d6c6b967ffb))) that states belonging to the same supersector (i.e. overall fusion outcome) **can** form superposition, while different supersectors **cannot**.
-		-
-	- Why tensor categories (even UMTC) give a classification?
+	- Why tensor categories (even UMTC) give a classification? Derive from first principles?
 	  collapsed:: true
 		- Compare to the situation in QM
 		  collapsed:: true
 			- We don't know why linear algebra describes QM, but itself is the first principle.
 			- Here we already have the first principles!
 		- Conjecture. It must emerge from some underlying structure describing entanglement.
+	- ## Important Notions
+		- ((64e6b193-a04a-49af-b902-a612fa3b1c09))
+		- [[Questions/What is a direct sum?]]
+			- Kitaev gives an argument ((64b2f056-5e56-4869-b5a3-71deffe4e403)): They are locally identical but globally distinguishable by transporting a quasiparticle.
+			- What's the difference of non-abelian fusion outcomes and different GS of toric code?
+			  collapsed:: true
+				- Kitaev says [here](((64b2f114-c11e-4775-8755-7d6c6b967ffb))) that states belonging to the same supersector (i.e. overall fusion outcome) **can** form superposition, while different supersectors **cannot**.
+		- [[Question/Bulk-Boundary Correspondence]]? Relation to CFT?
+		- What is gauging?
 	- What's the role of gap?
 	  collapsed:: true
 		- Refs

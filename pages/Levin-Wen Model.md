@@ -105,6 +105,12 @@
 				  card-last-score:: 5
 					- The answer is four. The theory is indeed doubled.
 				- As another exercise, find out the S-matrix. #card
+				  card-last-interval:: 31.2
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-10-29T04:48:06.241Z
+				  card-last-reviewed:: 2023-09-28T00:48:06.241Z
+				  card-last-score:: 5
 					- $$
 					  S=\frac{1}{\mathcal{D}}\left(\begin{array}{ll}
 					  1 & \phi \\

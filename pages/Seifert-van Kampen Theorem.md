@@ -53,11 +53,11 @@
 - # Usage
 	- ((63db6329-9ccb-4b48-8766-5de3c0bc8d26)) Let $X$ be a Hausdorff space; let $A$ be a closed **path-connected** subspace. Suppose that there is a continuous map $h: B^2 \rightarrow X$ that maps $\operatorname{Int} B^2$ **bijectively** onto $X-A$ and maps $S^1=\partial B^2$ into (not injective) $A$. 
 	  id:: 63db6326-2852-429b-acc7-21e25d249828
-	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-03-08T01:20:24.042Z
-	  card-last-reviewed:: 2023-02-12T01:20:24.043Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-11-04T00:55:02.642Z
+	  card-last-reviewed:: 2023-09-23T00:55:02.642Z
 	  card-last-score:: 5
 	  Let $p \in S^1$ and let $a=h(p)$; let $k:\left(S^1, p\right) \rightarrow(A, a)$ be the map obtained by restricting $h$. Then $$i_*: \pi_1(A, a) \longrightarrow \pi_1(X, a)$$ is **surjective**, and its kernel is the least normal subgroup of $\pi_1(A, a)$ containing the image of $k_*: \pi_1\left(S^1, p\right) \rightarrow \pi_1(A, a)$. #card
 		- Intuition

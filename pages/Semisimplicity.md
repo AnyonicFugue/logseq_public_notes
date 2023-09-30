@@ -83,11 +83,11 @@
 				- Special case: $A$ is a division algebra, while $\mathrm{Vec}$ is a vector space over $A$
 				  collapsed:: true
 					- Theorem. Any finite semisimple $A$-linear category $C$ is equivalent to $\sum_{j=1}^n \mathrm{LMod}_{D_j}(\mathrm{Vec})$, where $D_j$ is the division algebra of $\mathrm{Hom}_{\mathcal{C}}(x_j,x_j)$ #card
-					  card-last-interval:: 31.26
-					  card-repeats:: 1
-					  card-ease-factor:: 2.36
-					  card-next-schedule:: 2023-08-25T08:03:39.589Z
-					  card-last-reviewed:: 2023-07-25T02:03:39.590Z
+					  card-last-interval:: 42
+					  card-repeats:: 2
+					  card-ease-factor:: 2.22
+					  card-next-schedule:: 2023-11-09T00:45:20.981Z
+					  card-last-reviewed:: 2023-09-28T00:45:20.982Z
 					  card-last-score:: 3
 						- We know clearly what $C$ is: there are $n$ simple objects. Any object are direct sums of the simple objects and the homs are block-diagonalized (only nonzero between the same $x_j$)
 					- What is $\mathrm{LMod}_{D_j}(\mathrm{Vec})$? #card

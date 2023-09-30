@@ -310,6 +310,12 @@
 		  $$
 			- 'Reduced' can be comprehended in the sense that $Z_0(X)$ becomes smaller.
 	- Homotopy in $\mathbf{Top}^2$ #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-10-25T06:48:31.740Z
+	  card-last-reviewed:: 2023-09-24T00:48:31.741Z
+	  card-last-score:: 3
 		- If $f, g:(X, A) \rightarrow(Y, B)$, then $f \simeq g \bmod A$ if there is a continuous $F:(X \times \mathbf{I}, A \times \mathbf{I}) \rightarrow(Y, B)$ with $F_0=f$ and $F_1=g$.
 		- Rephrased, $X$ and $A$ are simultaneously 'continuously deformed'.
 - # In the viewpoint of [[Category]]
@@ -440,6 +446,12 @@
 			- However, to prove some commutativity of level $N$, we must go into the details of level $N-1$ (or even lower).
 	- Theorem (Exact Sequence of the Pair $(X, A)$). If $A$ is a subspace of $X$, there is an exact sequence
 	  collapsed:: true
+	  card-last-interval:: 31.2
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-10-29T04:49:33.264Z
+	  card-last-reviewed:: 2023-09-28T00:49:33.264Z
+	  card-last-score:: 5
 	  $$
 	  \cdots \rightarrow H_n(A) \rightarrow H_n(X) \rightarrow H_n(X, A) \stackrel{d}{\rightarrow} H_{n-1}(A) \rightarrow \cdots .
 	  $$
@@ -560,11 +572,17 @@
 		  The key is chains in $A$ could **cancel remaining coefficients** and make any chain a boundary.
 	- ((648fb74f-609d-49ce-a558-45f5e4d30140)). If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$, then, for each $n \geq 0$,
 	  collapsed:: true
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-10-25T13:58:35.341Z
+	  card-last-reviewed:: 2023-09-23T00:58:35.341Z
+	  card-last-score:: 5
 	  $$
 	  H_n(X, A) \cong \sum_\lambda H_n\left(X_\lambda, A \cap X_\lambda\right)
 	  $$ #card
-		- The key is still a simplex must be within a single path components,
-		  thus $Z_n(X,A)$ and $B_n(X,A)$ could both be decomposed by path components.
+		- The key is still a simplex is connected.
+		  Thus $Z_n(X,A)$ and $B_n(X,A)$ could both be decomposed by path components.
 	- Corollary. $H_0(X, A)$ is free abelian and
 	  card-last-interval:: 31.26
 	  card-repeats:: 1

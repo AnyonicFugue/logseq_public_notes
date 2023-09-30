@@ -13,6 +13,12 @@
   card-last-reviewed:: 2023-09-22T00:57:43.936Z
   card-last-score:: 3
 	- Boundary Conditions #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-10-25T06:48:18.155Z
+	  card-last-reviewed:: 2023-09-24T00:48:18.156Z
+	  card-last-score:: 5
 		- Example. Compute the upper vertex of a given vertex
 			- Be very careful about the **range** of the variables (coordinates in this case).
 				- Could it be 0? Be `L`?

@@ -48,6 +48,12 @@ collapsed:: true
 			- Note that my definition isn't perfect, either.
 	- Local Unitary Transformation (LU) #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-10-25T06:52:17.149Z
+	  card-last-reviewed:: 2023-09-24T00:52:17.149Z
+	  card-last-score:: 5
 		- An LU transformation iss given by a finite number of layers (i.e. the number of layers is a constant **independent of  system size**) of piecewise local unitary transformations
 		  collapsed:: true
 		  $$

@@ -12,11 +12,11 @@
 		  homotopic maps -> equivalent homs of fundamental groups
 		- $I \times I \stackrel{f \times i d}{\longrightarrow} X \times I \stackrel{H}{\longrightarrow} Y$
 	- ((63954564-3e1d-4f74-81c3-bea192c5ffdd)) The inclusion map $j: S^n \rightarrow \mathbb{R}^{n+1}-0$ induces an isomorphism of fundamental groups. #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-05-08T16:52:51.960Z
-	  card-last-reviewed:: 2023-03-02T12:52:51.960Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-09-15T05:46:04.689Z
+	  card-last-reviewed:: 2023-09-28T00:46:04.690Z
 	  card-last-score:: 5
 		- Intuition
 			- We have a natural way of deforming the identity map of $\mathbb{R}^{n+1}-\mathbf{0}$ to a map that collapsed all of $\mathbb{R}^{n+1}-0$ onto $S^n$.

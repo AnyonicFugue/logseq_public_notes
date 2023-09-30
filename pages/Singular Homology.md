@@ -158,11 +158,11 @@
 			  At first sight freely generated groups seem structureless, but the kernels and images of $\partial$ is not.
 				- Actually it is the complex which is rich in structure!
 	- Betti number #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-08-14T19:17:08.059Z
-	  card-last-reviewed:: 2023-07-14T13:17:08.059Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-11-09T00:50:52.282Z
+	  card-last-reviewed:: 2023-09-28T00:50:52.283Z
 	  card-last-score:: 5
 		- The $n$-th Betti number of $X$ is $\operatorname{rank}H_n(X)$.
 			- Note that here the rank is the *rank of abelian groups*, i.e. rank of the **torsion-free** part.
@@ -172,11 +172,11 @@
 			  $$
 	- Acyclic #card
 	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-09-06T18:32:14.492Z
-	  card-last-reviewed:: 2023-08-06T12:32:14.493Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-11-09T00:45:28.152Z
+	  card-last-reviewed:: 2023-09-28T00:45:28.153Z
 	  card-last-score:: 5
 		- A space $X$ is called acyclic if $H_n(X)=0$ for all $n \geq 1$.
 		- The dimension axiom shows that every 1-point space is acyclic.
@@ -350,14 +350,14 @@
 	- We are concerned with the problem:
 	  When does $H_n(f)=H_n(g)$
 	  Does it hold when $f$ and $g$ are homotopic?
-	- ((6455bc34-9cfb-4aff-9eda-66b2797bb373)). If $X$ is a bounded convex subspace of euclidean space, then $H_n(X)=0$ for all $n \geq 1$. #card
-	  collapsed:: true
+	- ((6455bc34-9cfb-4aff-9eda-66b2797bb373)). If $X$ is a bounded convex subspace of euclidean space, then $H_n(X)=0$ for all $n \geq 1$.
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-08-29T18:30:54.440Z
 	  card-last-reviewed:: 2023-07-29T12:30:54.441Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Remark
 			- Actually $X$ is contractible. But the method of cone construction is also worth learning.
 		- Geometric intuition
@@ -462,6 +462,7 @@
 	  card-last-reviewed:: 2023-06-06T01:41:36.766Z
 	  card-last-score:: 5
 - # The Hurewicz Theorem
+  collapsed:: true
 	- Theorem. The Hurewicz map is a homomorphism. #card
 	  card-last-interval:: 31.26
 	  card-repeats:: 1

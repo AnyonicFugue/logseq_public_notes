@@ -33,7 +33,7 @@ collapsed:: true
 				- Number Theory
 - # Others' Roadmaps
 	- [Riinn 书单 知乎](https://www.zhihu.com/question/21451715/answer/429838579)
-- # Mathematics
+- # Mathematics #card
   id:: 64b4848d-0b6a-4bc0-af8e-6f4d53c52b9d
   collapsed:: true
 	- WWLi's notes as a roadmap for algebra
@@ -41,11 +41,9 @@ collapsed:: true
 		- [YAlg1.pdf (wwli.asia)](https://www.wwli.asia/downloads/YAlg1.pdf)
 		- [Yanqi Lake Lectures on Algebra: Part 3 (wwli.asia)](https://www.wwli.asia/downloads/YAlg3.pdf)
 	- ## Crucial For Research
-		- Representations of the Clifford algebra
-			-
-		- Linear and Multi-linear algebra
-			- ![2007_Roman_Advanced linear algebra.pdf](file://zotero_link/Mathematics/Algebra/Linear Algebra/2007_Roman_Advanced linear algebra.pdf)
-			- ![1978_Greub_Multilinear Algebra.pdf](file://zotero_link/Mathematics/Algebra/Linear Algebra/1978_Greub_Multilinear Algebra.pdf)
+		- Algebraic topology
+			- [[K-Theory]]
+			- Stable Homotopy
 	- ## Basics
 		- [[Differential Geometry]]
 		- Homological Algebra
@@ -55,11 +53,11 @@ collapsed:: true
 		- [[Complex Analysis]]
 			- Riemann Surfaces
 	- ## Intermediate
-		- Stable Homotopy
-			- Seems extremely rich in structure
 		- Basic [[Algebraic Geometry]]
 			- The ideas and tools are percolating everywhere...
+			- Also it's thrilling to learn thoughts of Grothendieck
 		- [[Lie Groups and Lie Algebras]]
+			- Useful in CFT
 		- [[Tensor Category]]
 		- Differential Topology
 			- Bott & Tu
@@ -74,18 +72,32 @@ collapsed:: true
 		- [Lurie, Lie Algebra and Homotopy](https://www.youtube.com/watch?v=LeaiPHAh0X0)
 		- [[Functional Analysis]]
 		- [[Quantum Group]]
-- # Physics
+		- Linear and Multi-linear algebra
+			- ![2007_Roman_Advanced linear algebra.pdf](file://zotero_link/Mathematics/Algebra/Linear Algebra/2007_Roman_Advanced linear algebra.pdf)
+			- ![1978_Greub_Multilinear Algebra.pdf](file://zotero_link/Mathematics/Algebra/Linear Algebra/1978_Greub_Multilinear Algebra.pdf)
+- # Physics #card
   id:: 64b4848d-61f3-49c7-afa7-073d867798c2
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-10-24T06:57:58.959Z
+  card-last-reviewed:: 2023-09-23T00:57:58.960Z
+  card-last-score:: 3
+	- SPT
+	- Fracton
 	- CFT
 		- VOA
 			- https://www.zhihu.com/question/38253477/answer/2484509893
 				- 不一定用他的笔记，但他的comment很有意思。
+		- Bulk-Boundary Correspondence
 	- QHE, FQHE
 		- Good examples for CFT, chiral topological order, etc.
 	- TQFT
 		- Start from Witten's paper on quantum Chern-Simons fields.
 	- Weinberg QFT
-	- Chern numbers and gapless edge modes
+	-
+	- Topological superconductor, topo insulator
+		- Chern numbers and gapless edge modes
 	-
 - # [[Research/To Be Investigated]]
 - # Thoughts of Maestros
@@ -118,6 +130,7 @@ collapsed:: true
 	- 数学家思想文库 第二辑
 		- Klein, Weyl, Kolmogorov
 - # Exploration
+  collapsed:: true
 	- ## Mathematical Physics
 		- ((64b4848d-78cb-4c30-a024-8ff5a8fd2be1))
 		- Atiyah's work on ((64b730c5-1383-44f1-b696-017ae4193dec))

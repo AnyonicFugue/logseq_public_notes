@@ -45,11 +45,11 @@
 - # Basic Facts
   collapsed:: true
 	- Theorem. Toric code is robust against local perturbations. #card
-	  card-last-interval:: 24
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-03T01:10:01.330Z
-	  card-last-reviewed:: 2023-01-10T01:10:01.331Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-11-09T00:53:36.972Z
+	  card-last-reviewed:: 2023-09-28T00:53:36.972Z
 	  card-last-score:: 5
 		- Rough argument
 			- Treat $\delta H$ in perturbation theory order by order.
@@ -57,7 +57,6 @@
 			- At the thermodynamic limit, the lattice is very large. So nontrivial loops are only formed at very high orders of the perturbation theory.
 		- Setting
 			- $\delta H$ is an **arbitrary sum** of local perturbations.
-				- ((63b29124-d69c-46e4-9973-32fc95c2ecad))
 				- Denote the range by $t$.
 		- First, invoke [[Brillouin-Wigner Perturbation Expansion]]
 			- $\begin{aligned} H_{p n}^{\mathrm{eff}} & =E_0+\left\langle p\left|\delta H \frac{1}{1-G \delta H}\right| n\right\rangle \\ & =E_0+\langle p|\delta H| n\rangle+\langle p|\delta H G \delta H| n\rangle+\langle p|\delta H G \delta H G \delta H| n\rangle+\ldots\end{aligned}$

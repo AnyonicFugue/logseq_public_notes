@@ -104,6 +104,7 @@
 			- ((64b2f58e-6dcc-4ad7-ad98-5226751aebbb))
 			- Note that it commutes with any check.
 - # Solution
+  collapsed:: true
 	- Strategy
 		- ((64b2f633-ff39-4862-92e9-a8827906ea71))
 		- ((64b4a3a2-5a8e-4828-8059-2d5fdb0ec212))

@@ -187,11 +187,11 @@ alias:: [[Category Theory]]
 			- ((6416ba90-2deb-428b-b6cf-fb6dedf75dd1))
 				- The whole diagram commutes since each small square commutes.
 		- Horizontal composition #card
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-09-11T12:22:27.187Z
-		  card-last-reviewed:: 2023-07-31T12:22:27.187Z
+		  card-last-interval:: 97.44
+		  card-repeats:: 3
+		  card-ease-factor:: 2.32
+		  card-next-schedule:: 2024-01-03T10:47:21.845Z
+		  card-last-reviewed:: 2023-09-28T00:47:21.845Z
 		  card-last-score:: 3
 		  collapsed:: true
 			- *Horizontal means left-right direction.
@@ -222,12 +222,12 @@ alias:: [[Category Theory]]
 	- Comma category #card
 	  id:: 6417d04a-7bd7-4f24-8124-2ececcbcebbe
 	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-17T07:03:16.237Z
-	  card-last-reviewed:: 2023-06-16T01:03:16.238Z
-	  card-last-score:: 5
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-11-09T00:47:45.064Z
+	  card-last-reviewed:: 2023-09-28T00:47:45.064Z
+	  card-last-score:: 3
 		- $(S/T)$ (or $S\downarrow T$) is defined for two functors $\mathcal{A} \stackrel{S}{\longrightarrow} \mathcal{C} \stackrel{T}{\longleftarrow} \mathcal{B}$
 		- Objects
 			- triples $(A,B,f)$ where $A \in \mathrm{Ob}(\mathcal{A}), B \in \mathrm{Ob}(\mathcal{B}), f: S A \rightarrow T B$
