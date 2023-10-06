@@ -1,6 +1,13 @@
 - ((64f5a3ab-56a5-404d-a92b-30eeb778a192))
 	- [[2020_Kawagoe_Levin_Microscopic definitions of anyon data]]
-- The main result comes from [[2014_2015_Moradi_Wen_Universal Wave Function Overlap and Modular Matrices]].
-	- There are different techniques to simplify the calculation, e.g. PEPS, TRG, etc.
+- TRG and universal wavefunction overlap
+	- The main result comes from [[2014_2015_Moradi_Wen_Universal Wave Function Overlap and Modular Matrices]].
+		- There are different techniques to simplify the calculation, e.g. PEPS, TRG, etc.
+-
+-
+-
+- [[2015_Zhang_Grover_Vishwanath_General procedure for determining modular data]]
+-
+-
 - ![2015_You_Cheng_Measuring Modular Matrices by Shearing Lattices.pdf](file://zotero_link/Research/Anyon Data from Microscopic Data/2015_You_Cheng_Measuring Modular Matrices by Shearing Lattices.pdf) provides a concrete example of calculation, which obtains the data of Ising anyons.
 -

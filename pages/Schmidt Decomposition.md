@@ -1,0 +1,5 @@
+- Definition
+	- Use SVD to decompose a pure state $|\psi\rangle$ into $\sum_i c_i |\phi_i^A\rangle \otimes |\phi_i^B\rangle$
+	- The left and right sets are orthonormal respectively.
+	-
+	-
