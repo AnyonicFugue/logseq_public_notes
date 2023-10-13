@@ -1,6 +1,6 @@
 - [[References]]
 	- [[Simon's Topobook]]
-	- ![An invitation to topological order](file://zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf) 2022_Kong_Zhang_An invitation to topological orders and category
+	- ![2022_Kong_Zhang_An invitation to topological orders and category.pdf](file://zotero_link/Research/Quantum Matters/Topological order/Intros and Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf)
 		- p62
 	- [topological order in nLab (ncatlab.org)](https://ncatlab.org/nlab/show/topological+order)
 - TODO Arrange it into a coherent story, rather than the scattered topics.

@@ -7,7 +7,6 @@ type:: [[Course]]
   card-next-schedule:: 2023-10-21T06:30:14.301Z
   card-last-reviewed:: 2023-09-20T00:30:14.302Z
   card-last-score:: 3
-  collapsed:: true
 	- Equations in media #card
 	  collapsed:: true
 		- $$
@@ -89,6 +88,7 @@ type:: [[Course]]
 - # Polarization in Medias
   collapsed:: true
 	- Definition of polarization fields #card
+	  collapsed:: true
 		- $$
 		  \vec{P}(\vec{r}, t)=\varepsilon_0 \chi_e \vec{E}(\vec{r}, t), \quad \vec{M}(\vec{r}, t)=\frac{1}{\mu_0} \frac{\chi_m}{1+\chi_m} \vec{B}(\vec{r}, t)
 		  $$
@@ -104,8 +104,10 @@ type:: [[Course]]
 		- $$
 		  \vec{j}_m=\nabla \times \vec{M}, \nabla \cdot \vec{j}_m=0
 		  $$
-	-
+	- Proposition. In medias, the density of polarization charge $\rho_p$ is always $-(1-\frac 1 {\varepsilon_r})\rho_f$.
+		-
 - # Energy, Momentum and Angular Momentum
+  collapsed:: true
 	- Rule for modifications in media:
 	  Change $\varepsilon_0 E$ to $D$ and $B/ \mu_0$ to $H$.
 	- Energy density and flow #card
@@ -142,3 +144,68 @@ type:: [[Course]]
 			  \end{aligned}
 			  $$
 			-
+- # Electrostatics
+	- Definitions
+		- Capacity
+			- $$
+			  q_i=\sum_j C_{i j} \phi_j
+			  $$
+			- $C_{ij}$ are called the capacity coefficients.
+			- Note that $[C^{-1}]_{ij} \neq (C_{ij})^{-1}$.
+			  Therefore we should be careful when we want to represent $\phi$ by $q$.
+			-
+	- Theorem. (Green's Reciprocation) Given a system of $n$ conductors. Suppose when the charge on them are $q_1,...,q_n$ the potentials are $\phi_1,...,\phi_n$ and when the charge on them are $q'_1,...,q'_n$ the potentials are $\phi'_1,...,\phi'_n$. Then we have
+	  collapsed:: true
+	  $$
+	  \sum_{i=1}^n q_i \phi_i^{\prime}=\sum_{i=1}^n q_i^{\prime} \phi_i
+	  $$
+		- Lemma. 
+		  $$
+		  \int_V\left(\Psi \nabla^2 \Phi-\Phi \nabla^2 \Psi\right) d \tau=\oint_s(\Psi \nabla \Phi-\Phi \nabla \Psi) \cdot d \vec{S}
+		  $$
+			- This can be proved by calculating the difference between two equations of Gauss theorem, with LHS being $\psi \nabla \phi$ and $\phi \nabla \psi$ respectively.
+		- Here is the interesting step:
+		  Take the volume to be a sufficiently large open ball **minus** all conductors (surfaces included).
+		-
+		- No charge in the volume, so LHS=0.
+		- For the radius of the ball tending to infinity, the integration at the surface of the ball tends to zero.
+		-
+		- Therefore we have
+		  $$
+		  0=\sum_{i=1}^m \oint_{s_i}(\Psi \nabla \Phi-\Phi \nabla \Psi) \cdot d \vec{s}_i=\sum_{i=1}^m \oint_{s_i}\left(\Psi \frac{\partial \Phi}{\partial n}-\Phi \frac{\partial \Psi}{\partial n}\right) \cdot d s_i
+		  $$
+		- Note that
+		  $$
+		  \sigma_i=\left.\varepsilon \frac{\partial \Psi}{\partial n}\right|_{s_i}, \quad \sigma_i^{\prime}=\left.\varepsilon \frac{\partial \Phi}{\partial n}\right|_{s_i}
+		  $$
+		  and the potential is constant in a single conductor, we obtain our desired theorem.
+	- Energy
+	  collapsed:: true
+		- $$
+		  W=\frac{1}{2} \int \varphi \rho d \tau=\frac{1}{2} \sum_i \phi_i Q_i
+		  $$
+	- ## Stability of Configurations
+	  collapsed:: true
+		- Question: Is the configuration of charge stable, or is the total energy of the system (as a functional of the charge distribution) minimized?
+			- Note that there is a constraint that the total charge on all conductors must be fixed.
+		-
+		- Case 1. All conductors are fixed by external force.
+			- Theorem (Thomson). The energy functional is extremized <-> All conductors have a constant potential within themselves.
+				- Start from
+				  $$W=\frac 1 2 \varepsilon_0 \int \vec E^2 d\tau$$
+				- $$
+				  \delta W=\varepsilon_0 \int \vec{E} \cdot \delta \vec{E} d \tau=-\varepsilon_0 \int \nabla \varphi \cdot \delta \vec{E} d \tau
+				  $$
+				- Integrate by parts:
+				  $$
+				  \delta W=\varepsilon_0 \int \varphi  (\nabla  \cdot \delta \vec{E}) d \tau= \int \varphi  \delta \rho d \tau
+				  $$
+				- Introduce the constraint by a Lagrangian multiplier:
+				  $$
+				  \begin{aligned}
+				  0 & =\delta W-\sum_i \lambda_i \delta Q_i=\sum_i \int \varphi\left(\vec{r}_i\right) \delta \rho\left(\vec{r}_i\right) d \tau_i-\sum_i \lambda_i \int \delta \rho\left(\vec{r}_i\right) d \tau_i \\
+				  & =\sum_i \int\left[\varphi\left(\vec{r}_i\right)-\lambda_i\right] \delta \rho\left(\vec{r}_i\right) d \tau_i
+				  \end{aligned}
+				  $$
+				-
+				- Now we see the necessary and sufficient condition for the functional to be extremized is $\varphi(\vec r_i)=\lambda_i$, i.e. constant potential in the conductors.

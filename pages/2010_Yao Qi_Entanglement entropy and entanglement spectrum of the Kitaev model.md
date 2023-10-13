@@ -62,7 +62,6 @@ type:: paper_reading
 			  Note that the fermion parity depends on $w$, the reconnected gauge fields.
 				- The reconnected gauge fields $w$ are a large superposition.
 	- Finding the appropriate basis to rewrite the ground state
-	  collapsed:: true
 		- Proposition. 
 		  collapsed:: true
 		  $$
@@ -99,9 +98,7 @@ type:: paper_reading
 			- In the last line we divided the gauge configuration into A-part and B part. 
 			  Also we denoted $w_A=w_B$ as $w$.
 	- Calculate the reduced density matrix
-	  collapsed:: true
-		- collapsed:: true
-		  $$
+		- $$
 		  \begin{aligned}
 		  \rho_A & =\operatorname{Tr}_B[|\Psi\rangle\langle\Psi|] \\
 		  & =\frac{1}{2^{N+L+1}} \sum_{g, g^{\prime}, w, w^{\prime}}\left\langle u_B, w^{\prime}\left|X_{g_B^{\prime}}^{\dagger} X_{g_B}\right| u_B, w\right\rangle X_{g_A}\left|u_A, w\right\rangle\left\langle u_A, w^{\prime}\right| X_{g_A^{\prime}}^{\dagger} \cdot \operatorname{Tr}_{B, F}\left[Y_{g_A} Y_{g_B}|\phi(u)\rangle\langle\phi(u)| Y_{g_B^{\prime}}^{\dagger} Y_{g_A^{\prime}}^{\dagger}\right]
@@ -153,6 +150,7 @@ type:: paper_reading
 		- The partial trace on $B$ doesn't depend on the gauge configuration.
 	-
 	- Employ the replica trick
+	  collapsed:: true
 		- Start from
 		  $$\begin{aligned}
 		  \rho _{A} & =\frac{1}{2^{N_{A} +L}}\sum _{g_{A} ,g_{A}^{\prime } ,w} X_{g_{A}}| u_{A} ,w> < u_{A} ,w| X_{g_{A}^{\prime }}^{\dagger } \otimes Y_{g_{A}}\operatorname{Tr}_{B,F}\left[ |\phi (u)\rangle \langle \phi (u)|\left( P_{B,F}^{x_{B} (w)}\right)\right] Y_{g_{A}^{\prime }}^{\dagger }

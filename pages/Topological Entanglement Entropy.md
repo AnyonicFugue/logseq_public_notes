@@ -16,9 +16,9 @@ alias:: TEE
 	  id:: 6498e102-7d82-4736-8535-b3d2e3043a31
 	  card-ease-factor:: 2.6
 	  card-last-reviewed:: 2023-04-02T01:15:26.451Z
-	  collapsed:: true
 		- ((63f9ab7a-5493-4741-8119-f9751148f6a8))
 		- The key is that we can find a **clever basis** for states in region B, 
+		  collapsed:: true
 		  i.e. the basis corresponding to boundary configurations.
 			- Another sort of [[Bulk-Boundary Correspondence]].
 			- Note that the picture is precise when the state is written as a Schmidt decomposition, which requires each 'component' in both subsystem to be orthonormal.
@@ -104,8 +104,7 @@ alias:: TEE
 						- $\hat L$ is a nontrivial loop operator.
 					- Note that it is still a legitimate Schmidt decomposition (two sets are respectively orthogonal) and the coefficients don't change.
 					-
-			- Incontractible bipartition
-			  collapsed:: true
+			- Non-contractible bipartition
 				- This case is different and more interesting. Let's examine the example of TC in more detail.
 				- Setup
 					- Select the basis to be 4 homotopy classes of loops.

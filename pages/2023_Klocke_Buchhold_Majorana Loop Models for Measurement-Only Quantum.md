@@ -98,7 +98,6 @@ type:: paper_reading
 			- $$\mathcal{R}_{12}=\frac{1}{\sqrt{2}}\left(\mathbb{1}-\gamma_1 \gamma_2\right)=\frac{1}{\sqrt{2}}\left(\mathbb{1}-i \sigma_1^z\right)$$
 				- It is indeed unitary.
 - # II Map to Loop Models
-  collapsed:: true
 	- # ((64d29a3e-69e7-4309-8072-529f13a59245))
 	  collapsed:: true
 		- We are interested in bulk and boundary observables of the circuit.

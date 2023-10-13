@@ -27,17 +27,25 @@ id:: 63da100c-a77b-4c42-8e86-5bc90cce4cbd
 			- $\zeta^8=-1$ with $\zeta^2+\zeta^{-2}=\pm \sqrt{2}$
 			  id:: 63da0fe6-366f-4fad-902a-59220239c51e
 				- The sign tells monoidal structures.
-		- If only consider the unitary modular tensor categories: $S=\left(\begin{array}{ccc}1 & 1 & \sqrt{2} \\ 1 & 1 & -\sqrt{2} \\ \sqrt{2} & -\sqrt{2} & 0\end{array}\right)$
-		  collapsed:: true
+		- If only consider the unitary modular tensor categories: 
+		  $$S=\frac 1 2 \left(\begin{array}{ccc}1 & 1 & \sqrt{2} \\ 1 & 1 & -\sqrt{2} \\ \sqrt{2} & -\sqrt{2} & 0\end{array}\right)$$
 			- Generally, 
 			  $$
-			  S=\left(\begin{array}{ccc}
+			  S=\frac 1 2 \left(\begin{array}{ccc}
 			  1 & 1 & \epsilon\left(\zeta^2+\zeta^{-2}\right) \\
 			  1 & 1 & -\epsilon\left(\zeta^2+\zeta^{-2}\right) \\
 			  \epsilon\left(\zeta^2+\zeta^{-2}\right) & -\epsilon\left(\zeta^2+\zeta^{-2}\right) & 0
 			  \end{array}\right)
 			  $$
 			  where $\epsilon$ tells the spherical structures.
+		- They can be distinguished by the T matrix
+		  $$
+		  T=\left(\begin{array}{lll}
+		  1 & & \\
+		  & -1 & \\
+		  & & \epsilon \zeta^{-1}
+		  \end{array}\right)
+		  $$
 	- See ((63744c99-ad88-49b3-961c-f37d7b3aca41)).
 - # Relation to Majorana Anyons
 	- Interprete $\sigma \leftrightarrow \gamma$.

@@ -1,0 +1,24 @@
+file:: [法华经.pdf](C:\Users\yizho\Nutstore\1\sync\我的坚果云\Books\Religions\法华经.pdf)
+file-path:: C:\Users\yizho\Nutstore\1\sync\我的坚果云\Books\Religions\法华经.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 65265456-4110-4472-a047-5fa1504da8ae
+  hl-type:: area
+  hl-stamp:: 1697010773634
+- [:span]
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 652654f8-e72e-4aa6-8976-5b111e253331
+  hl-type:: area
+  hl-stamp:: 1697010935246
+- [:span]
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: yellow
+  id:: 652658ce-8bdb-4e1c-a499-bce9a774578b
+  hl-type:: area
+  hl-stamp:: 1697011917018

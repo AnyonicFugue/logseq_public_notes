@@ -46,7 +46,7 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 	- Could we perform wavefunction renormalization **without** knowing the exact ground state?
 	  id:: 64c59214-6656-41ef-b0ff-283d4062fc9b
 		- Like that of calculating entanglement entropy of stabilizer formalism...
-	- ((64c8442a-7add-4132-a72f-72eeffc91d19))
+	- Remove frustration in local Hamiltonians without modifying the structure of LRE
 	- ## To Examine
 		- TODO How to unify WFR and TNR? How to systematically factor product degrees of freedom and throw them away?
 		  id:: 64c905ac-b67f-49b6-9303-441e4ac1f6ab

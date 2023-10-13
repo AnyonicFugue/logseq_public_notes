@@ -7,7 +7,6 @@
 -
 -
 - # Setup
-  collapsed:: true
 	- Minimum entropy state $\left\{\left|\Xi_a^{(\alpha)}\right\rangle\right\} \equiv\left|\Xi^{(\alpha)}\right\rangle$
 		- The MES basis for a bipartition $\alpha$
 	- Orthonormal basis of the ground space $|\xi_a \rangle$
@@ -44,7 +43,6 @@
 		- ((651a6af9-ff1b-42b4-907b-0634cd8936e5))
 		- Obviously corresponding to a twist.
 - # Key Observations
-  collapsed:: true
 	- Proposition. The ground states having minimum EE (with respect to a non-contractible cut of the lattice) have pure anyon fluxes.
 		- TODO Verify by toric code.
 	- Theorem. The modular $S$ matrix is given by the overlap between MESs corresponding to bipartitions in $x$ and $y$ direction respectively:

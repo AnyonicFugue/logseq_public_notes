@@ -1,5 +1,5 @@
 file:: [2022_Kong_Zhang_An invitation to topological orders and category.pdf](zotero_link/Physics/Topological order/Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf)
-file-path:: zotero_link/Physics/Topological order/Intros and Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf
+file-path:: zotero_link/Research/Quantum Matters/Topological order/Intros and Reviews/2022_Kong_Zhang_An invitation to topological orders and category.pdf
 
 - Note that a macroscopic description of a topological order is possible simply because the notion of a quantum phase is itself a macroscopic notion. Therefore, it is reasonable that the precise characterization of a quantum phase can be obtained by summarizing the complete1 set of ‘observables’ in the thermodynamic limit and in the long wave length limit
   ls-type:: annotation
