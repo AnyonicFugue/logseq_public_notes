@@ -286,11 +286,11 @@
 				- Observe, in this example, that if $A=\left\{x_0\right\}$, then "cycle" and "relative cycle" coincide. This is actually true (almost) always.
 		- Intuitively, this group carries information about those cycles in $X$ but not in $A$.
 	- Reduced Homology Group #card
-	  card-last-interval:: 32.57
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-08-29T02:26:39.389Z
-	  card-last-reviewed:: 2023-07-27T13:26:39.390Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-11-29T00:44:51.415Z
+	  card-last-reviewed:: 2023-10-18T00:44:51.416Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- Augmented Singular Complex $\tilde S(X)$
@@ -365,12 +365,12 @@
 - # Exact Homology Sequences
   collapsed:: true
 	- Theorem (Exact Triangle). If $0 \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right) \stackrel{i}{\rightarrow}\left(S_*, \partial\right) \stackrel{p}{\rightarrow}\left(S_*^{\prime \prime}, \partial^{\prime \prime}\right) \rightarrow 0$ is a short exact sequence of complexes, then there is an exact sequence
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.46
-	  card-next-schedule:: 2023-09-15T13:02:41.182Z
-	  card-last-reviewed:: 2023-08-04T13:02:41.183Z
-	  card-last-score:: 5
+	  card-last-interval:: 97.44
+	  card-repeats:: 3
+	  card-ease-factor:: 2.32
+	  card-next-schedule:: 2024-01-23T10:44:10.855Z
+	  card-last-reviewed:: 2023-10-18T00:44:10.855Z
+	  card-last-score:: 3
 	  $$
 	  \cdots \rightarrow H_n\left(S_*^{\prime}\right) \stackrel{i_*}{\rightarrow} H_n\left(S_*\right) \stackrel{p_*}{\rightarrow} H_n\left(S_*^{\prime \prime}\right) \stackrel{d}{\rightarrow} H_{n-1}\left(S_*^{\prime}\right) \stackrel{i_*}{\rightarrow} H_{n-1}\left(S_*\right) \stackrel{p_*}{\rightarrow} H_{n-1}\left(S_*^{\prime \prime}\right) \rightarrow \cdots
 	  $$ #card
@@ -378,6 +378,7 @@
 		- #+BEGIN_CAUTION
 		  The verifications are trivial. But what's the intuition and insight behind?
 		  #+END_CAUTION
+			- Seems there is a viewpoint of triangulated category.
 		- First note that all homomorphisms are well-defined. The remaining task is to verify exactness one-by-one.
 		- Note that though $i_*$ is induced by inclusions, it is **not injective** in general.
 		  background-color:: pink

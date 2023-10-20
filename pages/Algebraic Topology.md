@@ -217,7 +217,7 @@
 		  (iii) each $x \in A$, the affine set spanned by $\left\{p_0, p_1, \ldots, p_m\right\}$, has a unique expression as an affine combination:
 		  $$
 		  x=\sum_{i=0}^m t_i p_i \quad \text { and } \quad \sum_{i=0}^m t_i=1
-		  $$ #card
+		  $$
 			- *To be completed*
 		- ((642f6f75-ef56-46e8-9c59-b9d8a53c670f)) For every $k \geq 0$, euclidean space $\mathbf{R}^n$ contains $k$ points in general position. #card
 		  card-last-interval:: 31.26
@@ -287,12 +287,12 @@
 	- Defs
 	  collapsed:: true
 		- Relative homotopy #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2023-07-18T07:15:59.609Z
-		  card-last-reviewed:: 2023-06-17T01:15:59.609Z
-		  card-last-score:: 3
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-12-01T00:50:38.165Z
+		  card-last-reviewed:: 2023-10-20T00:50:38.166Z
+		  card-last-score:: 5
 			- For two continuous maps $f_0,f_1:X \to Y$ and $f_0|_A = f_1|_A$, if there is a continuous map $F: X \times \mathbf{I} \rightarrow Y$ with $F: f_0 \simeq f_1$ and
 			  $$
 			  F(a, t)=f_0(a)=f_1(a) \quad \text { for all } a \in A \text { and all } t \in \mathbf{I} .
@@ -625,3 +625,6 @@
 - # [[The Separation Theorems]]
 - # [[Seifert-van Kampen Theorem]]
 - # [[Classification of Surfaces]]
+- # [[Homotopy Groups]]
+- # [[Cohomology]]
+-

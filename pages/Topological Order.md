@@ -210,11 +210,11 @@
 							- In other words, it smooths out all details!
 				- Move particle-like [[Topological excitation]] across the invertible domain wall #card
 				  collapsed:: true
-				  card-last-interval:: 84
-				  card-repeats:: 3
-				  card-ease-factor:: 2.8
-				  card-next-schedule:: 2023-06-27T03:34:26.941Z
-				  card-last-reviewed:: 2023-04-04T03:34:26.941Z
+				  card-last-interval:: 353.22
+				  card-repeats:: 4
+				  card-ease-factor:: 2.9
+				  card-next-schedule:: 2024-10-07T05:53:22.338Z
+				  card-last-reviewed:: 2023-10-20T00:53:22.338Z
 				  card-last-score:: 5
 					- ((6396c9bd-f680-4a7d-b1e5-d9f8de7ae7ff))
 					  collapsed:: true

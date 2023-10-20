@@ -459,3 +459,8 @@ file-path:: zotero_link/Research/Quantum Matters/Topological order/Intros and Re
   id:: 65098ad4-86c3-4469-89c7-464267316046
   hl-type:: area
   hl-stamp:: 1695124180099
+- Note, however, that the Fibonacci planar diagram algebra can be given a braiding, and the resulting theory is then modular. As discussed above we then claim that the content of the Drinfel’d double will be simply the product of a left and right handed copy of the modular Fibonacci anyon theory.
+  ls-type:: annotation
+  hl-page:: 459
+  hl-color:: yellow
+  id:: 652cd617-53f4-47c3-bb62-f5f627e729d5

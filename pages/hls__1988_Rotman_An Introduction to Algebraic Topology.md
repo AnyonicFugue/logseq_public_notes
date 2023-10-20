@@ -353,3 +353,43 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   hl-page:: 133
   hl-color:: yellow
   id:: 64aebc8f-0c64-4254-8e23-9ab108975547
+- Definition
+  ls-type:: annotation
+  hl-page:: 324
+  hl-color:: yellow
+  id:: 6531eaa7-129c-4bda-8096-c89268ebfe25
+- Definition
+  ls-type:: annotation
+  hl-page:: 325
+  hl-color:: yellow
+  id:: 6531ec3b-839a-40e6-93ba-7a53d6b49878
+- Theorem
+  ls-type:: annotation
+  hl-page:: 325
+  hl-color:: yellow
+  id:: 6531f0a0-16c5-4449-b807-321e85e99601
+- Lemma
+  ls-type:: annotation
+  hl-page:: 389
+  hl-color:: yellow
+  id:: 6532394c-e8b9-4752-9500-74081018a669
+- Definition
+  ls-type:: annotation
+  hl-page:: 390
+  hl-color:: yellow
+  id:: 65323c20-b312-4f6f-86a7-a710f612d718
+- Theorem
+  ls-type:: annotation
+  hl-page:: 390
+  hl-color:: yellow
+  id:: 65323d0f-f8db-4f1d-9e3a-db122825b330
+- Theorem
+  ls-type:: annotation
+  hl-page:: 391
+  hl-color:: yellow
+  id:: 65324137-b9c9-41d7-b1ac-0fdcaaeaaa34
+- Theorem
+  ls-type:: annotation
+  hl-page:: 391
+  hl-color:: yellow
+  id:: 65324366-e806-4d87-a9bf-65ac108b78fb

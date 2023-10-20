@@ -285,7 +285,7 @@ alias:: [[Category Theory]]
 		  collapsed:: true
 			- A subcategory D of C with $$\operatorname{Hom}_{\mathcal{D}}(x, y)=\operatorname{Hom}_{\mathcal{C}}(x, y) \text { for all } x, y \in \mathcal{D}$$
 			-
-		- [[Drinfeld center]]
+		- [[Drinfeld Center]]
 - # Additional structures
   collapsed:: true
 	- # C-linear category

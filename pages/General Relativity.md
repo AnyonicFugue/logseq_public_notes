@@ -372,11 +372,11 @@ alias:: GR
 	  G_{a b} \equiv R_{a b}-\frac{1}{2} R g_{a b}=8 \pi T_{a b}
 	  $$
 		- Exercise. There's an equivalent form $R_{a b}=8 \pi\left(T_{a b}-\frac{1}{2} g_{a b} T\right)$. #card
-		  card-last-interval:: 32.57
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-28T00:50:56.441Z
-		  card-last-reviewed:: 2023-04-25T11:50:56.442Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-12-01T00:56:19.374Z
+		  card-last-reviewed:: 2023-10-20T00:56:19.375Z
 		  card-last-score:: 5
 			- The two forms can derive each other by taking trace.
 	- ## Lagrangian Formulation

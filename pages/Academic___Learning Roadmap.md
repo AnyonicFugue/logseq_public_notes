@@ -35,6 +35,12 @@ collapsed:: true
 	- [Riinn 书单 知乎](https://www.zhihu.com/question/21451715/answer/429838579)
 - # Mathematics #card
   id:: 64b4848d-0b6a-4bc0-af8e-6f4d53c52b9d
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-11-18T06:49:02.157Z
+  card-last-reviewed:: 2023-10-18T00:49:02.158Z
+  card-last-score:: 3
   collapsed:: true
 	- WWLi's notes as a roadmap for algebra
 		- 代数学方法1,2
@@ -65,6 +71,7 @@ collapsed:: true
 		- Representation Theory
 			- ![2011_Etingof_Introduction to representation theory.pdf](file://zotero_link/Mathematics/Representation Theory/2011_Etingof_Introduction to representation theory.pdf)
 			- ![2012_Serre_Serre_Linear representations of finite groups.pdf](file://zotero_link/Mathematics/Representation Theory/2012_Serre_Serre_Linear representations of finite groups.pdf)
+		- Higher Category
 		- [[The Langlands Program]]
 	- ## Interesting things to explore
 		- [Cornerstones | Book series home (springer.com)](https://www.springer.com/series/7161)

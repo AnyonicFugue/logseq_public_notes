@@ -43,8 +43,8 @@ alias:: Bulk-Boundary Correspondence
 		- Which conditions are necessary?
 	- (a) The bulk-to-boundary map $F: \mathcal{C} \rightarrow \mathcal{A}$ is a [[Central functor]].
 	  (b) The central structure $F^{\prime}: \mathcal{C} \rightarrow \mathfrak{Z}_1(\mathcal{A})$ is a braided **equivalence**.
-		- (b) gives an interesting restriction: An anomaly-free stable 2D topological order must be a [[Drinfeld center]] of something else.
-		- Conversely, the theorem immediately implies that the [[Drinfeld center]] is **nondegenerate**. Mathematically, ((637ad683-2c60-43af-868c-f7eaacd40528))
+		- (b) gives an interesting restriction: An anomaly-free stable 2D topological order must be a [[Drinfeld Center]] of something else.
+		- Conversely, the theorem immediately implies that the [[Drinfeld Center]] is **nondegenerate**. Mathematically, ((637ad683-2c60-43af-868c-f7eaacd40528))
 	- ((637ad518-c09e-4960-9608-372911a8e757))
 	-
 - ((63aa639b-47e7-4f8f-b2d8-9f18c4231ac1)) Version of [[2-category]]

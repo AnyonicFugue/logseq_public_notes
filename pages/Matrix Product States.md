@@ -29,9 +29,14 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 		-
 - # Questions and Problems #card
   collapsed:: true
+  card-last-interval:: 33.94
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-11-20T22:48:23.723Z
+  card-last-reviewed:: 2023-10-18T00:48:23.723Z
+  card-last-score:: 5
 	- ((64c6b051-edfc-488a-8dd7-626fb927f0f3))
 	- What makes the difference between scalars and matrices?
-	  collapsed:: true
 		- Intuitively, the trace makes matrices at different sites 'entangled'.
 		- For scalars we have the decomposition
 		  $$\sum _{i_{1} ,i_{2} ,\dotsc ,i_{N}} a_{i_{1}}^{[1]} a_{i_{2}}^{[2]} \dotsc a_{i_{N}}^{[N]}| i_{1} i_{2} \dotsc i_{N}\rangle =\otimes _{j=1,...,N}\left(\sum _{i_{j}} a_{i_{j}}^{[j]}| i_{j}\rangle \right)$$
@@ -39,14 +44,10 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 	- What language (higher than conventional linear algebra) suits describing tensor networks?
 	  What properties could capture the LRE features?
 	-
-	- Is there a systematic way of 'searching for LU towards a final state'?
-		- I think a measure of distance (gaussian complexity, fidelity, etc) would be desirable. We only need to decrease the measure of distance each step.
-		- Train an AI model to find such LU?
-			- It's easy to generate data sets, but hard to solve.
 	- Could we perform wavefunction renormalization **without** knowing the exact ground state?
 	  id:: 64c59214-6656-41ef-b0ff-283d4062fc9b
 		- Like that of calculating entanglement entropy of stabilizer formalism...
-	- Remove frustration in local Hamiltonians without modifying the structure of LRE
+	-
 	- ## To Examine
 		- TODO How to unify WFR and TNR? How to systematically factor product degrees of freedom and throw them away?
 		  id:: 64c905ac-b67f-49b6-9303-441e4ac1f6ab

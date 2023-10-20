@@ -229,6 +229,7 @@
 		  card-next-schedule:: 2023-10-01T12:54:41.172Z
 		  card-last-reviewed:: 2023-08-20T12:54:41.173Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- For a covering $\mathcal A$ and metric space X, for each subset of $X$ having diameter less than $\delta$, there exists an element of $\mathcal{A}$ containing it.
 			- Diameter
 				- For a bounded set A, $\operatorname{diam}(A):=\sup \left\{d\left(a_1, a_2\right) \mid a_1, a_2 \in A\right\}$
@@ -351,6 +352,7 @@
 	  card-next-schedule:: 2023-09-10T19:41:32.626Z
 	  card-last-reviewed:: 2023-08-06T12:41:32.626Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Intuition
 			- Open sets must have a finite overlap.
 			- Moreover the covering is finite, thus their intersection cannot be infinitely 'thin'.
@@ -454,13 +456,14 @@
 			-
 			- Remark: If X isn't compact, then z is a Limit point of X, which is quite interesting!
 		- Corollary. For Hausdorff $X$, Locally compact ⇔ For $x$ in $X$ and a neighborhood $U(x)$, there is a neighborhood $V$(x) such that $\bar{V}$ is compact and $\bar{V} \subset U$  #card
+		  id:: 64b48499-780e-4928-a9d9-e6c5a4b395fe
 			- q⇒p: $\bar V$ serves as the compact subset.
 			- p⇒q: We may use the 1-point compactification.
 			- The rest is easy: Hausdorff ⇒ $Y-U(x)$ compact ⇒ We may find disjoint open sets covering $Y-U(x)$ and $U(x)$.
 			  The open set containing $U(x)$ is the desired $V(x)$. $V\cap U=\empty$ ⇒ $\bar V \cap U=\empty$
 			- Strategy: ((63c1416f-d51b-4487-865b-f9d3cf9b5918))
 		- Corollary. If X is loc. comp. Haus, A is closed or open in X, then A is Locally compact Hausdorff.
-		- Corollary $X$ is homeomorphic to an open subspace of a compact Hausdorff space if and only if $X${{ is locally compact Hausdorff.
+		- Corollary $X$ is homeomorphic to an open subspace of a compact Hausdorff space if and only if $X$ is locally compact Hausdorff.
 - # Separability
   collapsed:: true
 	- T1

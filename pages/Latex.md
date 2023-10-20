@@ -10,9 +10,24 @@
 	  card-last-score:: 3
 		- `\sub` and `\subseteq`
 	- $\hookrightarrow$ #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-11-18T06:38:04.191Z
+	  card-last-reviewed:: 2023-10-18T00:38:04.191Z
+	  card-last-score:: 5
 		- `\hookrightarrow`
 	-
-- Lists and Tables
+- # Fonts
+	- mathsf vs mathbf
+		- $\mathsf A, \mathsf B, \mathsf C$
+		- $\mathbf A,\mathbf B,\mathbf C$
+		-
+	- mathcal vs mathscr
+		- $\mathcal A, \mathcal B, \mathcal C$
+		- $\mathscr A,\mathscr B,\mathscr C$
+	-
+		-
 - # Matrix and Array
   collapsed:: true
 	- $$\rho =\left [\begin{array}{ c c|c c }
@@ -26,6 +41,7 @@
 		- The brackets encircles the whole array by `\left` and `\right`
 			- In Mathcha, just input them at the left and right of the array.
 - # Formatting
+  collapsed:: true
 	- Paragraph Formatting
 		- Indentation
 			- ```
@@ -58,6 +74,7 @@
 		- `\package{multicols}{n}`
 		-
 - # Citation and Bib
+  collapsed:: true
 	- Summary
 		- First, create a `.bib` file
 		- Add items to the file

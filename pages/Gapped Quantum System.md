@@ -183,6 +183,12 @@ collapsed:: true
 	- Unstable gapped quantum liquid
 	  collapsed:: true
 		- The 1D transverse Ising #card
+		  card-last-interval:: 33.94
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-11-20T22:47:30.700Z
+		  card-last-reviewed:: 2023-10-18T00:47:30.700Z
+		  card-last-score:: 5
 			- $$
 			  H_{N_k}^{\mathrm{tIsing}}(B)=-\sum_{i=1}^{N_k} Z_i Z_{i+1}-B \sum_{i=1}^{N_k} X_i
 			  $$

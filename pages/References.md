@@ -1,12 +1,12 @@
 - [[Papers to Read]]
 - # Math
-  collapsed:: true
 	- ## Algebraic Topology
 		- ![2000_Munkres_Topology](file://zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf) Topology, Munkres
 		- ![1988_Rotman_An Introduction to Algebraic Topology.pdf](file://zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introduction to Algebraic Topology.pdf)
 	- ## Lie Groups and Lie Algebras
 		- ![2015_Hall_Lie Groups, Lie Algebras, and Representations.pdf](file://zotero_link/Mathematics/Lie Algebra/2015_Hall_Lie Groups, Lie Algebras, and Representations.pdf)
 - # Physics
+  collapsed:: true
 	- ## QM
 	  collapsed:: true
 		- ![2018_Griffiths_Schroeter_Introduction to Quantum Mechanics.pdf](file://zotero_link/Physics/Quantum Mechanics/2018_Griffiths_Schroeter_Introduction to Quantum Mechanics.pdf)

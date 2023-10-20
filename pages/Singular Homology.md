@@ -211,7 +211,6 @@
 			  ((6461a7c8-3e70-4218-8989-a2b1fa67accf))
 			  the 'side faces' of the cone is produced by cones over the boundary.
 - # Basic Facts
-  collapsed:: true
 	- ((644638a3-9be7-46f8-8abb-f6c3ae2849af)) For all $n \geq 0$, we have $\partial_n \partial_{n+1}=0$. #card
 	  collapsed:: true
 	  card-last-interval:: 42
@@ -246,6 +245,7 @@
 	  card-next-schedule:: 2023-07-31T01:03:36.447Z
 	  card-last-reviewed:: 2023-06-19T01:03:36.447Z
 	  card-last-score:: 5
+	  id:: 64b48496-7607-4075-8451-d120e228dafc
 	  collapsed:: true
 		- '当你学了范畴后，看什么都是范畴'。
 		- We should determine two things:
@@ -274,13 +274,13 @@
 		- But to put it in another way -- the homology group is a topological invariant. We've found yet another one!
 	- ((6451ce0c-d570-4606-b1f1-8982fc66eead)) (Dimension Axiom). If $X$ is a one-point space, then $H_n(X)=0$ for all $n>0$. #card
 	  id:: 6454f1b7-5d36-4a76-b56c-aa3dc7b2515d
-	  collapsed:: true
 	  card-last-interval:: 32.57
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-09-25T01:37:33.014Z
 	  card-last-reviewed:: 2023-08-23T12:37:33.015Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- An easy exercise to recall the definitions.
 		  Discuss $n$ even and odd separately.
 	- Lemma 4.15. Let $A$ be a subspace of $X$ with inclusion $j: A \hookrightarrow X$. Then $j_{\#}: S_n(A) \rightarrow S_n(X)$ is an injection for every $n \geq 0$.
@@ -295,8 +295,6 @@
 	  Then a 1-chain $\gamma=\sum m_i \sigma_i \in S_1(X)$ is a cycle if and only if $\gamma$ is homologous to a linear combination of polygons.
 		- q -> p is obvious, since each polygon is a cycle.
 		- p -> q: By direct construction. We can start from a point and find out the next 'edge' successively.
-- # Trying to Calculate the Homology Groups
-  collapsed:: true
 	- Theorem. If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the set of path components of $X$, then, for every $n \geq 0$,
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
@@ -304,6 +302,7 @@
 	  card-next-schedule:: 2023-08-14T19:04:11.616Z
 	  card-last-reviewed:: 2023-07-14T13:04:11.616Z
 	  card-last-score:: 5
+	  collapsed:: true
 	  $$
 	  H_n(X) \cong \sum_\lambda H_n\left(X_\lambda\right) .
 	  $$ #card
@@ -345,8 +344,8 @@
 				- $\zeta$ is a finite formal sum of some simplexes.
 			- However, $\operatorname{supp} \zeta$ itself is compact since *a finite union of compact subsets is compact*.
 		- Therefore consider $x \in H_n(X)$. $x \in j_*(H_n(A))$, but $H_n(A)=0$, so $x=0$.
+-
 - # The Homotopy Axiom
-  collapsed:: true
 	- We are concerned with the problem:
 	  When does $H_n(f)=H_n(g)$
 	  Does it hold when $f$ and $g$ are homotopic?

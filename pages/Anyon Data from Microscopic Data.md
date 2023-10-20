@@ -7,7 +7,6 @@
 -
 -
 - [[2015_Zhang_Grover_Vishwanath_General procedure for determining modular data]]
+- [[2015_You_Cheng_Measuring Modular Matrices by Shearing Lattices]]
 -
--
-- ![2015_You_Cheng_Measuring Modular Matrices by Shearing Lattices.pdf](file://zotero_link/Research/Anyon Data from Microscopic Data/2015_You_Cheng_Measuring Modular Matrices by Shearing Lattices.pdf) provides a concrete example of calculation, which obtains the data of Ising anyons.
 -
