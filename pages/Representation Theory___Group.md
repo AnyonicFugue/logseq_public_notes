@@ -42,18 +42,22 @@
 			- Corollary. Let $T:G\rightarrow \mathrm{GL} (V)$ be a linear representation. Let $V_{1} ,\dotsc ,V_{m}$ be minimal invariant subspaces such that the representations $T_{i} =T_{V_{i}}$ are **pairwise nonisomorphic**(New condition). Then $V_{1} ,\dotsc ,V_{m}$ are linearly independent.
 			  id:: 4b39adbd-96d1-4605-8870-8ce25437e6f7
 		- Theorem. Let $T$ be a linear representation. If $$T\simeq T_{1} +\dotsc +T_{m} \simeq S_{1} +\dotsc +S_{p}$$ where $T_{i}$ and $S_{j}$ are irreducible representations, then $m=p$ and, for a suitable labeling, $T_{i} \simeq S_{i}$. #card
-		  collapsed:: true
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-06-02T00:50:42.266Z
-		  card-last-reviewed:: 2023-05-03T00:50:42.267Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-02-15T14:29:23.926Z
+		  card-last-reviewed:: 2023-10-21T00:29:23.927Z
 		  card-last-score:: 5
 			- By induction.
+				- There can be two strategies: 
+				  One is to substitute some $S_i$ by $T_m$ (which is guaranteed by the 'maximally linear independent set' trick); 
+				  the other is to construct projection operators, which must be zero or isomorphisms.
+				-
 			- Note that the decomposition of representations is only unique up to isomorphism.
 				- For example, we may decompose $\mathbb R^2$ into $x \oplus y$ and $\frac \pi 4 \oplus \frac {3\pi} 4$
 	-
 	- ## Inner product and reducibility
+	  collapsed:: true
 		- Proposition. Every orthogonal or unitary representation is completely reducible. #card
 		  card-last-interval:: 26.06
 		  card-repeats:: 1

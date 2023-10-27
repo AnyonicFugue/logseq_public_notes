@@ -27,7 +27,7 @@
 		- ((6468866d-58b5-4de4-871c-0def87304837))
 	- Analysis
 		- First of all, the only possible recipes are $p,p',\gamma^\mu,m,e,$ pure numbers.
-		- [[Lorentz covariance]] forces $\Gamma^\mu=\gamma^\mu \cdot A+\left(p^{\prime \mu}+p^\mu\right) \cdot B+\left(p^{\prime \mu}-p^\mu\right) \cdot C$
+		- [[Lorentz Covariance]] forces $\Gamma^\mu=\gamma^\mu \cdot A+\left(p^{\prime \mu}+p^\mu\right) \cdot B+\left(p^{\prime \mu}-p^\mu\right) \cdot C$
 		  collapsed:: true
 			- ((637c7d9c-c89f-4466-83ff-7e89c733ef8b))
 			- Moreover, the only possible nontrivial scalar is $p^\mu p'_\mu$, since $p^2=m^2$

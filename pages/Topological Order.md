@@ -378,11 +378,11 @@
 								- GSD=2. We may label the ground states by the eigenvalues of the X operators.
 									- The trivial topological excitation $\mathbb{1}$ can be decomposed as the direct sum of simple ones $\mathbb{1}=\mathbb{1}_{+} \oplus \mathbb{1}_{-}$. where $X$ acts on $\mathbb{1}_{\pm}$as $\pm 1$.
 								- [[Fusion rules]] #card
-								  card-last-interval:: 30
-								  card-repeats:: 2
-								  card-ease-factor:: 2.7
-								  card-next-schedule:: 2023-06-03T00:39:37.725Z
-								  card-last-reviewed:: 2023-05-04T00:39:37.726Z
+								  card-last-interval:: 117.6
+								  card-repeats:: 3
+								  card-ease-factor:: 2.8
+								  card-next-schedule:: 2024-02-21T14:32:49.627Z
+								  card-last-reviewed:: 2023-10-27T00:32:49.628Z
 								  card-last-score:: 5
 									- $$
 									  \mathbb{1}_{\pm} \otimes \mathbb{1}_{\pm}=\mathbb{1}_{\pm} \text { 
@@ -542,11 +542,11 @@
 	- ## [[Principle of Emergence]]
 	  collapsed:: true
 		- It is simply astounding that fermionic and anyonic, even abelian, statistics can arise from purely bosonic systems! #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-06-11T00:29:31.211Z
-		  card-last-reviewed:: 2023-05-12T00:29:31.211Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-02-18T14:32:22.311Z
+		  card-last-reviewed:: 2023-10-24T00:32:22.311Z
 		  card-last-score:: 5
 			- This strongly suggests that the [[Elementary Particles]] might be emergent.
 	- ## Towards higher dimensions

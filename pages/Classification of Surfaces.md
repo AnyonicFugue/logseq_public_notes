@@ -233,20 +233,20 @@
 		  w\sim w_0 a b a^{-1} b^{-1}\left[y_1 y_4 y_3 y_2 y_5\right]
 		  $$
 	- ((63ff1cab-4221-49ab-9d57-42cf9aa3952d)) Let $w$ be a proper scheme of the form
-	  collapsed:: true
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-08-26T18:36:52.492Z
 	  card-last-reviewed:: 2023-07-26T12:36:52.492Z
 	  card-last-score:: 5
+	  collapsed:: true
 	  $$
 	  w=w_0(c c)\left(a b a^{-1} b^{-1}\right) w_1
 	  $$
 	  Then $w$ is equivalent to the scheme
 	  $$
 	  w^{\prime}=w_0(a a b b c c) w_1
-	  $$ #card
+	  $$
 		- In plain English, this means that a projective type must be torus-free.
 		- Proof
 			- Hint: Use the [lemma](((63fabdf6-dd04-4a9c-9d8f-a3635ac7b108))) forwards and backwards for several times.

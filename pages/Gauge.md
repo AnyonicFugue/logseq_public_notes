@@ -3,6 +3,7 @@ alias:: Gauge Theory
 - [What is a gauge? | Teherence Tao](https://terrytao.wordpress.com/2008/09/27/what-is-a-gauge/)
 - ((64565059-ba36-4bfd-8fa8-516fa601aab3))
 - # Tricky Points
+  collapsed:: true
 	- Symmetry factor $-1$ of a fermion loop
 	- $i\lambda$ or $-i\lambda$? $i(Z-1)$ or $-i(Z-1)$? $ip$ or $-ip$?
 		- Origin: We have $\exp{-iHT}$, which means $H_{int}$ becomes $-iH_{int}$.
@@ -13,6 +14,7 @@ alias:: Gauge Theory
 				- Note that we always draw fermion lines (rather than anti-fermion lines) in propagators, therefore $\not D$ should act on $\hat a e^{-ipx}$ rather then $\hat b^\dagger e^{ipx}$.
 	- Power counting could only work for the $p$-independent divergence! $p^2$ terms cannot be obtained in this way; we must calculate the integral step-by-step.
 - # Motivations
+  collapsed:: true
 	- When we try to construct theories like $A^\mu A^\nu \partial_\mu A_\nu$ or $A^4$, we would encounter negative norms.
 		- The problem is absent in QED because ((640458fa-7092-47a3-a5db-acb4759ce58a)).
 		- This follows from [[Ward-Takahashi Identity]], which in turn follows from **gauge invariance**. #Learning-TODO/Course
@@ -24,6 +26,7 @@ alias:: Gauge Theory
 		- Structure constants
 		-
 - # Elements of Lie Algebras
+  collapsed:: true
 	- $\operatorname{tr}\left[t_r^a t_r^b\right] \equiv D^{a b}$
 	- Prop. As long as the generator matrices are Hermitian, the matrix $D^{a b}$ is positive definite. Thus it can be diagonalized and made in the form $\operatorname{tr}\left[t_r^a t_r^b\right]=C(r) \delta^{a b}$ #card
 	  card-last-interval:: 31.26
@@ -395,7 +398,7 @@ alias:: Gauge Theory
 				  $$
 					- Is $\bar \psi$ acting $\gamma_0$ on two components separately, or exchanging the two components? #Learning-TODO
 					  background-color:: red
-			- ## EOM #card
+			- ## EOM
 			  card-last-interval:: 30
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6

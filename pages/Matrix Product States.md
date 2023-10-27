@@ -290,11 +290,11 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 			-
 	- ## [[Renormalization Group]] #card
 	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-09-02T18:40:31.692Z
-	  card-last-reviewed:: 2023-08-02T12:40:31.692Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-08T00:19:56.446Z
+	  card-last-reviewed:: 2023-10-27T00:19:56.446Z
 	  card-last-score:: 5
 		- #+BEGIN_NOTE
 		  This is the most exciting part -- systematically finding the structure of LRE!

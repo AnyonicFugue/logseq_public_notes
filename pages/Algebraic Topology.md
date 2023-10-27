@@ -1,3 +1,7 @@
+- [[References]]
+	- ![2000_Munkres_Topology](file://zotero_link/Mathematics/Topology/2000_Munkres_Topology.pdf) Topology, Munkres
+	- ![1988_Rotman_An Introduction to Algebraic Topology.pdf](file://zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introduction to Algebraic Topology.pdf)
+	-
 - Study obscure topological properties in an algebraic manner! #System
   id:: 638d57a7-30e1-4243-8ec8-babe77af9cf8
 	- There seems to be something deeper inside. Galois theory -> Study field extensions by means of automorphism groups.
@@ -34,6 +38,7 @@
 		- ((642beb92-a7b0-4614-816f-5e3042f3e7db))
 			- Gluing the bottom to the target!
 	- Some cats
+	  collapsed:: true
 		- $\mathscr{C}=\mathrm{Top}^2$
 			- Here obj $\mathscr{C}$ consists of all ordered pairs $(X, A)$, where $X$ is a topological space and $A$ is a subspace of $X$. A morphism $f:(X, A) \rightarrow$ $(Y, B)$ is an ordered pair $\left(f, f^{\prime}\right)$, where $f: X \rightarrow Y$ is continuous and $f i=j f^{\prime}$ (where $i$ and $j$ are inclusions).
 		- $\mathscr{C}=\operatorname{Top}_*$
@@ -74,25 +79,6 @@
 		  card-last-score:: 5
 			- The intersection of all affine/convex sets containing $X$.
 			- Theorem 2.1. If $\left\{X_j: j \in J\right\}$ is a family of convex (or affine) subsets of $\mathbf{R}^n$, then $\cap X_j$ is also convex (or affine).
-		- Affine (Convex) combination #card
-		  collapsed:: true
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-08-27T19:24:41.966Z
-		  card-last-reviewed:: 2023-07-27T13:24:41.966Z
-		  card-last-score:: 5
-			- For a finite set of points $$p_0, p_1, \ldots, p_m$$, an affine combination is a single point
-			  collapsed:: true
-			  $$x=t_0 p_0+t_1 p_1+\cdots+t_m p_m$$
-			  where $\sum_{i=0}^m t_i=1$.
-				- What does $\sum_{i=0}^m t_i=1$ mean?
-				  collapsed:: true
-					- For 2 points this is the line crossing both points.
-					- For 3 points (not on the same line) this is the plane determined by them.
-					- For general cases this is the unique 'infinite simplex' by induction.
-			- A convex combination is an affine combination for which $t_i \geq 0$ for all $i$.
-			- ((642d7f26-c4a3-4172-a3bd-398cca94309e)). If $p_0, p_1, \ldots, p_m \in \mathbf{R}^n$, then $\left[p_0, p_1, \ldots, p_m\right]$, the convex (affine) set spanned by these points is the set of all convex (affine) combinations of $p_0, p_1, \ldots, p_m$.
 		- Affine independent #card
 		  collapsed:: true
 		  card-last-interval:: 117.6
@@ -130,78 +116,113 @@
 			- Remarks
 				- It preserves affine combinations.
 				- The map can be determined by an affine independent subset ('basis'). As a special case, by the vertices of a simplex.
-		- ### About Simplexes
+		- Affine (Convex) combination
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-08-27T19:24:41.966Z
+		  card-last-reviewed:: 2023-07-27T13:24:41.966Z
+		  card-last-score:: 5
+		  id:: 64b4848d-15fe-40ea-8212-6d960efc009c
 		  collapsed:: true
-			- Barycentric coordinate #card
+			- For a finite set of points $$p_0, p_1, \ldots, p_m$$, an affine combination is a single point
 			  collapsed:: true
-			  card-last-interval:: 30
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-06-13T00:22:02.008Z
-			  card-last-reviewed:: 2023-05-14T00:22:02.008Z
-			  card-last-score:: 5
-				- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$, and let $A$ be the affine set spanned by this subset.
-				- If $x \in A$, then the [theorem](((642d8032-73a8-473d-8bc5-9da77152a596))) gives a unique $(m+1)$-tuple $\left(t_0, t_1, \ldots, t_m\right)$ with $\sum t_i=1$ and $x=\sum_{i=0}^m t_i p_i$. 
-				  The entries of this $(m+1)$-tuple are called the **barycentric coordinates** of $x$ (relative to the ordered set $\left.\left\{p_0, p_1, \ldots, p_m\right\}\right)$.
-				- Intuitively, this means how to obtain a point in the 'affine simplex' by the vertices.
-			- Barycenter #card
-			  collapsed:: true
-			  card-last-interval:: 42
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-09-07T13:26:08.936Z
-			  card-last-reviewed:: 2023-07-27T13:26:08.936Z
-			  card-last-score:: 5
-				- If $\left\{p_0, \ldots, p_m\right\}$ is affine independent, the barycenter of $\left[p_0, \ldots, p_m\right]$ is $(1 / m+1)\left(p_0+p_1+\cdots+p_m\right)$.
-				- > Barycenter comes from the Greek *barys* meaning heavy; thus, barycenter is just "center of gravity"
-			- m-simplex in $\mathbb R^n$ #card
-			  collapsed:: true
-			  card-last-interval:: 35.37
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-09-25T21:15:31.656Z
-			  card-last-reviewed:: 2023-08-21T13:15:31.657Z
-			  card-last-score:: 5
-				- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$. The **convex** set spanned by this set, denoted by $\left[p_0, p_1, \ldots, p_m\right]$, is called the (affine) $\boldsymbol{m}$-simplex with vertices $p_0, p_1, \ldots, p_m$.
+			  $$x=t_0 p_0+t_1 p_1+\cdots+t_m p_m$$
+			  where $\sum_{i=0}^m t_i=1$.
+				- What does $\sum_{i=0}^m t_i=1$ mean?
 				  collapsed:: true
-					- 'Convex' means $t_i \geq 0$
-				- Standard n-simplex
-					- $$
-					  \Delta^n=\left\{\left(x_1, x_2, \ldots, x_{n+1}\right) \in \mathbf{R}^{n+1}: \text { each } x_i \geq 0 \text { and } \sum x_i=1\right\}
-					  $$
-						- A (inclining) closed interval for n=1, a triangle (vertices being $(1,0,0),(0,1,0),(0,0,1)$)) for n=2, a tetrahedron (?) for n=3, ...
-						- Obviously $\Delta^n \approx D^n$
-			- Singular $n$-simplex #card
-			  id:: 64462ceb-3ede-4222-851b-57c2b29616b0
-			  card-last-interval:: 30
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-06-17T00:47:42.183Z
-			  card-last-reviewed:: 2023-05-18T00:47:42.184Z
-			  card-last-score:: 5
-				- ((64462d18-fd06-47e4-89b0-1b26cce381ab)) A (singular) $n$-simplex in $X$ is a continuous map $\sigma: \Delta^n \rightarrow X$, where $\Delta^n$ is the standard $n$-simplex.
-				  id:: 64462cfd-824d-4ac1-a0c2-4317a0835f50
-					- Note that two different maps are always regarded as two **different** simplexes (even if they're homotopic)!
-				- Seems a natural generalization of paths (a path is a singular 1-simplex).
-					- It's an interesting question that which properties should be kept in a generalization.
-					- Here the key seems **affine**.
-			- $k$-face and boundary #card
-			  card-last-interval:: 32.57
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-05-28T00:52:14.479Z
-			  card-last-reviewed:: 2023-04-25T11:52:14.479Z
-			  card-last-score:: 5
-				- Note that this is the unoriented form, which lacks some important sturctures.
-				- A $\boldsymbol{k}$-face of $\left[p_0, p_1, \ldots, p_m\right]$ is a $k$-simplex spanned by $k+1$ of the vertices. 
-				  In this terminology, the boundary is the union of all $(m-1)$-faces.
-				- Boundary of a simplex
-					- Let $\left[p_0, p_1, \ldots, p_m\right]$ be an $m$-simplex. The face opposite $p_i$ is
-					  $$
-					  \left[p_0, \ldots, \hat{p}_i, \ldots, p_m\right]=\left\{\sum t_j p_j: t_j \geq 0, \sum t_j=1 \text {, and } t_i=0\right\}
-					  $$
-					  (circumflex ^ means "delete").
-					- The boundary of $\left[p_0, p_1, \ldots, p_m\right]$ is the union of its $(m-1)$-faces.
+					- For 2 points this is the line crossing both points.
+					- For 3 points (not on the same line) this is the plane determined by them.
+					- For general cases this is the unique 'infinite simplex' by induction.
+			- A convex combination is an affine combination for which $t_i \geq 0$ for all $i$.
+			- ((642d7f26-c4a3-4172-a3bd-398cca94309e)). If $p_0, p_1, \ldots, p_m \in \mathbf{R}^n$, then $\left[p_0, p_1, \ldots, p_m\right]$, the convex (affine) set spanned by these points is the set of all convex (affine) combinations of $p_0, p_1, \ldots, p_m$.
+- # About Simplexes
+  id:: 64b4848d-32de-4083-a028-c5424818237d
+	- Barycentric coordinate #card
+	  collapsed:: true
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-13T00:22:02.008Z
+	  card-last-reviewed:: 2023-05-14T00:22:02.008Z
+	  card-last-score:: 5
+		- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$, and let $A$ be the affine set spanned by this subset.
+		- If $x \in A$, then the [theorem](((642d8032-73a8-473d-8bc5-9da77152a596))) gives a unique $(m+1)$-tuple $\left(t_0, t_1, \ldots, t_m\right)$ with $\sum t_i=1$ and $x=\sum_{i=0}^m t_i p_i$. 
+		  The entries of this $(m+1)$-tuple are called the **barycentric coordinates** of $x$ (relative to the ordered set $\left.\left\{p_0, p_1, \ldots, p_m\right\}\right)$.
+		- Intuitively, this means how to obtain a point in the 'affine simplex' by the vertices.
+	- Barycenter #card
+	  collapsed:: true
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-07T13:26:08.936Z
+	  card-last-reviewed:: 2023-07-27T13:26:08.936Z
+	  card-last-score:: 5
+		- If $\left\{p_0, \ldots, p_m\right\}$ is affine independent, the barycenter of $\left[p_0, \ldots, p_m\right]$ is $(1 / m+1)\left(p_0+p_1+\cdots+p_m\right)$.
+		- > Barycenter comes from the Greek *barys* meaning heavy; thus, barycenter is just "center of gravity"
+	- m-simplex in $\mathbb R^n$ #card
+	  collapsed:: true
+	  card-last-interval:: 35.37
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-25T21:15:31.656Z
+	  card-last-reviewed:: 2023-08-21T13:15:31.657Z
+	  card-last-score:: 5
+		- Let $\left\{p_0, p_1, \ldots, p_m\right\}$ be an affine independent subset of $\mathbf{R}^n$. The **convex** set spanned by this set, denoted by $\left[p_0, p_1, \ldots, p_m\right]$, is called the (affine) $\boldsymbol{m}$-simplex with vertices $p_0, p_1, \ldots, p_m$.
+		  collapsed:: true
+			- 'Convex' means $t_i \geq 0$
+		- Standard n-simplex
+			- $$
+			  \Delta^n=\left\{\left(x_1, x_2, \ldots, x_{n+1}\right) \in \mathbf{R}^{n+1}: \text { each } x_i \geq 0 \text { and } \sum x_i=1\right\}
+			  $$
+				- A (inclining) closed interval for n=1, a triangle (vertices being $(1,0,0),(0,1,0),(0,0,1)$)) for n=2, a tetrahedron (?) for n=3, ...
+				- Obviously $\Delta^n \approx D^n$
+	- Singular $n$-simplex #card
+	  id:: 64462ceb-3ede-4222-851b-57c2b29616b0
+	  card-last-interval:: 30
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-06-17T00:47:42.183Z
+	  card-last-reviewed:: 2023-05-18T00:47:42.184Z
+	  card-last-score:: 5
+	  collapsed:: true
+		- ((64462d18-fd06-47e4-89b0-1b26cce381ab)) A (singular) $n$-simplex in $X$ is a continuous map $\sigma: \Delta^n \rightarrow X$, where $\Delta^n$ is the standard $n$-simplex.
+		  id:: 64462cfd-824d-4ac1-a0c2-4317a0835f50
+			- Note that two different maps are always regarded as two **different** simplexes (even if they're homotopic)!
+		- Seems a natural generalization of paths (a path is a singular 1-simplex).
+			- It's an interesting question that which properties should be kept in a generalization.
+			- Here the key seems **affine**.
+	- $k$-face and boundary #card
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-08T00:33:28.788Z
+	  card-last-reviewed:: 2023-10-27T00:33:28.789Z
+	  card-last-score:: 5
+	  collapsed:: true
+		- Note that this is the unoriented form, which lacks some important sturctures.
+		- A $\boldsymbol{k}$-face of $\left[p_0, p_1, \ldots, p_m\right]$ is a $k$-simplex spanned by $k+1$ of the vertices. 
+		  In this terminology, the boundary is the union of all $(m-1)$-faces.
+		- Boundary of a simplex
+			- Let $\left[p_0, p_1, \ldots, p_m\right]$ be an $m$-simplex. The face opposite $p_i$ is
+			  $$
+			  \left[p_0, \ldots, \hat{p}_i, \ldots, p_m\right]=\left\{\sum t_j p_j: t_j \geq 0, \sum t_j=1 \text {, and } t_i=0\right\}
+			  $$
+			  (circumflex ^ means "delete").
+			- The boundary of $\left[p_0, p_1, \ldots, p_m\right]$ is the union of its $(m-1)$-faces.
+	- ((653a0f8f-4f14-42ea-8c23-b17d581306e5)) Vertex set
+	  collapsed:: true
+		- If $s=\left[v_0, \ldots, v_q\right]$ is a $q$-simplex, then we denote its vertex set by $\operatorname{Vert}(s)=\left\{v_0, \ldots, v_q\right\}$
+	- A face of a simplex #card
+	  collapsed:: true
+		- If $s$ is a simplex, then a face of $s$ is a simplex $s^{\prime}$ with $\operatorname{Vert}\left(s^{\prime}\right) \subset$ $\operatorname{Vert}(s)$; one writes $s^{\prime} \leq s$.
+		- If $s^{\prime}<s$ (i.e., $\left.\operatorname{Vert}\left(s^{\prime}\right) \subsetneq \operatorname{Vert}(s)\right)$, then $s^{\prime}$ is called a proper face of $s$.
+	- Open $q$-simplex
+		- Let $s$ be a $q$-simplex. If $q=0$, define $s^{\circ}=s$; if $q>0$, define $s^{\circ}=$ $s-\dot{s}$.
+		- i.e. a simplex minus the boundary.
+		-
+		- Observation. A simplicial complex is a disjoint union of its open simplexes.
+		- Observation. If $s$ lies in a simplicial complex $K$, then $s^{\circ}$ (which can be a point, a line, etc.) may **not** be an open subset of $|K|$.
 	- ## Basic Facts
 	  collapsed:: true
 		- ((642d8003-6824-4805-ba5e-7ce8cb5333e2)) The following conditions on an ordered set of points $\left\{p_0, p_1, \ldots, p_m\right\}$ in $\mathbf{R}^n$ are equivalent.
@@ -421,6 +442,7 @@
 - # [[Singular Homology]]
 - # [[Long Exact Sequences]]
 - # [[Excision]]
+- # [[Simplicial Complex]]
 -
 - [[Retraction]]
   collapsed:: true
@@ -503,11 +525,11 @@
 		- Note that this implies $S^n$ isn't ((6427a15a-5b02-4445-a1b6-1aa2219b1b94)) since there's no retraction from $D^{n+1}$ to $S^n$, but the latter fact is nontrivial.
 	- ((6393ecbc-590b-426b-8528-d730e640b237)) The inclusion map $j : S^1 \rightarrow \mathbb{R}^2-\mathbf{0}$ is not nulhomotopic. #card
 	  card-last-score:: 5
-	  card-repeats:: 3
-	  card-next-schedule:: 2023-05-27T09:35:29.691Z
-	  card-last-interval:: 67.2
-	  card-ease-factor:: 2.8
-	  card-last-reviewed:: 2023-03-21T05:35:29.692Z
+	  card-repeats:: 4
+	  card-next-schedule:: 2024-10-10T06:01:54.196Z
+	  card-last-interval:: 353.22
+	  card-ease-factor:: 2.9
+	  card-last-reviewed:: 2023-10-23T01:01:54.197Z
 	  collapsed:: true
 		- An exercise to express the intuition via the language of retractions.
 		- Hint: Nul -> Trivial hom of $\pi_1$; Retraction -> Injective

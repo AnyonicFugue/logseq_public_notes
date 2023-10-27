@@ -1,4 +1,4 @@
-- Def #card
+- Def
   card-last-interval:: 84
   card-repeats:: 3
   card-ease-factor:: 2.8

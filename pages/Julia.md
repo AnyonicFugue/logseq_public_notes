@@ -134,11 +134,11 @@
 			- Usually it is because I wrote a Python-style indexing of arrays.
 				- i.e. The Julia style is `arr[a,b]`, but the Python style is `arr[a][b]`
 	- Usage of range #card
-	  card-last-interval:: 67.2
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-03-08T11:08:09.696Z
-	  card-last-reviewed:: 2022-12-31T07:08:09.697Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-10-08T05:24:29.545Z
+	  card-last-reviewed:: 2023-10-21T00:24:29.545Z
 	  card-last-score:: 5
 		- `range(1,10)`
 		- I must specify the beginning.

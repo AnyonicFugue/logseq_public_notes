@@ -9,11 +9,11 @@
 	- $\mathcal S$, the stablizer, is an abelian subgroup of $G_n$
 		- Why abelian? #card
 		  card-last-score:: 5
-		  card-repeats:: 3
-		  card-next-schedule:: 2023-03-16T11:34:45.161Z
-		  card-last-interval:: 61.44
-		  card-ease-factor:: 2.56
-		  card-last-reviewed:: 2023-01-14T01:34:45.162Z
+		  card-repeats:: 4
+		  card-next-schedule:: 2024-08-17T04:38:05.783Z
+		  card-last-interval:: 297.18
+		  card-ease-factor:: 2.66
+		  card-last-reviewed:: 2023-10-25T00:38:05.783Z
 			- 1. Abelian allows them to be diagonalized simultaneously and find the preserved eigenspace.
 			- 2. More importantly, the measurements of the operators won't cause extra collapses of states.
 	- Stabilizer code space $\mathcal H_S$

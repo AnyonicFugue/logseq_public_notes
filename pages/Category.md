@@ -41,11 +41,11 @@ alias:: [[Category Theory]]
 				- Motivated by projectors in $\mathrm{Set}$
 			-
 			- Split #card
-			  card-last-interval:: 201.84
-			  card-repeats:: 4
-			  card-ease-factor:: 2.9
-			  card-next-schedule:: 2023-10-01T08:08:48.299Z
-			  card-last-reviewed:: 2023-03-13T12:08:48.299Z
+			  card-last-interval:: 1134
+			  card-repeats:: 5
+			  card-ease-factor:: 3
+			  card-next-schedule:: 2026-11-29T00:32:53.616Z
+			  card-last-reviewed:: 2023-10-22T00:32:53.616Z
 			  card-last-score:: 5
 				- An idempotent $e: x \rightarrow x$ splits if there exists an object $y \in \mathcal{C}$ equipped with two morphisms $r: x \rightarrow y, s: y \rightarrow x$ such that $r \circ s=\mathrm{id}_y$ and $s \circ r=e$.
 					- Motivated by surjective maps (projections) in $\mathrm{Vec}$: We can project $V$ to $W$ and embed $W$ back to $V$.
@@ -94,11 +94,11 @@ alias:: [[Category Theory]]
 				- Faithful if for each $x, y \in \mathrm{C}$, the map $\mathrm{C}(x, y) \rightarrow \mathrm{D}(F x, F y)$ is injective
 		- Contravariant functor #card
 		  collapsed:: true
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-09-26T12:51:56.044Z
-		  card-last-reviewed:: 2023-08-15T12:51:56.044Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-02-19T14:35:43.769Z
+		  card-last-reviewed:: 2023-10-25T00:35:43.769Z
 		  card-last-score:: 5
 			- Definition. If $\mathscr{A}$ and $\mathscr{C}$ are categories, a contravariant functor $S: \mathscr{A} \rightarrow \mathscr{C}$ is a function, that is,
 			- (i) if $f: A \rightarrow A^{\prime}$ is a morphism in $\mathscr{A}$, then $S f: S A^{\prime} \rightarrow S A$ is a morphism in $\mathscr{C}$, such that:
@@ -167,11 +167,11 @@ alias:: [[Category Theory]]
 	  collapsed:: true
 		- Def #card
 		  card-last-score:: 5
-		  card-repeats:: 3
-		  card-next-schedule:: 2023-08-01T00:25:56.086Z
-		  card-last-interval:: 84
-		  card-ease-factor:: 2.8
-		  card-last-reviewed:: 2023-05-09T00:25:56.086Z
+		  card-repeats:: 4
+		  card-next-schedule:: 2024-10-10T05:55:47.962Z
+		  card-last-interval:: 353.22
+		  card-ease-factor:: 2.9
+		  card-last-reviewed:: 2023-10-23T00:55:47.963Z
 		  collapsed:: true
 			- A family $\{\alpha_x\}$ such that ((636ca3f1-0eb2-4ab9-b618-e430f99c3d90))
 			- Natural isomorphism
@@ -209,11 +209,11 @@ alias:: [[Category Theory]]
 				- That is, the two different ways to link the two paths are identical.
 	- Equivalent categories #card
 	  collapsed:: true
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-26T01:08:07.217Z
-	  card-last-reviewed:: 2023-05-27T01:08:07.218Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-08T00:24:58.559Z
+	  card-last-reviewed:: 2023-10-27T00:24:58.559Z
 	  card-last-score:: 5
 		- Let $\mathcal{C}, \mathcal{D}$ be categories. A functor $F: \mathcal{C} \rightarrow \mathcal{D}$ is called an equivalence if there exists a functor $G: \mathcal{D} \rightarrow \mathcal{C}$ such that $G \circ F$ is naturally isomorphic to id $\mathcal{C}$ and $F \circ G$ is naturally isomorphic to $\mathrm{id}_{\mathcal{D}}$. 
 		  In this case $G$ is called the **quasi-inverse** of $F$.
@@ -424,11 +424,11 @@ alias:: [[Category Theory]]
 				- Maybe braidings in 1-cats are too strong and restrictive. We need something more.
 				- Can we find some structure which can always be extended?
 		- 'Take the algebra' is somwhat similar to 'adding a dimension' #card
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-09-17T12:37:59.289Z
-		  card-last-reviewed:: 2023-08-06T12:37:59.290Z
+		  card-last-interval:: 97.44
+		  card-repeats:: 3
+		  card-ease-factor:: 2.32
+		  card-next-schedule:: 2024-01-26T10:24:59.978Z
+		  card-last-reviewed:: 2023-10-21T00:24:59.978Z
 		  card-last-score:: 3
 		- Baez-Dolan conjecture. For a symmetric monoidal n-category $C$, the forgetful functor $E_{k+1}\mathrm{Alg}(C) \to E_k\mathrm{Alg}(C)$ is an equivalence for $k>n$. #card
 		  collapsed:: true
@@ -533,6 +533,12 @@ alias:: [[Category Theory]]
 					- Consistency of algebras
 			- Lemma 3. If $S$ is a symmetrical braided monoidal category, then $E_2\mathrm{Alg}(S)$ is a monoidal category. #card
 			  collapsed:: true
+			  card-last-interval:: 29.89
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-11-20T21:36:53.625Z
+			  card-last-reviewed:: 2023-10-22T00:36:53.625Z
+			  card-last-score:: 3
 				- Recall that 'symmetrical' means that all double braidings are trivial.
 				- It can still be checked by beautiful braiding diagrams.
 			- Theorem 3. $E_3\mathrm{Alg}(S) \simeq \mathrm{CAlg}(S)$ #card

@@ -71,3 +71,10 @@ file-path:: C:\Users\yizho\Nutstore\1\sync\我的坚果云\Books\Religions\法�
   id:: 652f9977-6dcb-4bab-81af-c991e2840415
   hl-type:: area
   hl-stamp:: 1697618293442
+- [:span]
+  ls-type:: annotation
+  hl-page:: 17
+  hl-color:: yellow
+  id:: 6538c938-3ce7-4c97-9f9c-7b5817aae298
+  hl-type:: area
+  hl-stamp:: 1698220343485

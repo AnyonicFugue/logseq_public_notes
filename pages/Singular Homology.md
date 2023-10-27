@@ -182,11 +182,11 @@
 		- The dimension axiom shows that every 1-point space is acyclic.
 	- Support #card
 	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-09-06T18:32:10.061Z
-	  card-last-reviewed:: 2023-08-06T12:32:10.061Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-06T00:32:13.109Z
+	  card-last-reviewed:: 2023-10-25T00:32:13.110Z
 	  card-last-score:: 5
 		- If $\zeta=\sum m_i \sigma_i \in S_n(X)$, with all $m_i \neq 0$ and all $\sigma_i$ distinct, then the support of $\zeta$, denoted by $\mathrm{supp} \ \zeta$, is $\bigcup \sigma_i\left(\Delta^n\right)$.
 		- Note that $\mathrm{supp} \ \zeta$ is compact since it is a finite union of compact subsets.
@@ -211,13 +211,14 @@
 			  ((6461a7c8-3e70-4218-8989-a2b1fa67accf))
 			  the 'side faces' of the cone is produced by cones over the boundary.
 - # Basic Facts
+  collapsed:: true
 	- ((644638a3-9be7-46f8-8abb-f6c3ae2849af)) For all $n \geq 0$, we have $\partial_n \partial_{n+1}=0$. #card
 	  collapsed:: true
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-09-25T12:58:06.908Z
-	  card-last-reviewed:: 2023-08-14T12:58:06.908Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2024-02-16T14:31:57.267Z
+	  card-last-reviewed:: 2023-10-22T00:31:57.268Z
 	  card-last-score:: 5
 		- First we explicitly write down 
 		  $$\partial_n \partial_{n+1} \sigma=\sum_{j, k}(-1)^{j+k} \sigma \varepsilon_j^{n+1} \varepsilon_k^n$$
@@ -346,6 +347,7 @@
 		- Therefore consider $x \in H_n(X)$. $x \in j_*(H_n(A))$, but $H_n(A)=0$, so $x=0$.
 -
 - # The Homotopy Axiom
+  collapsed:: true
 	- We are concerned with the problem:
 	  When does $H_n(f)=H_n(g)$
 	  Does it hold when $f$ and $g$ are homotopic?
@@ -370,12 +372,12 @@
 			- Use the proposition $\partial_{n+1} c_n(\sigma)=\sigma-c_{n-1} \partial_n(\sigma)$, we easily see that $c_n(\sigma)$ is precisely the desired bulk!
 	- ((64677c74-e1cc-4cb6-8792-ba9c791213f7)) (Homotopy Axiom). If $f, g: X \rightarrow Y$ are homotopic, then $H_n(f)=H_n(g)$ for all $n \geq 0$. #card
 	  id:: 6498e102-758e-44db-bbcb-a7c679b43a90
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-09-28T19:56:12.020Z
-	  card-last-reviewed:: 2023-08-28T13:56:12.021Z
-	  card-last-score:: 3
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.46
+	  card-next-schedule:: 2023-12-08T00:34:02.978Z
+	  card-last-reviewed:: 2023-10-27T00:34:02.978Z
+	  card-last-score:: 5
 		- Intuition
 			- Obviously we need to start from the homotopy map $F$.
 			- In short, if we view $F_\#(\sigma \times I)$ as a map from $\Delta^n \times I$ to $X \times I$, then $\partial F_\#(\sigma \times I)$ consists of the 'top' $f_\# (\sigma)$, the 'bottom' $-g_\# (\sigma$) and 'sides' $F_\# (\partial \sigma)$.

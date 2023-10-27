@@ -1,13 +1,13 @@
 alias:: GR
 
-- # Tricks and Cautions #card
-  collapsed:: true
+- # Tricks and Cautions
   card-last-interval:: 31.26
   card-repeats:: 1
   card-ease-factor:: 2.6
   card-next-schedule:: 2023-08-28T18:51:23.399Z
   card-last-reviewed:: 2023-07-28T12:51:23.399Z
   card-last-score:: 5
+  collapsed:: true
 	- $g^{ab}$ is the **inverse** of $g_{ab}$.
 	  When writing in the form of $d s^2=-d \tau^2+a^2(\tau)\left(d x^2+d y^2+d z^2\right)$, it is $g_{ab}$, **not** $g^{ab}$!
 		- This is particularly important when calculating the Christoffel symbols, which involves lots of $g_{ab}$!

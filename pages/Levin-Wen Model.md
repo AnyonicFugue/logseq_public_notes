@@ -42,12 +42,12 @@
 					- Sum over all possible fusion channels.
 				- ((63e85493-7abb-4406-95d9-6059dbada06e))
 		- Proposition. $A_v^2=A_v,B_p^2=B_p, [A_v,B_p]=0$ #card
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-09-13T12:51:20.461Z
-		  card-last-reviewed:: 2023-08-02T12:51:20.461Z
-		  card-last-score:: 3
+		  card-last-interval:: 107.52
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2024-02-07T12:57:24.061Z
+		  card-last-reviewed:: 2023-10-23T00:57:24.061Z
+		  card-last-score:: 5
 			- (1) is obvious.
 			- (2) Let's prove the handle-slide property by explicitly writing the loop and using F-move (on the vacuum): ((63f1dfaa-c3ef-4c6a-8cac-1c5a9aafbdc8))
 			- (3): Note that adding a loop keeps the fusion rule.

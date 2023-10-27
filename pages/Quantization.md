@@ -4,7 +4,7 @@
 	- We just require $\{\ ,\ \}_p \rightarrow \frac{1}{i}[\ ,\ ]$.
 	- *Theories with constraints
 		- If the constraints satisfy $\left\{x_N, x_M\right\}_P=0$, then it can still be done.
-- [[Dirac Brackets]]
+- [[Dirac Bracket]]
 	- When constraints are present and $C_{N M} \equiv\left\{x_N, x_M\right\}_P \quad \operatorname{det} C \neq 0$, canonical quantization cannot be done.
 	- Def
 		- $\{A, B\}_D \equiv\{A, B\}_P-\left\{A, X_N\right\}_P\left(C^{-1}\right)^{N M}\left\{X_M, B\right\}_P$

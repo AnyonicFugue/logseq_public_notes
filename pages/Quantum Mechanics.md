@@ -9,11 +9,11 @@ alias:: QM
 	-
 	-
 	- Generalized measurement #card
-	  card-last-interval:: 26.06
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-02-04T03:02:32.349Z
-	  card-last-reviewed:: 2023-01-09T02:02:32.349Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-05T00:33:41.564Z
+	  card-last-reviewed:: 2023-10-24T00:33:41.564Z
 	  card-last-score:: 5
 		- A set of operators $M_i$, which satisfies $\sum_iM_i^\dag M_i=I$ [Projectors for ordinary measurements]
 		- The probability to obtain i is $p_i=\left\langle\psi\left|M_i^{\dagger} M_i\right| \psi\right\rangle$

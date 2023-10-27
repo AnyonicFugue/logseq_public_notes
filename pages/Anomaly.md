@@ -1,6 +1,8 @@
 alias:: Anomalous
 
+- TODO Read Schwartz Chap. 30
 - # Defs
+  collapsed:: true
 	- In topological phases #card
 	  card-last-interval:: 31.26
 	  card-repeats:: 1

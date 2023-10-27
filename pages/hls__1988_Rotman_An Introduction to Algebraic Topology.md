@@ -393,3 +393,62 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   hl-page:: 391
   hl-color:: yellow
   id:: 65324366-e806-4d87-a9bf-65ac108b78fb
+- Lemma
+  ls-type:: annotation
+  hl-page:: 392
+  hl-color:: yellow
+  id:: 653327cf-4d81-4481-b020-e512c5b9cc84
+- Lemma
+  ls-type:: annotation
+  hl-page:: 393
+  hl-color:: yellow
+  id:: 65333051-fda2-476a-bf0d-ee5dabba4eea
+- Theorem
+  ls-type:: annotation
+  hl-page:: 394
+  hl-color:: yellow
+  id:: 65333345-d64e-4d16-8bea-203a1c630f50
+- Definition
+  ls-type:: annotation
+  hl-page:: 395
+  hl-color:: yellow
+  id:: 653334b3-01a6-45cd-a0b6-48dd55b9c729
+- Theorem
+  ls-type:: annotation
+  hl-page:: 397
+  hl-color:: yellow
+  id:: 65333d1e-b692-49f4-9105-5564cdb8989b
+- Definition
+  ls-type:: annotation
+  hl-page:: 143
+  hl-color:: yellow
+  id:: 653a0f8f-4f14-42ea-8c23-b17d581306e5
+- Definition
+  ls-type:: annotation
+  hl-page:: 144
+  hl-color:: yellow
+  id:: 653a1102-9da2-4249-b0f3-31d698402124
+- [:span]
+  ls-type:: annotation
+  hl-page:: 145
+  hl-color:: yellow
+  id:: 653a12a9-ada3-4cc1-9347-5dd5c2566ac2
+  hl-type:: area
+  hl-stamp:: 1698304680587
+- Definition
+  ls-type:: annotation
+  hl-page:: 147
+  hl-color:: yellow
+  id:: 653a14d2-9671-4f8f-a5aa-900e9a0b06ac
+- [:span]
+  ls-type:: annotation
+  hl-page:: 147
+  hl-color:: yellow
+  id:: 653a152e-159e-4b81-bf91-17675bf94100
+  hl-type:: area
+  hl-stamp:: 1698305325351
+- Definition
+  ls-type:: annotation
+  hl-page:: 148
+  hl-color:: yellow
+  id:: 653a1b1d-23b1-4b10-b964-05804ab0b2cc

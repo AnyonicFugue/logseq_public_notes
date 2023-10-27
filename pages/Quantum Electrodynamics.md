@@ -8,6 +8,7 @@ alias:: QED
 	  \end{aligned}
 	  $$
 - # [[Quantization]] of EM field
+  collapsed:: true
 	- Overall scheme
 		- First write down the Lagrangian and discover some problems
 		- Then introduce a Lagrange multiplier $\frac{1}{2 \xi}\left(\partial_\mu A^\mu\right)^2$ to fix the gauge
@@ -74,13 +75,13 @@ alias:: QED
   card-next-schedule:: 2022-12-16T07:44:12.953Z
   card-last-reviewed:: 2022-12-06T07:44:12.953Z
   card-last-score:: 5
+  collapsed:: true
 	- $H_{\mathrm{int}}=\int d^3 x\ e \bar{\psi} \gamma^\mu \psi A_\mu$
 		- So elegant! $\gamma^\mu$ marries $A_\mu$
 		- Would different choice of gamma affect physics? eg. Weyl or Majarona? #Inbox/Problem
 	- ((636909d9-c786-4017-88e5-4c0d88ed061e))
 	- See [[Feynman rules]]
 - # Elementary processes
-  collapsed:: true
 	- Summary #card
 	  card-last-interval:: 25.01
 	  card-repeats:: 1
@@ -90,11 +91,10 @@ alias:: QED
 	  card-last-score:: 5
 		- Write out the diagrams by Feynman rules
 			- Be careful of the **minus** signs from exchanging fermionic fields!
-		- Calculate $|M|^2$ by spin sums and trace tricks (explicitly write out the indices)
+		- Calculate $|M|^2$ by **spin sums** and trace tricks (explicitly write out the indices)
 			- The order of matrix multiplication is only a notation of how the indices contract.
 			  Explicitly write them out is a good way.
 	- ## $e^+e^-\to\mu^+\mu^-$
-	  collapsed:: true
 		- ((636a08cd-dc0b-497c-84e8-1209396c615e))
 		-
 		- ### Simplifications
@@ -103,7 +103,6 @@ alias:: QED
 		- ((63690855-079b-41b7-95c3-4e8e1dd1b950))
 			- The expression isn't difficult. But to find $|\mathcal{M}|^2$, we need to **find its complex conjugation**
 		- ### Perform the spin sum
-		  collapsed:: true
 			- ((636a0a09-665c-450a-81b8-fc919bb5d8e5)). Thus we can use spin sums to simplify the expression.
 				- Actually **sum** over outgoing spins and **average** over incoming spins
 			- Conjugation of bi-spinor products ((636a0984-d932-4dd2-a89e-963d90acda08))
@@ -130,7 +129,6 @@ alias:: QED
 		  card-last-interval:: 297.18
 		  card-ease-factor:: 2.66
 		  card-last-reviewed:: 2023-08-08T12:52:44.736Z
-		  collapsed:: true
 			- Draw **two** diagrams
 				- Reminder: The lines can cross!
 				- The better strategy should be first draw the vertices (including internal ones), then find out all possible ways of connecting them.
@@ -155,6 +153,7 @@ alias:: QED
 		  $i \mathcal{M}=\bar{u}\left(p^{\prime}\right)\left(-i e \gamma^\mu\right) \epsilon_\mu^*\left(k^{\prime}\right) \frac{i(\not p+\not k+m)}{(p+k)^2-m^2}\left(-i e \gamma^\nu\right) \epsilon_\nu(k) u(p)$
 		  $+\bar{u}\left(p^{\prime}\right)\left(-i e \gamma^\nu\right) \epsilon_\nu(k) \frac{i\left(\not p-\not k^{\prime}+m\right)}{\left(p-k^{\prime}\right)^2-m^2}\left(-i e \gamma^\mu\right) \epsilon_\mu^*\left(k^{\prime}\right) u(p)\\=-i e^2 \epsilon_\mu^*\left(k^{\prime}\right) \epsilon_\nu(k) \bar{u}\left(p^{\prime}\right)\left[\frac{\gamma^\mu(\not p+\not k+m) \gamma^\nu}{(p+k)^2-m^2}+\frac{\gamma^\nu\left(\not p-\not k^{\prime}+m\right) \gamma^\mu}{\left(p-k^{\prime}\right)^2-m^2}\right] u(p)$
 		- ### Simplifications
+		  collapsed:: true
 			- $(p+k)^2-m^2=2 p \cdot k \quad$ and $\quad\left(p-k^{\prime}\right)^2-m^2=-2 p \cdot k^{\prime}$ 
 			  To simplify the denominators.
 				- Note the external photons are on-shell. For off-shell internal photons this can't apply.

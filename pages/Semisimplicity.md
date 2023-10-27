@@ -111,7 +111,7 @@
 							-
 						- General case
 							-
-		- Bimodules #card
+		- Bimodules
 			-
 		- Semisimple object #card
 		  card-last-interval:: 42

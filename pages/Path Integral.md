@@ -267,12 +267,12 @@
 			  where $|0\rangle$ satisfies $\psi_n|0\rangle=0$
 	- ## Basic Facts
 		- The coherent fermion state is eigen to all field operators with
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2023-09-11T18:54:24.953Z
-		  card-last-reviewed:: 2023-08-11T12:54:24.953Z
-		  card-last-score:: 3
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2023-12-03T00:31:45.561Z
+		  card-last-reviewed:: 2023-10-22T00:31:45.561Z
+		  card-last-score:: 5
 		  $$\psi _{n} |\zeta \rangle =\zeta _{n} |\zeta \rangle $$ #card
 			- $$\begin{aligned}
 			  ( \psi _{n} -\zeta _{n}) |\zeta \rangle  & =( \psi _{n} -\zeta _{n})\exp\left\{-\sum _{n} \xi _{n} \psi _{n}^{\dagger }\right\} |0\rangle \\

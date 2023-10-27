@@ -223,11 +223,11 @@
 		  card-last-score:: 5
 			- A point $x$ of $X$ is said to be an **isolated point** of $X$ if the one-point set $\{x\}$ is open in $X$
 		- Lebesgue number #card
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-10-01T12:54:41.172Z
-		  card-last-reviewed:: 2023-08-20T12:54:41.173Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-02-15T14:25:52.404Z
+		  card-last-reviewed:: 2023-10-21T00:25:52.405Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- For a covering $\mathcal A$ and metric space X, for each subset of $X$ having diameter less than $\delta$, there exists an element of $\mathcal{A}$ containing it.
@@ -285,11 +285,11 @@
 		- Key point: $U= \cup O(y_i,x_0)$, $V= \cap O(x_0,y_i)$
 	- Theorem. Every Compact subspace of a Hausdorff space is closed.  #card
 	  collapsed:: true
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-10-07T12:45:17.411Z
-	  card-last-reviewed:: 2023-08-26T12:45:17.411Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2024-02-16T14:39:25.811Z
+	  card-last-reviewed:: 2023-10-22T00:39:25.811Z
 	  card-last-score:: 5
 		- Use the [Lemma](((644efbcd-86a7-4549-95a7-6568220120f3))).
 		- Union open sets containing "outer points" ; Intersects open sets containing "Inner points"
@@ -374,11 +374,11 @@
 		  collapsed:: true
 			- An easy exercise.
 		- Theorem. For a metrizable space, limit point compact is equivalent to compact.  #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2023-09-16T18:43:30.801Z
-		  card-last-reviewed:: 2023-08-16T12:43:30.802Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.22
+		  card-next-schedule:: 2023-12-02T00:28:11.057Z
+		  card-last-reviewed:: 2023-10-21T00:28:11.058Z
 		  card-last-score:: 3
 		  collapsed:: true
 			- Intuition
@@ -502,16 +502,16 @@
 				-
 				- Corollary. If $X$ and $Y$ have the same homotopy type, then they have the same number of path components.
 		- Locally path connected #card
-		  card-last-interval:: 30
+		  card-last-interval:: -1
 		  card-repeats:: 1
 		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2023-06-19T00:38:31.264Z
-		  card-last-reviewed:: 2023-05-20T00:38:31.265Z
-		  card-last-score:: 3
+		  card-next-schedule:: 2023-10-25T16:00:00.000Z
+		  card-last-reviewed:: 2023-10-25T00:44:38.802Z
+		  card-last-score:: 1
 			- For each $x \in X$ and every open neighborhood $U$ of $x$, there is an open $V$ with $x \in V \subset U$ such that any two points in $V$ can be joined by a path in $U$.
 			- Intuition
 				- Note that this doesn't mean each $x$ has a connected small neighborhood, because $V$ itself may not be path connected. 
-				  It's that points in $V$ can be joined by paths in $U.
+				  It's that points in $V$ can be joined by paths in $U$.
 			- ((642be6d7-d592-4d6e-9bed-7e9e0d6624dc)) A space $X$ is locally path connected if and only if path components of open subsets are open. In particular, if $X$ is locally path connected, then its path components are open.
 			  card-last-interval:: 31.26
 			  card-repeats:: 1

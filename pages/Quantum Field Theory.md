@@ -106,3 +106,209 @@ alias:: [[QFT]]
 - # [[Interaction, Feynman diagrams and S-matrix]]
 - # [[Renormalization]]
 - # [[Path Integral]]
+- # [[Spontaneous Symmetry Breaking]]
+	- ## Example 1. Real scalar field with $Z_2$ symmetry
+	  collapsed:: true
+		- $$
+		  \mathcal{L}=\frac{1}{2} \partial_\mu \phi \partial^\mu \phi-\frac{1}{2} m^2 \phi^2-\frac{\lambda}{4 !} \phi^4 .
+		  $$
+		- Consider
+		  $$
+		  V(\phi)=\frac{1}{2} m^2 \phi^2+\frac{\lambda}{4 !} \phi^4
+		  $$
+		- ### Classical level
+			- When $m^2<0$, we have two local minima for $V(\phi)$:
+			  ![image.png](../assets/image_1698135894850_0.png){:height 213, :width 445}
+			- Denoting the minimum as $\phi=v$, we could rewrite the field around the minimum as $\phi(x)=v+\sigma(x)$.
+				- $\sigma_x$ is the **physical field**.
+			- Then 
+			  $$
+			  \mathcal{L}=\frac{1}{2} \partial_\mu \sigma \partial^\mu \sigma-V(\sigma), \quad V(\sigma)=\frac{\lambda v^2}{6} \sigma^2+\frac{\lambda v}{6} \sigma^3+\frac{\lambda}{4 !} \sigma^4+\text { constant } 
+			  $$
+			  which now has positive mass!
+		- ### Quantum level
+			- For a single-particle system, we have a nonzero probability for tunneling, thus we may jump to another minimum.
+			- However, in QFT we have infinitely many DOF, thus the energy barrier is infinitely high.
+			  (Just a physical argument, not so rigorous)
+			-
+			- On the other hand, if the potential is tilted and the energy is smaller for the other potential, then a jump may happen.
+				- To be specific, a 'bubble' of another minimum may appear in a finite region. If the bubble is large enough, then the force created by the energy difference could exceed the force from the surface energy, thus the vacuum may indeed decay.
+	- ## Example 2. Complex scalar field
+	  collapsed:: true
+		- $$
+		  \mathcal{L}=\partial_\mu \phi^* \partial^\mu \phi-V(\phi), \quad V(\phi)=m^2 \phi^* \phi+\frac{\lambda}{4}\left(\phi^* \phi\right)^2
+		  $$
+		- When $m^2<0$, the potential has the shape of a 'Mexican hat' with a circle of continuous minima:
+		  ![image.png](../assets/image_1698136284804_0.png){:height 318, :width 441}
+		- Select $\theta=0$ and expand the field around the minimum, we have:
+		  $$
+		  \phi(x)=\frac{1}{\sqrt{2}}\left(v+\tilde{\phi}_1(x)+i \phi_2(x)\right)
+		  $$
+		- Then
+		  $$
+		  \mathcal{L}=\frac{1}{2} \partial_\mu \tilde{\phi}_1 \partial^\mu \tilde{\phi}_1+\frac{1}{2} \partial_\mu \phi_2 \partial^\mu \phi_2-V\left(\tilde{\phi}_1, \phi_2\right)
+		  $$
+		  with
+		  $$
+		  V\left(\tilde{\phi}_1, \phi_2\right)=\frac{\lambda v^2}{4} \tilde{\phi}_1^2+\frac{\lambda v}{4} \tilde{\phi}_1\left(\tilde{\phi}_1^2+\phi_2^2\right)+\frac{\lambda}{16}\left(\tilde{\phi}_1^2+\phi_2^2\right)^2+\text { constant } .
+		  $$
+			- $\tilde \phi_1$ is massive.
+			- $\phi_2$ is massless, which is exactly the **Goldstone boson**. [[Goldstone Theorem]]
+			-
+			-
+	- [[Higgs Mechanism]]
+		- $U(1)$ case
+		  collapsed:: true
+			- Consider scalar QED,
+			  $$
+			  \mathcal{L}=-\frac{1}{4} F_{\mu \nu} F^{\mu \nu}+\left(D_\mu \phi\right)^* D^\mu \phi-V(\phi), \quad V=m^2 \phi^* \phi+\frac{\lambda}{4}\left(\phi^* \phi\right)^2
+			  $$
+			- Now we assume $m^2<0$ and $\lambda>0$. The minimum of the potential occurs at $\phi=v e^{i \theta}$, without loss of generality we choose the vacuum at $\langle\phi\rangle=$ $\frac{v}{\sqrt{2}}=\sqrt{-\frac{2 m^2}{\lambda}}$ and expand the $\phi$ field as
+			  $$
+			  \phi(x)=\frac{1}{\sqrt{2}}\left(v+\phi_1(x)+i \phi_2(x)\right)
+			  $$
+			- Expand the Lagrangian and use a gauge transformation to remove the mixing term:
+			  $$
+			  A_\mu^{\prime}=A_\mu+\frac{1}{g v} \partial_\mu \phi_2
+			  $$
+				- $$
+				  \frac{1}{2} \partial_\mu \phi_2 \partial^\mu \phi_2+g v A_\mu \partial^\mu \phi_2+\frac{1}{2} g^2 v^2 A_\mu A^\mu \quad \rightarrow \quad \frac{1}{2} g^2 v^2 A_\mu^{\prime} A^{\prime \mu}
+				  $$
+			- #+BEGIN_TIP
+			  The kinetic term of $\phi_2$ is removed, while $A'_\mu$ now have a mass term!
+			  #+END_TIP
+			- DOF counting
+				- -1 scalar DOF ($\phi_2$)
+				- +1 vector DOF (due to mass field)
+		- $SU(N)$ case
+			- First consider a theory with **global** $SU(N)$ symmetry,
+			  $$
+			  \mathcal{L}=\partial_\mu \Phi^{\dagger} \partial^\mu \Phi-m^2 \Phi^{\dagger} \Phi-\frac{\lambda}{4}\left(\Phi^{\dagger} \Phi\right)^2, \quad \Phi=\left(\begin{array}{c}
+			  \phi_1 \\
+			  \phi_2 \\
+			  \vdots \\
+			  \phi_N
+			  \end{array}\right)
+			  $$
+				- When $m^2<0$ and $\lambda>0$, the minimum of the potential is at
+				  $$
+				  \Phi^{\dagger} \Phi=-\frac{2 m^2}{\lambda} \equiv \frac{v^2}{2} .
+				  $$
+				  thus we may select the minimum to be at $\theta=0$,
+				  $$
+				  \langle\Phi\rangle=\left(\begin{array}{c}
+				  \frac{v}{\sqrt{2}} \\
+				  0 \\
+				  \vdots \\
+				  0
+				  \end{array}\right)
+				  $$
+				- #+BEGIN_IMPORTANT
+				  Important difference: $SU(N)$ is broken down to $SU(N-1)$, not completely broken!
+				  #+END_IMPORTANT
+				- We may select a convenient set of generators:
+					- Unbroken ones
+					  $$
+					  Y_a=\left(\begin{array}{c|ccc}
+					  0 & 0 & \cdots & 0 \\
+					  \hline 0 & & & \\
+					  \vdots & & t_a & \\
+					  0 & & &
+					  \end{array}\right)
+					  $$
+						- $(N-1)^2-1=N^2-2N$ in total
+					- Broken ones
+					  $$
+					  X_a=
+					  \begin{aligned}
+					  & \frac{1}{2}\left(\begin{array}{c|cccc}
+					  0 & -i & 0 & \cdots & 0 \\
+					  \hline i & & & & \\
+					  0 & & & & \\
+					  \vdots & & & & \\
+					  0 & & & &
+					  \end{array}\right), \quad \frac{1}{2}\left(\begin{array}{c|cccc}
+					  0 & 0 & -i & \cdots & 0 \\
+					  \hline 0 & & & & \\
+					  i & & & & \\
+					  \vdots & & & & \\
+					  0 & & & &
+					  \end{array}\right), \\
+					  & \sqrt{\frac{N-1}{2 N}}\left(\begin{array}{c|ccc}
+					  1 & 0 & \cdots & 0 \\
+					  \hline 0 & & \\
+					  \vdots & -\frac{1}{N-1} \mathbb{1}_{N-1} \\
+					  0 & &
+					  \end{array}\right), \\
+					  &
+					  \end{aligned}
+					  $$
+						- $2N-1$ in total.
+					- Note that the normalization is such that $\operatorname{Tr}\left[T_a T_b\right]=\frac{1}{2} \delta_{a b}$, which guarantees that the fields are canonically normalized.
+					  id:: 6539de97-fcbc-4232-96ac-e224ac8216ec
+				- Nonlinear parameterization:
+				  $$
+				  \Phi(x)=e^{i \pi_a(x) X_a}\left(\begin{array}{c}
+				  \frac{v+\sigma(x)}{\sqrt{2}} \\
+				  0 \\
+				  \vdots \\
+				  0
+				  \end{array}\right)
+				  $$
+					- Analogous to the $U(1)$ case, we parameterize the field by a 'radius part' $\sigma$ and an 'angular part' $\pi$
+					- Similarly, $\sigma$ would be massive and $\pi$ would be massless.
+					- *In the unitary gauge, we simply set $\pi=0$. But here it is a global symmetry, so we're unable to do so.
+				-
+			- Now consider the $SU(N)$ **gauge** symmetry.
+				- $$
+				  \partial_\mu \Phi^{\dagger} \partial^\mu \Phi \rightarrow\left(D_\mu \Phi\right)^{\dagger} D^\mu \Phi, \quad \text { where } \quad D^\mu \equiv \partial^\mu+i g A_a^\mu T_a
+				  $$
+				- We may select the unitary gauge and remove $\pi$.
+				  Similarly, some gauge fields $A^a_\mu$ would become massive.
+				-
+				- Masses of gauge fields
+					- We may explicitly separate them into the broken part and the unbroken part:
+					  $$
+					  D^\mu \Phi=\partial^\mu \Phi+i g A_a^\mu T_a \Phi=\partial_\mu \Phi+i g\left(B_a^\mu X_a+C_a^\mu Y_a\right) \Phi
+					  $$
+					- After symmetry breaking, we rewrite $\Phi=\langle \Phi \rangle + v + i\pi$.
+					  Therefore the mass comes from the $ig\langle \Phi \rangle A^\mu$ term.
+					-
+					- Proposition. From $Y_a\langle\Phi\rangle=0$ we can immediately deduce that $C_a^\mu$ are massless.
+						- The corresponding terms in $D^\mu \Phi$ are $i g C_a^\mu Y_a \langle \Phi \rangle=0$.
+					- Theorem. 
+					  $$
+					  \begin{aligned}
+					  m_{B_0}^2 & =\frac{N-1}{2 N} g^2 v^2 \\
+					  m_{B_1}^2 & =m_{B_2}^2=\cdots=m_{B_{2 N-2}}^2=\frac{1}{4} g^2 v^2
+					  \end{aligned}
+					  $$
+						- Consider the corresponding terms in the Lagrangian:
+						  $$
+						  \begin{aligned}
+						  D^\mu \Phi & \supset i g B_a^\mu X_a\langle\Phi\rangle \\
+						  & =i \frac{g v}{\sqrt{2}}\left[\sqrt{\frac{N-1}{2 N}}\left(\begin{array}{c}
+						  B_0^\mu \\
+						  0 \\
+						  \vdots \\
+						  0
+						  \end{array}\right)+\frac{1}{2}\left(\begin{array}{c}
+						  0 \\
+						  B_1^\mu+i B_2^\mu \\
+						  B_3^\mu+i B_4^\mu \\
+						  \vdots \\
+						  B_{2 N-3}^\mu+i B_{2 N-2}^\mu
+						  \end{array}\right)\right]
+						  \end{aligned}
+						  $$
+						- Therefore the mass terms are
+						  $$
+						  \left(D_\mu \Phi\right)^{\dagger} D^\mu \Phi \supset \frac{g^2 v^2}{2}\left[\frac{N-1}{2 N} B_{0, \mu} B_0^\mu+\frac{1}{4}\left(B_{2, \mu} B_2^\mu+\ldots+B_{2 N-2, \mu} B_{2 N-2}^\mu\right)\right]
+						  $$
+						- Note that the fields are already canonically normalized, i.e. the kinetic terms are $\frac{1}{2} \partial_\mu B_\nu \partial^\mu B^\nu$, thus no further re-defining is needed.
+					- Note that we should compare to $$\mathcal{L}=\frac{1}{2} \partial_\mu \phi \partial^\mu \phi-\frac 1 2 m^2 \phi^2 $$. Be aware of the factor $2$.
+					  background-color:: red
+					  id:: 6538770b-6deb-4f32-957e-173bc46f265b
+		-
+		-
+		-

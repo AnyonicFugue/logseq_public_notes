@@ -18,11 +18,11 @@ alias:: Representation
 	- Unitary representation
 		- Representation operators are unitary
 	- Completely reducible #card
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-09-24T12:20:35.265Z
-	  card-last-reviewed:: 2023-08-13T12:20:35.266Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2024-02-19T14:38:52.256Z
+	  card-last-reviewed:: 2023-10-25T00:38:52.256Z
 	  card-last-score:: 5
 		- Every invariant subspace $U\subset V$ has an invariant complement $W$. (Recall that $W$ is called a complement of $U$ if $V=U\oplus W$.)
 		- For finite-dimension reps, this is equivalent to 'decomposable into a sum of irreps'.

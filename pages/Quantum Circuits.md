@@ -50,7 +50,7 @@ collapsed:: true
 		- Note: I can also start from pure states and prove the linearity of coordinate dependence on the density matrix.
 	-
 	- Rotation of the ball
-		- Prove use commutation relations of [[Pauli matrices]] , which is just the CR of rotations.
+		- Prove use commutation relations of [[Pauli Matrices]] , which is just the CR of rotations.
 		- $$R_n(\theta)=e^{-i\frac \theta 2 \vec \sigma\cdot \vec n}$$^^**Don't forget the minus!!!**^^
 		- Equivalently, $R_{\hat{n}}(\phi)=\cos \frac{\phi}{2} {I}-i \sin \frac{\phi}{2} \sigma_{\hat{n}}$
 		  This can be proven by ODE.

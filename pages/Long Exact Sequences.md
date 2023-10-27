@@ -3,13 +3,12 @@
   See ((649b9cbd-4a34-42d6-bcc4-97f1a0f91445)) for example.
   #+END_NOTE #card
 - # Definitions
-  collapsed:: true
 	- Chain complex #card
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-29T03:00:41.399Z
-	  card-last-reviewed:: 2023-05-30T03:00:41.400Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-03T00:34:20.158Z
+	  card-last-reviewed:: 2023-10-22T00:34:20.158Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- A (chain) complex $(S_*,\partial)$ is a sequence of **abelian** groups and homomorphisms
@@ -165,6 +164,7 @@
 	  card-next-schedule:: 2023-12-25T10:47:58.158Z
 	  card-last-reviewed:: 2023-09-19T00:47:58.159Z
 	  card-last-score:: 3
+	  collapsed:: true
 		- If $f, g:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ are chain maps, then $f$ and $g$ are **(chain) homotopic**, denoted by $f \simeq g$, if there is a sequence of homomorphisms $\left\{P_n: S_n^{\prime} \rightarrow S_{n+1}\right\}$ such that, for all $n \in \mathbf{Z}$,
 		  $$
 		  \partial_{n+1} P_n+P_{n-1} \partial_n^{\prime}=f_n-g_n .
@@ -192,6 +192,7 @@
 	  card-next-schedule:: 2023-08-28T18:57:13.144Z
 	  card-last-reviewed:: 2023-07-28T12:57:13.145Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- A contracting homotopy of a complex $\left(S_*, \partial\right)$ is a sequence of homomorphisms $c=\left\{c_n: S_n \rightarrow S_{n+1}\right\}$ such that for all $n \in \mathbf{Z}$,
 		  $$
 		  \partial_{n+1} c_n+c_{n-1} \partial_n=1_{s_n} .
@@ -316,6 +317,7 @@
 	  card-next-schedule:: 2023-10-25T06:48:31.740Z
 	  card-last-reviewed:: 2023-09-24T00:48:31.741Z
 	  card-last-score:: 3
+	  collapsed:: true
 		- If $f, g:(X, A) \rightarrow(Y, B)$, then $f \simeq g \bmod A$ if there is a continuous $F:(X \times \mathbf{I}, A \times \mathbf{I}) \rightarrow(Y, B)$ with $F_0=f$ and $F_1=g$.
 		- Rephrased, $X$ and $A$ are simultaneously 'continuously deformed'.
 - # In the viewpoint of [[Category]]
@@ -371,6 +373,7 @@
 	  card-next-schedule:: 2024-01-23T10:44:10.855Z
 	  card-last-reviewed:: 2023-10-18T00:44:10.855Z
 	  card-last-score:: 3
+	  id:: 64b48492-3720-4903-af07-d9b768a34a2f
 	  $$
 	  \cdots \rightarrow H_n\left(S_*^{\prime}\right) \stackrel{i_*}{\rightarrow} H_n\left(S_*\right) \stackrel{p_*}{\rightarrow} H_n\left(S_*^{\prime \prime}\right) \stackrel{d}{\rightarrow} H_{n-1}\left(S_*^{\prime}\right) \stackrel{i_*}{\rightarrow} H_{n-1}\left(S_*\right) \stackrel{p_*}{\rightarrow} H_{n-1}\left(S_*^{\prime \prime}\right) \rightarrow \cdots
 	  $$ #card
@@ -480,11 +483,11 @@
 		- Step 3. Just apply the above theorem!
 		-
 	- Theorem (Exact Sequence of the Triple $\left(X, A, A^{\prime}\right)$). If $A^{\prime} \subset A \subset X$ are subspaces, there is an exact sequence
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-21T06:45:21.994Z
-	  card-last-reviewed:: 2023-06-20T00:45:21.995Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-05T00:29:27.858Z
+	  card-last-reviewed:: 2023-10-24T00:29:27.858Z
 	  card-last-score:: 5
 	  collapsed:: true
 	  $$
@@ -509,6 +512,7 @@
 			- The verifications of commutativity and exactness are trivial.
 		-
 	- Theorem (Five Lemma). Consider the commutative diagram with exact rows:
+	  collapsed:: true
 	  ((648eb0dc-4eda-4c2a-b8d0-3ac1d8f1bea3))
 	  (i) If $f_2$ and $f_4$ are surjective and $f_5$ is injective, then $f_3$ is surjective.
 	  (ii) If $f_2$ and $f_4$ are injective and $f_1$ is surjective, then $f_3$ is injective.
@@ -597,11 +601,11 @@
 	  (where $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$ ). #card
 		- An easy exercise to recall the above theorems.
 	- Theorem. Let $X$ be a space with basepoint $x_0$. Then
-	  card-last-interval:: 31.2
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-29T05:28:25.862Z
-	  card-last-reviewed:: 2023-06-28T01:28:25.862Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-08T00:18:43.396Z
+	  card-last-reviewed:: 2023-10-27T00:18:43.397Z
 	  card-last-score:: 5
 	  collapsed:: true
 	  $$
@@ -674,6 +678,7 @@
 	  $$ #card
 		- It proceeds exactly as [here](((6498e102-758e-44db-bbcb-a7c679b43a90))), but the details need more verification.
 - # Reduced Homology
+  collapsed:: true
 	- ((6498fa19-1bd6-4422-adea-7450bcbca1fe)) For all $n \geq 0$,
 	  card-last-interval:: 31.26
 	  card-repeats:: 1

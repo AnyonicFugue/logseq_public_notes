@@ -1,13 +1,25 @@
 # Function Spaces
 	- ((6531eaa7-129c-4bda-8096-c89268ebfe25)) Compact-open topology on function spaces #card
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-11-26T13:37:22.965Z
+	  card-last-reviewed:: 2023-10-25T00:37:22.965Z
+	  card-last-score:: 5
 		- Let $X^Y$ denote the set of all continuous functions from $Y$ into $X$. The **compact-open topology** on $X^Y$ is the topology having a sub-basis consisting of all subsets $(K ; U)$, when $K$ is a compact subset of $Y, U$ is an open subset of $X$, and
 		  $$
 		  (K ; U)=\left\{f \in X^Y: f(K) \subset U\right\} .
 		  $$
 		- A typical open set in $X^Y$ is thus an arbitrary union of finite intersections of sets of the form $(K ; U)$.
-		- Intuitively, functions in $(K;U)$ are 'relatively close to each other' in the sense that their values in the domain $K$ are constrained by $U$.
+		- Intuitively, functions in $(K;U)$ are 'close to each other' in the sense that their values in the domain $K$ are constrained by $U$.
 			- e.g. we may take $X=Y=\mathbb R^n$, $K$ and $U$ smaller and smaller.
 	- ((6531ec3b-839a-40e6-93ba-7a53d6b49878)) Associate of functions (# and b) #card
+	  card-last-interval:: 32.57
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-11-27T13:33:26.683Z
+	  card-last-reviewed:: 2023-10-26T00:33:26.684Z
+	  card-last-score:: 5
 		- If $F: Z \times Y \rightarrow X$ is a function, then its **associate** is the function 
 		  $$F^{\#}: Z \rightarrow \operatorname{Hom}(Y, X)$$ defined by $F^{\#}(z)=F(z,-)$
 		- Conversely, if $G: Z \rightarrow \operatorname{Hom}(Y, X)$, define 

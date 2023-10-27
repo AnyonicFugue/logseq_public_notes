@@ -169,11 +169,11 @@
 			  \end{aligned}
 			  $$
 		- $sl(2,C)$ is irreducible, thus simple. #card
-		  card-last-interval:: 67.2
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-04-19T14:59:47.811Z
-		  card-last-reviewed:: 2023-02-11T10:59:47.811Z
+		  card-last-interval:: 353.22
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-10-14T05:24:41.803Z
+		  card-last-reviewed:: 2023-10-27T00:24:41.803Z
 		  card-last-score:: 5
 			- Verify that any nontrivial element can generate the whole algebra by commutating with the generators. ((63860946-8380-45c7-b564-1c08f9e7cc70))
 		- ((63e44faf-be39-4003-a238-c50fedbd07e4))

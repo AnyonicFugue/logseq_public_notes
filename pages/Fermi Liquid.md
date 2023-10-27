@@ -1,9 +1,9 @@
 - Assumptions of Landau Theory of Fermi Liquids #card
-  card-last-interval:: 42
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-09-11T12:22:56.405Z
-  card-last-reviewed:: 2023-07-31T12:22:56.405Z
+  card-last-interval:: 117.6
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2024-02-15T14:26:55.286Z
+  card-last-reviewed:: 2023-10-21T00:26:55.287Z
   card-last-score:: 5
 	- There is still a **fermi surface** of some shape
 	- There are **quasiparticle excitations** near the fermi surface, which might decay.

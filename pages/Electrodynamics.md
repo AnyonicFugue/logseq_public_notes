@@ -1,5 +1,11 @@
 type:: [[Course]]
 
+- # Cautions
+	- Note that we usually use $R=r-r'$, which might incur an extra minus.
+		- For example, the potential of a dipole is
+		  $$
+		  \varphi_1=\frac{\vec{p} \cdot \hat{r}}{4 \pi \varepsilon_0 r^2}
+		  $$
 - # Maxwell Equations
   card-last-interval:: 31.26
   card-repeats:: 1
@@ -7,8 +13,8 @@ type:: [[Course]]
   card-next-schedule:: 2023-10-21T06:30:14.301Z
   card-last-reviewed:: 2023-09-20T00:30:14.302Z
   card-last-score:: 3
+  collapsed:: true
 	- Equations in media #card
-	  collapsed:: true
 		- $$
 		  \begin{aligned}
 		  & \nabla \cdot \boldsymbol{D}=\rho_0 \\
@@ -37,6 +43,7 @@ type:: [[Course]]
 					-
 				-
 	- Boundary Conditions #card
+	  collapsed:: true
 		- $$\begin{align*}
 		  \vec{n}_{1} \cdot (\vec{D}_{1} -\vec{D}_{2}) & =\sigma _{f}\\
 		  \vec{n}_{1} \cdot (\vec{B}_{1} -\vec{B}_{2}) & =0\\
@@ -86,6 +93,7 @@ type:: [[Course]]
 			  $$
 			-
 - # Polarization in Medias
+  collapsed:: true
 	- Definition of polarization fields #card
 		- $$
 		  \vec{P}(\vec{r}, t)=\varepsilon_0 \chi_e \vec{E}(\vec{r}, t), \quad \vec{M}(\vec{r}, t)=\frac{1}{\mu_0} \frac{\chi_m}{1+\chi_m} \vec{B}(\vec{r}, t)
@@ -260,6 +268,7 @@ type:: [[Course]]
 		- Subtracting to solutions, we see the electric field must be zero.
 	-
 - # Methods of Solution
+  collapsed:: true
 	- ((6520b42a-dcca-47da-a48d-1e043c4a8539))
 	- Mirror charge
 		- $$
@@ -296,3 +305,33 @@ type:: [[Course]]
 			- The eigen-solutions are 
 			  $$\ln r, 1, r^n \sin (n\phi), r^n \cos n\phi \quad (n \in \mathbb Z)$$
 		-
+- # Multi-pole Expansion
+	- ## Definition
+		- Dipole moment
+			- $$p^a = \int r^a \rho(r) d^3 r$$
+		- Quadrupole moment
+			- $$D ^{ab}=\int 3r^a r^b \rho(r) d^3 r$$
+		- Reduced quadrupole moment
+			- $$\tilde D ^{ab}=\int (3r^a r^b-r^2 \delta^{ab})\rho(r) d^3 r$$
+	- ## Electric Potential
+		- Consider some
+		  $$
+		  \varphi(\vec{r})=\frac{1}{4 \pi \varepsilon_0} \int \frac{\rho\left(\vec{r}^{\prime}\right) d \tau^{\prime}}{|r-r'|}
+		  $$
+		- We might expand $\frac 1 {|r-r'|} \equiv \frac 1 R$ into Taylor series:
+		  $$\frac 1 R=\frac 1 r - r'^a \nabla_a \frac 1 R + \frac 1 2 r'^a r'^b \nabla_a \nabla_b \frac 1 R- ...$$
+		- Obviously the first term corresponds to the point charge, the second corresponds to the dipole, the third corresponds to the quadrupole, etc.
+	- ## Interaction Energy
+		- Consider
+		  $$U=\int \rho(r) \varphi(r) d^3 r$$
+		- Expand $\varphi(r)$ into Taylor series:
+		  $$\varphi(r)=\varphi(0) + r'^a \nabla_a \varphi + \frac 1 2 r'^a r'^b \nabla_a \nabla_b \varphi + ...$$
+		- Still, the first term corresponds to the point charge, the second corresponds to the dipole, etc.
+	- ## Force and Moment
+		- The method is always virtual work.
+		- $$
+		  \vec{F}_e=\vec{p} \cdot \nabla \vec{E}
+		  $$
+		- $$\vec M= \vec p \times \vec E$$
+	-
+-
