@@ -15,6 +15,7 @@ type:: [[Course]]
   card-last-score:: 3
   collapsed:: true
 	- Equations in media #card
+	  collapsed:: true
 		- $$
 		  \begin{aligned}
 		  & \nabla \cdot \boldsymbol{D}=\rho_0 \\
@@ -93,7 +94,6 @@ type:: [[Course]]
 			  $$
 			-
 - # Polarization in Medias
-  collapsed:: true
 	- Definition of polarization fields #card
 		- $$
 		  \vec{P}(\vec{r}, t)=\varepsilon_0 \chi_e \vec{E}(\vec{r}, t), \quad \vec{M}(\vec{r}, t)=\frac{1}{\mu_0} \frac{\chi_m}{1+\chi_m} \vec{B}(\vec{r}, t)
@@ -142,6 +142,12 @@ type:: [[Course]]
 			  $$
 	- Force, Momentum Density and Flow #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-12-02T06:59:59.763Z
+	  card-last-reviewed:: 2023-11-01T00:59:59.764Z
+	  card-last-score:: 3
 		- $$
 		  \vec{g}=\varepsilon_0(\vec{E} \times \vec{B})=\frac{1}{c^2} \vec{S}_P
 		  $$
@@ -276,6 +282,7 @@ type:: [[Course]]
 		  $$
 	- ## Expand by eigenequations
 		- Idea
+		  collapsed:: true
 			- Usually we need to solve $\nabla^2 \varphi=0$ under a specific boundary condition
 			  $$
 			  \left.\varphi\right|_{\text {boundary }}=\varphi_0(\xi)
@@ -300,38 +307,167 @@ type:: [[Course]]
 			  r^l P_l(\cos \theta), \quad r^{-(l+1)} P_l(\cos \theta)
 			  $$
 			  where $P_l(x)$ is the ((652a397b-1db6-479e-a8ae-d1bead690b94))
+				- $l\geq 0$
 			-
 		- Cylindral coordinate with translation invariance
 			- The eigen-solutions are 
 			  $$\ln r, 1, r^n \sin (n\phi), r^n \cos n\phi \quad (n \in \mathbb Z)$$
+			- Note that $n$ can be **negative**!
 		-
 - # Multi-pole Expansion
-	- ## Definition
-		- Dipole moment
-			- $$p^a = \int r^a \rho(r) d^3 r$$
-		- Quadrupole moment
-			- $$D ^{ab}=\int 3r^a r^b \rho(r) d^3 r$$
-		- Reduced quadrupole moment
-			- $$\tilde D ^{ab}=\int (3r^a r^b-r^2 \delta^{ab})\rho(r) d^3 r$$
-	- ## Electric Potential
-		- Consider some
+	- ## Electronic
+	  collapsed:: true
+		- ## Definition
+			- Dipole moment
+				- $$p^a = \int r^a \rho(r) d^3 r$$
+			- Quadrupole moment
+				- $$D ^{ab}=\int 3r^a r^b \rho(r) d^3 r$$
+			- Reduced quadrupole moment
+				- $$\tilde D ^{ab}=\int (3r^a r^b-r^2 \delta^{ab})\rho(r) d^3 r$$
+		- ## Electric Potential
+			- Consider some
+			  $$
+			  \varphi(\vec{r})=\frac{1}{4 \pi \varepsilon_0} \int \frac{\rho\left(\vec{r}^{\prime}\right) d \tau^{\prime}}{|r-r'|}
+			  $$
+			- We might expand $\frac 1 {|r-r'|} \equiv \frac 1 R$ into Taylor series:
+			  $$\frac 1 R=\frac 1 r - r'^a \nabla_a \frac 1 R + \frac 1 2 r'^a r'^b \nabla_a \nabla_b \frac 1 R- ...$$
+			- Obviously the first term corresponds to the point charge, the second corresponds to the dipole, the third corresponds to the quadrupole, etc.
+		- ## Interaction Energy
+			- Consider
+			  $$U=\int \rho(r) \varphi(r) d^3 r$$
+			- Expand $\varphi(r)$ into Taylor series:
+			  $$\varphi(r)=\varphi(0) + r'^a \nabla_a \varphi + \frac 1 2 r'^a r'^b \nabla_a \nabla_b \varphi + ...$$
+			- Still, the first term corresponds to the point charge, the second corresponds to the dipole, etc.
+		- ## Force and Moment
+			- The method is always virtual work.
+			- $$
+			  \vec{F}_e=\vec{p} \cdot \nabla \vec{E}
+			  $$
+			- $$\vec M= \vec p \times \vec E$$
+	- ## Magnetic
+	  collapsed:: true
+		- Since
 		  $$
-		  \varphi(\vec{r})=\frac{1}{4 \pi \varepsilon_0} \int \frac{\rho\left(\vec{r}^{\prime}\right) d \tau^{\prime}}{|r-r'|}
+		  \mathbf{A}(\mathbf{r}, t)=\frac{\mu_0}{4 \pi} \int_{\Omega} \frac{\mathbf{J}\left(\mathbf{r}^{\prime}, t^{\prime}\right)}{\left|\mathbf{r}-\mathbf{r}^{\prime}\right|} \mathrm{d}^3 \mathbf{r}^{\prime}
 		  $$
-		- We might expand $\frac 1 {|r-r'|} \equiv \frac 1 R$ into Taylor series:
-		  $$\frac 1 R=\frac 1 r - r'^a \nabla_a \frac 1 R + \frac 1 2 r'^a r'^b \nabla_a \nabla_b \frac 1 R- ...$$
-		- Obviously the first term corresponds to the point charge, the second corresponds to the dipole, the third corresponds to the quadrupole, etc.
-	- ## Interaction Energy
-		- Consider
-		  $$U=\int \rho(r) \varphi(r) d^3 r$$
-		- Expand $\varphi(r)$ into Taylor series:
-		  $$\varphi(r)=\varphi(0) + r'^a \nabla_a \varphi + \frac 1 2 r'^a r'^b \nabla_a \nabla_b \varphi + ...$$
-		- Still, the first term corresponds to the point charge, the second corresponds to the dipole, etc.
-	- ## Force and Moment
-		- The method is always virtual work.
-		- $$
-		  \vec{F}_e=\vec{p} \cdot \nabla \vec{E}
-		  $$
-		- $$\vec M= \vec p \times \vec E$$
+		  we could expand $\frac 1 R \equiv \frac 1 {|\mathbf{r}-\mathbf{r}'|}$ into Taylor series.
+		-
+		- Zeroth-order term
+			- $$
+			  \mathbf{A_0}(\mathbf{r}, t)=\frac{\mu_0}{4 \pi r} \int_{\Omega} {\mathbf{J}\left(\mathbf{r}^{\prime}, t^{\prime}\right)} \mathrm{d}^3 \mathbf{r}^{\prime}
+			  $$
+			- Obviously the term is zero, which corresponds to 'no magnetic charge'.
+		- First-order term
+		  collapsed:: true
+			- $$
+			  \mathbf{A_1}(\mathbf{r}, t)=\frac{\mu_0}{4 \pi} \int_{\Omega} J^a r'_b  \frac{R^b}{R^3} \mathrm{d}^3 \mathbf{r}' \\
+			  =\frac{\mu_0}{4 \pi R^3} \int_{\Omega} J^a r'_b {R^b}\mathrm{d}^3 \mathbf{r}'
+			  $$
+			- Note that
+			  $$
+			  \vec{a} \times(\vec{b} \times \vec{c})=(\vec{a} \cdot \vec{c}) \vec{b}-(\vec{a} \cdot \vec{b}) \vec{c}
+			  $$
+			- Therefore $\vec R \times (\vec r' \times \vec J)=(\vec R \cdot \vec J)\vec r'-(\vec r' \cdot \vec R)\vec J$
+			  id:: 653e0bd4-a4b3-46fa-b6d3-dd6d2c024f8a
+			- The first term is zero after integration, since $\int j^a (r) d^3 r =0$.
+			-
+			- Therefore
+			  $$
+			  \begin{aligned}
+			  \mathbf{A_1}(\mathbf{r}, t) & =-\frac{\mu_0}{4 \pi R^3} \int_{\Omega} \vec R \times (\vec r' \times \vec J)\mathrm{d}^3 \mathbf{r}' \\
+			  & = \frac{\mu_0}{4 \pi R^3} (\int_{\Omega} (\vec r' \times \vec J)\mathrm{d}^3 \mathbf{r}') \times \vec R \\
+			  & =\frac{\mu_0}{4 \pi R^3} \int d \vec m \times \vec R 
+			  \end{aligned}
+			  $$
+			  where $d\vec m = \vec r' \times \vec J$.
 	-
+- # Magnetostatics
+	- ## Vector Potential
+	  collapsed:: true
+		- $$\vec B = \nabla \times \vec A$$
+		- collapsed:: true
+		  $$
+		  \mathbf{A}(\mathbf{r}, t)=\frac{\mu_0}{4 \pi} \int_{\Omega} \frac{\mathbf{J}\left(\mathbf{r}^{\prime}, t^{\prime}\right)}{\left|\mathbf{r}-\mathbf{r}^{\prime}\right|} \mathrm{d}^3 \mathbf{r}^{\prime}
+		  $$
+			-
+			- Note that $\vec A$ has a gauge freedom, i.e. could differ by $\nabla \alpha$.
+		- Proposition. $\nabla \cdot \vec A=0$.
+		- Proposition. $\partial_i \partial^i A_j=-\mu J_j$
+		  collapsed:: true
+			- This can be proved by plugging in $\nabla \times \vec B=\mu j_f$.
+		- Therefore, methods in electrostatics, e.g. eigen-function expansion, are available.
+	- ## Scalar Potential
+	  collapsed:: true
+		- When a region satisfies $j_f=0$, we have
+		  $$\nabla \times H=0$$
+		  which suggests the existence of a single-valued scalar potential $\phi_m$ such that
+		  $$\vec H=-\nabla \phi_m$$
+		- However, if the region is not simply connected (e.g. $\mathbb R^3 \ X$), then the scalar potential would have the structure of a Riemann surface.
+		-
+	- ## Electro-Magneto Duality
+	  collapsed:: true
+		- In a source-free region:
+		  $$
+		  \begin{array}{llc}
+		  \nabla \cdot \vec{D}=0 & \Leftrightarrow & \nabla \cdot \vec{B}=0 \\
+		  \nabla \times \vec{E}=0 & \Leftrightarrow & \nabla \times \vec{H}=0 \\
+		  \vec{D}=\varepsilon \vec{E} & \Leftrightarrow & \vec{B}=\mu \vec{H} \\
+		  \varepsilon & \Leftrightarrow & \mu \\
+		  \varphi & \Leftrightarrow & \varphi_m \\
+		  \vec{E}=-\nabla \varphi & \Leftrightarrow & \vec{H}=-\nabla \varphi_m
+		  \end{array}
+		  $$
+		- Therefore we can use exactly the same methods and boundary conditions in electrostatics.
+	- ## Ferromagnetism
+	  collapsed:: true
+		- Note that now the medium is **nonlinear**, i.e. the relation is not $\vec B=\mu \vec H$.
+		- Thus we should go back to the original definition
+		  $$\frac {\vec B}{\mu_0}=\vec H + \vec M$$
+		  and study the relation between $\vec M$ and $\vec H$.
+		- Moreover, there is usually no free current in the system, so we could adopt the scalar potential.
+		  collapsed:: true
+			- $\nabla \cdot \vec B=0$, thus $\nabla \cdot \vec H+\nabla \cdot \vec M=0$.
+			- Plugging $\vec H=-\nabla \varphi_m$, we see
+			  $$\Delta \varphi_m=\nabla \cdot \vec M$$
+			-
+		-
+		- Stage 1. Initial magnetization
+		  collapsed:: true
+			- Here $\vec M = \chi_i \vec H$, thus conventional methods apply.
+		- Stage 2. Saturation
+		  collapsed:: true
+			- When $\vec B$ is very large, $\vec M$ tends to the maximum value $\vec M_0$.
+			- Therefore $\nabla \cdot \vec M_0$ acts as 'source' of the magnetic field.
+		- Stage 3. Removing external field
+		  collapsed:: true
+			- Now $\vec M = \chi_r \vec H + \vec M_r$, thus it is equivalent to a linear medium with some source.
+	- ## Magnetic Dipole
+	  collapsed:: true
+		- For an infinitely small loop of current,
+		  $$
+		  \vec{m}=\frac{1}{2} \int \vec{r}^{\prime} \times \vec{j} d \tau^{\prime}=\frac{I}{2} \oint \vec{r}^{\prime} \times d \overrightarrow{l^{\prime}}=I \vec{S}
+		  $$
+		- The scalar potential is
+		  $$
+		  \varphi_m=\frac{1}{4 \pi} \frac{\vec{m} \cdot \vec{r}}{r^3}
+		  $$
+		  which is identical with the case of the electric dipole.
+	- ## Loop current of arbitrary shape
+	  collapsed:: true
+		- Consider the scalar potential:
+		- We could divide a large loop into many infinitely small ones. Each one has the identical current $I$.
+		  collapsed:: true
+			- ![image.png](../assets/image_1698565666783_0.png)
+		- For each infinitesimal loop, the scalar potential is
+		  $$
+		  d \varphi_m=\frac{I}{4 \pi} \frac{d \vec{S} \cdot \vec{R}}{R^3}=\frac{I}{4 \pi} d \Omega
+		  $$
+		- Therefore the total scalar potential is precisely
+		  $$
+		  \varphi_m=\int d \varphi_m=\frac{I}{4 \pi} \Omega
+		  $$
+	- Bound surface current
+	  $$
+	  \mathbf{K}_{\mathrm{m}}=\mathbf{M} \times \hat{\mathbf{n}}
+	  $$
 -

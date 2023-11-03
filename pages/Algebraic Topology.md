@@ -218,6 +218,7 @@
 		- If $s$ is a simplex, then a face of $s$ is a simplex $s^{\prime}$ with $\operatorname{Vert}\left(s^{\prime}\right) \subset$ $\operatorname{Vert}(s)$; one writes $s^{\prime} \leq s$.
 		- If $s^{\prime}<s$ (i.e., $\left.\operatorname{Vert}\left(s^{\prime}\right) \subsetneq \operatorname{Vert}(s)\right)$, then $s^{\prime}$ is called a proper face of $s$.
 	- Open $q$-simplex
+	  collapsed:: true
 		- Let $s$ be a $q$-simplex. If $q=0$, define $s^{\circ}=s$; if $q>0$, define $s^{\circ}=$ $s-\dot{s}$.
 		- i.e. a simplex minus the boundary.
 		-

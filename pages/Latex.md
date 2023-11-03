@@ -1,4 +1,5 @@
 - Basic signs
+  collapsed:: true
 	- 'Big' things are obtained by {{cloze capitalizing the first letter}}.
 		- $\Rightarrow$ = `\Rightarrow`
 	- $\subset$ and $\subseteq$ #card
@@ -19,6 +20,7 @@
 		- `\hookrightarrow`
 	-
 - # Fonts
+  collapsed:: true
 	- mathsf vs mathbf
 		- $\mathsf A, \mathsf B, \mathsf C$
 		- $\mathbf A,\mathbf B,\mathbf C$
@@ -95,3 +97,8 @@
 	- Don't use `$$$$` to create multi-line formulae. Use `\begin{equation}` to avoid potential problems.
 	- Avoid using `Shift+Enter` to create a new line in formulae. Use `\begin{aligned}`.
 	-
+- Color
+	- ```
+	  \textcolor{red}{Some text to be colored}
+	  ```
+-

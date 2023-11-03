@@ -432,6 +432,12 @@ alias:: [[Category Theory]]
 		  card-last-score:: 3
 		- Baez-Dolan conjecture. For a symmetric monoidal n-category $C$, the forgetful functor $E_{k+1}\mathrm{Alg}(C) \to E_k\mathrm{Alg}(C)$ is an equivalence for $k>n$. #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-12-02T06:58:12.704Z
+		  card-last-reviewed:: 2023-11-01T00:58:12.704Z
+		  card-last-score:: 3
 			- Have been proven for a special case $n=2,C=\mathrm{Cat}$
 			- [Higher Algebra] Corollary 5.1.1.7 claims to have proved this.
 		- Defs

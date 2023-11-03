@@ -41,6 +41,7 @@ alias:: [[SPT]]
 		- [[Levin-Gu Model]]
 		- [[CZX Model]]
 - # Topics
+  collapsed:: true
 	- ## Boundary
 		- ((63bf6669-e406-4dc7-9c25-c2142dd7607a))
 		-

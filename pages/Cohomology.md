@@ -38,12 +38,19 @@
 			-
 	- ((6532394c-e8b9-4752-9500-74081018a669)). If $\left(S_*(X), \partial\right)$ is a complex, then, for every abelian group $G$,
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-12-02T06:58:08.307Z
+	  card-last-reviewed:: 2023-11-01T00:58:08.308Z
+	  card-last-score:: 5
 	  $$
 	  0 \longrightarrow \operatorname{Hom}\left(S_0(X), G\right) \stackrel{\partial_1^*}{\longrightarrow} \operatorname{Hom}\left(S_1(X), G\right) \stackrel{\partial_2^*}{\longrightarrow} \operatorname{Hom}\left(S_2(X), G\right) \longrightarrow \cdots
 	  $$
 	  is a complex (denoted by $\operatorname{Hom}\left(S_*(X), G\right)$). #card
 		- The lemma is extremely simple technically, but what's the insight behind?
 		  background-color:: red
+			- The functor is 'left exact', which is obvious for the composition?
 		-
 		- First of all, note that $\mathbf{Ab}(A,B)$ is itself an abelian group, with the addition given by
 		  $$(f+g)(a)=f(a)+g(a)$$

@@ -1,6 +1,6 @@
 # Definitions
-collapsed:: true
 	- Sylvester Matrices
+	  collapsed:: true
 		- Shift matrix 
 		  $$
 		  B=\left[\begin{array}{cccccc}
@@ -77,5 +77,8 @@ collapsed:: true
 		- It implies that we need only to study the representations of $AB=\omega BA$.
 		  The whole GCA follows by a JW transformation.
 	- Theorem. The Sylvester matrices is the only irreducible representation of $AB=\omega BA$.
-		-
+	- Note the existence of a local isomorphism
+	  id:: 6544541f-5a45-40d8-9d4a-319f96c9cd51
+	  $$\tilde c_1 = c_1, \tilde c_2 = e^{i \theta} c_1 c_2$$
+		- Proposition. $\tilde c_1 \tilde c_2 = \omega \tilde c_2 \tilde c_1$, $\tilde c_1 ^q=\tilde c_2 ^q = \mathbf 1$ (with a suitable selection of $\theta$)
 -

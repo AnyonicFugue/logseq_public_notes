@@ -16,6 +16,7 @@
 	  id:: 63c1416f-d51b-4487-865b-f9d3cf9b5918
 	- Simplify the problem by adding conditions.
 	  id:: 64c66feb-f6e4-4adf-88cb-64ecf551e7e9
+	  collapsed:: true
 		- Linear independence, orthogonality, compactness, etc.
 	- Dirty way: Install a basis/coordinate and verify things directly. #card
 	  id:: 63860946-8380-45c7-b564-1c08f9e7cc70
@@ -35,6 +36,9 @@
 	  card-ease-factor:: 2.7
 	  card-last-reviewed:: 2023-07-31T12:30:29.808Z
 	  id:: 64b4848e-7e80-4fe8-a1f1-319b6f009d6f
+	- Compare to situations where the theorem/conjecture fails and observe which conditions are essential.
+	  id:: 65425a62-2e8d-4e18-916f-712a4b35c506
+	-
 	- ## Classification Problems #card
 	  card-last-interval:: 32.51
 	  card-repeats:: 1
@@ -42,6 +46,7 @@
 	  card-next-schedule:: 2023-09-13T00:58:46.845Z
 	  card-last-reviewed:: 2023-08-11T12:58:46.845Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Find a characteristic. If it is different for two objects, then they must be different.
 		  id:: 63c14160-28c9-4f15-82dc-977a38e0993b
 		  collapsed:: true
@@ -64,7 +69,6 @@
 			- Homeomorphism is too strong.
 			- Homotopy is much easier to deal with.
 - # [[Algebraic Topology]]
-  collapsed:: true
 	- Prove nulhomotopy by rescale the shape (in particular, curve) with a parameter $t\in [0,1]$
 		- Especially useful for shapes embeddable into $R^n$
 - # Physics

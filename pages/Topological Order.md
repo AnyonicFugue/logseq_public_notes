@@ -31,7 +31,7 @@
 			- What's the difference of non-abelian fusion outcomes and different GS of toric code?
 			  collapsed:: true
 				- Kitaev says [here](((64b2f114-c11e-4775-8755-7d6c6b967ffb))) that states belonging to the same supersector (i.e. overall fusion outcome) **can** form superposition, while different supersectors **cannot**.
-		- [[Question/Bulk-Boundary Correspondence]]? Relation to CFT?
+		- [[Questions/Bulk-Boundary Correspondence]]? Relation to CFT?
 		- What is gauging?
 	- What's the role of gap?
 	  collapsed:: true

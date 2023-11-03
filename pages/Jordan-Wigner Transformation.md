@@ -5,6 +5,7 @@
   card-next-schedule:: 2023-10-18T22:50:43.245Z
   card-last-reviewed:: 2023-09-19T00:50:43.245Z
   card-last-score:: 5
+  collapsed:: true
 	- Idea
 	  collapsed:: true
 		- A spin has two levels, which could be regarded as a fermionic mode (i.e. $|\uparrow \rangle \mapsto |1\rangle$, $|\downarrow \rangle \mapsto |0\rangle$)
@@ -41,4 +42,32 @@
 		- $$
 		  a_j^{\dagger} a_j=f_j^{\dagger} f_j
 		  $$
--
+- Generalized Version
+	- Fradkin-Kadanoff transformation
+	  id:: 654311c4-28f4-4c33-a815-5082745b7412
+		- This relates the $2 L$ parafermion operators $\chi_l$ to clock operators $\sigma_j$ and $\tau_j, j=1, \ldots, L$.
+		- Clock operators
+		  collapsed:: true
+			- They commute off-site,
+			  $$
+			  \left[\tau_i, \tau_j\right]=\left[\sigma_i, \sigma_j\right]=\left[\tau_i, \sigma_j\right]=0, \quad i \neq j,
+			  $$
+			- On the same lattice site they satisfy
+			  $$
+			  \sigma_j^3=\tau_j^3=1, \quad \sigma_j^{\dagger}=\sigma_j^2, \quad \tau_j^{\dagger}=\tau_j^2, \quad \sigma_j \tau_j=\omega \tau_j \sigma_j, \quad \omega=e^{2 \pi \mathrm{i} / 3}
+			  $$
+		- Parafermion operators:
+		  $$
+		  \chi_{2 j-1}=\left(\prod_{k=1}^{j-1} \tau_k\right) \sigma_j, \quad \chi_{2 j}=\left(\prod_{k=1}^{j-1} \tau_k\right) \sigma_j \tau_j=\chi_{2 j-1} \tau_j
+		  $$
+		- Compare to [[Majorana Representation]]
+		  collapsed:: true
+			- Let's map $\sigma_k \equiv c_{2k-1} \to \sigma_k^x$, $\tau_k \equiv c_{2k} \to \sigma_k^z$
+			- Then
+			  $$
+			  \gamma_{2 j-1}=\left(\prod_{k=1}^{j-1} c_{2k}\right) c_{2j-1} \to \left(\prod_{k=1}^{j-1} \sigma_k^z \right)\sigma_j^x \\ 
+			  \gamma_{2 j}=\left(\prod_{k=1}^{j-1} c_{2k}\right) c_{2j-1} c_{2j} \to \left(\prod_{k=1}^{j-1} \sigma_k^z \right)\sigma_j^x \sigma_j^z
+			  $$
+			  which is precisely the original JW transformation.
+			-
+		- ((6544541f-5a45-40d8-9d4a-319f96c9cd51))

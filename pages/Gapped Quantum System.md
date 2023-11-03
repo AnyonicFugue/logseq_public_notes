@@ -124,8 +124,17 @@ collapsed:: true
 		- ((64c55051-36de-42d6-8795-5f37ef347db3))
 	- Equivalence of gapped quantum liquids #card
 	  collapsed:: true
-		- Two gapped quantum liquid systems $\left\{H_{N_k}\right\}$ and $\left\{H_{N_k}^{\prime}\right\}$ are equivalent if the ground-state spaces of $H_{N_k}$ and $H_{N_k}^{\prime}$ are connected by LU transformations for all $N_k$, for a class of L A operations.
-		- We don't know precisely which LA are allowed... It seems further physical intuition is needed.
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-12-02T07:01:17.736Z
+	  card-last-reviewed:: 2023-11-01T01:01:17.737Z
+	  card-last-score:: 5
+		- LU and LA
+			- Two gapped quantum liquid systems $\left\{H_{N_k}\right\}$ and $\left\{H_{N_k}^{\prime}\right\}$ are equivalent if the ground-state spaces of $H_{N_k}$ and $H_{N_k}^{\prime}$ are connected by LU transformations for all $N_k$, for a class of LA operations.
+			- We don't know precisely which LA are allowed... And the formalism isn't very elegant. Maybe the $\mathbb C^\infty$ formalism?
+		- Adiabatic transformation
+			- This definition makes the role of topology exlicit.
 		-
 	- Stable gapped quantum system #card
 	  collapsed:: true
