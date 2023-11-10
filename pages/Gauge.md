@@ -20,6 +20,7 @@ alias:: Gauge Theory
 		- This follows from [[Ward-Takahashi Identity]], which in turn follows from **gauge invariance**. #Learning-TODO/Course
 		- Thus it's natural to consider other theories with some sorts of gauge invariance.
 - # Setup
+  collapsed:: true
 	- $$g=\exp{\{i\alpha^kT_k\}}$$
 		- Here the generators are taken to be Hermitian, so $i$ is added in the factor.
 	- $$\left[T^a, T^b\right]=i f^{a b c} T^c$$

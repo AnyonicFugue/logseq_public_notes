@@ -104,13 +104,18 @@
 			- ((64b2f58e-6dcc-4ad7-ad98-5226751aebbb))
 			- Note that it commutes with any check.
 - # Solution
-  collapsed:: true
 	- Strategy
+	  collapsed:: true
 		- ((64b2f633-ff39-4862-92e9-a8827906ea71))
 		- ((64b4a3a2-5a8e-4828-8059-2d5fdb0ec212))
 		- ((64b442f1-bf2d-40cd-926a-9629bc86763d))
 	- Summary #card
-	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-12-06T06:40:22.909Z
+	  card-last-reviewed:: 2023-11-05T00:40:22.910Z
+	  card-last-score:: 5
 		- First, transform to the majorana representation and the extended space.
 			- The lattice system is not essentially fermionic.
 			  ((64b48b82-84da-4b28-83de-30ce1ef5338a))
@@ -132,7 +137,6 @@
 			- The last equation is consistent with the formula $\sigma^x \sigma^y \sigma^z=i$ because $D$ acts as the identity operator on the subspace $\mathcal{M}$.
 		-
 	- ## Extended Hamiltonian
-	  collapsed:: true
 		- The idea is to replace the Pauli operators by the extended Pauli operators.
 		- $$
 		  \begin{aligned}
@@ -195,7 +199,6 @@
 			- Therefore we can use the eigenvalues of the plaquette operators $w_p= \pm 1$ and the homotopy class to denote the equivalence class.
 		-
 	- ## Solve the Spectrum of the Quadratic Hamiltonian
-	  collapsed:: true
 		- Observations
 			- A gauge transformation $D_j$ flip all three adjacent $u$ while keeping $w_p$ and $H$ invariant.
 				- Therefore we need only solve in a specific gauge configuration and use $D_j$ to superpose all equivalent configurations.
@@ -250,6 +253,7 @@
 				- The factor is $1/2$ rather than $1/4$ since each mode is counted twice by the anti-symmetric matrix.
 		- Step 2. Perform Fourier transformation to make use of translation invariance
 			- We study the configuration where all $u=1$.
+			  collapsed:: true
 			- $$
 			  \begin{gathered}
 			  H=\frac{1}{2} \sum_{\mathbf{q}, \lambda, \mu} i \widetilde{A}_{\lambda \mu}(\mathbf{q}) a_{-\mathbf{q}, \lambda} a_{\mathbf{q}, \mu}, \quad \widetilde{A}_{\lambda \mu}(\mathbf{q})=\sum_t e^{i\left(\mathbf{q}, \mathbf{r}_t\right)} A_{0 \lambda, t \mu} \\

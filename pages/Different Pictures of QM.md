@@ -1,9 +1,9 @@
-- # General Theory
+# General Theory
 	- In general, we could decompose $H=H_1+H_2$ and let $H_1$ acts on the state and $H_2$ acts on the operator.
 		- Schrodinger -> $H_2=0$
 		- Heisenberg -> $H_1=0$
 		- Interaction -> $H_1$ is the perturbative part
-	- ## Evolution in Different Pictures #card
+	- ## Evolution in Different Pictures
 	  card-last-score:: 1
 	  card-repeats:: 1
 	  card-next-schedule:: 2023-07-31T04:00:00.000Z
@@ -48,7 +48,6 @@
 	-
 - # Interaction Picture
   id:: 645712fb-6e94-424c-a970-bb124f0c8e65
-  collapsed:: true
 	- Evolution #card
 	  card-last-interval:: 26.02
 	  card-repeats:: 1
@@ -65,6 +64,7 @@
 			- $U(t,t_0):=T\{\exp[-i\int^{t}_{t_0}dt' V_I(t')]\}$
 			- Note that we must **fix** $t_0$ and define $U_(t_2,t_1):=U(t_2,t_0)U^\dag(t_1,t_0)$. Otherwise the operators won't compose properly.
 	- ## Examples
+	  collapsed:: true
 		- [[Klein-Gordon Theory]]
 			- $$
 			  \mathcal{L}=\frac{1}{2} \partial_\mu \phi \partial^\mu \phi-j^\mu \partial_\mu \phi

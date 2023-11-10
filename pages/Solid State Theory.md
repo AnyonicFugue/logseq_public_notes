@@ -43,6 +43,7 @@ type:: [[Course]]
 - # Electron Gas
   collapsed:: true
 	- id:: 64238eab-5e73-4970-9129-9cbcc7e974fb
+	  collapsed:: true
 	- ## [[Bloch Theorem]] and Bloch Wavefunction
 	- ## Wannier Wavefunction
 	  collapsed:: true
@@ -127,33 +128,31 @@ type:: [[Course]]
 					- Approximate $\left[\hat{A}_I, \hat{\rho}_I(t)\right]$ by $\left[\hat{A}_I, \hat{\rho}_I(0)\right]$
 				- The remainder is purely routine: Write down the integral and use the cyclic symmetry of trace.
 	- {{embed ((6401b89c-e517-4e8f-ad4e-f98d5b166921))}}
-- # Thomas-Fermi Screening
+- # Thomas-Fermi Screening #card
   collapsed:: true
 	- ## Idea
-	  collapsed:: true
 		- In a Fermi liquid, some positive external charge would attract electrons to gather near it, thus weakens the external field.
 		  collapsed:: true
 			- The actual field is solved by consistency equations.
 		- This can be generalized to the case of some dynamical external field.
 	- ## Setup
-	  collapsed:: true
 		- External field $V_{ext}(r,t)$, effective field $V_{\text {eff }}=V_{\text {ext }}+\delta V$
 		  collapsed:: true
 			- For an external charge it is $\operatorname{V_{ext}}(\vec{r})=-e \frac{Q}{r}$
 		- $\delta n(\vec{r}):=n(\vec{r})-n_0(\vec{r})$
-	- Random Phase Approximation (RPA) #card
-	  card-last-score:: 5
-	  card-repeats:: 2
-	  card-next-schedule:: 2023-06-29T11:59:54.142Z
-	  card-last-interval:: 30
-	  id:: 64118d95-90c5-42ef-afcf-2df672505b13
-	  card-ease-factor:: 2.46
-	  card-last-reviewed:: 2023-05-30T11:59:54.142Z
-	  collapsed:: true
-		- 1. The behavior is similar to free fermi gas
-		  2. The effect on number density is local
+	- Key technique
+		- Random Phase Approximation (RPA)
+		  card-last-score:: 5
+		  card-repeats:: 2
+		  card-next-schedule:: 2023-06-29T11:59:54.142Z
+		  card-last-interval:: 30
+		  id:: 64118d95-90c5-42ef-afcf-2df672505b13
+		  card-ease-factor:: 2.46
+		  card-last-reviewed:: 2023-05-30T11:59:54.142Z
+		  collapsed:: true
+			- 1. The behavior is similar to free fermi gas
+			  2. The effect on number density is local
 	- ## Static
-	  collapsed:: true
 		- The final result is 
 		  card-last-interval:: 42
 		  card-repeats:: 2
@@ -164,7 +163,7 @@ type:: [[Course]]
 		  collapsed:: true
 		  $$
 		  \tilde{V}_{\text {eff }}(\vec{k})=-\frac{4 \pi Q e}{k^2+4 \pi e^2 N_0}
-		  $$ #card
+		  $$
 			- Use ((64118d95-90c5-42ef-afcf-2df672505b13)),
 			  $$
 			  n_0=\sum_{k \sigma} \frac{1}{1+e^{\left.\beta ( \varepsilon_k+\mu\right)}} \quad n(\vec{r})=\sum_{k \sigma} \frac{1}{1+e^{\beta\left[\varepsilon_k(\vec{r})-\mu\right]}}
@@ -180,7 +179,6 @@ type:: [[Course]]
 			-
 			- Exercise. Obtain the Yukawa potential from the result.
 	- ## Dynamic
-	  collapsed:: true
 		- Setup
 		  collapsed:: true
 			- collapsed:: true
@@ -199,13 +197,12 @@ type:: [[Course]]
 		  collapsed:: true
 		  $$
 		  \langle \delta \hat{n} (\vec{k} ,\omega )\rangle =\chi_{0}^{\text{ret }} (\vec{k} ,\omega )V_{\text{ext }} (\vec{k} ,\omega )
-		  $$ #card
+		  $$
 			- Note that $\chi=0$ for $t<0$, thus it is exactly convolution.
 			  collapsed:: true
 				- ((6475b336-a3fd-41da-9367-98fabdf02e78))
 			- It's just routine calculation to verify this result.
 		- Solve consistency equations
-		  collapsed:: true
 			- Consistency equations:
 			  $$\begin{align*}
 			  \langle \delta \hat{n} (\vec{k} ,\omega )\rangle  & =\chi _{0}^{\text{ret }} (\vec{k} ,\omega )V_{\text{ext }} (\vec{k} ,\omega )\\
@@ -226,7 +223,6 @@ type:: [[Course]]
 			  \end{aligned}$$
 		-
 	- ## Solve for the Response
-	  collapsed:: true
 		- Calculate the ((642f7907-397a-4fd1-b504-e0060ac5a8be))
 		  collapsed:: true
 			- Result:

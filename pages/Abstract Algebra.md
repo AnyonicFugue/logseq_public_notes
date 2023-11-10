@@ -1,6 +1,8 @@
 - [[References]]
 	- ![2007_Grillet_Abstract algebra.pdf](file://C:/Users/10309/Nutstore/1/sync/zotero/Mathematics/Abstract Algebra/2007_Grillet_Abstract algebra.pdf)
 - # Groups
+	- [[Abelian Group]]
+	-
 	- Isomorphism Theorems #card
 	  id:: 649e4af5-3e8a-4202-831b-2ad858b4b337
 	  card-last-interval:: 31.26
@@ -94,15 +96,14 @@
 					- If the famuly $\left\{a_\alpha\right\}$ is finite, then $G$ is finitely generated, of course. If both the families $\left\{a_\alpha\right\}$ and $\left\{r_\beta\right\}$ are finite, then $G$ is said to be **finitely presented**, and these families form what is called a finite presentation for $G$.
 		- ((63d6160a-a7f7-427c-b3bf-a89cda400f12)) If $G$ is a free abelian group with basis $\left\{a_1, \ldots, a_n\right\}$, then $n$ is uniquely determined by $G$. #card
 		  collapsed:: true
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-09-26T18:43:56.410Z
-		  card-last-reviewed:: 2023-08-26T12:43:56.410Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-12-22T00:33:40.949Z
+		  card-last-reviewed:: 2023-11-10T00:33:40.950Z
 		  card-last-score:: 5
 			- The rank of the free abelian group doesn't depend on the basis chosen.
 			- Strange proof
-			  collapsed:: true
 				- For 2 bases $a_1,...,a_m$ and $b_1,...,b_n$, we may write $a_i=\sum P_{ji} b_j$ and $b_k=\sum Q_{lk} a_l$
 				- Then we obtain $PQ=I_n, QP=I_m$
 				- Now we may use linear algebra!
@@ -111,7 +112,6 @@
 					  collapsed:: true
 						- ((63c1416f-d51b-4487-865b-f9d3cf9b5918))
 			- Official proof
-			  collapsed:: true
 				- Proof. The group $G$ is isomorphic to the $n$-fold product $\mathbb{Z} \times \cdots \times \mathbb{Z}$; the subgroup $2 G$ corresponds to the product $(2 \mathbb{Z}) \times \cdots \times(2 \mathbb{Z})$. Then the quotient group $G / 2 G$ is in bijective correspondence with the set $(\mathbb{Z} / 2 \mathbb{Z}) \times \cdots \times(\mathbb{Z} / 2 \mathbb{Z})$, so that $G / 2 G$ has cardinality $2^n$. Thus $n$ is uniquely determined by $G$.
 				- This proof makes use of the cardinality, which is a useful characteristic.
 				  collapsed:: true

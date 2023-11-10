@@ -574,11 +574,11 @@
 					- Therefore if we apply unitaries to an SRE to prepare an LRE, the preparation needs exponential time.
 				- However, if we introduce measurements and feedback (which are not unitary), we can achieve it much faster.
 			- Example. Prepare the ground state of toric code #card
-			  card-last-interval:: 32.57
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-09-12T01:27:06.014Z
-			  card-last-reviewed:: 2023-08-10T12:27:06.014Z
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-12-21T00:31:32.232Z
+			  card-last-reviewed:: 2023-11-09T00:31:32.232Z
 			  card-last-score:: 5
 				- Tensor network viewpoint
 					- Lattice

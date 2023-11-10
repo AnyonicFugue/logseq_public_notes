@@ -467,3 +467,85 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   hl-page:: 154
   hl-color:: yellow
   id:: 654492a5-485c-46cd-ba7e-744404547c08
+- Theorem
+  ls-type:: annotation
+  hl-page:: 159
+  hl-color:: yellow
+  id:: 65459d61-e66d-4c7c-8baa-f513b497e4c1
+- Corollary 
+  ls-type:: annotation
+  hl-page:: 160
+  hl-color:: yellow
+  id:: 65460340-5044-49c4-9074-f56ef78fa13c
+- [:span]
+  ls-type:: annotation
+  hl-page:: 161
+  hl-color:: yellow
+  id:: 654604a2-4b95-4eb1-8cb3-663504697e1d
+  hl-type:: area
+  hl-stamp:: 1699087521909
+- [:span]
+  ls-type:: annotation
+  hl-page:: 162
+  hl-color:: yellow
+  id:: 6548a788-ff4d-4f67-adaa-429548fba19f
+  hl-type:: area
+  hl-stamp:: 1699260295884
+- [:span]
+  ls-type:: annotation
+  hl-page:: 162
+  hl-color:: yellow
+  id:: 6548aa4d-72eb-4513-9e36-7ddbc22ddc08
+  hl-type:: area
+  hl-stamp:: 1699261004766
+- [:span]
+  ls-type:: annotation
+  hl-page:: 162
+  hl-color:: yellow
+  id:: 6548aa88-490f-4af0-90d4-fad2d8cfdd8e
+  hl-type:: area
+  hl-stamp:: 1699261063425
+- [:span]
+  ls-type:: annotation
+  hl-page:: 163
+  hl-color:: yellow
+  id:: 654990cc-f96d-4962-949a-564aaefb1dca
+  hl-type:: area
+  hl-stamp:: 1699320011689
+- One last comment before proceeding
+  ls-type:: annotation
+  hl-page:: 164
+  hl-color:: yellow
+  id:: 654991d3-5f8c-4985-9ade-ed226450dfe7
+- Definition
+  ls-type:: annotation
+  hl-page:: 164
+  hl-color:: yellow
+  id:: 654992c6-5f01-452c-a508-0f6c1da8cac0
+- [:span]
+  ls-type:: annotation
+  hl-page:: 165
+  hl-color:: yellow
+  id:: 6549fbd7-9558-4665-86c7-668ff9a820dc
+  hl-type:: area
+  hl-stamp:: 1699347414597
+- Linearly order the index set A, say, A = {rl1' ... , rln }
+  ls-type:: annotation
+  hl-page:: 166
+  hl-color:: red
+  id:: 654b8724-6730-4bc6-a0b3-42f581d53322
+- Definition
+  ls-type:: annotation
+  hl-page:: 168
+  hl-color:: yellow
+  id:: 654de5ae-2d0a-4eb3-933a-8770ccd3baf2
+- Definition
+  ls-type:: annotation
+  hl-page:: 170
+  hl-color:: yellow
+  id:: 654debb0-2d03-454f-9c40-ef5f16ca0906
+- Definition
+  ls-type:: annotation
+  hl-page:: 176
+  hl-color:: yellow
+  id:: 654dec9d-f70b-4f37-9ffd-c1ad81fa1dea

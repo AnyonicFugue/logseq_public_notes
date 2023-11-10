@@ -52,10 +52,10 @@ alias:: Quantum Error Correcting Code
 		  card-last-reviewed:: 2022-12-01T11:51:01.780Z
 		  card-last-score:: 5
 			- In the Bell basis, phase flip becomes bit flip! Just reuse the bit-flip code.
-	- Nine-bit Shor code ((6385ffff-7f73-43a8-8dfe-bc77a21c6feb))
+	- Nine-bit Shor code ((6385ffff-7f73-43a8-8dfe-bc77a21c6feb)) #card
 	  id:: 63842469-5dc0-4676-9daa-b5ee2000e5a4
 		- The idea is to combine phase-flip and bit-flip codes.
-		- Code #card
+		- Code
 		  card-last-interval:: 24
 		  card-repeats:: 2
 		  card-ease-factor:: 2.7
@@ -72,7 +72,7 @@ alias:: Quantum Error Correcting Code
 			- ((6384263e-5907-4281-b9e6-a626b32ffe94))
 				- Hadamard generates the Bell basis.
 				- The CNOTs 'copy' the qubits.
-		- Decode #card
+		- Decode
 		  card-last-interval:: 201.84
 		  card-repeats:: 4
 		  card-ease-factor:: 2.9
@@ -88,7 +88,10 @@ alias:: Quantum Error Correcting Code
 			  $$\quad y_1=\sigma_1^x \sigma_2^x \sigma_3^x \sigma_7^x \sigma_8^x \sigma_9^x$$
 				- Not $\sigma_1^x \sigma_4^x$ or $\sigma_1^x \sigma_7^x$! Intuitively, we must flip all three qubits of a group **simultaneously**.
 				- On the other hand, phase flip on a single qubit add a minus to $|111\rangle$ as a whole.
-		- Theorem. The code may correct any errors to a single qubit. #card
+		- In view of stabilizer code
+			- {{embed ((654072b8-7dac-4b4c-b7e8-c47b05f195f2))}}
+			-
+		- Theorem. The code may correct any errors to a single qubit.
 		  card-last-interval:: 252.3
 		  card-repeats:: 4
 		  card-ease-factor:: 2.9
@@ -107,7 +110,7 @@ alias:: Quantum Error Correcting Code
 				  with $|\alpha|^2+|\beta|^2=1$.
 				- Therefore, a general $SU(2)$ operator can be expressed as a **linear combination** of $\left\{I, \sigma_x, \sigma_y, \sigma_z\right\}$.
 			- Remark: A continuous set of errors can be corrected by a discrete code!
-		- Prop. it has distance three. #card
+		- Prop. it has distance three.
 		  card-last-score:: 5
 		  card-repeats:: 3
 		  card-next-schedule:: 2023-11-24T12:34:02.557Z
@@ -163,15 +166,15 @@ alias:: Quantum Error Correcting Code
 		- Verify that the code is nondegenerate and have length 3. #Learning-TODO
 - ## [[Stabilizer Code]]
   id:: 6385c5c5-1c56-413f-ae9d-93d1ca14caf4
-	- Example of ((63842469-5dc0-4676-9daa-b5ee2000e5a4)) #card
+	- Example of ((63842469-5dc0-4676-9daa-b5ee2000e5a4))
 	  card-last-interval:: 42
 	  card-repeats:: 2
 	  card-ease-factor:: 2.7
 	  card-next-schedule:: 2023-08-21T13:01:44.813Z
 	  card-last-reviewed:: 2023-07-10T13:01:44.813Z
 	  card-last-score:: 5
+	  id:: 654072b8-7dac-4b4c-b7e8-c47b05f195f2
 		- We measure eight operators to correct the errors.
-		  collapsed:: true
 			- ((6385d21b-16bd-4dfa-a7cc-6e8a7fadcc16))
 		- Prop. They are the generators of the stabilizer of the code in ${G}$.
 		  collapsed:: true
@@ -183,10 +186,8 @@ alias:: Quantum Error Correcting Code
 			  collapsed:: true
 				- $\sigma_z$ must appear in pairs of two.
 				- $\sigma_x$ and $\sigma_y$ must appear in groups of three and the groups must appear in pairs.
-		- $M_1$ detects bit flips in qubit one or qubit two by {{cloze anti-commutation, which modifies the eigenvalue from +1 to -1}}.
-		  collapsed:: true
-			- Similarly for other M.
-			- Note that $\sigma_y$ can be expressed as a product of x and z, so we don't consider it separately.
+		- In this viewpoint, 'error detection' = 'anti-commutation', i.e. syndromes.
+		- It is considerably more elegant and unified than claims like '$Z_1 Z_2$ measures whether $Z_1 = Z_2$, thus detects bit flips'.
 - # General Theory
 	- ((63860023-4dc1-4576-aca0-d11763757723))
 	- ## Defs
@@ -249,6 +250,7 @@ alias:: Quantum Error Correcting Code
 		  card-next-schedule:: 2022-12-22T05:51:21.031Z
 		  card-last-reviewed:: 2022-12-12T05:51:21.031Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- $C_{a b}=\delta_{a b}$
 			- This means that different errors are **orthogonal**.
 	- Scheme for ECC in nondegenerate case #card

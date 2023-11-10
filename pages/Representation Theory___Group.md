@@ -48,6 +48,7 @@
 		  card-next-schedule:: 2024-02-15T14:29:23.926Z
 		  card-last-reviewed:: 2023-10-21T00:29:23.927Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- By induction.
 				- There can be two strategies: 
 				  One is to substitute some $S_i$ by $T_m$ (which is guaranteed by the 'maximally linear independent set' trick); 

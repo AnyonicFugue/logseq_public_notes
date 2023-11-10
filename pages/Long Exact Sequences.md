@@ -2,368 +2,304 @@
   Exact sequences put very strong constraints on the maps, thus we usually need not know the details of how the maps act, but only need the groups at each point.
   See ((649b9cbd-4a34-42d6-bcc4-97f1a0f91445)) for example.
   #+END_NOTE #card
-- # Definitions
-	- Chain complex #card
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-12-03T00:34:20.158Z
-	  card-last-reviewed:: 2023-10-22T00:34:20.158Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- A (chain) complex $(S_*,\partial)$ is a sequence of **abelian** groups and homomorphisms
+- # Basics about complexes
+	- ## Definitions
+		- Chain complex
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-12-03T00:34:20.158Z
+		  card-last-reviewed:: 2023-10-22T00:34:20.158Z
+		  card-last-score:: 5
 		  collapsed:: true
-		  $$
-		  \cdots \longrightarrow S_{n+1} \stackrel{\partial_{n+1}}{\longrightarrow} S_n \stackrel{\partial_n}{\longrightarrow} S_{n-1} \longrightarrow \cdots, \quad n \in \mathbf{Z},
-		  $$
-		  such that $\partial_n \partial_{n+1}=0$ for each $n \in \mathbf{Z}$.
-			- The subscripts could be negative!
-		- The homomorphism $\partial_n$ is called the **differentiation** of degree $n$, and $S_n$ is called the **term** of degree $n$.
-		- $\operatorname{ker} \partial_n$ is called **the group of n-cycles** and is denoted by $Z_n\left(S_*, \partial\right)$; $\operatorname{im}\partial_{n+1}$ is called the group of **n-boundaries** and is denoted by $B_n\left(S_*, \partial\right)$. 
-		  The $n$th **homology group** of this complex is
-		  $$
-		  H_n\left(S_*, \partial\right)=Z_n\left(S_*, \partial\right) / B_n\left(S_*, \partial\right)
-		  $$
-		- Note that a ((6454f1b7-f979-485a-aafb-fa39fd34e0af)) is a chain complex, with all negative terms being trivial.
-		- #+BEGIN_CAUTION
-		  It's as if the spirit of homology (of topological spaces) is extracted and released into a larger universe...
-		  But why the spirit is a sequence of abelian groups? Not singular chains?
-		  Furthermore, how to **observe** what is the spirit of a theory?
-		  #+END_CAUTION
-	- Exact sequence #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-09T08:06:35.721Z
-	  card-last-reviewed:: 2023-06-08T02:06:35.721Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- Also called an 'acyclic complex'.
-		- A sequence of two homomorphisms (of groups) $A \stackrel{f}{\rightarrow} B \stackrel{g}{\rightarrow} C$ is exact at $B$ if im $f=\operatorname{ker} g$. A sequence of abelian groups and homomorphisms
-		  $$
-		  \cdots \longrightarrow S_{n+1} \stackrel{\partial_{n+1}}{\longrightarrow} S_n \stackrel{\partial_n}{\longrightarrow} S_{n-1} \longrightarrow \cdots
-		  $$
-		  is exact if it is exact at each $S_n$, that is, im $\partial_{n+1}=\operatorname{ker} \partial_n$ for all $n \in \mathbf{Z}$.
-		- Note that being an exact sequence is **stronger** than being a complex: equality (im = ker) implies inclusion (im $\subset \mathrm{ker}$ ).
-		-
-		- Example. Short exact sequence:
-		  A short exact sequence is an exact sequence of the form
-		  $$
-		  0 \rightarrow A \stackrel{i}{\rightarrow} B \stackrel{p}{\rightarrow} C \rightarrow 0 .
-		  $$
-	- Chain map #card
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-29T03:00:50.703Z
-	  card-last-reviewed:: 2023-05-30T03:00:50.703Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- Definition. If $\left(S_*^{\prime}, \partial^{\prime}\right)$ and $\left(S_*, \partial\right)$ are complexes, a chain map $f:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ is a sequence of homomorphisms $\left\{f_n: S_n^{\prime} \rightarrow S_n\right\}$ such that the following diagram commutes:
-		  ((64716a6b-8c2a-4d82-b4e8-1f9067c8679d))
-			- A typical definition of homomorphism.
-		- One calls $f_n$ the **term of degree n**.
-		- Observations
-		  id:: 647aa3ac-6823-4267-9c09-729db1f023d1
-			- Going along the same direction for two steps would give zero (since composition of two maps along the same direction would give zero).
-			- The path can be freely deformed as long as it doesn't goes backwards (due to commutativity)
-			-
-	- Subcomplex #card
-	  collapsed:: true
-	  card-last-interval:: 32.57
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-09-12T01:37:27.078Z
-	  card-last-reviewed:: 2023-08-10T12:37:27.078Z
-	  card-last-score:: 5
-		- $\left(S_*^{\prime}, \partial^{\prime}\right)$ is a subcomplex of $\left(S_*, \partial\right)$ if each $S_n^{\prime}$ is a subgroup of $S_n$ and if each $\partial_n^{\prime}=\partial_n |_{S_n^{\prime}}$.
-		- Equivalently, a subcomplex is defined by a complex homomorphism where each $f_n$ is an inclusion (to the parent complex).
-		- An important example
-			- Consider a subspace $A$ of a space $X$.
-			- If $j: A \hookrightarrow X$ is the inclusion, we saw that $j_{\#}: S_n(A) \rightarrow S_n(X)$ is injective for every $n$. There is thus a short exact sequence of complexes
-			  $$
-			  0 \rightarrow S_*(A) \overset{j_\#}{\rightarrow} S_*(X) \overset{\pi}{\rightarrow} S_*(X) / S_*(A) \rightarrow 0
-			  $$
-			  that will be very useful.
-	- Quotient Complex #card
-	  collapsed:: true
-	  card-last-interval:: 31.15
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-08-31T15:30:15.572Z
-	  card-last-reviewed:: 2023-07-31T12:30:15.572Z
-	  card-last-score:: 5
-		- If $\left(S_*^{\prime}, \partial^{\prime}\right)$ is a subcomplex of $\left(S_*, \partial\right)$, then the quotient complex is the complex
-		  $$
-		  \cdots \longrightarrow S_n / S_n^{\prime} \stackrel{\bar{\partial}_n}{\longrightarrow} S_{n-1} / S_{n-1}^{\prime} \longrightarrow \cdots,
-		  $$
-		  where $\bar{\partial}_n: s_n+S_n^{\prime} \mapsto \partial_n\left(s_n\right)+S_{n-1}^{\prime}\left(\bar{\partial}_n\right.$ is well defined because $\left.\partial_n\left(S_n^{\prime}\right) \subset S_{n-1}^{\prime}\right)$.
-	- Kernel and Image #card
-	  collapsed:: true
-		- If $f:\left(S_*, \partial\right) \rightarrow\left(S_*^{\prime \prime}, \partial^{\prime \prime}\right)$ is a chain map, then $\operatorname{ker}f$ is the subcomplex of $S_*$
-		  $$
-		  \cdots \longrightarrow \operatorname{ker} f_n \stackrel{\partial_n^{\prime}}{\longrightarrow} \operatorname{ker} f_{n-1} \longrightarrow \cdots,
-		  $$
-		  where $\partial_n^{\prime}$ is the restriction $\partial_n \mid_{\operatorname{ker} f_n}$
-		- $\operatorname{Im}f$ is the subcomplex of $S_*^{\prime \prime}$
-		  $$
-		  \cdots \longrightarrow \operatorname{im} f_n \stackrel{\Delta_n^{\prime \prime}}{\longrightarrow} \operatorname{im} f_{n-1} \longrightarrow \cdots,
-		  $$
-		  where $\Delta_n^{\prime \prime}$ is the restriction $\partial_n^{\prime \prime}\mid_{\operatorname{im} f_n}$.
-		- Exercise. Verify that these two maps are both well-defined.
-	- Exactness of a sequence of complexes #card
-	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-08-29T18:28:35.217Z
-	  card-last-reviewed:: 2023-07-29T12:28:35.217Z
-	  card-last-score:: 5
-		- A sequence of complexes and chain maps
-		  $$
-		  \cdots \longrightarrow A_*^{q+1} \stackrel{f^{q+1}}{\longrightarrow} A_*^q \stackrel{f^q}{\longrightarrow} A_*^{q-1} \longrightarrow \cdots
-		  $$
-		  is **exact** if im $f^{q+1}=\operatorname{ker} f^q$ for every $q$.
-			- This very well illustrates the similarity between $\mathbf{Comp}$ and $\mathrm{Ab}$: Complexes (as well as abelian groups) could be terms of an exact sequence!
-		- A short exact sequence of complexes is an exact sequence of the form
-		  $$
-		  0 \rightarrow S_*^{\prime} \stackrel{i}{\rightarrow} S_* \stackrel{p}{\rightarrow} S_*^{\prime \prime} \rightarrow 0,
-		  $$
-		  where 0 denotes the zero complex.
-			- The full diagram is like
-			  ((64716fbb-80b4-4986-931b-12380bae496f))
-			- Note that a single column is a term (a complex) in the sequence of complexes!
-	- Direct Sum of Complexes #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-04T07:06:40.161Z
-	  card-last-reviewed:: 2023-06-03T01:06:40.162Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- Intersection and Sum.
-			- Let $S_*^{\prime}$ and $S_*^{\prime \prime}$ be subcomplexes of $S_*$.
-			- $S_*^{\prime} \cap S_*^{\prime \prime}$ is the subcomplex of $S_*$ whose $n$th term is $S_n^{\prime} \cap S_n^{\prime \prime}$
-			- $S_*^{\prime}+S_*^{\prime \prime}$ is the subcomplex of $S_*$ whose $n$th term is $S_n^{\prime}+S_n^{\prime \prime}$.
-		- Let $\left\{\left(S_*^\lambda, \partial^\lambda\right): \lambda \in \Lambda\right\}$ be a family of complexes, indexed by a set $\Lambda$. Their direct sum is the complex
-		  $$
-		  \cdots \longrightarrow \sum_\lambda S_{n+1}^\lambda \stackrel{\partial_{n+1}}{\longrightarrow} \sum_\lambda S_n^\lambda \stackrel{\partial_n}{\longrightarrow} \sum_\lambda S_{n-1}^\lambda \longrightarrow \cdots,
-		  $$
-		  where $\partial_n=\sum_\lambda \partial_n^\lambda: \sum_\lambda s_n^\lambda \mapsto \sum_\lambda \partial_n^\lambda\left(s_n^\lambda\right)$ for $s_n^\lambda \in S_n^\lambda$. Note the special case $\Lambda=$ $\{1,2\}$.
-		- Example
-			- For $A_1 \sub X, A_2 \sub X$,
-			  $$
-			  S_*\left(A_1\right) \cap S_*\left(A_2\right)=S_*\left(A_1 \cap A_2\right)
-			  $$
-			- Consider the decomposition of a space $X$ into the disjoint union of its path components: $X=\bigcup X_\lambda$.
-			  $$S_*(X)=\sum_\lambda S_*\left(X_\lambda\right)$$
-	- Chain Homotopy and Chain Equivalence #card
-	  card-last-interval:: 97.44
-	  card-repeats:: 3
-	  card-ease-factor:: 2.32
-	  card-next-schedule:: 2023-12-25T10:47:58.158Z
-	  card-last-reviewed:: 2023-09-19T00:47:58.159Z
-	  card-last-score:: 3
-	  collapsed:: true
-		- If $f, g:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ are chain maps, then $f$ and $g$ are **(chain) homotopic**, denoted by $f \simeq g$, if there is a sequence of homomorphisms $\left\{P_n: S_n^{\prime} \rightarrow S_{n+1}\right\}$ such that, for all $n \in \mathbf{Z}$,
-		  $$
-		  \partial_{n+1} P_n+P_{n-1} \partial_n^{\prime}=f_n-g_n .
-		  $$
-		  The sequence $P=\left\{P_n\right\}$ is called a **chain homotopy**.
-			- The definition is motivated by the [lemma](((64645091-3e12-430a-aeb4-5ec910663e10))), which holds for homotopic maps of topological spaces:
-			  Assume that $f, g: X \rightarrow Y$ are continuous maps and that there are homomorphisms $P_n: S_n(X) \rightarrow S_{n+1}(Y)$ with
-			  $$
-			  f_{\#}-g_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
-			  $$
-			  then $H_n(f)=H_n(g)$ for all $n \geq 0$.
-			- Proposition. If $f \simeq g$ then $H_n(f)=H_n(g)$, if $f$ is a chain equivalence then $H_n(f)$ is a homomorphism.
-			-
-			- But it's curious that this property is chosen as the defining character...
-			  background-color:: pink
-				-
-		- A chain map $f:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ is called a **chain equivalence** if there exists a chain map $g:\left(S_*, \partial\right) \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right)$ such that 
-		  $$g \circ f \simeq 1_{S_*^{\prime}}, \quad f \circ g \simeq 1_{S_*}$$
-		  Two chain complexes are called **chain equivalent** if there exists a chain equivalence between them.
-		-
-	- Contracting Homotopy #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-08-28T18:57:13.144Z
-	  card-last-reviewed:: 2023-07-28T12:57:13.145Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- A contracting homotopy of a complex $\left(S_*, \partial\right)$ is a sequence of homomorphisms $c=\left\{c_n: S_n \rightarrow S_{n+1}\right\}$ such that for all $n \in \mathbf{Z}$,
-		  $$
-		  \partial_{n+1} c_n+c_{n-1} \partial_n=1_{s_n} .
-		  $$
-		- Plainly, a contracting homotopy is a chain homotopy (homotopy of chain maps) between the identity map of $S_*$ (namely, $\left\{1_{S_n}\right\}$) and the zero map on $S_*$.
-		-
-		- Proposition. If a complex $S_*$ has a contracting homotopy, then $S_*$ is acyclic (i.e., $H_n\left(S_*\right)=0$ for all $n$, i.e., $S_*$ is an exact sequence).
-	- Connecting Homomorphism #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-05T06:55:22.129Z
-	  card-last-reviewed:: 2023-06-04T00:55:22.130Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- If $0 \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right) \stackrel{i}{\rightarrow}\left(S_*, \partial\right) \stackrel{p}{\rightarrow}\left(S_*^{\prime \prime}, \partial^{\prime \prime}\right) \rightarrow 0$ is a short exact sequence of complexes, then for each $n$ there is a homomorphism
-		  $$
-		  \begin{aligned}
-		  d_n: H_n\left(S_*^{\prime \prime}\right) & \rightarrow H_{n-1}\left(S_*^{\prime}\right) \\
-		  \text { cls } z_n^{\prime \prime} & \mapsto \operatorname{cls} i_{n-1}^{-1} \partial_n p_n^{-1} z_n^{\prime \prime}
-		  \end{aligned}
-		  $$
-		- ((647aa2b0-b8d2-41ee-97e4-1eaec58c3aaa))
-			- Note that there is indeed one step of differentiation, thus justifying the symbol $d$.
-		- Proof of the existence
-			- Our proof would be based on diagrams, which is quite intuitive and straightforward.
-			- Essential observations
-				- {{embed ((647aa3ac-6823-4267-9c09-729db1f023d1))}}
-				- Since the complex sequence is **exact**, 'image of the previous map' and 'kernel of the next map' must be the same.
-				  Therefore, zeroes at the left side guarantee injectivity and those at the right side guarantee surjectivity.
-			- First, write down the points to prove:
-				- The inverse $i^{-1}$ can indeed be taken
-				  logseq.order-list-type:: number
-				- A cycle $Z_n''$ would be indeed mapped to a cycle $Z_{n-1}'$
-				  logseq.order-list-type:: number
-				- Non-ambiguity of $p$: For some element $s \in S_n$ s.t. $p(s_n)=0$, the image would at most differ by a boundary.
-				  logseq.order-list-type:: number
-				- Non-ambiguity of quotient groups: For two chains in $S_n''$ that differ by a boundary, the image would at most differ by a boundary.
-				  logseq.order-list-type:: number
-			- 1
+			- A (chain) complex $(S_*,\partial)$ is a sequence of **abelian** groups and homomorphisms
 			  collapsed:: true
-				- ![20230603-102900.jpg](../assets/20230603-102900_1685760323733_0.jpg){:height 336, :width 466}
-				- The starting point is the blue line, i.e. A cycle is the kernel of the derivative operator.
-				- The blue line equals the green line by commutativity.
-				- Finally, the red line goes due to exactness.
-			- 2
-			  collapsed:: true
-				- ![20230603-105016.jpg](../assets/20230603-105016_1685760782327_0.jpg)
-				- The green line equals the blue line by commutativity.
-				- The red line is zero since $\partial\partial=0$
-				- The yellow line equals the red line by commutativity
-				- Finally, $i$ is injective.
-				-
-				-
-			- 3 and 4 can be combined: For some element $s \in S_n$ s.t. $p(s_n) \in B_n'$, the image would at most differ by a boundary.
-			  collapsed:: true
-				- ![20230603-111303.jpg](../assets/20230603-111303_1685762015364_0.jpg){:height 424, :width 519}
-				- Start from the blue line.
-				- By surjectivity, we can draw the upper yellow line
-				- By commutativity, we can draw the left yellow line
-				- Then the green line vanishes since $\partial\partial=0$.
-				-
-		-
-	- Relative Homology Group #card
-	  collapsed:: true
-	  card-last-interval:: 31.21
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-09-08T17:59:49.244Z
-	  card-last-reviewed:: 2023-08-08T12:59:49.244Z
-	  card-last-score:: 5
-		- If $A$ is a subspace of $X$, the $n$th relative homology group $H_n(X, A)$ is defined to be $H_n\left(S_*(X) / S_*(A)\right)$.
-		- Equivalently:
-			- The group of relative $n$-cycles $\bmod A$ is
 			  $$
-			  Z_n(X, A)=\left\{\gamma \in S_n(X): \partial_n \gamma \in S_{n-1}(A)\right\} .
+			  \cdots \longrightarrow S_{n+1} \stackrel{\partial_{n+1}}{\longrightarrow} S_n \stackrel{\partial_n}{\longrightarrow} S_{n-1} \longrightarrow \cdots, \quad n \in \mathbf{Z},
 			  $$
-				- The boundary is inside $A$.
-			- The group of relative n-boundaries $\bmod A$ is
+			  such that $\partial_n \partial_{n+1}=0$ for each $n \in \mathbf{Z}$.
+				- The subscripts could be negative!
+			- The homomorphism $\partial_n$ is called the **differentiation** of degree $n$, and $S_n$ is called the **term** of degree $n$.
+			- $\operatorname{ker} \partial_n$ is called **the group of n-cycles** and is denoted by $Z_n\left(S_*, \partial\right)$; $\operatorname{im}\partial_{n+1}$ is called the group of **n-boundaries** and is denoted by $B_n\left(S_*, \partial\right)$. 
+			  The $n$th **homology group** of this complex is
 			  $$
-			  \begin{aligned}
-			  B_n(X, A) & =\left\{\gamma \in S_n(X): \gamma-\gamma^{\prime} \in B_n(X) \text { for some } \gamma^{\prime} \in S_n(A)\right\} \\
-			  & =B_n(X)+S_n(A) .
-			  \end{aligned}
+			  H_n\left(S_*, \partial\right)=Z_n\left(S_*, \partial\right) / B_n\left(S_*, \partial\right)
 			  $$
-				- A boundary up to some chain in $A$.
-			- $$
-			  H_n(X, A) \cong Z_n(X, A) / B_n(X, A)
-			  $$
-			- ((648fb18e-53e6-47db-83a2-de6e1a3b8222))
-				- For example, a path $\sigma$ in $X$ is a 1-cycle if it is a closed path; it is a **relative** 1-cycle if it begins and ends in $A$.
-				- Observe, in this example, that if $A=\left\{x_0\right\}$, then "cycle" and "relative cycle" coincide. This is actually true (almost) always.
-		- Intuitively, this group carries information about those cycles in $X$ but not in $A$.
-	- Reduced Homology Group #card
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-11-29T00:44:51.415Z
-	  card-last-reviewed:: 2023-10-18T00:44:51.416Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- Augmented Singular Complex $\tilde S(X)$
-			- Let $\left(S_*(X), \partial\right)$ be the singular complex of a space $X$. Define $\tilde{S}_{-1}(X)$ to be the infinite cyclic group with generator a, and define $\tilde{\partial}_0: S_0(X) \rightarrow \widetilde{S}_{-1}(X)$ by $\sum m_x x \mapsto\left(\sum m_x\right)a$.
-			- The augmented singular complex of $X$ is
-			  $$
-			  \tilde{S}_*(X): \quad \cdots \rightarrow S_2(X) \stackrel{\partial_2}{\rightarrow} S_1(X) \stackrel{\partial_1}{\rightarrow} S_0(X) \stackrel{\tilde{\partial}_0}{\rightarrow} \widetilde{S}_{-1}(X) \rightarrow 0
-			  $$
-			- What's the idea behind the extension?
-			  background-color:: red
-				- To give a reasonable definition of $S_{-1}$ so that every space can be viewed as pointed.
-		- Proposition. $\tilde \partial_0 \partial_1=0$.
-			- The key is that 1-simplexes (and any odd-simplex) have even numbers of faces
-		- The reduced homology group is defined as 
-		  $$
-		  \tilde{H}_n(X)=H_n\left(\widetilde{S}_*(X), \partial\right)
-		  $$
-			- 'Reduced' can be comprehended in the sense that $Z_0(X)$ becomes smaller.
-	- Homotopy in $\mathbf{Top}^2$ #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-10-25T06:48:31.740Z
-	  card-last-reviewed:: 2023-09-24T00:48:31.741Z
-	  card-last-score:: 3
-	  collapsed:: true
-		- If $f, g:(X, A) \rightarrow(Y, B)$, then $f \simeq g \bmod A$ if there is a continuous $F:(X \times \mathbf{I}, A \times \mathbf{I}) \rightarrow(Y, B)$ with $F_0=f$ and $F_1=g$.
-		- Rephrased, $X$ and $A$ are simultaneously 'continuously deformed'.
-- # In the viewpoint of [[Category]]
-  collapsed:: true
-	- The Category Comp #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-09T08:08:57.927Z
-	  card-last-reviewed:: 2023-06-08T02:08:57.927Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- The objects are chain complexes
-		- The Homs are chain homomorphisms.
-			- Note that each $\mathrm{Hom}(S_{1*},S_{2*})$ is an abelian group.
-		- > It is quite similar to the category $\mathbf{Ab}$, since we also have sub-objects, quotient, first isomorphism theorem, etc.
-	- For each n, we have a functor 
-	  collapsed:: true
-	  $$H_n: \mathrm{Comp} \to \mathrm{Ab}$$
-		- Theorem. For each $n \in \mathbf{Z}$, the functor $H_n: \mathbf{Comp} \rightarrow \mathbf{A b}$ is **additive**; that is, if $f, g \in \operatorname{Hom}\left(S_*^{\prime}, S_*\right)$, then $H_n(f+g)=H_n(f)+H_n(g)$. #card
-		  card-last-interval:: 31.15
+			- Note that a ((6454f1b7-f979-485a-aafb-fa39fd34e0af)) is a chain complex, with all negative terms being trivial.
+			- #+BEGIN_CAUTION
+			  It's as if the spirit of homology (of topological spaces) is extracted and released into a larger universe...
+			  But why the spirit is a sequence of abelian groups? Not singular chains?
+			  Furthermore, how to **observe** what is the spirit of a theory?
+			  #+END_CAUTION
+		- Exactness of a sequence of complexes
+		  card-last-interval:: 31.26
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-08-31T15:26:10.101Z
-		  card-last-reviewed:: 2023-07-31T12:26:10.101Z
+		  card-next-schedule:: 2023-08-29T18:28:35.217Z
+		  card-last-reviewed:: 2023-07-29T12:28:35.217Z
 		  card-last-score:: 5
-			- An exercise to review the concepts.
-	- We have a functor
-	  $$S_*: \mathrm{Top} \to \mathrm{Comp}$$
-	  mapping a topological space to the singular complex.
-	  Then 'taking $H_n(X)$' is the composition of functors $H_n \circ S_*$.
-	-
-- # Basic Facts
+		  collapsed:: true
+			- A sequence of complexes and chain maps
+			  $$
+			  \cdots \longrightarrow A_*^{q+1} \stackrel{f^{q+1}}{\longrightarrow} A_*^q \stackrel{f^q}{\longrightarrow} A_*^{q-1} \longrightarrow \cdots
+			  $$
+			  is **exact** if im $f^{q+1}=\operatorname{ker} f^q$ for every $q$.
+				- This very well illustrates the similarity between $\mathbf{Comp}$ and $\mathrm{Ab}$: Complexes (as well as abelian groups) could be terms of an exact sequence!
+			- A short exact sequence of complexes is an exact sequence of the form
+			  $$
+			  0 \rightarrow S_*^{\prime} \stackrel{i}{\rightarrow} S_* \stackrel{p}{\rightarrow} S_*^{\prime \prime} \rightarrow 0,
+			  $$
+			  where 0 denotes the zero complex.
+				- The full diagram is like
+				  ((64716fbb-80b4-4986-931b-12380bae496f))
+				- Note that a single column is a term (a complex) in the sequence of complexes!
+		- Exact sequence 
+		  card-last-score:: 5
+		  card-repeats:: 1
+		  card-next-schedule:: 2023-07-09T08:06:35.721Z
+		  card-last-interval:: 31.26
+		  card-ease-factor:: 2.6
+		  card-last-reviewed:: 2023-06-08T02:06:35.721Z
+		  collapsed:: true
+			- Also called an 'acyclic complex'.
+			- A sequence of two homomorphisms (of groups) $A \stackrel{f}{\rightarrow} B \stackrel{g}{\rightarrow} C$ is exact at $B$ if im $f=\operatorname{ker} g$. A sequence of abelian groups and homomorphisms
+			  $$
+			  \cdots \longrightarrow S_{n+1} \stackrel{\partial_{n+1}}{\longrightarrow} S_n \stackrel{\partial_n}{\longrightarrow} S_{n-1} \longrightarrow \cdots
+			  $$
+			  is exact if it is exact at each $S_n$, that is, im $\partial_{n+1}=\operatorname{ker} \partial_n$ for all $n \in \mathbf{Z}$.
+			- Note that being an exact sequence is **stronger** than being a complex: equality (im = ker) implies inclusion (im $\subset \mathrm{ker}$ ).
+			-
+			- Example. Short exact sequence:
+			  A short exact sequence is an exact sequence of the form
+			  $$
+			  0 \rightarrow A \stackrel{i}{\rightarrow} B \stackrel{p}{\rightarrow} C \rightarrow 0 .
+			  $$
+		- Constructions
+			- Subcomplex
+			  card-last-interval:: 32.57
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-09-12T01:37:27.078Z
+			  card-last-reviewed:: 2023-08-10T12:37:27.078Z
+			  card-last-score:: 5
+			  collapsed:: true
+				- $\left(S_*^{\prime}, \partial^{\prime}\right)$ is a subcomplex of $\left(S_*, \partial\right)$ if each $S_n^{\prime}$ is a subgroup of $S_n$ and if each $\partial_n^{\prime}=\partial_n |_{S_n^{\prime}}$.
+				- Equivalently, a subcomplex is defined by a complex homomorphism where each $f_n$ is an inclusion (to the parent complex).
+				- An important example
+					- Consider a subspace $A$ of a space $X$.
+					- If $j: A \hookrightarrow X$ is the inclusion, we saw that $j_{\#}: S_n(A) \rightarrow S_n(X)$ is injective for every $n$. There is thus a short exact sequence of complexes
+					  $$
+					  0 \rightarrow S_*(A) \overset{j_\#}{\rightarrow} S_*(X) \overset{\pi}{\rightarrow} S_*(X) / S_*(A) \rightarrow 0
+					  $$
+					  that will be very useful.
+			- Quotient Complex
+			  card-last-interval:: 31.15
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-08-31T15:30:15.572Z
+			  card-last-reviewed:: 2023-07-31T12:30:15.572Z
+			  card-last-score:: 5
+			  collapsed:: true
+				- If $\left(S_*^{\prime}, \partial^{\prime}\right)$ is a subcomplex of $\left(S_*, \partial\right)$, then the quotient complex is the complex
+				  $$
+				  \cdots \longrightarrow S_n / S_n^{\prime} \stackrel{\bar{\partial}_n}{\longrightarrow} S_{n-1} / S_{n-1}^{\prime} \longrightarrow \cdots,
+				  $$
+				  where $\bar{\partial}_n: s_n+S_n^{\prime} \mapsto \partial_n\left(s_n\right)+S_{n-1}^{\prime}\left(\bar{\partial}_n\right.$ is well defined because $\left.\partial_n\left(S_n^{\prime}\right) \subset S_{n-1}^{\prime}\right)$.
+			- Direct Sum of Complexes 
+			  card-last-score:: 5
+			  card-repeats:: 1
+			  card-next-schedule:: 2023-07-04T07:06:40.161Z
+			  card-last-interval:: 31.26
+			  card-ease-factor:: 2.6
+			  card-last-reviewed:: 2023-06-03T01:06:40.162Z
+			  collapsed:: true
+				- Intersection and Sum.
+					- Let $S_*^{\prime}$ and $S_*^{\prime \prime}$ be subcomplexes of $S_*$.
+					- $S_*^{\prime} \cap S_*^{\prime \prime}$ is the subcomplex of $S_*$ whose $n$th term is $S_n^{\prime} \cap S_n^{\prime \prime}$
+					- $S_*^{\prime}+S_*^{\prime \prime}$ is the subcomplex of $S_*$ whose $n$th term is $S_n^{\prime}+S_n^{\prime \prime}$.
+				- Let $\left\{\left(S_*^\lambda, \partial^\lambda\right): \lambda \in \Lambda\right\}$ be a family of complexes, indexed by a set $\Lambda$. Their direct sum is the complex
+				  $$
+				  \cdots \longrightarrow \sum_\lambda S_{n+1}^\lambda \stackrel{\partial_{n+1}}{\longrightarrow} \sum_\lambda S_n^\lambda \stackrel{\partial_n}{\longrightarrow} \sum_\lambda S_{n-1}^\lambda \longrightarrow \cdots,
+				  $$
+				  where $\partial_n=\sum_\lambda \partial_n^\lambda: \sum_\lambda s_n^\lambda \mapsto \sum_\lambda \partial_n^\lambda\left(s_n^\lambda\right)$ for $s_n^\lambda \in S_n^\lambda$. Note the special case $\Lambda=$ $\{1,2\}$.
+				- Example
+					- For $A_1 \sub X, A_2 \sub X$,
+					  $$
+					  S_*\left(A_1\right) \cap S_*\left(A_2\right)=S_*\left(A_1 \cap A_2\right)
+					  $$
+					- Consider the decomposition of a space $X$ into the disjoint union of its path components: $X=\bigcup X_\lambda$.
+					  $$S_*(X)=\sum_\lambda S_*\left(X_\lambda\right)$$
+			- Kernel and Image
+			  collapsed:: true
+				- If $f:\left(S_*, \partial\right) \rightarrow\left(S_*^{\prime \prime}, \partial^{\prime \prime}\right)$ is a chain map, then $\operatorname{ker}f$ is the subcomplex of $S_*$
+				  $$
+				  \cdots \longrightarrow \operatorname{ker} f_n \stackrel{\partial_n^{\prime}}{\longrightarrow} \operatorname{ker} f_{n-1} \longrightarrow \cdots,
+				  $$
+				  where $\partial_n^{\prime}$ is the restriction $\partial_n \mid_{\operatorname{ker} f_n}$
+				- $\operatorname{Im}f$ is the subcomplex of $S_*^{\prime \prime}$
+				  $$
+				  \cdots \longrightarrow \operatorname{im} f_n \stackrel{\Delta_n^{\prime \prime}}{\longrightarrow} \operatorname{im} f_{n-1} \longrightarrow \cdots,
+				  $$
+				  where $\Delta_n^{\prime \prime}$ is the restriction $\partial_n^{\prime \prime}\mid_{\operatorname{im} f_n}$.
+				- Exercise. Verify that these two maps are both well-defined.
+		- Important maps: Chain map, chain homotopy, contracting homotopy, connecting homomorphism #card
+			- Chain map
+			  card-last-interval:: 30
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-06-29T03:00:50.703Z
+			  card-last-reviewed:: 2023-05-30T03:00:50.703Z
+			  card-last-score:: 5
+			  collapsed:: true
+				- Definition. If $\left(S_*^{\prime}, \partial^{\prime}\right)$ and $\left(S_*, \partial\right)$ are complexes, a chain map $f:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ is a sequence of homomorphisms $\left\{f_n: S_n^{\prime} \rightarrow S_n\right\}$ such that the following diagram commutes:
+				  ((64716a6b-8c2a-4d82-b4e8-1f9067c8679d))
+					- A typical definition of homomorphism.
+				- One calls $f_n$ the **term of degree n**.
+				- Observations
+				  id:: 647aa3ac-6823-4267-9c09-729db1f023d1
+					- Going along the same direction for two steps would give zero (since composition of two maps along the same direction would give zero).
+					- The path can be freely deformed as long as it doesn't goes backwards (due to commutativity)
+					-
+			- Chain Homotopy and Chain Equivalence
+			  card-last-interval:: 97.44
+			  card-repeats:: 3
+			  card-ease-factor:: 2.32
+			  card-next-schedule:: 2023-12-25T10:47:58.158Z
+			  card-last-reviewed:: 2023-09-19T00:47:58.159Z
+			  card-last-score:: 3
+			  collapsed:: true
+				- If $f, g:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ are chain maps, then $f$ and $g$ are **(chain) homotopic**, denoted by $f \simeq g$, if there is a sequence of homomorphisms $\left\{P_n: S_n^{\prime} \rightarrow S_{n+1}\right\}$ such that, for all $n \in \mathbf{Z}$,
+				  $$
+				  \partial_{n+1} P_n+P_{n-1} \partial_n^{\prime}=f_n-g_n .
+				  $$
+				  The sequence $P=\left\{P_n\right\}$ is called a **chain homotopy**.
+					- The definition is motivated by the [lemma](((64645091-3e12-430a-aeb4-5ec910663e10))), which holds for homotopic maps of topological spaces:
+					  Assume that $f, g: X \rightarrow Y$ are continuous maps and that there are homomorphisms $P_n: S_n(X) \rightarrow S_{n+1}(Y)$ with
+					  $$
+					  f_{\#}-g_{\#}=\partial_{n+1}^{\prime} P_n+P_{n-1} \partial_n .
+					  $$
+					  then $H_n(f)=H_n(g)$ for all $n \geq 0$.
+					- Proposition. If $f \simeq g$ then $H_n(f)=H_n(g)$, if $f$ is a chain equivalence then $H_n(f)$ is a homomorphism.
+					-
+					- But it's curious that this property is chosen as the defining character...
+					  background-color:: pink
+						-
+				- A chain map $f:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ is called a **chain equivalence** if there exists a chain map $g:\left(S_*, \partial\right) \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right)$ such that 
+				  $$g \circ f \simeq 1_{S_*^{\prime}}, \quad f \circ g \simeq 1_{S_*}$$
+				  Two chain complexes are called **chain equivalent** if there exists a chain equivalence between them.
+				-
+			- Contracting Homotopy
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-08-28T18:57:13.144Z
+			  card-last-reviewed:: 2023-07-28T12:57:13.145Z
+			  card-last-score:: 5
+			  collapsed:: true
+				- A contracting homotopy of a complex $\left(S_*, \partial\right)$ is a sequence of homomorphisms $c=\left\{c_n: S_n \rightarrow S_{n+1}\right\}$ such that for all $n \in \mathbf{Z}$,
+				  $$
+				  \partial_{n+1} c_n+c_{n-1} \partial_n=1_{s_n} .
+				  $$
+				- Plainly, a contracting homotopy is a chain homotopy (homotopy of chain maps) between the identity map of $S_*$ (namely, $\left\{1_{S_n}\right\}$) and the zero map on $S_*$.
+				-
+				- Proposition. If a complex $S_*$ has a contracting homotopy, then $S_*$ is acyclic (i.e., $H_n\left(S_*\right)=0$ for all $n$, i.e., $S_*$ is an exact sequence).
+			- Connecting Homomorphism
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-07-05T06:55:22.129Z
+			  card-last-reviewed:: 2023-06-04T00:55:22.130Z
+			  card-last-score:: 5
+			  collapsed:: true
+				- If $0 \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right) \stackrel{i}{\rightarrow}\left(S_*, \partial\right) \stackrel{p}{\rightarrow}\left(S_*^{\prime \prime}, \partial^{\prime \prime}\right) \rightarrow 0$ is a short exact sequence of complexes, then for each $n$ there is a homomorphism
+				  $$
+				  \begin{aligned}
+				  d_n: H_n\left(S_*^{\prime \prime}\right) & \rightarrow H_{n-1}\left(S_*^{\prime}\right) \\
+				  \text { cls } z_n^{\prime \prime} & \mapsto \operatorname{cls} i_{n-1}^{-1} \partial_n p_n^{-1} z_n^{\prime \prime}
+				  \end{aligned}
+				  $$
+				- ((647aa2b0-b8d2-41ee-97e4-1eaec58c3aaa))
+					- Note that there is indeed one step of differentiation, thus justifying the symbol $d$.
+				- Proof of the existence
+					- Our proof would be based on diagrams, which is quite intuitive and straightforward.
+					- Essential observations
+						- {{embed ((647aa3ac-6823-4267-9c09-729db1f023d1))}}
+						- Since the complex sequence is **exact**, 'image of the previous map' and 'kernel of the next map' must be the same.
+						  Therefore, zeroes at the left side guarantee injectivity and those at the right side guarantee surjectivity.
+					- First, write down the points to prove:
+						- The inverse $i^{-1}$ can indeed be taken
+						  logseq.order-list-type:: number
+						- A cycle $Z_n''$ would be indeed mapped to a cycle $Z_{n-1}'$
+						  logseq.order-list-type:: number
+						- Non-ambiguity of $p$: For some element $s \in S_n$ s.t. $p(s_n)=0$, the image would at most differ by a boundary.
+						  logseq.order-list-type:: number
+						- Non-ambiguity of quotient groups: For two chains in $S_n''$ that differ by a boundary, the image would at most differ by a boundary.
+						  logseq.order-list-type:: number
+					- 1
+					  collapsed:: true
+						- ![20230603-102900.jpg](../assets/20230603-102900_1685760323733_0.jpg){:height 336, :width 466}
+						- The starting point is the blue line, i.e. A cycle is the kernel of the derivative operator.
+						- The blue line equals the green line by commutativity.
+						- Finally, the red line goes due to exactness.
+					- 2
+					  collapsed:: true
+						- ![20230603-105016.jpg](../assets/20230603-105016_1685760782327_0.jpg)
+						- The green line equals the blue line by commutativity.
+						- The red line is zero since $\partial\partial=0$
+						- The yellow line equals the red line by commutativity
+						- Finally, $i$ is injective.
+						-
+						-
+					- 3 and 4 can be combined: For some element $s \in S_n$ s.t. $p(s_n) \in B_n'$, the image would at most differ by a boundary.
+					  collapsed:: true
+						- ![20230603-111303.jpg](../assets/20230603-111303_1685762015364_0.jpg){:height 424, :width 519}
+						- Start from the blue line.
+						- By surjectivity, we can draw the upper yellow line
+						- By commutativity, we can draw the left yellow line
+						- Then the green line vanishes since $\partial\partial=0$.
+						-
+				-
+		-
+	- ## In the viewpoint of [[Category]]
+		- The Category Comp
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-07-09T08:08:57.927Z
+		  card-last-reviewed:: 2023-06-08T02:08:57.927Z
+		  card-last-score:: 5
+		  collapsed:: true
+			- The objects are chain complexes
+			- The Homs are chain homomorphisms.
+				- Note that each $\mathrm{Hom}(S_{1*},S_{2*})$ is an abelian group.
+			- > It is quite similar to the category $\mathbf{Ab}$, since we also have sub-objects, quotient, first isomorphism theorem, etc.
+		- For each n, we have a functor 
+		  collapsed:: true
+		  $$H_n: \mathrm{Comp} \to \mathrm{Ab}$$
+			- Theorem. For each $n \in \mathbf{Z}$, the functor $H_n: \mathbf{Comp} \rightarrow \mathbf{A b}$ is **additive**; that is, if $f, g \in \operatorname{Hom}\left(S_*^{\prime}, S_*\right)$, then $H_n(f+g)=H_n(f)+H_n(g)$. #card
+			  card-last-interval:: 31.15
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2023-08-31T15:26:10.101Z
+			  card-last-reviewed:: 2023-07-31T12:26:10.101Z
+			  card-last-score:: 5
+				- An exercise to review the concepts.
+		- We have a functor
+		  $$S_*: \mathrm{Top} \to \mathrm{Comp}$$
+		  mapping a topological space to the singular complex.
+		  Then 'taking $H_n(X)$' is the composition of functors $H_n \circ S_*$.
+		- Homotopy in $\mathbf{Top}^2$
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-10-25T06:48:31.740Z
+		  card-last-reviewed:: 2023-09-24T00:48:31.741Z
+		  card-last-score:: 3
+		  collapsed:: true
+			- If $f, g:(X, A) \rightarrow(Y, B)$, then $f \simeq g \bmod A$ if there is a continuous $F:(X \times \mathbf{I}, A \times \mathbf{I}) \rightarrow(Y, B)$ with $F_0=f$ and $F_1=g$.
+			- Rephrased, $X$ and $A$ are simultaneously 'continuously deformed'.
 	- id:: 649e49f0-6cef-4631-bb01-027b94b5422c
 	  $$S_*(X_1) \cap S_*(X_2) = S_*(X_1 \cap X_2)$$
-	- Theorem. A complex $\left(S_*, \partial\right)$ is an exact sequence if and only if $H_n\left(S_*, \partial\right)=0$ for every $n$.
-	  card-last-interval:: 32.57
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-30T13:51:49.082Z
-	  card-last-reviewed:: 2023-06-28T00:51:49.082Z
-	  card-last-score:: 5
-		- Therefore, the homology groups measure 'how does a complex deviates from being exact'.
-		- Thus an exact sequence is called an 'acyclic complex'.
-	-
-		-
 - # Exact Homology Sequences
   collapsed:: true
 	- Theorem (Exact Triangle). If $0 \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right) \stackrel{i}{\rightarrow}\left(S_*, \partial\right) \stackrel{p}{\rightarrow}\left(S_*^{\prime \prime}, \partial^{\prime \prime}\right) \rightarrow 0$ is a short exact sequence of complexes, then there is an exact sequence
@@ -563,29 +499,60 @@
 	-
 - # Relative Homology
   id:: 6498e0fe-d925-45b8-8532-f90ed5c95f32
-	- Theorem. If $X$ is path connected and $A$ is a nonempty subspace, then $H_0(X, A)=0$ #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-08-28T18:55:09.890Z
-	  card-last-reviewed:: 2023-07-28T12:55:09.891Z
+  collapsed:: true
+	- Definition. Relative Homology Group
 	  card-last-score:: 5
+	  card-repeats:: 1
+	  card-next-schedule:: 2023-09-08T17:59:49.244Z
+	  card-last-interval:: 31.21
+	  card-ease-factor:: 2.6
+	  card-last-reviewed:: 2023-08-08T12:59:49.244Z
+	  collapsed:: true
+		- If $A$ is a subspace of $X$, the $n$th relative homology group $H_n(X, A)$ is defined to be $H_n\left(S_*(X) / S_*(A)\right)$.
+		- Equivalently:
+			- The group of relative $n$-cycles $\bmod A$ is
+			  $$
+			  Z_n(X, A)=\left\{\gamma \in S_n(X): \partial_n \gamma \in S_{n-1}(A)\right\} .
+			  $$
+				- The boundary is inside $A$.
+			- The group of relative n-boundaries $\bmod A$ is
+			  $$
+			  \begin{aligned}
+			  B_n(X, A) & =\left\{\gamma \in S_n(X): \gamma-\gamma^{\prime} \in B_n(X) \text { for some } \gamma^{\prime} \in S_n(A)\right\} \\
+			  & =B_n(X)+S_n(A) .
+			  \end{aligned}
+			  $$
+				- A boundary up to some chain in $A$.
+			- $$
+			  H_n(X, A) \cong Z_n(X, A) / B_n(X, A)
+			  $$
+			- ((648fb18e-53e6-47db-83a2-de6e1a3b8222))
+				- For example, a path $\sigma$ in $X$ is a 1-cycle if it is a closed path; it is a **relative** 1-cycle if it begins and ends in $A$.
+				- Observe, in this example, that if $A=\left\{x_0\right\}$, then "cycle" and "relative cycle" coincide. This is actually true (almost) always.
+		- Intuitively, this group carries information about those cycles in $X$ but not in $A$.
+	- Theorem. If $X$ is path connected and $A$ is a nonempty subspace, then $H_0(X, A)=0$.
+	  card-last-score:: 5
+	  card-repeats:: 1
+	  card-next-schedule:: 2023-08-28T18:55:09.890Z
+	  card-last-interval:: 31.26
+	  card-ease-factor:: 2.6
+	  card-last-reviewed:: 2023-07-28T12:55:09.891Z
 	  collapsed:: true
 		- Recall that $Z_0(X)=\operatorname{Ker} \partial_0=S_0(X)$.
 		  Similarly $Z_0(X,A)=S_0(X)$.
 		- What remains is to prove that $B_0(X,A)=S_0(X)$.
 		  The key is chains in $A$ could **cancel remaining coefficients** and make any chain a boundary.
 	- ((648fb74f-609d-49ce-a558-45f5e4d30140)). If $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$, then, for each $n \geq 0$,
-	  collapsed:: true
 	  card-last-interval:: 32.57
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-10-25T13:58:35.341Z
 	  card-last-reviewed:: 2023-09-23T00:58:35.341Z
 	  card-last-score:: 5
+	  collapsed:: true
 	  $$
 	  H_n(X, A) \cong \sum_\lambda H_n\left(X_\lambda, A \cap X_\lambda\right)
-	  $$ #card
+	  $$
 		- The key is still a simplex is connected.
 		  Thus $Z_n(X,A)$ and $B_n(X,A)$ could both be decomposed by path components.
 	- Corollary. $H_0(X, A)$ is free abelian and
@@ -598,7 +565,7 @@
 	  $$
 	  \operatorname{rank} H_0(X, A)=\operatorname{card}\left\{\lambda \in \Lambda: A \cap X_\lambda=\varnothing\right\}
 	  $$
-	  (where $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$ ). #card
+	  (where $\left\{X_\lambda: \lambda \in \Lambda\right\}$ is the family of path components of $X$ ).
 		- An easy exercise to recall the above theorems.
 	- Theorem. Let $X$ be a space with basepoint $x_0$. Then
 	  card-last-interval:: 42
@@ -611,7 +578,7 @@
 	  $$
 	  H_n\left(X, x_0\right) \cong H_n(X)
 	  $$
-	  for all $n \geq 1$. #card
+	  for all $n \geq 1$.
 		- Brute-force verification
 			- First, divide $X$ into path components.
 			  Then we may only consider the path components containing $x_0$, i.e. the case where $X$ is path-connected.
@@ -675,10 +642,34 @@
 	  card-last-score:: 5
 	  $$
 	  H_n(f)=H_n(g): H_n(X, A) \rightarrow H_n(Y, B)
-	  $$ #card
+	  $$
 		- It proceeds exactly as [here](((6498e102-758e-44db-bbcb-a7c679b43a90))), but the details need more verification.
-- # Reduced Homology
+- # Reduced Homology #card
   collapsed:: true
+	- Definition. Reduced Homology Group
+	  card-last-score:: 5
+	  card-repeats:: 2
+	  card-next-schedule:: 2023-11-29T00:44:51.415Z
+	  card-last-interval:: 42
+	  card-ease-factor:: 2.7
+	  card-last-reviewed:: 2023-10-18T00:44:51.416Z
+	  collapsed:: true
+		- Augmented Singular Complex $\tilde S(X)$
+			- Let $\left(S_*(X), \partial\right)$ be the singular complex of a space $X$. Define $\tilde{S}_{-1}(X)$ to be the infinite cyclic group with generator a, and define $\tilde{\partial}_0: S_0(X) \rightarrow \widetilde{S}_{-1}(X)$ by $\sum m_x x \mapsto\left(\sum m_x\right)a$.
+			- The augmented singular complex of $X$ is
+			  $$
+			  \tilde{S}_*(X): \quad \cdots \rightarrow S_2(X) \stackrel{\partial_2}{\rightarrow} S_1(X) \stackrel{\partial_1}{\rightarrow} S_0(X) \stackrel{\tilde{\partial}_0}{\rightarrow} \widetilde{S}_{-1}(X) \rightarrow 0
+			  $$
+			- What's the idea behind the extension?
+			  background-color:: red
+				- To give a reasonable definition of $S_{-1}$ so that every space can be viewed as pointed.
+		- Proposition. $\tilde \partial_0 \partial_1=0$.
+			- The key is that 1-simplexes (and any odd-simplex) have even numbers of faces
+		- The reduced homology group is defined as 
+		  $$
+		  \tilde{H}_n(X)=H_n\left(\widetilde{S}_*(X), \partial\right)
+		  $$
+			- 'Reduced' can be comprehended in the sense that $Z_0(X)$ becomes smaller.
 	- ((6498fa19-1bd6-4422-adea-7450bcbca1fe)) For all $n \geq 0$,
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
@@ -688,7 +679,7 @@
 	  card-last-score:: 3
 	  $$
 	  \widetilde{H}_n(X) \cong H_n\left(X, x_0\right)
-	  $$ #card
+	  $$
 		- Cases where $n \geq 1$ are already proved (review it if you want!).
 		- $n=0$
 			- Dirty way: Explicitly calculate the homology groups

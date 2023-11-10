@@ -102,8 +102,9 @@ collapsed:: true
 	- TQFT
 		- Start from Witten's paper on quantum Chern-Simons fields.
 	- Weinberg QFT
-	-
-	- Topological superconductor, topo insulator
+	- DQCP
+		- Might inspire research into the phase transition in Kitaev honeycomb
+	- Topological superconductor, topo insulator (Kitaev 1997)
 		- Chern numbers and gapless edge modes
 	-
 - # [[Research/To Be Investigated]]

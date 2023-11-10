@@ -32,7 +32,7 @@ collapsed:: true
 		-
 		- **The correspondence is 1-to-1**. When $\theta \neq \pi$ it's obvious; when $\theta=\pi$ there's only one point, so phi is unimportant.
 	-
-	- Mixed case #card
+	- Mixed case
 	  card-last-interval:: 84
 	  card-repeats:: 3
 	  card-ease-factor:: 2.8

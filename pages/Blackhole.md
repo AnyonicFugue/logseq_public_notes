@@ -1,9 +1,9 @@
 - Definition #card
-  card-last-interval:: 31.26
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-08-29T18:27:40.614Z
-  card-last-reviewed:: 2023-07-29T12:27:40.614Z
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2023-12-22T00:30:19.455Z
+  card-last-reviewed:: 2023-11-10T00:30:19.455Z
   card-last-score:: 5
 	- A black hole in an asymptotically flat spacetime $M$ is the set of events that do not belong to the causal past of the future null infinity $J^{-}\left(\mathscr I^{+}\right)$, namely
 	  $$
@@ -11,6 +11,7 @@
 	  $$
 		- Intuitively: Nothing in the region can escape to infinity!
 		- However, it is impossible to define blackholes in closed spacetimes (e.g. [[FLRW]] with $k=1$) since there is no 'infinity' to escape to.
+	- Rephrased: The whole spacetime is divided into two non-intersecting sets. Matter in the first could go to null infinity, while those in the second (blackhole) could not.
 	- The event horizon is the boundary of the region B.
 - # RN (Reissner–Nordström) Blackholes
   collapsed:: true

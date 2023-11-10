@@ -1,0 +1,11 @@
+- ![2000_Kitaev_Unpaired Majorana fermions in quantum wires.pdf](file://zotero_link/Physics/Kitaev/2000_Kitaev_Unpaired Majorana fermions in quantum wires.pdf)
+- # Motivation
+	- We desire to achieve fault-tolerant quantum computation, but we need to deal with errors of both type $\sigma_x$ and $\sigma_z$.
+	- After switching to a fermionic view, the first becomes $a_j+a_j^{\dagger}$ and the second becomes $a_j^{\dagger} a_j$.
+	-
+	- The first might be prevented by charge or fermion parity conservation (e.g. in superconducting systems).
+		- Thus single errors cannot happen.
+		- They may happen in pairs, but it can be prevented by placing fermions far away and creating an energy gap in wires connecting them.
+	- Note that $a_j^{\dagger} a_j=\frac{1}{2}\left(1+i c_{2 j-1} c_{2 j}\right)$.
+	- Therefore, the second error might be prevented by placing majorana fermions far away and introduce a gap!
+	-

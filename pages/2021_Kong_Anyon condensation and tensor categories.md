@@ -3,6 +3,12 @@
 	- Most concrete examples are too simple and contain too many accidental structures.
 	- Therefore we take a [[Bootstrap]] approach and introduce as few assumptions as possible.
 - # ((6531dac7-62c6-45fc-b29a-1be214fc5d57)) #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-12-05T06:50:08.357Z
+  card-last-reviewed:: 2023-11-04T00:50:08.358Z
+  card-last-score:: 5
 	- Anyons in $\mathcal D$ should originate from anyons in $\mathcal C$. Moreover, the vacuum $\mathbf 1_{\mathcal D}$ is a simple object $A$ in $\mathcal C$.
 	  collapsed:: true
 		- Note that simple anyons in $\mathcal C$ may become composite anyons in $\mathcal D$ after the condensation, i.e. they may split.

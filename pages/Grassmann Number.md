@@ -1,4 +1,4 @@
-- # Def
+# Def
 	- Actually an algebra over $\mathbb C$, where any two elements **anticommute**.
 	- Complex conjugation
 		- $$
@@ -73,17 +73,17 @@
 			  \int d \theta^* d \theta e^{-\theta^* b \theta}=\int d \theta^* d \theta\left(1-\theta^* b \theta\right)=\int d \theta^* d \theta\left(1+\theta \theta^* b\right)=b
 			  $$
 			- Note that in ordinary integrations we would obtain something like $1/b$. This is a difference!
-		- card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-08-25T19:03:45.289Z
-		  card-last-reviewed:: 2023-07-25T13:03:45.289Z
+		- card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-12-22T00:31:49.871Z
+		  card-last-reviewed:: 2023-11-10T00:31:49.872Z
 		  card-last-score:: 5
 		  $$
 		  \int d \theta^* d \theta \ \theta \theta^* e^{-\theta^* b \theta}=1
 		  $$ #card
 			- $$e^{-\theta ^{*} b\theta } =1-\theta ^{*} b\theta $$
-			- The key point is $\theta^2=0$, which cancels the term linear in $b$.
+			- The key point is $\theta^2=0$, which kills the term linear in $b$.
 		-
 		-
 	-

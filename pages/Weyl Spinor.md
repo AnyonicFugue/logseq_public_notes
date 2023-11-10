@@ -6,7 +6,43 @@
   \end{aligned}
   $$
 	- When they have mass we can always boost them to exchange their chirality.
+- Note that we could use the conjugate operation to **revert the chirality**,
+  $$
+  \psi_R^c \equiv \epsilon\left(\psi_R\right)^*, \quad \epsilon=\left(\begin{array}{cc}
+  0 & 1 \\
+  -1 & 0
+  \end{array}\right) \\
+  \psi_L^c=-\epsilon \psi_L^*
+  $$
+	- Thus whether we choose to write LH or RH ones is really a matter of convention, depending on how we define the fields.
+- # Relation to Dirac Spinors
+  collapsed:: true
+	- Define
+	  $$\gamma^5=\left(\begin{array}{ll}
+	  -\mathbb{1} & \\
+	  & \mathbb{1}
+	  \end{array}\right)$$
+	- We can define projection operators from Dirac spinors to Weyl spinors:
+	  $$
+	  P_L=\frac{1-\gamma^5}{2}=\left(\begin{array}{ll}
+	  \mathbb{1} & \\
+	  & 0
+	  \end{array}\right), \quad P_R=\frac{1+\gamma^5}{2}=\left(\begin{array}{ll}
+	  0 & \\
+	  & \mathbb{1}
+	  \end{array}\right)
+	  $$
+	- $$
+	  \Psi_L=P_L \Psi=\left(\begin{array}{c}
+	  \psi_L \\
+	  0
+	  \end{array}\right), \quad \Psi_R=P_R \Psi=\left(\begin{array}{c}
+	  0 \\
+	  \psi_R
+	  \end{array}\right)
+	  $$
 - # Transformation rules
+  collapsed:: true
 	- $$
 	  \begin{array}{ll}
 	  \left(\frac{1}{2}, 0\right): & J_i^{-}=\frac{1}{2} \sigma_i, \quad J_i^{+}=0 \quad \Rightarrow \quad J_i=\frac{1}{2} \sigma_i, \quad K_i=\frac{i}{2} \sigma_i \\
@@ -27,6 +63,7 @@
 	  $$
 	- Note that there is no $i$ before $\beta_j$ (due to the Wick rotation), thus the transformation isn't unitary.
 - # Lorentz-covariant terms and Lagrangian
+  collapsed:: true
 	- Notations
 		- $$
 		  \sigma^\mu=\left(\mathbb{1}, \sigma_1, \sigma_2, \sigma_3\right), \quad \bar{\sigma}^\mu=\left(\mathbb{1},-\sigma_1,-\sigma_2,-\sigma_3\right)
@@ -35,11 +72,13 @@
 		  \sigma_L^{\mu \nu}=\frac{i}{4}\left(\sigma^\mu \bar{\sigma}^\nu-\sigma^\nu \bar{\sigma}^\mu\right), \quad \sigma_R^{\mu \nu}=\frac{i}{4}\left(\bar{\sigma}^\mu \sigma^\nu-\bar{\sigma}^\nu \sigma^\mu\right)
 		  $$
 	- Scalar terms
+	  collapsed:: true
 		- $$
 		  \psi_R^{\dagger} \psi_L, \quad \psi_L^{\dagger} \psi_R
 		  $$
 		- Note that $\psi_L^{\dagger} \psi_L, \psi_R^{\dagger} \psi_R$ are **not** covariant since the [transformation](((6539bd50-8c50-478d-bee2-6697fc249453))) isn't unitary.
 	- Vector terms
+	  collapsed:: true
 		- $$
 		  \psi_L^{\dagger} \bar{\sigma}^\mu \psi_L, \quad \psi_R^{\dagger} \sigma^\mu \psi_R
 		  $$

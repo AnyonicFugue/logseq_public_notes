@@ -108,11 +108,11 @@
 			-
 			- the closure of $A$ in $Y$ equals $\overline{A} \cap Y$.
 		- Limit point #card
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-10-02T13:09:18.413Z
-		  card-last-reviewed:: 2023-08-21T13:09:18.413Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-03-05T14:35:47.034Z
+		  card-last-reviewed:: 2023-11-09T00:35:47.035Z
 		  card-last-score:: 5
 			- Every neighborhood of $x$ intersects $A$ in some point **other than** $x$ itself. 
 			  Said differently, $x$ is a limit point of $A$ if it belongs to the closure of $A-\{x\}$ .

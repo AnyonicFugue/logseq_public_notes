@@ -6,11 +6,11 @@
 			- However, changing the order of summation and integration requires **absolute convergence**. Here the sum doesn't converge absolutely -- it diverges!
 		- However, the bunch of seeming total nonsense works (partially)! There must be things deeper behind.
 - # Principles and the Paradigm #card
-  card-last-interval:: 42
-  card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-08-24T13:36:30.509Z
-  card-last-reviewed:: 2023-07-13T13:36:30.509Z
+  card-last-interval:: 117.6
+  card-repeats:: 3
+  card-ease-factor:: 2.8
+  card-next-schedule:: 2024-03-05T14:30:25.957Z
+  card-last-reviewed:: 2023-11-09T00:30:25.957Z
   card-last-score:: 5
   collapsed:: true
 	- ## Empirical Knowledge
@@ -416,11 +416,11 @@
 			- $\sqrt Z$ appears since the renormalized field $\phi =\frac 1 {\sqrt Z} \phi_0$. Here the internal fields are renormalized ones (the propagators are $\frac i {p^2-m^2+i\varepsilon}$), but the external fields are **not**.
 			- $s,t,u$ are the ((64238e6c-1aa2-4233-b9ab-a0b3e391eda2))
 		- The amplitude is **divergent** at $d=4$. But we can still make some sense out of this. #card
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-09-18T12:55:39.708Z
-		  card-last-reviewed:: 2023-08-07T12:55:39.708Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-03-06T14:33:16.511Z
+		  card-last-reviewed:: 2023-11-10T00:33:16.512Z
 		  card-last-score:: 5
 			- Idea: We can measure $\lambda$ at some reference scattering process (e.g. at the shreshold, i.e. $s=4m^2,u=t=0$).
 			  Then we can compare different momenta to **cancel the divergence**.

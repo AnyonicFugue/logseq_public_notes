@@ -1,4 +1,4 @@
-- # Setup
+# Setup
 	- Massive spin-1, $\mathcal{L}=-\frac{1}{4} F_{\mu \nu} F^{\mu \nu}+\frac{1}{2} m^2 A_\mu A^\mu$
 - # Quantization
 	- ## EOM
@@ -65,14 +65,13 @@
 		  $$
 - # Propagator and Feynman Diagrams
   collapsed:: true
-	- collapsed:: true
-	  $$
+	- $$
 	  \begin{aligned}
 	  D_F^{\mu \nu}(x-y) & =\left\langle 0\left|T\left\{A^\mu(x) A^\nu(y)\right\}\right| 0\right\rangle \\
 	  & =\theta\left(x^0-y^0\right)\left(-g^{\mu \nu}-\frac{\partial^\mu \partial^\nu}{m^2}\right) D(x-y)+\theta\left(y^0-x^0\right)\left(-g^{\mu \nu}-\frac{\partial^\mu \partial^\nu}{m^2}\right) D(y-x)
 	  \end{aligned}
 	  $$
-		- Why can we write the propagator in this form? #card
+		- Why can we write the propagator in this form?
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
@@ -83,8 +82,8 @@
 			  The extra term is the sum over polarizations, so we just need to add $-g^{\mu \nu}-\frac{\partial^\mu \partial^\nu}{m^2}$ before every scalar-field quantities.
 	- Furthermore, we would like to express it in terms of the scalar [[Feynman Propagator]].
 		- However $D_F^{\mu \nu}(x-y)\neq\left(-g^{\mu \nu}-\partial^\mu \partial \nu / m^2\right) D_F(x-y)$, since derivatives doesn't commute with time ordering. We should find the extra term caused by the non-commutativity.
-			- Prop. Only $\partial_0^2$ has contributions. #card
-		- Prop. #card 
+			- Prop. Only $\partial_0^2$ has contributions.
+		- Prop.
 		  card-last-interval:: 26.06
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6

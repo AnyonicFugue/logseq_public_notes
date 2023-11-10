@@ -78,3 +78,38 @@ file-path:: C:\Users\yizho\Nutstore\1\sync\我的坚果云\Books\Religions\法�
   id:: 6538c938-3ce7-4c97-9f9c-7b5817aae298
   hl-type:: area
   hl-stamp:: 1698220343485
+- [:span]
+  ls-type:: annotation
+  hl-page:: 23
+  hl-color:: yellow
+  id:: 654b3d68-29f0-48ad-9770-e2e8468f3348
+  hl-type:: area
+  hl-stamp:: 1699429735461
+- [:span]
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: yellow
+  id:: 654b4ac5-a895-4c61-bd67-01839c36ddc1
+  hl-type:: area
+  hl-stamp:: 1699433155836
+- [:span]
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: yellow
+  id:: 654b4b0d-22b2-41ae-a675-6a49ae25c49c
+  hl-type:: area
+  hl-stamp:: 1699433228505
+- [:span]
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: yellow
+  id:: 654b4bbd-54b4-4fe9-9a3b-f9ebcdeadaac
+  hl-type:: area
+  hl-stamp:: 1699433404949
+- [:span]
+  ls-type:: annotation
+  hl-page:: 35
+  hl-color:: yellow
+  id:: 654b4e73-93e4-4c08-abe8-76aee8c62789
+  hl-type:: area
+  hl-stamp:: 1699434098393

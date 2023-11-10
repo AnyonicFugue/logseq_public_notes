@@ -1,6 +1,7 @@
 type:: [[Course]]
 
 - # Cautions
+  collapsed:: true
 	- Note that we usually use $R=r-r'$, which might incur an extra minus.
 		- For example, the potential of a dipole is
 		  $$
@@ -13,10 +14,9 @@ type:: [[Course]]
   card-next-schedule:: 2023-10-21T06:30:14.301Z
   card-last-reviewed:: 2023-09-20T00:30:14.302Z
   card-last-score:: 3
-  collapsed:: true
 	- Equations in media #card
-	  collapsed:: true
-		- $$
+		- id:: 654072b1-1397-4fb6-a123-4c94f2ca7af0
+		  $$
 		  \begin{aligned}
 		  & \nabla \cdot \boldsymbol{D}=\rho_0 \\
 		  & \nabla \times \boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{\partial t} \\
@@ -30,9 +30,11 @@ type:: [[Course]]
 			- In linear media $$ \boldsymbol{D}=\varepsilon \boldsymbol{E}, \boldsymbol{B}=\mu \boldsymbol{H} $$.
 			-
 		- Key memorization points
+		  collapsed:: true
 			- A minus in the second equation
 			- The combination $\mu_0 \varepsilon_0$ should appear when we rewrite the last equation in terms of $E$ and $B$.
 		- Derivation from vacuum equations
+		  collapsed:: true
 			- $$\nabla \cdot \vec{E}=\rho / \varepsilon_0$$
 				- $$\rho=\rho_f + \rho_p= \rho_f - \nabla \cdot \vec P$$
 			- $$
@@ -94,6 +96,7 @@ type:: [[Course]]
 			  $$
 			-
 - # Polarization in Medias
+  collapsed:: true
 	- Definition of polarization fields #card
 		- $$
 		  \vec{P}(\vec{r}, t)=\varepsilon_0 \chi_e \vec{E}(\vec{r}, t), \quad \vec{M}(\vec{r}, t)=\frac{1}{\mu_0} \frac{\chi_m}{1+\chi_m} \vec{B}(\vec{r}, t)
@@ -382,6 +385,7 @@ type:: [[Course]]
 			  where $d\vec m = \vec r' \times \vec J$.
 	-
 - # Magnetostatics
+  collapsed:: true
 	- ## Vector Potential
 	  collapsed:: true
 		- $$\vec B = \nabla \times \vec A$$
@@ -441,6 +445,10 @@ type:: [[Course]]
 		- Stage 3. Removing external field
 		  collapsed:: true
 			- Now $\vec M = \chi_r \vec H + \vec M_r$, thus it is equivalent to a linear medium with some source.
+	- Bound surface current
+	  $$
+	  \mathbf{K}_{\mathrm{m}}=\mathbf{M} \times \hat{\mathbf{n}}
+	  $$
 	- ## Magnetic Dipole
 	  collapsed:: true
 		- For an infinitely small loop of current,
@@ -466,8 +474,80 @@ type:: [[Course]]
 		  $$
 		  \varphi_m=\int d \varphi_m=\frac{I}{4 \pi} \Omega
 		  $$
-	- Bound surface current
-	  $$
-	  \mathbf{K}_{\mathrm{m}}=\mathbf{M} \times \hat{\mathbf{n}}
-	  $$
+	- ## Energy, Force and Torque
+	  collapsed:: true
+		- Start point
+			- $$U=\frac 1 2 \int B^a H_a dV=\frac 1 2 \int A^a j_a dV$$
+		- Problem
+			- With no external source, the current would change when the magnetic flux changes.
+			- With external source, we should consider the work done by the source.
+		- Result with an external current source
+			- $$U=-m^a B_a$$
+			- $$F=-\nabla U, L=\vec{m} \times \vec{B}$$
+		-
+- # Quasi-Static Fields
+	- The approximation
+		- Ignore the $d\vec D/dt$ term, but keep the $d\vec B/dt$ term.
+		- Why? Shouldn't they be symmetric?
+			- $\vec B$ is at the same magnitude of the electric current.
+			- However, there is no magnetic current.
+	- Approximated Maxwell equations
+		- $$
+		  \begin{aligned}
+		  & \nabla \cdot \boldsymbol{D}=\rho_0 \\
+		  & \nabla \times \boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{\partial t} \\
+		  & \nabla \cdot \boldsymbol{B}=0 \\
+		  & \nabla \times \boldsymbol{H}=\boldsymbol{j}_0
+		  \end{aligned}
+		  $$
+	- Quasi-static conditions
+	  collapsed:: true
+		- Idea: The characteristic length of the system is much smaller than the dynamic scale of the field.
+		- Conductor
+			- $$j=\sigma_c E$$
+			- Start from $\nabla \times \boldsymbol{H}=\boldsymbol{j}_0+\frac{\partial \boldsymbol{D}}{\partial t}$:
+			- $d D/dt$ ignorable <-> $\varepsilon \omega E \ll \sigma_c E$ <-> 
+			  $$\frac{\varepsilon \omega}{\sigma_c}\ll 1$$
+				- $\omega$ is the characteristic frequency
+		- Vacuum
+			- $$\omega l \ll c \iff l \ll \lambda$$
+				- $l$ is the characteristic length.
+	- Diffusion equation
+		- In conductors,
+		  $$
+		  \begin{aligned}
+		  & \nabla \cdot \boldsymbol{D}=\rho_0 \\
+		  & \nabla \times \boldsymbol{E}=-\mu \frac{\partial \boldsymbol{H}}{\partial t} \\
+		  & \nabla \cdot \boldsymbol{B}=0 \\
+		  & \nabla \times \boldsymbol{H}=\sigma_c E
+		  \end{aligned}
+		  $$
+		- Take the 2nd and 4th equations, we immediately see
+		  $$\frac{\partial \boldsymbol{H}}{\partial t}=-\frac 1 {\mu \sigma_c} \nabla \times (\nabla \times H)=\frac 1 {\mu \sigma_c} \Delta H$$
+		  which is the familiar diffusion equation!
+	- ## Skin effect
+		- Statement
+			- When a conductor is subject to alternating electric field, the current would decay with depth, i.e. concentrate on the skin of the conductor.
+		- Example: Conductor in the $z>0$ half-space
+			- Setup
+				- The electric field points along the $x$ direction.
+				- We should solve for the field (sum of the external field and the induced field) and subsequently the current.
+			- Key point
+				- The linear 2nd ODE has 2 solutions, with positive and negative coefficients respectively.
+				- Since the electric field shouldn't diverge when $z \to \infty$, only the negative term survives, which leads to a decaying electric field.
+			- Solution
+				- $$
+				  \left(\frac{\partial^2}{\partial z^2}-\mu \sigma_c \frac{\partial}{\partial t}\right) E_x(z, t)=0
+				  $$
+				- Assume
+				  $$
+				  \vec{E}=\hat{x} A \exp [p z-i \omega t]
+				  $$
+				- We obtain
+				  $$
+				  p= \pm \sqrt{\frac{1}{2} \omega \mu \sigma_c}(1-i)= \pm \alpha(1-i)
+				  $$
+				- Since the electric field shouldn't diverge when $z \to \infty$, only the minus term survives.
+		-
+	-
 -

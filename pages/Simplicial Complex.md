@@ -6,10 +6,10 @@
 	- On the other hand, due to the simplicial approximation theorem, we always have a simplicial map homotopic to the original one.
 	  **Homotopy preserves all information we want.**
 -
-- # Definitions
+- # Definitions #card
   collapsed:: true
 	- ((64b4848d-32de-4083-a028-c5424818237d))
-	- Simplicial complex #card
+	- Simplicial complex
 	  card-last-interval:: 27.27
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
@@ -35,7 +35,7 @@
 		  $$
 		  the union of all the simplexes in $K$.
 		- Proposition. $|K|$ is compact.
-	- ((653a1102-9da2-4249-b0f3-31d698402124)) Polyhedron and Triangulation #card
+	- ((653a1102-9da2-4249-b0f3-31d698402124)) Polyhedron and Triangulation
 	  collapsed:: true
 		- A topological space $X$ is a **polyhedron** if there exists a simplicial complex $K$ and a homemorphism $h:|K| \rightarrow X$.
 		- The ordered pair $(K, h)$ is called a **triangulation** of $X$.
@@ -51,7 +51,7 @@
 				- ((653a12a9-ada3-4cc1-9347-5dd5c2566ac2))
 				- Inserting the diagonal $bd$ isn't a valid triangulation since the two triangles share the same vertices.
 				  Recall that a simplicial complex is a collection of simplexes, which are solely determined by the vertices, in an Euclidean space.
-	- ((653a14d2-9671-4f8f-a5aa-900e9a0b06ac)) The star of a vertex #card
+	- ((653a14d2-9671-4f8f-a5aa-900e9a0b06ac)) The star of a vertex
 	  collapsed:: true
 		- Let $K$ be a simplicial complex and let $p \in \operatorname{Vert}(K)$. The star of $p$, denoted by $\operatorname{st}(p)$, is defined by
 		  $$
@@ -82,13 +82,13 @@
 	- Choose a homeomorphism $\varphi: \Delta^m \rightarrow \sigma$ with $\varphi\left(\dot{\Delta}^m\right)=\dot{\sigma}$; then $U$, defined by $U=\varphi^{-1} f^{-1}(W)$, is an open subset of $\left(\Delta^m\right)^{\circ}$.
 	- Since $p<m$, there exists an imbedding $g: \Delta^p \rightarrow\left(\Delta^m\right)^{\circ}$ such that im $g$ contains no nonempty open subsets of $\left(\Delta^m\right)^{\circ}$.
 	- Both $U$ and $g(W)$ are homeomorphic subsets of $\left(\Delta^m\right)^{\circ}$; as $U$ is open and $g(W)$ is not, which is a contradiction.
-- # Simplicial Approximation
+- # Simplicial Approximation #card
   collapsed:: true
 	- #+BEGIN_NOTE
 	  If we want a category whose objects are simplicial complexes, what are the morphisms?
 	  #+END_NOTE
 		- Obviously, the morphisms should preserve the simplicial properties.
-	- ((653a1b1d-23b1-4b10-b964-05804ab0b2cc)) Simplicial map #card
+	- ((653a1b1d-23b1-4b10-b964-05804ab0b2cc)) Simplicial map
 	  card-last-interval:: 32.57
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
@@ -100,11 +100,11 @@
 		- A simplicial map $\varphi: K \rightarrow L$ is a function $\varphi: \operatorname{Vert}(K) \rightarrow \operatorname{Vert}(L)$ such that whenever $\left\{p_0, p_1, \ldots, p_q\right\}$ spans a simplex of $K$, then $\left\{\varphi\left(p_0\right), \varphi\left(p_1\right), \ldots, \varphi\left(p_q\right)\right\}$ spans a simplex of $L$.
 		- The map do not need to be injective.
 	- Theorem. If $\mathscr{K}$ consists of all simplicial complexes and all simplicial maps (with usual composition), then $\mathscr{K}$ is a category, and underlying defines a functor | $\mid: \mathscr{K} \rightarrow$ Top.
-	- Definition. Piecewise linear #card
+	- Definition. Piecewise linear
 	  collapsed:: true
 		- A map of the form $|\varphi|:|K| \rightarrow|L|$, where $\varphi: K \rightarrow L$ is a simplicial map, is called piecewise linear.
 		- i.e. With a proper triangulation, $\varphi$ is linear in each simplex.
-	- ((653a1b1d-23b1-4b10-b964-05804ab0b2cc)) Simplicial approximation #card
+	- ((653a1b1d-23b1-4b10-b964-05804ab0b2cc)) Simplicial approximation
 	  collapsed:: true
 		- Motivation 1: Is there an obvious functor $\mathbf{Top} \to \mathbb{\mathscr{K}}$?
 			- It further illustrates how category theory helps to **raise the correct question**!
@@ -126,7 +126,7 @@
 		-
 		- Proposition. If $\varphi$ is a simplicial approximation to $f$, then $\varphi \simeq f$.
 			- Use the scaling trick.
-	- Definition. Barycentric subdivision #card
+	- Definition. Barycentric subdivision
 	  collapsed:: true
 		- Motivation
 			- As shown in excision, we need to sometimes divide simplexes to obtain certain properties.
@@ -146,7 +146,7 @@
 	  $$
 	  \operatorname{ mesh } K=\sup _{s \in K}\{\operatorname{diam}(s)\}
 	  $$
-	- ((654079ce-813e-4604-88ba-24ce10b5de48)) (Simplicial Approximation Theorem). If $K$ and $L$ are simplicial complexes and if $f:|K| \rightarrow|L|$ is continuous, then there is an integer $q \geq 1$ and a simplicial approximation $\varphi: \mathrm{Sd}^q K \rightarrow L$ to $f$. #card
+	- ((654079ce-813e-4604-88ba-24ce10b5de48)) (Simplicial Approximation Theorem). If $K$ and $L$ are simplicial complexes and if $f:|K| \rightarrow|L|$ is continuous, then there is an integer $q \geq 1$ and a simplicial approximation $\varphi: \mathrm{Sd}^q K \rightarrow L$ to $f$.
 	  collapsed:: true
 		- Example. $|K|=|L|=S^1$
 		  collapsed:: true
@@ -198,7 +198,6 @@
 			- Approximation theorem
 				- This should hint at 'weak equivalences' between sets with certain structures.
 	- Definition. Abstract simplicial complex
-	  collapsed:: true
 		- Let $V$ be a (possibly infinite) set. An abstract simplicial complex $K$ is a set of finite nonempty subsets of $V$ (simplexes) such that:
 			- (i) If $v \in V$, then the single-point set $\{v\}$ is a simplex, i.e. $\{v\} \in K$.
 				- They might not be any subset of other simplexes, but they should be simplexes themselves!
@@ -209,6 +208,7 @@
 		-
 		- Examples
 			- Let $X$ be a topological space, and let $\mathscr{U}$ be a finite open cover of $X$. Define an abstract simplicial complex
+			  id:: 65446ba5-7599-490c-926c-da790cf3475f
 				- Vertices are open sets in $\mathscr{U}$
 				- Open sets $U_0, U_1, \ldots, U_q$ in $\mathscr{U}$ form a simplex if $\bigcap_{i=0}^q U_i \neq \varnothing$.
 				- This simplicial complex is called the **nerve** of the open cover $\mathscr{U}$ and is denoted by $N(\mathscr{U})$.
@@ -224,111 +224,4 @@
 		- Of course, it is possible that the latter list of vertices has repetitions, i.e. the image becomes degenerate.
 	-
 	-
-- # Simplicial Homology
-	- ## Definitions #card
-		- ((654492a5-485c-46cd-ba7e-744404547c08)) Oriented Simplicial Complex
-		  collapsed:: true
-			- A simplicial complex $K$ with a partial order, such that the restriction to vertices of any simplex is a linear order.
-			- Why not a full order on the whole complex?
-			  background-color:: red
-				- For simplexes with common faces, their ordering must be compatible, but the orders may not naturally merge.
-				- In short, 'partial order' means $a<b>c$ or $a>b<c$.
-				- For example,
-				  ![Image.png](../assets/Image_1698993333587_0.png){:height 261, :width 455}
-					- The two orderings are compatible, but they do not merge.
-		- $C_q(K)$
-		  collapsed:: true
-			- An abelian group with the following presentation:
-				- Generators
-					- All $(q+1)$-tuples $\left(p_0, \ldots, p_q\right)$ with $p_i \in \operatorname{Vert}(K)$ such that $\left\{p_0, \ldots, p_q\right\}$ spans a simplex in $K$.
-				- Relations
-					- (i) $\left(p_0, \ldots, p_q\right)=0$ if some vertex is repeated;
-					- (ii) $\left(p_0, \ldots, p_q\right)=(\operatorname{sgn} \pi)\left(p_{\pi 0}, p_{\pi 1}, \ldots, p_{\pi q}\right)$, where $\pi$ is a permutation of $\{0,1, \ldots, q\}$.
-			- Intuitively, it is the 'free group generated by oriented simplexes'. The second relation is essentially defining equivalence of orientations.
-		- Boundary map
-		  collapsed:: true
-			- $$
-			  \partial_q: C_q(K) \rightarrow C_{q-1}(K), \\
-			  \partial_q\left(\left\langle p_0, \ldots, p_q\right\rangle\right)=\sum_{i=0}^q(-1)^i\left\langle p_0, \ldots, \hat{p}_i, \ldots, p_q\right\rangle
-			  $$
-			  (where $\hat{p}_i$ means delete the vertex $p_i$ ) and extending by linearity.
-		- Cycle, boundary and homology groups
-		  collapsed:: true
-			- $Z_q(K)=\operatorname{ker} \partial_q$, $B_q(K)=\operatorname{im} \partial_{q+1}$, $H_q(K)=Z_q(K) / B_q(K)$.
-			-
-		- Associated map of simplicial map
-		  collapsed:: true
-			- Let $K$ and $L$ be oriented simplicial complexes. If $\varphi: K \rightarrow L$ is a simplicial map, define $\varphi_{\#}: C_q(K) \rightarrow C_q(L)$, for each $q \geq 0$, by
-			  $$
-			  \varphi_{\#}\left(\left\langle p_0, \ldots, p_a\right\rangle\right)=\left\langle\varphi\left(p_0\right), \ldots, \varphi\left(p_a\right)\right\rangle .
-			  $$
-		- Relative homology group
-		  collapsed:: true
-			- If $L$ is a subcomplex of an oriented simplicial complex $K$ (with the inherited ordering), then the $q$ th relative simplicial homology group is
-			  $$
-			  H_q(K, L)=H_q\left(C_*(K) / C_*(L)\right) .
-			  $$
-		- [Euler-Poincare Characteristic](((65449fbd-691c-4c46-b321-9ac7fd2bd3c6)))
-	- ## Setting up the Homology
-		- Don't forget to check the functoriality!
-		-
-		- ### Basic Facts
-			- Lemma. Let $K$ be an oriented simplicial complex of dimension $m$.
-			  (i) $C_q(K)$ is a free abelian group with basis all symbols $\left\langle p_0, \ldots, p_q\right\rangle$, where $\left\{p_0, \ldots, p_q\right\}$ spans a q-simplex in $K$ and $p_0<p_1<\cdots<p_q$. Moreover, $\left\langle p_{\pi 0}, \ldots, p_{\pi q}\right\rangle=(\operatorname{sgn} \pi)\left\langle p_0, \ldots, p_q\right\rangle$.
-			  (ii) $C_q(K)=0$ for all $q>m$.
-			- Theorem. $C_*(K) := \{C_q(K),\partial_q\}$ is a chain complex.
-				- Same argument as before.
-			- Lemma. If $\varphi: K \rightarrow L$ is a simplicial map, then $\varphi_{\#}: C_*(K) \rightarrow C_*(L)$ is a chain map; that is, $\varphi_{\#} \partial=\partial \varphi_{\#}$.
-		- Theorem. For each $q \geq 0, H_q: \mathscr{K} \rightarrow \mathbf{A b}$ is a functor.
-		- The dimensional axiom holds trivially.
-		- Theorem (Excision). If $K_1$ and $K_2$ are subcomplexes of a simplicial complex $K$ with $K_1 \cup K_2=K$, then the inclusion $\left(K_1, K_1 \cap K_2\right) \hookrightarrow\left(K, K_2\right)$ induces isomorphisms, for all $q \geq 0$,
-		  $$
-		  H_q\left(K_1, K_1 \cap K_2\right) \stackrel{\sim}{\rightarrow} H_q\left(K, K_2\right) .
-		  $$
-			-
-	- ## Euler-Poincare Characteristic #card
-	  id:: 65449fbc-6522-4b43-bfcc-1527128a2908
-	  collapsed:: true
-		- Definition
-		  id:: 65449fbd-691c-4c46-b321-9ac7fd2bd3c6
-			- Let $K$ be a simplicial complex of dimension $m$.
-			- For each $q \geq 0$, let $\alpha_q$ be the number of $q$-simplexes in $K$.
-			- The Euler-Poincaré characteristic of $K$, denoted by $\chi(K)$, is defined by
-			  $$
-			  \chi(K)=\sum_{q=0}^m(-1)^q \alpha_q .
-			  $$
-		- Theorem. If $K$ is an oriented simplicial complex of dimension $m$, then
-		  $$
-		  \chi(K)=\sum_{q=0}^m(-1)^q \operatorname{rank} H_q(K)
-		  $$
-			- We immediately see it is a very weak invariant, but nonetheless useful since it can be directly read off from the triangulation without any further calculation.
-			- Observations
-				- About rank
-					- Rank has two distinct meanings. The first is the min. number of generators, while the second is the number of generators of the free-abelian part.
-					- Let me take the second, since it satisfies $\operatorname{rank}(G/H)=\operatorname{rank}G-\operatorname{rank}H$.
-					-
-			- Key points
-				- $$
-				  \operatorname{rank} H_q(K)=\operatorname{rank} Z_q(K)-\operatorname{rank} B_q(K)
-				  $$
-				- $$
-				  \alpha_q=\operatorname{rank} C_q(K)=\operatorname{rank} Z_q(K)+\operatorname{rank} B_{q-1}(K)
-				  $$
-			- Actually this result holds for **any** chain complex with each term free abelian.
-	- ## Promote the functor to Polyhedra
-	  collapsed:: true
-		- Possible problems
-			- Prove the invariance under equivalent triangulations.
-			- We only have simplicial maps in the category of simplicial complexes, $\mathscr{K}$, while we have continuous maps between polyhedra.
-				- Obviously we need simplicial approximations.
-			- Then we need to prove the invariance under equivalent simplicial approximations.
-		- ### Compare $H_q(K)$ and $H_q(\operatorname{Sd} K)$
-			- Proposition. Let $K$ be a (finite) oriented simplicial complex of dimension $m$.
-			  (i) $H_q(K)$ is f.g. (finitely generated) for every $q \geq 0$.
-			  (ii) $H_q(K)=0$ for all $q>m$.
-			  (iii) $H_m(K)$ is free abelian, possibly zero.
-				- (i) is trivial.
-				- (ii) Since $C_q(K)$=0.
-				- (iii) The boundary is zero and the cycle part is necessarily free abelian.
-					- More generally, ((65449dd9-071b-49c1-ac36-ba6a250956cc))
-	-
+- # [[Simplicial Homology]]

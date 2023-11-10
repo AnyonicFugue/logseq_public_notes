@@ -1,11 +1,12 @@
 # Basic Syntax
-	- Functions
+	- Define Functions
+	  collapsed:: true
 		- keyword argument: Place after a semicolon
 		- e.g. `function test(a,b;c,d)`
 			- a,b are positional
 			- c,d are keywords
 	- `function func()` and `for` need an `end`
-	-
+	- `display()` for beautiful display of data, e.g. arrays and matrices
 	- ## Logical operators #card
 	  card-last-score:: 5
 	  card-repeats:: 3
@@ -17,10 +18,8 @@
 		- C-style `&&, !, ||`
 		- All doubled except `!`
 	- ## Multiple File
-	  collapsed:: true
 		- Use `include("utils.jl")` to include other files.
 	- ## Arrays
-	  collapsed:: true
 		- `zeros(T, dims...)` an `Array` of all zeros
 		- `ones(T, dims...)` an `Array` of all ones
 		- `A*B` for matrix multiplication.
@@ -38,6 +37,7 @@
 			- Type **after** the argument
 		- `x::Int32=100`
 	- ## File Operations
+	  collapsed:: true
 		- ```julia
 		  io = open("runoob-file.txt", "a+")
 		  
@@ -47,6 +47,7 @@
 		  ```
 - # Features
 	- Parallel computation
+	  collapsed:: true
 		- Multithreading
 		  card-last-interval:: 10
 		  card-repeats:: 1

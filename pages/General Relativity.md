@@ -196,12 +196,12 @@ alias:: GR
 			  R_{\mu \nu}=R_{\mu \lambda \nu}^\lambda=\frac{\partial \Gamma_{\mu \nu}^\lambda}{\partial x^\lambda}-\frac{\partial \Gamma_{\mu \lambda}^\lambda}{\partial x^\nu}+\Gamma_{\mu \nu}^\kappa \Gamma_{\kappa \lambda}^\lambda-\Gamma_{\mu \lambda}^\kappa \Gamma_{\nu \kappa}^\lambda
 			  $$
 		- Properties #card
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-09-11T12:17:25.474Z
-		  card-last-reviewed:: 2023-07-31T12:17:25.475Z
-		  card-last-score:: 3
+		  card-last-interval:: 107.52
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2024-02-21T15:28:07.366Z
+		  card-last-reviewed:: 2023-11-06T03:28:07.366Z
+		  card-last-score:: 5
 		  collapsed:: true
 			- 1. $R_{a b c}{ }^d=-R_{b a c}{ }^d$.
 			- 2. 
@@ -218,6 +218,12 @@ alias:: GR
 				- This is actually rather reasonable, since 'manifold' means a structure of $\mathbb R^n$ and partial derivatives commute.
 		- Corollary. $\nabla_\mu G^{\mu \nu}=0$ #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2023-12-11T06:35:03.847Z
+		  card-last-reviewed:: 2023-11-10T00:35:03.847Z
+		  card-last-score:: 3
 			- Note that $G^{ab}=R^{ab}-\frac 1 2 Rg^{ab}$
 			- First invoke the (second) Bianchi identity:
 			  $$
@@ -708,12 +714,13 @@ alias:: GR
 		- ((64586978-ccc6-4f29-ac28-b6b26a5aea8d))
 	-
 - # Spacetime Diagrams
-	- ## Penrose Diagram
+	- ## Penrose Diagram #card
 		- Idea
 			- Use a conformal transformation (usually involving $\tan$) to bring the points at infinity to finite points. Then the spacetime diagram becomes intuitive.
 			- We'd better keep null geodesics going along $\pm \frac \pi 4$, so we can easily observe the behavior of geodesics.
 		- Examples
 			- Minkowski spacetime
+			  collapsed:: true
 				- Transformation
 					- $$
 					  \begin{aligned}
@@ -735,13 +742,14 @@ alias:: GR
 					- Spatial infinity $i^0$ : the region toward which space-like slices extend. It corresponds to the points at $r \rightarrow \infty$ with finite $t$.
 					- Future null infinity $\mathscr{I}^{+}:$the region toward which outgoing null geodesics extend. It corresponds to the points at $t+r \rightarrow \infty$ with finite $t-r$.
 					- Past null infinity $\mathscr{I}^{-}$: the region from which ingoing null geodesics come. It corresponds to the points at $t-r \rightarrow-\infty$ with finite $t+r$.
-			- ((6454f170-9fed-40e5-845e-c72df45c05ab)) #card
+			- ((6454f170-9fed-40e5-845e-c72df45c05ab))
 			  card-last-interval:: 32.57
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6
 			  card-next-schedule:: 2023-07-27T14:04:38.960Z
 			  card-last-reviewed:: 2023-06-25T01:04:38.960Z
 			  card-last-score:: 5
+			  collapsed:: true
 				- Transformation
 					- \begin{aligned}
 					  & \tilde{t}=\frac{1}{2} \tan \frac{T+R}{2}+\frac{1}{2} \tan \frac{T-R}{2} \\

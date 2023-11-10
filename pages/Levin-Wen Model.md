@@ -81,13 +81,15 @@
 					- But here comes a question: How to define the discrete version of torus? #Learning-TODO
 						- It should actually be a [[Triangulation]], involving simplices
 		- The ground space is nondegenerate on a sphere. #card
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-09-13T12:45:56.777Z
-		  card-last-reviewed:: 2023-08-02T12:45:56.777Z
-		  card-last-score:: 3
-			- Prove this by investigating a minimal lattice!
+		  card-last-interval:: 107.52
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2024-02-21T15:30:37.145Z
+		  card-last-reviewed:: 2023-11-06T03:30:37.146Z
+		  card-last-score:: 5
+			- We can prove this by investigating a minimal lattice!
+				- Select a convenient representative element.
+			- But is there a **topological**, model-independent argument?
 	- ## Quasiparticles
 		- General constructions of quasiparticles can be difficult, but easier for a braided input category.
 	- String operators can be found in [topobook](((63f2ce3a-202d-4bb4-8c39-a923cda51c6e))).
