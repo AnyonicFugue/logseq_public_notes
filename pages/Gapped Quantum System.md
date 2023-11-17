@@ -21,11 +21,11 @@ collapsed:: true
 		- How arbitrary should they be allowed to be?
 	- Equivalence of gapped quantum systems #card
 	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-09-07T18:51:32.391Z
-	  card-last-reviewed:: 2023-08-07T12:51:32.391Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-28T00:51:14.074Z
+	  card-last-reviewed:: 2023-11-16T00:51:14.075Z
 	  card-last-score:: 5
 		- Two gapped quantum systems $\left\{H_{N_k}\right\}$ and $\left\{H_{N_k}^{\prime}\right\}$ are equivalent if the ground-state spaces of $H_{N_k}$ and $H_{N_k}^{\prime}$ are connected by LU transformations for all $N_k$.
 		- The equivalence classes of the above equivalence relation are the **gapped quantum phases**.

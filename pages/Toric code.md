@@ -1,5 +1,6 @@
 - Actually $Z_2$ [[Quantum Double]]
 - # Problems and Questions
+  collapsed:: true
 	- TODO Explicitly calculate all relevent structures and write them in the familiar operator form: Dual, Ribbon, Braiding, Drinfeld center of the boundary, etc.
 	  collapsed:: true
 		- [[Fusion]]

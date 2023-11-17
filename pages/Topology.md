@@ -234,25 +234,15 @@
 			- Diameter
 				- For a bounded set A, $\operatorname{diam}(A):=\sup \left\{d\left(a_1, a_2\right) \mid a_1, a_2 \in A\right\}$
 		- Limit point compact #card 
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-07-08T07:09:06.082Z
-		  card-last-reviewed:: 2023-06-07T01:09:06.083Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-12-27T00:47:41.046Z
+		  card-last-reviewed:: 2023-11-15T00:47:41.047Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- Every infinite set of points has a limit point.
 			- Exercise. Show that it is equivalent to that every sequence has a convergent subsequence.
-		- Locally compact  #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2023-10-25T06:43:37.894Z
-		  card-last-reviewed:: 2023-09-24T00:43:37.894Z
-		  card-last-score:: 3
-			- For any $x$, exist a compact subset $C$ containing some neighborhood of $x$
-			-
-			- Example. Q isn't locally compact
 	- ## Basic Facts
 		- Theorem. Every closed subspace of a compact space is compact.  #card
 		  collapsed:: true
@@ -419,28 +409,42 @@
 	  If we don't have such luck, can we embed the space under study into something with the properties?
 		- In Compact Hausdorff spaces, {{Closed ⇔ Compact}}.
 		- Sub-metrizable is still metrizable. But not for the latter.
-	- ## One-point Compactification
+	- ## One-point Compactification #card
 		- Motivation
 			- Two of the best properties of a topological space are **compact** and **Hausdorff**.
 			  We'd like to ask the problem: Under what circumstances would a subspace inherit these properties?
-		- Def #card
+		- Definitions
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
 		  card-next-schedule:: 2023-08-14T19:02:55.803Z
 		  card-last-reviewed:: 2023-07-14T13:02:55.804Z
 		  card-last-score:: 5
-			- $X \sub Y$ and $Y-X$ is a single point, while $Y$ is compact Hausdorff.
-			- Moreover, two compactifications are said to be homeomorphic with a homeomorphism acting as an identity on $X$.
-			- Explicitly: The topology of Y is $\mathscr T_Y = \mathscr T_X \cup \{Y-C|C\ compact\ in\ X\}$
-				- For $\mathbb R^n$, the second part is '$\infty$ plus complement of closed bounded set'
-		- Theorem. $X$ is Locally compact Hausdorff if and only if $X$ has a one-point compactification.  #card
+			- Locally compact
+			  card-last-score:: 3
+			  card-repeats:: 1
+			  card-next-schedule:: 2023-10-25T06:43:37.894Z
+			  card-last-interval:: 31.26
+			  card-ease-factor:: 2.36
+			  card-last-reviewed:: 2023-09-24T00:43:37.894Z
+			  collapsed:: true
+				- For any $x$, exist a compact subset $C$ containing some neighborhood of $x$
+				-
+				- Example. Q isn't locally compact
+			- One-point Compactification
+				- $X \sub Y$ and $Y-X$ is a single point, while $Y$ is compact Hausdorff.
+				- Moreover, two compactifications are said to be homeomorphic with a homeomorphism acting as an identity on $X$.
+				- Explicitly: The topology of Y is $\mathscr T_Y = \mathscr T_X \cup \{Y-C|C\ compact\ in\ X\}$
+					- For $\mathbb R^n$, the second part is '$\infty$ plus complement of closed bounded set'
+		-
+		- The main theorem. $X$ is locally compact Hausdorff if and only if $X$ has a one-point compactification.
 		  card-last-score:: 5
 		  card-repeats:: 1
 		  card-next-schedule:: 2023-09-03T06:41:33.322Z
 		  card-last-interval:: 35.37
 		  card-ease-factor:: 2.6
 		  card-last-reviewed:: 2023-07-29T22:41:33.323Z
+		  collapsed:: true
 			- q⇒p: Easier.
 				- Hausdorff is obvious, since any subspace of a Hausdorff space is Hausdorff.
 					- Suppose $Y-X={z}$. Consider some point $x\in X$. Since Y is Hausdorff, we can find disjoint $U(x,z)$ and $U(z,x)$.
@@ -455,10 +459,12 @@
 				- The rest is verifying it's indeed a topology, X has subspace topology, Y is compact.
 			-
 			- Remark: If X isn't compact, then z is a Limit point of X, which is quite interesting!
-		- Corollary. For Hausdorff $X$, Locally compact ⇔ For $x$ in $X$ and a neighborhood $U(x)$, there is a neighborhood $V$(x) such that $\bar{V}$ is compact and $\bar{V} \subset U$  #card
+		-
+		- Corollary. For Hausdorff $X$, Locally compact ⇔ For $x$ in $X$ and a neighborhood $U(x)$, there is a neighborhood $V$(x) such that $\bar{V}$ is compact and $\bar{V} \subset U$
 		  id:: 64b48499-780e-4928-a9d9-e6c5a4b395fe
-			- q⇒p: $\bar V$ serves as the compact subset.
-			- p⇒q: We may use the 1-point compactification.
+		  collapsed:: true
+			- q ⇒ p: $\bar V$ serves as the compact subset.
+			- p ⇒ q: We may use the 1-point compactification.
 			- The rest is easy: Hausdorff ⇒ $Y-U(x)$ compact ⇒ We may find disjoint open sets covering $Y-U(x)$ and $U(x)$.
 			  The open set containing $U(x)$ is the desired $V(x)$. $V\cap U=\empty$ ⇒ $\bar V \cap U=\empty$
 			- Strategy: ((63c1416f-d51b-4487-865b-f9d3cf9b5918))

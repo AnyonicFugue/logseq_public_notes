@@ -14,6 +14,7 @@ type:: [[Course]]
   card-next-schedule:: 2023-10-21T06:30:14.301Z
   card-last-reviewed:: 2023-09-20T00:30:14.302Z
   card-last-score:: 3
+  collapsed:: true
 	- Equations in media #card
 		- id:: 654072b1-1397-4fb6-a123-4c94f2ca7af0
 		  $$
@@ -486,12 +487,14 @@ type:: [[Course]]
 			- $$F=-\nabla U, L=\vec{m} \times \vec{B}$$
 		-
 - # Quasi-Static Fields
+  collapsed:: true
 	- The approximation
 		- Ignore the $d\vec D/dt$ term, but keep the $d\vec B/dt$ term.
 		- Why? Shouldn't they be symmetric?
 			- $\vec B$ is at the same magnitude of the electric current.
 			- However, there is no magnetic current.
 	- Approximated Maxwell equations
+	  collapsed:: true
 		- $$
 		  \begin{aligned}
 		  & \nabla \cdot \boldsymbol{D}=\rho_0 \\
@@ -527,27 +530,173 @@ type:: [[Course]]
 		  which is the familiar diffusion equation!
 	- ## Skin effect
 		- Statement
+		  collapsed:: true
 			- When a conductor is subject to alternating electric field, the current would decay with depth, i.e. concentrate on the skin of the conductor.
-		- Example: Conductor in the $z>0$ half-space
-			- Setup
-				- The electric field points along the $x$ direction.
-				- We should solve for the field (sum of the external field and the induced field) and subsequently the current.
-			- Key point
-				- The linear 2nd ODE has 2 solutions, with positive and negative coefficients respectively.
-				- Since the electric field shouldn't diverge when $z \to \infty$, only the negative term survives, which leads to a decaying electric field.
-			- Solution
-				- $$
-				  \left(\frac{\partial^2}{\partial z^2}-\mu \sigma_c \frac{\partial}{\partial t}\right) E_x(z, t)=0
-				  $$
-				- Assume
-				  $$
-				  \vec{E}=\hat{x} A \exp [p z-i \omega t]
-				  $$
-				- We obtain
-				  $$
-				  p= \pm \sqrt{\frac{1}{2} \omega \mu \sigma_c}(1-i)= \pm \alpha(1-i)
-				  $$
-				- Since the electric field shouldn't diverge when $z \to \infty$, only the minus term survives.
-		-
+	- Example: Conductor in the $z>0$ half-space
+	  collapsed:: true
+		- Setup
+		  collapsed:: true
+			- The electric field points along the $x$ direction.
+			- We should solve for the field (sum of the external field and the induced field) and subsequently the current.
+		- Key point
+		  collapsed:: true
+			- The linear 2nd ODE has 2 solutions, with positive and negative coefficients respectively.
+			- Since the electric field shouldn't diverge when $z \to \infty$, only the negative term survives, which leads to a decaying electric field.
+		- Solution
+		  collapsed:: true
+			- $$
+			  \left(\frac{\partial^2}{\partial z^2}-\mu \sigma_c \frac{\partial}{\partial t}\right) E_x(z, t)=0
+			  $$
+			- Assume
+			  $$
+			  \vec{E}=\hat{x} A \exp [p z-i \omega t]
+			  $$
+			- We obtain
+			  $$
+			  p= \pm \sqrt{\frac{1}{2} \omega \mu \sigma_c}(1-i)= \pm \alpha(1-i)
+			  $$
+			- Since the electric field shouldn't diverge when $z \to \infty$, only the minus term survives.
+	- Example: Cylindrical conductor
+		- By symmetry, we can try solutions of the form
+		  $$
+		  \vec{E}=\vec{e}_z E(\rho) e^{-i \omega t}
+		  $$
+		- Plug in the diffusion equation, we obtain the Bessel equation
+		  $$
+		  \frac{d^2}{d \rho^2} E(\rho)+\frac{1}{\rho} \frac{d}{d \rho} E(\rho)+k^2 E(\rho)=0
+		  $$
+			- $k^2=i \omega \mu \sigma_c$
+		- Since $E(0)$ should be well-defined, only the zeroth solution is acceptable,
+		  $$
+		  E(\rho)=E_0 J_0(k \rho)
+		  $$
 	-
+- # Electromagnetic Wave
+	- Derivation
+	  collapsed:: true
+		- First we assume the medium is linear, with no free charge or free current.
+		- Take the curl of the second equation and the fourth, we obtain that
+		  $$
+		  \left(\nabla^2-\varepsilon \mu \frac{\partial^2}{\partial t^2}\right) \vec{E}=0 \\
+		  \left(\nabla^2-\varepsilon \mu \frac{\partial^2}{\partial t^2}\right) \vec{B}=0
+		  $$
+		- Obviously we have the plane-wave solutions,
+		  $$
+		  \left(\begin{array}{c}
+		  \vec{E}(\vec{r}, t) \\
+		  \vec{B}(\vec{r}, t)
+		  \end{array}\right)=\left(\begin{array}{c}
+		  \vec{E}_0 \\
+		  \vec{B}_0
+		  \end{array}\right) e^{i(\vec{k} \cdot \vec{r}-\omega t+\varphi)}
+		  $$
+		- #+BEGIN_WARNING
+		  The physical fields are the real parts of the solution.
+		  When calculating non-linear quantities (e.g. energy, momentum), we should **first take the real part** before plugging in formulas.
+		  #+END_WARNING
+			-
+	- Polarization
+		- Definition. The phase difference between $E_x$ and $E_y$.
+			- Another viewpoint: The wave could be viewed as a superposition of x-polarized and y-polarized waves. There is a phase difference between the two components.
+		- Linear polarization
+			- $\phi_x=\phi_y$
+		- Circular polarization
+			- $\phi_x-\phi_y=\pm \pi/2$
+			- Right-handed: $\phi_x-\phi_y=\pi / 2$
+			- Left-handed: $\phi_x-\phi_y=- \pi / 2$
+		- Ellipsoidal polarization
+			- General case.
+	- Impedance of free space
+		- Recall the definition
+		  $$
+		  Z=\frac{|E|}{|H|}
+		  $$
+		- When the conductivity is zero,
+		  $$
+		  Z=\sqrt{\frac{\mu}{\varepsilon}}
+		  $$
+- # Drude Model
+	- Three types of charge in medias
+	  collapsed:: true
+		- Nuclei
+			- Very heavy, immobile
+		- Valence electron
+			- Bounded around nuclei, almost immobile
+			- Weak response to external field
+		- Itinerant electron
+			- Could move freely.
+	- Fourier Transformation
+	  collapsed:: true
+		- In general, the response to external field is neither local nor instantaneous,
+		  $$
+		  \begin{aligned}
+		  & D(\vec{r}, t)=\int \varepsilon\left(\vec{r}-\vec{r}^{\prime}, t-t^{\prime}\right) \vec{E}\left(\vec{r}^{\prime}, t^{\prime}\right) d \vec{r}^{\prime} d t^{\prime} \\
+		  & \vec{H}(\vec{r}, t)=\int \mu^{-1}\left(\vec{r}-\vec{r}^{\prime}, t-t^{\prime}\right) \vec{B}\left(\vec{r}^{\prime}, t^{\prime}\right) d \vec{r}^{\prime} d t^{\prime}
+		  \end{aligned}
+		  $$
+		- However, after Fourier transformation, the response is linear and diagonal wrt frequencies,
+		  $$
+		  \begin{aligned}
+		  & \vec{D}_\omega(\vec{r})=\varepsilon(\omega) \vec{E}_\omega(\vec{r}) \\
+		  & \vec{B}_\omega(\vec{r})=\mu(\omega) \vec{H}_\omega(\vec{r}) \\
+		  & \vec{j}_\omega(\vec{r})=\sigma(\omega) \vec{E}_\omega(\vec{r})
+		  \end{aligned}
+		  $$
+	-
+	- Effective AC conductance
+		- Assumptions
+		  collapsed:: true
+			- Fraction force
+				- $$f=-\frac {m \vec v}{\tau}$$
+					- $\tau$ is called the relaxation time.
+					- Physically, the electron is 'bounced' with time interval $\tau$.
+				- Thus the total force acting on electrons is
+				  $$m \frac{d \vec{v}}{d t}=\vec{F}=e \vec{E}-\frac{m \vec{v}}{\tau}v$$
+			- Long-wavelength approximation
+				- Ignore the spatial dependence of external field and electron speed.
+				- $$
+				  \vec{E}(\vec{r}, t) \approx \vec{E}_0 e^{-i \omega t}
+				  $$
+				- $$
+				  \vec{v}(t) \approx \vec{v}_0 e^{-i \omega t}
+				  $$
+		- The solution
+			- $$
+			  \vec{v}_0=\frac{e / m}{-i \omega+1 / \tau} \vec{E}_0
+			  $$
+			- $$
+			  \sigma(\omega)=\frac{n_e e^2 / m}{-i \omega+1 / \tau}
+			  $$
+		- Meanings of Re and Im
+			- Viewpoint 1
+				- $$\sigma(\omega)=|\sigma(\omega)| e^{i\theta}$$
+				- The phase factor is the phase difference between drive and response.
+			- Viewpoint 2
+				- The real part of $\sigma$ leads to response of the same phase, which costs energy.
+				- The imaginary part leads to response with a phase difference of $\pi/2$, which does not cost energy.
+		- Two limits
+			- $\omega \to 0$
+				- $\sigma$ becomes DC conductance, which is surely real.
+			- $\omega \to \infty$
+				- $\sigma$ is dominated by the imaginary part.
+				- Almost no energy dissipation.
+	- Effective Dielectrical constant
+		- Key idea
+			- In high frequency, the current formed by itinerant electrons should also be viewed as a part of polarization.
+		- $$
+		  \nabla \times \vec{H}=\vec{j}_f+\frac{\partial \vec{D}}{\partial t} \Rightarrow \nabla \times \vec{H}=\left[\sigma(\omega)-i \omega \varepsilon_0 \varepsilon_v\right] \vec{E}
+		  $$
+		  becomes
+		  $$
+		  \nabla \times \vec{H}=-i \omega \varepsilon(\omega) \vec{E}
+		  $$
+		- We can immediately read off the effective dielectrical constant
+		  $$
+		  \varepsilon_r(\omega)=\varepsilon_v+i \frac{\sigma(\omega)}{\varepsilon_0 \omega}=\varepsilon_v-\frac{\omega_p^2}{\omega(\omega+i / \tau)}
+		  $$
+			- $$
+			  \omega_p=\sqrt{\frac{n_e e^2}{\varepsilon_0 m}}
+			  $$
+		- We often ignore $\epsilon_v \approx 1$, since the contribution of the second term is often much larger.
+-
 -

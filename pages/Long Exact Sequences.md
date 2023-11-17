@@ -143,6 +143,12 @@
 				  where $\Delta_n^{\prime \prime}$ is the restriction $\partial_n^{\prime \prime}\mid_{\operatorname{im} f_n}$.
 				- Exercise. Verify that these two maps are both well-defined.
 		- Important maps: Chain map, chain homotopy, contracting homotopy, connecting homomorphism #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-12-15T06:42:05.873Z
+		  card-last-reviewed:: 2023-11-14T00:42:05.874Z
+		  card-last-score:: 5
 			- Chain map
 			  card-last-interval:: 30
 			  card-repeats:: 1
@@ -150,7 +156,6 @@
 			  card-next-schedule:: 2023-06-29T03:00:50.703Z
 			  card-last-reviewed:: 2023-05-30T03:00:50.703Z
 			  card-last-score:: 5
-			  collapsed:: true
 				- Definition. If $\left(S_*^{\prime}, \partial^{\prime}\right)$ and $\left(S_*, \partial\right)$ are complexes, a chain map $f:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ is a sequence of homomorphisms $\left\{f_n: S_n^{\prime} \rightarrow S_n\right\}$ such that the following diagram commutes:
 				  ((64716a6b-8c2a-4d82-b4e8-1f9067c8679d))
 					- A typical definition of homomorphism.
@@ -167,8 +172,8 @@
 			  card-next-schedule:: 2023-12-25T10:47:58.158Z
 			  card-last-reviewed:: 2023-09-19T00:47:58.159Z
 			  card-last-score:: 3
-			  collapsed:: true
 				- If $f, g:\left(S_*^{\prime}, \partial^{\prime}\right) \rightarrow\left(S_*, \partial\right)$ are chain maps, then $f$ and $g$ are **(chain) homotopic**, denoted by $f \simeq g$, if there is a sequence of homomorphisms $\left\{P_n: S_n^{\prime} \rightarrow S_{n+1}\right\}$ such that, for all $n \in \mathbf{Z}$,
+				  collapsed:: true
 				  $$
 				  \partial_{n+1} P_n+P_{n-1} \partial_n^{\prime}=f_n-g_n .
 				  $$
@@ -195,7 +200,6 @@
 			  card-next-schedule:: 2023-08-28T18:57:13.144Z
 			  card-last-reviewed:: 2023-07-28T12:57:13.145Z
 			  card-last-score:: 5
-			  collapsed:: true
 				- A contracting homotopy of a complex $\left(S_*, \partial\right)$ is a sequence of homomorphisms $c=\left\{c_n: S_n \rightarrow S_{n+1}\right\}$ such that for all $n \in \mathbf{Z}$,
 				  $$
 				  \partial_{n+1} c_n+c_{n-1} \partial_n=1_{s_n} .
@@ -210,7 +214,6 @@
 			  card-next-schedule:: 2023-07-05T06:55:22.129Z
 			  card-last-reviewed:: 2023-06-04T00:55:22.130Z
 			  card-last-score:: 5
-			  collapsed:: true
 				- If $0 \rightarrow\left(S_*^{\prime}, \partial^{\prime}\right) \stackrel{i}{\rightarrow}\left(S_*, \partial\right) \stackrel{p}{\rightarrow}\left(S_*^{\prime \prime}, \partial^{\prime \prime}\right) \rightarrow 0$ is a short exact sequence of complexes, then for each $n$ there is a homomorphism
 				  $$
 				  \begin{aligned}
@@ -645,7 +648,12 @@
 	  $$
 		- It proceeds exactly as [here](((6498e102-758e-44db-bbcb-a7c679b43a90))), but the details need more verification.
 - # Reduced Homology #card
-  collapsed:: true
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-12-15T06:46:05.396Z
+  card-last-reviewed:: 2023-11-14T00:46:05.396Z
+  card-last-score:: 5
 	- Definition. Reduced Homology Group
 	  card-last-score:: 5
 	  card-repeats:: 2
@@ -655,6 +663,7 @@
 	  card-last-reviewed:: 2023-10-18T00:44:51.416Z
 	  collapsed:: true
 		- Augmented Singular Complex $\tilde S(X)$
+		  collapsed:: true
 			- Let $\left(S_*(X), \partial\right)$ be the singular complex of a space $X$. Define $\tilde{S}_{-1}(X)$ to be the infinite cyclic group with generator a, and define $\tilde{\partial}_0: S_0(X) \rightarrow \widetilde{S}_{-1}(X)$ by $\sum m_x x \mapsto\left(\sum m_x\right)a$.
 			- The augmented singular complex of $X$ is
 			  $$
@@ -662,30 +671,38 @@
 			  $$
 			- What's the idea behind the extension?
 			  background-color:: red
+			  collapsed:: true
 				- To give a reasonable definition of $S_{-1}$ so that every space can be viewed as pointed.
 		- Proposition. $\tilde \partial_0 \partial_1=0$.
+		  collapsed:: true
 			- The key is that 1-simplexes (and any odd-simplex) have even numbers of faces
 		- The reduced homology group is defined as 
+		  collapsed:: true
 		  $$
 		  \tilde{H}_n(X)=H_n\left(\widetilde{S}_*(X), \partial\right)
 		  $$
 			- 'Reduced' can be comprehended in the sense that $Z_0(X)$ becomes smaller.
 	- ((6498fa19-1bd6-4422-adea-7450bcbca1fe)) For all $n \geq 0$,
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-08-25T19:12:47.537Z
-	  card-last-reviewed:: 2023-07-25T13:12:47.538Z
 	  card-last-score:: 3
+	  card-repeats:: 1
+	  card-next-schedule:: 2023-08-25T19:12:47.537Z
+	  card-last-interval:: 31.26
+	  card-ease-factor:: 2.36
+	  card-last-reviewed:: 2023-07-25T13:12:47.538Z
+	  collapsed:: true
 	  $$
 	  \widetilde{H}_n(X) \cong H_n\left(X, x_0\right)
 	  $$
 		- Cases where $n \geq 1$ are already proved (review it if you want!).
 		- $n=0$
+		  collapsed:: true
 			- Dirty way: Explicitly calculate the homology groups
+			  collapsed:: true
 				- Remark: *This is always a good step to get familiar, but we shall always stand higher!*
 			- Elegant way: Construct an exact sequence
-				- $$0 \rightarrow \tilde S_*(x_0) \stackrel{i}{\rightarrow} \tilde S_*(X) \stackrel{p}{\rightarrow} S_*(X,x_0) \rightarrow 0$$
+			  collapsed:: true
+				- collapsed:: true
+				  $$0 \rightarrow \tilde S_*(x_0) \stackrel{i}{\rightarrow} \tilde S_*(X) \stackrel{p}{\rightarrow} S_*(X,x_0) \rightarrow 0$$
 					- Commutativity and exactness can be easily verified.
 				- We have the exact sequence
 				  $$
@@ -693,3 +710,4 @@
 				  $$
 				- The remaining task is to show $\operatorname{Im} i=0$.
 				  This is easy, since $\tilde Z_0(x_0)=0$, we have $\tilde H_0(x_0)=0$.
+	- Corollary. The dimension axiom becomes $\tilde H_n({x_0})=0$ for all n, which is more convenient to operate with.

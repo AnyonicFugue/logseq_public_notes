@@ -64,7 +64,6 @@
 		- In the language of gauge constraints, $\prod_j D_j$ and $1$ generate the same gauge field configuration.
 		  But if $\prod_j D_j |\psi\rangle$ and $1 |\psi\rangle$ cancel, then the state doesn't survive the projection.
 	- ## Setup
-	  collapsed:: true
 		- PBC and APBC
 		  collapsed:: true
 			- PBC: The gauge choice of all $u=-1$
@@ -80,7 +79,6 @@
 			  c_{-\mathbf{k}, s}=c_{\mathbf{k}, s}^{\dagger}
 			  $$
 		- Time-reversal (TR) invariant points
-		  collapsed:: true
 			- They will need special care!
 			- $$\mathbf{k}=-\mathbf{k}+\mathbf{G}$$
 				- $G$ is a reciprocal lattice vector

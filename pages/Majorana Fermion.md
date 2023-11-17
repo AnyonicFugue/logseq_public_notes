@@ -27,8 +27,6 @@ alias:: Majorana Representation
 		- For each fermion there are two majorana modes.
 	- Inverse Transformation
 		- $$a_k=\frac {\gamma_{2k-1}+i \gamma_{2k}}{2}, a_k^\dagger=\frac {\gamma_{2k-1}-i \gamma_{2k}}{2}$$
-		-
-		-
 	-
 - # Basic Properties
 	- Commutation Relations

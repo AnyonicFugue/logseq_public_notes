@@ -14,6 +14,19 @@
 		  id:: 63c1416f-3871-4985-9009-5731e43864e6
 	- Embed the object under investigation into better spaces. #card
 	  id:: 63c1416f-d51b-4487-865b-f9d3cf9b5918
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-12-17T06:40:09.836Z
+	  card-last-reviewed:: 2023-11-16T00:40:09.837Z
+	  card-last-score:: 5
+		- Finiteness
+		- Algebraic structure
+			- Inverse
+			- Algebraic completeness
+			- Semisimplicity
+		- Topological structure
+			- Compactness
 	- Attack from the reversed direction, i.e. find necessary/sufficient conditions.
 	  id:: 654603c4-b600-4a67-9708-3275bdf5a61c
 	- Simplify the problem by adding conditions.

@@ -83,6 +83,12 @@
 	- Since $p<m$, there exists an imbedding $g: \Delta^p \rightarrow\left(\Delta^m\right)^{\circ}$ such that im $g$ contains no nonempty open subsets of $\left(\Delta^m\right)^{\circ}$.
 	- Both $U$ and $g(W)$ are homeomorphic subsets of $\left(\Delta^m\right)^{\circ}$; as $U$ is open and $g(W)$ is not, which is a contradiction.
 - # Simplicial Approximation #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-12-17T06:44:35.297Z
+  card-last-reviewed:: 2023-11-16T00:44:35.298Z
+  card-last-score:: 5
   collapsed:: true
 	- #+BEGIN_NOTE
 	  If we want a category whose objects are simplicial complexes, what are the morphisms?

@@ -148,10 +148,22 @@ alias:: [[Category Theory]]
 				  ![17f8a05a48cde13820edf7515c0e62b640ca5086.svg](../assets/17f8a05a48cde13820edf7515c0e62b640ca5086_1679214172048_0.svg){:height 49, :width 180} is $id_G$
 					- Note that they are **directly equal**, not linked by a natural isomorphism.
 			- Proposition. The two definitions are equivalent. #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2023-12-16T06:44:39.599Z
+			  card-last-reviewed:: 2023-11-15T00:44:39.600Z
+			  card-last-score:: 3
 				-
 				-
 			- Examples
 				- Theorem. The free functor is the left adjoint of the forgetful functor. （自由是遗忘的左伴随） #card
+				  card-last-interval:: 31.26
+				  card-repeats:: 1
+				  card-ease-factor:: 2.36
+				  card-next-schedule:: 2023-12-16T06:49:02.536Z
+				  card-last-reviewed:: 2023-11-15T00:49:02.536Z
+				  card-last-score:: 3
 					-
 				- Theorem. (Frobenius Reciprocity) Consider $\mathrm{Rep}(G)$ and $\mathrm{Rep}(Z(x))$ for some $x \in G$. We have two functors: a forgetful functor $F$ and a functor $\mathrm{Ind}$ of induced representations. Then $F$ is both the left and right adjoint of $G$. #card
 				  card-last-interval:: 31.26

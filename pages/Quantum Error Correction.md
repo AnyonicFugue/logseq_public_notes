@@ -45,11 +45,11 @@ alias:: Quantum Error Correcting Code
 			- Alice still wants to send a qubit to Bob.
 			- This time the channel performs $\sigma_z$ on any qubit with probability $\epsilon$.
 		- Code #card
-		  card-last-interval:: 10
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2022-12-11T11:51:01.779Z
-		  card-last-reviewed:: 2022-12-01T11:51:01.780Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2023-12-27T00:48:59.899Z
+		  card-last-reviewed:: 2023-11-15T00:48:59.899Z
 		  card-last-score:: 5
 			- In the Bell basis, phase flip becomes bit flip! Just reuse the bit-flip code.
 	- Nine-bit Shor code ((6385ffff-7f73-43a8-8dfe-bc77a21c6feb)) #card

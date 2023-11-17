@@ -137,6 +137,7 @@
 			- The last equation is consistent with the formula $\sigma^x \sigma^y \sigma^z=i$ because $D$ acts as the identity operator on the subspace $\mathcal{M}$.
 		-
 	- ## Extended Hamiltonian
+	  collapsed:: true
 		- The idea is to replace the Pauli operators by the extended Pauli operators.
 		- $$
 		  \begin{aligned}
@@ -163,7 +164,7 @@
 		  collapsed:: true
 		  ((64b44b79-886b-4eb4-ad32-9158770a65fa))
 			- ((64b44b9c-9c41-4142-a64e-968b5e4dbe19))
-	- ## Construct Solutions
+	- ## Gauge fields
 	  collapsed:: true
 		- Observation. (i) $u_{jk}$ commute with each other (ii) $u_{jk}$ commute with the Hamiltonian!
 		  id:: 64b44bb7-1b1b-4fda-9690-8018ad7cb6c1
@@ -213,6 +214,12 @@
 			  $$
 				- $A$ is a real anti-symmetric matrix of size $m=2N$, encoding the eigenvalues of $\{u_{jk}\}$.
 				- Proposition. The prefactor satisfies $[-i H(A),-i H(B)]=-i H([A, B])$, thus the Lie algebra is isomorphic to $\mathfrak{so}(2m)$. #card
+				  card-last-interval:: 32.57
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-12-17T13:48:19.163Z
+				  card-last-reviewed:: 2023-11-15T00:48:19.163Z
+				  card-last-score:: 5
 					- The proof is not hard.
 						- To make $c_jc_k$ and $c_l c_m$ anti-commute, we must identify a pair.
 						- On the other hand, elements of $\mathfrak{so}(2m)$ are precisely anti-symmetric real matrices.
@@ -253,7 +260,6 @@
 				- The factor is $1/2$ rather than $1/4$ since each mode is counted twice by the anti-symmetric matrix.
 		- Step 2. Perform Fourier transformation to make use of translation invariance
 			- We study the configuration where all $u=1$.
-			  collapsed:: true
 			- $$
 			  \begin{gathered}
 			  H=\frac{1}{2} \sum_{\mathbf{q}, \lambda, \mu} i \widetilde{A}_{\lambda \mu}(\mathbf{q}) a_{-\mathbf{q}, \lambda} a_{\mathbf{q}, \mu}, \quad \widetilde{A}_{\lambda \mu}(\mathbf{q})=\sum_t e^{i\left(\mathbf{q}, \mathbf{r}_t\right)} A_{0 \lambda, t \mu} \\
@@ -266,6 +272,7 @@
 					- However, note that $p$ and $-p$ are intertwined.
 				-
 		- Result:
+		  collapsed:: true
 		  $$
 		  \begin{gathered}
 		  i \widetilde{A}(\mathbf{q})=\left(\begin{array}{cc}
@@ -310,7 +317,7 @@
 			  $$\begin{align*}
 			  b_{p,\pm }^{\dagger } & =\frac{1}{\sqrt{2}}\left( a_{p,1}^{\dagger } \pm {\frac{-if^{*}( p)}{|f( p)|}} a_{p,2}^{\dagger }\right)
 			  \end{align*}$$
-		- Note that we don't need a chemical potential to decides which states are occupied here, since the eigenenergies are **absolute**.
+		- Note that we don't need a chemical potential to decide which states are occupied here, since the eigen-energies are **absolute**.
 			- i.e. The modes with $\varepsilon < 0$ are occupied and those with $\varepsilon > 0$ are not.
 		- Is the phase gapless?
 		  collapsed:: true

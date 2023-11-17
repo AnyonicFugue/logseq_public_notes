@@ -3,6 +3,12 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 -
 - # PEPS Formalism #card
   collapsed:: true
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-12-16T06:47:09.522Z
+  card-last-reviewed:: 2023-11-15T00:47:09.522Z
+  card-last-score:: 5
 	- Start from a (virtual) chain of maximally entangled pairs.
 	  collapsed:: true
 		- ((64c68156-c82e-4925-994b-08a60283cd79))
@@ -11,7 +17,6 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 		  |\psi\rangle=\frac{1}{\sqrt{D}} \sum_{\alpha=1}^D|\alpha \alpha\rangle
 		  $$
 	- Perform the projection from the virtual space to the physical space.
-	  collapsed:: true
 		- $$
 		  P=\sum_{i, \alpha, \beta} A_{i, \alpha, \beta}|i\rangle\langle\alpha \beta|
 		  $$
@@ -349,6 +354,12 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 				-
 	- Theorem. There is no intrinsic topological order in 1D bosonic systems. #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-12-17T06:41:57.902Z
+	  card-last-reviewed:: 2023-11-16T00:41:57.903Z
+	  card-last-score:: 5
 		- Main line of the proof
 			- Gapped 1D bosonic state -> Short-range correlated (injective) MPS.
 			  logseq.order-list-type:: number
@@ -368,7 +379,6 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 			- See ((64c69deb-c2c4-4b90-9848-ec3506076588)), property 3.
 			  'Fixed point' <-> Eigenvector with eigenvalue +1.
 		- Step 3. Prove the diagonalization of $\Lambda$.
-		  collapsed:: true
 			- Let the left eigenvector is $\Lambda_{\alpha \gamma}^l$ and the right eigenvector is $\Lambda_{\beta \chi}^r$
 			  collapsed:: true
 			  $$
@@ -569,6 +579,7 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 			- Note that the symmetry could be extended to the Hilbert space, i.e. $Z$ acting on inner indices <-> $\sigma_Z$ acting on edges.
 				- However, since tensor networks are discrete and 'classical', the operator is restricted by the classical configurations.
 		- ### Stability and Symmetry
+		  collapsed:: true
 			- A bit problematic when calculating the norms of Schmidt states. Further investigation needed.
 			  background-color:: red
 			- Summary

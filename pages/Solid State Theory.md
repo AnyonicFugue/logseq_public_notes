@@ -79,18 +79,16 @@ type:: [[Course]]
   collapsed:: true
 	- Defs and Setup
 	  collapsed:: true
-		- Linear response function $\chi(t,t')$ #card
+		- Linear response function $\chi(t,t')$
 		  card-last-interval:: 30
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
 		  card-next-schedule:: 2023-06-29T02:59:33.860Z
 		  card-last-reviewed:: 2023-05-30T02:59:33.861Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- $\hat H=\hat H_0-h(t)\hat A$
 			- $\langle\hat{B}\rangle(t)=y(t)$ satisfies $y(t)=\int_{-\infty}^t d t^{\prime} \chi\left(t, t^{\prime}\right) h\left(t^{\prime}\right)$
 		- Correlation
-		  collapsed:: true
 			- $S_{B A}\left(t, t^{\prime}\right):=\left\langle\hat{B}(t) \hat{A}\left(t^{\prime}\right)\right\rangle$
 	- Introduce ((645712fb-6e94-424c-a970-bb124f0c8e65))
 	  collapsed:: true

@@ -1,10 +1,10 @@
-- ## Deutsch Josa #card
-  card-last-interval:: 252.3
-  card-repeats:: 4
-  card-ease-factor:: 2.9
-  card-next-schedule:: 2024-02-10T08:13:44.970Z
-  card-last-reviewed:: 2023-06-03T01:13:44.971Z
-  card-last-score:: 5
+## Deutsch Josa #card
+card-last-interval:: 252.3
+card-repeats:: 4
+card-ease-factor:: 2.9
+card-next-schedule:: 2024-02-10T08:13:44.970Z
+card-last-reviewed:: 2023-06-03T01:13:44.971Z
+card-last-score:: 5
 	- Problem
 		- We have a function $f:\{0,1\}^n \rightarrow\{0,1\}$, which is promised to be constant or balanced.
 		  We wish to find which it is the case.
@@ -23,12 +23,12 @@
 	- Note: In general, there are $2^{2^n}$ possible functions, while only $2^n$-dimensional space. So we **can't** obtain 'which function it is' precisely.
 	  However, it is possible to divide them into $2^n$ classes.
 - ## Quantum Search #card
-  card-last-interval:: 25.01
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-02-06T00:26:10.168Z
-  card-last-reviewed:: 2023-01-12T00:26:10.169Z
-  card-last-score:: 5
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.46
+  card-next-schedule:: 2023-12-23T00:47:59.438Z
+  card-last-reviewed:: 2023-11-11T00:47:59.438Z
+  card-last-score:: 3
 	- Problem
 		- We have a function $f:\{0,1\}^n \rightarrow\{0,1\}$, $$f(x)= \begin{cases}1 & \text { if } x=x_0 \\ 0 & \text { otherwise }\end{cases}$$
 		  We want to find $x_0$.

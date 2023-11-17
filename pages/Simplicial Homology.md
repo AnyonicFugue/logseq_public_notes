@@ -49,6 +49,7 @@ collapsed:: true
 		  H_q(K, L)=H_q\left(C_*(K) / C_*(L)\right) .
 		  $$
 	- [Euler-Poincare Characteristic](((65449fbd-691c-4c46-b321-9ac7fd2bd3c6)))
+	  id:: 65449ee4-4fd8-4434-9901-7b28ee9a9cf9
 	- ## Reduced Homoloty
 	  collapsed:: true
 		- Augmented complex
@@ -61,6 +62,12 @@ collapsed:: true
 			  \tilde{H}_q(K)=H_q\left(\widetilde{C}_*(K)\right)
 			  $$
 - # Setting up the homology and verifying axioms #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-12-15T06:43:26.076Z
+  card-last-reviewed:: 2023-11-14T00:43:26.077Z
+  card-last-score:: 3
   collapsed:: true
 	- Don't forget to check the functoriality!
 	-

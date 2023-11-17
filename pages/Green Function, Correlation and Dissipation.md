@@ -135,11 +135,11 @@
 		  G_{AB}\left(\omega_n, \mathbf{p}\right)=\int_0^{\beta \hbar} \mathrm{e}^{\mathrm{i} \omega_n \tau} G_{AB}(\tau, \mathbf{p}) \mathrm{d} \tau
 		  $$
 	- Prop. $G_{AB} (\tau )=\eta G_{AB} (\tau +\beta )$ #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-30T18:14:05.441Z
-	  card-last-reviewed:: 2023-05-30T12:14:05.441Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-23T00:48:22.979Z
+	  card-last-reviewed:: 2023-11-11T00:48:22.979Z
 	  card-last-score:: 5
 		- \begin{equation*}
 		  \begin{aligned}

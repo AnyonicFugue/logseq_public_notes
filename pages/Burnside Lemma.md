@@ -1,11 +1,11 @@
-- **Counting orbits of group actions** #card
-  card-last-interval:: 84
-  card-repeats:: 3
+- **Number of orbits of group actions and fix points of elements** #card
+  card-last-score:: 1
+  card-repeats:: 1
+  card-next-schedule:: 2023-11-11T16:00:00.000Z
+  card-last-interval:: -1
   card-ease-factor:: 2.8
-  card-next-schedule:: 2023-08-13T00:48:33.432Z
-  card-last-reviewed:: 2023-05-21T00:48:33.432Z
-  card-last-score:: 5
-	- Given a finite group $G$ acting 1 on a set $X$. The number of orbits in $X$ due to this group action is given by
+  card-last-reviewed:: 2023-11-11T01:03:37.183Z
+	- Given a finite group $G$ acting on a set $X$. The number of orbits in $X$ due to this group action is given by
 	  $$
 	  \text { number of orbits }=\frac{1}{|G|} \sum_{h \in G}\left(\begin{array}{c}
 	  \text { number of elements of } X \\
@@ -14,6 +14,7 @@
 	  $$
 	- There is no relationship with group representations!
 	  background-color:: red
+	  collapsed:: true
 		- To count the number of irreps of the 'action representation',
 		  $$\text{\#irrep}=\langle\chi,\chi\rangle\\=\frac 1 {|G|} \sum_g \chi(g)^2$$
 		- This is **different** from the above formula.
@@ -21,6 +22,9 @@
 			- 1 orbit, 2 irrep.
 	- Proof
 		- Key proposition: Size of orbit of $x$ = $\frac{|G|}{|C(x)|}$
+		- Key idea
+			- Treat every element in an orbit equally, i.e. divide the 'contribution to the number of orbit' between them.
+			- Rather than selecting a representative element, we directly put symmetry on the whole class!
 		- The number of orbits could be expressed by a sum. Moreover, the order of summation could be interchanged.
 - **Dimensions of irreps**
 	-

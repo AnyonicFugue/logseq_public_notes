@@ -1,5 +1,11 @@
 # Definitions
 	- ((653334b3-01a6-45cd-a0b6-48dd55b9c729)) $\operatorname{Ext}(A, G)$ #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-12-16T06:44:52.307Z
+	  card-last-reviewed:: 2023-11-15T00:44:52.307Z
+	  card-last-score:: 3
 		- For each abelian group $A$, choose an exact sequence $0 \rightarrow R \stackrel{i}{\rightarrow} F \rightarrow$ $A \rightarrow 0$ with $F$ (and hence $R$ ) **free abelian**.
 			- This is perfectly OK.
 			  For example, $\mathbb Z$ and $\mathbb{nZ}$ are both free abelian, but $\mathbb Z/\mathbb{nZ}$ is the familiar $\mathbb Z_n$.
@@ -35,6 +41,12 @@
 - # Cohomology
 	- Lemma. There is a natural map
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-12-15T06:44:38.883Z
+	  card-last-reviewed:: 2023-11-14T00:44:38.884Z
+	  card-last-score:: 3
 	  $$
 	  \left.\beta: H^n\left(\operatorname{Hom}\left(S_*, G\right)\right) \rightarrow \operatorname{Hom}\left(H_n\left(S_*\right), G\right)\right)
 	  $$

@@ -2,6 +2,12 @@
 - # Definition
 - # Separable algebra
 	- Def #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-12-17T06:42:26.379Z
+	  card-last-reviewed:: 2023-11-16T00:42:26.380Z
+	  card-last-score:: 3
 		- An algebra $(A, \mu, \eta) \in C$ is separable if there is an $A$-$A$-bimodule homomorphism $\delta: A \to A \otimes A$, with
 			- $\mu \circ \delta =\mathrm{id}_A$
 			- Frobenius conditions
