@@ -75,13 +75,13 @@ alias:: QED
   card-next-schedule:: 2022-12-16T07:44:12.953Z
   card-last-reviewed:: 2022-12-06T07:44:12.953Z
   card-last-score:: 5
-  collapsed:: true
 	- $H_{\mathrm{int}}=\int d^3 x\ e \bar{\psi} \gamma^\mu \psi A_\mu$
 		- So elegant! $\gamma^\mu$ marries $A_\mu$
 		- Would different choice of gamma affect physics? eg. Weyl or Majarona? #Inbox/Problem
 	- ((636909d9-c786-4017-88e5-4c0d88ed061e))
 	- See [[Feynman rules]]
 - # Elementary processes
+  collapsed:: true
 	- Summary #card
 	  card-last-interval:: 25.01
 	  card-repeats:: 1
@@ -95,6 +95,7 @@ alias:: QED
 			- The order of matrix multiplication is only a notation of how the indices contract.
 			  Explicitly write them out is a good way.
 	- ## $e^+e^-\to\mu^+\mu^-$
+	  collapsed:: true
 		- ((636a08cd-dc0b-497c-84e8-1209396c615e))
 		-
 		- ### Simplifications
@@ -103,6 +104,7 @@ alias:: QED
 		- ((63690855-079b-41b7-95c3-4e8e1dd1b950))
 			- The expression isn't difficult. But to find $|\mathcal{M}|^2$, we need to **find its complex conjugation**
 		- ### Perform the spin sum
+		  collapsed:: true
 			- ((636a0a09-665c-450a-81b8-fc919bb5d8e5)). Thus we can use spin sums to simplify the expression.
 				- Actually **sum** over outgoing spins and **average** over incoming spins
 			- Conjugation of bi-spinor products ((636a0984-d932-4dd2-a89e-963d90acda08))
@@ -129,6 +131,7 @@ alias:: QED
 		  card-last-interval:: 297.18
 		  card-ease-factor:: 2.66
 		  card-last-reviewed:: 2023-08-08T12:52:44.736Z
+		  collapsed:: true
 			- Draw **two** diagrams
 				- Reminder: The lines can cross!
 				- The better strategy should be first draw the vertices (including internal ones), then find out all possible ways of connecting them.

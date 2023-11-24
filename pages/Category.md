@@ -600,11 +600,11 @@ alias:: [[Category Theory]]
 				-
 				- Note $A \in E_3\mathrm{Alg}(S)$
 			- Left $E_1$-module over braided monoidal cat #card
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.36
-			  card-next-schedule:: 2023-08-27T19:17:08.175Z
-			  card-last-reviewed:: 2023-07-27T13:17:08.176Z
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.22
+			  card-next-schedule:: 2023-12-30T00:56:25.847Z
+			  card-last-reviewed:: 2023-11-18T00:56:25.847Z
 			  card-last-score:: 3
 				- Physically corresponds to {{cloze 1D boundary of 2D TO}}
 				- A tuple $(M, \odot: B \times M \to M, \alpha^M, \lambda^M)$

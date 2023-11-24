@@ -193,12 +193,13 @@
 		- Note that $\mathrm{supp} \ \zeta$ is compact since it is a finite union of compact subsets.
 	- The cone construction #card
 	  id:: 6461ca0c-d0bf-40d1-bc3f-5ce24fd244b9
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-06-15T00:29:37.625Z
-	  card-last-reviewed:: 2023-05-16T00:29:37.625Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-12-30T01:03:02.579Z
+	  card-last-reviewed:: 2023-11-18T01:03:02.580Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- The 'cone map' $c_n:S_n (X) \to S_{n+1} (X)$ for a convex subset of $\mathbb R^n$ by its action on the generators:
 		  $$
 		  (c_n( \sigma))\left(t_0, t_1, \ldots, t_{n+1}\right)= \begin{cases}b & \text { if } t_0=1 \\ t_0 b+\left(1-t_0\right) \sigma\left(\frac{t_1}{1-t_0}, \ldots, \frac{t_{n+1}}{1-t_0}\right) & \text { if } t_0 \neq 1\end{cases}
@@ -632,6 +633,10 @@
 				- Definition. A continuous map $f$ : $S^n \rightarrow S^n$ (where $n>0$ ) has degree $m$, denoted by $d(f)=m$, if $f_*: H_n\left(S^n\right) \rightarrow H_n\left(S^n\right)$ is multiplication by $m$.
 			- Definition. If $x=\left(x_1, \ldots, x_{n+1}\right) \in S^n$, its antipode is $-x=\left(-x_1, \ldots,-x_{n+1}\right)$. The antipodal map $a=a^n: S^n \rightarrow S^n$ is defined by $x \mapsto-x$.
 			-
+			- Proof
+				- First, the antipodal map is the composition of $n+1$ maps to invert one coordinate. So we only need find the degree of one such map.
+				-
+				-
 - # The Homotopy Axiom
   collapsed:: true
 	- We are concerned with the problem:
@@ -748,9 +753,17 @@
 	  card-next-schedule:: 2023-07-07T07:41:36.766Z
 	  card-last-reviewed:: 2023-06-06T01:41:36.766Z
 	  card-last-score:: 5
-- # The Hurewicz Theorem
+- # The Hurewicz Theorem #card
+  id:: 654072b9-eb4d-452a-bd41-aff0c934d68c
   collapsed:: true
-	- Theorem. The Hurewicz map is a homomorphism. #card
+	- Definition. Hurewicz map
+		- For any path-connected space $X$ and positive integer $n$ there exists a group homomorphism
+		  $$
+		  h_*: \pi_n(X) \rightarrow H_n(X),
+		  $$
+		  called the Hurewicz homomorphism, defined in the following way: choose a canonical generator $u_n \in H_n\left(S^n\right)$, then a homotopy class of maps $f \in \pi_n(X)$ is taken to $f_*\left(u_n\right) \in H_n(X)$.
+		- For $n=1$, it is just 'taking the homology class of the path'.
+	- Theorem. The Hurewicz map is a homomorphism.
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
@@ -758,14 +771,6 @@
 	  card-last-reviewed:: 2023-08-22T13:16:39.273Z
 	  card-last-score:: 5
 	  collapsed:: true
-		- Definition. Hurewicz map
-		  collapsed:: true
-			- For any path-connected space $X$ and positive integer $n$ there exists a group homomorphism
-			  $$
-			  h_*: \pi_n(X) \rightarrow H_n(X),
-			  $$
-			  called the Hurewicz homomorphism, defined in the following way: choose a canonical generator $u_n \in H_n\left(S^n\right)$, then a homotopy class of maps $f \in \pi_n(X)$ is taken to $f_*\left(u_n\right) \in H_n(X)$.
-			- For $n=1$, it is just 'taking the homology class of the path'.
 		- The goal is to prove that $\varphi([f * g])=\varphi([f])+\varphi([g])$, i.e.
 		  collapsed:: true
 		  $$\operatorname{cls} (f*g)\eta=\operatorname{cls} f\eta+\operatorname{cls} g\eta$$
@@ -798,10 +803,9 @@
 	  card-next-schedule:: 2023-07-12T08:15:12.784Z
 	  card-last-reviewed:: 2023-06-15T01:15:12.784Z
 	  card-last-score:: 5
-	  collapsed:: true
 	  $$
 	  \pi_1\left(X\right) / \pi_1\left(X\right)^{\prime} \cong H_1(X)
-	  $$ #card
+	  $$
 		- *Could be generalized to higher homotopy and homology groups, which would lead to new insights!
 		- Surjectivity
 			- Could be explicitly constructed by 'joining' the simplexes like line segments to form a closed path.
@@ -809,5 +813,11 @@
 			- Step 1. $\pi_1' \sub \operatorname{ker}\varphi$
 				- It's rather simple, since $H_1(X)$ is abelian and every $H=G'$ is the smallest subgroup s.t. $G/H$ is abelian.
 			- Step 2. $\operatorname{ker}\varphi \sub \pi_1'$
-				- To be understood
-				  background-color:: red
+				- #+BEGIN_NOTE
+				  It is necessary to look into the boundary map and construct paths.
+				  #+END_NOTE
+				- First, we consider some $f \in \operatorname{ker} \varphi$, i.e. $f \eta = \partial_2 \sigma$.
+				- Expand into basis elements (2-simplexes),
+				  $$\gamma\eta=\sum n_{i}(\tau_{i0}-\tau_{i1}+\tau_{i2})$$
+				- Then it is necessary to construct a path. However, it is easier to work in the abelian group $\pi / \pi'$ where all elements commute.
+				- The rest of the work is to construct a path and show that it indeed belongs to $\pi'$, which requires some simple algebra.

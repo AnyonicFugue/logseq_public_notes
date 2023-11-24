@@ -596,6 +596,7 @@ type:: [[Course]]
 		  #+END_WARNING
 			-
 	- Polarization
+	  collapsed:: true
 		- Definition. The phase difference between $E_x$ and $E_y$.
 			- Another viewpoint: The wave could be viewed as a superposition of x-polarized and y-polarized waves. There is a phase difference between the two components.
 		- Linear polarization
@@ -607,6 +608,7 @@ type:: [[Course]]
 		- Ellipsoidal polarization
 			- General case.
 	- Impedance of free space
+	  collapsed:: true
 		- Recall the definition
 		  $$
 		  Z=\frac{|E|}{|H|}
@@ -617,7 +619,6 @@ type:: [[Course]]
 		  $$
 - # Drude Model
 	- Three types of charge in medias
-	  collapsed:: true
 		- Nuclei
 			- Very heavy, immobile
 		- Valence electron
@@ -626,7 +627,6 @@ type:: [[Course]]
 		- Itinerant electron
 			- Could move freely.
 	- Fourier Transformation
-	  collapsed:: true
 		- In general, the response to external field is neither local nor instantaneous,
 		  $$
 		  \begin{aligned}
@@ -645,7 +645,6 @@ type:: [[Course]]
 	-
 	- Effective AC conductance
 		- Assumptions
-		  collapsed:: true
 			- Fraction force
 				- $$f=-\frac {m \vec v}{\tau}$$
 					- $\tau$ is called the relaxation time.
@@ -681,6 +680,7 @@ type:: [[Course]]
 				- $\sigma$ is dominated by the imaginary part.
 				- Almost no energy dissipation.
 	- Effective Dielectrical constant
+	  collapsed:: true
 		- Key idea
 			- In high frequency, the current formed by itinerant electrons should also be viewed as a part of polarization.
 		- $$
@@ -698,5 +698,120 @@ type:: [[Course]]
 			  \omega_p=\sqrt{\frac{n_e e^2}{\varepsilon_0 m}}
 			  $$
 		- We often ignore $\epsilon_v \approx 1$, since the contribution of the second term is often much larger.
--
--
+	- Effective Maxwell equations
+		- $$
+		  \left\{\begin{array}{c}
+		  \nabla \cdot(\varepsilon(\omega) \vec{E})=0 \\
+		  \nabla \times \vec{E}=i \omega \mu_0 \vec{H} \\
+		  \nabla \cdot \vec{H}=0 \\
+		  \nabla \times \vec{H}=-i \omega \varepsilon(\omega) \vec{E}
+		  \end{array}\right.
+		  $$
+	-
+	- Electromagnetic Wave
+		- Start from the effective Maxwell equations, where the 'free current' is regarded as a part of the  polarized current.
+		- Apply $\nabla \times$ to the last equation, we see that
+		  $$
+		  -\nabla^2 \vec{H}=\nabla \times(\nabla \times \vec{H})=\omega^2 \varepsilon(\omega) \mu_0 \vec{H}
+		  $$
+		- Therefore, the dispersion relation is
+		  $$
+		  k^2=\left(\frac{\omega}{c}\right)^2 \varepsilon_r(\omega)
+		  $$
+			- Note that we used $\varepsilon_0 \mu_0=\frac 1 {c^2}$
+		- Recall that
+		  $$
+		  \varepsilon_r(\omega)=1+i \frac{\sigma(\omega)}{\varepsilon_0 \omega}=1-\frac{\omega_p^2}{\omega(\omega+i / \tau)}
+		  $$
+		-
+		- Two limits
+		  collapsed:: true
+			- $\omega \ll 1/\tau$
+				- $\varepsilon_r$ is dominated by the imaginary part. We can ignore the real part.
+				- Then $k=(1+i)\alpha$, which means the wave would both propagate and decay.
+			- $\omega \gg 1/\tau$
+				- We could ignore $i/\tau$ and take
+				  $$\varepsilon_r(\omega)=1-\frac{\omega_p^2}{\omega^2}$$
+				- $\omega < \omega_p$
+					- $\varepsilon_r<0$, $k$ is purely imaginary.
+					- i.e. The wave has only exponential decay.
+				- $\omega =\omega_p$
+					- Resonance is realized. The wave doesn't decay or propagate.
+				- $\omega > \omega_p$
+					- $\varepsilon_r>0$, the conductor becomes a media even sparser than the vacuum.
+					- The wave could propagate without decay, but there would be reflection at the surface.
+- # Faraday effect and rotational media
+	- Farady effect: External magnetic field as the microscopic mechanism
+		- $$
+		  m \frac{\partial \vec{v}}{\partial t}=e\left[\vec{E}+\vec{v} \times \vec{B}_0\right] \\
+		  \vec{E}(t)=\vec{E}_0 e^{-i \omega t}
+		  $$
+		- As usual, we plug in a harmonic solution:
+		  $$
+		  \vec{v}(t)=\vec{v}_0 e^{-i \omega t}
+		  $$
+		- After some tedious algebra, we find that
+		  $$
+		  \begin{aligned}
+		  & j_x=\frac{n_e e^2}{m} \frac{i \omega E_{0 x}+\omega_B E_{0 y}}{\omega^2-\omega_B^2} e^{-i \omega t}=\frac{\varepsilon_0 \omega_p^2}{\omega^2-\omega_B^2} i \omega E_x+\omega_B E_y \\
+		  & j_y=\frac{\varepsilon_0 \omega_p^2}{\omega^2-\omega_B^2} i \omega E_x-\omega_B E_y \\
+		  & j_z=-\frac{\varepsilon_0 \omega_p^2}{i \omega} E_z
+		  \end{aligned}
+		  $$
+			- $$\omega_B=-\frac {e B_0}{m}$$
+		- Rephrased, the conductance is a non-diagonal tensor
+		  $$
+		  \stackrel{\leftrightarrow}{\sigma}(\omega)=\frac{\omega_p^2 \varepsilon_0}{\omega^2-\omega_B^2}\left[\begin{array}{ccc}
+		  i \omega & \omega_B & 0 \\
+		  -\omega_B & i \omega & 0 \\
+		  0 & 0 & -\frac{\omega^2-\omega_B^2}{i \omega}
+		  \end{array}\right] .
+		  $$
+		- Continue to solve the effective dielectric constant, we find that it is also a non-diagonal tensor
+		  $$
+		  \overleftrightarrow{\varepsilon}_r(\omega)=I+i \frac{1}{\varepsilon_0 \omega} \stackrel{\leftrightarrow}{\sigma}=\left[\begin{array}{ccc}
+		  \varepsilon_1 & i \varepsilon_2 & 0 \\
+		  -i \varepsilon_2 & \varepsilon_1 & 0 \\
+		  0 & 0 & \varepsilon_3
+		  \end{array}\right]
+		  $$
+			- $$
+			  \varepsilon_1=1-\frac{\omega_p^2}{\omega^2-\omega_B^2}, \quad \varepsilon_2=\frac{\omega_p^2 \omega_B}{(\omega^2-\omega_B^2) \omega}, \quad \varepsilon_3=1-\frac{\omega_p^2}{\omega^2}
+			  $$
+	- General case: Media with a non-diagonal dielectric tensor
+		- Effective Maxwell equation
+			- $$
+			  \left\{\begin{array} { c } 
+			  { \nabla \cdot ( \varepsilon _ { 0 } \vec { E } ) = \rho _ { f } } \\
+			  { \nabla \times \vec { E } = - \frac { \partial } { \partial t } \vec { B } } \\
+			  { \nabla \cdot \vec { B } = 0 } \\
+			  { \nabla \times \vec { H } = \vec { j } _ { f } + \varepsilon _ { 0 } \frac { \partial } { \partial t } \vec { E } }
+			  \end{array} \Rightarrow \left\{\begin{array}{c}
+			  \vec{k} \cdot\left(\vec{\varepsilon}_r \cdot \vec{E}_0\right)=0 \\
+			  \vec{k} \times \vec{E}_0=\omega \mu_0 \vec{H}_0 \\
+			  \vec{k} \cdot \vec{H}_0=0 \\
+			  \vec{k} \times \vec{H}_0=-\omega \varepsilon_0 \vec{\varepsilon}_r \cdot \vec{E}_0
+			  \end{array}\right.\right.
+			  $$
+			- Note that in the last equation we've already taken free current as a part of the polarized current.
+		- Simplifications
+			- $$
+			  \omega>\sqrt{\left(\omega_p\right)^2+\left(\omega_B\right)^2} ; \quad \omega_p>>\omega_B
+			  $$
+				- $\varepsilon_1, \varepsilon_2$ are both positive, $\varepsilon_1 \gg \varepsilon_2$
+			- $$
+			  \vec{k}=k \hat{e}_z
+			  $$
+				- The light propagates along a diagonalized direction.
+				- The wave would still be traverse.
+		- Solution
+			- $$
+			  k^2 \vec{E}_0=k_0^2 \vec{\varepsilon}_r \cdot \vec{E}_0
+			  $$
+			- There would be two eigen-solutions, corresponding to eigenvectors of the dielectric tensor.
+		- The rotationary effect
+			- The left-circular and right-circular polarizations have different phase speeds.
+				- $$
+				  k_{+}=\frac{\omega}{c} \sqrt{\varepsilon_1+\varepsilon_2}, \quad k_{-}=\frac{\omega}{c} \sqrt{\varepsilon_1-\varepsilon_2}
+				  $$
+			- Therefore when a linearly polarized light propagates in the material, the polarization direction would rotate.

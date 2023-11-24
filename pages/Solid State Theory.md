@@ -75,10 +75,9 @@ type:: [[Course]]
 			  \hat{c}_{n i}:=\frac{1}{\sqrt{V_0}} \int d^3 \vec{r} \hat{\psi}(\vec{r}) W_{n i}^*(\vec{r})
 			  $$
 			- Obviously they're the Fourier transform of the Block Fock operators.
-- # Linear Response
+- # Linear Response #card
   collapsed:: true
 	- Defs and Setup
-	  collapsed:: true
 		- Linear response function $\chi(t,t')$
 		  card-last-interval:: 30
 		  card-repeats:: 1
@@ -91,7 +90,6 @@ type:: [[Course]]
 		- Correlation
 			- $S_{B A}\left(t, t^{\prime}\right):=\left\langle\hat{B}(t) \hat{A}\left(t^{\prime}\right)\right\rangle$
 	- Introduce ((645712fb-6e94-424c-a970-bb124f0c8e65))
-	  collapsed:: true
 		- Leave the background part on the observable and the perturbation part to the density matrix (state).
 		  collapsed:: true
 			- $$
@@ -109,7 +107,6 @@ type:: [[Course]]
 				  $y(t)=y(0)+\int_{-\infty}^{t^{\prime}} d t^{\prime} h\left(t^{\prime}\right) \ \frac{i}{\hbar}\left\langle\left[\hat{B}_I(t), \hat{A}_I\left(t^{\prime}\right)\right]\right\rangle_{\rho_0}$
 				-
 		- Conclusion
-		  collapsed:: true
 			- The response function is 
 			  card-last-score:: 5
 			  card-repeats:: 2
@@ -119,7 +116,7 @@ type:: [[Course]]
 			  card-ease-factor:: 2.6
 			  card-last-reviewed:: 2023-05-30T12:35:26.189Z
 			  collapsed:: true
-			  $$\chi(t,t')= \frac{i}{\hbar}\left\langle\left[\hat{B}_I(t), \hat{A}_I\left(t^{\prime}\right)\right]\right\rangle_{\rho_0}$$ #card
+			  $$\chi(t,t')= \frac{i}{\hbar}\left\langle\left[\hat{B}_I(t), \hat{A}_I\left(t^{\prime}\right)\right]\right\rangle_{\rho_0}$$
 				- Interaction picture to separate $H_0$ and $A$
 				- Key idea: Slow-varying approximation
 				  collapsed:: true

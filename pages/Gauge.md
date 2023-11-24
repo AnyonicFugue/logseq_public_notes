@@ -41,7 +41,7 @@ alias:: Gauge Theory
 	- Thus we can select a basis where $D^{ab}=C(r) \delta^{a b}$, then $f^{a b c}=-\frac{i}{C(r)} \operatorname{tr}\left\{\left[t_r^a, t_r^b\right] t_r^c\right\}$
 		- It is completely antisymmetric.
 	- ## Some reps
-		- Fundamental representation for $SU(N)$ #card
+		- Fundamental representation for $SU(N)$
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
@@ -52,9 +52,15 @@ alias:: Gauge Theory
 			- It is complex, so there's a conjugate rep.
 			- Prop. This rep is irreducible.
 				-
-		- Adjoint representation for any simple Lie Algebra
+		- Adjoint representation for any simple Lie Algebra #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-12-22T06:55:50.958Z
+		  card-last-reviewed:: 2023-11-21T00:55:50.958Z
+		  card-last-score:: 5
 			- $\left(t_G^b\right)_{a c}=i f^{a b c}$
-				- Prop. It is indeed a valid rep. #card
+				- Prop. It is indeed a valid rep.
 				  card-last-interval:: 30
 				  card-repeats:: 2
 				  card-ease-factor:: 2.7
@@ -111,6 +117,8 @@ alias:: Gauge Theory
 			- The last term arises from the fact that the theory is non-abelian.
 		- Covariant derivative
 			- $D_\mu=\partial_\mu-i g A_\mu$
+		- Expansion by generators
+			- $A_\mu := A^a_\mu T_a$
 	- ## Transformation Rules #card
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
@@ -120,10 +128,11 @@ alias:: Gauge Theory
 	  card-last-score:: 5
 		- Spinor field
 			- $$\psi \to V(x)\psi$$
-		- Wilson line
+		- Wilson line (connection)
 			- id:: 64b4848f-9d1a-44f4-a9c4-9187e12d1c27
 			  $$U(y,x)\to V(y)U(y,x)V^\dag(x)$$
-			- The parallel transport changes in a manner consistent with fields.
+			- Proposition. Covariant derivative defined by this connection is indeed covariant.
+				- In short, the difference of gauge transformation at different points is absorbed by $U(y,x)$.
 		- Vector field (Connection)
 			- $$A_{\mu } (x)\rightarrow V(x)\left( A_{\mu } (x)+\frac{i}{g} \partial _{\mu }\right) V^{\dagger } (x)$$
 				- This can be derived from the transformation rule of the Wilson line.
@@ -131,11 +140,7 @@ alias:: Gauge Theory
 			  $$
 			  A_\mu^{a, \Lambda}(x)=A_\mu^a+f^{a b c} A_\mu^b \Lambda^c+\frac{1}{g} \partial_\mu \Lambda^a
 			  $$
-		- Covariant derivative
-			- $D_\mu=\partial_\mu-i g A_\mu$
-		- Expansion by generators
-			- $A_\mu := A^a_\mu T_a$
-		- Derive transformation rules from the Wilson line $U(y,x)\to V(y)U(y,x)V^\dag(x)$ #card
+		- Derive transformation rules from the Wilson line $U(y,x)\to V(y)U(y,x)V^\dag(x)$
 		  card-last-interval:: 42
 		  card-repeats:: 2
 		  card-ease-factor:: 2.7
@@ -146,6 +151,7 @@ alias:: Gauge Theory
 			- The vector field can be derived from $$U_P(z, y)=P\left\{\exp \left[i g \int_0^1 d s \frac{d x^\mu}{d s} A_\mu^a(x(s)) t^a\right]\right\}$$
 			- The covariant derivative can be derived by using $U$ as the connection
 - # Quantization by Path Integral
+  collapsed:: true
 	- Idea
 		- For path integral of gauge theories, we need to integrate over many equivalent configurations (related by gauge transformations).
 		- We hope to fix the gauge degrees of freedom and integrate over the physical ones.
@@ -314,7 +320,7 @@ alias:: Gauge Theory
 			- The transformation law shall be $D_\mu \psi(x) \rightarrow e^{i \alpha(x)} D_\mu \psi(x)$.
 		- It can be easily constructed if we have a ((640439c2-364e-4189-bae8-743a984441f4)).
 			- That is, some $U(y, x)$ transforming as $U(y, x) \longrightarrow e^{i \alpha(y)} U(y, x) e^{-i \alpha(x)}$
-				- Exercise. Examine this transformation law indeed produces a covariant derivative. #card
+				- Exercise. Examine this transformation law indeed produces a covariant derivative.
 				  card-last-interval:: 31.26
 				  card-repeats:: 1
 				  card-ease-factor:: 2.6
@@ -325,7 +331,7 @@ alias:: Gauge Theory
 			- $U(y, x)=\exp \left[-i e \int_\gamma A_\mu(x) d x^\mu\right]$
 			  id:: 6404430c-1c1c-40a7-a9f6-977362c15589
 				- Obviously $A_\mu$ must also transform.
-				- Exercise. Prove the law of transformation of $A_\mu$. #card
+				- Exercise. Prove the law of transformation of $A_\mu$.
 				  card-last-interval:: 31.2
 				  card-repeats:: 1
 				  card-ease-factor:: 2.6

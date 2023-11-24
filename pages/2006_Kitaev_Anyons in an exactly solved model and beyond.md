@@ -18,3 +18,10 @@ type:: paper_reading
 	  Denote ... m pairs ... vertically as $B$.
 	- Note that $A$ and $B$ both preserve the ground space.
 	- If the phase is nontrivial, $ABA^{-1}B^{-1} \neq I$, thus the ground space must be nontrivial.
+- id:: 655835d4-7915-4de3-8e80-23f91968e4b0
+  #+BEGIN_Warning
+  What to study after constructing and solving the model? What good questions are to be raised?
+  #+END_Warning
+	- An average physicist would be well satisfied with constructing and solving the model, maybe also calculating heat capacity and correlation functions.
+	  The huge hidden world of anyons would be missed.
+	- General algebraic structure of anyons and classification of topological orders

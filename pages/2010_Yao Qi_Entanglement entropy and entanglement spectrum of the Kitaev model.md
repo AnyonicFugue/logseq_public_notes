@@ -7,10 +7,9 @@ type:: paper_reading
 	- There is a numerical algorithm for the EE of the fermion part, thus MESs might be found numerically.
 - # Derivation of the EE
 	- ## Setup
-	  collapsed:: true
 		- Parition of the lattice
 		  collapsed:: true
-			- ((64dcdcd8-ac6a-4c83-b30b-6fb12670cf8b))
+			- ((65605963-bc22-4f8a-a333-fbb0e3ae2323))
 			- We regroup those gauge fields on the boundary links to introduce new Z2 gauge variables which lives in A and B exclusively.
 		- We suppose the boundary length is $2L$.
 		- Links across the boundary
@@ -81,7 +80,6 @@ type:: paper_reading
 		  $$
 			- $|\phi(u)\rangle$ is the free fermion part.
 			- Q: Why $|\phi(u)\rangle$ doesn't depend on $w$?
-			  collapsed:: true
 				- First of all, the wavefunction could be rewritten as
 				  $$\sum_{\{u\}} |u\rangle \otimes |\phi(u)\rangle$$
 				- We just selected a **single** $\{u\}$ and rewrite it as
@@ -150,7 +148,6 @@ type:: paper_reading
 		- The partial trace on $B$ doesn't depend on the gauge configuration.
 	-
 	- Employ the replica trick
-	  collapsed:: true
 		- Start from
 		  $$\begin{aligned}
 		  \rho _{A} & =\frac{1}{2^{N_{A} +L}}\sum _{g_{A} ,g_{A}^{\prime } ,w} X_{g_{A}}| u_{A} ,w> < u_{A} ,w| X_{g_{A}^{\prime }}^{\dagger } \otimes Y_{g_{A}}\operatorname{Tr}_{B,F}\left[ |\phi (u)\rangle \langle \phi (u)|\left( P_{B,F}^{x_{B} (w)}\right)\right] Y_{g_{A}^{\prime }}^{\dagger }

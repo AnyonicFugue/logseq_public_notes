@@ -61,8 +61,13 @@
 			  $$
 			  \hat{H}_{\mathrm{F}}\left(\alpha_1\right)=\hat{U}^{\dagger}\left(\alpha_2, \alpha_1\right) \hat{H}_{\mathrm{F}}\left(\alpha_2\right) \hat{U}\left(\alpha_2, \alpha_1\right)
 			  $$
-	- ## Analysis in Fourier space
-	  collapsed:: true
+	- ## Analysis in Fourier space #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-12-22T06:54:54.896Z
+	  card-last-reviewed:: 2023-11-21T00:54:54.896Z
+	  card-last-score:: 5
 		- Theorem. We may solve the Floquet states in the form of an eigenequation
 		  card-last-interval:: 42
 		  card-repeats:: 2
@@ -85,7 +90,7 @@
 		  \left| \phi _{n}^{(m+1)}\right> \\
 		  \vdots 
 		  \end{array}\right)
-		  \end{aligned}$$ #card
+		  \end{aligned}$$
 			- Notes
 				- Here the vector space is $\mathcal V^\omega=(\mathbb C ^ \omega)^\omega$, where $\mathcal V$ is the original Hilbert space.
 					- The 'component' of a vector here is a state $|\phi\rangle \in \mathcal V$.

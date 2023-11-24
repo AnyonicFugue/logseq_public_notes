@@ -345,11 +345,11 @@ alias:: GR
 			  $$
 			  so $\xi^a$ is completely determined by its value and first-order derivative at some point (as boundary conditions).
 				- Immediately we see that there are at most $n+n(n-1) / 2=n(n+1) / 2$ linear independent Killing fields. #card
-				  card-last-interval:: 42
-				  card-repeats:: 2
-				  card-ease-factor:: 2.7
-				  card-next-schedule:: 2023-09-21T12:24:39.403Z
-				  card-last-reviewed:: 2023-08-10T12:24:39.403Z
+				  card-last-interval:: 117.6
+				  card-repeats:: 3
+				  card-ease-factor:: 2.8
+				  card-next-schedule:: 2024-03-15T14:38:41.795Z
+				  card-last-reviewed:: 2023-11-19T00:38:41.796Z
 				  card-last-score:: 5
 					- *Reminder.
 					- $n(n-1)/2$ arises from $\nabla_a \xi_b+\nabla_b \xi_a=0$, i.e. antisymmetricity.

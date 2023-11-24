@@ -101,12 +101,12 @@
 				- Therefore any point has a neighborhood which is homeomorphic to ...
 			- Also note that the matrix Lie algebra is a submanifold, while Exp is a homeomorphism.
 		- ((63c3a497-cfe2-4196-937a-e539d56c9667)) If $G$ is a connected matrix Lie group, every element $A$ of $G$ can be written in the form
-		  card-last-interval:: 36.21
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-03-05T17:01:02.468Z
-		  card-last-reviewed:: 2023-01-28T12:01:02.469Z
-		  card-last-score:: 5
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.46
+		  card-next-schedule:: 2024-01-02T00:58:41.554Z
+		  card-last-reviewed:: 2023-11-21T00:58:41.554Z
+		  card-last-score:: 3
 		  $$
 		  A=e^{X_1} e^{X_2} \cdots e^{X_m}
 		  $$

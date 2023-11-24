@@ -49,7 +49,6 @@ $$
 		- Global
 			- No global symmetry is imposed in SM.
 	- ## Specify fields and corresponding reps
-	  collapsed:: true
 		- Spinor
 			- In SM the fields are
 			  collapsed:: true
@@ -78,9 +77,11 @@ $$
 			  H \sim(1,2)_{+\frac{1}{2}}
 			  $$
 		- Vector
-		  collapsed:: true
 			- In SM there are only gauge vector fields. No additional ones.
 	- ## Write down allowed terms
+	  collapsed:: true
+		- Notation
+			- $$\tilde{H}\equiv\epsilon H^*\sim(1\mathrm{~,~}2)_{-\frac12}$$
 		- The terms need to be Lorentz-invariant, satisfy the the symmetries, and be renormalizable.
 		- It turned out that allowed terms in SM are
 		  ((65475c6a-e2eb-4bb8-9932-3a87bdc6986e))
@@ -88,6 +89,7 @@ $$
 	-
 - # Electroweak Symmetry Breaking
 	- Definitions
+	  collapsed:: true
 		- $$
 		  \tan \theta_W \equiv \frac{g^{\prime}}{g}
 		  $$
@@ -129,13 +131,11 @@ $$
 		  $$
 		- Note that the symmetry breaking pattern is $SU(N) \to SU(N-1)$, thus here the whole $SU(2)$ is completely broken.
 	- Step 2. Find out masses of gauge bosons.
-	  collapsed:: true
 		- Now we should consider a bit more terms,
 		  $$
 		  \mathcal{L}=-\frac{1}{4} W_{a, \mu \nu} W_a^{\mu v}-\frac{1}{4} B_{\mu \nu} B^{\mu \nu}+\left(D_\mu H\right)^{\dagger}\left(D^\mu H\right)-m^2 H^{\dagger} H-\lambda\left(H^{\dagger} H\right)^2
 		  $$
 		- Find the mass terms
-		  collapsed:: true
 			- The mass terms originate from the covariant derivatives $\left(D_\mu H\right)^{\dagger}\left(D^\mu H\right)$,
 			  $$
 			  \frac{1}{\sqrt{2}}\left(\begin{array}{ll}
@@ -171,6 +171,7 @@ $$
 				- $W^\pm$ is defined in a manner such that they are charge eigenstates.
 				- $Z$ is rescaled to be canonically normalized.
 			- The mass terms then become
+			  id:: 65489294-0fbf-4ce2-b91c-98e3bb8575b5
 			  $$
 			  \frac{g^2 v^2}{4} W_\mu^{-} W^{+\mu}+\frac{1}{2}\left(g^2+g^{\prime 2}\right) \frac{v^2}{4} Z_\mu Z^\mu \equiv m_W^2 W_\mu^{-} W^{+\mu}+\frac{1}{2} m_Z^2 Z_\mu Z^\mu
 			  $$
@@ -205,6 +206,7 @@ $$
 	  \end{array}
 	  $$
 	- Step 3. Find out $U(1)_{EM}$
+	  collapsed:: true
 		- Write down the unbroken $U(1)_{EM}$ symmetry
 			- Under a general $S U(2)_W \times U(1)_Y$ transformation, we have
 			  $$
@@ -290,4 +292,97 @@ $$
 			  D^\mu=\partial^\mu+i e Q A^\mu
 			  $$
 			-
--
+	-
+	- The Higgs particle
+	  collapsed:: true
+		- It is a single scalar field in
+		  $$
+		  H=\frac{1}{\sqrt{2}}\left(\begin{array}{c}
+		  0 \\
+		  v+h
+		  \end{array}\right)
+		  $$
+		- Mass of the Higgs particle
+		  collapsed:: true
+			- Plug in
+			  $$\mathcal{L}=(D_\mu H)^\dagger\left(D^\mu H\right)-V(H)$$
+			- $$\begin{aligned}
+			  V(H)& \begin{aligned}=m^2H^\dagger H+\lambda\left(H^\dagger H\right)^2\end{aligned}  \\
+			  &=\lambda v^2h^2+\lambda vh^3+\frac\lambda4h^4+\text{ constant}
+			  \end{aligned}$$
+			- Therefore we can read off the mass
+			  $$m_h =\sqrt{2\lambda}v$$
+		- Interaction with gauge bosons
+			- Trick: Refer the the [mass terms](((65489294-0fbf-4ce2-b91c-98e3bb8575b5))) of gauge bosons and substitute $v$ by $v+h$.
+			-
+		-
+	- Custodial symmetry
+	  collapsed:: true
+		- Start from the tree-level relation
+		  $$\frac{m_W}{m_Z}=\cos\theta_W=\frac g{\sqrt{g^2+g^{\prime2}}}$$
+		- Note that when $g' \to 0$, we have $m_W=m_Z$. This is **not a coincidence**.
+		-
+		- The $O(4)$ global symmetry
+		  collapsed:: true
+			- Rewrite the fields as real fields, 
+			  $$H=\dfrac{1}{\sqrt{2}}\begin{pmatrix}\phi_3+i\phi_4\\\\\phi_1+i\phi_2\end{pmatrix}$$
+			- Then
+			  $$\begin{aligned}
+			  V(H)& \begin{aligned}=m^2H^+H+\lambda\left(H^+H\right)^2\end{aligned}  \\
+			  &=\frac{m^2}2\left(\phi_1^2+\phi_2^2+\phi_3^2+\phi_4^2\right)+\frac\lambda4\left(\phi_1^2+\phi_2^2+\phi_3^2+\phi_4^2\right)^2
+			  \end{aligned}$$
+			  which obviously have a $O(4)$ symmetry.
+		- The $O(3)$ symmetry and the custodial symmetry
+		  collapsed:: true
+			- $$\begin{aligned}&1\\\\&\langle\Phi\rangle=\begin{pmatrix}v\\0\\0\\0\end{pmatrix}\end{aligned}$$
+			- Apparently there is still a remaining $O(3)$ symmetry.
+		- This explains why $W_{1,2,3}^{\mu}$ have the same mass when $g' \to 0$. However, the symmetry is broken by the Yukawa interactions.
+	- Neutral and charged currents
+		- Interaction between fermions and gauge bosons
+			- Start from the kinetic terms
+			  $$i\bar{L}_{L}\not D L_{L}+i\bar{e}_{R} \not De_{R}$$
+			- Expand the covariant derivatives and redefine some terms, we find
+			  $$\mathcal{L}_{\mathrm{int}}\equiv-\frac{g}{\sqrt{2}}\left(W_{\mu}^{+}J_{+}^{\mu}+W_{\mu}^{-}J_{-}^{\mu}\right)-\frac{g}{c_{w}}Z_{\mu}J_{Z}^{\mu}-eA_{\mu}J_{EM}^{\mu}$$
+				- $$D^{\mu}=\partial^{\mu}+igT_{a}W_{a}^{\mu}+ig'YB^{\mu}$$
+				- Here we only consider the $SU(2)_W$ and $U(1)_Y$. Each gauge group would correspond to a gauge field in the covariant derivative.
+			- After including all quarks, the complete form is
+			  $$\begin{aligned}
+			  J_{+}^{\mu}& \begin{aligned}=\bar{\nu}_{L}^{i}\gamma^{\mu}e_{L}^{i}+\bar{u}_{L}^{\color{red}{i}}\gamma^{\mu}d_{L}^{\color{red}{i}},\end{aligned}  \\
+			  J\underline{\mu}& =\left.\bar{e}_{L}^{\color{red}{i}}\gamma^{\mu}\nu_{L}^{\color{red}{i}}+\bar{d}_{L}^{\color{red}{i}}\gamma^{\mu}u_{L}^{\color{red}{i}}\right.,  \\
+			  J_{Z}^{\mu}& =\left.\bar{\nu}_L^i\gamma^\mu\frac12\nu_L^i+\bar{e}_L^i\gamma^\mu\left(-\frac12+s_w^2\right)e_L^i+\bar{e}_R^i\gamma^\mu s_w^2e_R^i\right.  \\
+			  &+\bar{u}_{L}^{\color{red}{i}}\gamma^{\mu}\left(\frac12-\frac23s_{w}^{2}\right)u_{L}^{\color{red}{i}}+\bar{u}_{R}^{\color{red}{i}}\gamma^{\mu}\left(-\frac23s_{w}^{2}\right)u_{R}^{\color{red}{i}} \\
+			  &+\bar{d}_{L}^{i}\gamma^{\mu}\left(-\frac12+\frac13s_{w}^{2}\right)d_{L}^{i}+\bar{d}_{R}^{i}\gamma^{\mu}\left(\frac13s_{w}^{2}\right)d_{R}^{i}, \\
+			  J_{EM}^{\mu}& =-\bar{e}^i\gamma^\mu e^i+\frac23\bar{u}^i\gamma^\mu u^i-\frac13\bar{d}^i\gamma^\mu d^i, 
+			  \end{aligned}$$
+		- Since the term must be invariant under $U(1)_{EM}$, we can deduce the charges of multiple currents: $J_+$ must have charge $-1$, $J_-$ must have charge $+1$, and the remaining two are neutral.
+		-
+		-
+	- ## Fermion Masses
+	  collapsed:: true
+		- The masses come from the Yukawa interaction after EWSB.
+		- Treat two components of the $SU(2)$ doublets as different fields,
+		  $$Q_L=\begin{pmatrix}u_L\\\\d_L\end{pmatrix},\quad L_L=\begin{pmatrix}\nu_L\\\\e_L\end{pmatrix},\quad H=\frac1{\sqrt2}\begin{pmatrix}0\\v+h\end{pmatrix}$$
+			- This is necessary since EWSB breaks $SU(2)$ symmetry and requires treating different components separately.
+		- Then we have
+		  $$\begin{aligned}
+		  -\mathcal{L}_{\mathrm{Yukawa}}=& m_{u}^{\color{red}{ij}}\bar{u}_{L}^{\color{red}{i}}u_{R}^{\color{red}{j}}+m_{d}^{\color{red}{ij}}\bar{d}_{L}^{\color{red}{i}}d_{R}^{\color{red}{j}}+m_{e}^{\color{red}{ij}}\bar{e}_{L}^{\color{red}{i}}e_{R}^{\color{red}{j}}  \\
+		  &+\frac{\color{red}{y_u^{ij}}}{\sqrt{2}}h\bar{u}_L^iu_R^j+\frac{\color{red}{y_d^{ij}}}{\sqrt{2}}h\bar{d}_L^id_R^j+\frac{\color{red}{y_e^{ij}}}{\sqrt{2}}h\bar{e}_L^ie_R^j+\mathrm{h.c.}
+		  \end{aligned}$$
+			- Note that the generation indices are still present, which are to be diagonalized.
+			- $$m_u^{\color{red}{ij}}=\frac{y_u^{\color{red}{ij}}v}{\sqrt{2}},\quad m_d^{\color{red}{ij}}=\frac{y_d^{\color{red}{ij}}v}{\sqrt{2}},\quad m_e^{\color{red}{ij}}=\frac{y_e^{\color{red}{ij}}v}{\sqrt{2}}$$
+		- The matrices could be diagonalized by SVD:
+		- After some algebra and redefinitions, we arrive at
+		  $$\begin{aligned}
+		  -L_{\text{fermion mass}}= m_u\bar{u}_Lu_R+m_c\bar{c}_Lc_R+m_t\bar{t}_Lt_R  \\
+		  +m_d\bar{d}_Ld_R+m_s\bar{s}_Ls_R+m_b\bar{b}_Lb_R \\
+		  +m_e\bar{e}_Le_R+m_\mu\bar{\mu}_L\mu_R+m_\tau\bar{\tau}_L\tau_R+\mathrm{h.c.}
+		  \end{aligned}$$
+			- Notes
+				- This is **not** diagonalization (though we can do this in principle). The point is to find a suitable paring of LH fermions with RH ones, thus the fermions would obtain **Dirac mass**.
+				- $u,c,t$ are just names for redefined fields (mix of different generations),
+				  $$\begin{pmatrix}u_L^1\\\\u_L^2\\\\u_L^3\\\end{pmatrix}=L_u\begin{pmatrix}u_L\\c_L\\t_L\end{pmatrix},\quad\begin{pmatrix}u_R^1\\\\u_R^2\\\\u_R^3\end{pmatrix}=R_u\begin{pmatrix}u_R\\\\c_R\\\\t_R\end{pmatrix}$$
+			- Similarly,
+			  $$\begin{pmatrix}d_L^1\\\\d_L^2\\\\d_L^3\end{pmatrix}=L_d\begin{pmatrix}d_L\\\\s_L\\\\b_L\end{pmatrix},\quad\begin{pmatrix}d_R^1\\\\d_R^2\\\\d_R^3\end{pmatrix}=R_d\begin{pmatrix}d_R\\\\s_R\\\\b_R\end{pmatrix}$$
+		- #+BEGIN_NOTE
+		  Most of our masses (those of protons and neutrons) come from QCD effects instead of EWSB.
+		  #+END_NOTE

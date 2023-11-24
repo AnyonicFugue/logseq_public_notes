@@ -147,11 +147,11 @@
 				- A function $f:X\rightarrow Y$ is said to be continuous if for each open subset $V$ of $Y$, the set $f^{-1} (V)$ is an [[Open]subset of $X$.
 			-
 			- Then the following are equivalent #card
-			  card-last-interval:: 42
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-09-25T13:00:10.396Z
-			  card-last-reviewed:: 2023-08-14T13:00:10.396Z
+			  card-last-interval:: 117.6
+			  card-repeats:: 3
+			  card-ease-factor:: 2.8
+			  card-next-schedule:: 2024-03-17T14:57:58.628Z
+			  card-last-reviewed:: 2023-11-21T00:57:58.628Z
 			  card-last-score:: 5
 				- (1) $f$ is continuous.
 				- (2) For every closed set $B$ of $Y$, the set $f^{-1} (B)$ is closed in $X$
@@ -362,6 +362,12 @@
 	- ## Limit Point Compactness
 		- Theorem. Compact implies limit point compactness, but not conversely.  #card
 		  collapsed:: true
+		  card-last-interval:: 29.95
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-12-20T23:00:22.623Z
+		  card-last-reviewed:: 2023-11-21T01:00:22.624Z
+		  card-last-score:: 5
 			- An easy exercise.
 		- Theorem. For a metrizable space, limit point compact is equivalent to compact.  #card
 		  card-last-interval:: 42
@@ -410,6 +416,12 @@
 		- In Compact Hausdorff spaces, {{Closed ⇔ Compact}}.
 		- Sub-metrizable is still metrizable. But not for the latter.
 	- ## One-point Compactification #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-12-19T06:56:02.228Z
+	  card-last-reviewed:: 2023-11-18T00:56:02.229Z
+	  card-last-score:: 3
 		- Motivation
 			- Two of the best properties of a topological space are **compact** and **Hausdorff**.
 			  We'd like to ask the problem: Under what circumstances would a subspace inherit these properties?
@@ -432,6 +444,7 @@
 				-
 				- Example. Q isn't locally compact
 			- One-point Compactification
+			  collapsed:: true
 				- $X \sub Y$ and $Y-X$ is a single point, while $Y$ is compact Hausdorff.
 				- Moreover, two compactifications are said to be homeomorphic with a homeomorphism acting as an identity on $X$.
 				- Explicitly: The topology of Y is $\mathscr T_Y = \mathscr T_X \cup \{Y-C|C\ compact\ in\ X\}$

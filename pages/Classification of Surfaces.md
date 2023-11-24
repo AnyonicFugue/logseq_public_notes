@@ -282,11 +282,11 @@
 		-
 		- Note that a polygon is **not** a surface. The boundary points don't have neighborhoods homeomorphic to an open disk.
 	- Exercise. Does the classification theorem work for ((63e86249-c48a-4740-a36d-100aeb1da16c))? #card
-	  card-last-interval:: 30
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-06-20T00:49:32.220Z
-	  card-last-reviewed:: 2023-05-21T00:49:32.220Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2024-03-14T15:01:28.197Z
+	  card-last-reviewed:: 2023-11-18T01:01:28.198Z
 	  card-last-score:: 5
 		- **NO**. It is not a surface for $n>2$.
 - Exercise. Can we simplify ((63e86249-c48a-4740-a36d-100aeb1da16c)) to a projective plane?

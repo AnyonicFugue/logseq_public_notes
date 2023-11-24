@@ -42,8 +42,10 @@ alias:: Superconductor
 			  \end{aligned}$$
 	- # Effective Interaction
 		- Result
+		  collapsed:: true
 			- $$H=\sum _{k\alpha }( \varepsilon _{k} -\mu ) c_{k\alpha }^{\dagger } c_{k\alpha } -V\sum _{kk'q}\sum _{\alpha \beta } c_{k+q,\alpha }^{\dagger } c_{k^{\prime } -q,\beta }^{\dagger } c_{k^{\prime } \beta } c_{k\alpha }$$
 		- Start point
+		  collapsed:: true
 			- $$
 			  H^{(2)} =\frac{1}{N}\sum _{kk^{\prime } q}| M_{q}| ^{2}\frac{-\omega _{q}}{\omega _{q}^{2} -( \epsilon _{k} -\epsilon _{k+q})^{2}} c_{k'+q}^{\dagger } c_{k^{\prime } -q}^{\dagger } c_{k^{\prime }} c_{k}
 			  $$
@@ -82,6 +84,7 @@ alias:: Superconductor
 		- We shall only examine s-wave pairing here, i.e.
 		  $$\langle c_{k\alpha } c_{k'\beta }\rangle \varpropto \delta _{k+k',0} \epsilon _{\alpha \beta }$$
 		- ## Mean-Field Hamiltonian
+		  collapsed:: true
 			- Result
 				- $$H_V=\Delta \sum _{k} c_{-k,\downarrow }^{\dagger } c_{k,\uparrow }^{\dagger } +\Delta ^{*}\sum _{k} c_{k,\uparrow } c_{-k,\downarrow }$$
 					- $$\Delta =-2V\sum _{k} \langle c_{k\uparrow } c_{-k\downarrow } \rangle $$
