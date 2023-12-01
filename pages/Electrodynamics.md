@@ -48,6 +48,12 @@ type:: [[Course]]
 				-
 	- Boundary Conditions #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-12-27T06:40:02.578Z
+	  card-last-reviewed:: 2023-11-26T00:40:02.578Z
+	  card-last-score:: 5
 		- $$\begin{align*}
 		  \vec{n}_{1} \cdot (\vec{D}_{1} -\vec{D}_{2}) & =\sigma _{f}\\
 		  \vec{n}_{1} \cdot (\vec{B}_{1} -\vec{B}_{2}) & =0\\
@@ -126,7 +132,6 @@ type:: [[Course]]
 	- Rule for modifications in media:
 	  Change $\varepsilon_0 E$ to $D$ and $B/ \mu_0$ to $H$.
 	- Energy density and flow #card
-	  collapsed:: true
 		- $$
 		  \vec{S}_P(\vec{r}, t)=\frac{1}{\mu_0} \vec{E} \times \vec{B}=\vec{E} \times \vec{H}
 		  $$
@@ -145,7 +150,6 @@ type:: [[Course]]
 			  \vec{S}_P=(\vec{E} \times \vec{H}), \quad u=\frac{1}{2}(\vec{E} \cdot \vec{D}+\vec{B} \cdot \vec{H})=\frac{1}{2}\left(\varepsilon E^2+\mu H^2\right)
 			  $$
 	- Force, Momentum Density and Flow #card
-	  collapsed:: true
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
 	  card-ease-factor:: 2.36
@@ -319,6 +323,7 @@ type:: [[Course]]
 			- Note that $n$ can be **negative**!
 		-
 - # Multi-pole Expansion
+  collapsed:: true
 	- ## Electronic
 	  collapsed:: true
 		- ## Definition
@@ -572,6 +577,7 @@ type:: [[Course]]
 		  $$
 	-
 - # Electromagnetic Wave
+  collapsed:: true
 	- Derivation
 	  collapsed:: true
 		- First we assume the medium is linear, with no free charge or free current.
@@ -618,6 +624,7 @@ type:: [[Course]]
 		  Z=\sqrt{\frac{\mu}{\varepsilon}}
 		  $$
 - # Drude Model
+  collapsed:: true
 	- Three types of charge in medias
 		- Nuclei
 			- Very heavy, immobile
@@ -741,6 +748,7 @@ type:: [[Course]]
 					- $\varepsilon_r>0$, the conductor becomes a media even sparser than the vacuum.
 					- The wave could propagate without decay, but there would be reflection at the surface.
 - # Faraday effect and rotational media
+  collapsed:: true
 	- Farady effect: External magnetic field as the microscopic mechanism
 		- $$
 		  m \frac{\partial \vec{v}}{\partial t}=e\left[\vec{E}+\vec{v} \times \vec{B}_0\right] \\
@@ -815,3 +823,79 @@ type:: [[Course]]
 				  k_{+}=\frac{\omega}{c} \sqrt{\varepsilon_1+\varepsilon_2}, \quad k_{-}=\frac{\omega}{c} \sqrt{\varepsilon_1-\varepsilon_2}
 				  $$
 			- Therefore when a linearly polarized light propagates in the material, the polarization direction would rotate.
+- # Reflection and refraction
+	- Starting point: Boundary conditions
+		- $$\begin{align*}
+		  \vec{n} \times (\vec{H}_{1} -\vec{H}_{2}) & =0 \\
+		  \vec{n} \times (\vec{E}_{1} -\vec{E}_{2}) & =0
+		  \end{align*}$$
+		- Note that there is no free current or free charge in our setup.
+	- ## Snell's Law: Reflection and refraction angles
+	  collapsed:: true
+		- Note that the boundary conditions need to be satisfied at **all time and all spatial points** for the values of the fields.
+		- Write down the harmonic fields
+			- $$\begin{aligned}
+			  \vec{E_i} & =\vec{E_0}e^{i(\vec{k}\cdot\vec{r}-\omega t)} \\
+			  \vec{E}_{r} & =\sum \vec{E}_0^{\prime}(\vec{k}^{\prime})e^{i(\vec{k}^{\prime}\cdot\vec{r}-\omega' t)} \\
+			  \vec{E}_{t} &=\sum \vec{E}_0^{\prime\prime}(\vec{k}^{\prime\prime})e^{i(\vec{k}^{\prime\prime}\cdot\vec{r}-\omega'' t)} 
+			  \end{aligned}$$
+		- Key point: The equation should hold at **any** $t$ and $\vec r$.
+		- Theorem. Only waves with $\omega=\omega'=\omega''$, $k_{\parallel}=k'_{\parallel}=k''_{\parallel}$ could have nonzero amplitudes.
+		-
+		- Corollary. Invoking the dispersion relation $|k|=n \omega/c$, we see that
+		  $$\theta_r = \theta_i, \quad n_r \sin \theta_r = n_t \sin \theta_t$$
+	- ## Fresnel's Law: Amplitudes
+	  collapsed:: true
+		- Key idea
+		  collapsed:: true
+			- We could further use relations of magnetic fields to fix amplitudes.
+				- $$\vec{H}_{i}=\frac{1}{Z_{i}}\Big(\hat{k}_{i}\times\vec{E}_{i}\Big)$$
+				- $$
+				  Z=\sqrt{\frac{\mu}{\varepsilon}}
+				  $$
+			- However, different polarizations require different treatments.
+		- S-Wave: The electric field is perpendicular to the plane formed by the incoming light and the surface
+			- Solve
+			  $$\begin{aligned}
+			  &E_{0}+E_{0}^{'}=E_{0}^{''} \\
+			  &\begin{aligned}\frac{k_z}{Z_1k}E_0-\frac{k_z}{Z_1k}E_0^{'}=\frac{k_z^{''}}{Z_2k^{''}}E_0^{''}\end{aligned}
+			  \end{aligned}$$
+			- $$\begin{aligned}E_0^{^{\prime}}&=\frac{Z_2\cos\theta-Z_1\cos\theta^{^{\prime\prime}}}{Z_2\cos\theta+Z_1\cos\theta^{^{\prime\prime}}}E_0=r_S\cdot E_0\\E_0^{^{\prime\prime}}&=\frac{2Z_2\mathrm{cos}\theta}{Z_2\mathrm{cos}\theta+Z_1\mathrm{cos}\theta^{^{\prime\prime}}}E_0=t_S\cdot E_0\end{aligned}$$
+			- $r_s$, $t_s$ are called the reflection and transmission coefficients respectively.
+		- P-Wave: The electric field is within the plane
+			- Similarly, we can obtain
+			  $$\begin{gathered}
+			  \boldsymbol{H}_{0}^{'} \begin{aligned}=\frac{Z_1\mathrm{cos}\theta-Z_2\mathrm{cos}\theta^{^{\prime\prime}}}{Z_1\mathrm{cos}\theta+Z_2\mathrm{cos}\theta^{^{\prime\prime}}}H_0=r_P\cdot H_0\end{aligned} \\
+			  H_{0}^{^{\prime\prime}} =\frac{2Z_1\mathrm{cos}\theta}{Z_1\mathrm{cos}\theta+Z_2\mathrm{cos}\theta^{^{\prime\prime}}}H_0=t_P\cdot H_0 
+			  \end{gathered}$$
+	- ## Reflectance and Transmittance
+	  collapsed:: true
+		- Definition. The proportion of the **perpendicular** energy current between the reflected wave and the incoming wave,
+		  $$R=\frac{\left\langle\vec{S}_r\right\rangle\cdot\hat{z}}{\left\langle\vec{S}_i\right\rangle\cdot\hat{z}}=\begin{cases}\frac{\left|E_0^{\prime}\right|^2\cos\theta^{\prime}/Z_1}{\left|E_0\right|^2\cos\theta/Z_1}=\left|\frac{E_0^{\prime}}{E_0}\right|^2=\mid r_S\mid^2&\quad\text{S}\\\frac{\left|H_0^{\prime}\right|^2\cos\theta\cdot Z_1}{\left|H_0\right|^2\cos\theta\cdot Z_1}=\left|\frac{H_0^{\prime}}{H_0}\right|^2=\mid r_p\mid^2&\quad\text{P}\end{cases}$$
+		- A bit of calculation immediately shows that
+		  $$\begin{aligned}
+		  R_S=&\left|\frac{Z_2\cos\theta-Z_1\cos\theta^{^{\prime\prime}}}{Z_2\cos\theta+Z_1\cos\theta^{^{\prime\prime}}}\right|^2\\R_P=&\left|\frac{Z_2\cos\theta^{^{\prime\prime}}-Z_1\cos\theta}{Z_2\cos\theta^{^{\prime\prime}}+Z_1\cos\theta}\right|^2
+		  \end{aligned}$$
+		- Brewster angle
+		  collapsed:: true
+			- When the media satisfies $\mu=1$, $Z_r=1/\sqrt{\varepsilon_r}=1/n$, thus we can use $\sin \theta$ to substitute $Z$ in the expression of reflectance.
+			- With a bit of calculation we obtain
+			  $$\begin{gathered}
+			  R_{S} \begin{aligned}=\frac{\sin^2(\theta-\theta'')}{\sin^2(\theta+\theta'')}\end{aligned} \\
+			  R_{P} =\frac{\tan^2(\theta-\theta^{\prime\prime})}{\tan^2(\theta+\theta^{\prime\prime})} 
+			  \end{gathered}$$
+			- Therefore, when $\theta + \theta'' = \pi/2$, $R_P$ is 0.
+			- ![image.png](../assets/image_1700981265469_0.png){:height 334, :width 364}
+				- Physically, the electric dipoles oscillate in the direction of the reflected light, but they cannot emit traverse light in the direction of the oscillation.
+	- ## Total Reflection
+		- We should go back to the derivation of Fresnel's law.
+		- The point is $k_x > k''$, therefore $k''_z$ becomes imaginary. The transmitted wave thus decays exponentially.
+		- $$\begin{gathered}
+		  E_{0S}^{\prime}=\frac{Z_{2}\operatorname{cos}\theta-i\alpha Z_{1}}{Z_{2}\operatorname{cos}\theta+i\alpha Z_{1}}E_{0S} \\
+		  H_{0P}^{'}=\frac{Z_{1}\operatorname{cos}\theta-i\alpha Z_{2}}{Z_{1}\operatorname{cos}\theta+i\alpha Z_{2}}H_{0P} 
+		  \end{gathered}$$
+		- Obviously
+		  $$R_S=R_P=1$$
+		-
+	-
+-

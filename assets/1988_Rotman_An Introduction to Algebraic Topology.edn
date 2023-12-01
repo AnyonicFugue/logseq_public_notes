@@ -1536,5 +1536,22 @@
                                    :height 1598.3999999999999}),
                           :page 176},
                :content {:text "Definition"},
+               :properties {:color "yellow"}}
+              {:id #uuid "65653c3d-8833-4df9-991b-abd48f3ca219",
+               :page 193,
+               :position {:bounding {:x1 148.80171585083008,
+                                     :y1 1060.2956848144531,
+                                     :x2 253.62945938110352,
+                                     :y2 1087.0933532714844,
+                                     :width 1112.1333333333332,
+                                     :height 1687.1999999999998},
+                          :rects ({:x1 148.80171585083008,
+                                   :y1 1060.2956848144531,
+                                   :x2 253.62945938110352,
+                                   :y2 1087.0933532714844,
+                                   :width 1112.1333333333332,
+                                   :height 1687.1999999999998}),
+                          :page 193},
+               :content {:text "Definition"},
                :properties {:color "yellow"}}],
- :extra {:page 96}}
+ :extra {:page 193}}

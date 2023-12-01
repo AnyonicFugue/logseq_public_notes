@@ -2,15 +2,21 @@ alias:: [[Ising]]
 
 - # Quantum
 	- $H_I=-J g \sum_i \hat{\sigma}_i^x-J \sum_{\langle i j\rangle} \hat{\sigma}_i^z \hat{\sigma}_j^z$
-- # Map to $\phi^4$ Theory
+- # Map to $\phi^4$ Theory #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-12-29T06:45:23.452Z
+  card-last-reviewed:: 2023-11-28T00:45:23.452Z
+  card-last-score:: 3
 	- See ((64e76507-d1d7-4ed7-98af-a55ca862caa7)) in Altland.
 	- Summary
-	  collapsed:: true
 		- Start from the classical partition function
 		  $$
 		  \mathcal{Z}=\sum_{\left\{S_i\right\}} e^{\sum_{i j} S_i K_{i j} S_j+\sum_i h_i S_i}
 		  $$
 		- Remove the interaction at the cost of introducing a new field (i.e. a Gaussian integration)
+		- The old summation is performed by shifting variables
 	- Derivation
 		- Proposition. Fat unity:
 		  card-last-interval:: 31.26
@@ -19,13 +25,13 @@ alias:: [[Ising]]
 		  card-next-schedule:: 2023-10-07T07:40:48.951Z
 		  card-last-reviewed:: 2023-09-06T01:40:48.951Z
 		  card-last-score:: 5
+		  collapsed:: true
 		  $$
 		  1=\mathcal{N} \int D \psi e^{-\frac{1}{4} \sum_{i j} \psi_i\left(K^{-1}\right)_{i j} \psi_j}
-		  $$ #card
+		  $$
 			- The technique of 'inserting a unity' #Techniques
 			- Note that $\psi$ is a n-component field.
 		- Shift the integration variables in the fat unity to cancel spin-spin interactions
-		  collapsed:: true
 			- $$
 			  \psi_i \rightarrow \psi_i-2 \sum_j K_{i j} \mathbf{S}_j
 			  $$

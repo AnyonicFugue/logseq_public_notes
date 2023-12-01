@@ -10,12 +10,12 @@
 		-
 - # Definitions
 	- Conformal invariance #card
-	  card-last-interval:: -1
-	  card-repeats:: 1
-	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-10-20T16:00:00.000Z
-	  card-last-reviewed:: 2023-10-20T00:54:05.594Z
-	  card-last-score:: 1
+	  card-last-interval:: 31.26
+	  card-repeats:: 2
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-12-27T06:37:00.790Z
+	  card-last-reviewed:: 2023-11-26T00:37:00.791Z
+	  card-last-score:: 5
 		- Intuitively, transformations that keep angles (but not necessarily distance) preserved.
 		- Formally, the spacetime metric transforms as 
 		  $$\eta(x) \mapsto f(x) \eta(x)$$

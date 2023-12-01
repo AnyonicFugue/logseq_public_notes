@@ -549,3 +549,8 @@ file-path:: zotero_link/Mathematics/Algebraic Topology/1988_Rotman_An Introducti
   hl-page:: 176
   hl-color:: yellow
   id:: 654dec9d-f70b-4f37-9ffd-c1ad81fa1dea
+- Definition
+  ls-type:: annotation
+  hl-page:: 193
+  hl-color:: yellow
+  id:: 65653c3d-8833-4df9-991b-abd48f3ca219

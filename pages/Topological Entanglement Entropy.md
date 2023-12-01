@@ -10,12 +10,11 @@ alias:: TEE
 - # Examples
 	- TEE and MES in [[Toric Code]] #card
 	  card-last-score:: 5
-	  card-repeats:: 1
-	  card-next-schedule:: 2023-04-27T01:15:26.451Z
-	  card-last-interval:: 25.01
-	  id:: 6498e102-7d82-4736-8535-b3d2e3043a31
-	  card-ease-factor:: 2.6
-	  card-last-reviewed:: 2023-04-02T01:15:26.451Z
+	  card-repeats:: 2
+	  card-next-schedule:: 2024-01-06T00:54:06.854Z
+	  card-last-interval:: 42
+	  card-ease-factor:: 2.7
+	  card-last-reviewed:: 2023-11-25T00:54:06.854Z
 		- ((63f9ab7a-5493-4741-8119-f9751148f6a8))
 		- The key is that we can find a **clever basis** for states in region B, 
 		  collapsed:: true

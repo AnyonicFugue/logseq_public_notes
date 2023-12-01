@@ -116,7 +116,7 @@
 	  If all the vertices of $P$ are pasted to a single point $x_0$, then $\pi_1\left(X, x_0\right)$ is isomorphic to the quotient of the free group on $k$ generators $\alpha_1, \ldots, \alpha_k$ by the least normal subgroup containing the element
 	  $$
 	  \left(\alpha_{i_1}\right)^{\epsilon 1} \cdots\left(\alpha_{i_n}\right)^{\epsilon_n} .
-	  $$ #card
+	  $$
 		- This is the case for the [[Torus]], the ((63f218b7-eddb-4fe3-bd5e-daff1b591487)), the ((63f21c4d-b959-43e5-889d-90abd29a1092)) and ((63e86249-c48a-4740-a36d-100aeb1da16c)) . Thus the striking resemblance.
 		- The proof directly follows ((63db6326-2852-429b-acc7-21e25d249828)).
 - # [[Homology]] of Surfaces
@@ -223,7 +223,7 @@
 	  card-last-score:: 5
 	  $$
 	  w_2=a b a^{-1} b^{-1} w_3
-	  $$ #card
+	  $$
 		- Specifically: If we have
 		  $$
 		  w=w_0\left[y_1\right] a\left[y_2\right] b\left[y_3\right] a^{-1}\left[y_4\right] b^{-1}\left[y_5\right]

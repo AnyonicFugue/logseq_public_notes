@@ -26,3 +26,15 @@ file-path:: zotero_link/Physics/Kitaev/2000_Kitaev_Unpaired Majorana fermions in
   hl-page:: 7
   hl-color:: yellow
   id:: 65604cd9-1dcf-468f-9331-831171f13f06
+- It has been mentioned that the necessary conditions for unpaired Majorana fermions are superconductivity and a gap in the bulk excitation spectrum. The latter is equivalent to the quasiparticle tunneling amplitude vanishing as e−L/l0
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: red
+  id:: 65616a95-5ca6-4864-972e-f5b6ebfc61fe
+- [:span]
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 65616f5a-d59b-4067-ab1e-76ff91e62e06
+  hl-type:: area
+  hl-stamp:: 1700884313627

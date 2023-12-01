@@ -58,11 +58,11 @@
 	  card-last-score:: 5
 		- An object is invertible if it satisfies the conditions
 			- ((63745ee5-d4fe-4d02-a3b8-3582f373a546)) #card
-			  card-last-interval:: 140.55
-			  card-repeats:: 4
-			  card-ease-factor:: 2.42
-			  card-next-schedule:: 2023-06-02T14:01:31.766Z
-			  card-last-reviewed:: 2023-01-13T01:01:31.767Z
+			  card-last-interval:: 672.13
+			  card-repeats:: 5
+			  card-ease-factor:: 2.52
+			  card-next-schedule:: 2025-09-27T03:49:28.312Z
+			  card-last-reviewed:: 2023-11-25T00:49:28.313Z
 			  card-last-score:: 5
 				- The proof invokes interesting properties of [[Fusion rules]] and [[Quantum dimension]].
 				- id:: 63c14165-542f-4aff-bb7f-063784718de9

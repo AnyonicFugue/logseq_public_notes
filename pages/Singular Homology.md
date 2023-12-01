@@ -755,6 +755,12 @@
 	  card-last-score:: 5
 - # The Hurewicz Theorem #card
   id:: 654072b9-eb4d-452a-bd41-aff0c934d68c
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-12-30T07:19:59.296Z
+  card-last-reviewed:: 2023-11-29T01:19:59.297Z
+  card-last-score:: 3
   collapsed:: true
 	- Definition. Hurewicz map
 		- For any path-connected space $X$ and positive integer $n$ there exists a group homomorphism

@@ -548,6 +548,12 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 		- collapsed:: true
 	- ## [[Toric Code]] and Symmetry of TPS #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-12-30T07:28:39.776Z
+	  card-last-reviewed:: 2023-11-29T01:28:39.777Z
+	  card-last-score:: 5
 		- *Symmetry is indeed a great concept, but does the classical Z-flipping properly capture the notion?
 		  background-color:: pink
 		- Notes
@@ -568,7 +574,6 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 				  collapsed:: true
 				- The two physical states of the edge tensors corresponds to *string* and *no string* respectively.
 		- ### The $Z_2$ symmetry
-		  collapsed:: true
 			- Z does nothing to the tensor when the index is 0 and changes the sign of the tensor when the index is 1.
 			- Obviously both the vertex and edge tensors have $Z_2$ symmetry in the proper sense:
 			  ((64c7f701-9cf6-458b-9e95-98079b6c4aff))

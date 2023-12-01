@@ -9,7 +9,6 @@ alias:: [[Category Theory]]
 	- ![2015_Etingof_Gelaki et al_Tensor categories.pdf](file://zotero_link/Mathematics/Category Theory/2015_Etingof_Gelaki et al_Tensor categories.pdf)
 	-
 - # Basics
-  collapsed:: true
 	- Notations
 		- Functor category $Fun(C,D)$
 		-
@@ -21,6 +20,7 @@ alias:: [[Category Theory]]
 		  card-next-schedule:: 2023-11-04T00:22:01.078Z
 		  card-last-reviewed:: 2023-07-19T12:22:01.078Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- An equivalence relation on the class of all Homs $\cup_{A,B}Hom(A,B)$ in the cat, with the following conditions:
 			- (i) $f \in \operatorname{Hom}(A, B)$ and $f \sim f^{\prime}$ implies $f^{\prime} \in \operatorname{Hom}(A, B)$
 				- Necessary but insufficient.
@@ -165,7 +165,7 @@ alias:: [[Category Theory]]
 				  card-last-reviewed:: 2023-11-15T00:49:02.536Z
 				  card-last-score:: 3
 					-
-				- Theorem. (Frobenius Reciprocity) Consider $\mathrm{Rep}(G)$ and $\mathrm{Rep}(Z(x))$ for some $x \in G$. We have two functors: a forgetful functor $F$ and a functor $\mathrm{Ind}$ of induced representations. Then $F$ is both the left and right adjoint of $G$. #card
+				- Theorem. (Frobenius Reciprocity) Consider $\mathrm{Rep}(G)$ and $\mathrm{Rep}(Z(x))$ for some $x \in G$. We have two functors: a forgetful functor $F$ and a functor $\mathrm{Ind}$ of induced representations. Then $F$ is both the left and right adjoint of $G$. 
 				  card-last-interval:: 31.26
 				  card-repeats:: 1
 				  card-ease-factor:: 2.36
@@ -231,15 +231,9 @@ alias:: [[Category Theory]]
 		  In this case $G$ is called the **quasi-inverse** of $F$.
 		- Theorem. A functor $F: \mathcal{C} \rightarrow \mathcal{D}$ between two categories $\mathcal{C}, \mathcal{D}$ is an equivalence **if and only if** it is fully faithful and essentially surjective.
 			- i.e. Isomorphism classes are bijective and so do the Homs.
-	- Comma category #card
+	- Comma category
 	  id:: 6417d04a-7bd7-4f24-8124-2ececcbcebbe
 	  collapsed:: true
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.46
-	  card-next-schedule:: 2023-11-09T00:47:45.064Z
-	  card-last-reviewed:: 2023-09-28T00:47:45.064Z
-	  card-last-score:: 3
 		- $(S/T)$ (or $S\downarrow T$) is defined for two functors $\mathcal{A} \stackrel{S}{\longrightarrow} \mathcal{C} \stackrel{T}{\longleftarrow} \mathcal{B}$
 		- Objects
 			- triples $(A,B,f)$ where $A \in \mathrm{Ob}(\mathcal{A}), B \in \mathrm{Ob}(\mathcal{B}), f: S A \rightarrow T B$
@@ -317,11 +311,11 @@ alias:: [[Category Theory]]
 				- The $\mathbb{C}$-linear structure on a hom space $\operatorname{Hom}_{\mathcal{C} \oplus \mathcal{D}}\left((x, y),\left(x^{\prime}, y^{\prime}\right)\right)$ is given by the direct sum of vector spaces $\operatorname{Hom}_{\mathcal{C}}\left(x, x^{\prime}\right) \oplus \operatorname{Hom}_{\mathcal{D}}\left(y, y^{\prime}\right)$.
 		- ## Properties
 			- A direct sum is both a product and a coproduct. #card
-			  card-last-interval:: 30
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-05-15T00:53:50.607Z
-			  card-last-reviewed:: 2023-04-15T00:53:50.608Z
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2024-01-09T00:37:17.367Z
+			  card-last-reviewed:: 2023-11-28T00:37:17.368Z
 			  card-last-score:: 5
 				- Just verify the universal properties.
 			- If the product and coproduct of $\{x_i\}_i$ are isomorphic in a $k$-linear cat, then it is the direct sum. #card
@@ -350,14 +344,7 @@ alias:: [[Category Theory]]
 - # Monad
   id:: 641813e5-e452-4c3b-aa79-fe4b3df4596f
   collapsed:: true
-	- Exercise. Check the left dual of $G \in \mathrm{End}(C)$ is the right adjoint. #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-10-23T06:48:10.297Z
-	  card-last-reviewed:: 2023-09-22T00:48:10.297Z
-	  card-last-score:: 3
-	-
+	- Exercise. Check the left dual of $G \in \mathrm{End}(C)$ is the right adjoint.
 - # Higher cats
   collapsed:: true
 	- [[2-category]]
@@ -418,7 +405,6 @@ alias:: [[Category Theory]]
 			- Homs are homomorphisms
 			-
 	- ## Higher Algebras
-	  collapsed:: true
 		- How does the requirements of $E_0,E_1,E_2,E_3$ corresponds to physical intuitions? #card
 		  collapsed:: true
 		  card-last-interval:: 29.95
@@ -435,46 +421,46 @@ alias:: [[Category Theory]]
 			  collapsed:: true
 				- Maybe braidings in 1-cats are too strong and restrictive. We need something more.
 				- Can we find some structure which can always be extended?
-		- 'Take the algebra' is somwhat similar to 'adding a dimension' #card
+		- 'Take the algebra' is somwhat similar to 'adding a dimension'
 		  card-last-interval:: 97.44
 		  card-repeats:: 3
 		  card-ease-factor:: 2.32
 		  card-next-schedule:: 2024-01-26T10:24:59.978Z
 		  card-last-reviewed:: 2023-10-21T00:24:59.978Z
 		  card-last-score:: 3
-		- Baez-Dolan conjecture. For a symmetric monoidal n-category $C$, the forgetful functor $E_{k+1}\mathrm{Alg}(C) \to E_k\mathrm{Alg}(C)$ is an equivalence for $k>n$. #card
-		  collapsed:: true
+		- Baez-Dolan conjecture. For a symmetric monoidal n-category $C$, the forgetful functor $E_{k+1}\mathrm{Alg}(C) \to E_k\mathrm{Alg}(C)$ is an equivalence for $k>n$.
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
 		  card-ease-factor:: 2.36
 		  card-next-schedule:: 2023-12-02T06:58:12.704Z
 		  card-last-reviewed:: 2023-11-01T00:58:12.704Z
 		  card-last-score:: 3
+		  collapsed:: true
 			- Have been proven for a special case $n=2,C=\mathrm{Cat}$
 			- [Higher Algebra] Corollary 5.1.1.7 claims to have proved this.
 		- Defs
-			- Cat of $E_0$ algebras, $E_0\mathrm{Alg}(C,J)$ #card
-			  collapsed:: true
+			- Cat of $E_0$ algebras, $E_0\mathrm{Alg}(C,J)$
 			  card-last-interval:: 30
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6
 			  card-next-schedule:: 2023-06-04T00:30:12.771Z
 			  card-last-reviewed:: 2023-05-05T00:30:12.772Z
 			  card-last-score:: 5
+			  collapsed:: true
 				- Let $(C,J)$ be a category with a distinguished object $J$.
 				- An $E_0$-algebra in $(C,J)$ is a pair $(A,j_A)$ where $A\in C, j_A:J \to A$
 					- Actually not an algebra, because there is no multiplication.
 				- An $E_0$-algebra homomorphism from $(A,j_A)$ to $(B,j_B)$ is $\phi: A \to B$ such that the diagram commutes:
 				  $J \overset{j_A}{\to} A \overset{\phi}{\to} B$ = $J \overset{j_B}{\to} B$
-			- Cat of $E_1$ algebras, $E_1\mathrm{Alg}(C)$ #card
+			- Cat of $E_1$ algebras, $E_1\mathrm{Alg}(C)$
 			  collapsed:: true
 				- An $E_1$-algebra in $C$ is an algebra in $E_0\mathrm{Alg}(C)$
 				- An $E_1$-algebra homomorphism is an algebra hom in $E_0\mathrm{Alg}(C)$
 				- Condition: {{cloze C monoidal}}
-			- Cat of $E_2$ algebras, $E_2 \mathrm{Alg} (B)$ #card
+			- Cat of $E_2$ algebras, $E_2 \mathrm{Alg} (B)$
 				- An $E_2$ algebra is an algebra in $E_1\mathrm{Alg}(B) \simeq \mathrm{Alg}(B)$
 				- Condition: {{cloze C braided monoidal}}
-			- Cat of $E_3$-algebras, $E_3\mathrm{Alg}(S)$ #card
+			- Cat of $E_3$-algebras, $E_3\mathrm{Alg}(S)$
 			  card-last-interval:: 31.26
 			  card-repeats:: 1
 			  card-ease-factor:: 2.36
@@ -483,14 +469,14 @@ alias:: [[Category Theory]]
 			  card-last-score:: 3
 				- An $E_3$-algebra is an algebra in $E_2\mathrm{Alg}(S)$
 				- Condition for it to be monoidal: {{cloze C symmetric braided monoidal}}
-			- Cat of $E_n$-algebras for $n \geq 3$ #card
-			  collapsed:: true
+			- Cat of $E_n$-algebras for $n \geq 3$
 			  card-last-interval:: 31.26
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6
 			  card-next-schedule:: 2023-05-27T06:21:07.577Z
 			  card-last-reviewed:: 2023-04-26T00:21:07.577Z
 			  card-last-score:: 5
+			  collapsed:: true
 				- All same as $E_3\mathrm{Alg}(S) \simeq \mathrm{CAlg}(S)$!
 				- Only requiring $S$ is symmetric braided monoidal.
 		- Theorems about $E_0$ to $E_3$
@@ -566,7 +552,7 @@ alias:: [[Category Theory]]
 			  card-next-schedule:: 2023-08-26T18:28:28.339Z
 			  card-last-reviewed:: 2023-07-26T12:28:28.339Z
 			  card-last-score:: 3
-		- Exercise. Verify that when $B=\mathrm{Set}$, $E_2\mathrm{Alg}(B)$ satisfies $(a \times_v b) \times_h (c \times_v d) \simeq (a \times_h c) \times_v (b \times_h d)$ #card
+		- Exercise. Verify that when $B=\mathrm{Set}$, $E_2\mathrm{Alg}(B)$ satisfies $(a \times_v b) \times_h (c \times_v d) \simeq (a \times_h c) \times_v (b \times_h d)$
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
 		  card-ease-factor:: 2.36
@@ -577,7 +563,7 @@ alias:: [[Category Theory]]
 			- My task is to explicitly construct the monoidal structure.
 		-
 	- ## Higher Modules
-		- Remark: Modules can be regarded as representations of the algebras #card
+		- Remark: Modules can be regarded as representations of the algebras
 		  card-last-interval:: 25.01
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
@@ -588,7 +574,7 @@ alias:: [[Category Theory]]
 		- ### Physical Intuition
 			- Consider some topo order with a domain wall. It is a module in the sense that excitations on both sides can be moved inside and fuse.
 		- ### Definitions
-			- A left module $M$ over a monoidal category $C$ #card
+			- A left module $M$ over a monoidal category $C$
 				- C is a monoidal category, $A \in C$ is an algebra, $M$ is a left C-module cat, $\odot: C \times M \to M$.
 				  A left module over $A$ in $M$ is a pair $(D\in M, \rho: A \odot D \to D)$ satisfying two consistency relations called associativity and unitality.
 					- Essentially an action functor $\odot: C \otimes M \to M$, with some consistency relations
@@ -599,13 +585,13 @@ alias:: [[Category Theory]]
 					- Multiplication in $A$ and the action are compatible
 				-
 				- Note $A \in E_3\mathrm{Alg}(S)$
-			- Left $E_1$-module over braided monoidal cat #card
-			  card-last-interval:: 42
-			  card-repeats:: 2
-			  card-ease-factor:: 2.22
-			  card-next-schedule:: 2023-12-30T00:56:25.847Z
-			  card-last-reviewed:: 2023-11-18T00:56:25.847Z
+			- Left $E_1$-module over braided monoidal cat
 			  card-last-score:: 3
+			  card-repeats:: 2
+			  card-next-schedule:: 2023-12-30T00:56:25.847Z
+			  card-last-interval:: 42
+			  card-ease-factor:: 2.22
+			  card-last-reviewed:: 2023-11-18T00:56:25.847Z
 				- Physically corresponds to {{cloze 1D boundary of 2D TO}}
 				- A tuple $(M, \odot: B \times M \to M, \alpha^M, \lambda^M)$
 					- $M$ itself is a monoidal category (degrade one step from braided monoidal)
@@ -707,88 +693,13 @@ alias:: [[Category Theory]]
 				- Exercise. Explicitly construct the natural isomorphism.
 	- [[Yoneda Lemma]]
 - # Kan Extension
-  collapsed:: true
 	- > All concepts are Kan extensions.
 	- Idea
-	  collapsed:: true
 		- We want to address the approximation problem ((6417cf47-91da-4a70-9d80-c3a8b38344a2))
 		  such that the upper route and lower route are naturally isomorphic.
 		- Usually it is not exactly solvable. For example, we may have $K(c_1)=K(c_2)$ but $F(c_1) \neq F(c_2)$.
 		- Kan extension aims to find a 'best approximation' to the solution.
 			- The 'best approximation' is always done by universal property, which aims to preserve exactly enough information.
-	- Def #card
-	  collapsed:: true
-	  card-last-interval:: 30
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-05-05T00:27:20.071Z
-	  card-last-reviewed:: 2023-04-05T00:27:20.071Z
-	  card-last-score:: 5
-		- Concisely, the initial object in the ((6417d04a-7bd7-4f24-8124-2ececcbcebbe)) $\tilde F/K^*$
-			- Specifically, 
-			  $$\mathrm{Fun}(\mathcal{D},\mathcal{E}) \stackrel{K^*}{\rightarrow} \mathrm{Fun}(\mathcal{C},\mathcal{E}) \stackrel{\tilde F}{\leftarrow}\{*\}  $$
-			  where $K*:H\mapsto HK, \tilde F:\mathrm{id}_* \mapsto F$
-				- Construct a functor from (or to) the trivial cat to fix some object (or functor, natural transformation, etc) #Strategy
-			- Verify the rest as an exercise!
-		- Explicitly: A pair $\left(\operatorname{Lan}_K F, \eta\right)$, where $\eta$ is a natural transformation from $F$ to $\mathrm{Lan}_K F \circ K$, such that: for any pair $L: \mathcal{D} \rightarrow \mathcal{E}$ and $\xi: F \rightarrow L K$, exist a unique natural transformation $\chi$ s.t.
-		  ((6417fcc4-201f-41c7-8bd7-78752eb8850d))
-			- Obviously some universal construction.
-			- Note that different paths for the functors does **not** commute. It is the paths for **natural transformations** commute.
-	- Construction by ((6417c84a-35a1-4f83-ae94-e03a7f2c4fc4))
-	  collapsed:: true
-		- ((64180626-c15e-44ef-b728-b8fddc2263d2)) Given functors $F: \mathrm{C} \rightarrow \mathrm{E}$ and $K: \mathrm{C} \rightarrow \mathrm{D}$, if for every $d \in \mathrm{D}$ the colimit
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.36
-		  card-next-schedule:: 2023-08-28T19:11:02.352Z
-		  card-last-reviewed:: 2023-07-28T13:11:02.352Z
-		  card-last-score:: 3
-		  $$
-		  \operatorname{Lan}_K F(d):=\operatorname{colim}\left(K \downarrow d \stackrel{\Pi^d}{\longrightarrow} \mathrm{C} \stackrel{F}{\rightarrow} \mathrm{E}\right)
-		  $$
-		  exists, then they define the left Kan extension $\operatorname{Lan}_K F: \mathrm{D} \rightarrow \mathrm{E}$, in which case the unit transformation $\eta$ : $F \Rightarrow \operatorname{Lan}_K F \cdot K$ can be extracted from the colimit cone. 
-		  Dually, if for every $d \in \mathrm{D}$ the limit
-		  $$
-		  \operatorname{Ran}_K F(d):=\lim \left(d \downarrow K \stackrel{\Pi_d}{\rightarrow} \mathrm{C} \stackrel{F}{\rightarrow} \mathrm{E}\right)
-		  $$
-		  exists, then they define the right Kan extension $\operatorname{Ran}_K F: \mathrm{D} \rightarrow \mathrm{E}$, in which case the counit transformation $\epsilon: \operatorname{Ran}_K F \cdot K \Rightarrow F$ can be extracted from the limit cone. #card
-			- Note that $\Pi^d$ is the forgetful functor that forgets the morphism in the comma category.
-			- Step 1. Construct the map for Homs (since that for objects is known).
-				-
-			- Step 2. Construct the natural transformation $\eta$.
-			-
-			- Step 3. Verify the universality.
-			-
-	- ## Examples
-		- Take $\mathcal{C}={*}$, $\mathrm{D}$ some strange cat, $\mathcal{E}=\mathrm{Set}$, $K:=\{*\mapsto x\}$, $F:=\{*\mapsto \{\cdot\}\}$. Then $(\mathrm{Hom}_{\mathcal{D}}(x,-),\{\cdot \mapsto \mathrm{id}_x\})$ is the left Kan-extension of $F$ along $K$.
-		  card-last-interval:: 33.94
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-05-17T09:49:12.651Z
-		  card-last-reviewed:: 2023-04-13T11:49:12.651Z
-		  card-last-score:: 5
-		  collapsed:: true
-			- See Goodnotes/Misc, p11 (Copy that diagram here!)
-			- Hint: To define a natural transformation, we only need to define the set of Homs for each object.
-			- Remark: {{cloze This is precisely [[Yoneda Lemma]] }}!
-			- But how to understand the example intuitively?
-		- ### Everything is Kan extensions
-			- ((64180925-7584-4cba-83a2-b731525d514b)) ((Co)limits as Kan extensions). The left Kan extension of $F: \mathrm{C} \rightarrow \mathrm{D}$ along the unique functor $!: \mathrm{C} \rightarrow \mathbb{1}$ defines the colimit of $F$ in $\mathrm{D}$, each existing if and only if the other does.
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.36
-			  card-next-schedule:: 2023-07-26T06:55:10.549Z
-			  card-last-reviewed:: 2023-06-25T00:55:10.551Z
-			  card-last-score:: 3
-			  Dually, the limit is defined by the right Kan extension. 
-			  ![image.png](../assets/image_1679298278739_0.png){:height 153, :width 912}
-				-
-			- ((64180e96-5979-463b-ade9-fc2e4c2edd44)) (Adjunctions are Kan extensions) If $F \dashv G$ is an adjunction with unit $\eta: 1 \Rightarrow G F$ and counit $\epsilon: F G \Rightarrow 1$, then $(G, \eta)$ is a left Kan extension of the identity functor along $F$ and $(F, \epsilon)$ is a right Kan extension of the identity functor along $G$. Moreover, the extension is absolute and pointwise.
-			  ![image.png](../assets/image_1679298432169_0.png)
-				-
-				-
-				-
-				-
 - # Examples
 	- Representation category, $Rep(G)$
 	  collapsed:: true
