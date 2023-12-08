@@ -1,4 +1,4 @@
-- # How to do the calculations?
+# How to do the calculations?
 	- Step 1. The symmetry factor
 		- Note that exchanging fermion operators would lead to factors of $-1$.
 		- Also, a fermion loop always leads to a factor of $-1$.
@@ -13,6 +13,7 @@
 			- We must always put $\psi$ to the left of $\bar\psi$ for contraction.
 		- ((6371952e-6a1d-4710-922b-873f0ecb5a61))
 - [[QED]]
+  collapsed:: true
 	- The rules for [[Dirac Theory]] is the same as [[Yukawa Theory]]
 	- ((63690a30-2ec2-456c-8d26-36588ea1e151))
 	  collapsed:: true

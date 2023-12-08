@@ -49,6 +49,7 @@ $$
 		- Global
 			- No global symmetry is imposed in SM.
 	- ## Specify fields and corresponding reps
+	  collapsed:: true
 		- Spinor
 			- In SM the fields are
 			  collapsed:: true
@@ -131,6 +132,7 @@ $$
 		  $$
 		- Note that the symmetry breaking pattern is $SU(N) \to SU(N-1)$, thus here the whole $SU(2)$ is completely broken.
 	- Step 2. Find out masses of gauge bosons.
+	  collapsed:: true
 		- Now we should consider a bit more terms,
 		  $$
 		  \mathcal{L}=-\frac{1}{4} W_{a, \mu \nu} W_a^{\mu v}-\frac{1}{4} B_{\mu \nu} B^{\mu \nu}+\left(D_\mu H\right)^{\dagger}\left(D^\mu H\right)-m^2 H^{\dagger} H-\lambda\left(H^{\dagger} H\right)^2
@@ -338,6 +340,7 @@ $$
 			- Apparently there is still a remaining $O(3)$ symmetry.
 		- This explains why $W_{1,2,3}^{\mu}$ have the same mass when $g' \to 0$. However, the symmetry is broken by the Yukawa interactions.
 	- Neutral and charged currents
+	  collapsed:: true
 		- Interaction between fermions and gauge bosons
 			- Start from the kinetic terms
 			  $$i\bar{L}_{L}\not D L_{L}+i\bar{e}_{R} \not De_{R}$$
@@ -358,31 +361,78 @@ $$
 		-
 		-
 	- ## Fermion Masses
-	  collapsed:: true
 		- The masses come from the Yukawa interaction after EWSB.
-		- Treat two components of the $SU(2)$ doublets as different fields,
-		  $$Q_L=\begin{pmatrix}u_L\\\\d_L\end{pmatrix},\quad L_L=\begin{pmatrix}\nu_L\\\\e_L\end{pmatrix},\quad H=\frac1{\sqrt2}\begin{pmatrix}0\\v+h\end{pmatrix}$$
-			- This is necessary since EWSB breaks $SU(2)$ symmetry and requires treating different components separately.
-		- Then we have
-		  $$\begin{aligned}
-		  -\mathcal{L}_{\mathrm{Yukawa}}=& m_{u}^{\color{red}{ij}}\bar{u}_{L}^{\color{red}{i}}u_{R}^{\color{red}{j}}+m_{d}^{\color{red}{ij}}\bar{d}_{L}^{\color{red}{i}}d_{R}^{\color{red}{j}}+m_{e}^{\color{red}{ij}}\bar{e}_{L}^{\color{red}{i}}e_{R}^{\color{red}{j}}  \\
-		  &+\frac{\color{red}{y_u^{ij}}}{\sqrt{2}}h\bar{u}_L^iu_R^j+\frac{\color{red}{y_d^{ij}}}{\sqrt{2}}h\bar{d}_L^id_R^j+\frac{\color{red}{y_e^{ij}}}{\sqrt{2}}h\bar{e}_L^ie_R^j+\mathrm{h.c.}
-		  \end{aligned}$$
-			- Note that the generation indices are still present, which are to be diagonalized.
-			- $$m_u^{\color{red}{ij}}=\frac{y_u^{\color{red}{ij}}v}{\sqrt{2}},\quad m_d^{\color{red}{ij}}=\frac{y_d^{\color{red}{ij}}v}{\sqrt{2}},\quad m_e^{\color{red}{ij}}=\frac{y_e^{\color{red}{ij}}v}{\sqrt{2}}$$
-		- The matrices could be diagonalized by SVD:
-		- After some algebra and redefinitions, we arrive at
-		  $$\begin{aligned}
-		  -L_{\text{fermion mass}}= m_u\bar{u}_Lu_R+m_c\bar{c}_Lc_R+m_t\bar{t}_Lt_R  \\
-		  +m_d\bar{d}_Ld_R+m_s\bar{s}_Ls_R+m_b\bar{b}_Lb_R \\
-		  +m_e\bar{e}_Le_R+m_\mu\bar{\mu}_L\mu_R+m_\tau\bar{\tau}_L\tau_R+\mathrm{h.c.}
-		  \end{aligned}$$
-			- Notes
-				- This is **not** diagonalization (though we can do this in principle). The point is to find a suitable paring of LH fermions with RH ones, thus the fermions would obtain **Dirac mass**.
-				- $u,c,t$ are just names for redefined fields (mix of different generations),
-				  $$\begin{pmatrix}u_L^1\\\\u_L^2\\\\u_L^3\\\end{pmatrix}=L_u\begin{pmatrix}u_L\\c_L\\t_L\end{pmatrix},\quad\begin{pmatrix}u_R^1\\\\u_R^2\\\\u_R^3\end{pmatrix}=R_u\begin{pmatrix}u_R\\\\c_R\\\\t_R\end{pmatrix}$$
-			- Similarly,
-			  $$\begin{pmatrix}d_L^1\\\\d_L^2\\\\d_L^3\end{pmatrix}=L_d\begin{pmatrix}d_L\\\\s_L\\\\b_L\end{pmatrix},\quad\begin{pmatrix}d_R^1\\\\d_R^2\\\\d_R^3\end{pmatrix}=R_d\begin{pmatrix}d_R\\\\s_R\\\\b_R\end{pmatrix}$$
-		- #+BEGIN_NOTE
-		  Most of our masses (those of protons and neutrons) come from QCD effects instead of EWSB.
-		  #+END_NOTE
+		- Derivation of masses
+		  collapsed:: true
+			- Treat two components of the $SU(2)$ doublets as different fields,
+			  collapsed:: true
+			  $$Q_L=\begin{pmatrix}u_L\\\\d_L\end{pmatrix},\quad L_L=\begin{pmatrix}\nu_L\\\\e_L\end{pmatrix},\quad H=\frac1{\sqrt2}\begin{pmatrix}0\\v+h\end{pmatrix}$$
+				- This is necessary since EWSB breaks $SU(2)$ symmetry and requires treating different components separately.
+			- Then we have
+			  collapsed:: true
+			  $$\begin{aligned}
+			  -\mathcal{L}_{\mathrm{Yukawa}}=& m_{u}^{\color{red}{ij}}\bar{u}_{L}^{\color{red}{i}}u_{R}^{\color{red}{j}}+m_{d}^{\color{red}{ij}}\bar{d}_{L}^{\color{red}{i}}d_{R}^{\color{red}{j}}+m_{e}^{\color{red}{ij}}\bar{e}_{L}^{\color{red}{i}}e_{R}^{\color{red}{j}}  \\
+			  &+\frac{\color{red}{y_u^{ij}}}{\sqrt{2}}h\bar{u}_L^iu_R^j+\frac{\color{red}{y_d^{ij}}}{\sqrt{2}}h\bar{d}_L^id_R^j+\frac{\color{red}{y_e^{ij}}}{\sqrt{2}}h\bar{e}_L^ie_R^j+\mathrm{h.c.}
+			  \end{aligned}$$
+				- Note that the generation indices are still present, which are to be diagonalized.
+				- $$m_u^{\color{red}{ij}}=\frac{y_u^{\color{red}{ij}}v}{\sqrt{2}},\quad m_d^{\color{red}{ij}}=\frac{y_d^{\color{red}{ij}}v}{\sqrt{2}},\quad m_e^{\color{red}{ij}}=\frac{y_e^{\color{red}{ij}}v}{\sqrt{2}}$$
+			- The matrices could be diagonalized by SVD:
+			- After some algebra and redefinitions, we arrive at
+			  collapsed:: true
+			  $$\begin{aligned}
+			  -L_{\text{fermion mass}}= m_u\bar{u}_Lu_R+m_c\bar{c}_Lc_R+m_t\bar{t}_Lt_R  \\
+			  +m_d\bar{d}_Ld_R+m_s\bar{s}_Ls_R+m_b\bar{b}_Lb_R \\
+			  +m_e\bar{e}_Le_R+m_\mu\bar{\mu}_L\mu_R+m_\tau\bar{\tau}_L\tau_R+\mathrm{h.c.}
+			  \end{aligned}$$
+				- Notes
+					- This is **not** diagonalization (though we can do this in principle). The point is to find a suitable paring of LH fermions with RH ones, thus the fermions would obtain **Dirac mass**.
+					- $u,c,t$ are just names for redefined fields (mix of different generations),
+					  $$\begin{pmatrix}u_L^1\\\\u_L^2\\\\u_L^3\\\end{pmatrix}=L_u\begin{pmatrix}u_L\\c_L\\t_L\end{pmatrix},\quad\begin{pmatrix}u_R^1\\\\u_R^2\\\\u_R^3\end{pmatrix}=R_u\begin{pmatrix}u_R\\\\c_R\\\\t_R\end{pmatrix}$$
+				- Similarly,
+				  $$\begin{pmatrix}d_L^1\\\\d_L^2\\\\d_L^3\end{pmatrix}=L_d\begin{pmatrix}d_L\\\\s_L\\\\b_L\end{pmatrix},\quad\begin{pmatrix}d_R^1\\\\d_R^2\\\\d_R^3\end{pmatrix}=R_d\begin{pmatrix}d_R\\\\s_R\\\\b_R\end{pmatrix}$$
+			- #+BEGIN_NOTE
+			  Most of our masses (those of protons and neutrons) come from QCD effects instead of EWSB.
+			  #+END_NOTE
+		- CKM matrix
+		  collapsed:: true
+			- Note that the forms of interactions (currents) would be changed by the field redefinitions.
+			- Charged current
+				- $$
+				  \mathcal{L}_{W \text {-quarks }}=-\frac{g}{\sqrt{2}} W_\mu^{+} \bar{u}_L^i \gamma^\mu d_L^i+\text { h.c. }
+				  $$
+				- $$
+				  \begin{aligned}
+				  \mathcal{L}_{W \text {-quarks }} & =-\frac{g}{\sqrt{2}} W_\mu^{+}\left(\begin{array}{lll}
+				  \bar{u}_L & \bar{c}_L & \bar{t}_L
+				  \end{array}\right) L_u^{\dagger} \gamma^\mu L_d\left(\begin{array}{c}
+				  d_L \\
+				  s_L \\
+				  b_L
+				  \end{array}\right)+\text { h.c. } \\
+				  & \equiv-\frac{g}{\sqrt{2}} W_\mu^{+}\left(\begin{array}{lll}
+				  \bar{u}_L & \bar{c}_L & \bar{t}_L
+				  \end{array}\right) \gamma^\mu V_{C K M}\left(\begin{array}{l}
+				  d_L \\
+				  s_L \\
+				  b_L
+				  \end{array}\right)+\text { h.c. }
+				  \end{aligned}
+				  $$
+				- $$V_{CKM}:=L_u^\dag L_d$$
+			- Leptons
+				- Note that if neutrinos have zero masses, the mass eigenstates could be arbitrarily selected and the CKM matrix could always be chosen to be diagonal.
+				- The basis where the lepton CKM matrix is diagonal is called the **flavor basis**.
+					- Even if they have masses.
+					  In that case the flavor basis states would not be mass eigenstates.
+			- Neutral current
+				- They are of the form
+				  $$
+				  J_Z^\mu=\bar{\psi}_i \gamma^\mu\left(T_3-Q s_w^2\right) \psi_i, \quad J_{E M}^\mu=Q \bar{\psi}_i \gamma^\mu \psi_i
+				  $$
+				  i.e. left-side and right-side fermions are the same.
+				- Therefore any rotations would cancel.
+	- Neutrino mass
+		- We have different ways to have nonzero neutrino masses.
+		- The simplest way is to introduce an extra particle.
+			- Yukawa interaction and EWSB gives the Dirac mass.
+			- We could also have majorana mass, since neutrinos are neutral!

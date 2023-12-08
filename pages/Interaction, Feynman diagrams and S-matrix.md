@@ -1,5 +1,5 @@
-- # Setup and Definitions
-  collapsed:: true
+# Setup and Definitions
+collapsed:: true
 	- Incoming and outgoing states
 		- $\begin{aligned} & \left.\left.\mid\left\{p_i\right\}(t) \text { in }\right\rangle_I=U(t,-\infty) \mid\left\{p_i\right\} \text { in }\right\rangle_H \\ & \left.\left.\mid\left\{p_i\right\}(t) \text { out }\right\rangle_I=U(t,+\infty) \mid\left\{p_i\right\} \text { out }\right\rangle_H\end{aligned}$
 		- Completeness relation
@@ -31,7 +31,18 @@
 	  \end{equation*}
 	- This is exact for any field theory, not just free theories!
 	- Derived from an infinitesimal transformation $\phi(x) \to \phi(x)+\epsilon f(x)$ in path integral.
-- # From S-matrix to Cross Section
+- # From S-matrix to decay rate and cross section
+	- In the center-of-mass frame (the unstable particle is static), differential decay rate of the $1 \rightarrow 2$ decay is given by
+	  $$
+	  \left(\frac{d \Gamma}{d \Omega}\right)_{\mathrm{CM}}=\frac{|\vec{p}|}{32 \pi^2 m_1^2}|\mathcal{M}|^2
+	  $$
+		- $m_1$ is the mass of the initial particle, $\vec{p}$ is the 3 -momentum of one of the final particles.
+	- The differential cross section of the $2 \rightarrow 2$ scattering in the c.o.m. frame can be written as
+	  $$
+	  \left(\frac{d \sigma}{d \Omega}\right)_{\mathrm{CM}}=\frac{1}{64 \pi^2 E_{\mathrm{cm}}^2} \frac{p_f}{p_i}|\mathcal{M}|^2 \Theta\left(E_{\mathrm{cm}}-m_3-m_4\right)
+	  $$
+		- $\Theta$ is the step function.
+	-
 - # [[Feynman rules]]
   collapsed:: true
 	- $$\begin{aligned} i \mathcal{M} \cdot & (2 \pi)^4 \delta^{(4)}\left(p_{\mathcal{A}}+p_{\mathcal{B}}-\sum p_f\right) \\ & =\left(\begin{array}{c}\text { sum of all connected, amputated Feynman } \\ \text { diagrams with } p_{\mathcal{A}}, p_{\mathcal{B}} \text { incoming, } p_f \text { outgoing }\end{array}\right) .\end{aligned}$$

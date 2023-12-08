@@ -1,0 +1,3 @@
+- Could (expectation values of) observables completely fix the state?
+	- Could only cross sections (or S-matrix) fix the field?
+	- If not, any finer observations we can perform?
