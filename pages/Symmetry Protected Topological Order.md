@@ -7,11 +7,11 @@ alias:: [[SPT]]
   collapsed:: true
 	- On-site symmetry #card
 	  id:: 63be2322-53b6-4a37-b68a-4aa8ff9da271
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-08-20T00:46:07.057Z
-	  card-last-reviewed:: 2023-05-28T00:46:07.058Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-11-27T06:13:14.849Z
+	  card-last-reviewed:: 2023-12-10T01:13:14.849Z
 	  card-last-score:: 5
 		- With a tensor product decomposition $\mathcal{H}^{\text {tot }}=\bigotimes_i \mathcal{H}_i$ of the Hilbert space, $U=\prod_i U_i$
 			- Note that the decomposition need not be 'smallest', i.e. we may pack some spins into a block.

@@ -58,7 +58,6 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 		  id:: 64c905ac-b67f-49b6-9303-441e4ac1f6ab
 			- Try a few examples, e.g. Ising, toric code
 - # 1D case
-  collapsed:: true
 	- ## Setup
 	  collapsed:: true
 		- Notations
@@ -67,7 +66,7 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 			- $d_k$ is the dimension of the local physical degree of freedom.
 			-
 		- Definitions
-			- Matrix product state #card
+			- Matrix product state
 			  card-last-interval:: 33.94
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6
@@ -115,6 +114,7 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 				  spans the the whole space of $D \times D$ matrices.
 				-
 	- ## Basic Facts
+	  collapsed:: true
 		- Each state in a finite-dimensional space could be represented as an MPS if D is large enough.
 		  collapsed:: true
 			- For a system with $N$ sites and $d$ local d.o.f. the Hilbert space has $d^N$ dimensions.
@@ -477,21 +477,19 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 				  which spans the whole space of 2x2 matrices.
 				-
 - # Higher Dimensions: TPS
-  collapsed:: true
 	- ## Open Problems #card
 	  collapsed:: true
 		- How to determine whether a state is short-range correlated?
 			- we can find some mathematical characteristic to capture the notion, not necessarily computationally efficient.
 			- Tt is known that there are injective tensor product states whose correlation functions only decay polynomially.
-	- ## Definitions
-	  collapsed:: true
+	- ## Definitions: TPS, Gauge DOF, Double Tensor #card
 		- TPS
 			- A tensor product state in a many-body spin system is 
 			  $$
 			  |\psi\rangle=\sum_{i_1, i_2, \ldots i_m \ldots} \operatorname{tTr}\left(T^{i_1} T^{i_2} \ldots T^{i_m} \ldots\right)\left|i_1 i_2 \ldots i_m \ldots\right\rangle
 			  $$
 			  where $\operatorname{tTr}$ means contracting the inner indices.
-		- Gauge degree of freedom #card
+		- Gauge degree of freedom
 		  card-last-interval:: 32.57
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6
@@ -500,7 +498,7 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 		  card-last-score:: 5
 			- We can insert many pairs of basis transformations (invertible operators) inverse to each other. The contraction would be exactly the same.
 			-
-		- Double Tensor #card
+		- Double Tensor
 		  card-last-interval:: 28.64
 		  card-repeats:: 1
 		  card-ease-factor:: 2.6

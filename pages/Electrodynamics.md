@@ -1,12 +1,23 @@
 type:: [[Course]]
 
 - # Cautions
-  collapsed:: true
 	- Note that we usually use $R=r-r'$, which might incur an extra minus.
 		- For example, the potential of a dipole is
 		  $$
 		  \varphi_1=\frac{\vec{p} \cdot \hat{r}}{4 \pi \varepsilon_0 r^2}
 		  $$
+	- Electric dipole or magnetic dipole? How many orders?
+		- $$\vec{A}(\vec{r}, t)=\frac{\mu_0}{4 \pi} \int \frac{[\vec{j}]}{R} d \tau^{\prime}$$
+		  is exact.
+		- For electric dipoles, we only need to consider the first-order expansion
+		  $$
+		  \begin{aligned}
+		  & \vec{A}_0=\frac{\mu_0}{4 \pi r} \int {[\vec{j}]} d \tau^{\prime}=\frac{\mu_0}{4 \pi r} \int[\vec{v} \rho] d \tau^{\prime}=\frac{\mu_0}{4 \pi r}\left[\sum_i q_i \vec{v}_i\right] \\
+		  & =\frac{\mu_0}{4 \pi r} \frac{d}{d t}\left[\sum_i q_i \vec{r}_i\right]=\frac{\mu_0}{4 \pi r}[\dot{\vec{p}}]
+		  \end{aligned}
+		  $$
+		- For magnetic dipoles, we need to consider the second-order expansion
+		  $$\vec{A}_{m} =\frac{i\mu _{0} \omega }{4\pi r^{2} c}\vec{r} \times [\vec{m} ]$$
 - # Maxwell Equations
   card-last-interval:: 31.26
   card-repeats:: 1
@@ -823,7 +834,8 @@ type:: [[Course]]
 				  k_{+}=\frac{\omega}{c} \sqrt{\varepsilon_1+\varepsilon_2}, \quad k_{-}=\frac{\omega}{c} \sqrt{\varepsilon_1-\varepsilon_2}
 				  $$
 			- Therefore when a linearly polarized light propagates in the material, the polarization direction would rotate.
-- # Reflection and refraction
+- # Reflection and Refraction
+  collapsed:: true
 	- Starting point: Boundary conditions
 		- $$\begin{align*}
 		  \vec{n} \times (\vec{H}_{1} -\vec{H}_{2}) & =0 \\
@@ -898,4 +910,368 @@ type:: [[Course]]
 		  $$R_S=R_P=1$$
 		-
 	-
+- # Waveguide and Cavity
+  collapsed:: true
+	- ## Perfect conductor approximation
+		- Assumption. The conductor is perfect and there is no field (electric or magnetic) within the conductor.
+		- $$
+		  \begin{array}{lll}
+		  \vec{n} \cdot\left(\vec{B}_1-\vec{B}_2\right)=0 & \rightarrow & \vec{n} \cdot \vec{B}=0 \\
+		  \vec{n} \times\left(\vec{E}_1-\vec{E}_2\right)=0 & \rightarrow & \vec{n} \times \vec{E}=0
+		  \end{array}
+		  $$
+	- ## Equations and independent components
+	  collapsed:: true
+		- Ansatz of eigen-modes
+			- The waveguide is translation invariant in the z direction, thus so should $\vec B_0$ and $\vec E_0$ be.
+			- $$
+			  \left(\begin{array}{c}
+			  \vec{E} \\
+			  \vec{B}
+			  \end{array}\right)=\left(\begin{array}{c}
+			  \vec{E}_0(x, y) \\
+			  \vec{B}_0(x, y)
+			  \end{array}\right) e^{i\left(k_z z-\omega t\right)}
+			  $$
+		- Then the wave equation
+		  $$
+		  \left(\nabla^2-\frac{1}{c^2} \frac{\partial^2}{\partial t^2}\right)\left(\begin{array}{l}
+		  \vec{E} \\
+		  \vec{B}
+		  \end{array}\right)=0
+		  $$
+		  becomes
+		  $$
+		  \left({\partial_x ^2}+\partial_y^2+k_c^2\right)\left(\begin{array}{l}
+		  \vec{E}_0 \\
+		  \vec{B}_0
+		  \end{array}\right)=0
+		  $$
+			- $$
+			  \begin{aligned}
+			  & k_c^2=k_0^2-k_z^2 \\
+			  & k_0^2=\frac{\omega^2}{c^2}
+			  \end{aligned}
+			  $$
+		- All six field components satisfy the Helmholtz equation.
+		  But they are **not independent** since some information was lost when deriving the wave equations from the Maxwell equations.
+		-
+		- Invoke the original Maxwell equations $\nabla \times \vec{E}=-\frac{\partial \vec{B}}{\partial t}, \nabla \times \vec{B}=\frac 1 {c^2}\frac{\partial \vec{E}}{\partial t}$:
+		  $$
+		  \begin{aligned}
+		  & \partial_y E_{0 z}-i k_z E_{0 y}=i k_0 c B_{0 x} \\
+		  & i k_z E_{0 x}-\partial_x E_{0 z}=i k_0 c B_{0 y} \\
+		  & \partial_y B_{0 z}-i k_z B_{0 y}=-i \frac{k_0}{c} E_{0 x} \\
+		  & i k_z B_{0 x}-\partial_x B_{0 z}=-i \frac{k_0}{c} E_{0 y}
+		  \end{aligned}
+		  $$
+		- Thus there are only two independent components. We usually take them to be $B_{0z}$ and $E_{0z}$.
+	- ## Rectangular Waveguide
+		- Summary
+		  collapsed:: true
+			- Invoke the wave equations and the boundary conditions.
+			- There are different eigen-solutions, namely TE ($E_{0z}=0$) and TB ($B_{0z}=0$)
+			- The eigen-solutions could be obtained by separation of variables.
+			  We can see the modes could only take discrete values.
+		- Boundary conditions
+		  collapsed:: true
+			- $$
+			  \left.B_{0 x}\right|_{x=0, a}=\left.B_{0 y}\right|_{y=0, b}=\left.E_{0 x}\right|_{y=0, b}=\left.E_{0 y}\right|_{x=0, a}=0
+			  $$
+		- Traverse-Electric wave
+		  collapsed:: true
+			- Just solving $B_{0z}$ suffices.
+			- Separation of variables gives the general solution
+			  collapsed:: true
+			  $$B_{0z}(x,y)=(A_1 \sin (k_x x)+B_1 \cos (k_x x))(A_2 \sin (k_y y)+B_2 \cos (k_y y))$$
+				- $$
+				  k_x^2+k_y^2=k_c^2
+				  $$
+			- The boundary conditions give
+			  $$
+			  \left.\frac{\partial}{\partial x} B_{0 z}\right|_{\substack{x=0 \\ x=a}}=0,\left.\quad \frac{\partial}{\partial y} B_{0 z}\right|_{\substack{y=0 \\ y=b}}=0
+			  $$
+			- Therefore, the allowed solutions are
+			  collapsed:: true
+			  $$
+			  \begin{aligned}
+			  B_{0 z} & =B_0 \cos \left(\frac{m \pi}{a} x\right) \cos \left(\frac{n \pi}{b} y\right), \\
+			  k_c^2 & =\pi^2\left(\frac{m^2}{a^2}+\frac{n^2}{b^2}\right),
+			  \end{aligned}
+			  $$
+				- $$
+				  \begin{gathered}
+				  E_x=-i \frac{n \pi}{b} \frac{c k_0}{k_c^2} B_0 \cos \left(\frac{m \pi x}{a}\right) \sin \left(\frac{n \pi y}{b}\right) e^{i\left(k_z z-\omega t\right)} \\
+				  E_y=i \frac{m \pi}{a} \frac{c k_0}{k_c^2} B_0 \sin \left(\frac{m \pi x}{a}\right) \cos \left(\frac{n \pi y}{b}\right) e^{i\left(k_z z-\omega t\right)} \\
+				  B_x=-i \frac{m \pi}{a} \frac{k_z}{k_c^2} B_0 \sin \left(\frac{m \pi x}{a}\right) \cos \left(\frac{n \pi y}{b}\right) e^{i\left(k_z z-\omega t\right)} \\
+				  B_y=-i \frac{n \pi}{b} \frac{k_z}{k_c^2} B_0 \cos \left(\frac{m \pi x}{a}\right) \sin \left(\frac{n \pi y}{b}\right) e^{i\left(k_z z-\omega t\right)} \\
+				  B_z=B_0 \cos \left(\frac{m \pi x}{a}\right) \cos \left(\frac{n \pi y}{b}\right) e^{i\left(k_z z-\omega t\right)}
+				  \end{gathered}
+				  $$
+			- Note that we **cannot** have $m=n=0$. 
+			  Thus the ground mode must be one of (0,1) and (1,0).
+		- Traverse-Magnetic wave
+			- Just solving $E_{0z}$ suffices.
+			- Separation of variables gives the general solution
+			  collapsed:: true
+			  $$E_{0z}(x,y)=(A_1 \sin (k_x x)+B_1 \cos (k_x x))(A_2 \sin (k_y y)+B_2 \cos (k_y y))$$
+				- $$
+				  k_x^2+k_y^2=k_c^2
+				  $$
+			- The boundary conditions give
+			  $$
+			  \left.E_{0 z}\right|_{\substack{x=0 \\ x=a}}=0,\left.\quad E_{0 z}\right|_{\substack{y=0 \\ y=b}}=0
+			  $$
+			- Similarly, the allowed solutions are
+			  $$
+			  \begin{aligned}
+			  E_{0 z} & =E_0 \sin \left(\frac{m \pi}{a} x\right) \sin \left(\frac{n \pi}{b} y\right) \\
+			  k_c^2 & =\pi^2\left(\frac{m^2}{a^2}+\frac{n^2}{b^2}\right),
+			  \end{aligned}
+			  $$
+			- The lowest allowed mode is (1,1)!
+	- ## Rectangular Resonance Cavity
+		- We could view it as a waveguide **plus** ends, thus the eigen-modes are standing waves in z direction.
+		- Thus the solution is
+		  $$
+		  B_{0z}=B_0 \cos \left(\frac{m \pi}{a} x\right) \cos \left(\frac{n \pi}{b} y\right) \sin \left(k_z z\right)
+		  $$
+		  with appropriate quantizations.
+		- Remarks
+			- At most one of m,n,p could be zero!
+			  Thus the ground mode should be one of (1,1,0), (1,0,1) and (0,1,1).
+		-
+- # Radiation
+	- Proposition. At the large-distance region, 
+	  collapsed:: true
+	  $$\vec E = -c (\vec e_r \times \vec B)$$
+		- The root is the last Maxwell equation
+		  $$ \nabla \times \vec B = \frac 1 {c^2} \frac {d\vec E}{dt}$$
+		- First we shall assume $\vec B$ is a wave solution, 
+		  $$\vec B(r) = \vec B_0 e^{i \vec k \cdot \vec r}$$
+		- Then
+		  \begin{equation*}
+		  \nabla \times \vec{B} =i\vec{k} \times \vec{B}_{0} e^{i\vec{k} \cdot \vec{r}} =i\vec{k} \times \vec{B} (r)
+		  \end{equation*}
+		  Where $\vec{k} =k\vec{e}_{r} =\frac{\omega }{c}\vec{e}_{r}$.
+		- On the other hand, 
+		  \begin{equation*}
+		  \frac{1}{c^{2}}\frac{d\vec{E}}{dt} =\frac{-i\omega }{c^{2}}\vec{E}_{0}
+		  \end{equation*}
+		- Therefore
+		  \begin{equation*}
+		  i\frac{\omega }{c}\vec{e}_{r} \times \vec{B} (r)=\frac{-i\omega }{c^{2}}\vec{E}_{0}
+		  \end{equation*}
+		  which leads to
+		  \begin{equation*}
+		  \vec{E}_{0} =-c(\vec{e}_{r} \times \vec{B} (r))
+		  \end{equation*}
+	- Def. Angle distribution
+		- $$f(\theta, \phi):= \frac {\langle \vec S_p  \rangle \cdot d \vec S}{d \omega} \equiv  {(\langle \vec S_p \rangle \cdot \vec e_r) r^2}$$
+	- ## Vector Potential
+	  collapsed:: true
+		- First we could define $\vec B=\nabla \times \vec A$.
+		- Note that 
+		  $$\nabla \times \vec E = -\frac {\partial \vec V} {\partial t} = - \nabla \times \frac {d \vec A}{dt}$$
+		  therefore 
+		  $$\vec E + \frac {d \vec A}{dt}$$
+		  is **curl-free**!
+		- We can **define** the electric potential as
+		  $$
+		  \vec{E}+\frac{\partial}{\partial t} \vec{A}=-\nabla \varphi
+		  $$
+		-
+	- ## Lorenz Gauge and Green Function
+		- Lorenz gauge
+		  collapsed:: true
+			- $$\partial_\mu A^\mu=0$$
+			- Therefore $\partial_\mu F^{\mu \nu}=J^\nu$ becomes
+			  $$\partial_\mu \partial^\mu A^\nu = J^\nu$$
+			  i.e.
+			  $$
+			  \left(\nabla^2-\frac{1}{c^2} \frac{\partial^2}{\partial t^2}\right)\left(\begin{array}{l}
+			  \varphi \\
+			  \vec{A}
+			  \end{array}\right)=-\left(\begin{array}{c}
+			  \rho / \varepsilon_0 \\
+			  \mu_0 \vec{j}
+			  \end{array}\right)
+			  $$
+				- Note that the metric sign is (+,-,-,-).
+				- Alternative mnemonic: Take the static limit, then $\varphi$ should satisfy the Poisson equation.
+		-
+		- The standard solution technique is to find the Green function (Feynman propagator),
+		  collapsed:: true
+		  $$
+		  \left(\nabla^2-\frac{1}{c^2} \frac{\partial^2}{\partial t^2}\right) G\left(\vec{r}-\vec{r}^{\prime}, t-t^{\prime}\right)=-\delta\left(\vec{r}-\vec{r}^{\prime}\right) \delta\left(t-t^{\prime}\right)
+		  $$
+			- In the Fourier space,
+			  $$
+			  \begin{aligned}
+			  & G(\vec{R}, T)=\frac{1}{(2 \pi)^4} \int G(\vec{k}, \omega) e^{i \vec{k} \cdot \vec{R}} e^{-i \omega T} d \vec{k} d \omega \\
+			  & \delta(\vec{R}, T)=\frac{1}{(2 \pi)^4} \int e^{i \vec{k} \cdot \vec{R}} e^{-i \omega T} d \vec{k} d \omega
+			  \end{aligned}
+			  $$
+			- We can easily solve
+			  $$
+			  \begin{aligned}
+			  &G(\vec{k}, \omega)=\frac{1}{k^2-k_0^2}\\
+			  &k_0^2=(\omega / c)^2=\varepsilon_0 \mu_0 \omega^2
+			  \end{aligned}
+			  $$
+			- The Green function is the **retarded potential**,
+			  $$
+			  G(\vec{R}, T)=\frac{1}{2 \pi} \int \frac{e^{i k_0 R}}{4 \pi R} e^{-i \omega T} d \omega=\frac{1}{4 \pi R} \delta(R / c-T)
+			  $$
+				- Physically, everything is the same as the static case, except an extra delay of $R/c$!
+		-
+		- $$
+		  \varphi(\vec{r}, t)=\frac{1}{4 \pi \varepsilon_0} \int \frac{1}{R} \delta(R / c-T) \rho\left(\vec{r}^{\prime}, t^{\prime}\right) d \vec{r}^{\prime} d t^{\prime}=\frac{1}{4 \pi \varepsilon_0} \int \frac{[\rho]}{R} d \tau^{\prime} \\
+		  \vec{A}(\vec{r}, t)=\frac{\mu_0}{4 \pi} \int \frac{[\vec{j}]}{R} d \tau^{\prime}
+		  $$
+			- Note that the square bracket [] means
+			  $$
+			  t^{\prime}=t-\frac{R}{c}
+			  $$
+	- ## Multi-pole Expansion
+	  collapsed:: true
+		- The thought is still similar: at large distances, the details of the radiation source could be glossed over.
+		- $$
+		  \varphi=\frac{1}{4 \pi \varepsilon_0}\left[\int \frac{[\rho]}{r} d \tau^{\prime}-\int \vec{r}^{\prime} \cdot \nabla \frac{[\rho]}{r} d \tau^{\prime}+\ldots\right]
+		  $$
+			- Note that $d\tau' \equiv dt' d^3 r$.
+			- The first term is the total electric charge.
+			- The second term is the divergence of the dipole
+		- $$\vec{A}=\frac{\mu_0}{4 \pi} \int \frac{[\vec{j}]}{r} d \tau^{\prime}-\frac{\mu_0}{4 \pi} \int \vec{r}^{\prime} \cdot \nabla \frac{[\vec{j}]}{r} d \tau^{\prime}+\cdots$$
+		  Consider only the first term.
+			- $$
+			  \begin{aligned}
+			  & \vec{A}_0=\frac{\mu_0}{4 \pi r} \int {[\vec{j}]} d \tau^{\prime}=\frac{\mu_0}{4 \pi r} \int[\vec{v} \rho] d \tau^{\prime}=\frac{\mu_0}{4 \pi r}\left[\sum_i q_i \vec{v}_i\right] \\
+			  & =\frac{\mu_0}{4 \pi r} \frac{d}{d t}\left[\sum_i q_i \vec{r}_i\right]=\frac{\mu_0}{4 \pi r}[\dot{\vec{p}}]
+			  \end{aligned}
+			  $$
+				- The first line merely rewrites $\vec j$ as $\vec v \rho$, then rewrite the integral as a summation.
+				- The second line uses the property that [] commutes with summation and $\frac d {dt}$.
+				-
+		- ### Single-frequency radiation and two limits
+			- Consider
+			  $$
+			  \rho\left(\vec{r}^{\prime}, t^{\prime}\right)=\rho\left(\vec{r}^{\prime}\right) e^{-i \omega t^{\prime}}, \vec{j}\left(\vec{r}^{\prime}, t^{\prime}\right)=\vec{j}\left(\vec{r}^{\prime}\right) e^{-i \omega t^{\prime}}
+			  $$
+			- Obtain fields
+				- Plug in $\vec B = \nabla \times \vec A$,
+				  $$
+				  \vec{B}=\frac{\mu_0}{4 \pi} \nabla \times \frac{[\dot{\vec{p}}]}{r}=-\frac{i \omega \mu_0}{4 \pi} \nabla \times \frac{[\vec{p}]}{r}
+				  $$
+				- $\vec E$ in the source-free region could be obtained by $\nabla \times \vec B =\frac 1 {c^2} \frac {\partial \vec E}{\partial t}$,
+				  $$
+				  \vec{E}=-\frac{c^2}{i \omega} \nabla \times \vec{B}=\frac{1}{4 \pi \varepsilon_0} \nabla \times \nabla \times \frac{[\vec{p}]}{r}
+				  $$
+			- Detailed analysis
+				- $$
+				  \nabla \times \frac{[\vec{p}]}{r}=(\nabla \times[\vec{p}]) \frac{1}{r}+\left(\nabla\left(\frac{1}{r}\right) \times[\vec{p}]\right)
+				  $$
+				- Since everything is a wave, $[\vec{p}]=\vec{p}_0 e^{-i \omega t} e^{i \frac{\omega}{c} r}$, we could substitute
+				  $$
+				  \nabla \leftrightarrow i \frac{\omega}{c} \vec{e}_r=i k \vec{e}_r
+				  $$
+				- Therefore,
+				  $$
+				  \nabla \times \frac{[\vec{p}]}{r}= i \frac{\omega}{c}\left(\vec{e}_r \times[\vec{p}] \frac{1}{r}\right)-\frac{1}{r}\left(\vec{e}_r \times[\vec{p}] \frac{1}{r}\right)
+				  $$
+			- Two limits
+				- We should compare $\omega /c =2\pi / \lambda$ and $1/r$.
+				-
+				- In the short-distance region ($r \ll \lambda$), $1/r$ dominates, thus we could ignore the first term (proportional to $\omega /c$).
+				- In the long-distance region, ($r \gg \lambda$), $2 \pi / \lambda$ dominates, thus we could ignore the second term.
+			-
+	- ## Radiation of a magnetic dipole (harmonic current)
+		- Note that we do not have magnetic monopole, so we have to model magnetic dipoles as electric current.
+		-
+		- Here we should consider the second term in the multi-pole expansion,
+		  \begin{equation*}
+		  \vec{A}_{1} =-\frac{\mu _{0}}{4\pi }\int \vec{r}^{\prime } \cdot \nabla \frac{[\vec{j} ]}{r} d\tau ^{\prime }
+		  \end{equation*}
+		- Assumptions. $r\gg \lambda ,\ \vec{j} =\vec{j}_{0} e^{i\vec{k} \cdot \vec{r}} ,\vec{k} =\frac{\omega }{c}\vec{e}_{r}$.
+			- The first allows us to ignore the $\nabla \left(\frac{1}{r}\right)$ term.
+			- The second simplifies the divergence.
+		- \begin{align*}
+		  \vec{A}_{1} & =-\frac{\mu _{0}}{4\pi r}\int \vec{r}^{\prime } \cdot \nabla [\vec{j} ]d\tau ^{\prime }\\
+		  & =-\frac{\mu _{0}}{4\pi r}\int \left(\vec{r}^{\prime } \cdotp i\vec{k}\right) [\vec{j} ]d\tau ^{\prime }\\
+		  & =-\frac{i\mu _{0}}{4\pi r}\int \left(\vec{r}^{\prime } \cdotp \frac{\omega }{cr}\vec{r}\right) [\vec{j} ]d\tau ^{\prime }\\
+		  & =-\frac{i\mu _{0} \omega }{4\pi r^{2} c}\vec{r} \cdotp \int \vec{r}^{\prime } [\vec{j} ]d\tau ^{\prime }\\
+		  & =-\frac{i\mu _{0} \omega }{4\pi r^{2} c}\vec{r} \cdotp \frac{1}{2}\left\{\int \left(\vec{r}^{\prime } [\vec{j} ]+[\vec{j} ]\vec{r}^{\prime }\right) d\tau ^{\prime } +\int \left(\vec{r}^{\prime } [\vec{j} ]-[\vec{j} ]\vec{r}^{\prime }\right) d\tau ^{\prime }\right\}
+		  \end{align*}
+		- The first term is the contribution of the quadruple, which should be ignored for now. Let's just consider the second.
+			- Note that 
+			  \begin{equation*}
+			  a\times ( b\times c) =c( a\cdot b) -b( a\cdot c)
+			  \end{equation*}
+			- Therefore
+			  \begin{align*}
+			  \vec{r} \cdotp \left(\vec{r}^{\prime } [\vec{j} ]-[\vec{j} ]\vec{r}^{\prime }\right) & =\vec{r} \times \left( [\vec{j} ]\times \vec{r}^{\prime }\right)\\
+			  \int \vec{r} \cdotp \left(\vec{r}^{\prime } [\vec{j} ]-[\vec{j} ]\vec{r}^{\prime }\right) d\tau ^{\prime } & =2\vec{r} \times [\vec{m}]\\
+			  \vec{A}_{1} & =-\frac{i\mu _{0} \omega }{4\pi r^{2} c}\vec{r} \times [\vec{m}]
+			  \end{align*}
+				- Note that
+				  \begin{equation*}
+				  \mathbf{m} =\frac{1}{2}\int (\mathbf{r} \times \mathbf{J} )d^{3} x
+				  \end{equation*}
+		- Summary.
+		  $$\begin{align*}
+		  \vec{A}_{m} & =\frac{i\mu _{0} \omega }{4\pi r^{2} c}\vec{r} \times [\vec{m} ]\\
+		  \vec{B} & =\nabla \times \vec{A}_{m} =i\frac{\omega }{c}\vec{e}_{r} \times \vec{A}_{m}\\
+		  \vec{E} & =-\hat{e}_{r} \times (c\vec{B} )
+		  \end{align*}$$
+		-
+	- ## Line Antenna
+	  collapsed:: true
+		- Ansatz. The current could be written as superpositions of the form
+		  $$
+		  I_0 e^{i( \pm k z-\omega t)}
+		  $$
+		- Setup
+		  collapsed:: true
+			- ![image.png](../assets/image_1702191196151_0.png)
+			- The current comes in at the middle, which is set to $z=0$.
+			  The upper half and the lower half should be symmetric.
+			- Current should be zero at both ends.
+		- Thus the only possible form of current is
+		  $$
+		  I\left(z^{\prime}, t^{\prime}\right)=I_0 e^{-i \omega t^{\prime}} \sin \left(k\left(\frac{l}{2}-\left|z^{\prime}\right|\right)\right)
+		  $$
+		- Calculation of vector potential
+			- $$
+			  A_z=\frac{\mu_0 I_0}{4 \pi} \int_{-l / 2}^{l / 2} \frac{\sin \left(\frac{k l}{2}-k\left|z^{\prime}\right|\right) e^{-i \omega(t-R / c)}}{R} d z^{\prime}
+			  $$
+			- Approximations
+				- $$
+				  R = r-z^{\prime} \cos \theta
+				  $$
+				- $$\frac 1 R = \frac 1 r$$
+			- Plug in the approximations, we see that
+			  $$
+			  \begin{aligned}
+			  A_z & = \frac{\mu_0 I_0}{4 \pi r} e^{-i \omega(t-r / c)} \int_{-l / 2}^{l / 2} \sin \left(\frac{k l}{2}-k\left|z^{\prime}\right|\right) e^{-i k z^{\prime} \cos \theta} d z^{\prime} \\
+			  & =\frac{\mu_0 I_0}{2 \pi k r} e^{-i \omega(t-r / c)}\left(\frac{\cos \left(\frac{k l}{2} \cos \theta\right)-\cos \frac{k l}{2}}{\sin ^2 \theta}\right)
+			  \end{aligned}
+			  $$
+			- $\vec B$ and $\vec E$ could be obtained accordingly.
+				- $$
+				  \vec{B}=i k \vec{e}_r \times \vec{A}=-i k A_z \sin \theta \vec{e}_\phi
+				  $$
+				- $$
+				  \vec{E}=-\hat{k} \times(c \vec{B})=-i c k A_z \sin \theta \vec{e}_\theta
+				  $$
+		- Calculation of radiation power and long-wavelength approximation
+		  collapsed:: true
+			- $$
+			  \left\langle\vec{S}_P\right\rangle=\frac{1}{2 \mu_0}\left(\vec{E} \times \vec{B}^*\right)=\frac{\mu_0 I_0^2 c}{8 \pi^2 r^2}\left[\frac{\cos \left(\frac{k l}{2} \cos \theta\right)-\cos \frac{k l}{2}}{\sin \theta}\right]^2 \vec{e}_r
+			  $$
+			- When $kl \ll 1$, we have
+			  $$
+			  \langle f(\theta, \phi)\rangle=\frac{\mu_0 I_0^2 c}{8 \pi^2} \frac{(k l)^4 \sin ^2 \theta}{64}=\frac{\mu_0 \omega^4}{32 \pi^2 c} \sin ^2 \theta \times\left(\frac{I_0 l^2}{4 c}\right)^2
+			  $$
+			- We see that the antenna is equivalent of a dipole $I_0 l^2/(4c)$.
+			- The radiation power is proportional to the magnitude of the dipole.
 -

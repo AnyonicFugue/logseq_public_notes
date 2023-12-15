@@ -124,6 +124,12 @@ type:: [[Course]]
 				- The remainder is purely routine: Write down the integral and use the cyclic symmetry of trace.
 	- {{embed ((6401b89c-e517-4e8f-ad4e-f98d5b166921))}}
 - # Thomas-Fermi Screening #card
+  card-last-interval:: 32.57
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2024-01-11T14:05:15.109Z
+  card-last-reviewed:: 2023-12-10T01:05:15.109Z
+  card-last-score:: 5
   collapsed:: true
 	- ## Idea
 		- In a Fermi liquid, some positive external charge would attract electrons to gather near it, thus weakens the external field.
@@ -644,11 +650,11 @@ type:: [[Course]]
 	  collapsed:: true
 		- Summary #card
 		  collapsed:: true
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-30T18:31:00.290Z
-		  card-last-reviewed:: 2023-05-30T12:31:00.291Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2024-01-24T00:54:13.550Z
+		  card-last-reviewed:: 2023-12-13T00:54:13.551Z
 		  card-last-score:: 5
 			- First write down the classical Hamiltonian
 			  \begin{equation*}

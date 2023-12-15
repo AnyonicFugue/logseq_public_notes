@@ -11,7 +11,7 @@ type:: paper_reading
 		- Vortices are point defects, with long-range statitics
 		- ((63d873c2-b58b-4e3b-8469-3fe30da04a61))
 		- However, vortices in superconductors are created by external fields, whereas anyons are excited states of the Hamiltonian.
-	- Terminology: topological symmetry breaking (TSB) := condense self-bosons #card
+	- Terminology: topological symmetry breaking (TSB) := condense self-bosons
 	  card-last-interval:: 27.15
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6

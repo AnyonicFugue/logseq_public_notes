@@ -60,11 +60,11 @@
 	- ## Inner product and reducibility
 	  collapsed:: true
 		- Proposition. Every orthogonal or unitary representation is completely reducible. #card
-		  card-last-interval:: 26.06
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-04-11T02:43:45.748Z
-		  card-last-reviewed:: 2023-03-16T01:43:45.748Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2024-01-25T01:03:54.081Z
+		  card-last-reviewed:: 2023-12-14T01:03:54.082Z
 		  card-last-score:: 5
 			- U inv ⇒ Complement of U inv.
 		- Theorem. Every real (complex) linear representation of a finite group is isomorphic to an orthogonal (unitary) representation. #card

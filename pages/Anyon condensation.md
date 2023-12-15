@@ -77,13 +77,14 @@
 				- However they can survive on the edge theory, which has no braiding!
 				- Physically, pulling the confined particles from the edge to the condensate costs an energy proportional to the distance. #Learning-TODO
 			- Condition for allowed particles #card
-			  card-last-interval:: 30
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-05-12T00:44:55.927Z
-			  card-last-reviewed:: 2023-04-12T00:44:55.927Z
+			  card-last-interval:: 117.6
+			  card-repeats:: 3
+			  card-ease-factor:: 2.8
+			  card-next-schedule:: 2024-04-08T14:52:05.604Z
+			  card-last-reviewed:: 2023-12-13T00:52:05.604Z
 			  card-last-score:: 5
-				- $R_{J \times a}^{a, J} R_{J \times a}^{J, a}=\frac{\theta_{J \times a}}{\theta_a}=1$
+				- $$R_{J \times a}^{a, J} R_{J \times a}^{J, a}=\frac{\theta_{J \times a}}{\theta_a}=1$$
+					- Note that the condition concerns **double** braiding, which is physically observable.
 				- The second line uses the fact that $R_c^{b a} R_c^{a b}=\frac{\theta_c}{\theta_a \theta_b}$.
 			-
 	- ## General Construction of Condensed Theories #card

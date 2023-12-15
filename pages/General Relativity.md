@@ -71,11 +71,11 @@ alias:: GR
 		- Quick memorization: Two plus and a minus, raised by a metric, symmetric positive at the two lower indices
 	- Geodesic equation #card
 	  id:: 64268b1f-18f1-4eb8-a851-d33728ebfa9c
-	  card-last-interval:: 29.9
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-18T22:13:26.345Z
-	  card-last-reviewed:: 2023-06-19T01:13:26.345Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2024-01-21T01:04:49.153Z
+	  card-last-reviewed:: 2023-12-10T01:04:49.154Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- Covariant form:
@@ -1070,11 +1070,11 @@ alias:: GR
 - # Physical Interpretations
 	- Is gravity still a force? How to define the gravity of the earth? #card
 	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-08-25T19:03:10.100Z
-	  card-last-reviewed:: 2023-07-25T13:03:10.100Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2024-01-24T00:50:47.002Z
+	  card-last-reviewed:: 2023-12-13T00:50:47.003Z
 	  card-last-score:: 5
 		- First, **what is a force**?
 			- If a particle accelerates with respect to an inertial observer, we claim that a force $F:=ma$ is acting on the particle.

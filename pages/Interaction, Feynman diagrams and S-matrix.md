@@ -9,6 +9,8 @@ collapsed:: true
 	- Mandelstam variables
 	  id:: 64238e6c-1aa2-4233-b9ab-a0b3e391eda2
 	  collapsed:: true
+		- Be careful of the squares in the definition of Mandelstam variables!!
+		  id:: 6576bf67-91cb-42ce-a711-75b99f643c1a
 		- ((636af081-5d67-4758-887c-ba004b190b71))
 		- ((637b326c-0792-4cf0-b2e5-d861201c971c))
 		-
@@ -140,13 +142,13 @@ collapsed:: true
 	- [[Helicity]] structure in scattering
 	  collapsed:: true
 		- High-E limit #card
-		  card-last-interval:: 61.44
-		  card-repeats:: 3
-		  card-ease-factor:: 2.56
-		  card-next-schedule:: 2023-05-14T21:40:16.069Z
-		  card-last-reviewed:: 2023-03-14T11:40:16.070Z
+		  card-last-interval:: 297.18
+		  card-repeats:: 4
+		  card-ease-factor:: 2.66
+		  card-next-schedule:: 2024-10-02T05:06:02.237Z
+		  card-last-reviewed:: 2023-12-10T01:06:02.237Z
 		  card-last-score:: 5
-			- All fermions can be regarded as massless.
+			- Key approximation: All fermions (actually all particles) can be regarded as **massless**.
 			- For $\xi=\left(\begin{array}{l}1 \\ 0\end{array}\right)$, ((6379c82e-aa21-424e-9d43-339a251a9bc2))
 				- And the same for spin down.
 				- Note $p^3$ is $p^z$. The formula can be verified directly by #TODO

@@ -80,14 +80,14 @@
 		- Do we have a more elegant argument without the need for various perturbation techniques? #[[Open problem]]
 		  id:: 63c14170-78b2-4e51-91d3-c07fed031c50
 			- Rigidity of [[TQFT]], i.e. No deformations? This seem to motivate the definition of topological orders by deformations.
-- # Different Viewpoints
+- # Different Viewpoints #card
   collapsed:: true
 	- ((63842469-5dc0-4676-9daa-b5ee2000e5a4)) is a toric code on a strange lattice!
 		- The lattice is obtained by connecting 3 spheres in a triangular manner.
 		- See ((63b28e8f-3c98-420e-ba5f-95f95f20202c)).
 	- ((6368782c-d09f-467b-a891-689e3f35f66a)) Invitation
 	- ## Quantum memory
-		- Stabilizers and logical states #card
+		- Stabilizers and logical states
 		  card-last-interval:: 117.6
 		  card-repeats:: 3
 		  card-ease-factor:: 2.8
@@ -96,7 +96,7 @@
 		  card-last-score:: 5
 			- $A_v$, $B_p$ as the stabilizers of the code. Flips are regarded as errors.
 			- Ground space (different homotopy types) as the logical space.
-		- Logical operators #card
+		- Logical operators
 		  card-last-interval:: 24
 		  card-repeats:: 2
 		  card-ease-factor:: 2.7
@@ -108,6 +108,7 @@
 			- We may select any 2 commuting operators as logical X. Those anti-commuting would be logical Z.
 				- Note those operators aren't universal.
 			- We obtain two qubits, but only **single-qubit** gates. No entanglement.
+	- TQFT and gauge theory
 -
 - # ((64ca5d6d-3d9c-4338-8264-4f9e70368e2c))
 	-

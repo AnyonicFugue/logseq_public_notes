@@ -32,11 +32,11 @@
   collapsed:: true
 	- [[Schur's Lemma]] for pre-semisimple categories #card
 	  id:: 641a6be7-3db1-44a5-be18-92070cdb5125
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-09-06T18:30:59.812Z
-	  card-last-reviewed:: 2023-08-06T12:30:59.812Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.22
+	  card-next-schedule:: 2024-01-20T01:07:46.743Z
+	  card-last-reviewed:: 2023-12-09T01:07:46.744Z
 	  card-last-score:: 3
 		- $\forall x,y$ simple, any nonzero Hom $f:x \to y$ is an isomorphism.
 		- Proof

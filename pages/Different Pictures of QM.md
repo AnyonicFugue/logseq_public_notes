@@ -1,4 +1,4 @@
-# General Theory
+# General Theory: Separation of Hamiltonian, evolution #card
 	- In general, we could decompose $H=H_1+H_2$ and let $H_1$ acts on the state and $H_2$ acts on the operator.
 		- Schrodinger -> $H_2=0$
 		- Heisenberg -> $H_1=0$
@@ -11,6 +11,7 @@
 	  card-ease-factor:: 2.6
 	  card-last-reviewed:: 2023-07-30T12:28:58.129Z
 		- Idea
+		  collapsed:: true
 			- Separate both $U(t)$ and $[A,H]$ into 2 parts.
 		- \begin{aligned}
 		  A( t) & =U_{2}^{\dagger }( t) AU_{2}( t)\\
@@ -26,10 +27,12 @@
 		  This assumption is nontrivial.
 		  #+END_NOTE
 		- In the Schrodinger picture:
+		  collapsed:: true
 			- $$\langle A( t)\rangle =\langle \psi ( t) |A|\psi ( t)\rangle =\left\langle \psi ( 0) |U_{S}^{\dagger }( t) AU_{S}( t) |\psi ( 0)\right\rangle$$
 			- The evolution operator satisfies
 			  $$i\hbar \frac{d}{dt} U_{S}( t) =HU_{S}( t)$$
 		- In a general picture:
+		  collapsed:: true
 			- $$\begin{aligned}
 			  A( t) & =U_{2}^{\dagger }( t) AU_{2}( t)\\
 			  |\psi ( t)\rangle  & =U_{1}( t) |\psi ( 0)\rangle
@@ -43,24 +46,27 @@
 			  \end{aligned}$$
 			- Thus we arrive at the conclusion
 			  $$\widetilde{H_{2}} =H_{2} ,\ \widetilde{H_{1}} =U_{2}^{\dagger }( t) H_{1} U_{2}( t)$$
-	- How does the superposition principle come into play in these pictures? #Learning-TODO
+	- How does the superposition principle come into play in these pictures?
 	  id:: 63c1416d-2412-467c-b765-fa06441cb373
 	-
 - # Interaction Picture
   id:: 645712fb-6e94-424c-a970-bb124f0c8e65
-	- Evolution #card
+	- Evolution
 	  card-last-interval:: 26.02
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-04-16T01:55:06.618Z
 	  card-last-reviewed:: 2023-03-21T01:55:06.619Z
 	  card-last-score:: 5
-		- $$\begin{aligned} & i \frac{\partial}{\partial t} O_I(t)=\left[O_I, H_0\right] \\ & i \frac{\partial}{\partial t}|\psi(t)\rangle_I=V_I|\psi(t)\rangle_I\end{aligned}$$
+		- collapsed:: true
+		  $$\begin{aligned} & i \frac{\partial}{\partial t} O_I(t)=\left[O_I, H_0\right] \\ & i \frac{\partial}{\partial t}|\psi(t)\rangle_I=V_I|\psi(t)\rangle_I\end{aligned}$$
 			- $H_0$ is the free Hamiltonian, $V_I$ is the interaction.
 		- Note that $V_I$ also evolves with time.
+		  collapsed:: true
 			- This is a small exercise.
 		-
 		- Evolution operator
+		  collapsed:: true
 			- $U(t,t_0):=T\{\exp[-i\int^{t}_{t_0}dt' V_I(t')]\}$
 			- Note that we must **fix** $t_0$ and define $U_(t_2,t_1):=U(t_2,t_0)U^\dag(t_1,t_0)$. Otherwise the operators won't compose properly.
 	- ## Examples

@@ -50,28 +50,30 @@ collapsed:: true
 		- Algebraic topology
 			- [[K-Theory]]
 			- Stable Homotopy
+		- [[Tensor Category]]
+		- Higher Category
 	- ## Basics
+		- 代数学方法
 		- [[Differential Geometry]]
 		- Homological Algebra
 			- I believe it is important in the study of topological phases, in defining thermodynamic limits in particular.
 		- [[Category Theory]]
 			- 范畴论的直接应用可能不多，但它的思想、它所训练的抽象能力是无比珍贵的。
-		- [[Complex Analysis]]
-			- Riemann Surfaces
 	- ## Intermediate
-		- Basic [[Algebraic Geometry]]
-			- The ideas and tools are percolating everywhere...
-			- Also it's thrilling to learn thoughts of Grothendieck
+		- Real and Complex Analysis
+			- Riemann Surfaces
+		- [[Algebraic Geometry]]
+			- The ideas and tools are percolating everywhere... Also it's thrilling to learn thoughts of Grothendieck.
+			- Commutative Algebra
+			- Algebraic curves?
 		- [[Lie Groups and Lie Algebras]]
 			- Useful in CFT
-		- [[Tensor Category]]
 		- Differential Topology
 			- Bott & Tu
 	- ## Advanced
 		- Representation Theory
 			- ![2011_Etingof_Introduction to representation theory.pdf](file://zotero_link/Mathematics/Representation Theory/2011_Etingof_Introduction to representation theory.pdf)
 			- ![2012_Serre_Serre_Linear representations of finite groups.pdf](file://zotero_link/Mathematics/Representation Theory/2012_Serre_Serre_Linear representations of finite groups.pdf)
-		- Higher Category
 		- [[The Langlands Program]]
 	- ## Interesting things to explore
 		- [Cornerstones | Book series home (springer.com)](https://www.springer.com/series/7161)
@@ -84,28 +86,37 @@ collapsed:: true
 			- ![1978_Greub_Multilinear Algebra.pdf](file://zotero_link/Mathematics/Algebra/Linear Algebra/1978_Greub_Multilinear Algebra.pdf)
 - # Physics #card
   id:: 64b4848d-61f3-49c7-afa7-073d867798c2
-  card-last-interval:: 31.26
-  card-repeats:: 1
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2023-10-24T06:57:58.959Z
-  card-last-reviewed:: 2023-09-23T00:57:58.960Z
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.22
+  card-next-schedule:: 2024-01-24T00:56:53.391Z
+  card-last-reviewed:: 2023-12-13T00:56:53.392Z
   card-last-score:: 3
-	- SPT
-	- Fracton
-	- CFT
-		- VOA
-			- https://www.zhihu.com/question/38253477/answer/2484509893
-				- 不一定用他的笔记，但他的comment很有意思。
-		- Bulk-Boundary Correspondence
+	- ## Topological Phases
+		- ### Models
+			- (Twisted) quantum double
+			- Levin-Wen
+		- ### Entanglement
+			- TEE
+			- Fusion rule & central charge from entanglement
+		- Anyon condensation
+		- ### SPT
+		- ### Fracton
+	- ## Field Theory
+		- ## CFT
+			- VOA
+				- https://www.zhihu.com/question/38253477/answer/2484509893
+					- 不一定用他的笔记，但他的comment很有意思。
+			- Bulk-Boundary Correspondence
+		- ## TQFT
+			- Start from Witten's paper on quantum Chern-Simons fields?
+		- ## QFT
+			- Anomaly
+			- Weinberg
 	- QHE, FQHE
 		- Good examples for CFT, chiral topological order, etc.
-	- TQFT
-		- Start from Witten's paper on quantum Chern-Simons fields.
-	- Weinberg QFT
 	- DQCP
 		- Might inspire research into the phase transition in Kitaev honeycomb
-	- Topological superconductor, topo insulator (Kitaev 1997)
-		- Chern numbers and gapless edge modes
 	-
 - # [[Research/To Be Investigated]]
 - # Thoughts of Maestros

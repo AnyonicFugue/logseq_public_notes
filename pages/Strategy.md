@@ -7,10 +7,16 @@
 	  collapsed:: true
 		- Decompose a large space into a direct sum / path components / union of parts.
 		  id:: 649b9c9e-6796-4991-9241-b012ae76ccee
-	- Equivalent forms, different viewpoints. #card
+	- Equivalent formulations, different viewpoints. #card
 	  id:: 6393f445-3a3c-4366-a1d1-bbc1587873a0
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2024-01-14T06:59:55.023Z
+	  card-last-reviewed:: 2023-12-14T00:59:55.024Z
+	  card-last-score:: 3
 	  collapsed:: true
-		- Sometimes, a form would be significantly simpler than another.
+		- Sometimes, one formulation would be significantly simpler than another.
 		  id:: 63c1416f-3871-4985-9009-5731e43864e6
 	- Embed the object under investigation into better spaces. #card
 	  id:: 63c1416f-d51b-4487-865b-f9d3cf9b5918

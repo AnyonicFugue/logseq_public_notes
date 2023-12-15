@@ -1,24 +1,22 @@
-# Defnition
-	- Objects #card
+# Defnition: Objects, Morphisms, Braidings #card
+	- Objects
 	  card-last-interval:: 67.2
 	  card-repeats:: 3
 	  card-ease-factor:: 2.8
 	  card-next-schedule:: 2023-04-13T04:17:27.479Z
 	  card-last-reviewed:: 2023-02-05T00:17:27.479Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- Pairs $\left(a, \gamma_{-,}\right)$, where $a \in \mathcal{A}$, $\gamma_{-, a}:-\otimes a \Rightarrow a \otimes-: \mathcal{A} \rightarrow \mathcal{A}$ is a natural isomorphism (called a half-braiding) such that
 		  collapsed:: true
 		  ((6376ef54-3370-4e8e-8b8b-31f66f878eb9))
 			- Particles carrying different braidings; Hexagon
-	- Morphisms #card
+	- Morphisms
 	  card-last-interval:: 84
 	  card-repeats:: 3
 	  card-ease-factor:: 2.8
 	  card-next-schedule:: 2023-06-28T00:34:10.200Z
 	  card-last-reviewed:: 2023-04-05T00:34:10.200Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- $f\in Hom_A(a,b)$ such that ((6376f089-48ca-44c2-8577-6aca91fcaba6))
 		-
 	- Tensor products, unitors, braidings are naturally induced.

@@ -7,12 +7,12 @@
 	- There seems to be something deeper inside. Galois theory -> Study field extensions by means of automorphism groups.
 - How to deal with commutative diagrams #card
   collapsed:: true
-  card-last-interval:: 31.26
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-09-08T18:55:07.128Z
-  card-last-reviewed:: 2023-08-08T12:55:07.129Z
-  card-last-score:: 5
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.46
+  card-next-schedule:: 2024-01-21T01:09:30.792Z
+  card-last-reviewed:: 2023-12-10T01:09:30.792Z
+  card-last-score:: 3
 	- Reversing the arrow
 		- In general a path might **not** go, thus is should be verified $x \in \operatorname{Im}f$.
 			- For exact sequences, the latter step gives zero -> the former step could go.
@@ -350,24 +350,36 @@
 	-
 	- ## Convexity, contractibility and cones
 	  collapsed:: true
-		- Defs
-			- Convex #card
-			  card-last-interval:: 42
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-10-06T13:07:57.939Z
-			  card-last-reviewed:: 2023-08-25T13:07:57.939Z
+		- Contractibility: Definition, homotopy type, homotopic maps #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2024-01-14T06:58:02.320Z
+		  card-last-reviewed:: 2023-12-14T00:58:02.321Z
+		  card-last-score:: 5
+			- Definition
 			  card-last-score:: 5
-				- A subset $X$ of $\mathbf{R}^m$ is convex if, for each pair of points $x, y \in X$, the line segment joining $x$ and $y$ is contained in $X$. In other words, if $x, y \in X$, then $t x+(1-t) y \in X$ for all $t \in [0,1]$.
-			- Contractible #card
-			  id:: 6427a15a-5b02-4445-a1b6-1aa2219b1b94
+			  card-repeats:: 1
+			  card-next-schedule:: 2023-08-13T18:36:50.726Z
 			  card-last-interval:: 31.21
+			  id:: 6427a15a-5b02-4445-a1b6-1aa2219b1b94
+			  card-ease-factor:: 2.6
+			  card-last-reviewed:: 2023-07-13T13:36:50.727Z
+				- A space $X$ is contractible if $1_X$ is nullhomotopic.
+			- ((6427f09b-7a0d-4fff-9b5a-17c5f0084aca)) A space $X$ has the same homotopy type as a point if and only if $X$ is contractible.
+			  collapsed:: true
+				- Verify the definition.
+			- ((6427f13b-04bb-41d0-b06b-f35e68b40624)) If $Y$ is contractible, then any two maps $X \rightarrow Y$ are homotopic (indeed they are nullhomotopic).
+			  card-last-interval:: 29.9
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-08-13T18:36:50.726Z
-			  card-last-reviewed:: 2023-07-13T13:36:50.727Z
+			  card-next-schedule:: 2023-09-01T09:51:12.443Z
+			  card-last-reviewed:: 2023-08-02T12:51:12.444Z
 			  card-last-score:: 5
-				- A space $X$ is contractible if $1_X$ is nullhomotopic.
+			  collapsed:: true
+				- Invoke the lemma that homotopy is preserved under composition.
+				-
+		- Defs
 			- Identification #card
 			  card-last-interval:: 42
 			  card-repeats:: 2
@@ -388,24 +400,46 @@
 			  card-last-score:: 5
 				- Let $f: X \rightarrow Y$ be a function and let $y \in Y$. Then $f^{-1}(y)$ is called the fiber over $y$.
 				- 'Preimage of a single point'
-			- Cone #card
-			  card-last-interval:: 35.37
+		- Convex set: Definition, contractibility #card
+			- Definition
+			  card-last-score:: 5
+			  card-repeats:: 2
+			  card-next-schedule:: 2023-10-06T13:07:57.939Z
+			  card-last-interval:: 42
+			  card-ease-factor:: 2.7
+			  card-last-reviewed:: 2023-08-25T13:07:57.939Z
+			  collapsed:: true
+				- A subset $X$ of $\mathbf{R}^m$ is convex if, for each pair of points $x, y \in X$, the line segment joining $x$ and $y$ is contained in $X$. In other words, if $x, y \in X$, then $t x+(1-t) y \in X$ for all $t \in [0,1]$.
+			- ((6427a17b-2b44-4fbe-a61f-27a9b853464c)) Every convex subset of $\mathbb R^n$ is contractible.
+			  card-last-interval:: 31.26
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-05-15T19:25:00.185Z
-			  card-last-reviewed:: 2023-04-10T11:25:00.185Z
+			  card-next-schedule:: 2023-07-22T07:36:09.780Z
+			  card-last-reviewed:: 2023-06-21T01:36:09.781Z
 			  card-last-score:: 5
+				- Just use the trick of scaling!
+		- Cone: Definition, contractibility #card
+		  collapsed:: true
+			- Definition
+			  card-last-score:: 5
+			  card-repeats:: 1
+			  card-next-schedule:: 2023-05-15T19:25:00.185Z
+			  card-last-interval:: 35.37
+			  card-ease-factor:: 2.6
+			  card-last-reviewed:: 2023-04-10T11:25:00.185Z
 				- If $X$ is a space, define an equivalence relation on $X \times \mathbf{I}$ by $(x, t) \sim$ $\left(x^{\prime}, t^{\prime}\right)$ if $t=t^{\prime}=1$.
 					- Intuitively, identify all points at the top.
 				- Denote the equivalence class of $(x, t)$ by $[x, t]$. The **cone** over $X$, denoted by $C X$, is the quotient space $X \times \mathbf{I} / \sim$.
-		- ((6427a17b-2b44-4fbe-a61f-27a9b853464c)) Every convex subset of $\mathbb R^n$ is contractible. #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-07-22T07:36:09.780Z
-		  card-last-reviewed:: 2023-06-21T01:36:09.781Z
-		  card-last-score:: 5
-			- Just use the trick of scaling!
+			- ((6427effd-8884-4ae1-9041-60e508559560)) For every space $X$, the cone $CX$ is contractible.
+			  card-last-interval:: 42
+			  card-repeats:: 2
+			  card-ease-factor:: 2.7
+			  card-next-schedule:: 2023-09-13T12:45:50.014Z
+			  card-last-reviewed:: 2023-08-02T12:45:50.014Z
+			  card-last-score:: 5
+				- Geometrically, shrink (scale) the whole cone to the top point.
+				- Exercise: Construct the map and show it is continuous.
+			-
 		- Theorem. Let $f: X \rightarrow Y$ be a continuous surjection. Then $f$ is an identification if and only if, for all spaces $Z$ and all functions $g: Y \rightarrow Z$, one has $g$ continuous if and only if $g f$ is continuous.
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
@@ -413,29 +447,8 @@
 		  card-next-schedule:: 2023-05-13T06:49:10.111Z
 		  card-last-reviewed:: 2023-04-12T00:49:10.112Z
 		  card-last-score:: 5
-		  collapsed:: true
 		  ((6427a564-e84e-4a24-b545-824c745dc62f)) #card
 			- An easy exercise, but it's worthwhile to ponder the meaning in categories!
-		- ((6427effd-8884-4ae1-9041-60e508559560)) For every space $X$, the cone $CX$ is contractible. #card
-		  card-last-interval:: 42
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-09-13T12:45:50.014Z
-		  card-last-reviewed:: 2023-08-02T12:45:50.014Z
-		  card-last-score:: 5
-			- Geometrically, shrink (scale) the whole cone to the top point.
-			- Exercise: Construct the map and show it is continuous.
-		- ((6427f09b-7a0d-4fff-9b5a-17c5f0084aca)) A space $X$ has the same homotopy type as a point if and only if $X$ is contractible. #card
-			- Verify the definition.
-		- ((6427f13b-04bb-41d0-b06b-f35e68b40624)) If $Y$ is contractible, then any two maps $X \rightarrow Y$ are homotopic (indeed they are nullhomotopic). #card
-		  card-last-interval:: 29.9
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-09-01T09:51:12.443Z
-		  card-last-reviewed:: 2023-08-02T12:51:12.444Z
-		  card-last-score:: 5
-			- Invoke the lemma that homotopy is preserved under composition.
-			-
 - # [[Singular Homology]]
 - # [[Long Exact Sequences]]
 -

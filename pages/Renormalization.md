@@ -67,11 +67,11 @@
 		- Finally we obtain the renormalized Green function, which we expect be **divergence-free** and **regularization-independent**.
 		-
 	- ## Scheme 2: Cancel the Divergent Diagrams by Counter-terms #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-08-25T08:18:09.318Z
-	  card-last-reviewed:: 2023-07-25T02:18:09.318Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2024-01-21T01:07:43.759Z
+	  card-last-reviewed:: 2023-12-10T01:07:43.760Z
 	  card-last-score:: 5
 		- Idea
 			- Rewrite the Lagrangian as a physical part and a counter-term part.

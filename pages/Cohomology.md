@@ -65,7 +65,13 @@
 		  $$\partial_{n+1}^* \partial_n^* f=S_{n+1} \stackrel{\partial_{n+1}}{\longrightarrow} S_n \stackrel{\partial_n}{\longrightarrow} S_{n-1}\stackrel{f}{\longrightarrow} G$$
 		-
 	- ## Categorical View #card
-		- ((65323d0f-f8db-4f1d-9e3a-db122825b330)) For each fixed $n \geq 0$ and each abelian group $G$, cohomology is a contravariant functor
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2024-01-14T07:01:15.422Z
+	  card-last-reviewed:: 2023-12-14T01:01:15.422Z
+	  card-last-score:: 3
+		- ((65323d0f-f8db-4f1d-9e3a-db122825b330)) For each fixed $n \geq 0$ and each abelian group $G$, cohomology is a **contravariant functor**
 		  id:: 65323c6e-8ef2-4c74-bdc2-84d19146566e
 		  collapsed:: true
 		  $$
@@ -74,11 +80,11 @@
 			- Here we take an categorical approach:
 			  First note that $S_*$ is a functor $\mathbf{Top} \to \mathbf{Comp}$ ($\partial f_\#=f_\# \partial$). The next step is to show that $H^n(-,G)$ is a functor $\mathbf{Comp} \to \mathbf{Ab}$.
 			- This part is not categorical, but completely analogous to that in homology.
-		- ((653327cf-4d81-4481-b020-e512c5b9cc84)) (Left exactness) Let $G$ be an abelian group. If $A^{\prime} \stackrel{i}{\rightarrow} A \stackrel{p}{\rightarrow} A^{\prime \prime} \rightarrow 0$ is an exact sequence of abelian groups, then there is an exact sequence
+		- ((653327cf-4d81-4481-b020-e512c5b9cc84)) (Left exactness!) Let $G$ be an abelian group. If $A^{\prime} \stackrel{i}{\rightarrow} A \stackrel{p}{\rightarrow} A^{\prime \prime} \rightarrow 0$ is an exact sequence of abelian groups, then there is an exact sequence
 		  $$
 		  0 \longrightarrow \operatorname{Hom}\left(A^{\prime \prime}, G\right) \stackrel{p^*}{\longrightarrow} \operatorname{Hom}(A, G) \stackrel{i^*}{\longrightarrow} \operatorname{Hom}\left(A^{\prime}, G\right) .
 		  $$
-			- Stated loosely, 'applying $\operatorname{Hom}(-,G) produces an exact sequence with reversed arrows'.
+			- Stated loosely, 'applying $\operatorname{Hom}(-,G)$ produces an exact sequence with reversed arrows'.
 			- The proof process is easy, just drawing some diagrams to show the composition of maps. But the underlying thought is elusive.
 		- Corollary. Let $G$ be an abelian group.
 		  collapsed:: true

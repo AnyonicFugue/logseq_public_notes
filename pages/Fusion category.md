@@ -12,11 +12,11 @@
 			- $\mu \circ \delta =\mathrm{id}_A$
 			- Frobenius conditions
 	- A fusion cat $C$ is separable if {{cloze C is a separable C-C-bimodule}}. #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2023-08-29T18:43:07.315Z
-	  card-last-reviewed:: 2023-07-29T12:43:07.315Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.22
+	  card-next-schedule:: 2024-01-24T00:51:01.406Z
+	  card-last-reviewed:: 2023-12-13T00:51:01.406Z
 	  card-last-score:: 3
 		- Remark: $\mathrm{Fun}_{C|C}(C,C) \simeq Z(C)$ is semisimple, thus the center $Z(C)$ is a braided fusion cat.
 	- Examples

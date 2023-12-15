@@ -28,11 +28,11 @@
 			  id:: 63bd0bf2-1307-4b7d-846f-12c2d775d521
 			- id:: 63bd0b55-7532-4b80-acb7-62765f843de2
 	- ((63bd0c90-1981-4b7c-9b7f-ea9f9efc9eb0)) Let $X$ be the utilities graph. Then $X$ cannot be imbedded in the plane. #card
-	  card-last-interval:: 84
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-07-17T11:26:23.674Z
-	  card-last-reviewed:: 2023-04-24T11:26:23.674Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-11-27T06:12:51.518Z
+	  card-last-reviewed:: 2023-12-10T01:12:51.519Z
 	  card-last-score:: 5
 		- Idea: Reach a contradiction by showing the last point can be in no component.
 		- First define three arcs: $A=g h_1 w$ $B=g h_2 w$ $C=g h_3 w$. Obviously they form a ((63bd0841-c1c2-4d33-8265-2d57561e49ac)).
@@ -42,11 +42,11 @@
 			- $h_1\notin U,h_2 \notin V, h_3\notin W$. Thus we arrive at a contradiction.
 	- ((63bd1790-40f5-4e6f-a2f3-d021dd7c88dc)) $G_5$ cannot be imbedded in $S^2$. #card
 	  collapsed:: true
-	  card-last-interval:: 117.6
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2023-12-08T03:19:46.022Z
-	  card-last-reviewed:: 2023-08-12T13:19:46.022Z
+	  card-last-interval:: 353.22
+	  card-repeats:: 4
+	  card-ease-factor:: 2.9
+	  card-next-schedule:: 2024-11-30T05:50:56.488Z
+	  card-last-reviewed:: 2023-12-13T00:50:56.488Z
 	  card-last-score:: 5
 		- The strategy is similar: first show that $G_4$ divides $S^2$ into four parts and the boundaries, then show the fifth vertex can lie in none of the four.
 		- Properties of $G_4$

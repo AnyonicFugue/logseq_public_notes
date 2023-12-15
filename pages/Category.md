@@ -364,7 +364,6 @@ alias:: [[Category Theory]]
 			- The slices themselves are $E_2$ algebras, while there's a third fusion between the slices.
 			- This motivates the $E_3$ algebra, i.e. 3 compatible fusions.
 	- ## Definitions
-	  collapsed:: true
 		- Monoid #card
 		  collapsed:: true
 		  card-last-interval:: 30
@@ -405,6 +404,7 @@ alias:: [[Category Theory]]
 			- Homs are homomorphisms
 			-
 	- ## Higher Algebras
+	  collapsed:: true
 		- How does the requirements of $E_0,E_1,E_2,E_3$ corresponds to physical intuitions? #card
 		  collapsed:: true
 		  card-last-interval:: 29.95
@@ -575,13 +575,17 @@ alias:: [[Category Theory]]
 			- Consider some topo order with a domain wall. It is a module in the sense that excitations on both sides can be moved inside and fuse.
 		- ### Definitions
 			- A left module $M$ over a monoidal category $C$
+			  collapsed:: true
 				- C is a monoidal category, $A \in C$ is an algebra, $M$ is a left C-module cat, $\odot: C \times M \to M$.
+				  collapsed:: true
 				  A left module over $A$ in $M$ is a pair $(D\in M, \rho: A \odot D \to D)$ satisfying two consistency relations called associativity and unitality.
 					- Essentially an action functor $\odot: C \otimes M \to M$, with some consistency relations
 					- $A$ is the algebra providing actions and $D$ is the thing to be acted on.
 			- Left $E_2$-module over $A$ in $S$
+			  collapsed:: true
 				- A pair $(D \in E_2\mathrm{Alg}(S), \rho: A \odot D \to D)$
 				- Consistency relations
+				  collapsed:: true
 					- Multiplication in $A$ and the action are compatible
 				-
 				- Note $A \in E_3\mathrm{Alg}(S)$
@@ -592,29 +596,35 @@ alias:: [[Category Theory]]
 			  card-last-interval:: 42
 			  card-ease-factor:: 2.22
 			  card-last-reviewed:: 2023-11-18T00:56:25.847Z
+			  collapsed:: true
 				- Physically corresponds to {{cloze 1D boundary of 2D TO}}
 				- A tuple $(M, \odot: B \times M \to M, \alpha^M, \lambda^M)$
+				  collapsed:: true
 					- $M$ itself is a monoidal category (degrade one step from braided monoidal)
 					- $B$ a braided monoidal cat
 					- $\odot$ is a monoidal functor
 					- $\alpha^M,\lambda^M$ are monoidal natural isomorphisms
 				- Consistency relations
+				  collapsed:: true
 					- Pentagon
 					- Triangle
-			- Left $E_2$ module over a symmetric braided monoidal cat #card
+			- Left $E_2$ module over a symmetric braided monoidal cat
 			  card-last-interval:: 31.26
 			  card-repeats:: 1
 			  card-ease-factor:: 2.36
 			  card-next-schedule:: 2023-09-06T18:28:56.983Z
 			  card-last-reviewed:: 2023-08-06T12:28:56.984Z
 			  card-last-score:: 3
+			  collapsed:: true
 				- Physically corresponds to {{cloze 2D boundary of 3D TO}}
 				- A tuple $(M, \odot: S \times M \to M, \alpha^M, \lambda^M)$
+				  collapsed:: true
 					- $M$ itself is a braided monoidal category (degrade one step from symmetric braided monoidal)
 					- $S$ a symmetric braided monoidal cat
 					- $\odot$ is a monoidal functor
 					- $\alpha^M,\lambda^M$ are monoidal natural isomorphisms
 				- Consistency relations
+				  collapsed:: true
 					- Pentagon
 					- Triangle
 				-
@@ -628,10 +638,10 @@ alias:: [[Category Theory]]
 			- Conclusion: It is a unital monoid, with the unit being $u(*)$!
 			- Conclusion: A ring, with addition given by the group addition.
 			- Conclusion: A $k$-algebra
-		- Algebra in ($\mathrm{End}(\mathcal{B},\circ, \mathrm{id}_B  ))$ #card
+		- Algebra in ($\mathrm{End}(\mathcal{B},\circ, \mathrm{id}_B  ))$
 			- A triple, $E: B \to B$, $m: E\circ E \to E$, $u: \mathrm{id}_B \to E$
 			- It is precisely a ((641813e5-e452-4c3b-aa79-fe4b3df4596f)) on B!
-		- For a category $C$ with a terminal object $T$, $\mathrm{Alg}(C)$ has a terminal object constructed from $T$ and an initial object constructed from $I$. #card
+		- For a category $C$ with a terminal object $T$, $\mathrm{Alg}(C)$ has a terminal object constructed from $T$ and an initial object constructed from $I$.
 -
 - # Limits and Colimits
   collapsed:: true
@@ -693,6 +703,7 @@ alias:: [[Category Theory]]
 				- Exercise. Explicitly construct the natural isomorphism.
 	- [[Yoneda Lemma]]
 - # Kan Extension
+  collapsed:: true
 	- > All concepts are Kan extensions.
 	- Idea
 		- We want to address the approximation problem ((6417cf47-91da-4a70-9d80-c3a8b38344a2))
