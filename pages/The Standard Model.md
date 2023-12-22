@@ -9,7 +9,6 @@ $$
 $$
 
 	- Notations for different parts of the symmetry
-	  collapsed:: true
 		- Write the indices as $Q_L^{m a i}$, where
 		  $$
 		  \begin{array}{lll}
@@ -49,10 +48,8 @@ $$
 		- Global
 			- No global symmetry is imposed in SM.
 	- ## Specify fields and corresponding reps
-	  collapsed:: true
 		- Spinor
 			- In SM the fields are
-			  collapsed:: true
 			  $$
 			  \begin{aligned}
 			  Q_L^i & \sim(3,2)_{+\frac{1}{6}} \\
@@ -68,9 +65,9 @@ $$
 				- The first number labels the representation of $SU(3)_c$.
 					- 3 means the fundamental rep and 1 means the trivial rep.
 					- The trivial rep means that it doesn't participate in the strong interaction.
-				- The first number labels the representation of $SU(2)_W$.
+				- The second number labels the representation of $SU(2)_W$.
 					- 2 means the fundamental rep and 1 means the trivial rep.
-				- The last number labels $U(1)_Y$, which is not $U(1)_EM$. The number is the charge.
+				- The last number labels $U(1)_Y$, which is not $U(1)_{EM}$. The number is the charge.
 		- Scalar
 			- Only one complex scalar $H$ (Higgs boson) in SM.
 			- The rep is

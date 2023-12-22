@@ -8,6 +8,7 @@
 		- Idea
 			- Use local unitaries to **remove local entanglement** and obtain a **fixed-point wavefunction**.
 			- Note that the procedure is quite similar to tensor network renormalization geometrically... is there anything special?
+			  collapsed:: true
 		- ## Setup
 			- Notations
 				- Consider a state $|\Phi\rangle$.
@@ -83,7 +84,7 @@
 							- Suppose there is an irregular graph with n plaquette, while i^{th} plaquette has m_{i} vertices.
 							- We need at most add $m_i$ extra links connected to the plaquette, contributing to $\frac {m_i} 2$ new d.o.f. while eliminating $m_i$ old d.o.f.
 							- Therefore the number of d.o.f. **decreases** at each round!
-							- This again vaguely reminds of [[Thermodynamic limit]], only in which we have a proper definition of locality and RG.
+							- This again vaguely reminds of [[Thermodynamic Limit]], only in which we have a proper definition of locality and RG.
 					- Generalization to other topological orders
 					  collapsed:: true
 						- The insight is still that 'the bulk is decided by the boundary'. [[Bulk-Boundary Correspondence]]

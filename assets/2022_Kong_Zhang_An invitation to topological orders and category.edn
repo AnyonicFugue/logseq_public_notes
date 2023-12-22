@@ -3903,47 +3903,6 @@
                           :page 74},
                :content {:text "The invertible topological orders (or invertible topological field theories), as well as symmetry protected topological (SPT) orders, can be classified by using methods in algebraic topology (for example, see [FT14, Fre14, FH21, Kap14c, Kap14a, KTTW15, Kit13, Kit15, GJF19b])."},
                :properties {:color "purple"}}
-              {:id #uuid "63759a9b-ed1d-436b-80c6-44df744f15b4",
-               :page 74,
-               :position {:bounding {:x1 0,
-                                     :y1 411.3580856323242,
-                                     :x2 1180.4686279296875,
-                                     :y2 1015.81298828125,
-                                     :width 1348.6666666666667,
-                                     :height 1908.5333333333333},
-                          :rects ({:x1 0,
-                                   :y1 411.3580856323242,
-                                   :x2 0,
-                                   :y2 433.01222229003906,
-                                   :width 1348.6666666666667,
-                                   :height 1908.5333333333333}
-                                  {:x1 776.0103759765625,
-                                   :y1 959.1118774414062,
-                                   :x2 798.5799560546875,
-                                   :y2 988.8862915039062,
-                                   :width 1348.6666666666667,
-                                   :height 1908.5333333333333}
-                                  {:x1 386.3902282714844,
-                                   :y1 960.3101806640625,
-                                   :x2 1180.4686279296875,
-                                   :y2 983.768798828125,
-                                   :width 1348.6666666666667,
-                                   :height 1908.5333333333333}
-                                  {:x1 631.3110961914062,
-                                   :y1 986.03857421875,
-                                   :x2 674.8291015625,
-                                   :y2 1015.81298828125,
-                                   :width 1348.6666666666667,
-                                   :height 1908.5333333333333}
-                                  {:x1 168.63722229003906,
-                                   :y1 987.2368774414062,
-                                   :x2 713.7258911132812,
-                                   :y2 1010.6954956054688,
-                                   :width 1348.6666666666667,
-                                   :height 1908.5333333333333}),
-                          :page 74},
-               :content {:text "it is believed that a topological order C is invertible if and only if there is no nontrivial particle-like topological defect, i.e., C ≃ Vec."},
-               :properties {:color "purple"}}
               {:id #uuid "63759ac0-b94e-46c3-8d51-5b51b31b7c12",
                :page 74,
                :position {:bounding {:x1 0,
@@ -7165,4 +7124,4 @@
                           :page 35},
                :content {:text "Definition"},
                :properties {:color "yellow"}}],
- :extra {:page 83}}
+ :extra {:page 74}}

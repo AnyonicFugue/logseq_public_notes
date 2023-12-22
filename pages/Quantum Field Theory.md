@@ -157,6 +157,7 @@ alias:: [[QFT]]
 			-
 			-
 	- [[Higgs Mechanism]]
+	  collapsed:: true
 		- $U(1)$ case
 		  collapsed:: true
 			- Consider scalar QED,

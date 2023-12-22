@@ -1,6 +1,7 @@
 type:: [[Course]]
 
 - # Cautions
+  collapsed:: true
 	- Note that we usually use $R=r-r'$, which might incur an extra minus.
 		- For example, the potential of a dipole is
 		  $$
@@ -291,6 +292,18 @@ type:: [[Course]]
 	- Theorem. (Uniqueness of solution) Given $\rho(\vec r)$, $\varepsilon(r)$, and a large class of boundary conditions, then the electric field has a unique solution to the Poisson equation.
 		- The proof depends essentially the linearity of electrostatics.
 		- Subtracting to solutions, we see the electric field must be zero.
+	-
+- # Vector Potential
+	- First we could define $\vec B=\nabla \times \vec A$.
+	- Note that 
+	  $$\nabla \times \vec E = -\frac {\partial \vec V} {\partial t} = - \nabla \times \frac {d \vec A}{dt}$$
+	  therefore 
+	  $$\vec E + \frac {d \vec A}{dt}$$
+	  is **curl-free**!
+	- We can **define** the electric potential as
+	  $$
+	  \vec{E}+\frac{\partial}{\partial t} \vec{A}=-\nabla \varphi
+	  $$
 	-
 - # Methods of Solution
   collapsed:: true
@@ -1068,20 +1081,8 @@ type:: [[Course]]
 		  \end{equation*}
 	- Def. Angle distribution
 		- $$f(\theta, \phi):= \frac {\langle \vec S_p  \rangle \cdot d \vec S}{d \omega} \equiv  {(\langle \vec S_p \rangle \cdot \vec e_r) r^2}$$
-	- ## Vector Potential
-	  collapsed:: true
-		- First we could define $\vec B=\nabla \times \vec A$.
-		- Note that 
-		  $$\nabla \times \vec E = -\frac {\partial \vec V} {\partial t} = - \nabla \times \frac {d \vec A}{dt}$$
-		  therefore 
-		  $$\vec E + \frac {d \vec A}{dt}$$
-		  is **curl-free**!
-		- We can **define** the electric potential as
-		  $$
-		  \vec{E}+\frac{\partial}{\partial t} \vec{A}=-\nabla \varphi
-		  $$
-		-
 	- ## Lorenz Gauge and Green Function
+	  collapsed:: true
 		- Lorenz gauge
 		  collapsed:: true
 			- $$\partial_\mu A^\mu=0$$
@@ -1134,7 +1135,6 @@ type:: [[Course]]
 			  t^{\prime}=t-\frac{R}{c}
 			  $$
 	- ## Multi-pole Expansion
-	  collapsed:: true
 		- The thought is still similar: at large distances, the details of the radiation source could be glossed over.
 		- $$
 		  \varphi=\frac{1}{4 \pi \varepsilon_0}\left[\int \frac{[\rho]}{r} d \tau^{\prime}-\int \vec{r}^{\prime} \cdot \nabla \frac{[\rho]}{r} d \tau^{\prime}+\ldots\right]
@@ -1186,6 +1186,7 @@ type:: [[Course]]
 				- In the long-distance region, ($r \gg \lambda$), $2 \pi / \lambda$ dominates, thus we could ignore the second term.
 			-
 	- ## Radiation of a magnetic dipole (harmonic current)
+	  collapsed:: true
 		- Note that we do not have magnetic monopole, so we have to model magnetic dipoles as electric current.
 		-
 		- Here we should consider the second term in the multi-pole expansion,
@@ -1274,4 +1275,52 @@ type:: [[Course]]
 			  $$
 			- We see that the antenna is equivalent of a dipole $I_0 l^2/(4c)$.
 			- The radiation power is proportional to the magnitude of the dipole.
--
+- # [[Relativistic]] Electrodynamics
+  collapsed:: true
+	- ## Defs
+	  collapsed:: true
+		- The convention is
+		  $$\eta =\operatorname{diag}( +1,-1,-1,-1)$$
+		- $$\begin{align*}
+		  J^{a} & =( \rho c,\vec{j})\\
+		  A^{a} & =( \phi /c,\vec{A})\\
+		  F^{\mu \nu } & =\partial ^{\mu } A^{\nu } -\partial ^{\nu } A^{\mu }\\
+		   & =\left(\begin{array}{ c c c c }
+		  0 & -E_{x} /c & -E_{y} /c & -E_{z} /c\\
+		  E_{x} /c & 0 & -B_{z} & B_{y}\\
+		  E_{y} /c & B_{z} & 0 & -B_{x}\\
+		  E_{z} /c & -B_{y} & B_{x} & 0
+		  \end{array}\right)\\
+		  F_{\mu \nu } & =\left(\begin{array}{ c c c c }
+		  0 & E_{x} /c & E_{y} /c & E_{z} /c\\
+		  -E_{x} /c & 0 & -B_{z} & B_{y}\\
+		  -E_{y} /c & B_{z} & 0 & -B_{x}\\
+		  -E_{z} /c & -B_{y} & B_{x} & 0
+		  \end{array}\right)
+		  \end{align*}$$
+			- Note that the necessity of c could be obtained by dimensional analysis.
+			- #+BEGIN_WARNING
+			  Be cautious of the minus signs resulting from raising and lowering indices!
+			  #+END_WARNING
+			- Recall that $\vec E = -\nabla \phi - \frac {\partial \vec A}{\partial t}$ could be derived from defining a curl-less field.
+		-
+	- Equations
+		- $$
+		  \partial_\alpha F^{\alpha \beta}=\mu_0 J^\beta
+		  $$
+	- Transformation of EM fields
+		- $$
+		  \begin{aligned}
+		  E_1^{\prime} & =E_1 \\
+		  E_2^{\prime} & =\gamma\left(E_2-v B_3\right) \\
+		  E_3^{\prime} & =\gamma\left(E_3+v B_2\right) \\
+		  B_1^{\prime} & =B_1, \\
+		  B_2^{\prime} & =\gamma\left(B_2+\frac{v}{c^2} E_3\right) \\
+		  B_3^{\prime} & =\gamma\left(B_3-\frac{v}{c^2} E_2\right)
+		  \end{aligned}
+		  $$
+			- Essentially, the parallel direction is unchanged and the perpendicular direction undergoes a Lorentz transformation plus a factor of $\gamma$.
+			- Note that the formula of Lorentz force is $q\vec v \times \vec B$.
+			- #+BEGIN_CAUTION
+			  The sign of $v \times E$ and $v \times B$ are opposite.
+			  #+END_CAUTION

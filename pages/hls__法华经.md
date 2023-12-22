@@ -121,3 +121,52 @@ file-path:: C:\Users\yizho\Nutstore\1\sync\我的坚果云\Books\Religions\法�
   id:: 655db79d-0ba5-4878-b790-83a94a5db22d
   hl-type:: area
   hl-stamp:: 1700640667273
+- [:span]
+  ls-type:: annotation
+  hl-page:: 51
+  hl-color:: yellow
+  id:: 65814477-8295-41d6-84bd-225b06def8d5
+  hl-type:: area
+  hl-stamp:: 1702970484170
+- [:span]
+  ls-type:: annotation
+  hl-page:: 51
+  hl-color:: yellow
+  id:: 658144f3-5e0c-4071-9da5-44056738e0f4
+  hl-type:: area
+  hl-stamp:: 1702970610546
+- [:span]
+  ls-type:: annotation
+  hl-page:: 51
+  hl-color:: yellow
+  id:: 6581456d-83f4-4e02-80f3-7eb3eb8fe7fa
+  hl-type:: area
+  hl-stamp:: 1702970732123
+- [:span]
+  ls-type:: annotation
+  hl-page:: 51
+  hl-color:: yellow
+  id:: 658146a3-acde-4375-bdc0-4c15bccfc76b
+  hl-type:: area
+  hl-stamp:: 1702971042671
+- [:span]
+  ls-type:: annotation
+  hl-page:: 62
+  hl-color:: blue
+  id:: 658187a0-3543-461c-80bf-b62ebe9a7f87
+  hl-type:: area
+  hl-stamp:: 1702987679881
+- [:span]
+  ls-type:: annotation
+  hl-page:: 63
+  hl-color:: yellow
+  id:: 65818866-d906-4041-839a-3c86ae284140
+  hl-type:: area
+  hl-stamp:: 1702987876984
+- [:span]
+  ls-type:: annotation
+  hl-page:: 70
+  hl-color:: yellow
+  id:: 65818b52-8389-4e59-b8f4-8366ee6f42dc
+  hl-type:: area
+  hl-stamp:: 1702988625686

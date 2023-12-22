@@ -1,5 +1,15 @@
 alias:: [[Topological defect]]
 
+- # Notes
+	- The term 'local' has two meanings. #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-01-22T07:24:03.745Z
+	  card-last-reviewed:: 2023-12-22T01:24:03.745Z
+	  card-last-score:: 5
+		- When we say *an anyon cannot be created or annihilated locally*, we mean that a single one cannot be created with an operator with finite support.
+		- When we say *the anyon is a localized excitation*, we mean that it can be captured by a local trap or the effect on the wavefunction (or local observables) is local.
 - Def #card
   card-last-interval:: 353.22
   card-repeats:: 4

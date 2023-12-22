@@ -245,7 +245,7 @@ file-path:: zotero_link/Research/Quantum Matters/Topological order/Intros and Re
   hl-type:: area
   hl-stamp:: 1668065035829
   id:: 636ca710-55ab-45a0-aa16-0274e4ed00e4
-- A [[Topological excitation]] is a [[Module]] over the local operator algebra.
+- A [[Topological Excitation]] is a [[Module]] over the local operator algebra.
   ls-type:: annotation
   hl-page:: 33
   hl-color:: purple
@@ -557,7 +557,7 @@ file-path:: zotero_link/Research/Quantum Matters/Topological order/Intros and Re
   hl-type:: area
   hl-stamp:: 1668396009263
   id:: 6371b3e9-b2e7-4c2b-9bb8-1ea420f8c7bd
-- The particle-like [[Topological excitation]]s of an [[Anomaly]] -free stable 2d topological order C form a unitary modular tensor category C
+- The particle-like [[Topological Excitation]]s of an [[Anomaly]] -free stable 2d topological order C form a unitary modular tensor category C
   hl-stamp:: 1668396283896
   hl-page:: 60
   ls-type:: annotation
@@ -808,11 +808,6 @@ file-path:: zotero_link/Research/Quantum Matters/Topological order/Intros and Re
   hl-page:: 74
   hl-color:: purple
   id:: 63759a44-dc2d-4f73-a13d-6dbc94049537
-- it is believed that a topological order C is invertible if and only if there is no nontrivial particle-like [[Topological excitation]] , i.e., C ≃ Vec.
-  hl-page:: 74
-  ls-type:: annotation
-  hl-color:: purple
-  id:: 63759a9b-ed1d-436b-80c6-44df744f15b4
 - If two topological orders C, D have the same [[UMTC]] of particle-like topological defects C = D, then it is believed that they are only differed by several copies of the E8 topological order.
   hl-page:: 74
   ls-type:: annotation

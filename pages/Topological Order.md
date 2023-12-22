@@ -90,7 +90,7 @@
 	  card-last-interval:: 10
 	  card-ease-factor:: 2.6
 	  card-last-reviewed:: 2022-11-13T04:09:57.926Z
-	- [[Topological excitation]]
+	- [[Topological Excitation]]
 	  id:: 636879d9-dfe3-4bdd-a078-587cc9c25350
 	- [[Chiral central charge]]
 	- Phase Transitions #card
@@ -208,7 +208,7 @@
 						- ((6396c828-35e5-4c50-ac66-97596bf4c794)) $\mathcal{M} \otimes_{\mathcal{D}} \mathcal{N}$ only depends on the multi-fusion categories $\mathcal{M}, \mathcal{N}$, the braided fusion category $\mathcal{D}$ and the multi-fusion module structures of $\mathcal{M}, \mathcal{N}$ over $\mathcal{D}$.
 						  collapsed:: true
 							- In other words, it smooths out all details!
-				- Move particle-like [[Topological excitation]] across the invertible domain wall #card
+				- Move particle-like [[Topological Excitation]] across the invertible domain wall #card
 				  collapsed:: true
 				  card-last-interval:: 353.22
 				  card-repeats:: 4
@@ -634,7 +634,7 @@
 				- Lots of excitations
 				  eg. Metal
 		-
-		- Note that topo degeneracy (i.e. robust against local perturbations) only emerges under [[Thermodynamic limit]].
+		- Note that topo degeneracy (i.e. robust against local perturbations) only emerges under [[Thermodynamic Limit]].
 		-
 		- How to measure and distinguish seemingly trivial systems?
 			- Put the models on different topologies. 
