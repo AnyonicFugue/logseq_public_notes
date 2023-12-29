@@ -30,11 +30,11 @@ alias:: [[Category Theory]]
 			  $$
 				- Transitive.
 		- Idempotent #card
-		  card-last-interval:: 201.84
-		  card-repeats:: 4
-		  card-ease-factor:: 2.9
-		  card-next-schedule:: 2023-08-02T20:55:14.542Z
-		  card-last-reviewed:: 2023-01-13T00:55:14.542Z
+		  card-last-interval:: 1134
+		  card-repeats:: 5
+		  card-ease-factor:: 3
+		  card-next-schedule:: 2027-02-01T00:40:03.465Z
+		  card-last-reviewed:: 2023-12-25T00:40:03.466Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- A morphism with $$e=e^2:=e \circ e$$

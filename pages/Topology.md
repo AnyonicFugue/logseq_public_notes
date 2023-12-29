@@ -314,7 +314,7 @@
 		-
 		- Closed ⇒ Compact : Theorem 27.1
 	-
-	- Theorem. Let $X$ be a nonempty Compact [[Hausdorff]] space. If $X$ has no Isolated point, then $X$ is uncountable.  #card
+	- Theorem. Let $X$ be a nonempty Compact [[Hausdorff]] space. If $X$ has no isolated point, then $X$ is uncountable.  #card
 	  collapsed:: true
 		- [[Message]]―The proof is errorneous, [[Correct Content]]
 		- We suppose $X$ is countable, find contradiction.

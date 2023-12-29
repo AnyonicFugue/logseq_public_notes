@@ -62,12 +62,13 @@ alias:: von-Neumann Entropy
 		  'Traverse the states of the second qubit' is precisely taking the partial trace!
 		  #+END_TIP
 - # Relation with [[Stabilizer Code]] #card
-  card-last-interval:: 35.37
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2023-09-25T21:13:27.821Z
-  card-last-reviewed:: 2023-08-21T13:13:27.822Z
+  card-last-interval:: 42
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2024-02-06T01:06:51.392Z
+  card-last-reviewed:: 2023-12-26T01:06:51.392Z
   card-last-score:: 5
+  collapsed:: true
 	- See [[2004_Fattal_Cubitt et al_Entanglement in the stabilizer formalism]]
 	- Theorem. Suppose the stabilizer group $\mathcal G$ has a unique common +1 eigenstate. If we partition the lattice into $A$ and $B$, then 
 	  $$S_{AB}=\frac 1 2 (\operatorname{rank}(\mathcal G)-\operatorname{rank}(\mathcal G_A)-\operatorname{rank}(\mathcal  G_B))$$

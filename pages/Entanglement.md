@@ -1,4 +1,8 @@
-# Significance
+# [[Questions]]
+	- Could all topological data be obtained from a single ground state?
+		- This concerns the definition of topological phases, since GSD only occurs on specific manifolds.
+		- However, Kong claims that 'TO are defined on infinite open disks', where the notion of GSD is dubious.
+- # Significance
 	- [[Entanglement]] is deeply related with [[Thermalization]].
 		- Intuition: Local thermalization -> Long-range entanglement
 	- Quantum info provide proxies for certain kinds of classical hardness, thus helping to understand ((63e86248-136d-4d42-9012-f111fcc231cc))
@@ -16,5 +20,8 @@
 		- [[Operator Entanglement Entropy]] #[[Research/To Be Investigated]]
 	- [[Entanglement Negativity]]
 	-
-	-
+- # Area-Law
+  id:: 654078ce-2ffb-4f24-be56-31c8887e8cb9
+	- [[0705.2024] An Area Law for One Dimensional Quantum Systems (arxiv.org)](https://arxiv.org/abs/0705.2024) proves that entanglement gapped 1D quantum systems could at most scale as area law.
+	- [[cond-mat/0305505] Lieb-Schultz-Mattis in Higher Dimensions (arxiv.org)](https://arxiv.org/abs/cond-mat/0305505) and [[cond-mat/0405587] Locality in Quantum and Markov Dynamics on Lattices and Networks (arxiv.org)](https://arxiv.org/abs/cond-mat/0405587) showed the exponential decay of correlation functions.
 -

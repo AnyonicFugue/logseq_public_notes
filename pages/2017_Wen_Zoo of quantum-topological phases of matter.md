@@ -54,7 +54,7 @@ type:: paper_reading
 						- A reconnection can either add or remove a loop. So reconnecting twice should be the identity operation.
 							- ![image.png](../assets/image_1673314520057_0.png)
 				- DONE Calculate the spins and statistics by myself.
-			- 2.Emergence of Fermi and fractional statistics #card
+			- 2. Emergence of Fermi and fractional statistics
 				- Spin
 					- We consider a rotation (twist) by comparing ((63bcc1fa-40ee-453e-bba7-c91daefea9e7))
 					  collapsed:: true
@@ -90,8 +90,6 @@ type:: paper_reading
 				- More notes
 					- $Z_2$ topo order has a bosonic quasiparticle and a fermionic one, but ((63bcce78-c61b-4fe7-9af0-f2609edc2690)).
 						- Such quasi-particle content agrees exactly with the [[Z_2 gauge theory]] which also has three type of topological excitations, two bosons and one fermion.
-				- Could even more exotic things emerge from a fermionic underlying system? #Possibility #Research
-					- Even wilder: we can have a tower of emergent phenomena from the lattice model, but there are different towers...
 			- [[Topological Degeneracy]]
 				- Def
 					- The ground state degeneracy of a gapped many-body system that is **robust against any local perturbations** (at the thermodynamic limit)

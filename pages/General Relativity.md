@@ -715,6 +715,12 @@ alias:: GR
 	-
 - # Spacetime Diagrams
 	- ## Penrose Diagram #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-01-23T12:52:25.176Z
+	  card-last-reviewed:: 2023-12-23T06:52:25.176Z
+	  card-last-score:: 5
 		- Idea
 			- Use a conformal transformation (usually involving $\tan$) to bring the points at infinity to finite points. Then the spacetime diagram becomes intuitive.
 			- We'd better keep null geodesics going along $\pm \frac \pi 4$, so we can easily observe the behavior of geodesics.
@@ -749,7 +755,6 @@ alias:: GR
 			  card-next-schedule:: 2023-07-27T14:04:38.960Z
 			  card-last-reviewed:: 2023-06-25T01:04:38.960Z
 			  card-last-score:: 5
-			  collapsed:: true
 				- Transformation
 					- \begin{aligned}
 					  & \tilde{t}=\frac{1}{2} \tan \frac{T+R}{2}+\frac{1}{2} \tan \frac{T-R}{2} \\

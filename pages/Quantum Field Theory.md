@@ -56,8 +56,7 @@ alias:: [[QFT]]
 				  \end{aligned}$$
 				- Substitute EOM: We're done.
 			- Example
-				- [[Energy-momentum Tensor]] 
-				  $\mathcal{T}_{\mu \nu}=\sum_{n} \frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} \phi_{n}\right)} \partial_{\nu} \phi_{n}-g_{\mu \nu} \mathcal{L}$
+				- [[Energy-Momentum Tensor]]
 			- Ref. Peskin, ((63805db9-661f-470f-9403-3ff9ae8aa7dd))
 - # Causality and Propagators
   collapsed:: true

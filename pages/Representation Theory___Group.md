@@ -184,133 +184,133 @@
 			- Obviously $W=V\otimes U$
 	-
 	-
-	- ## About Matrix Elements
-		- Def
-			- The functions $T_{ij} \in \mathbf{C} [G]$
-			- $M(T)$ is the linear span of the matrix elements of $T$ (relative to some basis).
-		- Proposition.  $M(T)$ is basis independent and invariant under translations.  #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-06-11T00:28:07.457Z
-		  card-last-reviewed:: 2023-05-12T00:28:07.458Z
+- # Matrix Elements and Orthogonality
+	- Def
+		- The functions $T_{ij} \in \mathbf{C} [G]$
+		- $M(T)$ is the linear span of the matrix elements of $T$ (relative to some basis).
+	- Proposition.  $M(T)$ is basis independent and invariant under translations.  #card
+	  card-last-interval:: 30
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-06-11T00:28:07.457Z
+	  card-last-reviewed:: 2023-05-12T00:28:07.458Z
+	  card-last-score:: 5
+		- Just prove: One set can be expressed by linear combinations of another, and vice versa. #Techniques
+		-
+		- Basis independent: $T_{ij}$ under any basis can be expressed as linear combinations of another basis.
+		- Invariance: Similar.
+	-
+	- We can express any f in $M(T)$ invariantly:
+		- $f=\sum_{i, j} c_{i j} T_{i j} \in \mathbf{C}[G] \quad\left(c_{i j} \in \mathbf{C}\right)$
+	- Write in matrix form, $[c_{ji}]=\xi$ :
+	  $$\begin{aligned}
+	  \mu :\mathrm{L} (V)&\rightarrow \mathbf{C} [G]\\
+	  \mu(\xi )(g)&=\operatorname{tr} \xi T(g)\ \ (\xi \in \mathrm{L} (V))
+	  \end{aligned}$$
+		- Prop. $\mu$ is an **isomorphism** of $T\otimes T^{\prime }$ and the ((1e9f6e33-36ec-4362-9505-3b42540bb3a7)) $\operatorname{Reg}_{M(T)}$ #card
+		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-10-25T06:44:28.137Z
+		  card-last-reviewed:: 2023-09-24T00:44:28.138Z
 		  card-last-score:: 5
-			- Just prove: One set can be expressed by linear combinations of another, and vice versa. #Techniques
+			- Prop1. $\mu$ is a morphism
+				- Use matrix: $f\left( g_{2}^{-1} gg_{1}\right) =\operatorname{tr} \xi T\left( g_{2}^{-1} gg_{1}\right) =\operatorname{tr} \xi T( g_{2})^{-1} T(g)T( g_{1})$ $=\operatorname{tr}\left( T( g_{1}) \xi T( g_{2})^{-1}\right) T(g)=\operatorname{tr} \eta T(q)$
+				- $$\eta =T( g_{1}) \xi T( g_{2})^{-1} =\left( T\otimes T^{\prime }\right)( g_{1} ,g_{2}) \xi$$
+					- $(T\otimes T')(g_1,g_2)(X)=T(g_1)XT(g_2^{-1})$
+				- So $\mu \circ (T\otimes T')=Reg\circ \mu$
+			- ![1.png](../assets/1_1676528377752_0.png)
+				- Graph is good!
+				- Here we identified $L(V)$ and $V\otimes V'$
+				- Not enough. We still need to prove it's bijective.
 			-
-			- Basis independent: $T_{ij}$ under any basis can be expressed as linear combinations of another basis.
-			- Invariance: Similar.
-		-
-		- We can express any f in $M(T)$ invariantly:
-			- $f=\sum_{i, j} c_{i j} T_{i j} \in \mathbf{C}[G] \quad\left(c_{i j} \in \mathbf{C}\right)$
-		- Write in matrix form, $[c_{ji}]=\xi$ :
-		  $$\begin{aligned}
-		  \mu :\mathrm{L} (V)&\rightarrow \mathbf{C} [G]\\
-		  \mu(\xi )(g)&=\operatorname{tr} \xi T(g)\ \ (\xi \in \mathrm{L} (V))
-		  \end{aligned}$$
-			- Prop. $\mu$ is an **isomorphism** of $T\otimes T^{\prime }$ and the ((1e9f6e33-36ec-4362-9505-3b42540bb3a7)) $\operatorname{Reg}_{M(T)}$ #card
-			  collapsed:: true
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-10-25T06:44:28.137Z
-			  card-last-reviewed:: 2023-09-24T00:44:28.138Z
-			  card-last-score:: 5
-				- Prop1. $\mu$ is a morphism
-					- Use matrix: $f\left( g_{2}^{-1} gg_{1}\right) =\operatorname{tr} \xi T\left( g_{2}^{-1} gg_{1}\right) =\operatorname{tr} \xi T( g_{2})^{-1} T(g)T( g_{1})$ $=\operatorname{tr}\left( T( g_{1}) \xi T( g_{2})^{-1}\right) T(g)=\operatorname{tr} \eta T(q)$
-					- $$\eta =T( g_{1}) \xi T( g_{2})^{-1} =\left( T\otimes T^{\prime }\right)( g_{1} ,g_{2}) \xi$$
-						- $(T\otimes T')(g_1,g_2)(X)=T(g_1)XT(g_2^{-1})$
-					- So $\mu \circ (T\otimes T')=Reg\circ \mu$
-				- ![1.png](../assets/1_1676528377752_0.png)
-					- Graph is good!
-					- Here we identified $L(V)$ and $V\otimes V'$
-					- Not enough. We still need to prove it's bijective.
-				-
-				- Note that $T\otimes T^{\prime }$ is irreducible.
-				- Therefore, $Ker\ \mu \subset L(V)$ is either 0 or $L(V)$
-				- $Im\ \mu=M(T)$ , therefore $Ker\ \mu=0$
-				-
-				- The same man in different mirrors by isomorphisms. #[[System/Math and Physics]]
+			- Note that $T\otimes T^{\prime }$ is irreducible.
+			- Therefore, $Ker\ \mu \subset L(V)$ is either 0 or $L(V)$
+			- $Im\ \mu=M(T)$ , therefore $Ker\ \mu=0$
 			-
-			- Corollary 1. $\operatorname{dim}\mathrm{M} (T)=n^{2}$, where  $n=\operatorname{dim} V$. #card
-			  card-last-interval:: 24
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-04-01T03:54:17.672Z
-			  card-last-reviewed:: 2023-03-08T03:54:17.672Z
-			  card-last-score:: 5
-			- Corollary 2. The map $\mu$ establishes an isomorphism of $IT^{\prime }$ and $L_{\mathrm{M} (T)}$ as well as→$TI^{\prime }$ and $R_{\mathrm{M} (T)}$.
-			- Corollary 3. $L_{\mathrm{M} (T)} \simeq nT^{\prime }$ and  $R_{\mathrm{M} (T)} \simeq nT$. 
-			  id:: caeeba62-511c-4014-abcc-0317e98b10e8
-				- $IT'\simeq nT^{\prime }$
-			- Corollary 4. Let $T_{1}$ and $T_{2}$ be nonisomorphic irreducible complex representations of the group $G$. 
-			  id:: 0e1d7f6e-d7fc-4bb8-bc17-e7506829c273
-			  card-last-interval:: 117.6
-			  card-repeats:: 3
-			  card-ease-factor:: 2.8
-			  card-next-schedule:: 2023-11-28T02:56:46.741Z
-			  card-last-reviewed:: 2023-08-02T12:56:46.741Z
-			  card-last-score:: 5
-			  Then $\operatorname{Reg}_{\mathrm{M}( T_{1})}$ and $\operatorname{Reg}_{\mathrm{M}( T_{2})}$ are not isomorphic. #card
-				- Proof by restricting the action.
-				- If $\operatorname{Reg}_{\mathrm{M}( T_{2})}\simeq \operatorname{Reg}_{\mathrm{M}( T_{1})}$ , then $\operatorname{L}_{\mathrm{M}( T_{1})}\simeq \operatorname{L}_{\mathrm{M}( T_{2})}$
-				- By [Corollary 3](((caeeba62-511c-4014-abcc-0317e98b10e8))) , which is a contradiction.
-				-
-				- Corollary.  Let $T_{1}$ and $T_{2}$ be nonisomorphic irreducible complex representations of the group $G$, 
-				  then $T_1\otimes T_1'$ isn't isomorphic to $T_2\otimes T_2'$ .
-			- Corollary 5. Let $T_{1} ,\dotsc ,T_{q}$ be pairwise nonisomorphic irreducible complex representations of the group $G$. 
-			  card-last-interval:: 30
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-06-09T00:22:25.093Z
-			  card-last-reviewed:: 2023-05-10T00:22:25.093Z
-			  card-last-score:: 5
-			  Then the subspaces $\mathrm{M}( T_{1}) ,\dotsc ,\mathrm{M}( T_{q})$ of $\mathbf{C} [G]$ are linearly independent.  #card
-				- By [Corollary 4](((0e1d7f6e-d7fc-4bb8-bc17-e7506829c273))), $\mathrm{M}( T_{1}) ,\dotsc ,\mathrm{M}( T_{q})$ are invariant and pairwise nonisomorphic.
-				-
-				- Invoke the common trick: 
-				  Select a  __maximal LI list__ ,  and  __intersect with the remainers__ .
-				-
-				- ((4b39adbd-96d1-4605-8870-8ce25437e6f7))
-			- Theorem. $\mathbf{C} [G]=\mathrm{M}( T_{1}) \oplus \dotsc \oplus \mathrm{M}( T_{q})$ #card
-			  card-last-interval:: 107.52
-			  card-repeats:: 3
-			  card-ease-factor:: 2.56
-			  card-next-schedule:: 2023-12-10T01:06:40.101Z
-			  card-last-reviewed:: 2023-08-24T13:06:40.101Z
-			  card-last-score:: 5
-				- Key points in this proof
-					- A higher view point: Study matrix elements as the function space
-					-
-				- Linear independence
-					- They're pairwise nonisomorphic.
-				- Spanning
-					- ((63860946-8380-45c7-b564-1c08f9e7cc70))
-					- Select a basis $\{f_j\}$ of  $\mathbf{C} [G]$.
-					- $f_j(g)=R(g)f_j(e)=\sum_iR_{ij}(g)f_i(e)$, therefore $f_j=\sum_if_i(e)R_{ij}$.
-					  View $f_i(e)$ as coefficients: Any $f_j$ can be generated by $\{R_{ij}\}$!
-					- Since each irrep is a subrep of R, $\{R_{ij}\}\sub span\{M(T_k)\}$, thus $\{M(T_k)\}$ is spanning.
-				- **Q.E.D.**
-			- Corollary. $n_{1}^{2} +\dotsc +n_{q}^{2} =|G|$.
-			- Corollary. $L\simeq R\simeq \sum n_{k} T_{k}$
+			- The same man in different mirrors by isomorphisms. #[[System/Math and Physics]]
+		-
+		- Corollary 1. $\operatorname{dim}\mathrm{M} (T)=n^{2}$, where  $n=\operatorname{dim} V$. #card
+		  card-last-interval:: 24
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-04-01T03:54:17.672Z
+		  card-last-reviewed:: 2023-03-08T03:54:17.672Z
+		  card-last-score:: 5
+		- Corollary 2. The map $\mu$ establishes an isomorphism of $IT^{\prime }$ and $L_{\mathrm{M} (T)}$ as well as→$TI^{\prime }$ and $R_{\mathrm{M} (T)}$.
+		- Corollary 3. $L_{\mathrm{M} (T)} \simeq nT^{\prime }$ and  $R_{\mathrm{M} (T)} \simeq nT$. 
+		  id:: caeeba62-511c-4014-abcc-0317e98b10e8
+			- $IT'\simeq nT^{\prime }$
+		- Corollary 4. Let $T_{1}$ and $T_{2}$ be nonisomorphic irreducible complex representations of the group $G$. 
+		  id:: 0e1d7f6e-d7fc-4bb8-bc17-e7506829c273
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2023-11-28T02:56:46.741Z
+		  card-last-reviewed:: 2023-08-02T12:56:46.741Z
+		  card-last-score:: 5
+		  Then $\operatorname{Reg}_{\mathrm{M}( T_{1})}$ and $\operatorname{Reg}_{\mathrm{M}( T_{2})}$ are not isomorphic. #card
+			- Proof by restricting the action.
+			- If $\operatorname{Reg}_{\mathrm{M}( T_{2})}\simeq \operatorname{Reg}_{\mathrm{M}( T_{1})}$ , then $\operatorname{L}_{\mathrm{M}( T_{1})}\simeq \operatorname{L}_{\mathrm{M}( T_{2})}$
+			- By [Corollary 3](((caeeba62-511c-4014-abcc-0317e98b10e8))) , which is a contradiction.
 			-
-			- Theorem.  The characters of the irreducible representations constitute a **basis** for the space of ((c444aad8-769e-4048-b5d7-6a01a193068c)) #card
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-05-14T17:40:21.589Z
-			  card-last-reviewed:: 2023-04-13T11:40:21.589Z
-			  card-last-score:: 5
-				- Central ⇔ $Reg(g,g)f=f$
-				- Since $M(T_k)$ are inv under Reg: we can find the basis vectors in the $M(T_k)$
+			- Corollary.  Let $T_{1}$ and $T_{2}$ be nonisomorphic irreducible complex representations of the group $G$, 
+			  then $T_1\otimes T_1'$ isn't isomorphic to $T_2\otimes T_2'$ .
+		- Corollary 5. Let $T_{1} ,\dotsc ,T_{q}$ be pairwise nonisomorphic irreducible complex representations of the group $G$. 
+		  card-last-interval:: 30
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-06-09T00:22:25.093Z
+		  card-last-reviewed:: 2023-05-10T00:22:25.093Z
+		  card-last-score:: 5
+		  Then the subspaces $\mathrm{M}( T_{1}) ,\dotsc ,\mathrm{M}( T_{q})$ of $\mathbf{C} [G]$ are linearly independent.  #card
+			- By [Corollary 4](((0e1d7f6e-d7fc-4bb8-bc17-e7506829c273))), $\mathrm{M}( T_{1}) ,\dotsc ,\mathrm{M}( T_{q})$ are invariant and pairwise nonisomorphic.
+			-
+			- Invoke the common trick: 
+			  Select a  __maximal LI list__ ,  and  __intersect with the remainers__ .
+			-
+			- ((4b39adbd-96d1-4605-8870-8ce25437e6f7))
+		- Theorem. $\mathbf{C} [G]=\mathrm{M}( T_{1}) \oplus \dotsc \oplus \mathrm{M}( T_{q})$ #card
+		  card-last-interval:: 107.52
+		  card-repeats:: 3
+		  card-ease-factor:: 2.56
+		  card-next-schedule:: 2023-12-10T01:06:40.101Z
+		  card-last-reviewed:: 2023-08-24T13:06:40.101Z
+		  card-last-score:: 5
+			- Key points in this proof
+				- A higher view point: Study matrix elements as the function space
 				-
-				- To prove: in $M(T_k)$, only $\chi_{T_k}$ is central.
-				- ${(Reg(g,g)f)(x)=Tr(\xi T(gxg^{-1})) }\overset{Cycle\ perm\ of\ trace }{=}Tr((T(g^{-1})\xi T(g)T(x))$
-				- Therefore, $\xi=T(g^{-1})\xi T(g)$
-				-
-				- By Schur's Lemma, $\xi=\lambda I$
-			- Corollary.  Number of irreducible representations = Number of conjugacy classes (Equals number of central functions)
-			- Corollary. The traces of irreducible representations are distinct.
+			- Linear independence
+				- They're pairwise nonisomorphic.
+			- Spanning
+				- ((63860946-8380-45c7-b564-1c08f9e7cc70))
+				- Select a basis $\{f_j\}$ of  $\mathbf{C} [G]$.
+				- $f_j(g)=R(g)f_j(e)=\sum_iR_{ij}(g)f_i(e)$, therefore $f_j=\sum_if_i(e)R_{ij}$.
+				  View $f_i(e)$ as coefficients: Any $f_j$ can be generated by $\{R_{ij}\}$!
+				- Since each irrep is a subrep of R, $\{R_{ij}\}\sub span\{M(T_k)\}$, thus $\{M(T_k)\}$ is spanning.
+			- **Q.E.D.**
+		- Corollary. $n_{1}^{2} +\dotsc +n_{q}^{2} =|G|$.
+		- Corollary. $L\simeq R\simeq \sum n_{k} T_{k}$
 		-
-		-
+		- Theorem.  The characters of the irreducible representations constitute a **basis** for the space of ((c444aad8-769e-4048-b5d7-6a01a193068c)) #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2023-05-14T17:40:21.589Z
+		  card-last-reviewed:: 2023-04-13T11:40:21.589Z
+		  card-last-score:: 5
+			- Central ⇔ $Reg(g,g)f=f$
+			- Since $M(T_k)$ are inv under Reg: we can find the basis vectors in the $M(T_k)$
+			-
+			- To prove: in $M(T_k)$, only $\chi_{T_k}$ is central.
+			- ${(Reg(g,g)f)(x)=Tr(\xi T(gxg^{-1})) }\overset{Cycle\ perm\ of\ trace }{=}Tr((T(g^{-1})\xi T(g)T(x))$
+			- Therefore, $\xi=T(g^{-1})\xi T(g)$
+			-
+			- By Schur's Lemma, $\xi=\lambda I$
+		- Corollary.  Number of irreducible representations = Number of conjugacy classes (Equals number of central functions)
+		- Corollary. The traces of irreducible representations are distinct.
+	-
+	-
 	-
 -

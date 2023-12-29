@@ -318,7 +318,7 @@ type:: [[Course]]
 				  which is the high-freq polarzation behavior.
 				- At $\omega=\omega_p$ the Green function has a pole, which indicates the existence of some quasiparticle (plasmon)!
 	-
-- # Local Magnetic Moment
+- # Local Magnetic Moment with Single Impurity
   collapsed:: true
 	- Summary #card
 	  card-last-interval:: 31.26
@@ -327,7 +327,6 @@ type:: [[Course]]
 	  card-next-schedule:: 2023-06-06T18:07:45.793Z
 	  card-last-reviewed:: 2023-05-06T12:07:45.794Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- 'Local' means at the site of impurity, while the magnetic moment is displayed by symmetry breaking at the site.
 		- Single-impurity Anderson Model
 		  $$H= \sum_{k \sigma} E_k c^\dag_{k \sigma} c_{k \sigma} + \sum_\sigma E_d c^\dag_{d \sigma} c_{d \sigma} + \sum_{k \sigma}\left(V_{k d} c_{k \sigma}^{\dag} c_{d \sigma}+(c.c.)\right)+U n_{d \uparrow} n_{d \downarrow} .$$

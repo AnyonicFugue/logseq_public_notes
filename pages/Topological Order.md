@@ -242,11 +242,11 @@
 				- [[Multi-fusion modules]]
 				  collapsed:: true
 					- Def #card
-					  card-last-interval:: 61.44
-					  card-repeats:: 3
-					  card-ease-factor:: 2.56
-					  card-next-schedule:: 2023-06-02T22:10:10.042Z
-					  card-last-reviewed:: 2023-04-02T12:10:10.042Z
+					  card-last-interval:: 297.18
+					  card-repeats:: 4
+					  card-ease-factor:: 2.66
+					  card-next-schedule:: 2024-10-18T05:05:04.210Z
+					  card-last-reviewed:: 2023-12-26T01:05:04.211Z
 					  card-last-score:: 5
 						- ((6396c42e-78cc-49aa-9862-fb85bef0c8d0)) Let $\mathcal{C}, \mathcal{D}$ be braided fusion categories.
 						- (1) A (multi-)fusion left $\mathcal{C}$-module is a (multi-)fusion category $\mathcal{M}$ equipped with a braided functor $F: \mathcal{C} \rightarrow \mathfrak{Z}_1(\mathcal{M})$. It is called closed if $F$ is an equivalence.
@@ -361,13 +361,13 @@
 							- ((6397d84a-bb0f-4e71-93b8-5077ea559ddb))
 							- ((6397d8c8-261e-4b5e-8bb6-0dff22e5daec))
 								- Intuitively it's very obvious: The exchange wall swaps rough and smooth.
-								- What does the subscript of the deligne tensor mean? #card
-								  card-last-interval:: 24
-								  card-repeats:: 2
-								  card-ease-factor:: 2.7
-								  card-next-schedule:: 2023-04-07T11:49:16.443Z
-								  card-last-reviewed:: 2023-03-14T11:49:16.444Z
+								- What does the subscript of the box mean? #card
 								  card-last-score:: 5
+								  card-repeats:: 3
+								  card-next-schedule:: 2024-04-20T14:39:55.394Z
+								  card-last-interval:: 117.6
+								  card-ease-factor:: 2.8
+								  card-last-reviewed:: 2023-12-25T00:39:55.395Z
 									- A wall must have two sides. Here one side is vacuum and the other side is $\mathcal {TC}$.
 										- The subscript denotes which **side** the wall fuses.
 							- ((6397d8cf-5735-4cb5-a000-e3edcf67c3a6))
