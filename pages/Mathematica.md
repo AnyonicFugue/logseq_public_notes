@@ -8,7 +8,12 @@ alias:: MMA
   collapsed:: true
 	- [Project Euler (1–10) | Stone Zeng’s Site (stone-zeng.site)](https://stone-zeng.site/2020-08-07-euler-1-10)
 - # Philosophy #card
-  collapsed:: true
+  card-last-interval:: 28.47
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2024-02-01T12:16:27.072Z
+  card-last-reviewed:: 2024-01-04T01:16:27.072Z
+  card-last-score:: 5
 	- Everything is an expression.
 	  collapsed:: true
 		- First, we have **atom expressions** including numbers, strings, symbols, etc.
@@ -19,10 +24,8 @@ alias:: MMA
 	  collapsed:: true
 		- Calculation is done by matching and replacing **symbols**, regardless of 'intrinsic mathematical meaning'.
 		-
-	- List vs sequence
-	  collapsed:: true
-		- Roughly speaking, a list is an array and a sequence is the set of elements in the array without brackets on both sides.
 - # Basic Syntax
+  collapsed:: true
 	- Comment
 	  collapsed:: true
 		- Use `(*` and `*)` to enclose comments.
@@ -65,45 +68,9 @@ alias:: MMA
 	- `;` to suppress the printing of an expression.
 	-
 	-
-- # Visualization and Demonstration #card
-  card-last-interval:: 31.26
-  card-repeats:: 1
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2024-01-26T07:10:42.076Z
-  card-last-reviewed:: 2023-12-26T01:10:42.077Z
-  card-last-score:: 3
-  collapsed:: true
-	- ## Plot
-		- Plot a single function
-			- `Plot[f, {x, x_min, x_max}]`
-		- Plot multiple functions
-			- `Plot[{f1, f2, f3}, {x, x_min, x_max}]`
-		- Further possibilities
-			- Plot legends
-			- Label each curve
-			- Fill below a curve / between two curves
-		- GraphPlot
-		  collapsed:: true
-			- Plot networks
-			- ![](https://reference.wolfram.com/language/howto/Files/PlotAGraph.en/O_6.png){:height 303, :width 385}
-		- PolarPlot
-		- ### 3D
-			- `Plot3D[f, {x, x_min, x_max}, {y, y_min, y_max}]`
-			- Density plot
-			- SliceContourPlot
-			  collapsed:: true
-				- Take slices and plot contours.
-			- Sphericalplot
-		- ### Vector
-			- VectorPlot
-			- StreamPlot
-	- `Animate[]`
-	  collapsed:: true
-		- Make a GIF by changing parameters with time.
-	- `Manipulate[]`
-	  collapsed:: true
-		- Allows adjusting parameter in the plot.
 - # Core Language
+	- List vs sequence
+		- Roughly speaking, a list is an array and a sequence is the set of elements in the array without brackets on both sides.
 	- ## Pattern Matching
 	  id:: 657e47c7-66ce-4f78-ba70-b3920f4feeeb
 	  collapsed:: true
@@ -128,13 +95,13 @@ alias:: MMA
 				- For example, `Plus` is both `Flat` and `Orderless`, thus mathematica would try equivalent forms.
 				- ((65865017-99b4-4155-942a-33f0c0603773))
 		- Patterns
-		  collapsed:: true
 			- Blank pattern `_`
-			  collapsed:: true
 				- `_` matches any expression.
 				  collapsed:: true
 					- `MatchQ[a/b, _/_]`
 				- `_h` matches any expression **with head h**.
+			- Sequences: `__` and `___`
+				-
 		- ## Naming and reusing of pattern objects
 		  collapsed:: true
 			- `sym:obj` or `Pattern[sym,obj]`
@@ -263,6 +230,66 @@ alias:: MMA
 			- The first argument is a list of **local constants**.
 		- Context
 			- Similar to namespaces in C++.
+	- ## Value assignment
+		- Functions
+		  collapsed:: true
+			- `clear` **vs** `remove`
+				- Clear the value **vs** remove the symbol completely
+			-
+		- Upvalue and Downvalue #card
+		  collapsed:: true
+			- Idea
+				- Value assignment (including delayed ones) are actually **global rules**. Rules are associated with specific **symbols**.
+				- Thus we have two choices: Associate the rule with the head (Downvalue) or the argument (Upvalue).
+				-
+				-
+				- 重载常见运算时，用upvalue效率更高、更自然（将重载运算视为与自定义类型相联系，而不是与plus相联系；因此使用plus的其他定义时，不需要检查此条规则）。
+			- Usage
+				- When reloading common operations (e.g. plus), upvalue would be more efficient than downvalue since the rule would only be checked when adding two self-defined types.
+				- `f[x_] + f[y_] ^:= f[x+y]`
+				- `f[g[x_]] ^:= fg[x]`
+		- Delayed or not?
+			-
+		- Trick: Store obtained values for future use #card
+			- `g[0] = 1; g[1] = 1; g[n_] := g[n] = g[n - 1] + g[n - 2];`
+- # Visualization and Demonstration #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2024-01-26T07:10:42.076Z
+  card-last-reviewed:: 2023-12-26T01:10:42.077Z
+  card-last-score:: 3
+  collapsed:: true
+	- ## Plot
+		- Plot a single function
+			- `Plot[f, {x, x_min, x_max}]`
+		- Plot multiple functions
+			- `Plot[{f1, f2, f3}, {x, x_min, x_max}]`
+		- Further possibilities
+			- Plot legends
+			- Label each curve
+			- Fill below a curve / between two curves
+		- GraphPlot
+		  collapsed:: true
+			- Plot networks
+			- ![](https://reference.wolfram.com/language/howto/Files/PlotAGraph.en/O_6.png){:height 303, :width 385}
+		- PolarPlot
+		- ### 3D
+			- `Plot3D[f, {x, x_min, x_max}, {y, y_min, y_max}]`
+			- Density plot
+			- SliceContourPlot
+			  collapsed:: true
+				- Take slices and plot contours.
+			- Sphericalplot
+		- ### Vector
+			- VectorPlot
+			- StreamPlot
+	- `Animate[]`
+	  collapsed:: true
+		- Make a GIF by changing parameters with time.
+	- `Manipulate[]`
+	  collapsed:: true
+		- Allows adjusting parameter in the plot.
 - # Multi-File and External Programs
   collapsed:: true
 	- id:: 6588ec88-f902-4712-9b28-4b1d2c7feaa7
@@ -281,6 +308,7 @@ alias:: MMA
 			- Loads external function from DLL
 		- **wscc** could compile C code into functions that Mathematica coud `Install` and call.
 - # Benchmark and Optimization
+  collapsed:: true
 	- {{embed ((6588ec88-f902-4712-9b28-4b1d2c7feaa7))}}
 	- ## Benchmark
 	  collapsed:: true
@@ -370,25 +398,3 @@ alias:: MMA
 	  collapsed:: true
 		- `$` isn't a special symbol in Mathematica. Just a convention to define global variables.
 		-
-- # Algebraic Number Theory
-  collapsed:: true
-	- Ref. MMA/guide/AlgebraicNumberTheory
-	- ## Useful functions
-	  collapsed:: true
-		- Represent algebraic numbers
-		  collapsed:: true
-			- AlgebraicNumber
-			  collapsed:: true
-				- ![image.png](../assets/image_1673569521240_0.png)
-				- Theta can be represented by the function `Root`
-				- eg. `AlgebraicNumber[Root[#^3 + # + 1 &, 3], {1, 2, 1}]`
-			- ToNumberField
-			  collapsed:: true
-				- Putting different algebraic numbers in a common extension could accelerate computation.
-		- Characters
-		  collapsed:: true
-			- AlgebraicNumberNorm
-			- AlgebraicNumberTrace
-			- AlgebracNumberDenominator
-			- NumberFieldDiscriminant
-			-

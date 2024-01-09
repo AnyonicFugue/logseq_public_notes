@@ -407,11 +407,11 @@ alias:: [[Category Theory]]
 	  collapsed:: true
 		- How does the requirements of $E_0,E_1,E_2,E_3$ corresponds to physical intuitions? #card
 		  collapsed:: true
-		  card-last-interval:: 29.95
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-08-30T10:18:07.436Z
-		  card-last-reviewed:: 2023-07-31T12:18:07.436Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2024-02-15T00:53:20.659Z
+		  card-last-reviewed:: 2024-01-04T00:53:20.659Z
 		  card-last-score:: 5
 			- $E_0$: {{cloze 0D, not any special structures}}
 			- $E_1$: {{cloze anyons can fuse}}

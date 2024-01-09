@@ -76,6 +76,12 @@ type:: [[Course]]
 			  $$
 			- Obviously they're the Fourier transform of the Block Fock operators.
 - # Linear Response #card
+  card-last-interval:: 28.47
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2024-02-01T12:15:33.398Z
+  card-last-reviewed:: 2024-01-04T01:15:33.398Z
+  card-last-score:: 5
   collapsed:: true
 	- Defs and Setup
 		- Linear response function $\chi(t,t')$
@@ -95,12 +101,9 @@ type:: [[Course]]
 			- $$
 			  \frac{d \rho_I}{d t}=\frac{i}{\hbar} h(t)\left[\hat{A}_I, \hat{\rho}_I\right]
 			  $$
-		- Approximation
-		  collapsed:: true
+		- Approximation: $\left[\hat{A}_I, \hat{\rho}_I(t)\right] \rightarrow \left[\hat{A}_I, \hat{\rho}_I(0)\right]$
 			- $h(t) \ll 1 . \Rightarrow \rho_I$ varies very slowly!
-			- Thus we may approximate $\left[\hat{A}_I, \hat{\rho}_I(t)\right]$ by $\left[\hat{A}_I, \hat{\rho}_I(0)\right]$
-			  collapsed:: true
-				- $$\hat{\rho }_{I} (t)=\hat{\rho }_{0} +\int _{-\infty }^{t} dt^{\prime }\frac{i}{\hbar } h\left( t^{\prime }\right)\left[\hat{A}_{I}\left( t^{\prime }\right) ,\hat{\rho }_{0}\right]$$
+			- $$\hat{\rho }_{I} (t)=\hat{\rho }_{0} +\int _{-\infty }^{t} dt^{\prime }\frac{i}{\hbar } h\left( t^{\prime }\right)\left[\hat{A}_{I}\left( t^{\prime }\right) ,\hat{\rho }_{0}\right]$$
 			- collapsed:: true
 			  $$y(t)=y(0)+\int _{-\infty }^{t} dt^{\prime }\frac{i}{\hbar } h\left( t^{\prime }\right)\operatorname{tr}\left\{\hat{B}_{I} (t)\left[\hat{A}_{I}\left( t^{\prime }\right) ,\hat{\rho }_{0}\right]\right\}$$
 				- We may apply cyclic permutation to the expression inside the trace to obtain 

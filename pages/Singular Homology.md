@@ -14,6 +14,12 @@
 - # Defs
   collapsed:: true
 	- ## About Orientations #card
+	  card-last-interval:: 28.47
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-02-01T12:10:16.953Z
+	  card-last-reviewed:: 2024-01-04T01:10:16.953Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- Def. Orientation
 		  id:: 642578ff-9703-449c-b3df-41ffc344e641
@@ -24,7 +30,7 @@
 		  card-last-reviewed:: 2023-07-10T12:58:16.463Z
 		  card-last-score:: 5
 		  collapsed:: true
-			- An orientation of $\Delta^n=\left[e_0, e_1, \ldots, e_n\right]$ is a linear ordering of its **vertices**.
+			- An orientation of $\Delta^n=\left[e_0, e_1, \ldots, e_n\right]$ is a **linear ordering of its vertices**.
 			  collapsed:: true
 				- For a line segment, it is an ordering of the two endpoints.
 			- Two orientations of $\Delta^n$ are the same if, as permutations of $\left\{e_0, e_1, \ldots, e_n\right\}$, they have the same **parity** (i.e., both are even or both are odd); otherwise the orientations are opposite.

@@ -24,7 +24,9 @@
 	- Comparing basic facts of homology and cohomology #card
 	  collapsed:: true
 		- Common features
-			- Functoriality
+			- **Functoriality**
+				- Do not view homology and cohomology as groups. View them as **functors**!
+				  background-color:: red
 				- ((64b48496-7607-4075-8451-d120e228dafc))
 				- ((65323c6e-8ef2-4c74-bdc2-84d19146566e))
 			- Dimension axiom

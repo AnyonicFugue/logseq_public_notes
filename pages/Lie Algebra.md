@@ -147,7 +147,8 @@
 			- Every real Lie algebra homomorphism of $\mathfrak{g}$ into $\mathfrak{h}$ extends uniquely to a complex Lie algebra homomorphism of $\mathfrak{g}_{\mathbb{C}}$ into $\mathfrak{h}$, i.e. $\pi(X+i Y)=\pi(X)+i \pi(Y)$
 - # Examples
   collapsed:: true
-	- sl(2,C): Definition, irreducibility, representations #card
+	- $\mathfrak{sl}(2,\mathbb C)$: Definition, irreducibility, representations #card
+	  collapsed:: true
 		- Basis and commutation relations
 			- $$
 			  X=\left(\begin{array}{ll}
@@ -168,13 +169,13 @@
 			  {[X, Y] } & =H
 			  \end{aligned}
 			  $$
-		- $sl(2,C)$ is irreducible, thus simple.
-		  card-last-interval:: 353.22
-		  card-repeats:: 4
-		  card-ease-factor:: 2.9
-		  card-next-schedule:: 2024-10-14T05:24:41.803Z
-		  card-last-reviewed:: 2023-10-27T00:24:41.803Z
+		- sl(2,C) is irreducible, thus simple.
 		  card-last-score:: 5
+		  card-repeats:: 4
+		  card-next-schedule:: 2024-10-14T05:24:41.803Z
+		  card-last-interval:: 353.22
+		  card-ease-factor:: 2.9
+		  card-last-reviewed:: 2023-10-27T00:24:41.803Z
 			- Verify that any nontrivial element can generate the whole algebra by commutating with the generators. ((63860946-8380-45c7-b564-1c08f9e7cc70))
 		- Reps of sl(2,C)
 		  id:: 63e44faf-be39-4003-a238-c50fedbd07e4

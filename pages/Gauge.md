@@ -400,8 +400,14 @@ alias:: Gauge Theory
 				  $$
 					- The second equality follows from $tr(\sigma_i \sigma_j)= 2\delta_{ij}$
 			- Yang-Mills Lagrangian #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2024-01-31T07:12:57.034Z
+			  card-last-reviewed:: 2023-12-31T01:12:57.035Z
+			  card-last-score:: 5
 				- $$
-				  \mathcal{L}=\bar{\psi}(i \not D) \psi-\frac{1}{4}\left(F_{\mu \nu}^i\right)^2-m \bar{\psi} \psi
+				  \mathcal{L}=\bar{\psi}(i \not D - m) \psi-\frac{1}{4}\left(F_{\mu \nu}^i\right)^2
 				  $$
 					- Is $\bar \psi$ acting $\gamma_0$ on two components separately, or exchanging the two components? #Learning-TODO
 					  background-color:: red

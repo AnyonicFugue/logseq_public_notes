@@ -1,4 +1,5 @@
 - ![2019_Hu_Wan_Entanglement Entropy, Quantum Fluctuations, and.pdf](file://zotero_link/Research/Undergrad Thesis/2019_Hu_Wan_Entanglement Entropy, Quantum Fluctuations, and.pdf)
+- {{query (and [[LooseEnd]] (page <% current page %>))  }}
 - # BlackBoxes
 	- Fusion basis
 	  id:: 658e8ba6-1b94-4444-8aee-bf614de7f002
@@ -150,6 +151,6 @@
 		- Proposition. In the fusion basis,
 		  $$
 		  \rho_A=\sum_{j_v m_v, \eta}\left|j_v m_v ; \eta\right\rangle\left\langle j_v m_v ; \eta\right|
-		  $$
+		  $$ #LooseEnd
 			- In this basis, we can also count $W=|G|^{L-1}$. See ((658e99ab-a372-46ef-8be9-d53f9de78994)).
 		-

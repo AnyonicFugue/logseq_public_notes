@@ -3,6 +3,21 @@ alias:: von-Neumann Entropy
 - # Definition
 	- Bipartite
 		- $$S=-\operatorname{Tr}(\rho_A \ln \rho_A) $$
+- # Properties
+  id:: 6590e5bc-7f96-4144-a03b-c8b4ece60d31
+	- Strong sub-additivity #card
+	  id:: 6590e387-581c-499d-8987-207a3fd0042d
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-02-05T07:12:32.507Z
+	  card-last-reviewed:: 2024-01-05T01:12:32.507Z
+	  card-last-score:: 5
+		- For any tri-partite state $\rho^{123}$ the following holds
+		  $$
+		  S\left(\rho^{123}\right)+S\left(\rho^2\right) \leq S\left(\rho^{12}\right)+S\left(\rho^{23}\right)
+		  $$
+		- Take *subsystem 2 = empty*, this goes back to ordinary sub-additivity.
 - # Examples
 	- ## Naive Example: 2-Qubit System
 	  collapsed:: true

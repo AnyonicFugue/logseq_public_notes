@@ -5,6 +5,12 @@
 - # General Strategies
 	- Divide a big problem into subproblems. #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-02-02T09:40:45.690Z
+	  card-last-reviewed:: 2024-01-02T03:40:45.691Z
+	  card-last-score:: 5
 		- Decompose a large space into a direct sum / path components / union of parts.
 		  id:: 649b9c9e-6796-4991-9241-b012ae76ccee
 	- Equivalent formulations, different viewpoints. #card

@@ -6,11 +6,11 @@ alias:: Bulk-Boundary Correspondence
 	- ((63ba2d3f-81a8-4acb-b1c4-cc82f9d7ae2d))
 		- Interesting! Investigate it later! #[[Research/To Be Investigated]]
 		- Mathematically: ((63ba2dc0-b1ee-48e6-8d59-201de7f43a7c)) #card
-		  card-last-interval:: 84
-		  card-repeats:: 3
-		  card-ease-factor:: 2.8
-		  card-next-schedule:: 2023-08-29T01:35:22.921Z
-		  card-last-reviewed:: 2023-06-06T01:35:22.922Z
+		  card-last-interval:: 353.22
+		  card-repeats:: 4
+		  card-ease-factor:: 2.9
+		  card-next-schedule:: 2024-12-20T08:41:32.703Z
+		  card-last-reviewed:: 2024-01-02T03:41:32.703Z
 		  card-last-score:: 5
 			- On the one hand, we may obtain the bulk from the boundary (if we know the correct definition of morphisms)
 			- On the other hand, we may solve for the boundary by $\mathcal{C}=\mathfrak{Z}_1(?)$.

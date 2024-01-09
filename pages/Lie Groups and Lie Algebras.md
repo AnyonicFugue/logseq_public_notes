@@ -128,11 +128,11 @@
 			- Exercise.
 			- The key point is that connectedness allows a finite decomposition.
 		- Corollary. If $G$ is a **connected** matrix Lie group and the Lie algebra $\mathfrak{g}$ of $G$ is commutative, then $G$ is commutative. #card
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-06-21T00:55:12.242Z
-		  card-last-reviewed:: 2023-05-22T00:55:12.243Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-05-01T15:13:08.909Z
+		  card-last-reviewed:: 2024-01-05T01:13:08.909Z
 		  card-last-score:: 5
 			- Exercise.
 			- Hint: {{cloze ((6381c0a3-1e80-48b1-ba45-9844cd8aabd7))}}

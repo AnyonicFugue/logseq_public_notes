@@ -1,13 +1,21 @@
 type:: [[Course]]
 
 - # Cautions
-  collapsed:: true
+	- When using mirror charge, be careful that
+	  $$
+	  a=\frac{R^2}{d}, q^{\prime}=-\frac{R}{d} q
+	  $$
+	  which can be derived with simple geometry.
+		- Note that only $R$ appears in the numerator!
+	- ((654edf9d-3d28-4ded-8748-aa15df6c804b))
 	- Note that we usually use $R=r-r'$, which might incur an extra minus.
+	  collapsed:: true
 		- For example, the potential of a dipole is
 		  $$
 		  \varphi_1=\frac{\vec{p} \cdot \hat{r}}{4 \pi \varepsilon_0 r^2}
 		  $$
 	- Electric dipole or magnetic dipole? How many orders?
+	  collapsed:: true
 		- $$\vec{A}(\vec{r}, t)=\frac{\mu_0}{4 \pi} \int \frac{[\vec{j}]}{R} d \tau^{\prime}$$
 		  is exact.
 		- For electric dipoles, we only need to consider the first-order expansion
@@ -28,6 +36,13 @@ type:: [[Course]]
   card-last-score:: 3
   collapsed:: true
 	- Equations in media #card
+	  collapsed:: true
+	  card-last-interval:: 28.47
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-02-01T12:10:34.396Z
+	  card-last-reviewed:: 2024-01-04T01:10:34.396Z
+	  card-last-score:: 5
 		- id:: 654072b1-1397-4fb6-a123-4c94f2ca7af0
 		  $$
 		  \begin{aligned}
@@ -42,10 +57,6 @@ type:: [[Course]]
 			  $$
 			- In linear media $$ \boldsymbol{D}=\varepsilon \boldsymbol{E}, \boldsymbol{B}=\mu \boldsymbol{H} $$.
 			-
-		- Key memorization points
-		  collapsed:: true
-			- A minus in the second equation
-			- The combination $\mu_0 \varepsilon_0$ should appear when we rewrite the last equation in terms of $E$ and $B$.
 		- Derivation from vacuum equations
 		  collapsed:: true
 			- $$\nabla \cdot \vec{E}=\rho / \varepsilon_0$$
@@ -117,10 +128,12 @@ type:: [[Course]]
 - # Polarization in Medias
   collapsed:: true
 	- Definition of polarization fields #card
+	  collapsed:: true
 		- $$
 		  \vec{P}(\vec{r}, t)=\varepsilon_0 \chi_e \vec{E}(\vec{r}, t), \quad \vec{M}(\vec{r}, t)=\frac{1}{\mu_0} \frac{\chi_m}{1+\chi_m} \vec{B}(\vec{r}, t)
 		  $$
 			- $\chi_e=\varepsilon_r-1, \chi_m=\mu_r-1$
+			-
 			- $$
 			  H=\frac{B}{\mu_0}-M
 			  $$
@@ -169,6 +182,7 @@ type:: [[Course]]
 			  \vec{S}_P=(\vec{E} \times \vec{H}), \quad u=\frac{1}{2}(\vec{E} \cdot \vec{D}+\vec{B} \cdot \vec{H})=\frac{1}{2}\left(\varepsilon E^2+\mu H^2\right)
 			  $$
 	- Force, Momentum Density and Flow #card
+	  collapsed:: true
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
 	  card-ease-factor:: 2.36
@@ -191,7 +205,8 @@ type:: [[Course]]
 			  \end{aligned}
 			  $$
 			-
-	- Force in conductors
+	- Force on conductors
+	  collapsed:: true
 		- $$
 		  \vec{F}=-\oint d \vec{S} \cdot \stackrel{\leftrightarrow}{T}
 		  $$
@@ -206,7 +221,8 @@ type:: [[Course]]
   collapsed:: true
 	- Definitions
 	  collapsed:: true
-		- Capacity
+		- Capacity coefficients
+		  id:: 654072b1-426c-4b5b-8e3b-e9d9919d8769
 			- $$
 			  q_i=\sum_j C_{i j} \phi_j
 			  $$
@@ -226,7 +242,7 @@ type:: [[Course]]
 		  $$
 			- This can be proved by calculating the difference between two equations of Gauss theorem, with LHS being $\psi \nabla \phi$ and $\phi \nabla \psi$ respectively.
 		- Here is the interesting step:
-		  Take the volume to be a sufficiently large open ball **minus** all conductors (surfaces included).
+		  Take the volume to be a sufficiently large open ball **minus** all conductors and their surfaces.
 		-
 		- No charge in the volume, so LHS=0.
 		- For the radius of the ball tending to infinity, the integration at the surface of the ball tends to zero.
@@ -301,6 +317,7 @@ type:: [[Course]]
 		- Subtracting to solutions, we see the electric field must be zero.
 	-
 - # Vector Potential
+  collapsed:: true
 	- First we could define $\vec B=\nabla \times \vec A$.
 	- Note that 
 	  $$\nabla \times \vec E = -\frac {\partial \vec V} {\partial t} = - \nabla \times \frac {d \vec A}{dt}$$
@@ -316,10 +333,17 @@ type:: [[Course]]
   collapsed:: true
 	- ((6520b42a-dcca-47da-a48d-1e043c4a8539))
 	- Mirror charge
+	  collapsed:: true
 		- $$
 		  a=\frac{R^2}{d}, q^{\prime}=-\frac{R}{d} q
 		  $$
+	- Conformal mapping
+	  collapsed:: true
+		- The idea is that the **2D** Laplacian equation is invariant under conformal mappings.
+		- The potential at corresponding points are equal, but no simple relation for electric fields.
 	- ## Expand by eigenequations
+	  id:: 654072b1-4fce-4719-822d-1731ab79052f
+	  collapsed:: true
 		- Idea
 		  collapsed:: true
 			- Usually we need to solve $\nabla^2 \varphi=0$ under a specific boundary condition
@@ -354,6 +378,7 @@ type:: [[Course]]
 			- Note that $n$ can be **negative**!
 		-
 - # Multi-pole Expansion
+  id:: 654072b1-4867-40ac-8999-7be0ff671566
   collapsed:: true
 	- ## Electronic
 	  collapsed:: true
@@ -363,8 +388,10 @@ type:: [[Course]]
 			- Quadrupole moment
 				- $$D ^{ab}=\int 3r^a r^b \rho(r) d^3 r$$
 			- Reduced quadrupole moment
+			  id:: 654072b1-7208-4c67-8e75-f7994f67cc3c
 				- $$\tilde D ^{ab}=\int (3r^a r^b-r^2 \delta^{ab})\rho(r) d^3 r$$
 		- ## Electric Potential
+		  collapsed:: true
 			- Consider some
 			  $$
 			  \varphi(\vec{r})=\frac{1}{4 \pi \varepsilon_0} \int \frac{\rho\left(\vec{r}^{\prime}\right) d \tau^{\prime}}{|r-r'|}
@@ -393,6 +420,7 @@ type:: [[Course]]
 		  we could expand $\frac 1 R \equiv \frac 1 {|\mathbf{r}-\mathbf{r}'|}$ into Taylor series.
 		-
 		- Zeroth-order term
+		  collapsed:: true
 			- $$
 			  \mathbf{A_0}(\mathbf{r}, t)=\frac{\mu_0}{4 \pi r} \int_{\Omega} {\mathbf{J}\left(\mathbf{r}^{\prime}, t^{\prime}\right)} \mathrm{d}^3 \mathbf{r}^{\prime}
 			  $$
@@ -412,6 +440,7 @@ type:: [[Course]]
 			- The first term is zero after integration, since $\int j^a (r) d^3 r =0$.
 			-
 			- Therefore
+			  id:: 654072b1-ffee-4eec-9e26-bd4428ce8f9e
 			  $$
 			  \begin{aligned}
 			  \mathbf{A_1}(\mathbf{r}, t) & =-\frac{\mu_0}{4 \pi R^3} \int_{\Omega} \vec R \times (\vec r' \times \vec J)\mathrm{d}^3 \mathbf{r}' \\
@@ -419,7 +448,7 @@ type:: [[Course]]
 			  & =\frac{\mu_0}{4 \pi R^3} \int d \vec m \times \vec R 
 			  \end{aligned}
 			  $$
-			  where $d\vec m = \vec r' \times \vec J$.
+			  where $d\vec m = \vec r' \times \vec J d^3 \vec r'$.
 	-
 - # Magnetostatics
   collapsed:: true
@@ -512,6 +541,7 @@ type:: [[Course]]
 		  \varphi_m=\int d \varphi_m=\frac{I}{4 \pi} \Omega
 		  $$
 	- ## Energy, Force and Torque
+	  id:: 6545afdd-5015-4fb4-9d46-9038ea570619
 	  collapsed:: true
 		- Start point
 			- $$U=\frac 1 2 \int B^a H_a dV=\frac 1 2 \int A^a j_a dV$$
@@ -525,6 +555,7 @@ type:: [[Course]]
 - # Quasi-Static Fields
   collapsed:: true
 	- The approximation
+	  collapsed:: true
 		- Ignore the $d\vec D/dt$ term, but keep the $d\vec B/dt$ term.
 		- Why? Shouldn't they be symmetric?
 			- $\vec B$ is at the same magnitude of the electric current.
@@ -543,15 +574,18 @@ type:: [[Course]]
 	  collapsed:: true
 		- Idea: The characteristic length of the system is much smaller than the dynamic scale of the field.
 		- Conductor
+		  collapsed:: true
 			- $$j=\sigma_c E$$
 			- Start from $\nabla \times \boldsymbol{H}=\boldsymbol{j}_0+\frac{\partial \boldsymbol{D}}{\partial t}$:
 			- $d D/dt$ ignorable <-> $\varepsilon \omega E \ll \sigma_c E$ <-> 
 			  $$\frac{\varepsilon \omega}{\sigma_c}\ll 1$$
 				- $\omega$ is the characteristic frequency
 		- Vacuum
+		  collapsed:: true
 			- $$\omega l \ll c \iff l \ll \lambda$$
 				- $l$ is the characteristic length.
 	- Diffusion equation
+	  collapsed:: true
 		- In conductors,
 		  $$
 		  \begin{aligned}
@@ -565,47 +599,46 @@ type:: [[Course]]
 		  $$\frac{\partial \boldsymbol{H}}{\partial t}=-\frac 1 {\mu \sigma_c} \nabla \times (\nabla \times H)=\frac 1 {\mu \sigma_c} \Delta H$$
 		  which is the familiar diffusion equation!
 	- ## Skin effect
+	  collapsed:: true
 		- Statement
 		  collapsed:: true
 			- When a conductor is subject to alternating electric field, the current would decay with depth, i.e. concentrate on the skin of the conductor.
-	- Example: Conductor in the $z>0$ half-space
-	  collapsed:: true
-		- Setup
+		- Example: Conductor in the $z>0$ half-space
 		  collapsed:: true
-			- The electric field points along the $x$ direction.
-			- We should solve for the field (sum of the external field and the induced field) and subsequently the current.
-		- Key point
+			- Setup
+				- The electric field points along the $x$ direction.
+				- We should solve for the field (sum of the external field and the induced field) and subsequently the current.
+			- Key point
+				- The linear 2nd ODE has 2 solutions, with positive and negative coefficients respectively.
+				- Since the electric field shouldn't diverge when $z \to \infty$, only the negative term survives, which leads to a decaying electric field.
+			- Solution
+				- $$
+				  \left(\frac{\partial^2}{\partial z^2}-\mu \sigma_c \frac{\partial}{\partial t}\right) E_x(z, t)=0
+				  $$
+				- Assume
+				  $$
+				  \vec{E}=\hat{x} A \exp [p z-i \omega t]
+				  $$
+				- We obtain
+				  $$
+				  p= \pm \sqrt{\frac{1}{2} \omega \mu \sigma_c}(1-i)= \pm \alpha(1-i)
+				  $$
+				- Since the electric field shouldn't diverge when $z \to \infty$, only the minus term survives.
+		- Example: Cylindrical conductor
 		  collapsed:: true
-			- The linear 2nd ODE has 2 solutions, with positive and negative coefficients respectively.
-			- Since the electric field shouldn't diverge when $z \to \infty$, only the negative term survives, which leads to a decaying electric field.
-		- Solution
-		  collapsed:: true
-			- $$
-			  \left(\frac{\partial^2}{\partial z^2}-\mu \sigma_c \frac{\partial}{\partial t}\right) E_x(z, t)=0
+			- By symmetry, we can try solutions of the form
 			  $$
-			- Assume
+			  \vec{E}=\vec{e}_z E(\rho) e^{-i \omega t}
 			  $$
-			  \vec{E}=\hat{x} A \exp [p z-i \omega t]
+			- Plug in the diffusion equation, we obtain the Bessel equation
 			  $$
-			- We obtain
+			  \frac{d^2}{d \rho^2} E(\rho)+\frac{1}{\rho} \frac{d}{d \rho} E(\rho)+k^2 E(\rho)=0
 			  $$
-			  p= \pm \sqrt{\frac{1}{2} \omega \mu \sigma_c}(1-i)= \pm \alpha(1-i)
+				- $k^2=i \omega \mu \sigma_c$
+			- Since $E(0)$ should be well-defined, only the zeroth solution is acceptable,
 			  $$
-			- Since the electric field shouldn't diverge when $z \to \infty$, only the minus term survives.
-	- Example: Cylindrical conductor
-		- By symmetry, we can try solutions of the form
-		  $$
-		  \vec{E}=\vec{e}_z E(\rho) e^{-i \omega t}
-		  $$
-		- Plug in the diffusion equation, we obtain the Bessel equation
-		  $$
-		  \frac{d^2}{d \rho^2} E(\rho)+\frac{1}{\rho} \frac{d}{d \rho} E(\rho)+k^2 E(\rho)=0
-		  $$
-			- $k^2=i \omega \mu \sigma_c$
-		- Since $E(0)$ should be well-defined, only the zeroth solution is acceptable,
-		  $$
-		  E(\rho)=E_0 J_0(k \rho)
-		  $$
+			  E(\rho)=E_0 J_0(k \rho)
+			  $$
 	-
 - # Electromagnetic Wave
   collapsed:: true
@@ -627,7 +660,8 @@ type:: [[Course]]
 		  \vec{B}_0
 		  \end{array}\right) e^{i(\vec{k} \cdot \vec{r}-\omega t+\varphi)}
 		  $$
-		- #+BEGIN_WARNING
+		- id:: 654edf9d-3d28-4ded-8748-aa15df6c804b
+		  #+BEGIN_WARNING
 		  The physical fields are the real parts of the solution.
 		  When calculating non-linear quantities (e.g. energy, momentum), we should **first take the real part** before plugging in formulas.
 		  #+END_WARNING
@@ -645,8 +679,8 @@ type:: [[Course]]
 		- Ellipsoidal polarization
 			- General case.
 	- Impedance of free space
-	  collapsed:: true
 		- Recall the definition
+		  id:: 654f2f7a-f656-42ae-9bc1-1be75700ca18
 		  $$
 		  Z=\frac{|E|}{|H|}
 		  $$
@@ -657,12 +691,16 @@ type:: [[Course]]
 - # Drude Model
   collapsed:: true
 	- Three types of charge in medias
+	  collapsed:: true
 		- Nuclei
+		  collapsed:: true
 			- Very heavy, immobile
 		- Valence electron
+		  collapsed:: true
 			- Bounded around nuclei, almost immobile
 			- Weak response to external field
 		- Itinerant electron
+		  collapsed:: true
 			- Could move freely.
 	- Fourier Transformation
 		- In general, the response to external field is neither local nor instantaneous,
@@ -682,14 +720,18 @@ type:: [[Course]]
 		  $$
 	-
 	- Effective AC conductance
+	  collapsed:: true
 		- Assumptions
+		  collapsed:: true
 			- Fraction force
-				- $$f=-\frac {m \vec v}{\tau}$$
+				- collapsed:: true
+				  $$f=-\frac {m \vec v}{\tau}$$
 					- $\tau$ is called the relaxation time.
 					- Physically, the electron is 'bounced' with time interval $\tau$.
 				- Thus the total force acting on electrons is
-				  $$m \frac{d \vec{v}}{d t}=\vec{F}=e \vec{E}-\frac{m \vec{v}}{\tau}v$$
+				  $$m \frac{d \vec{v}}{d t}=\vec{F}=e \vec{E}-\frac{m \vec{v}}{\tau}$$
 			- Long-wavelength approximation
+			  collapsed:: true
 				- Ignore the spatial dependence of external field and electron speed.
 				- $$
 				  \vec{E}(\vec{r}, t) \approx \vec{E}_0 e^{-i \omega t}
@@ -698,6 +740,7 @@ type:: [[Course]]
 				  \vec{v}(t) \approx \vec{v}_0 e^{-i \omega t}
 				  $$
 		- The solution
+		  collapsed:: true
 			- $$
 			  \vec{v}_0=\frac{e / m}{-i \omega+1 / \tau} \vec{E}_0
 			  $$
@@ -712,9 +755,12 @@ type:: [[Course]]
 				- The real part of $\sigma$ leads to response of the same phase, which costs energy.
 				- The imaginary part leads to response with a phase difference of $\pi/2$, which does not cost energy.
 		- Two limits
+		  collapsed:: true
 			- $\omega \to 0$
+			  collapsed:: true
 				- $\sigma$ becomes DC conductance, which is surely real.
 			- $\omega \to \infty$
+			  collapsed:: true
 				- $\sigma$ is dominated by the imaginary part.
 				- Almost no energy dissipation.
 	- Effective Dielectrical constant
@@ -747,12 +793,14 @@ type:: [[Course]]
 		  $$
 	-
 	- Electromagnetic Wave
+	  collapsed:: true
 		- Start from the effective Maxwell equations, where the 'free current' is regarded as a part of the  polarized current.
 		- Apply $\nabla \times$ to the last equation, we see that
 		  $$
 		  -\nabla^2 \vec{H}=\nabla \times(\nabla \times \vec{H})=\omega^2 \varepsilon(\omega) \mu_0 \vec{H}
 		  $$
 		- Therefore, the dispersion relation is
+		  collapsed:: true
 		  $$
 		  k^2=\left(\frac{\omega}{c}\right)^2 \varepsilon_r(\omega)
 		  $$
@@ -763,7 +811,6 @@ type:: [[Course]]
 		  $$
 		-
 		- Two limits
-		  collapsed:: true
 			- $\omega \ll 1/\tau$
 				- $\varepsilon_r$ is dominated by the imaginary part. We can ignore the real part.
 				- Then $k=(1+i)\alpha$, which means the wave would both propagate and decay.
@@ -879,7 +926,6 @@ type:: [[Course]]
 	- ## Fresnel's Law: Amplitudes
 	  collapsed:: true
 		- Key idea
-		  collapsed:: true
 			- We could further use relations of magnetic fields to fix amplitudes.
 				- $$\vec{H}_{i}=\frac{1}{Z_{i}}\Big(\hat{k}_{i}\times\vec{E}_{i}\Big)$$
 				- $$
@@ -901,7 +947,6 @@ type:: [[Course]]
 			  H_{0}^{^{\prime\prime}} =\frac{2Z_1\mathrm{cos}\theta}{Z_1\mathrm{cos}\theta+Z_2\mathrm{cos}\theta^{^{\prime\prime}}}H_0=t_P\cdot H_0 
 			  \end{gathered}$$
 	- ## Reflectance and Transmittance
-	  collapsed:: true
 		- Definition. The proportion of the **perpendicular** energy current between the reflected wave and the incoming wave,
 		  $$R=\frac{\left\langle\vec{S}_r\right\rangle\cdot\hat{z}}{\left\langle\vec{S}_i\right\rangle\cdot\hat{z}}=\begin{cases}\frac{\left|E_0^{\prime}\right|^2\cos\theta^{\prime}/Z_1}{\left|E_0\right|^2\cos\theta/Z_1}=\left|\frac{E_0^{\prime}}{E_0}\right|^2=\mid r_S\mid^2&\quad\text{S}\\\frac{\left|H_0^{\prime}\right|^2\cos\theta\cdot Z_1}{\left|H_0\right|^2\cos\theta\cdot Z_1}=\left|\frac{H_0^{\prime}}{H_0}\right|^2=\mid r_p\mid^2&\quad\text{P}\end{cases}$$
 		- A bit of calculation immediately shows that
@@ -909,7 +954,6 @@ type:: [[Course]]
 		  R_S=&\left|\frac{Z_2\cos\theta-Z_1\cos\theta^{^{\prime\prime}}}{Z_2\cos\theta+Z_1\cos\theta^{^{\prime\prime}}}\right|^2\\R_P=&\left|\frac{Z_2\cos\theta^{^{\prime\prime}}-Z_1\cos\theta}{Z_2\cos\theta^{^{\prime\prime}}+Z_1\cos\theta}\right|^2
 		  \end{aligned}$$
 		- Brewster angle
-		  collapsed:: true
 			- When the media satisfies $\mu=1$, $Z_r=1/\sqrt{\varepsilon_r}=1/n$, thus we can use $\sin \theta$ to substitute $Z$ in the expression of reflectance.
 			- With a bit of calculation we obtain
 			  $$\begin{gathered}
@@ -920,6 +964,7 @@ type:: [[Course]]
 			- ![image.png](../assets/image_1700981265469_0.png){:height 334, :width 364}
 				- Physically, the electric dipoles oscillate in the direction of the reflected light, but they cannot emit traverse light in the direction of the oscillation.
 	- ## Total Reflection
+	  collapsed:: true
 		- We should go back to the derivation of Fresnel's law.
 		- The point is $k_x > k''$, therefore $k''_z$ becomes imaginary. The transmitted wave thus decays exponentially.
 		- $$\begin{gathered}
@@ -941,7 +986,6 @@ type:: [[Course]]
 		  \end{array}
 		  $$
 	- ## Equations and independent components
-	  collapsed:: true
 		- Ansatz of eigen-modes
 			- The waveguide is translation invariant in the z direction, thus so should $\vec B_0$ and $\vec E_0$ be.
 			- $$
@@ -988,7 +1032,6 @@ type:: [[Course]]
 		- Thus there are only two independent components. We usually take them to be $B_{0z}$ and $E_{0z}$.
 	- ## Rectangular Waveguide
 		- Summary
-		  collapsed:: true
 			- Invoke the wave equations and the boundary conditions.
 			- There are different eigen-solutions, namely TE ($E_{0z}=0$) and TB ($B_{0z}=0$)
 			- The eigen-solutions could be obtained by separation of variables.
@@ -1063,7 +1106,6 @@ type:: [[Course]]
 		-
 - # Radiation
 	- Proposition. At the large-distance region, 
-	  collapsed:: true
 	  $$\vec E = -c (\vec e_r \times \vec B)$$
 		- The root is the last Maxwell equation
 		  $$ \nabla \times \vec B = \frac 1 {c^2} \frac {d\vec E}{dt}$$
@@ -1089,7 +1131,6 @@ type:: [[Course]]
 	- Def. Angle distribution
 		- $$f(\theta, \phi):= \frac {\langle \vec S_p  \rangle \cdot d \vec S}{d \omega} \equiv  {(\langle \vec S_p \rangle \cdot \vec e_r) r^2}$$
 	- ## Lorenz Gauge and Green Function
-	  collapsed:: true
 		- Lorenz gauge
 		  collapsed:: true
 			- $$\partial_\mu A^\mu=0$$
@@ -1193,7 +1234,6 @@ type:: [[Course]]
 				- In the long-distance region, ($r \gg \lambda$), $2 \pi / \lambda$ dominates, thus we could ignore the second term.
 			-
 	- ## Radiation of a magnetic dipole (harmonic current)
-	  collapsed:: true
 		- Note that we do not have magnetic monopole, so we have to model magnetic dipoles as electric current.
 		-
 		- Here we should consider the second term in the multi-pole expansion,
@@ -1285,7 +1325,6 @@ type:: [[Course]]
 - # [[Relativistic]] Electrodynamics
   collapsed:: true
 	- ## Defs
-	  collapsed:: true
 		- The convention is
 		  $$\eta =\operatorname{diag}( +1,-1,-1,-1)$$
 		- $$\begin{align*}

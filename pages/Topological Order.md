@@ -144,6 +144,12 @@
 		- TPS is a very strong tool, hugely successful in lattice systems.
 			- A hint that lattice models at least have some points.
 			- Do we have a counterpart of TPS in field-theory topological order? #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.36
+			  card-next-schedule:: 2024-02-04T06:53:04.935Z
+			  card-last-reviewed:: 2024-01-04T00:53:04.936Z
+			  card-last-score:: 3
 	- ## Topo orders in low dimensions & Boundary and Domain Wall
 	  collapsed:: true
 		- ### 0D and 1D
@@ -352,11 +358,11 @@
 								- Non-invertible ones are the (noninvertible) endomorphisms.
 						- [[Fusion rules]] of the domain walls #card
 						  id:: 63a69765-9737-4e07-a68e-b2b4796aa6b2
-						  card-last-interval:: 117.6
-						  card-repeats:: 3
-						  card-ease-factor:: 2.8
-						  card-next-schedule:: 2023-12-22T02:44:58.655Z
-						  card-last-reviewed:: 2023-08-26T12:44:58.655Z
+						  card-last-interval:: 353.22
+						  card-repeats:: 4
+						  card-ease-factor:: 2.9
+						  card-next-schedule:: 2024-12-23T06:15:13.374Z
+						  card-last-reviewed:: 2024-01-05T01:15:13.374Z
 						  card-last-score:: 5
 							- ((6397d84a-bb0f-4e71-93b8-5077ea559ddb))
 							- ((6397d8c8-261e-4b5e-8bb6-0dff22e5daec))

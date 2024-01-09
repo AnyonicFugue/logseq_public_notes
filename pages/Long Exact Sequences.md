@@ -452,12 +452,19 @@
 		-
 	- Theorem (Five Lemma). Consider the commutative diagram with exact rows:
 	  collapsed:: true
+	  card-last-interval:: 28.47
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-02-01T12:13:45.691Z
+	  card-last-reviewed:: 2024-01-04T01:13:45.691Z
+	  card-last-score:: 5
 	  ((648eb0dc-4eda-4c2a-b8d0-3ac1d8f1bea3))
 	  (i) If $f_2$ and $f_4$ are surjective and $f_5$ is injective, then $f_3$ is surjective.
 	  (ii) If $f_2$ and $f_4$ are injective and $f_1$ is surjective, then $f_3$ is injective.
 	  (iii) If $f_1, f_2, f_4, f_5$ are isomorphisms, then $f_3$ is an isomorphism. #card
 		- We are interested in the structure of chain maps, thus we invented this lemma.
 		- (i)
+		  collapsed:: true
 			- Comments
 				- The proof uses each commutative square exactly once.
 				- The structure of abelian groups (which gives the unique element 0) is also crucial.
@@ -493,6 +500,7 @@
 				- This finishesd our proof.
 				-
 		- (ii)
+		  collapsed:: true
 			- The proof is long but straightforward.
 			  We start from some $x \in A_3$ s,t, $f_2(x)=0$, then use exactness and commutativity repeatedly.
 				- There is one possible way each step, so there are no deviations from the proof.

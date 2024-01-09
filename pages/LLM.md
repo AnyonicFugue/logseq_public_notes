@@ -5,6 +5,8 @@ title:: LLM
 	- 愿AI可以帮助我摆脱重复的、劳动密集型的任务（例如画图、编程检查数组溢出、写无用的文字、备份Logseq和Anki、Google保号等），将时间投入更深刻的思考。
 - Alternatives
 	- Google Bard
+- # Reference
+	- [Prompt engineering - OpenAI API](https://platform.openai.com/docs/guides/prompt-engineering/six-strategies-for-getting-better-results)
 - # Coding
 	- Copilot
 		- Copilot chat: Ask him to fix bugs, write a function, etc.

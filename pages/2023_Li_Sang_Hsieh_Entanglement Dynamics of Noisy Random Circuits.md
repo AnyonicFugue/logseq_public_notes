@@ -13,7 +13,7 @@ type:: paper_reading
 		- Study a minimal model (1D qudit chain) acted on by random local unitaries and local depolarization channels.
 		- Map the model to a stat-mech system
 		- Evaluate mutual info, operator entanglement, entanglement negativity, etc.
-	- Main results #card
+	- Main results
 	  card-last-interval:: 30
 	  card-repeats:: 2
 	  card-ease-factor:: 2.7
@@ -52,6 +52,7 @@ type:: paper_reading
 - # ((63f039a9-eef5-443e-a327-686da202145a))
 	- The goal is to calculate the mutual information
 	- ## Summary of Techniques
+	  collapsed:: true
 		- Replica Trick: $\mathbb{E} \log X=\left.\frac{\partial}{\partial \alpha} \mathbb{E} X^\alpha\right|_{\alpha=0}=\left.\frac{\partial}{\partial \alpha} \log \mathbb{E} X^\alpha\right|_{\alpha=0}$ #card
 		  card-last-interval:: -1
 		  card-repeats:: 1

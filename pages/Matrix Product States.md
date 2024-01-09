@@ -479,10 +479,22 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 - # Higher Dimensions: TPS
 	- ## Open Problems #card
 	  collapsed:: true
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2024-02-04T07:15:47.548Z
+	  card-last-reviewed:: 2024-01-04T01:15:47.548Z
+	  card-last-score:: 3
 		- How to determine whether a state is short-range correlated?
 			- we can find some mathematical characteristic to capture the notion, not necessarily computationally efficient.
 			- Tt is known that there are injective tensor product states whose correlation functions only decay polynomially.
 	- ## Definitions: TPS, Gauge DOF, Double Tensor #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-01-31T07:04:46.779Z
+	  card-last-reviewed:: 2023-12-31T01:04:46.780Z
+	  card-last-score:: 5
 		- TPS
 			- A tensor product state in a many-body spin system is 
 			  $$

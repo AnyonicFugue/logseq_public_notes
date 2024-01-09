@@ -5,7 +5,6 @@ card-next-schedule:: 2023-12-05T06:54:34.893Z
 card-last-interval:: 31.26
 card-ease-factor:: 2.6
 card-last-reviewed:: 2023-11-04T00:54:34.893Z
-collapsed:: true
 	- ((654492a5-485c-46cd-ba7e-744404547c08)) Oriented Simplicial Complex
 	  collapsed:: true
 		- A simplicial complex $K$ with a partial order, such that the restriction to vertices of any simplex is a linear order.
@@ -17,7 +16,6 @@ collapsed:: true
 			  ![Image.png](../assets/Image_1698993333587_0.png){:height 261, :width 455}
 				- The two orderings are compatible, but they do not merge.
 	- $C_q(K)$
-	  collapsed:: true
 		- An abelian group with the following presentation:
 			- Generators
 				- All $(q+1)$-tuples $\left(p_0, \ldots, p_q\right)$ with $p_i \in \operatorname{Vert}(K)$ such that $\left\{p_0, \ldots, p_q\right\}$ spans a simplex in $K$.
