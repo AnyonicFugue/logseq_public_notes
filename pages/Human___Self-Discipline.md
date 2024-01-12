@@ -12,6 +12,9 @@
 			- This could be praising myself and feeling proud.
 		- Find passionate goals and work towards them.
 	- ## Techniques #card
+		- 五次呼吸法
+			- Tell myself: I would do it after five breathing!
+			- This is tested a lot and proved useful. Maybe because it provides some acute pressure.
 		- As soon as a valuable activity comes to your mind that you are really unwilling to do, **do it**.
 			- Stand over a pool of cold water. Do you hate jumping in? Do it. The more you hate it, the sooner you should jump.
 			- Note that the activity is **beneficial** and result in **happiness** rather than lasting stress and discomfort.

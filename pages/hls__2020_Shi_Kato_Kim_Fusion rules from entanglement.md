@@ -65,3 +65,37 @@ file-path:: zotero_link/Research/Entanglement/2020_Shi_Kato_Kim_Fusion rules fro
   hl-page:: 9
   hl-color:: yellow
   id:: 6591197b-142a-410e-899a-5af5fd7f0256
+- Proposition 3.3
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 659f5e74-1555-4968-b72e-66f4d159b87a
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 659f5f2f-105f-4997-877d-c6b27fcd49c1
+  hl-type:: area
+  hl-stamp:: 1704943405829
+- Proposition 3.5
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 65a0b3a4-23cb-4731-8cfa-5efaea070cdb
+- Deﬁnition 3.1
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 65a0b41b-9c69-4b4f-8a5a-30e888a0ab6e
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 65a0b604-1416-4a9a-9f29-66310142243a
+  hl-type:: area
+  hl-stamp:: 1705031171703
+- Proposition 3.7
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 65a0b6c2-1aa7-4d83-8990-db951a9455f8

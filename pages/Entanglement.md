@@ -1,4 +1,6 @@
 # [[Questions]]
+	- [[Quantum Marginal Problem]]
+		-
 	- Could all topological data be obtained from a single ground state?
 		- This concerns the definition of topological phases, since GSD only occurs on specific manifolds.
 		- However, Kong claims that 'TO are defined on infinite open disks', where the notion of GSD is dubious.
@@ -23,7 +25,36 @@
 	- Refs given in [[2023_Li_Sang_Hsieh_Entanglement Dynamics of Noisy Random Circuits]]
 		- [[Entanglement Negativity]]
 		- [[Operator Entanglement Entropy]] #[[Research/To Be Investigated]]
-	- [[Entanglement Negativity]]
+	- Conditional mutual information
+	  id:: 658b78c9-df4c-47bf-b17f-c4c459d25fa6
+		- $$I(X: Y \mid Z)_\rho:=S\left(\rho_{X Y}\right)+S\left(\rho_{Y Z}\right)-S\left(\rho_Y\right)-S\left(\rho_{X Y Z}\right)$$
+	- [[Relative Entropy]] #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 2
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-12T19:17:45.971Z
+	  card-last-reviewed:: 2023-08-12T13:17:45.972Z
+	  card-last-score:: 5
+		- Motivation: a measurement of how close two distributions are.
+			- An alternative of fidelity.
+		- $S(\rho \| \sigma)=-Tr(\rho \log \sigma)-(-Tr(\rho \log \rho))=\operatorname{Tr} \rho(\log \rho-\log \sigma)$ 
+		  The sign is positive.
+		- Property: positive-definite.
+		-
+		- [en.wikipedia.org/wiki/Quantum relative entropy](https://en.wikipedia.org/wiki/Quantum_relative_entropy)
+	- Fidelity #card
+	  card-last-interval:: 25.01
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-02-26T03:50:21.794Z
+	  card-last-reviewed:: 2023-02-01T03:50:21.794Z
+	  card-last-score:: 5
+	  collapsed:: true
+		- $F(\rho, \sigma)=\operatorname{tr} \sqrt{\sqrt{\rho} \sigma \sqrt{\rho}}$
+		- A measure of how close two density matrices are.
+		-
+		- Properties: $F(\rho, \sigma)\le1$, with the equality sign holds only for $\rho=\sigma$
+		-
 	-
 - # Area-Law
   id:: 654078ce-2ffb-4f24-be56-31c8887e8cb9

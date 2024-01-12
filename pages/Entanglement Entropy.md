@@ -5,14 +5,34 @@ alias:: von-Neumann Entropy
 		- $$S=-\operatorname{Tr}(\rho_A \ln \rho_A) $$
 - # Properties
   id:: 6590e5bc-7f96-4144-a03b-c8b4ece60d31
-	- Strong sub-additivity #card
-	  id:: 6590e387-581c-499d-8987-207a3fd0042d
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2024-02-05T07:12:32.507Z
-	  card-last-reviewed:: 2024-01-05T01:12:32.507Z
+	- Concavity
+	  $$
+	  S\left(\sum_{i=1}^k \lambda_i \rho_i\right) \geq \sum_{i=1}^k \lambda_i S\left(\rho_i\right)
+	  $$
+	-
+	- Triangle inequality #card
+	  card-last-interval:: 84
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2023-07-04T01:29:13.813Z
+	  card-last-reviewed:: 2023-04-11T01:29:13.813Z
 	  card-last-score:: 5
+	  id:: 654072b8-d6b1-4205-9b8d-756ff4b290e0
+		- $\left|S\left(\rho_A\right)-S\left(\rho_B\right)\right| \leq S\left(\rho_{A B}\right) \leq S\left(\rho_A\right)+S\left(\rho_B\right)$
+		- Right side
+			- Known as subadditivity. Prove by [[Relative Entropy]] and $\log(\rho_A\otimes\rho_B)=\log(\rho_A)\otimes I+ I\otimes\log(\rho_B)$
+		- Left side
+			- [TODO]
+		- *In principle they can all be solved by the variational method (with a Lagrange multiplier)
+	-
+	- Strong subadditivity #card
+	  card-last-score:: 5
+	  card-repeats:: 1
+	  card-next-schedule:: 2024-02-05T07:12:32.507Z
+	  card-last-interval:: 31.26
+	  id:: 6590e387-581c-499d-8987-207a3fd0042d
+	  card-ease-factor:: 2.6
+	  card-last-reviewed:: 2024-01-05T01:12:32.507Z
 		- For any tri-partite state $\rho^{123}$ the following holds
 		  $$
 		  S\left(\rho^{123}\right)+S\left(\rho^2\right) \leq S\left(\rho^{12}\right)+S\left(\rho^{23}\right)

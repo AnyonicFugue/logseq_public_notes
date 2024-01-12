@@ -32,6 +32,7 @@
 	  card-next-schedule:: 2023-12-17T06:40:09.836Z
 	  card-last-reviewed:: 2023-11-16T00:40:09.837Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Finiteness
 		- Algebraic structure
 			- Inverse
@@ -65,7 +66,10 @@
 	  id:: 64b4848e-7e80-4fe8-a1f1-319b6f009d6f
 	- Compare to situations where the theorem/conjecture fails and observe which conditions are essential.
 	  id:: 65425a62-2e8d-4e18-916f-712a4b35c506
-	-
+	- ## Several objects of the same kind
+		- Sum and symmetrize (equivariantize) #card
+		- Apply a property / operation on each object (when applying them on one is unsuccessful). #card
+			- Example. ((65a0b37c-57fa-4a1b-b2f2-75dc9da2cab4))
 	- ## Classification Problems #card
 	  card-last-interval:: 32.51
 	  card-repeats:: 1
@@ -102,6 +106,7 @@
 	- Prove nulhomotopy by rescale the shape (in particular, curve) with a parameter $t\in [0,1]$
 		- Especially useful for shapes embeddable into $R^n$
 - # Physics
+  collapsed:: true
 	- By analyzing the only possible quantities (allowed by symmetry, Lorentz invariance, etc.) and dependences, we can obtain some nontrivial relations.
 	  id:: 63e86244-9e83-4bd6-bf03-aa29c6f1ee0e
 	- ## Solve a Model

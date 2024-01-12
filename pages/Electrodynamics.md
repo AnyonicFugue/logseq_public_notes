@@ -1,6 +1,7 @@
 type:: [[Course]]
 
 - # Cautions
+  collapsed:: true
 	- When using mirror charge, be careful that
 	  $$
 	  a=\frac{R^2}{d}, q^{\prime}=-\frac{R}{d} q
@@ -1105,6 +1106,7 @@ type:: [[Course]]
 			  Thus the ground mode should be one of (1,1,0), (1,0,1) and (0,1,1).
 		-
 - # Radiation
+  collapsed:: true
 	- Proposition. At the large-distance region, 
 	  $$\vec E = -c (\vec e_r \times \vec B)$$
 		- The root is the last Maxwell equation

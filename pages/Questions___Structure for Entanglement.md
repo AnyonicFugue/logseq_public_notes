@@ -1,0 +1,3 @@
+- Motivations for the problem #card
+	- [[Quantum Marginal Problem]]
+	- Mechanism for topological phases
