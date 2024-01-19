@@ -35,6 +35,12 @@ alias:: MMA
 		- Example. `If[x>50, AppendTo[arr,a]; n=n+1]`
 			- If x>50, then the combined expression `AppendTo[arr,a]; n=n+1` would be executed.
 	- Prefix and postfix #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-02-13T08:26:41.457Z
+	  card-last-reviewed:: 2024-01-13T02:26:41.457Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- `f[x] == f @ x == x // f`
 		- For example, we can write `Eigenvalues[x] // N // Sort`

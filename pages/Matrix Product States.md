@@ -129,7 +129,7 @@ alias:: MPS, Projected Entangled Pair State, PEPS, Tensor Product State, TPS
 				- d matrices each site.
 				- D^2 for a single matrix.
 			- The number of parameters needed is $\prod_k d_k$ in the generic case.
-		- If $D=1$, the state is a product state. #card
+		- If $D=1$, the state is a product state.
 		  collapsed:: true
 			- $$\begin{aligned}
 			  |\psi \rangle  & =\sum _{i_{1} ,i_{2} ,\dotsc ,i_{N}} a_{i_{1}}^{[1]} a_{i_{2}}^{[2]} \dotsc a_{i_{N}}^{[N]}| i_{1} i_{2} \dotsc i_{N}\rangle \\

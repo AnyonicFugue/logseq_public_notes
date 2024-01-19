@@ -29,11 +29,11 @@ alias:: Anomalous
 		  \end{equation*}
 	- How are the two definitions linked?
 - Remote-detectable principle #card
-  card-last-interval:: 212.27
-  card-repeats:: 4
-  card-ease-factor:: 2.66
-  card-next-schedule:: 2023-11-10T17:18:58.190Z
-  card-last-reviewed:: 2023-04-12T11:18:58.192Z
+  card-last-interval:: 883.03
+  card-repeats:: 5
+  card-ease-factor:: 2.76
+  card-next-schedule:: 2026-06-14T02:24:22.886Z
+  card-last-reviewed:: 2024-01-13T02:24:22.887Z
   card-last-score:: 5
 	- ((6371b322-77eb-463b-821c-877171f1fefd))
 	- Here 'detect' uses double [[Braiding]]
