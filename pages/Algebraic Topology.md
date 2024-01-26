@@ -57,7 +57,6 @@
 			- The power of the algebraic way!
 		- Then we may start by assuming that there's no fixed points, then construct a retract by ((64113b44-ccd4-41d8-b489-12572e41a829)).
 - # Affine Spaces
-  collapsed:: true
 	- Definitions
 		- Affine
 		  card-last-interval:: 31.26
