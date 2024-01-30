@@ -12,6 +12,7 @@
 		- The maximization of the entropy is proved from SSA, while the maximal entropy is proved by another method in a different paper.
 	- ((65b0739e-6fee-4c37-9b3a-176ef16f2e32))
 - # Comments
+  collapsed:: true
 	- #+BEGIN_CAUTION
 	  We spend so much time juggling with entanglement entropy, which is only one scalar measure of entanglement.
 	  #+END_CAUTION

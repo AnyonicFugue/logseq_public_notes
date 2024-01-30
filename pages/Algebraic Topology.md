@@ -402,24 +402,84 @@
 			  card-last-score:: 5
 				- Let $f: X \rightarrow Y$ be a function and let $y \in Y$. Then $f^{-1}(y)$ is called the fiber over $y$.
 				- 'Preimage of a single point'
-		- Convex set: Definition, contractibility #card
-			- Definition
+		- Convex set
+			- Definitions: Convex, Extreme points #card
 			  card-last-score:: 5
 			  card-repeats:: 2
 			  card-next-schedule:: 2023-10-06T13:07:57.939Z
 			  card-last-interval:: 42
 			  card-ease-factor:: 2.7
 			  card-last-reviewed:: 2023-08-25T13:07:57.939Z
-			  collapsed:: true
-				- A subset $X$ of $\mathbf{R}^m$ is convex if, for each pair of points $x, y \in X$, the line segment joining $x$ and $y$ is contained in $X$. In other words, if $x, y \in X$, then $t x+(1-t) y \in X$ for all $t \in [0,1]$.
-			- ((6427a17b-2b44-4fbe-a61f-27a9b853464c)) Every convex subset of $\mathbb R^n$ is contractible.
-			  card-last-interval:: 31.26
-			  card-repeats:: 1
-			  card-ease-factor:: 2.6
-			  card-next-schedule:: 2023-07-22T07:36:09.780Z
-			  card-last-reviewed:: 2023-06-21T01:36:09.781Z
-			  card-last-score:: 5
-				- Just use the trick of scaling!
+				- Convex
+					- A subset $X$ of $\mathbf{R}^m$ is convex if, for each pair of points $x, y \in X$, the line segment joining $x$ and $y$ is contained in $X$. In other words, if $x, y \in X$, then $t x+(1-t) y \in X$ for all $t \in [0,1]$.
+				- Extreme point
+					- A point which doesn't lie in any open line segment.
+			- Basic facts: Contractibility, Minkowski-Caratheodory #card
+				- ((6427a17b-2b44-4fbe-a61f-27a9b853464c)) Every convex subset of $\mathbb R^n$ is contractible.
+				  card-last-interval:: 31.26
+				  card-repeats:: 1
+				  card-ease-factor:: 2.6
+				  card-next-schedule:: 2023-07-22T07:36:09.780Z
+				  card-last-reviewed:: 2023-06-21T01:36:09.781Z
+				  card-last-score:: 5
+					- Just use the trick of scaling!
+				- Theorem. (Minkowski-Caratheodory) Let $\mathcal{S}$ be a compact convex subset of $\mathbb{R}^N$ of dimension $n$. Then any point in $\mathcal{S}$ is a convex combination of at most $n+1$ extreme points.
+					- Example: $B^n$
+						- Any point on the surface is an extreme point.
+						-
+					- Notes
+						- Different points may need different extreme points.
+							- $B^n$ is an example.
+						- Compactness is used as boundedness, so we can select points of maximal distance.
+						- The theorem fails for non-compact sets.
+							- For example, the open ball has no extreme points at all!
+					- Overview
+						- Structures and properties
+							- $\mathbb R^n$ has several interesting properties.
+								- $\delta$-$\epsilon$
+								- Metric & distance
+								- Hausdorff: Compact -> Closed
+								- Closed bounded -> Compact
+							- The notion of dimension: Linear algebra and linear dependence
+							- Convex
+						- How to use the triangle inequality?
+							- Prove the existence of extreme points
+								- $|v_1+v_2| \leq |v_1| + |v_2|$, therefore if $v_1 + v_2$ is some extreme point, one of RHS would be even larger!
+								-
+						-
+					- Preparations
+						- Consider the continuous map $\operatorname{Af}: X \times X \times I \to X$
+							- $$
+							  \begin{equation*}
+							  \operatorname{Af}( x_{1} ,x_{2} ,t) =tx_{1} +( 1-t) x_{2}
+							  \end{equation*}$$
+						- Prop. For $X$ convex and compact, $\operatorname{ext}(X)$ is also compact.
+						  collapsed:: true
+							- Note that $\operatorname{ext}(X)$ is bounded. We need only prove that it is closed.
+							- The set of **non**-extreme points is
+							  $$\operatorname{Af} \left(\ ( X\times X-\{( x,x) |x\in X\}) \times I \right)$$
+							- Prop. $\operatorname{Af}$ is an open map.
+								- Very obvious geometrically.
+							- Prop. $X \times X - \{( x,x) |x\in X\}$ is open for any Hausdorff $X$.
+								- We need to find an open neighborhood containing $(x,y)$ for $x \neq y$.
+								- $O(x,y) \times O(y,x)$ is one such desired neighborhood.
+							- Therefore, the set of non-extreme points is open, which means that $\operatorname{ext}(X)$ is compact, implying it is closed.
+						- Prop. For $A$ compact, $\operatorname{conv}(A)$ is also compact.
+						  collapsed:: true
+							- $$\operatorname{conv} (A)=\operatorname{Af}( A\times A\times I)$$
+							- $A \times A \times I$ is compact. Compactness is preserved under continuous maps.
+						- Prop. $\operatorname{conv} (\operatorname{ext} (X)) =X$
+							- From the above propositions, we already know that $\operatorname{conv} (\operatorname{ext} (X))$ is compact.
+							- We can define a new function $\operatorname{diam}( a,X) :=\sup (\{d( a,x) |x\in X\})$.
+							  Since $X$ is compact, we have minimums and maximums.
+							-
+					- Review on strategic mistakes
+						- Step 1. Define the set of points cannot be represented as a convex combination of at most $n+1$ extreme points as $K$. Select $y \in K$ with maximal distance to the origin.
+						  background-color:: red
+							- This is a very late step; I do not quite understand properties of extreme points and convex hulls yet.
+							- ((65b7155b-7c6d-438a-ac00-d6666bd41251))
+					- Step 2.
+						-
 		- Cone: Definition, contractibility #card
 		  collapsed:: true
 			- Definition

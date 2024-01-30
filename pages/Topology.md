@@ -243,53 +243,53 @@
 		  collapsed:: true
 			- Every infinite set of points has a limit point.
 			- Exercise. Show that it is equivalent to that every sequence has a convergent subsequence.
-	- ## Basic Facts
-		- Theorem. Every closed subspace of a compact space is compact.  #card
-		  collapsed:: true
+	- ## Basic Facts #card
+		- Theorem. Every closed subspace of a compact space is compact.
 		  card-last-interval:: 42
 		  card-repeats:: 2
 		  card-ease-factor:: 2.7
 		  card-next-schedule:: 2023-09-25T12:57:14.529Z
 		  card-last-reviewed:: 2023-08-14T12:57:14.530Z
 		  card-last-score:: 5
+		  collapsed:: true
 			- Easy.
-		- Theorem. The image of a compact space under a Continuous map is compact.  #card
-		  collapsed:: true
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-08-26T18:37:22.244Z
-		  card-last-reviewed:: 2023-07-26T12:37:22.244Z
+		- Theorem. The image of a compact space under a Continuous map is compact.
 		  card-last-score:: 5
-			- Topo invariant
-		-
-	- Lemma. If $Y$ is a Compact subspace of the Hausdorff space $X$ and $x_{0}$ is not in $Y$. then  there exist disjoint open sets $U$ and $V$ of $X$ containing $x_{0}$ and $Y$, respectively. #card
-	  id:: 644efbcd-86a7-4549-95a7-6568220120f3
-	  collapsed:: true
-	  card-last-interval:: 117.6
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2024-01-23T14:47:27.407Z
-	  card-last-reviewed:: 2023-09-28T00:47:27.407Z
-	  card-last-score:: 5
-		- Key point: $U= \cup O(y_i,x_0)$, $V= \cap O(x_0,y_i)$
-	- Theorem. Every Compact subspace of a Hausdorff space is closed.  #card
-	  collapsed:: true
-	  card-last-interval:: 117.6
-	  card-repeats:: 3
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2024-02-16T14:39:25.811Z
-	  card-last-reviewed:: 2023-10-22T00:39:25.811Z
-	  card-last-score:: 5
-		- Use the [Lemma](((644efbcd-86a7-4549-95a7-6568220120f3))).
-		- Union open sets containing "outer points" ; Intersects open sets containing "Inner points"
-		-
-		- Pf: Use Lemma 26.4 ,  union sets of points outside.
-		-
-		- Theorem.
+		  card-repeats:: 1
+		  card-next-schedule:: 2023-08-26T18:37:22.244Z
+		  card-last-interval:: 31.26
+		  card-ease-factor:: 2.6
+		  card-last-reviewed:: 2023-07-26T12:37:22.244Z
 		  collapsed:: true
-			- Let $f:X\rightarrow Y$ be a bijective Continuous function If $X$ is Compact and $Y$ is Hausdorff, then $f$ is a homeomorphism
-			- Pf: Use to prove $f$ is a Closed map.
+			- Topo invariant
+	- Compact + Hausdorff #card
+		- Lemma. If $Y$ is a Compact subspace of the Hausdorff space $X$ and $x_{0}$ is not in $Y$. then  there exist disjoint open sets $U$ and $V$ of $X$ containing $x_{0}$ and $Y$, respectively.
+		  id:: 644efbcd-86a7-4549-95a7-6568220120f3
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-01-23T14:47:27.407Z
+		  card-last-reviewed:: 2023-09-28T00:47:27.407Z
+		  card-last-score:: 5
+		  collapsed:: true
+			- Key point: $U= \cup O(y_i,x_0)$, $V= \cap O(x_0,y_i)$
+		- Theorem. Every Compact subspace of a Hausdorff space is closed.
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-02-16T14:39:25.811Z
+		  card-last-reviewed:: 2023-10-22T00:39:25.811Z
+		  card-last-score:: 5
+		  collapsed:: true
+			- Use the [Lemma](((644efbcd-86a7-4549-95a7-6568220120f3))).
+			- Union open sets containing "outer points" ; Intersects open sets containing "Inner points"
+			-
+			- Pf: Use Lemma 26.4 ,  union sets of points outside.
+			-
+			- Theorem.
+			  collapsed:: true
+				- Let $f:X\rightarrow Y$ be a bijective Continuous function If $X$ is Compact and $Y$ is Hausdorff, then $f$ is a homeomorphism
+				- Pf: Use to prove $f$ is a Closed map.
 	-
 	- Tube Lemma. Consider the product space $X\times Y$, where $Y$ is Compact. If $N$ is an open set of $X\times Y$ containing the slice $x_{0} \times Y$ of $X\times Y$, then $N$ contains some tube $W\times Y$ about $x_{0} \times Y$, where $W$ is a neighborhood of $x_{0}$ in $X$.   #card
 	  collapsed:: true
@@ -334,31 +334,6 @@
 		- The union of the chain $\{\mathcal{C}_n\}$ is an open cover
 		-
 		- Corollary 27.8. Every closed interval in $\mathbb{R}$ is uncountable.
-	-
-	- Lemma (The Lebesgue number lemma). Let $\mathcal{A}$ be an open covering of the metric space $(X, d)$. If $X$ is Compact, there is a Lebesgue number $\delta>0$. #card
-	  card-last-interval:: 35.3
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-09-10T19:41:32.626Z
-	  card-last-reviewed:: 2023-08-06T12:41:32.626Z
-	  card-last-score:: 5
-	  collapsed:: true
-		- Intuition
-			- Open sets must have a finite overlap.
-			- Moreover the covering is finite, thus their intersection cannot be infinitely 'thin'.
-		-
-		- **Proof**:
-			- Simplify: We may only consider a finite covering A and open disks as subsets to be contained.
-			- Use contrapositive. Set $\delta_n=1/n$. We have a series of disks $D_n:=D(x_n,r_n)$, where $r_n<\delta_n$.
-			- Compact ⇒ [[Limit point compact]], so the sequence $(x_n)$ has a convergent subsequence.
-			- Denote the limit point as $y$. Some $D(y,\epsilon)$ must lie within some $A$.
-			- This A must contain some $D_n$, since $r_n$ vanishes. This leads to a contradiction.
-		-
-		- **Official proof**: Construct a distance function.
-			- Let $C_i=X-A_i$, $f(x)=\frac{1}{n} \sum_{i=1}^n d\left(x, C_i\right)$.
-			- Easy to see $f(x)>0$ for all x.
-			- Since x is continuous, it has a minimum. Denote it as $\delta$.
-			- Easy to see this is our required Lebesgue number.
 	- ## Limit Point Compactness
 		- Theorem. Compact implies limit point compactness, but not conversely.  #card
 		  collapsed:: true
