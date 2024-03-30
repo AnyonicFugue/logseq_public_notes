@@ -14,7 +14,7 @@
 		- ![2004_Poisson_A relativist's toolkit.pdf](file://zotero_link/Physics/General Relativity/2004_Poisson_A relativist's toolkit.pdf)
 	- ## QFT
 	  collapsed:: true
-		- ![2018_Peskin_An Introduction To Quantum Field Theory.pdf](file://zotero_link/Physics/Courses/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf) Classical book of Peskin
+		- ![2018_Peskin_An Introduction To Quantum Field Theory.pdf](file://zotero_link/Physics/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf) Classical book of Peskin
 		- ![Introduction_to_Quantum_Field_Theory.pdf](file://D:/Downloads/Courses/Introduction_to_Quantum_Field_Theory.pdf) Satoshi Nawata's lecturenotes
 	- ## Statistical
 		- ![2022_Pathria_Beale_Statistical mechanics.pdf](file://zotero_link/Physics/Courses/Statistical/2022_Pathria_Beale_Statistical mechanics.pdf) Pathria

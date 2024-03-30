@@ -399,13 +399,13 @@ type:: [[Course]]
 	- Kramers-Kronig relations
 	  id:: 6401b89c-a4af-4f0c-b59f-d44a3c164ff6
 		- Summary #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-26T14:14:44.746Z
-		  card-last-reviewed:: 2023-03-02T14:14:44.747Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-07-17T15:13:16.893Z
+		  card-last-reviewed:: 2024-03-22T01:13:16.894Z
 		  card-last-score:: 5
-			- The real and imaginary parts of an analytic function aren't independent.
+			- The real and imaginary parts of an analytic function aren't independent. Moreover, the value on $x$ axis suffices to determine the whole function.
 			- Mathematically
 				- For a complex function analytic on the upper half-plane (and vanish rapidly enough at infinity), we have 
 				  $$\chi(\omega)=\frac{1}{i \pi} \mathcal{P} \int_{-\infty}^{\infty} \frac{\chi\left(\omega^{\prime}\right)}{\omega^{\prime}-\omega} d \omega^{\prime}$$

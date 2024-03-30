@@ -25,21 +25,26 @@ alias:: MMA
 		- Calculation is done by matching and replacing **symbols**, regardless of 'intrinsic mathematical meaning'.
 		-
 - # Basic Syntax
-  collapsed:: true
 	- Comment
 	  collapsed:: true
 		- Use `(*` and `*)` to enclose comments.
 	- Combine multiple expressions into one #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-04-19T07:16:00.061Z
+	  card-last-reviewed:: 2024-03-19T01:16:00.061Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- Use `;`
 		- Example. `If[x>50, AppendTo[arr,a]; n=n+1]`
 			- If x>50, then the combined expression `AppendTo[arr,a]; n=n+1` would be executed.
 	- Prefix and postfix #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2024-02-13T08:26:41.457Z
-	  card-last-reviewed:: 2024-01-13T02:26:41.457Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2024-05-03T01:20:57.944Z
+	  card-last-reviewed:: 2024-03-22T01:20:57.945Z
 	  card-last-score:: 5
 	  collapsed:: true
 		- `f[x] == f @ x == x // f`
@@ -48,8 +53,17 @@ alias:: MMA
 		  This avoids nesting a hundred brackets.
 		  #+END_TIP
 	- `@`, `@@`, `/@`, `@@@` #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-03-02T12:36:58.652Z
+	  card-last-reviewed:: 2024-01-31T06:36:58.653Z
+	  card-last-score:: 5
 	  collapsed:: true
-		- Prefix, 换头(`Apply`), apply to every element (`Map`), Map+Apply (`MapApply`)
+		- Prefix
+		- 换头(`Apply`)
+		- apply to every element (`Map`)
+		- Map+Apply (`MapApply`)
 		- See ((6576b18e-05b7-414b-bec2-4fb3d8161be2))
 	- `./`, `:>`, `/;` and `?`, #card
 	  card-last-interval:: 31.26
@@ -58,7 +72,6 @@ alias:: MMA
 	  card-next-schedule:: 2024-01-25T06:38:53.911Z
 	  card-last-reviewed:: 2023-12-25T00:38:53.911Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- Rule, RuleDelayed, Condition
 		- See ((657e47c7-66ce-4f78-ba70-b3920f4feeeb))
 	- Array element #card
@@ -75,11 +88,11 @@ alias:: MMA
 	-
 	-
 - # Core Language
+  collapsed:: true
 	- List vs sequence
 		- Roughly speaking, a list is an array and a sequence is the set of elements in the array without brackets on both sides.
 	- ## Pattern Matching
 	  id:: 657e47c7-66ce-4f78-ba70-b3920f4feeeb
-	  collapsed:: true
 		- Notes #card
 		  card-last-interval:: 31.26
 		  card-repeats:: 1
@@ -119,6 +132,12 @@ alias:: MMA
 				  collapsed:: true
 					- `f[x : h[_], x_]` forces the first parameter and the second parameter of `f` to be identical, both in the form `h[_]`.
 		- Basic usages of`./` #card
+		  card-last-interval:: 32.57
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2024-04-24T13:55:36.543Z
+		  card-last-reviewed:: 2024-03-23T00:55:36.544Z
+		  card-last-score:: 3
 			- Replace a variable with a value / list
 				- `{x, x^2, y, z} /. x -> 1` gives `{1, 1, y, z}`
 				- `{x, x^2, y, z} /. x -> {a, b}` gives `{{a,b}, {a^2,b^2}, {y,z}}`
@@ -148,7 +167,6 @@ alias:: MMA
 			  collapsed:: true
 				- `DeleteCases[{1, 1, x, 2, 3, y, 9, y}, _Integer]`
 		- RuleDelayed `:>` #card
-		  collapsed:: true
 			- Example 1
 				- ```
 				  n = 1; 
@@ -257,6 +275,12 @@ alias:: MMA
 		- Delayed or not?
 			-
 		- Trick: Store obtained values for future use #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2024-04-15T06:43:15.859Z
+		  card-last-reviewed:: 2024-03-15T00:43:15.859Z
+		  card-last-score:: 5
 			- `g[0] = 1; g[1] = 1; g[n_] := g[n] = g[n - 1] + g[n - 2];`
 - # Visualization and Demonstration #card
   card-last-interval:: 31.26
@@ -325,10 +349,10 @@ alias:: MMA
 		- Memory
 			- `ByteCount[expr]` calculates memory used by expr.
 			- `MemoryInUse[]`
-	- ## Compile and Parallelize
+	- ## Compile and Parallelize: Usage and Options #card
 		- `Compile[{{x1,t1}, {x2,t2}, ...}, expr]`
 			- Returns a compiled function to evaluate expr, with arguments `x1` of type `t1`, `x2` of type `t2`, ...
-			- Options #card
+			- Options
 				- `Parallelization -> True` creates **parallel** code.
 				- `CompilationTarget -> C` first creates C code, then compiles the **C code** to an external library, which is much faster than WVM.
 					- Note: A tested workflow is to download **winlibs** of MinGW64 and use

@@ -1,5 +1,5 @@
-file:: [2018_Peskin_An Introduction To Quantum Field Theory.pdf](file://zotero_link/Physics/Courses/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf)
-file-path:: zotero_link/Physics/Courses/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf
+file:: [2018_Peskin_An Introduction To Quantum Field Theory.pdf](file://zotero_link/Physics/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf)
+file-path:: zotero_link/Physics/QFT/2018_Peskin_An Introduction To Quantum Field Theory.pdf
 
 - [:span]
   ls-type:: annotation

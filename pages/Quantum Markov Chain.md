@@ -1,6 +1,12 @@
 alias:: Quantum Markov State
 
 - Definition #card
+  card-last-interval:: 32.57
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2024-04-23T14:15:22.056Z
+  card-last-reviewed:: 2024-03-22T01:15:22.056Z
+  card-last-score:: 5
 	- A tripartite state with fixed subsystems $A,B,C$, such that the ((658b78c9-df4c-47bf-b17f-c4c459d25fa6)) is zero,
 	  $$I(A:C|B)=0$$
 - Physical meaning
@@ -25,3 +31,12 @@ alias:: Quantum Markov State
 		  $$
 			- The map recovers $\rho_{ABC}$ from its reduced density matrices.
 			-
+	- Semi-Separability
+	  id:: 65bdae23-c5a5-47c2-a2ab-552bbabb08cf
+		- There is a decomposition of the Hilbert space $\mathcal{H}_B$ into a direct sum of tensor products $\mathcal{H}_B=\bigoplus_j \mathcal{H}_{b_j^L} \otimes \mathcal{H}_{b_j^R}$ such that
+		  $$
+		  \rho_{A B C}=\bigoplus_j p_j \rho_{A b_j^L} \otimes \rho_{b_j^R C},
+		  $$
+			- $\left\{p_j\right\}$ is a probability distribution
+			- $\rho_{A b_j^L}$ is a density matrix on $\mathcal{H}_A \otimes \mathcal{H}_{b_j^L}$ and $\rho_{A b_j^R}$ is a density matrix on $\mathcal{H}_{b_i^R} \otimes \mathcal{H}_C$
+		- Note that this implies $\operatorname{Tr}_B \rho_{A B C}=\sum_j p_j \rho_A^j \otimes \rho_C^j$ is separable.

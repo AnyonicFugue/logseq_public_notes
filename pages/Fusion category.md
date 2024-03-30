@@ -50,11 +50,11 @@
 - # [[Invertible]]
   collapsed:: true
 	- Def #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-08-17T18:57:05.329Z
-	  card-last-reviewed:: 2023-07-17T12:57:05.329Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2024-05-04T00:44:31.208Z
+	  card-last-reviewed:: 2024-03-23T00:44:31.209Z
 	  card-last-score:: 5
 		- An object is invertible if it satisfies the conditions
 			- ((63745ee5-d4fe-4d02-a3b8-3582f373a546)) #card
@@ -69,6 +69,7 @@
 				- The 'algebraic characters' can provide lots of info! No need to know all information of the object under investigation!
 				-
 			- Especially, each fusion channel is **simple**.
+		- In the language of TO, the anyon is **abelian**.
 - [[Pointed]]
 	- Def
 		- Each object is invertible.

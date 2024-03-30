@@ -75,8 +75,11 @@
 	  collapsed:: true
 		- `\package{multicols}{n}`
 		-
+	- Page size and margins
+		-
 	- Size
 		- resizebox
+		  collapsed:: true
 			- ```
 			  \resizebox{10cm}{!}
 			  {
@@ -101,12 +104,13 @@
 				  }
 				  ```
 - # Citation and Bib
-  collapsed:: true
 	- Summary
 		- First, create a `.bib` file
 		- Add items to the file
 			- They can be exported in arXiv
 		- Use `\bibliography{file}` to include it
+			- Add `\bibliographystyle{unsrt}` for a blank project
+		-
 		- Use `\cite{Kitaev_2006}` to cite specific articles
 - # Warnings #card
   card-last-interval:: 30

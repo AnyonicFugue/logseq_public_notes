@@ -1,4 +1,4 @@
-# Definitions
+# (Old-fashioned) Definitions: Gapped Quantum Systems, LU, gLU, Stability #card
 card-last-score:: 5
 card-repeats:: 3
 card-next-schedule:: 2023-04-23T05:57:22.315Z
@@ -6,39 +6,40 @@ card-last-interval:: 67.2
 card-ease-factor:: 2.8
 card-last-reviewed:: 2023-02-15T01:57:22.315Z
 collapsed:: true
-	- Gapped quantum systems #card
-	  collapsed:: true
+	- Gapped quantum systems
 	  card-last-interval:: 35.37
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-09-11T21:00:31.414Z
 	  card-last-reviewed:: 2023-08-07T13:00:31.415Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- ((63719ab5-7a5c-4b72-a079-dcad37b6053a))
 		- Question: There should be a sort of **arbitrariness** in choosing specific sizes and details of the lattices in the sequence.
 			- Sometimes even the number of sites is even or odd is crucial.
 			- This is unphysical.
 		- How arbitrary should they be allowed to be?
-	- Equivalence of gapped quantum systems #card
-	  collapsed:: true
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-12-28T00:51:14.074Z
-	  card-last-reviewed:: 2023-11-16T00:51:14.075Z
+	- Equivalence of gapped quantum systems
 	  card-last-score:: 5
+	  card-repeats:: 2
+	  card-next-schedule:: 2023-12-28T00:51:14.074Z
+	  card-last-interval:: 42
+	  card-ease-factor:: 2.7
+	  card-last-reviewed:: 2023-11-16T00:51:14.075Z
+	  collapsed:: true
 		- Two gapped quantum systems $\left\{H_{N_k}\right\}$ and $\left\{H_{N_k}^{\prime}\right\}$ are equivalent if the ground-state spaces of $H_{N_k}$ and $H_{N_k}^{\prime}$ are connected by LU transformations for all $N_k$.
 		- The equivalence classes of the above equivalence relation are the **gapped quantum phases**.
 		- ((64c54f5f-229e-4bc9-a068-01bbcb24978c))
 			- Rather similar to a homomorphism between chain complexes if we have derivative operators...
-	- Local Addition Transformation #card
-	  collapsed:: true
+	-
+	- Local Addition Transformation
 	  card-last-interval:: 32.51
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-09-06T01:11:31.098Z
 	  card-last-reviewed:: 2023-08-04T13:11:31.098Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Local addition of d.o.f. : Insert m d.o.f. into the system amd transform the Hamiltonian by 
 		  $$H_N \mapsto H_N + \sum_{i=N+1}^{N+m}T_i$$
 			- $T_i$ can be an arbitrary single-site Hermitian operator with an non-degenerate spectrum.
@@ -46,14 +47,14 @@ collapsed:: true
 			  $$H_N \mapsto H_N + \sum_{i=N+1}^{N+m}Z_i$$
 			  which I think puts too rigid a restriction on the spectrum.
 			- Note that my definition isn't perfect, either.
-	- Local Unitary Transformation (LU) #card
-	  collapsed:: true
+	- Local Unitary Transformation (LU)
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-10-25T06:52:17.149Z
 	  card-last-reviewed:: 2023-09-24T00:52:17.149Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- An LU transformation iss given by a finite number of layers (i.e. the number of layers is a constant **independent of  system size**) of piecewise local unitary transformations
 		  collapsed:: true
 		  $$
@@ -74,7 +75,7 @@ collapsed:: true
 				- In this way three sites are made into product states, but the first site is still LRE.
 				- In fact it is a fixed point of WFR.
 		-
-	- Generalized local unitary transformation (gLU) #card
+	- Generalized local unitary transformation (gLU)
 	  id:: 64c419a3-89b0-4241-8437-9fad3d24822d
 	  collapsed:: true
 		- Intuition and insights
@@ -96,14 +97,15 @@ collapsed:: true
 		  collapsed:: true
 			- In the illustration, some d.o.f. are made into direct-product states by LU, thus safely removed.
 			- Also we may apply the reverse process, i.e. add d.o.f. and perform LU.
-	- Gapped quantum liquid #card
-	  collapsed:: true
+	-
+	- Gapped quantum liquid
 	  card-last-interval:: 32.57
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-09-17T02:07:24.554Z
 	  card-last-reviewed:: 2023-08-15T13:07:24.555Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Intuition
 			- This is a refined notion of gapped quantum phases.
 			  Refinements are that adjacent
@@ -122,28 +124,32 @@ collapsed:: true
 				  ((64c559ee-1c24-4f6e-b678-94eacd996782))
 				- Intuitively, when there is a domain wall ('inhomogeneity') in the system, the property would cause some interesting effects.
 		- ((64c55051-36de-42d6-8795-5f37ef347db3))
-	- Equivalence of gapped quantum liquids #card
-	  collapsed:: true
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-12-02T07:01:17.736Z
-	  card-last-reviewed:: 2023-11-01T01:01:17.737Z
+	- Equivalence of gapped quantum liquids
 	  card-last-score:: 5
+	  card-repeats:: 1
+	  card-next-schedule:: 2023-12-02T07:01:17.736Z
+	  card-last-interval:: 31.26
+	  card-ease-factor:: 2.6
+	  card-last-reviewed:: 2023-11-01T01:01:17.737Z
+	  collapsed:: true
 		- LU and LA
 			- Two gapped quantum liquid systems $\left\{H_{N_k}\right\}$ and $\left\{H_{N_k}^{\prime}\right\}$ are equivalent if the ground-state spaces of $H_{N_k}$ and $H_{N_k}^{\prime}$ are connected by LU transformations for all $N_k$, for a class of LA operations.
 			- We don't know precisely which LA are allowed... And the formalism isn't very elegant. Maybe the $\mathbb C^\infty$ formalism?
 		- Adiabatic transformation
 			- This definition makes the role of topology exlicit.
 		-
-	- Stable gapped quantum system #card
-	  collapsed:: true
-	  card-last-interval:: 35.37
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-09-11T21:00:15.712Z
-	  card-last-reviewed:: 2023-08-07T13:00:15.712Z
+	-
+	- Stable gapped quantum system
 	  card-last-score:: 5
+	  card-repeats:: 1
+	  card-next-schedule:: 2023-09-11T21:00:15.712Z
+	  card-last-interval:: 35.37
+	  card-ease-factor:: 2.6
+	  card-last-reviewed:: 2023-08-07T13:00:15.712Z
+	  collapsed:: true
+		- #+BEGIN_WARNING
+		  The requirement is rather interesting. It is about Hamiltonians and not states.
+		  #+END_WARNING
 		- If the ground-state degeneracy of a gapped quantum system is stable against any local perturbation (in the large $N_k$ limit), then the gapped quantum system is stable.
 			- Here the physical intuitions of **perturbation** and **stability** come into play!
 				- ((64c55bbd-1979-4b8c-98d2-d67b2ee19ca9))

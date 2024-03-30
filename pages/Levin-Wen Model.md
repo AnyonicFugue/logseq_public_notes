@@ -126,13 +126,13 @@
 		- The twists and braidings can be obtained by diagrammatic rules.
 - # Topics
 	- ## Relations to Math Axioms
-		- ((63d1e7c7-5e46-4a7e-a93a-80eea0451f8c)) #card #[[Research/To Be Investigated]]
-		  card-last-interval:: 30
-		  card-repeats:: 2
-		  card-ease-factor:: 2.46
-		  card-next-schedule:: 2023-05-12T11:35:45.237Z
-		  card-last-reviewed:: 2023-04-12T11:35:45.238Z
+		- ((63d1e7c7-5e46-4a7e-a93a-80eea0451f8c))
 		  card-last-score:: 3
+		  card-repeats:: 2
+		  card-next-schedule:: 2023-05-12T11:35:45.237Z
+		  card-last-interval:: 30
+		  card-ease-factor:: 2.46
+		  card-last-reviewed:: 2023-04-12T11:35:45.238Z
 			- Very interesting. Obtain categories from physical requirements!
 		- ((63d1e83a-5d36-44b8-93b5-e746f7860e6c)) #[[Research/To Be Investigated]]
 		-

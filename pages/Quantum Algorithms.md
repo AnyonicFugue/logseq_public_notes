@@ -5,6 +5,7 @@ card-ease-factor:: 2.9
 card-next-schedule:: 2024-02-10T08:13:44.970Z
 card-last-reviewed:: 2023-06-03T01:13:44.971Z
 card-last-score:: 5
+collapsed:: true
 	- Problem
 		- We have a function $f:\{0,1\}^n \rightarrow\{0,1\}$, which is promised to be constant or balanced.
 		  We wish to find which it is the case.
@@ -22,13 +23,13 @@ card-last-score:: 5
 	-
 	- Note: In general, there are $2^{2^n}$ possible functions, while only $2^n$-dimensional space. So we **can't** obtain 'which function it is' precisely.
 	  However, it is possible to divide them into $2^n$ classes.
-- ## Quantum Search #card
-  card-last-interval:: 42
-  card-repeats:: 2
-  card-ease-factor:: 2.46
-  card-next-schedule:: 2023-12-23T00:47:59.438Z
-  card-last-reviewed:: 2023-11-11T00:47:59.438Z
+- ## Quantum Search (Grover) #card
   card-last-score:: 3
+  card-repeats:: 2
+  card-next-schedule:: 2023-12-23T00:47:59.438Z
+  card-last-interval:: 42
+  card-ease-factor:: 2.46
+  card-last-reviewed:: 2023-11-11T00:47:59.438Z
 	- Problem
 		- We have a function $f:\{0,1\}^n \rightarrow\{0,1\}$, $$f(x)= \begin{cases}1 & \text { if } x=x_0 \\ 0 & \text { otherwise }\end{cases}$$
 		  We want to find $x_0$.
@@ -55,6 +56,7 @@ card-last-score:: 5
 		- When n is very large, $\lang S|0\rangle=\frac 1 {\sqrt N}<<1$, so $\theta\sim\frac 1 {\sqrt N}$ is very close to zero. 
 		  Thus we rotate a bit each step and get very close to $|0\rangle$ after $m\sim \sqrt N$ steps.
 - ## Quantum Fourier Transformation
+  collapsed:: true
 	- Def #card
 	  card-last-interval:: 24
 	  card-repeats:: 2

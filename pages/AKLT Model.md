@@ -3,7 +3,7 @@
 	- $$
 	  H_{A K L T}=\sum_i \mathbf{S}_i \cdot \mathbf{S}_{i+1}+\frac{1}{3}\left(\mathbf{S}_i \cdot \mathbf{S}_{i+1}\right)^2
 	  $$
-- # Basic Facts
+- # Basic Facts: Hamiltonian, Ground State #card
 	- The Hamiltonian is a projection onto the complement of spin-2 states, i.e.
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
@@ -11,9 +11,10 @@
 	  card-next-schedule:: 2023-09-25T18:58:37.921Z
 	  card-last-reviewed:: 2023-08-25T12:58:37.921Z
 	  card-last-score:: 5
+	  collapsed:: true
 	  $$
 	  \frac{1}{3}+\frac{1}{2} \mathbf{S}_x \cdot \mathbf{S}_{x+1}+\frac{1}{6}\left(\mathbf{S}_x \cdot \mathbf{S}_{x+1}\right)^2=P_{x, x+1}^{(2)}
-	  $$ #card
+	  $$
 		- Recall the define of angular momentum as the Casimir operator:
 		  $$\sum (S^\alpha)^2=l(l+1)$$
 			- $l=0$ -> $n=0$
@@ -24,13 +25,15 @@
 			- The first projects out $n=0$ and the second projects out $n=2$.
 			- The coefficients grants $P^2=P$.
 		- Use $S_i^2=2$ (since it is a spin-1 chain), we obtain the desired result.
-	- The ground state has a structure of adjacent entangled singlet pairs. #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-10-10T06:54:50.743Z
-	  card-last-reviewed:: 2023-09-09T00:54:50.743Z
-	  card-last-score:: 5
+	- The ground state has a structure of adjacent entangled singlet pairs.
+	  card-last-score:: 3
+	  card-repeats:: 2
+	  card-next-schedule:: 2024-04-26T00:46:17.064Z
+	  card-last-interval:: 42
+	  card-ease-factor:: 2.46
+	  card-last-reviewed:: 2024-03-15T00:46:17.065Z
+	  collapsed:: true
 		- ((64e51741-d1fa-4a9f-8d9e-c99c745683ec))
+		- #card
 	- The Hamiltonian has the spin-rotation invariance.
 	-

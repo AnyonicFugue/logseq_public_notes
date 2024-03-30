@@ -51,11 +51,11 @@ type:: [[Course]]
 		  collapsed:: true
 			- Apply Fourier transformation to the Bloch wavevector.
 		- Def #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-06-30T18:35:21.478Z
-		  card-last-reviewed:: 2023-05-30T12:35:21.478Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2024-05-03T01:12:03.864Z
+		  card-last-reviewed:: 2024-03-22T01:12:03.865Z
 		  card-last-score:: 5
 		  collapsed:: true
 			- $$
@@ -63,6 +63,8 @@ type:: [[Course]]
 			  $$
 			- $i=(i_1,i_2,i_3)$ is a tuple of integer, $r_i=i_1 \vec{a}_1+i_2 \vec{a}_2+i_3 \vec{a}_3$ is a lattice vector.
 			- The extra $\frac 1 {\sqrt N}$ prefactor is to cancel the effect of system size.
+			-
+			- Essentially a Fourier transformation of the Brillioune zone.
 		- Properties
 		  collapsed:: true
 			- The wavefunctions only depend on $r-r_i$, that is, $W_{n i}(\vec{r})=W_n\left(\vec{r}-\vec{r}_i\right)$

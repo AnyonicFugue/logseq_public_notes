@@ -24,6 +24,12 @@
 			- Stand over a pool of cold water. Do you hate jumping in? Do it. The more you hate it, the sooner you should jump.
 			- Note that the activity is **beneficial** and result in **happiness** rather than lasting stress and discomfort.
 	- ## Do Not... #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-04-15T06:39:27.642Z
+	  card-last-reviewed:: 2024-03-15T00:39:27.643Z
+	  card-last-score:: 5
 		- Force myself to do things when sick or sleepy.
 			- If I'm sick, stop working. If I'm sleepy, go to sleep.
 			- Comply with my biological nature.

@@ -39,13 +39,14 @@
 		- $$(p,p_2) \to (p_1,p-p_1+p_2)$$
 	- Obviously the volume of the phase space is proportional to $\epsilon^2$.
 - Calculate physical quantities
-	- Heat capacity at low temperatures #card
+	- Heat capacity at low temperatures
 	  card-last-interval:: 353.22
 	  card-repeats:: 4
 	  card-ease-factor:: 2.9
 	  card-next-schedule:: 2024-07-22T18:04:03.998Z
 	  card-last-reviewed:: 2023-08-04T13:04:03.999Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- First calculate the energy of a certain configuration. The heat capacity would be known once the state density is known.
 			- $$\begin{aligned}
 			  \delta E^{(2)} & =\frac{1}{2V}\sum _{\theta _{1} \theta _{2} \sigma _{1} \sigma _{2}} f_{\sigma _{1} \sigma _{2}( \theta _{1} ,\theta _{2})}\sum _{| \vec{k}_{1}| | \vec{k}_{2}| } \delta n_{\sigma _{1}}(\vec{k}_{1}) \delta n_{\sigma _{2}}(\vec{k}_{2})\\
@@ -59,13 +60,14 @@
 		  background-color:: red
 			- Never see anything like $e^{-\beta E}$.
 		- Experimentalists often use this method to obtain the effective mass.
-	- Susceptibility #card
+	- Susceptibility
 	  card-last-interval:: 117.6
 	  card-repeats:: 3
 	  card-ease-factor:: 2.8
 	  card-next-schedule:: 2023-10-13T15:08:24.741Z
 	  card-last-reviewed:: 2023-06-18T01:08:24.742Z
 	  card-last-score:: 5
+	  collapsed:: true
 		- Idea
 			- First obtain the dependence of $E_0$ on $m$.
 			- Since $E=E_0-m\cdot h$, m would be obtained by minimizing the total energy.

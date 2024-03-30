@@ -1,5 +1,5 @@
 file:: [2020_Shi_Kato_Kim_Fusion rules from entanglement.pdf](zotero_link/Research/Entanglement/2020_Shi_Kato_Kim_Fusion rules from entanglement.pdf)
-file-path:: zotero_link/Research/Entanglement/2020_Shi_Kato_Kim_Fusion rules from entanglement.pdf
+file-path:: zotero_link/Research/Entanglement/From Local to global/2020_Shi_Kato_Kim_Fusion rules from entanglement.pdf
 
 - ls-type:: annotation
   hl-page:: 1
@@ -151,11 +151,6 @@ file-path:: zotero_link/Research/Entanglement/2020_Shi_Kato_Kim_Fusion rules fro
   hl-page:: 21
   hl-color:: yellow
   id:: 65acb89b-6505-4a9b-8831-216efc878cac
-- Theorem
-  ls-type:: annotation
-  hl-page:: 23
-  hl-color:: yellow
-  id:: 65acbe7f-bed2-4357-b1bd-293d0b16f313
 - [:span]
   ls-type:: annotation
   hl-page:: 22
@@ -225,3 +220,124 @@ file-path:: zotero_link/Research/Entanglement/2020_Shi_Kato_Kim_Fusion rules fro
   hl-color:: yellow
   id:: 65b06f78-0eb4-454d-8efc-e5e2eeae8528
   5. Topological entanglement entropy
+- B. Information convex set on a closed manifold
+  ls-type:: annotation
+  hl-page:: 38
+  hl-color:: yellow
+  id:: 65bf36a6-acad-4b0a-a4f6-54da71de3f20
+- Lemma A.1
+  ls-type:: annotation
+  hl-page:: 38
+  hl-color:: yellow
+  id:: 65bf3b5d-b6c7-4d48-b7da-dd97be006572
+- C. Elementary step of the isomorphism theorem
+  ls-type:: annotation
+  hl-page:: 39
+  hl-color:: yellow
+  id:: 65bf8707-fcea-4b97-9b4f-ab7db620f5d6
+- [:span]
+  ls-type:: annotation
+  hl-page:: 40
+  hl-color:: yellow
+  id:: 65c03c51-e00d-40b7-b1be-f3c5c78d217b
+  hl-type:: area
+  hl-stamp:: 1707097167966
+- [:span]
+  ls-type:: annotation
+  hl-page:: 40
+  hl-color:: yellow
+  id:: 65c03c5d-63d3-449e-8e62-1f84ed8dfff5
+  hl-type:: area
+  hl-stamp:: 1707097179806
+- Proposition C.2
+  ls-type:: annotation
+  hl-page:: 41
+  hl-color:: yellow
+  id:: 65c0454e-d99f-4f62-9eb9-a0e803f7a810
+- Proposition C.4.
+  ls-type:: annotation
+  hl-page:: 42
+  hl-color:: yellow
+  id:: 65c09487-a8fb-446f-943b-362b7066af60
+- D. Extreme points
+  ls-type:: annotation
+  hl-page:: 44
+  hl-color:: yellow
+  id:: 65cac7b0-8727-41da-9429-4b67c92b7c59
+- [:span]
+  ls-type:: annotation
+  hl-page:: 45
+  hl-color:: yellow
+  id:: 65cae25f-faeb-48f4-b0ee-90da0e553699
+  hl-type:: area
+  hl-stamp:: 1707795038485
+- Lemma D.3
+  ls-type:: annotation
+  hl-page:: 45
+  hl-color:: yellow
+  id:: 65cae686-cb53-4873-9b60-e2ae9dd439f0
+- Theorem
+  ls-type:: annotation
+  hl-page:: 46
+  hl-color:: yellow
+  id:: 65e2a276-aefb-4d96-a726-9dffc714b2e9
+- [:span]
+  ls-type:: annotation
+  hl-page:: 19
+  hl-color:: yellow
+  id:: 65e2a2df-2082-4cc1-ba09-feec370dda42
+  hl-type:: area
+  hl-stamp:: 1709351646829
+- After taking a partial trace, the reduced density matrix of an extreme point of Σ(Y ) reduces to an extreme point of Σ(B1), Σ(B2) and Σ(B3).
+  ls-type:: annotation
+  hl-page:: 23
+  hl-color:: yellow
+  id:: 65f24e29-f487-4714-ae77-b640eaa2f187
+- H. String operators
+  ls-type:: annotation
+  hl-page:: 53
+  hl-color:: yellow
+  id:: 65f3b8a1-abb4-4356-9f26-dd4f3fe1d04b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: yellow
+  id:: 65ff64e3-f0a4-4673-8c77-952c5fc8cb4c
+  hl-type:: area
+  hl-stamp:: 1711236322732
+- [:span]
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 65ff64f0-cf02-40fa-ac98-45c41c781f80
+  hl-type:: area
+  hl-stamp:: 1711236336141
+- Proposition 5.1
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: yellow
+  id:: 65ffd14b-9ae5-4444-b72a-0a9f08981e10
+- [:span]
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: yellow
+  id:: 65ffd160-2fba-46fd-ae5d-9d4d90a30676
+  hl-type:: area
+  hl-stamp:: 1711264095397
+- [:span]
+  ls-type:: annotation
+  hl-page:: 32
+  hl-color:: yellow
+  id:: 65ffd177-496f-43b9-9343-9192c16c1cc3
+  hl-type:: area
+  hl-stamp:: 1711264119039
+- Lemma D.4.
+  ls-type:: annotation
+  hl-page:: 45
+  hl-color:: yellow
+  id:: 6600ec74-ca4a-4549-b6c8-743cbca70fc6
+- Theorem 4.4.
+  ls-type:: annotation
+  hl-page:: 23
+  hl-color:: yellow
+  id:: 6600f120-65f9-4c76-8ec8-1b96986038ec

@@ -1,4 +1,13 @@
 # General Theory: Separation of Hamiltonian, evolution #card
+card-last-interval:: 31.26
+card-repeats:: 1
+card-ease-factor:: 2.6
+card-next-schedule:: 2024-04-19T07:08:43.351Z
+card-last-reviewed:: 2024-03-19T01:08:43.352Z
+card-last-score:: 5
+	- #+BEGIN_NOTE
+	  What matters is the **observation** outcome (expectation).
+	  #+END_NOTE
 	- In general, we could decompose $H=H_1+H_2$ and let $H_1$ acts on the state and $H_2$ acts on the operator.
 		- Schrodinger -> $H_2=0$
 		- Heisenberg -> $H_1=0$

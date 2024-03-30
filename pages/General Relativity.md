@@ -67,6 +67,7 @@ alias:: GR
 	  card-next-schedule:: 2023-08-11T11:51:24.773Z
 	  card-last-reviewed:: 2023-07-12T13:51:24.773Z
 	  card-last-score:: 5
+	  id:: 654072b3-9f3f-49b5-afb1-2046a138b115
 		- $$\Gamma_{a b}^c=\frac{1}{2} g^{c d}\left\{\partial_a g_{b d}+\partial_b g_{a d}-\partial_d g_{a b}\right\}$$
 		- Quick memorization: Two plus and a minus, raised by a metric, symmetric positive at the two lower indices
 	- Geodesic equation #card
@@ -323,7 +324,6 @@ alias:: GR
 		  card-next-schedule:: 2023-09-07T13:27:16.193Z
 		  card-last-reviewed:: 2023-07-27T13:27:16.194Z
 		  card-last-score:: 5
-		  collapsed:: true
 			- A vector field $\xi^a$ which generates an 1-para family of isometries, i.e. $\mathcal L_\xi g_{ab}=0$
 			- Exercise. The above definition is equivalent to $\nabla_a \xi_b+\nabla_b \xi_a=0$.
 				- Note that $\mathcal L_v u^a = v^b \nabla_b u^a - u^b \nabla_b v^a$

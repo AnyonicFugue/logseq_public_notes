@@ -107,6 +107,7 @@
 		  card-next-schedule:: 2024-01-02T00:58:41.554Z
 		  card-last-reviewed:: 2023-11-21T00:58:41.554Z
 		  card-last-score:: 3
+		  collapsed:: true
 		  $$
 		  A=e^{X_1} e^{X_2} \cdots e^{X_m}
 		  $$
@@ -137,17 +138,18 @@
 			- Exercise.
 			- Hint: {{cloze ((6381c0a3-1e80-48b1-ba45-9844cd8aabd7))}}
 		- Corollary. If $G \subset M_n(\mathbb{C})$ is a matrix Lie group, the identity component $G_0$ of $G$ is a closed subgroup of $\mathrm{GL}(N ; \mathbb{C})$ and thus a matrix Lie group. Furthermore, the Lie algebra of $G_0$ is the same as the Lie algebra of $G$. #card
-		  card-last-interval:: 24
-		  card-repeats:: 2
-		  card-ease-factor:: 2.7
-		  card-next-schedule:: 2023-03-03T00:38:44.832Z
-		  card-last-reviewed:: 2023-02-07T00:38:44.832Z
+		  card-last-interval:: 117.6
+		  card-repeats:: 3
+		  card-ease-factor:: 2.8
+		  card-next-schedule:: 2024-07-18T14:51:13.561Z
+		  card-last-reviewed:: 2024-03-23T00:51:13.562Z
 		  card-last-score:: 5
 			- Plain English version
 				- The Lie algebra only generates the identity component.
 			- Proof
-				- 1. G closed in $X$, $G_0$ closed in G -> $G_0$ closed in X
-				- 2. For $X\in G$, $e^{tX} \in G$.
+				- 1. Subgroup: To show $g \times h$ also lies in the identity component, show that it is connected to $e$.
+				- 2. G closed in $X$, $G_0$ closed in G -> $G_0$ closed in X
+				- 3. For $X\in G$, $e^{tX} \in G$.
 	- ((6382c5bc-957b-4756-8adc-146cca7d1a16)) naturally induces ((6382c5bc-c2fb-4256-b0c1-e00aa69f4db0)) #card
 	  card-last-interval:: 353.22
 	  card-repeats:: 4

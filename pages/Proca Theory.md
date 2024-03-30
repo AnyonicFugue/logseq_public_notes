@@ -35,7 +35,7 @@
 		- In principle, spins are conserved currents of the Lorentz symmetry.
 		- Moreover, the current naturally decomposes into an orbital part and an internal part, corresponding to orbital angular momentum and spin.
 	- Here the field transforms as $A^\mu(x) \longrightarrow \Lambda_\nu^\mu A^\nu\left(\Lambda^{-1} x\right)$, where $\Lambda^\mu_\nu=exp\{\frac{i}{2} \Omega_{\rho \sigma}\left(J^{\rho \sigma}\right)^\mu_\nu\}$
-	- Invoke ((63e86248-d68b-4d57-bed2-c7a0d75b3be7))
+	- Invoke [[Noether's Theorem]]
 		- $\frac{\delta A^{\nu} }{\delta \Omega_{\rho \sigma} }$ has two parts.
 			- $$\frac{\delta A^v}{\delta\left(\Omega_{\rho \sigma}\right)}=\frac{\delta \Lambda_\mu^v}{\delta\left(\Omega_{\rho \sigma}\right)} \cdot A^\mu+\Lambda_\mu^v \cdot \partial_\alpha A^\mu \cdot \frac{\delta\left(\Lambda^{-1}\right)^\alpha_\beta}{\delta \Omega_{\rho\sigma}} \cdot x^\beta$$
 			- Obviously the first part corresponds to spin and the second part corresponds to orbital angular momentum.

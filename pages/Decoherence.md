@@ -209,8 +209,8 @@ type:: [[Course]]
 - The master equation
   collapsed:: true
 	- The textbook's way
-	  collapsed:: true
 		- Setting the stage
+		  collapsed:: true
 			- ((63830b21-378b-4e2a-b249-fb9973ae2eb0))
 			  collapsed:: true
 				- R means reservoir.
@@ -238,7 +238,7 @@ type:: [[Course]]
 				- Replace $\tilde{\rho}(\tau) \rightarrow \tilde{\rho}(t)$ in last equation.
 				- The equation now becomes purely differential ($\rho$ isn't integrated over).
 		- We finally obtain ((63830d27-bbb4-41f7-b322-443a6778d318))
-		- Lindblad operators #card
+		- Lindblad operators
 		  card-last-interval:: 67.2
 		  card-repeats:: 3
 		  card-ease-factor:: 2.8

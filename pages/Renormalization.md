@@ -185,7 +185,6 @@
 	  card-next-schedule:: 2023-06-16T17:51:06.797Z
 	  card-last-reviewed:: 2023-05-19T00:51:06.797Z
 	  card-last-score:: 5
-	  collapsed:: true
 		- Starting point: How to characterize renormalizability?
 		- Idea: Determine convergence by the power of momenta in the integrand
 		  collapsed:: true
@@ -203,6 +202,7 @@
 		  background-color:: red
 		- Intuitively, we only have a finite number of parameters (mass, coupling constant, etc). Can we cancel divergences in **all** diagrams by the finite parameters?
 	- ## Setup
+	  collapsed:: true
 		- Notations
 		  collapsed:: true
 			- $\gamma$ : 1PI Feynmann diagram
@@ -285,7 +285,6 @@
 				- This diagram would produce the desired divergence-cancelling:
 				  ![image.png](../assets/image_1683338935892_0.png)
 	- Theorem.
-	  collapsed:: true
 	  $$\begin{aligned}
 	  D(\gamma ) & = d-\sum _{f} E_{f}\left(\frac{d}{2} -1+s_{f}\right) -\sum _{i} V_{i} \Delta _{i}\\
 	   & \text{ with } \Delta _{i} \equiv d-a_{i} -\sum _{f} n_{if}\left(\frac{d}{2} -1+s_{f}\right)
@@ -311,7 +310,7 @@
 			  \delta _{\lambda _{4}} & \phi \phi \phi \phi  & 0
 			  \end{array}$$
 			- All higher-order diagrams have $D(\gamma)<0$!
-		- Proposition. For an interaction vertex of type $i$, $[g_i]=\Delta_i$ #card
+		- Proposition. For an interaction vertex of type $i$, $[g_i]=\Delta_i$
 		  id:: 64584d97-557f-41f3-84d3-5a851bb4c2c9
 		  card-last-interval:: 30
 		  card-repeats:: 1
@@ -326,7 +325,6 @@
 				- $$G_F(k):=\int d^dx e^{-ikx} \langle \phi_f(x) \phi_f(0) \rangle \sim \frac 1 {(k^2)^{1-s_f}}$$
 	-
 	- ## The Renormalizability Theorem
-	  collapsed:: true
 		- Definition. Renormalizable #card
 		  card-last-interval:: 33.94
 		  card-repeats:: 1

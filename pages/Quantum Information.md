@@ -16,11 +16,11 @@
 	- Version2. CHSH
 	-
 	- General Description #card
-	  card-last-interval:: 42
-	  card-repeats:: 2
-	  card-ease-factor:: 2.7
-	  card-next-schedule:: 2023-08-10T01:33:36.789Z
-	  card-last-reviewed:: 2023-06-29T01:33:36.790Z
+	  card-last-interval:: 117.6
+	  card-repeats:: 3
+	  card-ease-factor:: 2.8
+	  card-next-schedule:: 2024-07-21T15:31:29.431Z
+	  card-last-reviewed:: 2024-03-26T01:31:29.431Z
 	  card-last-score:: 5
 		- We have two observers.
 			- Alice may choose from a set of observations $\{x_i\}$, and Bob from $\{y_j\}$.
@@ -31,4 +31,6 @@
 		- Local
 			- $p(a b \mid x y)=\int_{\Lambda} \mathrm{d} \lambda q(\lambda) p(a \mid x, \lambda) p(b \mid y, \lambda)$
 - [[Quantum Marginal Problem]]
--
+- # Separability
+	- Definition. A mixed state is separable if its density matrix could be written as a convex combination of tensor products, i.e.
+	  $$\rho_{AB}= \sum_i p_i \rho_A^i \otimes \rho_B^i$$

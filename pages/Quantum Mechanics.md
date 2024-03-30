@@ -62,16 +62,23 @@ alias:: QM
 	- Different path: ((64239f9f-7660-4553-ab22-80685caf6f6c)) and effective Hamiltonian
 - # Misc
   collapsed:: true
-	- Schmidt decomposition of an entangled state #card
+	- Schmidt decomposition, Purification and uniqueness #card
 	  card-last-score:: 5
 	  card-repeats:: 3
 	  card-next-schedule:: 2023-06-14T01:19:18.262Z
 	  card-last-interval:: 69.6
 	  card-ease-factor:: 2.32
 	  card-last-reviewed:: 2023-04-05T11:19:18.263Z
-		- For a pure state $|\psi\rangle\in V_1\otimes V_2$, we can always decompose it into $|\psi\rangle=\sum_ip_i|e_i\rangle| f_i\rangle$, where $\{e_i\}$ and $\{f_j\}$ are ONBs.
-		-
-		- Calculation strategy: $T=UDV$, U consists of the normalized eigenvectors of ${T T^\dag}$ (The eigenvectors are the same as the square root), V consists of the eigenvectors of ${T^\dag T}$
+		- Schmidt decomposition
+			- For a pure state $|\psi\rangle\in V_1\otimes V_2$, we can always decompose it into $|\psi\rangle=\sum_ip_i|e_i\rangle| f_i\rangle$, where $\{e_i\}$ and $\{f_j\}$ are ONBs.
+			- The proof and calculation are both SVD.
+			- Calculation strategy: $T=UDV$, U consists of the normalized eigenvectors of ${T T^\dag}$ (The eigenvectors are the same as the square root), V consists of the eigenvectors of ${T^\dag T}$
 		-
 		- Purification
 			- For some mixed state $\rho$, we can always **add an auxiliary system** to make the whole state a (entangled) **pure** state.
+		- Theorem. $\left|\psi_{A B}\right\rangle$ and $\left|\varphi_{A B}\right\rangle$ have the same reduced density matrix on subsystem $B$ if and only if there is a unitary operator $U_A$ such that
+		  $$
+		  \left|\varphi_{A B}\right\rangle=U_A \otimes I_B\left|\psi_{A B}\right\rangle
+		  $$
+			- We can consider purifications of $\left|\psi_{A B}\right\rangle$.
+			- The $B$ part must be identical; only the auxiliary vectors in $A$ are different. We just need to find $U_A$ which transforms one set of basis into another.

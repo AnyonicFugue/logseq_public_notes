@@ -81,6 +81,12 @@
 		  id:: 63c14170-78b2-4e51-91d3-c07fed031c50
 			- Rigidity of [[TQFT]], i.e. No deformations? This seem to motivate the definition of topological orders by deformations.
 - # Different Viewpoints #card
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2024-04-22T07:17:45.463Z
+  card-last-reviewed:: 2024-03-22T01:17:45.463Z
+  card-last-score:: 3
   collapsed:: true
 	- ((63842469-5dc0-4676-9daa-b5ee2000e5a4)) is a toric code on a strange lattice!
 		- The lattice is obtained by connecting 3 spheres in a triangular manner.
@@ -108,7 +114,10 @@
 			- We may select any 2 commuting operators as logical X. Those anti-commuting would be logical Z.
 				- Note those operators aren't universal.
 			- We obtain two qubits, but only **single-qubit** gates. No entanglement.
-	- TQFT and gauge theory
+	- TQFT
+		- Untwisted
+	- Gauge theory
+		- $Z_2$ gauge theory on the lattice
 -
 - # ((64ca5d6d-3d9c-4338-8264-4f9e70368e2c))
 	-

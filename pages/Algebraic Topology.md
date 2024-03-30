@@ -134,6 +134,12 @@
 - # About Simplexes
   id:: 64b4848d-32de-4083-a028-c5424818237d
 	- Definitions: simplex, face and boundary, barycentric coordinate #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2024-04-15T06:45:39.760Z
+	  card-last-reviewed:: 2024-03-15T00:45:39.761Z
+	  card-last-score:: 3
 		- m-simplex in $\mathbb R^n$
 		  card-last-interval:: 35.37
 		  card-repeats:: 1
@@ -353,11 +359,11 @@
 	- ## Convexity, contractibility and cones
 	  collapsed:: true
 		- Contractibility: Definition, homotopy type, homotopic maps #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2024-01-14T06:58:02.320Z
-		  card-last-reviewed:: 2023-12-14T00:58:02.321Z
+		  card-last-interval:: 42
+		  card-repeats:: 2
+		  card-ease-factor:: 2.7
+		  card-next-schedule:: 2024-05-07T01:24:51.376Z
+		  card-last-reviewed:: 2024-03-26T01:24:51.377Z
 		  card-last-score:: 5
 			- Definition
 			  card-last-score:: 5
@@ -369,7 +375,6 @@
 			  card-last-reviewed:: 2023-07-13T13:36:50.727Z
 				- A space $X$ is contractible if $1_X$ is nullhomotopic.
 			- ((6427f09b-7a0d-4fff-9b5a-17c5f0084aca)) A space $X$ has the same homotopy type as a point if and only if $X$ is contractible.
-			  collapsed:: true
 				- Verify the definition.
 			- ((6427f13b-04bb-41d0-b06b-f35e68b40624)) If $Y$ is contractible, then any two maps $X \rightarrow Y$ are homotopic (indeed they are nullhomotopic).
 			  card-last-interval:: 29.9
@@ -381,19 +386,19 @@
 			  collapsed:: true
 				- Invoke the lemma that homotopy is preserved under composition.
 				-
-		- Defs
-			- Identification #card
-			  card-last-interval:: 42
-			  card-repeats:: 2
-			  card-ease-factor:: 2.7
-			  card-next-schedule:: 2023-09-24T12:31:18.466Z
-			  card-last-reviewed:: 2023-08-13T12:31:18.466Z
+		- Definitions: Identification, fiber #card
+			- Identification (Quotient map)
 			  card-last-score:: 5
+			  card-repeats:: 2
+			  card-next-schedule:: 2023-09-24T12:31:18.466Z
+			  card-last-interval:: 42
+			  card-ease-factor:: 2.7
+			  card-last-reviewed:: 2023-08-13T12:31:18.466Z
 				- A continuous surjection $f: X \rightarrow Y$ is an identification if a subset $U$ of $Y$ is open if and only if $f^{-1}(U)$ is open in $X$.
 					- ‘The finest topology', i.e. the maximal set of possible open subsets.
 				- Equivalently, $f$ is a quotient map. There's even a corollary for this:
 				- ((6427a61a-b555-44c4-8ba2-c37e4c6faa27)) Let $X$ and $Z$ be spaces, and let $h: X \rightarrow Z$ be an identification. Then the map $\varphi: X / \operatorname{ker} h \rightarrow Z$, defined by $[x] \mapsto h(x)$, is a homeomorphism.
-			- Fiber #card
+			- Fiber
 			  card-last-interval:: 31.21
 			  card-repeats:: 1
 			  card-ease-factor:: 2.6
@@ -415,6 +420,12 @@
 				- Extreme point
 					- A point which doesn't lie in any open line segment.
 			- Basic facts: Contractibility, Minkowski-Caratheodory #card
+			  card-last-interval:: 31.26
+			  card-repeats:: 1
+			  card-ease-factor:: 2.6
+			  card-next-schedule:: 2024-04-19T07:06:48.086Z
+			  card-last-reviewed:: 2024-03-19T01:06:48.087Z
+			  card-last-score:: 5
 				- ((6427a17b-2b44-4fbe-a61f-27a9b853464c)) Every convex subset of $\mathbb R^n$ is contractible.
 				  card-last-interval:: 31.26
 				  card-repeats:: 1
@@ -424,61 +435,151 @@
 				  card-last-score:: 5
 					- Just use the trick of scaling!
 				- Theorem. (Minkowski-Caratheodory) Let $\mathcal{S}$ be a compact convex subset of $\mathbb{R}^N$ of dimension $n$. Then any point in $\mathcal{S}$ is a convex combination of at most $n+1$ extreme points.
-					- Example: $B^n$
-						- Any point on the surface is an extreme point.
-						-
+				  id:: 65b4bdbf-81b9-44df-9889-54c7bcd0e12e
+					- Takeaway message
+						- ((65b9c065-e246-42b9-8f94-3322a84eade5))
+						- ((65b9b39b-8db5-46cd-a146-8489e64926b4))
+					- Examples:
+					  collapsed:: true
+						- $B^n$
+						  collapsed:: true
+							- Any point on the surface is an extreme point.
+						- The interior of $B^n$
+						  collapsed:: true
+							- No extreme points at all
+						- The lunchbox
+						  collapsed:: true
+							- ![Image.png](../assets/Image_1706581587935_0.png){:height 258, :width 312}
+							- All points on the top and the bottom are of equal distances to the middle layer.
+							- How to characterize extreme points on the top and the bottom?
+							  background-color:: red
 					- Notes
+					  collapsed:: true
 						- Different points may need different extreme points.
+						  collapsed:: true
 							- $B^n$ is an example.
 						- Compactness is used as boundedness, so we can select points of maximal distance.
 						- The theorem fails for non-compact sets.
+						  collapsed:: true
 							- For example, the open ball has no extreme points at all!
 					- Overview
+					  collapsed:: true
 						- Structures and properties
+						  collapsed:: true
 							- $\mathbb R^n$ has several interesting properties.
+							  collapsed:: true
 								- $\delta$-$\epsilon$
 								- Metric & distance
 								- Hausdorff: Compact -> Closed
 								- Closed bounded -> Compact
 							- The notion of dimension: Linear algebra and linear dependence
+							  collapsed:: true
+								- Very important and useful!
+								- Infinite-dimensional spaces can be very strange (yet interesting).
 							- Convex
 						- How to use the triangle inequality?
+						  collapsed:: true
 							- Prove the existence of extreme points
+							  collapsed:: true
 								- $|v_1+v_2| \leq |v_1| + |v_2|$, therefore if $v_1 + v_2$ is some extreme point, one of RHS would be even larger!
 								-
 						-
-					- Preparations
-						- Consider the continuous map $\operatorname{Af}: X \times X \times I \to X$
-							- $$
-							  \begin{equation*}
-							  \operatorname{Af}( x_{1} ,x_{2} ,t) =tx_{1} +( 1-t) x_{2}
-							  \end{equation*}$$
-						- Prop. For $X$ convex and compact, $\operatorname{ext}(X)$ is also compact.
+					- Constructions
+					  collapsed:: true
+						- The distance function
+						  id:: 65b85ec6-d924-4392-9654-dca339591432
 						  collapsed:: true
-							- Note that $\operatorname{ext}(X)$ is bounded. We need only prove that it is closed.
-							- The set of **non**-extreme points is
-							  $$\operatorname{Af} \left(\ ( X\times X-\{( x,x) |x\in X\}) \times I \right)$$
-							- Prop. $\operatorname{Af}$ is an open map.
-								- Very obvious geometrically.
-							- Prop. $X \times X - \{( x,x) |x\in X\}$ is open for any Hausdorff $X$.
-								- We need to find an open neighborhood containing $(x,y)$ for $x \neq y$.
-								- $O(x,y) \times O(y,x)$ is one such desired neighborhood.
-							- Therefore, the set of non-extreme points is open, which means that $\operatorname{ext}(X)$ is compact, implying it is closed.
-						- Prop. For $A$ compact, $\operatorname{conv}(A)$ is also compact.
-						  collapsed:: true
-							- $$\operatorname{conv} (A)=\operatorname{Af}( A\times A\times I)$$
-							- $A \times A \times I$ is compact. Compactness is preserved under continuous maps.
-						- Prop. $\operatorname{conv} (\operatorname{ext} (X)) =X$
-							- From the above propositions, we already know that $\operatorname{conv} (\operatorname{ext} (X))$ is compact.
-							- We can define a new function $\operatorname{diam}( a,X) :=\sup (\{d( a,x) |x\in X\})$.
-							  Since $X$ is compact, we have minimums and maximums.
+							- $$\operatorname{d}( x,A) :=\inf \{d( a,x) |a \in A\}$$
+							- When $A$ is compact, we have minimums and maximums.
+							- Prop. Triangle inequality:
+							  $$d(c_1 x_1+ c_2 x_2, A) \leq c_1 d(x_1,A) + c_2 d(x_2,A) $$
 							-
-					- Review on strategic mistakes
-						- Step 1. Define the set of points cannot be represented as a convex combination of at most $n+1$ extreme points as $K$. Select $y \in K$ with maximal distance to the origin.
-						  background-color:: red
-							- This is a very late step; I do not quite understand properties of extreme points and convex hulls yet.
-							- ((65b7155b-7c6d-438a-ac00-d6666bd41251))
-					- Step 2.
+						- The diameter function
+						  collapsed:: true
+							- $$\operatorname{diam}( x,A) :=\sup \{d( a,x) | a \in A \}$$
+							- When $A$ is compact, we have minimums and maximums.
+					-
+					- Preparations
+					  collapsed:: true
+						- Dimensional properties
+						  id:: 65b85f03-069f-4d9e-a5c4-4f1c8042f8b6
+							- Proposition. In $\mathbb R^n$, any point in $\operatorname{conv}(A)$ can be written as the convex combination of at most $n+1$ points in $A$.
+							  id:: 65b9b33b-0d9c-4c45-9054-604cfe597e74
+								- Idea
+									- Shorten the list $c_1 s_1 + ... + c_k s_k$ when $k > n$.
+										- Put $s_0$ at the origin, so that $\sum c_i$ could be between 0 and 1.
+									-
+								- Technical problems
+								  id:: 65b9b382-08d4-4fe3-bf30-ba314047223a
+									- Some coefficients might become negative.
+									- The sum of all coefficients might increase.
+								- The substitution-and-shortening technique
+								  id:: 65b9b39b-8db5-46cd-a146-8489e64926b4
+									- Step 1. From linear dependence, we have 
+									  $$a_1 s_1 + ... +a_k s_k =0$$
+									- Step 2. Regroup by sign of coefficients, it becomes
+									  $$a_1 s_1 + ... + a_h s_h =a_{h+1} s_{h+1} + ... + a_k s_k $$
+									  such that all $a_i$ are positive.
+									- Step 3. Ensure $a_1 + ... + a_h \geq a_{h+1}+ ... + a_k$.
+										- If not, exchange LHS and RHS.
+									- Step 4. At one step, rescale eq. (2) by $c_l / s_l$ if $c_l / s_l <1$. Proceed by $l$.
+										- LHS is non-increasing in the process.
+									-
+									- Since $h$ is finite, we could always arrive at a point where one $c_l = s_l$ and all other $c_j \leq s_j$.
+									- Then replace LHS by RHS. At least one coefficient is eliminated in the step.
+						- Topological properties
+							- Consider the continuous map $\operatorname{Af}: X \times X \times I \to X$
+							  collapsed:: true
+								- $$
+								  \begin{equation*}
+								  \operatorname{Af}( x_{1} ,x_{2} ,t) =tx_{1} +( 1-t) x_{2}
+								  \end{equation*}$$
+							- Prop. For $X$ convex and compact, $\operatorname{ext}(X)$ is also compact.
+							  collapsed:: true
+								- Note that $\operatorname{ext}(X)$ is bounded. We need only prove that it is closed.
+								- The set of **non**-extreme points is
+								  $$\operatorname{Af} \left(\ ( X\times X-\{( x,x) |x\in X\}) \times I \right)$$
+								- Prop. $\operatorname{Af}$ is an open map.
+								  collapsed:: true
+									- Very obvious geometrically.
+								- Prop. $X \times X - \{( x,x) |x\in X\}$ is open for any Hausdorff $X$.
+								  collapsed:: true
+									- We need to find an open neighborhood containing $(x,y)$ for $x \neq y$.
+									- $O(x,y) \times O(y,x)$ is one such desired neighborhood.
+								- Therefore, the set of non-extreme points is open, which means that $\operatorname{ext}(X)$ is compact, implying it is closed.
+							- Finite-dimensional is an important property.
+							  background-color:: yellow
+							- Prop. In finite-dimensional spaces, for $A$ compact, $\operatorname{conv}(A)$ is also compact.
+							  collapsed:: true
+								- Wrong attempt
+								  background-color:: red
+									- The wrongness is about the definition of convex sets.
+									- $$\operatorname{conv} (A)=\operatorname{Af}( A\times A\times I)$$
+									- $A \times A \times I$ is compact. Compactness is preserved under continuous maps.
+								- Correct attempt
+									- Invoke the ((65b85f03-069f-4d9e-a5c4-4f1c8042f8b6)).
+									- Then
+									  $$\operatorname{conv} (A)=\operatorname{Af}( (\times^{n+1} A)\times (\times^n I))$$
+									  and compactness is preserved under the continuous map.
+						- Denote $\operatorname{conv} (\operatorname{ext} (X))$ as $C$.
+						- Prop. For any set $A$, If $\sup \{d(x,A) | x \in X \} >0$, then there are extreme points in $X - A$.
+						  collapsed:: true
+							- Since $X$ is compact, $d(-,A)$ has maximum and minimum. Denote the maximum as $d_{max}$ and condition guarantees that it is greater than 0.
+							-
+							- Consider the set of points with maximal distance, $X_{max}:=d(-, A)^{-1}(\{d_{max}\})$.
+							  collapsed:: true
+								- Note that it is compact.
+							-
+							- Prop. If some $x \in X_{max}, x_1 \in X, x_2 \in X$ satisfies $x=c_1 x_1 + c_2 x_2$, then $x_1, x_2 \in X_{max}$.
+							  collapsed:: true
+								- Triangle inequality.
+							- Prop. Consider some $x \in X_{max}$ which maximizes $d(x, 0)$. Then it is an extreme point which is not in $A$.
+							  collapsed:: true
+								- The condition for the inequality to hold becomes more strict.
+							-
+							- Since $\operatorname{conv}(A)$ is compact, the required condition holds.
+					- [复盘](((65b99d56-36a3-4c65-8a34-5484238a9131)))
+					-
 						-
 		- Cone: Definition, contractibility #card
 		  collapsed:: true

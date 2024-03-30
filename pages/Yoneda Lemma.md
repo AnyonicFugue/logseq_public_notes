@@ -1,33 +1,34 @@
 - ((6416cac5-4bfa-43d5-bedc-223b9ff5e0da))
-- Statement #card
-  card-last-interval:: 42
-  card-repeats:: 2
-  card-ease-factor:: 2.46
-  card-next-schedule:: 2023-08-23T13:45:14.571Z
-  card-last-reviewed:: 2023-07-12T13:45:14.571Z
+- # Statement and Proof #card
   card-last-score:: 3
-	- For any functor $F: \mathrm{C} \rightarrow$ Set, whose domain $\mathrm{C}$ is locally small and any object $c \in \mathrm{C}$, there is a canonical bijection
-	  $$
-	  \operatorname{Nat}(\mathrm{Hom}_\mathrm{C}(c,-), F) \cong F (c)
-	  $$
-	  Moreover, this correspondence is natural in both $c$ and $F$.
-	- It also tells us that if $F(c_1)$ is not isomorphic to $F(c_2)$, then the functors represented by $c_1$ and $c_2$ must be inequivalent.
-- Proof #card
-  card-last-interval:: 42
   card-repeats:: 2
-  card-ease-factor:: 2.7
-  card-next-schedule:: 2023-09-12T13:05:51.090Z
-  card-last-reviewed:: 2023-08-01T13:05:51.091Z
-  card-last-score:: 5
-	- We should explicitly construct the correspondence, then verify it is both injective and surjective.
-		- Denote it by $J:\operatorname{Nat}(\mathrm{Hom}_\mathrm{C}(c,-), F) \to F c$.
-	- There is only one canonical choice: Consider $\mathrm{Hom}_{\mathcal{C}}(c,c)$ and $id_c$. Define $J(\alpha)=\alpha_c(id_c)$.
-	- Injectivity
-		- Verify that $\alpha_x$ as a map from $\mathrm{Hom}_{\mathcal{C}}(c,x)$ to $F(x)$ is already fixed by $\alpha_c(id_c)$.
-			- Remark: Naturality is so strong a condition that everything else is fixed by the simple knowledge of $\alpha_c$ on a **single** element $id_c$.
-	- Surjectivity
-		- $\alpha_x$ can be constructed as above. What remains is to verify that it is indeed a natural transformation.
-		- It follows by the functoriality of $F$.
+  card-next-schedule:: 2023-08-23T13:45:14.571Z
+  card-last-interval:: 42
+  card-ease-factor:: 2.46
+  card-last-reviewed:: 2023-07-12T13:45:14.571Z
+	- Statement
+		- For any functor $F: \mathrm{C} \rightarrow$ Set, whose domain $\mathrm{C}$ is locally small and any object $c \in \mathrm{C}$, there is a canonical bijection
+		  $$
+		  \operatorname{Nat}(\mathrm{Hom}_\mathrm{C}(c,-), F) \cong F (c)
+		  $$
+		  Moreover, this correspondence is natural in both $c$ and $F$.
+		- It also tells us that if $F(c_1)$ is not isomorphic to $F(c_2)$, then the functors represented by $c_1$ and $c_2$ must be inequivalent.
+	- Proof
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2023-09-12T13:05:51.090Z
+	  card-last-reviewed:: 2023-08-01T13:05:51.091Z
+	  card-last-score:: 5
+		- We should explicitly construct the correspondence, then verify it is both injective and surjective.
+			- Denote it by $J:\operatorname{Nat}(\mathrm{Hom}_\mathrm{C}(c,-), F) \to F c$.
+		- There is only one canonical choice: Consider $\mathrm{Hom}_{\mathcal{C}}(c,c)$ and $id_c$. Define $J(\alpha)=\alpha_c(id_c)$.
+		- Injectivity
+			- Verify that $\alpha_x$ as a map from $\mathrm{Hom}_{\mathcal{C}}(c,x)$ to $F(x)$ is already fixed by $\alpha_c(id_c)$.
+				- Remark: Naturality is so strong a condition that everything else is fixed by the simple knowledge of $\alpha_c$ on a **single** element $id_c$.
+		- Surjectivity
+			- $\alpha_x$ can be constructed as above. What remains is to verify that it is indeed a natural transformation.
+			- It follows by the functoriality of $F$.
 - # Corollaries
 	- card-last-interval:: 42
 	  card-repeats:: 2

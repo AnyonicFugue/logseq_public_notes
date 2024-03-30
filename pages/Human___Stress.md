@@ -9,6 +9,12 @@ alias:: Stress
 	- 疾病
 	- 失业
 - Simple test of stress #card
+  card-last-interval:: 33.94
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2024-04-25T22:52:50.060Z
+  card-last-reviewed:: 2024-03-23T00:52:50.061Z
+  card-last-score:: 5
 	- 刷牙时尝试思考创造性问题。如果发现自己心事重重而无法专注，那么你很困难处于焦虑状态。
 	-
 - # Effects

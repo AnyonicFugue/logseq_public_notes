@@ -3,6 +3,8 @@
 		- Understanding the strategies of the previous masters is quite delightful.
 	- Extract [[System/Math and Physics]].
 - # General Strategies
+	- Do not try to prove a composite property in a stroke. Start from simple properties and gradually combine them.
+	  id:: 65b9c065-e246-42b9-8f94-3322a84eade5
 	- Divide a big problem into subproblems. #card
 	  collapsed:: true
 	  card-last-interval:: 31.26
@@ -44,8 +46,10 @@
 	  id:: 654603c4-b600-4a67-9708-3275bdf5a61c
 	- Simplify the problem by adding conditions.
 	  id:: 64c66feb-f6e4-4adf-88cb-64ecf551e7e9
-	  collapsed:: true
 		- Linear independence, orthogonality, compactness, etc.
+		-
+		- Finite-dimensional is a very useful property. Lots of unexpected things would happen in infinite-dimensional spaces.
+		- In general, finiteness.
 	- Dirty way: Install a basis/coordinate and verify things directly. #card
 	  id:: 63860946-8380-45c7-b564-1c08f9e7cc70
 	  collapsed:: true
@@ -68,6 +72,12 @@
 	  id:: 65425a62-2e8d-4e18-916f-712a4b35c506
 	- ## Several objects of the same kind
 		- Sum and symmetrize (equivariantize) #card
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2024-04-15T06:34:45.564Z
+		  card-last-reviewed:: 2024-03-15T00:34:45.564Z
+		  card-last-score:: 5
 		- Apply a property / operation on each object (when applying them on one is unsuccessful). #card
 			- Example. ((65a0b37c-57fa-4a1b-b2f2-75dc9da2cab4))
 	- ## Classification Problems #card

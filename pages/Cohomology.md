@@ -105,6 +105,12 @@
 			- Then we see
 			  $$\operatorname{Hom}(\mathbf{Z} / m \mathbf{Z}, G) \simeq \operatorname{Im} p^* \simeq \operatorname{Ker} m^* =G[m] $$
 	- ## Eilenberg-Steenrod Axioms #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-03-02T12:35:51.072Z
+	  card-last-reviewed:: 2024-01-31T06:35:51.072Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- ((65324137-b9c9-41d7-b1ac-0fdcaaeaaa34)) (Dimension Axiom). If $X$ is a one-point space, then
 		  id:: 65324131-a2a4-47ba-b58b-6b4585d3cf8f

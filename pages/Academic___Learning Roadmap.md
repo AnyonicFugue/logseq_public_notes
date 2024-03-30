@@ -41,7 +41,6 @@ collapsed:: true
   card-next-schedule:: 2023-11-18T06:49:02.157Z
   card-last-reviewed:: 2023-10-18T00:49:02.158Z
   card-last-score:: 3
-  collapsed:: true
 	- WWLi's notes as a roadmap for algebra
 		- 代数学方法1,2
 		- [YAlg1.pdf (wwli.asia)](https://www.wwli.asia/downloads/YAlg1.pdf)
@@ -50,6 +49,7 @@ collapsed:: true
 		- Algebraic topology
 			- [[K-Theory]]
 			- Stable Homotopy
+			- Lurie's theory (theories?)
 		- [[Tensor Category]]
 		- Higher Category
 	- ## Basics
@@ -60,22 +60,23 @@ collapsed:: true
 		- [[Category Theory]]
 			- 范畴论的直接应用可能不多，但它的思想、它所训练的抽象能力是无比珍贵的。
 	- ## Intermediate
-		- Real and Complex Analysis
-			- Riemann Surfaces
 		- [[Algebraic Geometry]]
 			- The ideas and tools are percolating everywhere... Also it's thrilling to learn thoughts of Grothendieck.
 			- Commutative Algebra
 			- Algebraic curves?
 		- [[Lie Groups and Lie Algebras]]
 			- Useful in CFT
-		- Differential Topology
-			- Bott & Tu
 	- ## Advanced
 		- Representation Theory
 			- ![2011_Etingof_Introduction to representation theory.pdf](file://zotero_link/Mathematics/Representation Theory/2011_Etingof_Introduction to representation theory.pdf)
 			- ![2012_Serre_Serre_Linear representations of finite groups.pdf](file://zotero_link/Mathematics/Representation Theory/2012_Serre_Serre_Linear representations of finite groups.pdf)
 		- [[The Langlands Program]]
 	- ## Interesting things to explore
+		- Differential Topology 两本受到盛赞的神书
+			- Milnor
+			- Differential forms in algebraic topology
+		- Real and Complex Analysis
+			- Riemann Surfaces
 		- [Cornerstones | Book series home (springer.com)](https://www.springer.com/series/7161)
 			- Including several interesting introductions, e.g. Riemann surface, geometric function, etc.
 		- [Lurie, Lie Algebra and Homotopy](https://www.youtube.com/watch?v=LeaiPHAh0X0)
@@ -85,13 +86,13 @@ collapsed:: true
 			- ![2007_Roman_Advanced linear algebra.pdf](file://zotero_link/Mathematics/Algebra/Linear Algebra/2007_Roman_Advanced linear algebra.pdf)
 			- ![1978_Greub_Multilinear Algebra.pdf](file://zotero_link/Mathematics/Algebra/Linear Algebra/1978_Greub_Multilinear Algebra.pdf)
 - # Physics #card
-  id:: 64b4848d-61f3-49c7-afa7-073d867798c2
-  card-last-interval:: 42
-  card-repeats:: 2
-  card-ease-factor:: 2.22
-  card-next-schedule:: 2024-01-24T00:56:53.391Z
-  card-last-reviewed:: 2023-12-13T00:56:53.392Z
   card-last-score:: 3
+  card-repeats:: 2
+  card-next-schedule:: 2024-01-24T00:56:53.391Z
+  card-last-interval:: 42
+  id:: 64b4848d-61f3-49c7-afa7-073d867798c2
+  card-ease-factor:: 2.22
+  card-last-reviewed:: 2023-12-13T00:56:53.392Z
 	- ## Topological Phases
 		- ### Models
 			- (Twisted) quantum double
@@ -99,6 +100,7 @@ collapsed:: true
 		- ### Entanglement
 			- TEE
 			- Fusion rule & central charge from entanglement
+			- Quantum information: Nielson & Chuang
 		- Anyon condensation
 		- ### SPT
 		- ### Fracton
@@ -149,7 +151,6 @@ collapsed:: true
 	- 数学家思想文库 第二辑
 		- Klein, Weyl, Kolmogorov
 - # Exploration
-  collapsed:: true
 	- ## Mathematical Physics
 		- ((64b4848d-78cb-4c30-a024-8ff5a8fd2be1))
 		- Atiyah's work on ((64b730c5-1383-44f1-b696-017ae4193dec))
@@ -177,6 +178,9 @@ collapsed:: true
 		- QFT in curved spacetime
 			- Would a compact space lead to countable degrees of freedom and remove the divergences?
 				- I guess not (since we don't know theories at high energy scales), but this also helps to understand the role of the spacetime manifold.
+		- Local field theory and algebraic QFT
+			- The notion of superselection sectors first emerged in local field theory.
+			- Also, the viewpoint of operator algebra must be very interesting!
 		- Phase transitions
 			- KT phase transition
 			- (Deconfined) quantum criticality

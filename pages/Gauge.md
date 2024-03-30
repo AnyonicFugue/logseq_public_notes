@@ -30,11 +30,11 @@ alias:: Gauge Theory
   collapsed:: true
 	- $\operatorname{tr}\left[t_r^a t_r^b\right] \equiv D^{a b}$
 	- Prop. As long as the generator matrices are Hermitian, the matrix $D^{a b}$ is positive definite. Thus it can be diagonalized and made in the form $\operatorname{tr}\left[t_r^a t_r^b\right]=C(r) \delta^{a b}$ #card
-	  card-last-interval:: 31.26
-	  card-repeats:: 1
-	  card-ease-factor:: 2.6
-	  card-next-schedule:: 2023-07-02T07:41:00.085Z
-	  card-last-reviewed:: 2023-06-01T01:41:00.087Z
+	  card-last-interval:: 42
+	  card-repeats:: 2
+	  card-ease-factor:: 2.7
+	  card-next-schedule:: 2024-05-04T00:48:24.603Z
+	  card-last-reviewed:: 2024-03-23T00:48:24.603Z
 	  card-last-score:: 5
 		- Very simple exercise.
 		- Abstraction leads to the underlying structure, which points to the path. #[[System/Math and Physics]]
@@ -103,16 +103,16 @@ alias:: Gauge Theory
 			- Could be easily proved by taking trace of $\operatorname{tr}\left[T_r^a T_r^b\right]=C(r) \delta^{a b}$
 		-
 		-
-- # General Construction
+- # General Constructions: Parallel Transport, Covariant Derivative, Connection, Curvature #card
 	- See [here](((64115d22-ffe4-4ee4-8a05-79bbe0f520f2))).
 	- ## Def
-		- Curvature $F^{\mu\nu}$ #card
-		  card-last-interval:: 31.26
-		  card-repeats:: 1
-		  card-ease-factor:: 2.6
-		  card-next-schedule:: 2023-08-29T18:27:55.295Z
-		  card-last-reviewed:: 2023-07-29T12:27:55.295Z
+		- Curvature $F^{\mu\nu}$
 		  card-last-score:: 5
+		  card-repeats:: 1
+		  card-next-schedule:: 2023-08-29T18:27:55.295Z
+		  card-last-interval:: 31.26
+		  card-ease-factor:: 2.6
+		  card-last-reviewed:: 2023-07-29T12:27:55.295Z
 			- $$[D_\mu,D_\nu]=(- ig) F_{\mu\nu}=(- i g)\left\{\partial_\mu A_\nu-\partial_\nu A_\mu -( i g )[A_\mu, A_\nu]\right\}$$
 			- The last term arises from the fact that the theory is non-abelian.
 		- Covariant derivative
@@ -307,6 +307,7 @@ alias:: Gauge Theory
 				  ![image.png](../assets/image_1685540215333_0.png){:height 159, :width 508}
 		- ### Axial Gauge
 - # Examples
+  collapsed:: true
 	- Reconstruct [[QED]] from a viewpoint of gauge invariance
 		- It is striking that the covariant derivative, the field $A^\mu$ and subsequently the interaction term could emerge from such a simple principle!
 		-
@@ -355,7 +356,7 @@ alias:: Gauge Theory
 			- The field is a doublet of dirac spinors $\psi=\left(\begin{array}{l}\psi_1(x) \\ \psi_2(x)\end{array}\right)$
 			- The gauge group is $SU(2)$, with the transformation analogous to a 2-component spinor, $\psi \rightarrow \exp \left(i \alpha^i(x) \frac{\sigma^i}{2}\right) \psi \equiv V(x)\psi$
 				- Note that each 'component' here is a spinor!
-		- # Construction of important quantities
+		- # Important Constructions
 			- Peskin, ((640fe071-b87c-4027-a3f7-0a0c906b8659))
 			- ## Parallel transport $U(y,x)$ and Covariant derivative
 				- We would like to have $U(y, x) \rightarrow V(y) U(y, x) V^{\dagger}(x)$ (1)
@@ -382,7 +383,7 @@ alias:: Gauge Theory
 				  \end{gathered}
 				  $$
 					- Plug in the commutation relations of Pauli matrices, $$F_{\mu \nu}^i=\partial_\mu A_\nu^i-\partial_\nu A_\mu^i+g \epsilon^{i j k} A_\mu^j A_\nu^k$$
-					- Transformation rule #card
+					- Transformation rule
 					  card-last-interval:: 31.26
 					  card-repeats:: 1
 					  card-ease-factor:: 2.36

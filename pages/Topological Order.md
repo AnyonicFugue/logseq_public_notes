@@ -7,14 +7,24 @@
   :LOGBOOK:
   CLOCK: [2022-12-23 Fri 16:47:12]
   :END:
-- # Problems and Questions #card
+- # Introduction
   collapsed:: true
+	- 历史
+		- 凝聚态物理的核心问题之一是分类物质的相和研究相变。1937年，朗道提出物质的相可以由对称群分类，而相变则可以由对称群的变化刻画。朗道的理论大获成功，可以良好描述从晶体到超导体等诸多物质的性质。
+		- 然而从80年代起，人们在研究分数量子霍尔效应和高温超导体时发现对称性完全相同的系统也可以具有不同的相，因此朗道相变理论是不完整的。
+		- 为了分类这些奇异的相，文小刚于1990年提出了拓扑序的概念。
+	- 拓扑序具有许多奇特的性质。
+		- 例如，在具有非平凡拓扑的格点上，拓扑序会有局域微扰下稳定的基态简并度；拓扑序中的准粒子激发具有分数化统计。
+- # Problems and Questions #card
   card-last-interval:: 31.26
   card-repeats:: 1
   card-ease-factor:: 2.36
   card-next-schedule:: 2023-10-29T06:44:51.280Z
   card-last-reviewed:: 2023-09-28T00:44:51.281Z
   card-last-score:: 3
+	- How much could the ground state determine the topological order?
+		- Known results: Chiral central charge, fusion rules, S-matrices.
+		- Could we find counter-examples, e.g. inequivalent tensor categories with identical S, T matrices?
 	- Why we usually define the lattices by commuting pairs of projectors ($A_s,B_p$)? Frustrated topological orders?
 		- Tentative: Topo orders are robust against local perturbations. So we may deform them in some ways; the form of commuting pairs are the simplest.
 	- Why tensor categories (even UMTC) give a classification? Derive from first principles?
@@ -25,6 +35,7 @@
 			- Here we already have the first principles!
 		- Conjecture. It must emerge from some underlying structure describing entanglement.
 	- ## Important Notions
+	  collapsed:: true
 		- ((64e6b193-a04a-49af-b902-a612fa3b1c09))
 		- [[Questions/What is a direct sum?]]
 			- Kitaev gives an argument ((64b2f056-5e56-4869-b5a3-71deffe4e403)): They are locally identical but globally distinguishable by transporting a quasiparticle.
@@ -106,6 +117,7 @@
 		- Parameterized
 			- At the critical point, there would be a gapless phase / unstable / change of GSD / non-liquid, etc.
 - # Topics
+  collapsed:: true
 	- Definition of topological order #card
 	  collapsed:: true
 	  card-last-interval:: 32.57

@@ -203,6 +203,7 @@
 		-
 		- Compare to [[Compact]]: A space $X$ is compact if every open covering $A$ of $X$ has a finite open refinement $\mathscr{B}$ that covers $X$
 - # Compactness
+  collapsed:: true
 	- ## Defs
 		- Compact
 		  card-last-interval:: 42
@@ -244,6 +245,12 @@
 			- Every infinite set of points has a limit point.
 			- Exercise. Show that it is equivalent to that every sequence has a convergent subsequence.
 	- ## Basic Facts #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-04-15T06:42:34.151Z
+	  card-last-reviewed:: 2024-03-15T00:42:34.152Z
+	  card-last-score:: 5
 		- Theorem. Every closed subspace of a compact space is compact.
 		  card-last-interval:: 42
 		  card-repeats:: 2
@@ -315,14 +322,19 @@
 		- Closed ⇒ Compact : Theorem 27.1
 	-
 	- Theorem. Let $X$ be a nonempty Compact [[Hausdorff]] space. If $X$ has no isolated point, then $X$ is uncountable.  #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-04-19T06:45:43.049Z
+	  card-last-reviewed:: 2024-03-19T00:45:43.050Z
+	  card-last-score:: 5
 	  collapsed:: true
-		- [[Message]]―The proof is errorneous, [[Correct Content]]
 		- We suppose $X$ is countable, find contradiction.
 		- Construct an open cover.
 		-
 		- Countable ⇒ Index the set with integers.
 		-
-		- First find with smallest index $a_0,b_0$ from $X$. Find $U(a_0,b_0)$ and $U(b_0,a_0)$.$O_0=U(b_0,a_0)$
+		- First find two points with smallest index $a_0,b_0$ from $X$. Find $U(a_0,b_0)$ and Define $U(b_0,a_0)$. $O_0=U(b_0,a_0)$.
 		- Add $U(a_0,b_0)$ to $\mathcal{C}$
 		-
 		- $U(b_0,a_0)$ must have more than 1 ptr.
@@ -459,7 +471,6 @@
 		- Corollary. If X is loc. comp. Haus, A is closed or open in X, then A is Locally compact Hausdorff.
 		- Corollary $X$ is homeomorphic to an open subspace of a compact Hausdorff space if and only if $X$ is locally compact Hausdorff.
 - # Separability
-  collapsed:: true
 	- T1
 	  collapsed:: true
 		- Finite point set is closed.
@@ -532,3 +543,6 @@
 			- Path component -> Same component:
 				- This holds in any topo space.
 		-
+- # Metrization
+	- Theorem. (Nagata-Smirnov). A space $X$ is metrizable if and only if $X$ is regular and has a basis that is Countably Locally Finite.
+	- Theorem. (Smirnov). A space $X$ is metrizable if and only if it is a paracompact Hausdorff space that is locally metrizable.

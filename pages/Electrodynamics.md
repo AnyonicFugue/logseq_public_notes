@@ -642,9 +642,7 @@ type:: [[Course]]
 			  $$
 	-
 - # Electromagnetic Wave
-  collapsed:: true
 	- Derivation
-	  collapsed:: true
 		- First we assume the medium is linear, with no free charge or free current.
 		- Take the curl of the second equation and the fourth, we obtain that
 		  $$
@@ -680,6 +678,7 @@ type:: [[Course]]
 		- Ellipsoidal polarization
 			- General case.
 	- Impedance of free space
+	  collapsed:: true
 		- Recall the definition
 		  id:: 654f2f7a-f656-42ae-9bc1-1be75700ca18
 		  $$
@@ -690,20 +689,34 @@ type:: [[Course]]
 		  Z=\sqrt{\frac{\mu}{\varepsilon}}
 		  $$
 - # Drude Model
-  collapsed:: true
+  id:: 65503243-b09d-4b95-a43a-bc95ef69d5ac
 	- Three types of charge in medias
-	  collapsed:: true
 		- Nuclei
-		  collapsed:: true
 			- Very heavy, immobile
 		- Valence electron
-		  collapsed:: true
 			- Bounded around nuclei, almost immobile
 			- Weak response to external field
 		- Itinerant electron
-		  collapsed:: true
 			- Could move freely.
+	- Assumptions
+		- Fraction force
+			- collapsed:: true
+			  $$f=-\frac {m \vec v}{\tau}$$
+				- $\tau$ is called the relaxation time.
+				- Physically, the electron is 'bounced' with time interval $\tau$.
+			- Thus the total force acting on electrons is
+			  $$m \frac{d \vec{v}}{d t}=\vec{F}=e \vec{E}-\frac{m \vec{v}}{\tau}$$
+		- Long-wavelength approximation
+		  collapsed:: true
+			- Ignore the spatial dependence of external field and electron speed.
+			- $$
+			  \vec{E}(\vec{r}, t) \approx \vec{E}_0 e^{-i \omega t}
+			  $$
+			- $$
+			  \vec{v}(t) \approx \vec{v}_0 e^{-i \omega t}
+			  $$
 	- Fourier Transformation
+	  collapsed:: true
 		- In general, the response to external field is neither local nor instantaneous,
 		  $$
 		  \begin{aligned}
@@ -720,34 +733,24 @@ type:: [[Course]]
 		  \end{aligned}
 		  $$
 	-
-	- Effective AC conductance
+	- DC Conductance
 	  collapsed:: true
-		- Assumptions
-		  collapsed:: true
-			- Fraction force
-				- collapsed:: true
-				  $$f=-\frac {m \vec v}{\tau}$$
-					- $\tau$ is called the relaxation time.
-					- Physically, the electron is 'bounced' with time interval $\tau$.
-				- Thus the total force acting on electrons is
-				  $$m \frac{d \vec{v}}{d t}=\vec{F}=e \vec{E}-\frac{m \vec{v}}{\tau}$$
-			- Long-wavelength approximation
-			  collapsed:: true
-				- Ignore the spatial dependence of external field and electron speed.
-				- $$
-				  \vec{E}(\vec{r}, t) \approx \vec{E}_0 e^{-i \omega t}
-				  $$
-				- $$
-				  \vec{v}(t) \approx \vec{v}_0 e^{-i \omega t}
-				  $$
+		- At DC, the fractional force should cancel the electric force
+		- $$
+		  \mathbf{v}_{\mathrm{arg}}=-\frac{e \mathbf{E} \tau}{m} ; \quad \mathbf{j}=\left(\frac{n e^2 \tau}{m}\right) \mathbf{E}
+		  $$
+		- $$
+		  \mathbf{j}=\sigma \mathbf{E} ; \quad \sigma=\frac{n e^2 \tau}{m}
+		  $$
+	- Effective AC conductance
 		- The solution
-		  collapsed:: true
 			- $$
 			  \vec{v}_0=\frac{e / m}{-i \omega+1 / \tau} \vec{E}_0
 			  $$
 			- $$
 			  \sigma(\omega)=\frac{n_e e^2 / m}{-i \omega+1 / \tau}
 			  $$
+		-
 		- Meanings of Re and Im
 			- Viewpoint 1
 				- $$\sigma(\omega)=|\sigma(\omega)| e^{i\theta}$$
@@ -756,16 +759,12 @@ type:: [[Course]]
 				- The real part of $\sigma$ leads to response of the same phase, which costs energy.
 				- The imaginary part leads to response with a phase difference of $\pi/2$, which does not cost energy.
 		- Two limits
-		  collapsed:: true
 			- $\omega \to 0$
-			  collapsed:: true
 				- $\sigma$ becomes DC conductance, which is surely real.
 			- $\omega \to \infty$
-			  collapsed:: true
 				- $\sigma$ is dominated by the imaginary part.
 				- Almost no energy dissipation.
 	- Effective Dielectrical constant
-	  collapsed:: true
 		- Key idea
 			- In high frequency, the current formed by itinerant electrons should also be viewed as a part of polarization.
 		- $$
@@ -784,6 +783,7 @@ type:: [[Course]]
 			  $$
 		- We often ignore $\epsilon_v \approx 1$, since the contribution of the second term is often much larger.
 	- Effective Maxwell equations
+	  collapsed:: true
 		- $$
 		  \left\{\begin{array}{c}
 		  \nabla \cdot(\varepsilon(\omega) \vec{E})=0 \\

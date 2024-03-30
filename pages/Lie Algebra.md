@@ -148,6 +148,12 @@
 - # Examples
   collapsed:: true
 	- $\mathfrak{sl}(2,\mathbb C)$: Definition, irreducibility, representations #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-04-23T06:43:34.436Z
+	  card-last-reviewed:: 2024-03-23T00:43:34.437Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- Basis and commutation relations
 			- $$

@@ -94,11 +94,17 @@ card-last-reviewed:: 2023-11-04T00:54:34.893Z
 		- The difficulty is in understanding the lemma.
 - # Euler-Poincare Characteristic #card
   id:: 65449fbc-6522-4b43-bfcc-1527128a2908
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2024-04-19T07:15:28.622Z
+  card-last-reviewed:: 2024-03-19T01:15:28.623Z
+  card-last-score:: 5
   collapsed:: true
+	- How could I invent it were I Poincare?
 	- Definition
 	  id:: 65449fbd-691c-4c46-b321-9ac7fd2bd3c6
-		- Let $K$ be a simplicial complex of dimension $m$.
-		- For each $q \geq 0$, let $\alpha_q$ be the number of $q$-simplexes in $K$.
+		- Let $K$ be a simplicial complex of dimension $m$. For each $q \geq 0$, let $\alpha_q$ be the number of $q$-simplexes in $K$.
 		- The Euler-Poincaré characteristic of $K$, denoted by $\chi(K)$, is defined by
 		  $$
 		  \chi(K)=\sum_{q=0}^m(-1)^q \alpha_q .
@@ -138,78 +144,79 @@ card-last-reviewed:: 2023-11-04T00:54:34.893Z
 			- (iii) The boundary is zero and the cycle part is necessarily free abelian.
 				- More generally, ((65449dd9-071b-49c1-ac36-ba6a250956cc))
 - # Equivalence with singular homology #card
-  collapsed:: true
 	- ((65459f47-ac98-40a4-a2ce-280815a295c1))
 	  collapsed:: true
 		- If we could prove equivalence with singular homology, then it is trivial that simplicial homology doesn't depend on the triangulation chosen.
-	- The idea is that the change of homology groups during gluing simplexes could be tracked by Mayer-Vietoris.
-	-
-	- ((65460340-5044-49c4-9074-f56ef78fa13c)). Let $K$ be the simplicial complex consisting of all the faces of an $n$-simplex whose vertex set is linearly ordered (so that $|K| \approx \Delta^n$ ). Then
-	  collapsed:: true
-	  $$
-	  \tilde{H}_q(K)=0 \quad \text { for all } q \geq 0
-	  $$
-		- An very interesting technical exercise.
-		-
-		- The key is to find the **contracting homotopy**, i.e. $\left\{h_q: C_q(K) \rightarrow C_{q+1}(K), \text { all } q \geq-1\right\}$ such that
+	- Takeaway message
+		- First show their equivalence on some simple objects (simplexes and faces)
+		- The change of homology groups during gluing simplexes could be tracked by Mayer-Vietoris, which holds for both simplicial and singular homology.
+	- Preparations
+		- ((65460340-5044-49c4-9074-f56ef78fa13c)). Let $K$ be the simplicial complex consisting of all the faces of an $n$-simplex whose vertex set is linearly ordered (so that $|K| \approx \Delta^n$ ). Then
 		  collapsed:: true
-		  $$\partial_{q+1} h_q+h_{q-1} \partial_q=1_q$$
-			- Why is it important?
-			  collapsed:: true
-				- It is the necessary and sufficient condition that $H_n=0$.
-				- ((654603c4-b600-4a67-9708-3275bdf5a61c))
-		- We can select an arbitrary vertex and use the cone construction.
-		  collapsed:: true
-			- I ignored this method because this could make some simplexes degenerate. But actually this doesn't matter! I need to think one step further...
-			  background-color:: red
-		-
-	- Corollary. Let $K$ consist of all the faces of an oriented $n$-simplex (so that $\operatorname{Vert}(K)$ is linearly ordered), and let $L$ be the subcomplex of all the proper faces (so that $|L| \approx S^{n-1}$ ). Then
-	  collapsed:: true
-	  $$
-	  \widetilde{H}_q(L)= \begin{cases}0 & \text { if } q \neq n-1 \\ \mathbf{Z} & \text { if } q=n-1\end{cases}
-	  $$
-		- Another interesting technical exercise.
-		-
-		- Method 1. Induction and Excision
-		- Method 2. Commutative diagram
-		  collapsed:: true
-			- ((654604a2-4b95-4eb1-8cb3-663504697e1d))
-			- This used the previous corollary and exploited the **relation** to this one.
-	-
-	- Difficulty: Excision in singular homology requires $X = X_1^\circ \cup X_2^\circ$, while this doesn't hold in general for a simplicial complex and two subcomplexes. Thus we should make some minor modifications.
-	- Lemma. Let $K$ be a finite simplicial complex, and let $s$ be a simplex of highest dimension; define $K_1=K-\{s\}$ and $K_2=\{s$ and all its proper faces $\}$. Then there is an exact Mayer-Vietoris sequence in singular homology
-	  collapsed:: true
-	  $$
-	  \cdots \rightarrow H_q\left(\left|K_1\right| \cap\left|K_2\right|\right) \rightarrow H_q\left(\left|K_1\right|\right) \oplus H_q\left(\left|K_2\right|\right) \rightarrow H_q(|K|) \rightarrow H_{q-1}\left(\left|K_1\right| \cap\left|K_2\right|\right) \rightarrow \cdots
-	  $$
-		- The key construction is $V=|s|-\{x\}$, which is open, thus allowing excision; $|K_1| \cap |K_2|$ is a deformation retract of $V$.
-		  collapsed:: true
-			- It is the common 'punctured ball ~ sphere' construction.
-		- What's the idea behind the construction?
-		  background-color:: yellow
-		  collapsed:: true
-			- Restore the degenerate case to a normal case up to a weak equivalence.
-			- Minimize the use of messy geometric arguments. Use topological arguments and equivalence relations instead.
-		- Let $X_1=\left|K_1\right| \cup V, X_2 = |K_2|$. Excision works now.
-		- ((6548a788-ff4d-4f67-adaa-429548fba19f))
-		  collapsed:: true
-			- The five lemma shows that the inclusion is an isomorphism
-			  $$
-			  H_q\left(\left|K_2\right|,\left|K_1\right| \cap\left|K_2\right|\right) \cong H_q\left(\left|K_2\right|, V\right)
-			  $$
+		  $$
+		  \tilde{H}_q(K)=0 \quad \text { for all } q \geq 0
+		  $$
+			- An very interesting technical exercise.
 			-
+			- The key is to find the **contracting homotopy**, i.e. $\left\{h_q: C_q(K) \rightarrow C_{q+1}(K), \text { all } q \geq-1\right\}$ such that
+			  collapsed:: true
+			  $$\partial_{q+1} h_q+h_{q-1} \partial_q=1_q$$
+				- Why is it important?
+				  collapsed:: true
+					- It is the necessary and sufficient condition that $H_n=0$.
+					- ((654603c4-b600-4a67-9708-3275bdf5a61c))
+			- We can select an arbitrary vertex and use the cone construction.
+			  collapsed:: true
+				- I ignored this method because this could make some simplexes degenerate. But actually this doesn't matter! I need to think one step further...
+				  background-color:: red
+			-
+		- Corollary. Let $K$ consist of all the faces of an oriented $n$-simplex (so that $\operatorname{Vert}(K)$ is linearly ordered), and let $L$ be the subcomplex of all the proper faces (so that $|L| \approx S^{n-1}$ ). Then
+		  collapsed:: true
+		  $$
+		  \widetilde{H}_q(L)= \begin{cases}0 & \text { if } q \neq n-1 \\ \mathbf{Z} & \text { if } q=n-1\end{cases}
+		  $$
+			- Another interesting technical exercise.
+			-
+			- Method 1. Induction and Excision
+			- Method 2. Commutative diagram
+			  collapsed:: true
+				- ((654604a2-4b95-4eb1-8cb3-663504697e1d))
+				- This used the previous corollary and exploited the **relation** to this one.
 		-
-	- Lemma 7.21 ((6548aa4d-72eb-4513-9e36-7ddbc22ddc08)) where the horizontal maps are connecting homomorphisms and the horizontal maps are the embeddings in the previous lemma.
-	  collapsed:: true
-		- Definition. 
+		- Difficulty: Excision in singular homology requires $X = X_1^\circ \cup X_2^\circ$, while this doesn't hold in general for a simplicial complex and two subcomplexes. Thus we should make some minor modifications.
+		- Lemma. Let $K$ be a finite simplicial complex, and let $s$ be a simplex of highest dimension; define $K_1=K-\{s\}$ and $K_2=\{s$ and all its proper faces $\}$. Then there is an exact Mayer-Vietoris sequence in singular homology
+		  collapsed:: true
 		  $$
-		  j^K: \tilde{C}_*(K) \rightarrow \tilde{S}_*(|K|)
+		  \cdots \rightarrow H_q\left(\left|K_1\right| \cap\left|K_2\right|\right) \rightarrow H_q\left(\left|K_1\right|\right) \oplus H_q\left(\left|K_2\right|\right) \rightarrow H_q(|K|) \rightarrow H_{q-1}\left(\left|K_1\right| \cap\left|K_2\right|\right) \rightarrow \cdots
 		  $$
-		- Property. For every simplicial map $\varphi: K \to K'$, we have the naturality condition
-		  ((6548aa88-490f-4af0-90d4-fad2d8cfdd8e))
-		- Lots of routine verifications...
-		- The problem is, how did mathematicians come up with such properties requiring lengthy verifications?
-		  background-color:: red
+			- The key construction is $V=|s|-\{x\}$, which is open, thus allowing excision; $|K_1| \cap |K_2|$ is a deformation retract of $V$.
+			  collapsed:: true
+				- It is the common 'punctured ball ~ sphere' construction.
+			- What's the idea behind the construction?
+			  background-color:: yellow
+			  collapsed:: true
+				- Restore the degenerate case to a normal case up to a weak equivalence.
+				- Minimize the use of messy geometric arguments. Use topological arguments and equivalence relations instead.
+			- Let $X_1=\left|K_1\right| \cup V, X_2 = |K_2|$. Excision works now.
+			- ((6548a788-ff4d-4f67-adaa-429548fba19f))
+			  collapsed:: true
+				- The five lemma shows that the inclusion is an isomorphism
+				  $$
+				  H_q\left(\left|K_2\right|,\left|K_1\right| \cap\left|K_2\right|\right) \cong H_q\left(\left|K_2\right|, V\right)
+				  $$
+				-
+			-
+		- Lemma 7.21 ((6548aa4d-72eb-4513-9e36-7ddbc22ddc08)) where the horizontal maps are connecting homomorphisms and the horizontal maps are the embeddings in the previous lemma.
+		  collapsed:: true
+			- Definition. 
+			  $$
+			  j^K: \tilde{C}_*(K) \rightarrow \tilde{S}_*(|K|)
+			  $$
+			- Property. For every simplicial map $\varphi: K \to K'$, we have the naturality condition
+			  ((6548aa88-490f-4af0-90d4-fad2d8cfdd8e))
+			- Lots of routine verifications...
+			- The problem is, how did mathematicians come up with such properties requiring lengthy verifications?
+			  background-color:: red
 	- **Main Theorem**. For every oriented finite simplicial complex $K$, the chain map $j: \widetilde{C}_*(K) \rightarrow \widetilde{S}_*(|K|)$ (of Lemma 7.21) induces isomorphisms for all $q \geq 0$,
 	  $$
 	  \widetilde{H}_q(K) \cong \tilde{H}_q(|K|)

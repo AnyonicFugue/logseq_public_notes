@@ -2,6 +2,7 @@ alias:: Anomalous
 
 - TODO Read Schwartz Chap. 30
 - # Different Definitions #card
+  collapsed:: true
 	- In topological phases
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
@@ -28,6 +29,11 @@ alias:: Anomalous
 		  \end{aligned}
 		  \end{equation*}
 	- How are the two definitions linked?
+- # Mathematical Origin
+	- [Classical and quantum anomalies - Physics Stack Exchange](https://physics.stackexchange.com/questions/33195/classical-and-quantum-anomalies)
+		- Anomalies arise from obstructions to lift certain actions. Obstruction theories!
+	- Wikipedia: After considerable back and forth, it became clear that the structure of the anomaly could be described with bundles with a non-trivial [homotopy group](https://en.wikipedia.org/wiki/Homotopy_group), or, in physics lingo, in terms of [instantons](https://en.wikipedia.org/wiki/Instanton).
+		- [Chiral anomaly - Wikipedia](https://en.wikipedia.org/wiki/Chiral_anomaly)
 - Remote-detectable principle #card
   card-last-interval:: 883.03
   card-repeats:: 5
