@@ -1,5 +1,4 @@
 - Basic signs
-  collapsed:: true
 	- 'Big' things are obtained by {{cloze capitalizing the first letter}}.
 		- $\Rightarrow$ = `\Rightarrow`
 	- $\subset$ and $\subseteq$ #card

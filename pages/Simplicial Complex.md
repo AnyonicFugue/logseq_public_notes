@@ -75,6 +75,12 @@
 		-
 - Theorem (Invariance of Dimension). If $K$ and $L$ are simplicial complexes and if there exists a homeomorphism $f:|K| \rightarrow|L|$, then $\operatorname{dim} K=\operatorname{dim} L$. #card
   collapsed:: true
+  card-last-interval:: 31.26
+  card-repeats:: 1
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2024-05-05T07:09:50.702Z
+  card-last-reviewed:: 2024-04-04T01:09:50.702Z
+  card-last-score:: 5
 	- A technical exercise. The proof doesn't contain much general insight, but mostly playing with some specific properties.
 	-
 	- Remark. It follows that one can define the dimension of a polyhedron $X$ as the common dimension of the simplicial complexes involved in triangulations of $X$.

@@ -7,7 +7,7 @@ alias:: Quantum Markov State
   card-next-schedule:: 2024-04-23T14:15:22.056Z
   card-last-reviewed:: 2024-03-22T01:15:22.056Z
   card-last-score:: 5
-	- A tripartite state with fixed subsystems $A,B,C$, such that the ((658b78c9-df4c-47bf-b17f-c4c459d25fa6)) is zero,
+	- A tripartite state with fixed subsystems $A,B,C$, such that the [[Conditional Mutual Information]] is zero,
 	  $$I(A:C|B)=0$$
 - Physical meaning
 - # Properties

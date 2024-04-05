@@ -157,7 +157,6 @@
 			  $$
 			- This definition makes sense since isomorphisms between subsystems preserves entropy difference.
 - # Quantum information backgrounds
-  collapsed:: true
 	- ((65ab68d4-3dc8-4b75-b87e-8a9e00bce69c)) (Merging Lemma)
 	  id:: 65ab687d-244f-4792-8b78-fabf3a6937a4
 		- Given a set of density matrices $\mathcal{S} \equiv\left\{\rho^{(i)}_{A B C}\right\}$ and a density matrix $\sigma_{B C D}$ such that $\rho_{B C}=\sigma_{B C}$ and

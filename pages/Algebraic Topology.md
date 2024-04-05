@@ -583,6 +583,12 @@
 						-
 		- Cone: Definition, contractibility #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2024-05-05T06:51:38.688Z
+		  card-last-reviewed:: 2024-04-04T00:51:38.688Z
+		  card-last-score:: 5
 			- Definition
 			  card-last-score:: 5
 			  card-repeats:: 1

@@ -25,7 +25,6 @@
 	  $$
 	- Key idea: ((65571999-a1f2-4787-bccc-7be5e150c2d2))
 - # Symmetry condition for unpaired majorana fermions
-  collapsed:: true
 	- The $U(1)$ symmetry must be broken to a $Z_2$ symmetry.
 	  background-color:: red
 		- If this is true, we must consider superconducting systems.
@@ -61,7 +60,6 @@
 		- But what would the problem that would follow?
 		  background-color:: red
 - # Setup
-  collapsed:: true
 	- The Hamiltonian
 		- $$
 		  H_1=\sum_{j=1}^{L-1}\left(-w\left(a_j^{\dagger} a_{j+1}+a_{j+1}^{\dagger} a_j\right)-\mu\left(a_j^{\dagger} a_j-\frac{1}{2}\right)+\Delta a_j a_{j+1}+\Delta^* a_{j+1}^{\dagger} a_j^{\dagger}\right)
@@ -75,7 +73,7 @@
 		  c_{2 j-1}=e^{i \frac{\theta}{2}} a_j+e^{-i \frac{\theta}{2}} a_j^{\dagger}, \quad c_{2 j}=-i e^{i \frac{\theta}{2}} a_j+i e^{-i \frac{\theta}{2}} a_j^{\dagger} \\
 		  H_1=\frac{i}{2} \sum_{j=1}^{L-1}\left(-\mu c_{2 j-1} c_{2 j}+(w+|\Delta|) c_{2 j} c_{2 j+1}+(-w+|\Delta|) c_{2 j-1} c_{2 j+2}+h.c. \right)
 		  $$
-- # Solution
+- # Solution #card
   collapsed:: true
 	- ## Two Special Cases
 		- Trivial case: $w=|\Delta|=0$
@@ -100,7 +98,6 @@
 			- Therefore the system has two ground states, with the same energy but **different fermionic parity**.
 			-
 	- ## General Solution
-	  collapsed:: true
 		- The spectrum could be found via Fourier transformation,
 		  $$
 		  \epsilon(q)= \pm \sqrt{(2 w \cos q+\mu)^2+4|\Delta|^2 \sin ^2 q}, \quad-\pi \leq q \leq \pi
@@ -112,10 +109,8 @@
 			- Note that a Fourier transformation corresponds to an infinitely long chain, i.e. only the bulk property matters.
 		- Conjecture. The trivial phase occurs at $2|w|<|\mu|$ while the nontrivial phase occupies the domain $2|w|>|\mu|, \Delta \neq 0$.
 - # Zero modes for general parameters
-  collapsed:: true
 	- ## Energies and eigen modes from the A matrix
 		- ### What is a zero mode, or an unpaired mode?
-		  collapsed:: true
 			- First note that $H=\frac{i}{2}\sum A_{ij} c_{i} c_{j}$. To find the spectrum, we need to quasi-diagonalize the skew-symmetric matrix,
 			  \begin{equation*}
 			  \left(\begin{array}{ c }
@@ -227,6 +222,7 @@
 			- $$\mathcal{M}=\mathcal{M}(H)=\pm1$$
 			- $M(H)=-1$ means that there are unpaired majorana modes for $H$ when $L \to \infty$.
 		- Basic properties
+		  collapsed:: true
 			- $$P(H)=\operatorname{sgn}\det W=\operatorname{sgn}\operatorname{Pf}A$$
 			- $$\mathcal{M}(H^{\prime}\boxtimes H^{\prime\prime})=\mathcal{M}(H^{\prime})\mathcal{M}(H^{\prime\prime})$$
 			- When we close chains into loops,

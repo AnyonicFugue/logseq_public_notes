@@ -32,21 +32,20 @@ alias:: von-Neumann Entropy
 			- Intuitively, how much one can infer about $B$ if one knows $A$.
 				- If the whole system is in a pure state but $S_A$ and $S_B$ are at the maximum, this means that each eigenstate of $\rho_A$ **1-1 corresponds** to another of $\rho_B$. Thus $I_{AB}$ reaches it maximum.
 				- If the density matrix of the whole system is a product of two sub density matrices, then $A$ and $B$ are **independent**, thus $I_{AB}=0$
-			- Related: ((66066aef-cf20-45c6-92cd-ba34b683703d))
+			- Related: Conditional entropy $H(A|B)$
 				- $$I(A:B)=S(A)-H(A|B)$$
 		- When $I_{AB}=0$, $\rho^{A B}=\rho^A \otimes \rho^B$
 		  id:: 65bef3dc-5772-4c63-9a72-feea334f3165
 		  collapsed:: true
 			- See P516 of Nielson & Chuang
 		-
-		- ((658b78c9-df4c-47bf-b17f-c4c459d25fa6))
+		-
 	- Basic arithmetics
 	  collapsed:: true
 		- $$S(a \rho)=-a \ln a + a S(\rho)$$
 		- $$S(\rho_1 \otimes \rho_2) = S(\rho_1) + S(\rho_2)$$
 		-
 	- Concavity
-	  collapsed:: true
 		- $$
 		  S\left(\sum_{i=1}^k \lambda_i \rho_i\right) \geq \sum_{i=1}^k \lambda_i S\left(\rho_i\right)
 		  $$
@@ -61,7 +60,7 @@ alias:: von-Neumann Entropy
 	  id:: 654072b8-d6b1-4205-9b8d-756ff4b290e0
 	  card-ease-factor:: 2.8
 	  card-last-reviewed:: 2023-04-11T01:29:13.813Z
-		- $\left|S\left(\rho_A\right)-S\left(\rho_B\right)\right| \leq S\left(\rho_{A B}\right) \leq S\left(\rho_A\right)+S\left(\rho_B\right)$
+		- $$\left|S\left(\rho_A\right)-S\left(\rho_B\right)\right| \leq S\left(\rho_{A B}\right) \leq S\left(\rho_A\right)+S\left(\rho_B\right)$$
 		- Proof
 		  collapsed:: true
 			- *In principle they can all be solved by the variational method (with a Lagrange multiplier)

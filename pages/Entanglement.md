@@ -33,11 +33,8 @@
 	- Refs given in [[2023_Li_Sang_Hsieh_Entanglement Dynamics of Noisy Random Circuits]]
 		- [[Entanglement Negativity]]
 		- [[Operator Entanglement Entropy]] #[[Research/To Be Investigated]]
-	- Conditional mutual information
+	- [[Conditional mutual information]]
 	  id:: 658b78c9-df4c-47bf-b17f-c4c459d25fa6
-		- $$
-		  I(A: C \mid B)_\rho=S\left(\rho_{A B}\right)+S\left(\rho_{B C}\right)-S\left(\rho_B\right)-S\left(\rho_{A B C}\right)
-		  $$
 	- [[Relative Entropy]] #card
 	  card-last-interval:: 31.26
 	  card-repeats:: 2

@@ -6,11 +6,57 @@ alias:: CFT
 	- ![1997_Di Francesco_Mathieu_Sénéchal_Conformal field theory.pdf](file://zotero_link/Physics/CFT/1997_Di Francesco_Mathieu_Sénéchal_Conformal field theory.pdf)
 	-
 - # Examples and Models
-  collapsed:: true
 	- The free boson
-	  $$
-	  S=\int d^d x\left(-\frac{1}{2} \partial_\mu \phi \partial^\mu \phi\right)
-	  $$
+		- $$
+		  S=\int d^2 x \ \frac{1}{2}  \partial_\mu \varphi \partial^\mu \varphi
+		  $$
+		- Basics
+			- Complex coordinate
+				- $$
+				  S=\frac{1}{2} \int d z d \bar{z} \partial \phi \cdot \bar{\partial} \phi
+				  $$
+			- The equation of motion is
+			  $$
+			  \partial \bar{\partial} \phi(z, \bar{z})=0
+			  $$
+		- Primary fields and correlation functions #card
+			- Proposition. $\partial \phi$ is an anti-chiral primary field and $\bar \partial \phi$ is a chiral primary field, with conformal dimensions
+			  $$
+			  (h, \bar{h})=(1,0) \text { and }(h, \bar{h})=(0,1)
+			  $$
+				- Take $\phi$ as a scalar field in differential geometry (i.e. with conformal dimensions $(0,0)$).
+				- Since $\partial \phi$ is covariant, it is naturally primary.
+			- Prop. The 2-point function is
+			  $$
+			  \langle\phi(z, \bar{z}) \phi(w, \bar{w})\rangle = -\frac 1 {4\pi} \log |z-w|^2
+			  $$
+				- Proposition. If we write the action as
+				  $$
+				  S=\frac{1}{2} \int d^2 x d^2 y \varphi(x) A(x, y) \varphi(y)
+				  $$
+				  the propagator is then $K(x, y)=A^{-1}(x, y)$
+					- Concretely, for
+					  $$A(x, y) = \delta(x-y)\left(-\partial^2+m^2\right)$$, we have 
+					  $$
+					  \left(-\partial_x^2+m^2\right) K(x, y)=\delta(x-y)
+					  $$
+				-
+				- Note that
+				  $$
+				  \partial \bar{\partial} \log z=2 \pi \delta(z)
+				  $$
+				-
+				-
+			- Corollary. $\phi$ is not a quasi-primary field.
+			  background-color:: red
+			- Prop. 
+			  $$
+			  \langle j(z) j(w)\rangle=-\frac{1}{4 \pi}\frac{1}{(z-w)^2}
+			  $$
+			  which further verifies that $j(z):=\partial \phi(z)$ is a primary field.
+				-
+			-
+		-
 - # Setup
   collapsed:: true
 	- Notations
@@ -383,6 +429,7 @@ alias:: CFT
 			- A field transforming like this is called quasi-primary.
 	-
 - # Basics
+  collapsed:: true
 	- Infinitesimal conformal transformation of primary fields
 	  id:: 65ee7bec-5960-462a-b50c-ec8de7eb7908
 	  collapsed:: true
@@ -495,6 +542,7 @@ alias:: CFT
 					  $$
 				- SCT -> Gives relations between scaling dimensions of fields
 		- Quasi-primary fields
+		  collapsed:: true
 			- #+BEGIN_NOTE
 			  This analysis only allows using **global** conformal transformations, thus the results are weaker.
 			  #+END_NOTE
@@ -528,9 +576,8 @@ alias:: CFT
 					  $$h_1=h_2$$
 				- 3-pt
 					- Completely analogous.
-		- For $n \geq 4$, the analysis doesn't suffice to fix correlation functions.
+		- For $n \geq 4$, this analysis doesn't suffice to fix correlation functions.
 		  background-color:: red
-		  collapsed:: true
 			- For instance, the four-point function may take the following form:
 			  $$
 			  \left\langle\phi_1\left(x_1\right) \ldots \phi_4\left(x_4\right)\right\rangle=f\left(\frac{x_{12} x_{34}}{x_{13} x_{24}}, \frac{x_{12} x_{34}}{x_{23} x_{14}}\right) \prod_{i<j}^4 x_{i j}^{\Delta / 3-\Delta_i-\Delta_i}
@@ -573,6 +620,7 @@ alias:: CFT
 			  Thus we arrive at the result.
 - # [[Operator Product Expansion]]
 - # The Hilbert Space and Descendants
+  collapsed:: true
 	- Outline
 	  collapsed:: true
 		- We will use two relations repeatedly.

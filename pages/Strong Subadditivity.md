@@ -1,4 +1,4 @@
-alias:: SSA
+alias:: SSA, Conditional Mutual Information
 
 -
 - Statement
@@ -8,7 +8,11 @@ alias:: SSA
 	  S\left(\rho^{123}\right)+S\left(\rho^2\right) \leq S\left(\rho^{12}\right)+S\left(\rho^{23}\right)
 	  $$
 		- Take *subsystem 2 = empty*, this goes back to ordinary sub-additivity.
-	- ((658b78c9-df4c-47bf-b17f-c4c459d25fa6))
+- Definition. Conditional mutual information
+	- $$
+	  I(A: C \mid B)_\rho=S\left(\rho_{A B}\right)+S\left(\rho_{B C}\right)-S\left(\rho_B\right)-S\left(\rho_{A B C}\right)
+	  $$
+	-
 - Corollaries of SSA #card
 	- collapsed:: true
 	  $$

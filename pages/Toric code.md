@@ -15,8 +15,13 @@
 		- ((6371a8f3-e2d5-4eb9-91e3-e0342be2efcc))
 		- He doesn't write the [[Dual structure]]. Instead, he just moved the particle along a circle.
 		  Is this equivalent to Double [[Braiding]] with vacuum? If not, why? How to explicitly write out the creators and annihilators? #Learning-TODO
+- # Setup
+	- $$H=- \sum_v A_v - \sum_p B_p$$
+		- $$
+		  A_v=\prod_{j \in \partial v} \sigma_j^z \quad B_p=\prod_{j \in \partial p} \sigma_j^x
+		  $$
+		-
 - # Solution
-  collapsed:: true
 	- 4 ground states <-> 4 homotopy classes.
 		- ((6368789c-5189-4377-a4a7-55516a81ee18))
 		- ((636878d9-84fc-418a-a61c-90845774d77f))

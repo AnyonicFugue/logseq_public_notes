@@ -262,6 +262,12 @@ alias:: MMA
 			-
 		- Upvalue and Downvalue #card
 		  collapsed:: true
+		  card-last-interval:: 31.26
+		  card-repeats:: 1
+		  card-ease-factor:: 2.36
+		  card-next-schedule:: 2024-05-05T07:01:48.099Z
+		  card-last-reviewed:: 2024-04-04T01:01:48.100Z
+		  card-last-score:: 3
 			- Idea
 				- Value assignment (including delayed ones) are actually **global rules**. Rules are associated with specific **symbols**.
 				- Thus we have two choices: Associate the rule with the head (Downvalue) or the argument (Upvalue).
@@ -272,6 +278,7 @@ alias:: MMA
 				- When reloading common operations (e.g. plus), upvalue would be more efficient than downvalue since the rule would only be checked when adding two self-defined types.
 				- `f[x_] + f[y_] ^:= f[x+y]`
 				- `f[g[x_]] ^:= fg[x]`
+					- Note that `:` is the **delayed** syntax, which means RHS is unevaluated at the time of **definitoin** and evaluated at each call.
 		- Delayed or not?
 			-
 		- Trick: Store obtained values for future use #card
@@ -350,6 +357,14 @@ alias:: MMA
 			- `ByteCount[expr]` calculates memory used by expr.
 			- `MemoryInUse[]`
 	- ## Compile and Parallelize: Usage and Options #card
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-05-05T06:50:47.055Z
+	  card-last-reviewed:: 2024-04-04T00:50:47.056Z
+	  card-last-score:: 5
+		- Takeaway message
+			- Any expr can be compiled into parallel C code, which could significantly accelerate the performance bottleneck!
 		- `Compile[{{x1,t1}, {x2,t2}, ...}, expr]`
 			- Returns a compiled function to evaluate expr, with arguments `x1` of type `t1`, `x2` of type `t2`, ...
 			- Options
