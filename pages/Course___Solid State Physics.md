@@ -179,7 +179,6 @@ collapsed:: true
 			- The body-centered cubic: 8
 			- The face-centered cubic: 12
 		- Packing density
-		  collapsed:: true
 			- The proportion of the space filled by the figure
 		-
 		- Reciprocal lattice 倒格子
@@ -201,12 +200,26 @@ collapsed:: true
 		- Brillouin zone
 			- La maille de Wigner-Seitz dans des l'espace réciproque.
 		- 对称素
+		  collapsed:: true
 			- Def. 标记对称操作的集合对象
 			- n次旋转轴
 			- 反演中心
 			- n次旋转反演轴
+		-
+		- 原子形状因子
+			- $$
+			  f_j\left(\boldsymbol{G}_h\right) \equiv \int_{\text {cell }} n_j(\boldsymbol{r}) e^{-i \boldsymbol{G}_h \cdot \boldsymbol{r}} d \boldsymbol{r}
+			  $$
+				- Take the atom to be of finite size. $n_j$ is the particle (electron) density of the $j$th atom in the unit cell.
+				- $\mathbf G_h:= \mathbf k-\mathbf k'$
+				- ![image.png](../assets/image_1712483038219_0.png)
+				-
+		- 几何结构因子
+			- $$
+			  S_{\boldsymbol{G}_h} \equiv \sum_{j=1}^p f_j\left(\boldsymbol{G}_h\right) e^{-i \boldsymbol{G}_h \cdot \boldsymbol{d}_j}
+			  $$
+			- Sum over $p$ particles in the unit cell
 	- ## Cubics
-	  collapsed:: true
 		- Simple cubic
 		  collapsed:: true
 			- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Cubic.svg/100px-Cubic.svg.png)
@@ -227,7 +240,6 @@ collapsed:: true
 				- Sodium chloride
 					- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/CsCl_crystal.png/170px-CsCl_crystal.png)
 		- Body-centered cubic
-		  collapsed:: true
 			- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cubic-body-centered.svg/100px-Cubic-body-centered.svg.png)
 			- 2 atoms per cell
 			- Max packing density: $\sqrt 3 \pi / 8$
@@ -250,7 +262,6 @@ collapsed:: true
 					  $$
 					-
 		- Face-centered cubic
-		  collapsed:: true
 			- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cubic-face-centered.svg/100px-Cubic-face-centered.svg.png)
 			- 4 atoms per cell
 			- Max packing density: ${\sqrt{2} \pi}/{6}$
@@ -292,9 +303,11 @@ collapsed:: true
 					-
 			- Closed-packed structures
 				- ABC and ABA
+					- Note that I can deduce they are fcc by calculating the packing density.
 					- ![image.png](../assets/image_1712304144243_0.png){:height 372, :width 541}
 					- ![undefined](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Closepacking.svg/1920px-Closepacking.svg.png){:height 452, :width 557}
 					-
+				-
 			-
 	- ## Symmetries
 	  collapsed:: true
@@ -320,11 +333,32 @@ collapsed:: true
 			-
 	- ## Diffraction
 		- Bragg's condition:
+		  collapsed:: true
 		  $$
 		  2 d \sin \theta=n \lambda
 		  $$
 			- ![image.png](../assets/image_1712307837789_0.png){:height 265, :width 500}
+		- Quantitative computation
+			- $$
+			  \begin{aligned}
+			  A\left(\boldsymbol{G}_h\right) & =N c \int_{\text {cell }} \sum_{j=1}^p n_j(\boldsymbol{\eta}) e^{-i \boldsymbol{G}_h \cdot\left(\boldsymbol{\eta}+\boldsymbol{d}_j\right)} d \boldsymbol{\eta} \\
+			  & =N c \sum_{j=1}^p e^{-i \boldsymbol{G}_h \cdot \boldsymbol{d}_j} \int_{\text {cell }} n_j(\boldsymbol{\eta}) e^{-i \boldsymbol{G}_h \cdot \boldsymbol{\eta}} d \boldsymbol{\eta}
+			  \end{aligned}
+			  $$
+			- 消光条件: $F(K_h)=0$
+			- 在实际应用中, 总是将 $\boldsymbol{r}_i$ 和 $\boldsymbol{K}_h$ 利用正点阵和倒点阵的基矢表示为
+			  $$
+			  \begin{aligned}
+			  & \boldsymbol{r}_i=x_{i 1} \boldsymbol{a}_1+x_{i 2} \boldsymbol{a}_2+x_{i 3} \boldsymbol{a}_3 \\
+			  & \boldsymbol{K}_h=h_1 \boldsymbol{b}_1+h_2 \boldsymbol{b}_2+h_3 \boldsymbol{b}_3
+			  \end{aligned}
+			  $$
+			- 几何结构因子最后可以写为
+			  $$
+			  F\left(\boldsymbol{K}_h\right)=\sum_i f_i\left(\boldsymbol{K}_h\right) \mathrm{e}^{-2 \pi \mathrm{i}\left(h_1 x_{i 1}+h_2 x_{i 2}+h_3 x_{i 3}\right)}
+			  $$
 		- Experimental methods
+		  collapsed:: true
 			- Laue's method: Fix the direction and vary the wavelength
 			- Rotating-lattice method: Fix the wavelength and rotate the lattice to vary direction
 			- Powder method: The direction is **random**

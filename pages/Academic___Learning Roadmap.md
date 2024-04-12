@@ -31,8 +31,6 @@ collapsed:: true
 			- **Examples**
 				- Algebraic Geometry
 				- Number Theory
-- # Others' Roadmaps
-	- [Riinn 书单 知乎](https://www.zhihu.com/question/21451715/answer/429838579)
 - # Mathematics #card
   id:: 64b4848d-0b6a-4bc0-af8e-6f4d53c52b9d
   card-last-interval:: 31.26
@@ -47,36 +45,48 @@ collapsed:: true
 		- [Yanqi Lake Lectures on Algebra: Part 3 (wwli.asia)](https://www.wwli.asia/downloads/YAlg3.pdf)
 	- ## Crucial For Research
 		- Algebraic topology
-			- [[K-Theory]]
-			- Stable Homotopy
+			- Group Cohomology
+				- SPT!
+			- K-theory
+				- Kitaev's SPT proposal
+				- Entanglement classification program
+			- Obstruction theory
+			- TQFT and cobordism?
+				- Since TQFTs are freaking similar to TOs, they are surely interesting.
+				- Cobordism is also useful in SPT
+			- Stable Homotopy?
 			- Lurie's theory (theories?)
-		- [[Tensor Category]]
-		- Higher Category
+				- "Lurie的理论是高速公路"
+				- Triangular category, abelian category, model category are all naturally incorporated into his framework!
+		- Tensor category
+		- Higher category and infinite category
+			- Infinite category and HoTT are the future.
 	- ## Basics
 		- 代数学方法
-		- [[Differential Geometry]]
-		- Homological Algebra
-			- I believe it is important in the study of topological phases, in defining thermodynamic limits in particular.
-		- [[Category Theory]]
+			- Homological algebra and abelian category
+				- Understand Grothendieck's great work.
+		- Differential geometry and differential topology
+			- Useful in higher-dimensional topological phases (e.g. [Kirby's torus trick](https://arxiv.org/abs/2301.07119))
+		- Category theory
 			- 范畴论的直接应用可能不多，但它的思想、它所训练的抽象能力是无比珍贵的。
+		- Finite-group representation theory
+			- For understanding SPTs
 	- ## Intermediate
-		- [[Algebraic Geometry]]
-			- The ideas and tools are percolating everywhere... Also it's thrilling to learn thoughts of Grothendieck.
+		- Algebraic Geometry!
+			- The ideas and tools are percolating everywhere. Also it's thrilling to learn thoughts of Grothendieck.
 			- Commutative Algebra
-			- Algebraic curves?
-		- [[Lie Groups and Lie Algebras]]
-			- Useful in CFT
 	- ## Advanced
 		- Representation Theory
 			- ![2011_Etingof_Introduction to representation theory.pdf](file://zotero_link/Mathematics/Representation Theory/2011_Etingof_Introduction to representation theory.pdf)
-			- ![2012_Serre_Serre_Linear representations of finite groups.pdf](file://zotero_link/Mathematics/Representation Theory/2012_Serre_Serre_Linear representations of finite groups.pdf)
-		- [[The Langlands Program]]
+		- The Langlands Program
 	- ## Interesting things to explore
 		- Differential Topology 两本受到盛赞的神书
 			- Milnor
 			- Differential forms in algebraic topology
 		- Real and Complex Analysis
-			- Riemann Surfaces
+			- Riemann surfaces are always interesting.
+		- Lie Groups and Lie Algebras
+			- Perhaps useful in CFT?
 		- [Cornerstones | Book series home (springer.com)](https://www.springer.com/series/7161)
 			- Including several interesting introductions, e.g. Riemann surface, geometric function, etc.
 		- [Lurie, Lie Algebra and Homotopy](https://www.youtube.com/watch?v=LeaiPHAh0X0)
@@ -99,20 +109,21 @@ collapsed:: true
 			- Levin-Wen
 		- ### Entanglement
 			- TEE
-			- Fusion rule & central charge from entanglement
+			- DONE Fusion rule & central charge from entanglement
 			- Quantum information: Nielson & Chuang
 		- Anyon condensation
 		- ### SPT
-		- ### Fracton
 	- ## Field Theory
 		- ## CFT
+			- A mathematical intro to CFT
+				- Make everything rigorous and well-defined!
 			- VOA
 				- https://www.zhihu.com/question/38253477/answer/2484509893
 					- 不一定用他的笔记，但他的comment很有意思。
 			- Bulk-Boundary Correspondence
 		- ## TQFT
 			- Start from Witten's paper on quantum Chern-Simons fields?
-		- ## QFT
+		- QFT
 			- Anomaly
 			- Weinberg
 	- QHE, FQHE
@@ -151,12 +162,12 @@ collapsed:: true
 	- 数学家思想文库 第二辑
 		- Klein, Weyl, Kolmogorov
 - # Exploration
+  collapsed:: true
 	- ## Mathematical Physics
 		- ((64b4848d-78cb-4c30-a024-8ff5a8fd2be1))
 		- Atiyah's work on ((64b730c5-1383-44f1-b696-017ae4193dec))
 		-
 	- ## Mathematics
-	  collapsed:: true
 		- Graph theory
 			- We encounter coloring and partition of graphs repeatedly in lattice models...
 			- https://yufeizhao.com/gtacbook/ A good lecturenote
@@ -192,3 +203,5 @@ collapsed:: true
 		- Integrable systems, especially quantum integrable systems
 			- Seems not just 'obtain an explicit solution', but with much deeper structures (algebraic geometry, conserved flows on an manifold, etc.)
 	-
+- # Others' Roadmaps
+	- [Riinn 书单 知乎](https://www.zhihu.com/question/21451715/answer/429838579)

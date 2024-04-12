@@ -158,13 +158,14 @@ type:: [[Course]]
 	- Rule for modifications in media:
 	  Change $\varepsilon_0 E$ to $D$ and $B/ \mu_0$ to $H$.
 	- Energy density and flow #card
-	  collapsed:: true
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2024-01-24T07:00:51.436Z
 	  card-last-reviewed:: 2023-12-24T01:00:51.437Z
 	  card-last-score:: 5
+	  id:: 660617d5-4fdc-4a96-bede-81b7648d3f6e
+	  collapsed:: true
 		- $$
 		  \vec{S}_P(\vec{r}, t)=\frac{1}{\mu_0} \vec{E} \times \vec{B}=\vec{E} \times \vec{H}
 		  $$

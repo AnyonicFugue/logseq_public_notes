@@ -18,6 +18,7 @@
 				  card-next-schedule:: 2023-07-05T07:04:01.005Z
 				  card-last-reviewed:: 2023-06-04T01:04:01.005Z
 				  card-last-score:: 5
+				  id:: 660617ed-e798-4d3e-83b7-d21a2cedc837
 					- First of all, it's common to capture the notion of **variance** by a dual object.
 					- We must somehow find a way to define 'an infinitesimal change of the field'.
 						- We can't vary $\psi(x)$ because it would break the continuity.

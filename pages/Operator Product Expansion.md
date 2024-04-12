@@ -100,5 +100,7 @@ alias:: OPE
 - # General Quasi-Primary Fields
 	- Note that the EM tensor is a quasi-primary field with $h=2$. Ref. ((65fd3214-419c-40b0-bb24-e8c523d1a1f7))
 	- Statement
-		-
+		- $$
+		  \phi_a(z, \bar{z}) \phi_b(0,0)=\sum_p \sum_{\{k, \bar{k}\}} C_{ab}^{p\{k, \bar{k}\}} z^{h_p-h_a-h_b+K} \bar{z}^{\bar{h}_p-\bar{h}_a-\bar{h}_b+\bar{K}} \phi_p^{(k, \bar{k}\}}(0,0)
+		  $$
 - For a rigorous proof, we need the VOA.

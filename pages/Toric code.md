@@ -30,13 +30,14 @@
 		- Constraints: $E+V-2$
 		- Free d.o.f. : $N=F-E-V+2=2g$
 - # [[Topological skeleton]] of toric code #card
-  collapsed:: true
   card-last-interval:: 30
   card-repeats:: 2
   card-ease-factor:: 2.7
   card-next-schedule:: 2023-05-13T11:42:34.937Z
   card-last-reviewed:: 2023-04-13T11:42:34.937Z
   card-last-score:: 5
+  id:: 660618a6-bd2b-4b5c-b395-d0c78a4a6c4e
+  collapsed:: true
 	- ((63aa5b5b-1bd1-47bd-941c-a5c86a2fd734)) Invitation
 	- A monoidal [[2-category]], denoted by $\mathbf{TC}$
 		- Monoidal means the objects (1D domain walls) can be fused.

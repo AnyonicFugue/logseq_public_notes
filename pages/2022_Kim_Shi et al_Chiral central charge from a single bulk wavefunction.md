@@ -9,11 +9,7 @@
 	- $$
 	  J(A, B, C)_\rho:=i \operatorname{Tr}\left(\rho_{A B C}\left[K_{A B}, K_{B C}\right]\right)
 	  $$
-	- Modular Hamiltonian
-	  $$
-	  K_A=-\ln \rho_A
-	  $$
-		- $\rho_A$ is the reduced density matrix of region A
+	-
 - ## ((658b775b-9e81-41c2-9e5d-ceeb2928c251))
 	- Def. ((658e2b3a-0105-4a87-95ce-7f48ee4bd857))
 		- The conditional mutual information is zero,

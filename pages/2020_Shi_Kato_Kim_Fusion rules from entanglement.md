@@ -1,7 +1,8 @@
 - ![2020_Shi_Kato_Kim_Fusion rules from entanglement.pdf](file://zotero_link/Research/Entanglement/From Local to global/2020_Shi_Kato_Kim_Fusion rules from entanglement.pdf)
 - # LooseEnds
-  collapsed:: true
 	- {{query (and [[LooseEnd]] (page [[2020_Shi_Kato_Kim_Fusion rules from entanglement]])) }}
+	  query-table:: true
+	  query-properties:: [:block]
 - # BlackBoxes
   collapsed:: true
 	- ((65910b38-ed4c-4f7c-9c37-2cd9b8a8ddf2))
@@ -157,6 +158,7 @@
 			  $$
 			- This definition makes sense since isomorphisms between subsystems preserves entropy difference.
 - # Quantum information backgrounds
+  collapsed:: true
 	- ((65ab68d4-3dc8-4b75-b87e-8a9e00bce69c)) (Merging Lemma)
 	  id:: 65ab687d-244f-4792-8b78-fabf3a6937a4
 		- Given a set of density matrices $\mathcal{S} \equiv\left\{\rho^{(i)}_{A B C}\right\}$ and a density matrix $\sigma_{B C D}$ such that $\rho_{B C}=\sigma_{B C}$ and
@@ -353,6 +355,7 @@
 		  $$
 		  where $D(\cdot, \cdot)$ is any distance measure which is non-increasing under CPTP-maps.
 - # ((65ac7c23-279a-463e-90eb-73ce95a5e4bd))
+  collapsed:: true
 	- ((65ac902a-0946-4655-b9d6-76689f828a54)) 4.1. (Simplex Theorem) For an annulus $X$, the information convex set is the convex hull of a finite number of **orthogonal** extreme points, $\left\{\sigma_X^a\right\}$, i.e.
 	  id:: 65ac7c26-e36e-4d29-b316-da693a10f142
 	  $$
@@ -573,7 +576,6 @@
 			  S\left(\tilde{\sigma}_X\right)-S\left(\sigma_X^1\right)=2 \ln \mathcal{D}
 			  $$
 - # ((65bf36a6-acad-4b0a-a4f6-54da71de3f20))
-  collapsed:: true
 	- Theorem B.1. Let $M$ be a closed 2D manifold. Let $\sigma$ be a reference state on this manifold satisfying axiom $\mathbf{A 0}$ and $\mathbf{A 1}$. With respect to this reference state,
 	  $$
 	  \Sigma(M)=\mathcal{S}(\mathbb{V})

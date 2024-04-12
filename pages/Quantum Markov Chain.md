@@ -13,6 +13,7 @@ alias:: Quantum Markov State
 - # Properties
 	- Petz Recovery #card
 	  id:: 659f5206-6b2d-4b8a-a381-8d16e20644f7
+	  collapsed:: true
 		- Put plainly, if $I(A: C \mid B)_\rho=0$, then $\rho_{AB}$ and $\rho_{BC}$ fix $\rho_{ABC}$.
 		- Comments
 			- Of course we have tripartite states with $I(A:C|B) \neq 0$. Could $\rho_{ABC}$ be recovered from parts? Under what condition?

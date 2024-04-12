@@ -6,6 +6,7 @@ alias:: CFT
 	- ![1997_Di Francesco_Mathieu_Sénéchal_Conformal field theory.pdf](file://zotero_link/Physics/CFT/1997_Di Francesco_Mathieu_Sénéchal_Conformal field theory.pdf)
 	-
 - # Examples and Models
+  collapsed:: true
 	- The free boson
 		- $$
 		  S=\int d^2 x \ \frac{1}{2}  \partial_\mu \varphi \partial^\mu \varphi
@@ -183,9 +184,7 @@ alias:: CFT
 					-
 		-
 		- Conformal transformations in $d \geq 3$
-		  collapsed:: true
 			- Takeaway message
-			  collapsed:: true
 				- The ((65e7eb45-5b1c-48d7-9919-f23aa59d8e6d))
 				  $$
 				  \begin{array}{|c|c|c|}
@@ -203,14 +202,18 @@ alias:: CFT
 					  $$
 						- We need conformal compactification to correct this.
 						- Note that if $b \cdot b = 0$, then any $x \propto b$ is mapped to infinity.
+					- For spinor fields, rotations also act on the internal DOFs.
+						- Note that rotation generators are **NOT ZERO** for scalar fields.
 				- ((65eab6eb-316d-4940-baf7-fa1a485fef27))
 			- Key observation
+			  collapsed:: true
 				- $$
 				  \epsilon_\mu=a_\mu+b_{\mu \nu} x^\nu+c_{\mu \nu \rho} x^\nu x^\rho
 				  $$
 				- Perform a series expansion of $\epsilon(x)$.
 				- Note that relation (1) implies that $(\partial \cdot \epsilon)$ is at most linear in $x^\mu$, so we can make the ansatz.
 			- The rest is just perform analysis to each term.
+			  collapsed:: true
 				- The constant term is obviously translation.
 				- The linear term
 					- Plug in the full condition, we see that
@@ -239,16 +242,17 @@ alias:: CFT
 				-
 				- Exercise. The infinitesimal transformation $x^\mu \mapsto x^\mu+ a^\mu$ induces the finite transformation $P=-i a^\mu \partial_\mu$.
 			- Determine the type of the conformal algebra
-			  collapsed:: true
 				- The commutation relations are
-				  $$\begin{aligned}
-				  [ D,P_{\mu }] & =iP_{\mu }\\
-				  [ D,K_{\mu }] & =-iK_{\mu }\\
-				  [ K_{\mu } ,P_{\nu }] & =2i( \eta _{\mu \nu } D-M_{\mu \nu })\\
-				  [ K_{\rho } ,M_{\mu \nu }] & =i( \eta _{\rho \mu } K_{\nu } -\eta _{\rho \nu } K_{\mu })\\
-				  [ P_{\rho } ,M_{\mu \nu }] & =i( \eta _{\rho \mu } P_{\nu } -\eta _{\rho \nu } P_{\mu })\\
-				  [ L_{\mu \nu } ,M_{\rho \sigma }] & =i( \eta _{\nu \rho } M_{\mu \sigma } +\eta _{\mu \sigma } M_{\nu \rho } -\eta _{\mu \rho } M_{\nu \sigma } -\eta _{\nu \sigma } M_{\mu \rho })
-				  \end{aligned}$$
+				  $$
+				  \begin{aligned}
+				  {\left[D, P_\mu\right] } & =i P_\mu \\
+				  {\left[D, K_\mu\right] } & =-i K_\mu \\
+				  {\left[K_\mu, P_v\right] } & =2 i\left(\eta_{\mu \nu} D-L_{\mu \nu}\right) \\
+				  {\left[K_\rho, L_{\mu \nu}\right] } & =i\left(\eta_{\rho \mu} K_v-\eta_{\rho v} K_\mu\right) \\
+				  {\left[P_\rho, L_{\mu \nu}\right] } & =i\left(\eta_{\rho \mu} P_\nu-\eta_{\rho \nu} P_\mu\right) \\
+				  {\left[L_{\mu \nu}, L_{\rho \sigma}\right] } & =i\left(\eta_{\nu \rho} L_{\mu \sigma}+\eta_{\mu \sigma} L_{\nu \rho}-\eta_{\mu \rho} L_{\nu \sigma}-\eta_{\nu \sigma} L_{\mu \rho}\right)
+				  \end{aligned}
+				  $$
 				- Claim. For the case of dimensions $d=p+q \geq 3$, the conformal algebra of $\mathbb{R}^{p, q}$ is $\mathfrak{so}(p+1, q+1)$.
 				  id:: 65eab6eb-316d-4940-baf7-fa1a485fef27
 					- By a transformation 
@@ -268,6 +272,7 @@ alias:: CFT
 						- Seems dubious. Even the connected component cannot be guaranteed.
 					-
 		- Conformal transformations in $d=2$
+		  collapsed:: true
 			- Note that we only investigate the Euclidean case here.
 			- Takeaway message
 				- Holomorphic or anti-holomorphic
@@ -429,7 +434,6 @@ alias:: CFT
 			- A field transforming like this is called quasi-primary.
 	-
 - # Basics
-  collapsed:: true
 	- Infinitesimal conformal transformation of primary fields
 	  id:: 65ee7bec-5960-462a-b50c-ec8de7eb7908
 	  collapsed:: true
@@ -450,6 +454,7 @@ alias:: CFT
 		  \phi(z, \bar{z}) \mapsto \phi(z, \bar{z})+\left(h \partial_z \epsilon+\epsilon \partial_z+\bar{h} \partial_{\bar{z}} \bar{\epsilon}+\bar{\epsilon} \partial_{\bar{z}}\right) \phi(z, \bar{z}),
 		  $$
 	- Energy-Momentum tensor
+	  collapsed:: true
 		- Theorem. Tracelessness of the EM tensor implies the invariance of action.
 		  collapsed:: true
 			- $$\begin{aligned}
@@ -520,9 +525,7 @@ alias:: CFT
 				- Then we promote the Laurent modes $\phi_{n, \bar{m}}$ to **operators**.
 				-
 	- Fixing 2-pt and 3-pt correlation functions for primary and quasi-primary fields #card
-	  collapsed:: true
 		- Primary fields
-		  collapsed:: true
 			- Results
 				- $$
 				  \left\langle\phi_1\left(x_1\right) \phi_2\left(x_2\right)\right\rangle=\left\{\begin{array}{lll}
@@ -578,6 +581,7 @@ alias:: CFT
 					- Completely analogous.
 		- For $n \geq 4$, this analysis doesn't suffice to fix correlation functions.
 		  background-color:: red
+		  collapsed:: true
 			- For instance, the four-point function may take the following form:
 			  $$
 			  \left\langle\phi_1\left(x_1\right) \ldots \phi_4\left(x_4\right)\right\rangle=f\left(\frac{x_{12} x_{34}}{x_{13} x_{24}}, \frac{x_{12} x_{34}}{x_{23} x_{14}}\right) \prod_{i<j}^4 x_{i j}^{\Delta / 3-\Delta_i-\Delta_i}
@@ -618,6 +622,19 @@ alias:: CFT
 			  $$
 			- Since RHS must vanish for any $\epsilon(z)=-z^{n+1}$, the integrand (which has Laurent expansions) must vanish identically.
 			  Thus we arrive at the result.
+	- State-operator correspondence
+		- A priori we must have a vacuum $|0\rangle$ invariant under all symmetries.
+		- Operator -> State
+			- Given a primary operator $\mathcal O(0)$ at the origin with a definite scaling dimension $\Delta$ and are annihilated by $K_\mu$, we can construct a state $\mathcal O(0)|0\rangle$
+		- State -> Operator
+			- Given a state of energy $\Delta$ which is annihilated by $K_\mu$, we can construct a local primary operator of dimension $\Delta$.
+			- Proof
+				- To construct an operator, it suffices to define its correlation functions with other operators.
+				- Define them by the equation
+				  $$
+				  \left\langle\phi\left(x_1\right) \phi\left(x_2\right) \ldots \mathcal{O}_{\Delta}(0)\right\rangle=\left\langle 0\left|\phi\left(x_1\right) \phi\left(x_2\right) \ldots\right| \Delta\right\rangle .
+				  $$
+			- This definition can be shown to satisfy all the usual transformation properties dictated by CI.
 - # [[Operator Product Expansion]]
 - # The Hilbert Space and Descendants
   collapsed:: true
@@ -726,7 +743,6 @@ alias:: CFT
 	  The subspace generated by an asymptotic state and all its descendants **form a representation (module)** of the Virasoro algebra!
 	  #+END_TIP
 	- ## Verma modules and the operator algebra #card
-	  collapsed:: true
 		- Theorem. The correlator of descendants field are can be calculated from differentials of primary fields, i.e.
 		  collapsed:: true
 		  $$
@@ -762,7 +778,6 @@ alias:: CFT
 		  C_{ab}^{p(0,0)} \equiv C_{ab}^p=C_{p ab}
 		  $$
 			- Recall the notations
-			  collapsed:: true
 				- Three-point function
 					- $$
 					  \begin{aligned}

@@ -1,0 +1,7 @@
+- ![2012_Hung_Wan_String-Net Models with $Z_N$ Fusion Algebra.pdf](file://zotero_link/Physics/Topological Phases/Gauging/2012_Hung_Wan_String-Net Models with $Z_N$ Fusion Algebra.pdf)
+- # TODOs
+	- Examine the correspondence of the Hilbert space
+	- Try to extend the formalism to Abelian groups, which are direct sums of cyclic groups.
+		- Could the results be stated in a more elegant manner?
+- # ((661362d0-39dd-4f56-bddd-3a548458a556))
+	-
