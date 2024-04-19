@@ -1,6 +1,7 @@
-# Free Electrons
-id:: 65f4fd67-9f37-484c-8080-04a14d598bc3
-collapsed:: true
+- ![2013_Simon_The Oxford solid state basics.pdf](file://zotero_link/Physics/Courses/Solid State/2013_Simon_The Oxford solid state basics.pdf)
+- # Free Electrons
+  id:: 65f4fd67-9f37-484c-8080-04a14d598bc3
+  collapsed:: true
 	- ((65503243-b09d-4b95-a43a-bc95ef69d5ac))
 		- Note that to study $\omega_p$ and resonance we need to study the effective AC dielectric constant, not only the conductance!
 	- Classical Hall effect under Drude Model
@@ -140,6 +141,7 @@ collapsed:: true
 			  $$
 		-
 - # Lattice Structures
+  collapsed:: true
 	- Definitions
 		- Primitive cell
 			- A volume, which could fill the whole space without overlapping under the action of the translation group
@@ -364,3 +366,117 @@ collapsed:: true
 			- Powder method: The direction is **random**
 				- Random means that the direction is uniformly distributed.
 				- Therefore, we can obtain lots of information about $d$ by vary the wavelength.
+- # Band Theory
+	- Assumptions
+		- Born-Oppenheimer approximation
+			- Nuclei are classical
+		- Independent-electron approximation
+			- Electrons do not interact
+	- [[Bloch Theorem]]
+	- Hamiltonian in BZ
+	  collapsed:: true
+		- Definition.
+			- $$H(k) := e^{-i \boldsymbol{k} \cdot r} H e^{i \boldsymbol{k} \cdot \boldsymbol{r}} $$
+			- The Seq becomes
+			  $$H(\boldsymbol{k}) u_{n \boldsymbol{k}}(\boldsymbol{r})=\varepsilon_{n \boldsymbol{k}} u_{n \boldsymbol{k}}$$
+		- Proof
+			- The Schrodinger equation reads
+			  $$H \psi_{n \boldsymbol{k}}(\boldsymbol{r})=\left[-\frac{\hbar^2 \nabla^2}{2 m}+V(\boldsymbol{r})\right] \psi_{n \boldsymbol{k}}(\boldsymbol{r})=\varepsilon_{n \boldsymbol{k}} \psi_{n \boldsymbol{k}}(\boldsymbol{r})$$
+			- With a bit transformation, we see that
+			  $$e^{-i \boldsymbol{k} \cdot \boldsymbol{r}}\left[-\frac{\hbar^2 \nabla^2}{2 m}+V(\boldsymbol{r})\right] e^{i \boldsymbol{k} \cdot \boldsymbol{r}} u_{n \boldsymbol{k}}(\boldsymbol{r})=H(\boldsymbol{k}) u_{n \boldsymbol{k}}(\boldsymbol{r})=\varepsilon_{n \boldsymbol{k}} u_{n \boldsymbol{k}}(\boldsymbol{r})$$
+				- Note that $\psi_{n \boldsymbol{k}}(\boldsymbol{r})= e^{ik \cdot r} u_{n \boldsymbol{k}}(r)$.
+	- Perturbation in 1D and energy gap
+	  collapsed:: true
+		- #+BEGIN_NOTE
+		  This is the weak-potential limit, while the tight-binding model is the strong-potential limit.
+		  #+END_NOTE
+		- Consider a weak periodic potential perturbation to this Hamiltonian
+		  collapsed:: true
+		  $$
+		  H=H_0+V(\mathbf{r})
+		  $$
+			- $$
+			  H_0=\frac{\mathbf{p}^2}{2 m}
+			  $$
+			- $V$ is periodic, meaning
+			  $$
+			  V(\mathbf{r})=V(\mathbf{r}+\mathbf{R})
+			  $$
+		- Proposition. $\left\langle\mathbf{k}^{\prime}|V| \mathbf{k}\right\rangle$ is zero unless $k$ is a reciprocal vector.
+		  collapsed:: true
+			- Plug in the def
+			  $$
+			  \left\langle\mathbf{k}^{\prime}|V| \mathbf{k}\right\rangle=\frac{1}{L^3} \int \mathbf{d r} e^{i\left(\mathbf{k}-\mathbf{k}^{\prime}\right) \cdot \mathbf{r}} V(\mathbf{r}) \equiv V_{\mathbf{k}^{\prime}-\mathbf{k}}
+			  $$
+			  and note that $V$ is periodic.
+		- Perturbative solution
+			- First order
+			  collapsed:: true
+				- $$
+				  \epsilon(\mathbf{k})=\epsilon_0(\mathbf{k})+\langle\mathbf{k}|V| \mathbf{k}\rangle=\epsilon_0(\mathbf{k})+V_0
+				  $$
+				- An uninteresting constant shift to all energy eigenstates.
+			- Second order
+			  collapsed:: true
+				- Non-degenerate
+				  collapsed:: true
+					- $$
+					  \epsilon(\mathbf{k}) = \epsilon_0(\mathbf{k})+\sum_{\mathbf{k}^{\prime} \neq \mathbf{k}} \frac{\left|\left\langle\mathbf{k}^{\prime}|V| \mathbf{k}\right\rangle\right|^2}{\epsilon_0(\mathbf{k})-\epsilon_0\left(\mathbf{k}^{\prime}\right)}
+					  $$
+					- However, this doesn't apply to our case!
+					  collapsed:: true
+						- When $\epsilon_0(\mathbf{k}) = \epsilon_0\left(\mathbf{k}^{\prime}\right)$ and $\left\langle\mathbf{k}^{\prime}|V| \mathbf{k}\right\rangle \neq 0$ (which means $k$ and $k'$ differ by a reciprocal vector), the term diverges.
+						-
+						-
+				- Degenerate
+				  collapsed:: true
+					- Diagonalize matrix elements for two momenta with the same energy
+					  collapsed:: true
+						- collapsed:: true
+						  $$
+						  \begin{aligned}
+						  \langle\mathbf{k}|H| \mathbf{k}\rangle & =\epsilon_0(\mathbf{k}) \\
+						  \left\langle\mathbf{k}^{\prime}|H| \mathbf{k}^{\prime}\right\rangle & =\epsilon_0\left(\mathbf{k}^{\prime}\right)=\epsilon_0(\mathbf{k}+\mathbf{G}) \\
+						  \left\langle\mathbf{k}|H| \mathbf{k}^{\prime}\right\rangle & =V_{\mathbf{k}-\mathbf{k}^{\prime}}=V_{\mathbf{G}}^* \\
+						  \left\langle\mathbf{k}^{\prime}|H| \mathbf{k}\right\rangle & =V_{\mathbf{k}^{\prime}-\mathbf{k}}=V_{\mathbf{G}}
+						  \end{aligned}
+						  $$
+							- Here we have both $k=-k'$ and $k-k'=\frac {2n\pi}{a}$, thus $k$ and $k'$ are both on the boundary of BZ.
+						- Rewritten, the effective Hamiltonian is
+						  collapsed:: true
+						  $$
+						  \left(\begin{array}{cc}
+						  \epsilon_0(\mathbf{k}) & V_{\mathbf{G}}^* \\
+						  V_{\mathbf{G}} & \epsilon_0(\mathbf{k}+\mathbf{G})
+						  \end{array}\right)
+						  $$
+							- When $k$ is precisely on the boundary, the eigenvalues are
+							  $$
+							  E_{ \pm}=\epsilon_0(\mathbf{k}) \pm\left|V_{\mathbf{G}}\right|
+							  $$
+					- ((6622284d-e9cf-450e-902e-0db2d25fe20b))
+		- Scattering relation
+		  collapsed:: true
+			- Theorem. At the gap point, the dispersion is quadratic.
+			  collapsed:: true
+				- Consider $k=n \pi / a+\delta$.
+				- Proceed as above, the eigenenergies then become
+				- $$
+				  E_{ \pm}=\frac{\hbar^2}{2 m}\left[(n \pi / a)^2+\delta^2\right] \pm \sqrt{\left(\frac{\hbar^2}{2 m} 2 n \pi \delta / a\right)^2+\left|V_G\right|^2}
+				  $$
+				- Expanding the square root for small $\delta$ we obtain
+				  $$
+				  E_{ \pm}=\frac{\hbar^2(n \pi / a)^2}{2 m} \pm\left|V_G\right|+\frac{\hbar^2 \delta^2}{2 m}\left[1 \pm \frac{\hbar^2(n \pi / a)^2}{m} \frac{1}{\left|V_G\right|}\right] .
+				  $$
+		- Insulator, semiconductor and conductor
+			- Conductor
+				- When electrons do not fully fill the band, they can have momentum polarization under external electric field.
+				- ((66222bd6-005f-4d64-845c-ad0ce6fbb2e8))
+			- Insulator
+				- When electrons fully fill a band, the electrons cannot refill, thus the material doesn't respond to external electric field.
+				- ((66222c07-ea92-4a0c-a11f-e13c61c2c680))
+			- Semiconductor
+				- When electrons fill a band but the gap is small (~ 1eV), a few electrons can be thermally excited.
+				-
+	- [[Tight-Binding Model]]
+	-

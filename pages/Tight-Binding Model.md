@@ -1,5 +1,8 @@
 # Definition
-	- Only adjacent hopping terms after second quantization
+	- The system has discrete orbitals. Only adjacent hopping terms after second quantization.
+	- $$
+	  H_{n, m}=\epsilon_0 \delta_{n, m}-t\left(\delta_{n+1, m}+\delta_{n-1, m}\right)
+	  $$
 - # Certain Cases
 	- ## 1D Chain
 	- ## Square Lattice

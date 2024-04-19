@@ -1,3 +1,14 @@
+- To remember
+	- Bragg's formula
+		- The angles where the refraction are strengthened:
+		  $$
+		  2 d \sin \theta=n \lambda
+		  $$
+	- Compton's wavelength
+		- $$
+		  \lambda_{\mathrm{C}}=h / m_0 c
+		  $$
+		-
 - Rutherford's atom model
   collapsed:: true
 	- ![image.png](../assets/image_1710815127971_0.png){:height 433, :width 532}
@@ -23,6 +34,7 @@
 	-
 	-
 - Bohr's atom model
+  collapsed:: true
 	- Notations
 		- 原子光谱项T
 			- $T_i=\frac 1 {\lambda_i}$, 其中$\lambda_i$是能级i跃迁到无穷远处放出光子的波长。
@@ -68,4 +80,12 @@
 			- Introduce relativistic corrections
 	- Comments
 		- Since the nuclear isn't infinitely heavy, we should use $m_\mu$ to substitute $m_e$.
+		-
+- De Broglie
+  collapsed:: true
+	- The famous relation:
+	  $$\lambda = \frac h p$$
+	- Bohr's hydrogen atom revisited
+		- The quantization of angular momentum could be easily derived by the requirement that the electron forms a standing wave:
+		  $$2 \pi r = n \lambda = n \frac h {mv}$$
 		-

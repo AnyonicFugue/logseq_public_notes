@@ -7,6 +7,7 @@
   card-next-schedule:: 2023-07-30T07:44:02.540Z
   card-last-reviewed:: 2023-06-29T01:44:02.541Z
   card-last-score:: 3
+  id:: 66061889-24cb-411c-b2e3-4af3b43bdc4e
   collapsed:: true
 	- What makes the model work?
 	  background-color:: red

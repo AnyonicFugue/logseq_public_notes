@@ -50,3 +50,18 @@ file-path:: zotero_link/Research/Topological order/Kitaev/2003_Kitaev_Fault-tole
   id:: 64be9423-984e-4e7c-8716-3126dd441055
   hl-type:: area
   hl-stamp:: 1690211361542
+- how do parts of a macroscopic system know about the topology if all correlations are already lost at small scales?
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: purple
+  id:: 661f3049-a76e-40a9-9d8f-2061f08d8133
+- algebra
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 661f7629-dfd0-42d0-a751-f25ba22e7f34
+- 5.1 Particles and local operators
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 66223967-75d0-46c5-ba2f-1f05214f98db

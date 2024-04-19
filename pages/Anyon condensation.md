@@ -88,13 +88,13 @@
 				- The second line uses the fact that $R_c^{b a} R_c^{a b}=\frac{\theta_c}{\theta_a \theta_b}$.
 			-
 	- ## General Construction of Condensed Theories #card
-	  collapsed:: true
 	  card-last-interval:: 31.26
 	  card-repeats:: 1
 	  card-ease-factor:: 2.36
 	  card-next-schedule:: 2023-08-14T19:09:53.583Z
 	  card-last-reviewed:: 2023-07-14T13:09:53.583Z
 	  card-last-score:: 3
+	  id:: 660617a9-b378-403b-8ec8-7496ac6d2379
 		- [Boson Condensation in Topologically Ordered Quantum Liquids (arxiv.org)](https://arxiv.org/abs/1601.01320) #[[Research/To Be Investigated]]
 		-
 		- The central quantity is $M=n n^{T}$, where n is the rectangular matrix in splitting defined by $a \rightarrow \sum_{i=1}^{q_a} n_i^a[a]_i$, but only including the **deconfined** particles.

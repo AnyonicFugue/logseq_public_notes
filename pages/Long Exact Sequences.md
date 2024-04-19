@@ -388,13 +388,14 @@
 			- Now I see the difficulty of higher categories: With more and more consistency relations, the commutative diagrams become almost unreadable...
 			- However, to prove some commutativity of level $N$, we must go into the details of level $N-1$ (or even lower).
 	- Theorem (Exact Sequence of the Pair $(X, A)$). If $A$ is a subspace of $X$, there is an exact sequence
-	  collapsed:: true
 	  card-last-interval:: 31.2
 	  card-repeats:: 1
 	  card-ease-factor:: 2.6
 	  card-next-schedule:: 2023-10-29T04:49:33.264Z
 	  card-last-reviewed:: 2023-09-28T00:49:33.264Z
 	  card-last-score:: 5
+	  id:: 66061848-3771-4550-af50-514fae98f94a
+	  collapsed:: true
 	  $$
 	  \cdots \rightarrow H_n(A) \rightarrow H_n(X) \rightarrow H_n(X, A) \stackrel{d}{\rightarrow} H_{n-1}(A) \rightarrow \cdots .
 	  $$

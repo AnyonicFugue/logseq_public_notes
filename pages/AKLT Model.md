@@ -25,6 +25,7 @@
 			- The first projects out $n=0$ and the second projects out $n=2$.
 			- The coefficients grants $P^2=P$.
 		- Use $S_i^2=2$ (since it is a spin-1 chain), we obtain the desired result.
+	- The Hamiltonian has the spin-rotation invariance.
 	- The ground state has a structure of adjacent entangled singlet pairs.
 	  card-last-score:: 3
 	  card-repeats:: 2
@@ -34,6 +35,4 @@
 	  card-last-reviewed:: 2024-03-15T00:46:17.065Z
 	  collapsed:: true
 		- ((64e51741-d1fa-4a9f-8d9e-c99c745683ec))
-		- #card
-	- The Hamiltonian has the spin-rotation invariance.
-	-
+		-

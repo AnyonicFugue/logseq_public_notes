@@ -127,13 +127,15 @@
 			  (i) $\operatorname{rank} F=r$;
 			  (ii) $G / F$ is torsion.
 			- In plain English, the number of **free** generators.
-		- ((63d7642c-363d-44b6-970e-dd670e678218)). Let $G=G_1 * G_2$. Let $N_i$ be a normal subgroup of $G_i$, for $i=1,2$. If $N$ is the least normal subgroup of $G$ that contains $N_1$ and $N_2$, then $$G / N \cong\left(G_1 / N_1\right) *\left(G_2 / N_2\right)$$ #card
+		- ((63d7642c-363d-44b6-970e-dd670e678218)). Let $G=G_1 * G_2$. Let $N_i$ be a normal subgroup of $G_i$, for $i=1,2$. If $N$ is the least normal subgroup of $G$ that contains $N_1$ and $N_2$, then $$G / N \cong\left(G_1 / N_1\right) *\left(G_2 / N_2\right)$$
 		  card-last-interval:: 42
 		  card-repeats:: 2
 		  card-ease-factor:: 2.7
 		  card-next-schedule:: 2023-12-07T00:31:52.759Z
 		  card-last-reviewed:: 2023-10-26T00:31:52.760Z
 		  card-last-score:: 5
+		  id:: 660617a9-e942-41aa-9b3f-ad03326fc368
+		  collapsed:: true
 			- 'Least normal subgroup' means the intersection of all containing subgroups.
 			- Categorical way
 				- We still need to define the quotients categorically.

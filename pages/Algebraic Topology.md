@@ -122,7 +122,7 @@
 		  id:: 64b4848d-15fe-40ea-8212-6d960efc009c
 			- For a finite set of points $$p_0, p_1, \ldots, p_m$$, an affine combination is a single point
 			  collapsed:: true
-			  $$x=t_0 p_0+t_1 p_1+\cdots+t_m p_m$$
+			  $$x=t_0p_0+t_1p_1+\cdots+t_{m}p_{m}$$
 			  where $\sum_{i=0}^m t_i=1$.
 				- What does $\sum_{i=0}^m t_i=1$ mean?
 				  collapsed:: true

@@ -41,13 +41,6 @@ file-path:: zotero_link/Research/Quantum Information/2019_Howard_Principles of q
   hl-color:: purple
   hl-stamp:: 1668409476985
   id:: 6371e882-ad08-48df-88ac-75d509d76dd3
-- [:span]
-  ls-type:: annotation
-  hl-page:: 310
-  hl-color:: purple
-  hl-type:: area
-  hl-stamp:: 1668409915737
-  id:: 6371ea3c-0625-4214-81ab-33b4686111af
 - Thus, if we are only interested in the evolution of the density matrix ρ1, there is no lack of generality in assuming that subsystem 1 is not initially entangled with subsystem 2.
   ls-type:: annotation
   hl-page:: 310
@@ -319,3 +312,8 @@ file-path:: zotero_link/Research/Quantum Information/2019_Howard_Principles of q
   hl-type:: area
   hl-stamp:: 1669727709494
   id:: 638605de-c46e-4b9d-89ea-a69241304577
+- Theorem 7.1
+  ls-type:: annotation
+  hl-page:: 310
+  hl-color:: yellow
+  id:: 661b485a-21c0-46b8-a066-83a195a0a5a5

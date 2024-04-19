@@ -64,6 +64,7 @@ collapsed:: true
 	  card-next-schedule:: 2023-04-25T01:09:49.171Z
 	  card-last-reviewed:: 2023-04-01T01:09:49.171Z
 	  card-last-score:: 5
+	  id:: 66061889-8d4f-449c-9517-77c19cb5696a
 		- Discrete [[Fourier Transformation]]
 			- $\tilde{f}(k):=\frac{1}{\sqrt{N } } \sum_{j=0}^{N-1} e^{2 \pi i \frac{j k}{N}} f(j)$
 		- Quantum Fourier Transformation

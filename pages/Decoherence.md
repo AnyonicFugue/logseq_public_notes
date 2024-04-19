@@ -9,33 +9,6 @@ type:: [[Course]]
 - Def
 	- Interaction with the environment destroys the superposition.
 	- In short, when tracing out the environment, the superposition degenerates to a classical probability.
-- Kraus operator
-  id:: 63840eb6-970a-4787-ad25-13a3cc29ece5
-	- Def #card
-	  card-last-interval:: 252.3
-	  card-repeats:: 4
-	  card-ease-factor:: 2.9
-	  card-next-schedule:: 2024-01-07T07:55:26.428Z
-	  card-last-reviewed:: 2023-04-30T00:55:26.429Z
-	  card-last-score:: 5
-		- $E_k \equiv{ }_2\langle k|U| 0\rangle_2$
-			- U is some evolution of the **total** system.
-			- 0 is the initial state of the environment
-		- $\rho_1^{\prime}=\sum_k E_k \rho_1 E_k^{\dagger}$
-			- Essentially tracing out the environment.
-			- For a pure state $|\psi\rang$, the final state is a classical mix of $E_k|\psi\rang$
-			- The map $$S:\rho_1 \mapsto \rho_1'$$ is called ((6371e68c-e4f9-4b7b-870e-5a144d39cb75))
-			- The map always maps a [[Density operator]] to another one. #Exercise
-		- $\sum_k E_k^{\dagger} E_k=\sum_k{ }_2\left\langle 0\left|U^{\dagger}\right| k\right\rangle_2{ }_2\langle k|U| 0\rangle_2={ }_2\left\langle 0\left|U^{\dagger} U\right| 0\right\rangle_2=I_1$
-	- Equivalence of 2 sets of Kraus operators #card
-	  card-last-interval:: 329.28
-	  card-repeats:: 4
-	  card-ease-factor:: 2.8
-	  card-next-schedule:: 2024-07-16T19:00:42.729Z
-	  card-last-reviewed:: 2023-08-22T13:00:42.730Z
-	  card-last-score:: 5
-		- Two superoperators $\mathbb{S}\left(\rho_1\right)=\sum_k E_k \rho_1 E_k^{\dagger}$ and $\mathbb{S}^{\prime}\left(\rho_1\right)=\sum_k F_k \rho_1 F_k^{\dagger}$ are equivalent if and only if there exists a **unitary** matrix $W$ such that $F_i=\sum_j W_{i j} E_j$.
-			- Essentially, W is the basis transformation between two bases of the environment.
 - Unitary representation
   collapsed:: true
 	- The Kraus operator describes the evolution of a part of the total system. Conversely, every Kraus operator can be realized by some auxiliary system.
@@ -62,7 +35,7 @@ type:: [[Course]]
 	  card-next-schedule:: 2024-08-14T04:39:51.583Z
 	  card-last-reviewed:: 2023-10-22T00:39:51.583Z
 	  card-last-score:: 3
-		- ((6371ea3c-0625-4214-81ab-33b4686111af))
+		- [:span]
 			- [[Completely Positive]] means $\mathbb{S} \otimes \mathbb{I}_E$ is positive for arbitrary E, which is stronger than positive.
 			- ((6371ecae-1cc5-4b1d-b7e1-96e4620bd9eb))
 				- This means that we can trace out the environment, write down the superoperator of the first system, then happily invoke the fundamental theorem.
@@ -132,6 +105,7 @@ type:: [[Course]]
 		  card-next-schedule:: 2024-07-29T17:43:48.356Z
 		  card-last-reviewed:: 2023-08-11T12:43:48.357Z
 		  card-last-score:: 5
+		  id:: 660617d5-a594-4c50-88fe-09f423965cdd
 			- Controlled-X with the environment bit being $\alpha |1\rang+\beta |0\rangle$
 			- Flip z direction with probability $$|\alpha|^2$$
 		- Phase-flip #card

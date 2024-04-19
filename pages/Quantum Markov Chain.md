@@ -13,6 +13,12 @@ alias:: Quantum Markov State
 - # Properties
 	- Petz Recovery #card
 	  id:: 659f5206-6b2d-4b8a-a381-8d16e20644f7
+	  card-last-interval:: 31.26
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2024-05-17T07:07:58.443Z
+	  card-last-reviewed:: 2024-04-16T01:07:58.443Z
+	  card-last-score:: 5
 	  collapsed:: true
 		- Put plainly, if $I(A: C \mid B)_\rho=0$, then $\rho_{AB}$ and $\rho_{BC}$ fix $\rho_{ABC}$.
 		- Comments
@@ -20,8 +26,11 @@ alias:: Quantum Markov State
 			  background-color:: red
 			- [[2020_Shi_Kato_Kim_Fusion rules from entanglement]] used the property extensively to prove merging. Can we find more elegant structures?
 		-
-		- Lemma. Let $\rho_{A B C}$ and $\sigma_{A B C}$ be density matrices such that (1) $\rho_{A B}=\sigma_{A B}$ and $\rho_{B C}=\sigma_{B C}$;
-		  (2) $I(A: C \mid B)_\rho=I(A: C \mid B)_\sigma=0$. Then $\rho_{A B C}=\sigma_{A B C}$.
+		- Lemma. Let $\rho_{A B C}$ and $\sigma_{A B C}$ be density matrices such that 
+		  (1) $\rho_{A B}=\sigma_{A B}$ and $\rho_{B C}=\sigma_{B C}$
+		  (2) $I(A: C \mid B)_\rho=I(A: C \mid B)_\sigma=0$
+		  Then $\rho_{A B C}=\sigma_{A B C}$.
+			- The existence is not guaranteed, but the uniqueness is established.
 		- Lemma. (Petz recovery map) For any tripartite state $\rho_{A B C}, I(A: C \mid B)_\rho=0$ if and only if
 		  $$
 		  \rho_{A B C}=\mathcal{E}_{B \rightarrow B C}^\rho\left(\rho_{A B}\right),

@@ -80,10 +80,12 @@ collapsed:: true
 			- ![2011_Etingof_Introduction to representation theory.pdf](file://zotero_link/Mathematics/Representation Theory/2011_Etingof_Introduction to representation theory.pdf)
 		- The Langlands Program
 	- ## Interesting things to explore
+		- *Lectures on Surfaces (Almost) Everything You Want to Know about Them*
 		- Differential Topology 两本受到盛赞的神书
 			- Milnor
 			- Differential forms in algebraic topology
 		- Real and Complex Analysis
+			- Tao's real analysis
 			- Riemann surfaces are always interesting.
 		- Lie Groups and Lie Algebras
 			- Perhaps useful in CFT?
@@ -162,7 +164,6 @@ collapsed:: true
 	- 数学家思想文库 第二辑
 		- Klein, Weyl, Kolmogorov
 - # Exploration
-  collapsed:: true
 	- ## Mathematical Physics
 		- ((64b4848d-78cb-4c30-a024-8ff5a8fd2be1))
 		- Atiyah's work on ((64b730c5-1383-44f1-b696-017ae4193dec))

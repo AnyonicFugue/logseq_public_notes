@@ -406,13 +406,14 @@ alias:: [[Category Theory]]
 	- ## Higher Algebras
 	  collapsed:: true
 		- How does the requirements of $E_0,E_1,E_2,E_3$ corresponds to physical intuitions? #card
-		  collapsed:: true
 		  card-last-interval:: 42
 		  card-repeats:: 2
 		  card-ease-factor:: 2.7
 		  card-next-schedule:: 2024-02-15T00:53:20.659Z
 		  card-last-reviewed:: 2024-01-04T00:53:20.659Z
 		  card-last-score:: 5
+		  id:: 660617c1-02c5-4c41-96e8-681148ad5e53
+		  collapsed:: true
 			- $E_0$: {{cloze 0D, not any special structures}}
 			- $E_1$: {{cloze anyons can fuse}}
 			- $E_2$: {{cloze things have an extra dimension to braid}}

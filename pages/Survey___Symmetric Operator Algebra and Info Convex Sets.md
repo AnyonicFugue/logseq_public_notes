@@ -64,7 +64,63 @@ collapsed:: true
 	- Info convex sets should be easily defined for fermionic systems.
 	- However, I expect that the results to be slightly different to the bosonic case because of fermion parity.
 - # Nontrivial symmetry
-	- I expect that when we consider $O(A,G)$ instead of $O(A)$, the effect is gauging the symmetry and information convex sets might become nontrivial.
+	- collapsed:: true
+	  #+BEGIN_WARNING
+	  The naive way to construct symmetric information convex set does not correspond to gauging; it even fails for the nontrivial $Z_2$ SPT, where every local RDM is a pure product state.
+	  #+END_WARNING
+		- I expect that when we consider $O(A,G)$ instead of $O(A)$, the effect is gauging the symmetry and information convex sets might become nontrivial.
+		- ## Example: Trivial $Z_2$ SPT
+			- Consider the Hamiltonian for the trivial $Z_2$ SPT
+			  $$H_0 = - \sum_p \sigma^z_p$$
+				- The symmetry group is $G=\{1,g\} \cong Z_2$, with $g=\prod_p \sigma^z_p$.
+				- Obviously the ground state $|\psi\rangle$ is a product state.
+			- ### TODOs
+				- Definition. Pre-information convex set $\tilde \Sigma(\Omega)$ on a region $\Omega$
+					- The ground state $|\psi\rangle$ is a map $O(\Omega) \to \mathbb C$, which is also a map $|\psi\rangle \langle\psi|: O(\Omega,G) \to \mathbb C$.
+					- On each disk $b$ included in $\Omega$, we have a map ('symmetric' reduced density matrix) $|\psi\rangle \langle\psi|: O(b,G) \to \mathbb C$.
+					- $\tilde \Sigma(\Omega)$ is the set of all states $\rho: O(\Omega) \to \mathbb C$ **locally indistinguishable** from $\psi$, which means $\rho$ gives rise to the same map $O(b,G) \to \mathbb C$ as $|\psi\rangle \langle\psi|$ on every disk $b$ contained in $\Omega$.
+					- ![image.png](../assets/image_1712627604943_0.png){:height 354, :width 356}
+				- Step 1. Consider a disk-like region $A \cong D^2$. Calculate symmetric operator algebra $O(A,G)$
+				- Step 2. Indistinguishable states on a disk
+					- The ground state $|\psi\rangle$ is a map $O(A) \to \mathbb C$, which is also a map $|\psi\rangle \langle\psi|: O(A,G) \to \mathbb C$.
+					- We want to know all such state $\rho: O(A) \to \mathbb C$, such that it gives rise to the same map $O(A,G) \to \mathbb C$ as $|\psi\rangle \langle\psi|$.
+						- I'm not sure whether we should calculate **all** such $\rho$ or only **symmetric** $\rho$, i.e. those satisfying
+						  background-color:: red
+						  $$g \rho g^{-1} = \rho$$
+				- Step 3. Locally indistinguishable states on an annulus $B$
+					- We'd like to calculate $\tilde \Sigma(B)$.
+					- Rephrase by the definition
+						- The ground state $|\psi\rangle$ is a map $O(B) \to \mathbb C$, which is also a map $|\psi\rangle \langle\psi|: O(B,G) \to \mathbb C$.
+						- On each disk $b$ included in the annulus $B$, we have a map ('symmetric' reduced density matrix) $|\psi\rangle \langle\psi|: O(b,G) \to \mathbb C$.
+						- We want to know all such state $\rho: O(B) \to \mathbb C$, such that it gives rise to the same map $O(b,G) \to \mathbb C$ as $|\psi\rangle \langle\psi|$ on every disk $b$ contained in $B$.
+							- I'm not sure whether we should calculate **all** such $\rho$ or only **symmetric** $\rho$, i.e. those satisfying
+							  background-color:: red
+							  $$g \rho g^{-1} = \rho$$
+					- Argument: The set is one-element.
+					  background-color:: red
+						- From definition
+							- On each disk, the symmetric operators fix the state to be a pure product state.
+								- Each $\sigma_p^z$ is a symmetric operator. Also, we know that the expectation value of each $\sigma_z^p$ is 1.
+							- Therefore, the merged state is also a pure product state.
+						- It seems that as long as we can obtain a pure state on the disk, the merged ICS must be trivial.
+						  background-color:: yellow
+					- What if we somehow remove the symmetry generators from the algebra?
+						- $\sigma^x$ and $\sigma^y$ must pop up in pairs, which is similar to the statement that anyons must appear in pairs.
+						- However, is there a natural way to do so? Prohibit the 1-site elements?
+						-
+				- Step 4. Trace out the thin layer of boundary of $B$
+					- Definition. Information convex set $\Sigma(\Omega)$ on a region $\Omega$
+						- Denote a thickening of $\Omega$ as $\Omega'$, which means $\Omega'$ is 'growing' $\Omega$ out for a thin layer, without changing the topology.
+							- ![image.png](../assets/image_1712627871646_0.png){:height 286, :width 259}
+						- $$\Sigma(\Omega):= \{\operatorname{Tr}_{\Omega'-\Omega} \rho \ \bigg|  \  \rho \in \tilde \Sigma(\Omega')\}$$
+					- We want to know $\Sigma(B)$, which traces out boundary ambiguities.
+						-
+					-
+			- #+BEGIN_TIP
+			  For the ground state of toric code (with $G$ replaced by the trivial group), step 4 would reveal a simplex structure of $\Sigma(B)$, with each extreme point corresponding to an anyon type.
+			  #+END_TIP
+				-
+			-
 	- ## Group representation's perspective
 		- Consider the space $S \equiv V \otimes V^*$, which could be identified with the space of all linear operators.
 			- Note that the set of density matrices is a subset (not a linear subspace) of $V \otimes V^*$.
@@ -81,65 +137,9 @@ collapsed:: true
 		- Proposition. Expectation values of symmetric operators fix a symmetric (mixed) state.
 			- The whole Hilbert space is a direct sum of reps.
 			- Since expectation values of general operators fix a general (mixed) state, restricting to a subspace doesn't make a difference.
-	- Would the info convex set still be trivial even if we imposed the symmetry?
-	  background-color:: red
-		- Intuitively, there is a natural embedding $S_G \hookrightarrow S$.
-		- However, the embedding forgets the symmetry structure!
 	- ## Clues from Gauging
 		- $Z_2$ is too special. I should investigate $Z_n$ for more general insights.
 			- [[2012_Hung_Wan_String-Net Models with $Z_N$ Fusion Algebra]]
 		- Ref. [[Levin-Gu Model]]
 		- The notion of on-site symmetry (factorization of symmetry action) is important.
 		- We should naturally restore some zero-flux condition.
-	- ## Example: Trivial $Z_2$ SPT
-		- Consider the Hamiltonian for the trivial $Z_2$ SPT
-		  $$H_0 = - \sum_p \sigma^z_p$$
-			- The symmetry group is $G=\{1,g\} \cong Z_2$, with $g=\prod_p \sigma^z_p$.
-			- Obviously the ground state $|\psi\rangle$ is a product state.
-		- ### TODOs
-			- Definition. Pre-information convex set $\tilde \Sigma(\Omega)$ on a region $\Omega$
-				- The ground state $|\psi\rangle$ is a map $O(\Omega) \to \mathbb C$, which is also a map $|\psi\rangle \langle\psi|: O(\Omega,G) \to \mathbb C$.
-				- On each disk $b$ included in $\Omega$, we have a map ('symmetric' reduced density matrix) $|\psi\rangle \langle\psi|: O(b,G) \to \mathbb C$.
-				- $\tilde \Sigma(\Omega)$ is the set of all states $\rho: O(\Omega) \to \mathbb C$ **locally indistinguishable** from $\psi$, which means $\rho$ gives rise to the same map $O(b,G) \to \mathbb C$ as $|\psi\rangle \langle\psi|$ on every disk $b$ contained in $\Omega$.
-				- ![image.png](../assets/image_1712627604943_0.png){:height 354, :width 356}
-			- Step 1. Consider a disk-like region $A \cong D^2$. Calculate symmetric operator algebra $O(A,G)$
-			- Step 2. Indistinguishable states on a disk
-				- The ground state $|\psi\rangle$ is a map $O(A) \to \mathbb C$, which is also a map $|\psi\rangle \langle\psi|: O(A,G) \to \mathbb C$.
-				- We want to know all such state $\rho: O(A) \to \mathbb C$, such that it gives rise to the same map $O(A,G) \to \mathbb C$ as $|\psi\rangle \langle\psi|$.
-					- I'm not sure whether we should calculate **all** such $\rho$ or only **symmetric** $\rho$, i.e. those satisfying
-					  background-color:: red
-					  $$g \rho g^{-1} = \rho$$
-			- Step 3. Locally indistinguishable states on an annulus $B$
-				- We'd like to calculate $\tilde \Sigma(B)$.
-				- Rephrase by the definition
-					- The ground state $|\psi\rangle$ is a map $O(B) \to \mathbb C$, which is also a map $|\psi\rangle \langle\psi|: O(B,G) \to \mathbb C$.
-					- On each disk $b$ included in the annulus $B$, we have a map ('symmetric' reduced density matrix) $|\psi\rangle \langle\psi|: O(b,G) \to \mathbb C$.
-					- We want to know all such state $\rho: O(B) \to \mathbb C$, such that it gives rise to the same map $O(b,G) \to \mathbb C$ as $|\psi\rangle \langle\psi|$ on every disk $b$ contained in $B$.
-						- I'm not sure whether we should calculate **all** such $\rho$ or only **symmetric** $\rho$, i.e. those satisfying
-						  background-color:: red
-						  $$g \rho g^{-1} = \rho$$
-				- Argument: The set is one-element.
-				  background-color:: red
-					- From definition
-						- On each disk, the symmetric operators fix the state to be a pure product state.
-							- Each $\sigma_p^z$ is a symmetric operator. Also, we know that the expectation value of each $\sigma_z^p$ is 1.
-						- Therefore, the merged state is also a pure product state.
-					- It seems that as long as we can obtain a pure state on the disk, the merged ICS must be trivial.
-					  background-color:: yellow
-				- What if we somehow remove the symmetry generators from the algebra?
-					- $\sigma^x$ and $\sigma^y$ must pop up in pairs, which is similar to the statement that anyons must appear in pairs.
-					- However, is there a natural way to do so? Prohibit the 1-site elements?
-					-
-			- Step 4. Trace out the thin layer of boundary of $B$
-				- Definition. Information convex set $\Sigma(\Omega)$ on a region $\Omega$
-					- Denote a thickening of $\Omega$ as $\Omega'$, which means $\Omega'$ is 'growing' $\Omega$ out for a thin layer, without changing the topology.
-						- ![image.png](../assets/image_1712627871646_0.png){:height 286, :width 259}
-					- $$\Sigma(\Omega):= \{\operatorname{Tr}_{\Omega'-\Omega} \rho \ \bigg|  \  \rho \in \tilde \Sigma(\Omega')\}$$
-				- We want to know $\Sigma(B)$, which traces out boundary ambiguities.
-					-
-				-
-		- #+BEGIN_TIP
-		  For the ground state of toric code (with $G$ replaced by the trivial group), step 4 would reveal a simplex structure of $\Sigma(B)$, with each extreme point corresponding to an anyon type.
-		  #+END_TIP
-			-
-		-

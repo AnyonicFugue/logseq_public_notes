@@ -1,0 +1,25 @@
+- ![2024_Kapustin_Sopenko_Anomalous symmetries of quantum spin chains and a.pdf](file://zotero_link/Physics/Topological Phases/Anomaly/2024_Kapustin_Sopenko_Anomalous symmetries of quantum spin chains and a.pdf)
+-
+- # Setup
+	- Notations
+		- On-site Hilbert space and operators
+		  collapsed:: true
+			- $V$ is a complex Hilbert space
+			- $B(V)$ is the normed $*$-algebra of bounded operators on $V$
+			- $U(V)$ is the unitary group of $V$
+		- Lattice and local operators
+			- Let $\Lambda$ be a countable set, which is the index set of lattice sites.
+			- For a finite-dimensional complex Hilbert space $V$ and a finite subset $\Gamma \subset \Lambda$, we define $\mathscr{A}_{\Gamma}:=\bigotimes_{j \in \Gamma} B(V)$.
+			- The groups of unitary elements in $\mathscr{A}^l$ and $\mathscr{A}^{q l}$ will be denoted $\mathscr{U}^l$ and $\mathscr{U}^{q l}$, respectively.
+	- Definitions
+		- The algebra of local observables $\mathscr{A}^l$
+			- The algebra of local observables of a quantum spin system with an on-site Hilbert space $V$ is the colimit of normed $*$-algebras 
+			  $$\mathscr{A}^l:=\lim_{\longrightarrow \Gamma} \mathscr{A}_{\Gamma}$$
+				- $\mathscr{A}_{\Gamma}$ is the algebra over finite subsets $\Gamma$
+				- The colimit is takenwith respect to the canonical embeddings $\mathscr{A}_{\Gamma} \rightarrow \mathscr{A}_{\Gamma^{\prime}}$ for $\Gamma \subset \Gamma^{\prime}$.
+			- If $\mathcal{A} \in \mathscr{A}^l$ belongs to $\mathscr{A}_{\Gamma}$, we say that $\mathcal{A}$ is **strictly localized** or **supported** on $\Gamma$.
+		- The $C^*$-algebra of quasi-local observables $\mathscr{A}^{q l}$
+			- The completion of the algebra $\mathscr{A}^l$ with respect to the operator norm.
+			- Note that $\mathscr{A}^{q l}$ belongs to the class of Uniformly Hyperfinite (UHF) $C^*$-algebras. It depends on the on-site Hilbert space $V$.
+		-
+		-

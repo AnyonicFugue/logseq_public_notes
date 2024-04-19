@@ -26,7 +26,6 @@
 		-
 	-
 - # Setup
-  collapsed:: true
 	- First, we coarse-grain the system to group lots of microscopic DOF into 'supersites'.
 	  collapsed:: true
 		- ((6590d474-b56c-420d-8396-6cdc97795ee8))
@@ -82,7 +81,7 @@
 			  $$
 			  I(A: C)_\sigma \equiv\left(S_A+S_C-S_{A C}\right)_\sigma=0
 			  $$
-			  from ((6590e387-581c-499d-8987-207a3fd0042d)).
+			  from [[Strong Subadditivity]]
 				- $A$ is contained in the complement of $B C$ and $I(A: C)$ is the mutual information
 				- Ref. [Saturation of Araki-Lieb inequality](((65bf06ea-128e-4b76-8ea9-fc14687d28fa)))
 		- ((65893d02-16ab-46c9-b8df-4a6ca6d79925))
