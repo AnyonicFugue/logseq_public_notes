@@ -1,3 +1,0 @@
-- [[Research/How to Read]]
-- [[How to Give Talks]]
--
